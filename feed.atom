@@ -1,10 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-07T03:59:19.473Z</id>
+    <id>urn:2022-11-10T00:57:00.594Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-07T03:59:19.473Z</updated>
+    <updated>2022-11-10T00:57:00.594Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[[Math] Boolean algebra for noobs: easy exercise]]></title>
+        <id>https://yurichev.org/bool/</id>
+        <link href="https://yurichev.org/bool/"/>
+        <updated>2022-11-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Math] Boolean algebra for noobs: easy exercise]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn reverse engineering: but where to start?]]></title>
+        <id>https://yurichev.org/RE_start/</id>
+        <link href="https://yurichev.org/RE_start/"/>
+        <updated>2022-11-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn reverse engineering: but where to start?]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CPU vs (GP)GPU: the difference]]></title>
+        <id>https://yurichev.org/GPU/</id>
+        <link href="https://yurichev.org/GPU/"/>
+        <updated>2022-11-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CPU vs (GP)GPU: the difference]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Becoming fasterthanlime full-time]]></title>
+        <id>https://fasterthanli.me/articles/becoming-fasterthanlime-full-time</id>
+        <link href="https://fasterthanli.me/articles/becoming-fasterthanlime-full-time"/>
+        <updated>2022-11-04T06:40:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>As of today, I am no longer employed by <a href="https://fly.io">fly.io</a>.</p>
+<p>We're both very sad, and we've promised to stay friends and send postcards to
+each other over winter break. (I'm excited, too —
+<a href="https://dribbble.com/shots/15304391-Home-for-Fly-io">Annie</a> makes great
+postcards)</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VPN from Windows to Linux: WireGuard working example]]></title>
+        <id>https://yurichev.org/wireguard/</id>
+        <link href="https://yurichev.org/wireguard/"/>
+        <updated>2022-10-22T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[VPN from Windows to Linux: WireGuard working example]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Logic] Formal fallacy for programmers]]></title>
+        <id>https://yurichev.org/imply/</id>
+        <link href="https://yurichev.org/imply/"/>
+        <updated>2022-10-22T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Logic] Formal fallacy for programmers]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Math][Python] Mixed radix, part II]]></title>
+        <id>https://yurichev.org/mixed_radix2/</id>
+        <link href="https://yurichev.org/mixed_radix2/"/>
+        <updated>2022-10-22T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Math][Python] Mixed radix, part II]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wget patch: limit-size]]></title>
+        <id>https://yurichev.org/wget/</id>
+        <link href="https://yurichev.org/wget/"/>
+        <updated>2022-10-22T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wget patch: limit-size]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The HTTP crash course nobody asked for]]></title>
+        <id>https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for</id>
+        <link href="https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for"/>
+        <updated>2022-10-20T20:15:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>HTTP does a pretty good job staying out of everyone's way.</p>
+<p>If you're reading this article, there's a solid chance it was delivered to you
+over HTTP. Even if you're reading this from an RSS reader or something. And
+you didn't even have to think about it!</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How does the detour crate work?]]></title>
+        <id>https://fasterthanli.me/videos/how-does-the-detour-crate-work</id>
+        <link href="https://fasterthanli.me/videos/how-does-the-detour-crate-work"/>
+        <updated>2022-10-19T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>
+<p>00:00 Where were we<br />
+02:08 Disassembling for fun and profit<br />
+05:47 Double buffering, for some reason<br />
+07:25 Why detouring isn't trivial<br />
+08:56 Control flow in assembly<br />
+10:04 Registers and the AMD64 ABI<br />
+11:18 Functions and how to call them<br />
+13:14 The JMP instruction<br />
+14:01 Simple obfuscation techniques<br />
+15:13 How it all works<br />
+17:53 Homework assignment<br />
+18:12 Outtakes  </p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Math][Python] Cartesian product by example]]></title>
+        <id>https://yurichev.org/cartesian/</id>
+        <link href="https://yurichev.org/cartesian/"/>
+        <updated>2022-10-14T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Math][Python] Cartesian product by example]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I solved the Dandelions paper-and-pencil game]]></title>
         <id>https://nullprogram.com/blog/2022/10/12/</id>

@@ -22,6 +22,130 @@
       "feedUrl": "https://thenumb.at/feed.xml",
       "siteUrl": "https://thenumbat.github.io/",
       "articles": []
+    },
+    {
+      "title": "Dennis Yurichev's blog",
+      "feedUrl": "https://yurichev.com/blog/rss.xml",
+      "siteUrl": "https://yurichev.org/",
+      "articles": [
+        {
+          "id": "https://yurichev.org/bool/",
+          "author": null,
+          "description": "[Math] Boolean algebra for noobs: easy exercise",
+          "link": "https://yurichev.org/bool/",
+          "publishedOn": "2022-11-09T00:00:00.000Z",
+          "wordCount": 324,
+          "title": "[Math] Boolean algebra for noobs: easy exercise",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/RE_start/",
+          "author": null,
+          "description": "Learn reverse engineering: but where to start?",
+          "link": "https://yurichev.org/RE_start/",
+          "publishedOn": "2022-11-09T00:00:00.000Z",
+          "wordCount": 407,
+          "title": "Learn reverse engineering: but where to start?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/GPU/",
+          "author": null,
+          "description": "CPU vs (GP)GPU: the difference",
+          "link": "https://yurichev.org/GPU/",
+          "publishedOn": "2022-11-07T00:00:00.000Z",
+          "wordCount": 719,
+          "title": "CPU vs (GP)GPU: the difference",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/wireguard/",
+          "author": null,
+          "description": "VPN from Windows to Linux: WireGuard working example",
+          "link": "https://yurichev.org/wireguard/",
+          "publishedOn": "2022-10-22T23:00:00.000Z",
+          "wordCount": 381,
+          "title": "VPN from Windows to Linux: WireGuard working example",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/imply/",
+          "author": null,
+          "description": "[Logic] Formal fallacy for programmers",
+          "link": "https://yurichev.org/imply/",
+          "publishedOn": "2022-10-22T23:00:00.000Z",
+          "wordCount": 340,
+          "title": "[Logic] Formal fallacy for programmers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/mixed_radix2/",
+          "author": null,
+          "description": "[Math][Python] Mixed radix, part II",
+          "link": "https://yurichev.org/mixed_radix2/",
+          "publishedOn": "2022-10-22T23:00:00.000Z",
+          "wordCount": 205,
+          "title": "[Math][Python] Mixed radix, part II",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/wget/",
+          "author": null,
+          "description": "Wget patch: limit-size",
+          "link": "https://yurichev.org/wget/",
+          "publishedOn": "2022-10-22T23:00:00.000Z",
+          "wordCount": 153,
+          "title": "Wget patch: limit-size",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/cartesian/",
+          "author": null,
+          "description": "[Math][Python] Cartesian product by example",
+          "link": "https://yurichev.org/cartesian/",
+          "publishedOn": "2022-10-14T23:00:00.000Z",
+          "wordCount": 1101,
+          "title": "[Math][Python] Cartesian product by example",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "fasterthanli.me",
+      "feedUrl": "https://fasterthanli.me/index.xml",
+      "siteUrl": "https://fasterthanli.me",
+      "articles": [
+        {
+          "id": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
+          "author": null,
+          "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
+          "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
+          "publishedOn": "2022-11-04T06:40:00.000Z",
+          "wordCount": 2253,
+          "title": "Becoming fasterthanlime full-time",
+          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+        },
+        {
+          "id": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
+          "author": null,
+          "description": "<p>HTTP does a pretty good job staying out of everyone's way.</p>\n<p>If you're reading this article, there's a solid chance it was delivered to you\nover HTTP. Even if you're reading this from an RSS reader or something. And\nyou didn't even have to think about it!</p>",
+          "link": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
+          "publishedOn": "2022-10-20T20:15:00.000Z",
+          "wordCount": 18060,
+          "title": "The HTTP crash course nobody asked for",
+          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+        },
+        {
+          "id": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
+          "author": null,
+          "description": "<p>We want to hook a function, so that our code gets called... but we also want the original code to execute. How the heck does that work?</p>\n<p>00:00 Where were we<br />\n02:08 Disassembling for fun and profit<br />\n05:47 Double buffering, for some reason<br />\n07:25 Why detouring isn't trivial<br />\n08:56 Control flow in assembly<br />\n10:04 Registers and the AMD64 ABI<br />\n11:18 Functions and how to call them<br />\n13:14 The JMP instruction<br />\n14:01 Simple obfuscation techniques<br />\n15:13 How it all works<br />\n17:53 Homework assignment<br />\n18:12 Outtakes  </p>",
+          "link": "https://fasterthanli.me/videos/how-does-the-detour-crate-work",
+          "publishedOn": "2022-10-19T17:00:00.000Z",
+          "wordCount": 1005,
+          "title": "How does the detour crate work?",
+          "imageUrl": "https://tube.fasterthanli.me/covers/how-the-detour-crate-works/cover.jpg"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
