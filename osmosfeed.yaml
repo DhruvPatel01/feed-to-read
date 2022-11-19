@@ -12,3 +12,6 @@ sources:
   
   # Tech Blogs from Industry
   - href: https://netflixtechblog.com/feed
+  
+  # Programming Languages
+  - href: https://nim-lang.org/feed.xml
