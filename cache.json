@@ -17,7 +17,7 @@
           "description": "New York, NY, 2022",
           "link": "https://thenumbat.github.io/NYC-I/",
           "publishedOn": "2022-11-16T00:00:00.000Z",
-          "wordCount": 67,
+          "wordCount": 80,
           "title": "NYC",
           "imageUrl": null
         }
@@ -29,12 +29,32 @@
       "siteUrl": "https://yurichev.org/",
       "articles": [
         {
+          "id": "https://yurichev.org/clang/",
+          "author": null,
+          "description": "[Pure C] Clang is better than GCC",
+          "link": "https://yurichev.org/clang/",
+          "publishedOn": "2022-11-26T00:00:00.000Z",
+          "wordCount": 442,
+          "title": "[Pure C] Clang is better than GCC",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/wordcloud/",
+          "author": null,
+          "description": "[Python] Wordclouds for your book library",
+          "link": "https://yurichev.org/wordcloud/",
+          "publishedOn": "2022-11-20T00:00:00.000Z",
+          "wordCount": 258,
+          "title": "[Python] Wordclouds for your book library",
+          "imageUrl": null
+        },
+        {
           "id": "https://yurichev.org/dwm/",
           "author": null,
           "description": "[Unix] Logging your work using suckless dwm",
           "link": "https://yurichev.org/dwm/",
           "publishedOn": "2022-11-14T00:00:00.000Z",
-          "wordCount": 983,
+          "wordCount": 993,
           "title": "[Unix] Logging your work using suckless dwm",
           "imageUrl": null
         },
@@ -87,46 +107,6 @@
           "wordCount": 724,
           "title": "CPU vs (GP)GPU: the difference",
           "imageUrl": null
-        },
-        {
-          "id": "https://yurichev.org/wireguard/",
-          "author": null,
-          "description": "VPN from Windows to Linux: WireGuard working example",
-          "link": "https://yurichev.org/wireguard/",
-          "publishedOn": "2022-10-22T23:00:00.000Z",
-          "wordCount": 381,
-          "title": "VPN from Windows to Linux: WireGuard working example",
-          "imageUrl": null
-        },
-        {
-          "id": "https://yurichev.org/imply/",
-          "author": null,
-          "description": "[Logic] Formal fallacy for programmers",
-          "link": "https://yurichev.org/imply/",
-          "publishedOn": "2022-10-22T23:00:00.000Z",
-          "wordCount": 340,
-          "title": "[Logic] Formal fallacy for programmers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://yurichev.org/mixed_radix2/",
-          "author": null,
-          "description": "[Math][Python] Mixed radix, part II",
-          "link": "https://yurichev.org/mixed_radix2/",
-          "publishedOn": "2022-10-22T23:00:00.000Z",
-          "wordCount": 205,
-          "title": "[Math][Python] Mixed radix, part II",
-          "imageUrl": null
-        },
-        {
-          "id": "https://yurichev.org/wget/",
-          "author": null,
-          "description": "Wget patch: limit-size",
-          "link": "https://yurichev.org/wget/",
-          "publishedOn": "2022-10-22T23:00:00.000Z",
-          "wordCount": 153,
-          "title": "Wget patch: limit-size",
-          "imageUrl": null
         }
       ]
     },
@@ -141,9 +121,9 @@
           "description": "<p>This series has to end <em>somewhere</em>, so let's end it here!</p>\n<p>However, here is a list of some things I'd like to come back to:</p>\n\n                        <h2>\n                            <a id=\"bundling-typescript\" class=\"anchor\" href=\"#bundling-typescript\">\n                                Bundling & TypeScript\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-8",
           "publishedOn": "2022-11-15T19:30:08.000Z",
-          "wordCount": 1435,
+          "wordCount": 1431,
           "title": "Cut for time",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7",
@@ -151,9 +131,9 @@
           "description": "<h2>\n                            <a id=\"async-trait-s-one-weird-type-ascription-trick\" class=\"anchor\" href=\"#async-trait-s-one-weird-type-ascription-trick\">\n                                <code>async_trait</code>'s one weird type ascription trick\n                            </a>\n                        </h2>\n                        \n<p>Now that I got <a href=\"part-6\">the Log in with GitHub feature</a> working, let's explore\nwhat this would've looked like with the <code>async_trait</code> crate.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-7",
           "publishedOn": "2022-11-15T19:30:07.000Z",
-          "wordCount": 3331,
+          "wordCount": 3332,
           "title": "Async fn in trait, for real this time",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-6",
@@ -163,7 +143,7 @@
           "publishedOn": "2022-11-15T19:30:06.000Z",
           "wordCount": 1108,
           "title": "Implementing \"Log in with GitHub\"",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
@@ -171,9 +151,9 @@
           "description": "<p>Now that my website is <a href=\"part-4\">deployed as a container image</a>, I wanted to give \n<a href=\"https://nixos.org/\">nix</a> a try. I'm still doing it the old-fashioned way right\nnow: with a <code>Dockerfile</code>, running <code>cargo</code> in a &quot;builder&quot; image, copying stuff\nout of there into a slimmer image (that still has an Ubuntu base, even though\n<a href=\"https://github.com/GoogleContainerTools/distroless\">distroless images</a> are a\nthing now).</p>\n\n                        <h2>\n                            <a id=\"but-why\" class=\"anchor\" href=\"#but-why\">\n                                But why?\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-5",
           "publishedOn": "2022-11-15T19:30:05.000Z",
-          "wordCount": 1552,
+          "wordCount": 1554,
           "title": "Trying to use nix",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4",
@@ -181,9 +161,9 @@
           "description": "<div class=\"disclosure\">\n\t<strong>Disclosure</strong>: \nAlthough I no longer work for the company my website is hosted on, and this\narticle is written in way that mentions neither my previous or current hosting\nprovider: at the time of this writing, I don't pay for hosting.\n</div>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-4",
           "publishedOn": "2022-11-15T19:30:04.000Z",
-          "wordCount": 2313,
+          "wordCount": 2309,
           "title": "Deploying at the edge",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
@@ -191,9 +171,9 @@
           "description": "<h2>\n                            <a id=\"async-fn-in-trait-not\" class=\"anchor\" href=\"#async-fn-in-trait-not\">\n                                Async fn in trait... not\n                            </a>\n                        </h2>\n                        \n<p>I was planning on showing the in-progress <code>async_fn_in_trait</code> feature in the\ncontext of my website, but it turns out, I can't!</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-3",
           "publishedOn": "2022-11-15T19:30:03.000Z",
-          "wordCount": 1703,
+          "wordCount": 1699,
           "title": "Async fn in trait... not",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2",
@@ -201,9 +181,9 @@
           "description": "<h2>\n                            <a id=\"falling-out-of-love-with-warp\" class=\"anchor\" href=\"#falling-out-of-love-with-warp\">\n                                Falling out of love with <code>warp</code>\n                            </a>\n                        </h2>\n                        \n<p>Back when I wrote this codebase, <a href=\"https://lib.rs/crates/warp\">warp</a> was the best\n/ only alternative for something relatively high-level on top of\n<a href=\"https://lib.rs/crates/hyper\">hyper</a>.</p>",
           "link": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2",
           "publishedOn": "2022-11-15T19:30:02.000Z",
-          "wordCount": 1088,
+          "wordCount": 4035,
           "title": "Migrating from warp to axum",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-1",
@@ -213,7 +193,7 @@
           "publishedOn": "2022-11-15T19:30:01.000Z",
           "wordCount": 3575,
           "title": "Cleaning up and upgrading third-party crates",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
         {
           "id": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
@@ -221,9 +201,9 @@
           "description": "<p>As of today, I am no longer employed by <a href=\"https://fly.io\">fly.io</a>.</p>\n<p>We're both very sad, and we've promised to stay friends and send postcards to\neach other over winter break. (I'm excited, too —\n<a href=\"https://dribbble.com/shots/15304391-Home-for-Fly-io\">Annie</a> makes great\npostcards)</p>",
           "link": "https://fasterthanli.me/articles/becoming-fasterthanlime-full-time",
           "publishedOn": "2022-11-04T06:40:00.000Z",
-          "wordCount": 2249,
+          "wordCount": 2250,
           "title": "Becoming fasterthanlime full-time",
-          "imageUrl": "https://fasterthanli.me/img/logo-square.png"
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
       ]
     },
@@ -235,72 +215,72 @@
         {
           "id": "https://medium.com/p/5b8d032da09c",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "by Christos G. Bampis, Li-Heng Chen and Zhi Li",
           "link": "https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-17T21:08:00.000Z",
-          "wordCount": null,
+          "wordCount": 3884,
           "title": "For your eyes only: improving Netflix video quality with neural networks",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/1200/1*gn6_cn9dPKpu_YBykZvwDA.png"
         },
         {
           "id": "https://medium.com/p/31c3fc14ae59",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "What’s needed in the art of match cutting is tools to help editors find shots that match well together, which is what we’ve started…",
           "link": "https://netflixtechblog.com/match-cutting-at-netflix-finding-cuts-with-smooth-visual-transitions-31c3fc14ae59?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-17T16:37:01.000Z",
-          "wordCount": null,
+          "wordCount": 6590,
           "title": "Match Cutting at Netflix: Finding Cuts with Smooth Visual Transitions",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/854/0*vKMzII6YnjsnOda6"
         },
         {
           "id": "https://medium.com/p/d308ee43c079",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By: Peter Cioni (Netflix), Alex Schworer (Netflix), Mac Moore (Conductor Tech.), Rachel Kelley (AWS), Ranjit Raju (AWS)",
           "link": "https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-15T17:03:55.000Z",
-          "wordCount": null,
+          "wordCount": 3277,
           "title": "Helping VFX studios pave a path to the cloud",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/1200/0*r72QIuSe00fdricw"
         },
         {
           "id": "https://medium.com/p/5067ac110bcd",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "This blog series will be showing you how we use the power of machine learning to create stunning media at a global scale.",
           "link": "https://netflixtechblog.com/new-series-creating-media-with-machine-learning-5067ac110bcd?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-11T17:26:39.000Z",
-          "wordCount": null,
+          "wordCount": 2804,
           "title": "New Series: Creating Media with Machine Learning",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/1200/1*T2e7vX6T2kyV7p9q8UD9GA.jpeg"
         },
         {
           "id": "https://medium.com/p/b0b4ef3be3f6",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Soheil Esmaeilzadeh, Negin Salajegheh, Amir Ziai, Jeff Boote",
           "link": "https://netflixtechblog.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-11T17:26:15.000Z",
-          "wordCount": null,
+          "wordCount": 6425,
           "title": "Machine Learning for Fraud Detection in Streaming Services",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/938/0*Xz_msGGGvLslTL1H"
         },
         {
           "id": "https://medium.com/p/2721924a2822",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Vadim Filanovsky and Harshad Sane",
           "link": "https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-09T23:47:03.000Z",
-          "wordCount": null,
+          "wordCount": 5564,
           "title": "Seeing through hardware counters: a journey to threefold performance increase",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/1095/1*kNa4K5MdxqXQdchQVEBnFA.png"
         },
         {
           "id": "https://medium.com/p/6cb89b9ce296",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "by Tomasz Bak and Fabio Kung",
           "link": "https://netflixtechblog.com/consistent-caching-mechanism-in-titus-gateway-6cb89b9ce296?source=rss----2615bd06b42e---4",
           "publishedOn": "2022-11-03T19:19:31.000Z",
-          "wordCount": null,
+          "wordCount": 6784,
           "title": "Consistent caching mechanism in Titus Gateway",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/max/1044/1*RvGGmYT-CVWX7IgWJmMABQ.png"
         }
       ]
     },
@@ -309,6 +289,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "/",
       "articles": [
+        {
+          "id": "/blog/2022/11/23/version-1610-released.html",
+          "author": null,
+          "description": "The Nim team is happy to announce version 1.6.10, our fifth patch release for\nNim 1.6.\nVersion 1.6.10 is a result of almost four months of hard work, and it contains\n29 commits,\nbringing some general improvements over 1.6.8.\nThis version brings OpenSSL 3 support\nto Nim 1.6, and large allocations and deallocations for ARC/ORC are now\nfaster.\nWe would recommend to all of our users to upgrade and use version 1.6.10.\nInstalling Nim 1.6\nNew users\nCheck out if the package manager of your OS already ships version 1.6.10 or\ninstall it as described here.\nExisting users\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 1.6.10 is as easy as:\n$ choosenim update stable\n\nAlternatively, you can download Nim 1.6.10 from\nour nightlies builds.\nDonating to Nim\nWe would like to encourage you to donate to Nim.\nThe donated money will be used to further improve Nim by creating bounties\nfor the most important bugfixes and features.\nYou can donate via:\nOpen Collective\nPatreon\nBountySource\nPayPal\nBitcoin: 1BXfuKM2uvoD6mbx4g5xM3eQhLzkCK77tJ\nIf you are a company, we also offer commercial support.\nBugfixes\nThese reported issues were fixed:\nFixed “–styleCheck:off does not work (and –styleCheck:hint is now the default?)”\n(#20397)\nFixed “dereferencing pointer to incomplete type error with gcc 9.4 with statics/cast”\n(#20141)\nFixed “strutils.find uses cstring optimization that stops after \\0”\n(#19500)\nFixed “Nimpretty mangles numeric literal procs”\n(#20553)\nFixed “Regression in proc symbol resolution; Error: attempting to call routine “\n(#18990)\nFixed “of operator doesn’t consider generics under orc/arc”\n(#20391)\nFixed ““incompatible type” when mixing float32 and cfloat in generics”\n(#19349)\nFixed “cannot generate code for: mSlice with toOpenArray”\n(#19969)\nFixed “-mm flag is ignored on latest Nim 1.7.1 be4bd8”\n(#20426)\nThe complete list of changes is available\nhere.",
+          "link": "https://nim-lang.org/blog/2022/11/23/version-1610-released.html",
+          "publishedOn": "2022-11-23T00:00:00.000Z",
+          "wordCount": 436,
+          "title": "Version 1.6.10 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "/blog/2022/11/11/a-cost-model-for-nim.html",
           "author": null,

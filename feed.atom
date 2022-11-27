@@ -1,15 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-20T01:18:41.747Z</id>
+    <id>urn:2022-11-27T01:12:13.572Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-20T01:18:41.747Z</updated>
+    <updated>2022-11-27T01:12:13.572Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[[Pure C] Clang is better than GCC]]></title>
+        <id>https://yurichev.org/clang/</id>
+        <link href="https://yurichev.org/clang/"/>
+        <updated>2022-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Pure C] Clang is better than GCC]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.6.10 released]]></title>
+        <id>/blog/2022/11/23/version-1610-released.html</id>
+        <link href="https://nim-lang.org/blog/2022/11/23/version-1610-released.html"/>
+        <updated>2022-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim team is happy to announce version 1.6.10, our fifth patch release for
+Nim 1.6.
+Version 1.6.10 is a result of almost four months of hard work, and it contains
+29 commits,
+bringing some general improvements over 1.6.8.
+This version brings OpenSSL 3 support
+to Nim 1.6, and large allocations and deallocations for ARC/ORC are now
+faster.
+We would recommend to all of our users to upgrade and use version 1.6.10.
+Installing Nim 1.6
+New users
+Check out if the package manager of your OS already ships version 1.6.10 or
+install it as described here.
+Existing users
+If you have installed a previous version of Nim using choosenim,
+getting Nim 1.6.10 is as easy as:
+$ choosenim update stable
+
+Alternatively, you can download Nim 1.6.10 from
+our nightlies builds.
+Donating to Nim
+We would like to encourage you to donate to Nim.
+The donated money will be used to further improve Nim by creating bounties
+for the most important bugfixes and features.
+You can donate via:
+Open Collective
+Patreon
+BountySource
+PayPal
+Bitcoin: 1BXfuKM2uvoD6mbx4g5xM3eQhLzkCK77tJ
+If you are a company, we also offer commercial support.
+Bugfixes
+These reported issues were fixed:
+Fixed “–styleCheck:off does not work (and –styleCheck:hint is now the default?)”
+(#20397)
+Fixed “dereferencing pointer to incomplete type error with gcc 9.4 with statics/cast”
+(#20141)
+Fixed “strutils.find uses cstring optimization that stops after \0”
+(#19500)
+Fixed “Nimpretty mangles numeric literal procs”
+(#20553)
+Fixed “Regression in proc symbol resolution; Error: attempting to call routine “
+(#18990)
+Fixed “of operator doesn’t consider generics under orc/arc”
+(#20391)
+Fixed ““incompatible type” when mixing float32 and cfloat in generics”
+(#19349)
+Fixed “cannot generate code for: mSlice with toOpenArray”
+(#19969)
+Fixed “-mm flag is ignored on latest Nim 1.7.1 be4bd8”
+(#20426)
+The complete list of changes is available
+here.]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Python] Wordclouds for your book library]]></title>
+        <id>https://yurichev.org/wordcloud/</id>
+        <link href="https://yurichev.org/wordcloud/"/>
+        <updated>2022-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Python] Wordclouds for your book library]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[For your eyes only: improving Netflix video quality with neural networks]]></title>
         <id>https://medium.com/p/5b8d032da09c</id>
         <link href="https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-17T21:08:00.000Z</updated>
+        <summary type="html"><![CDATA[by Christos G. Bampis, Li-Heng Chen and Zhi Li]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -19,6 +102,7 @@
         <id>https://medium.com/p/31c3fc14ae59</id>
         <link href="https://netflixtechblog.com/match-cutting-at-netflix-finding-cuts-with-smooth-visual-transitions-31c3fc14ae59?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-17T16:37:01.000Z</updated>
+        <summary type="html"><![CDATA[What’s needed in the art of match cutting is tools to help editors find shots that match well together, which is what we’ve started…]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -181,6 +265,7 @@ Cool bear's hot tip
         <id>https://medium.com/p/d308ee43c079</id>
         <link href="https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-15T17:03:55.000Z</updated>
+        <summary type="html"><![CDATA[By: Peter Cioni (Netflix), Alex Schworer (Netflix), Mac Moore (Conductor Tech.), Rachel Kelley (AWS), Ranjit Raju (AWS)]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -220,6 +305,7 @@ Cool bear's hot tip
         <id>https://medium.com/p/5067ac110bcd</id>
         <link href="https://netflixtechblog.com/new-series-creating-media-with-machine-learning-5067ac110bcd?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-11T17:26:39.000Z</updated>
+        <summary type="html"><![CDATA[This blog series will be showing you how we use the power of machine learning to create stunning media at a global scale.]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -229,6 +315,7 @@ Cool bear's hot tip
         <id>https://medium.com/p/b0b4ef3be3f6</id>
         <link href="https://netflixtechblog.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-11T17:26:15.000Z</updated>
+        <summary type="html"><![CDATA[By Soheil Esmaeilzadeh, Negin Salajegheh, Amir Ziai, Jeff Boote]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -262,6 +349,7 @@ oblivious to the heap size: Nim’s memory management works well wit…]]></summ
         <id>https://medium.com/p/2721924a2822</id>
         <link href="https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-09T23:47:03.000Z</updated>
+        <summary type="html"><![CDATA[By Vadim Filanovsky and Harshad Sane]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -315,6 +403,7 @@ postcards)</p>]]></summary>
         <id>https://medium.com/p/6cb89b9ce296</id>
         <link href="https://netflixtechblog.com/consistent-caching-mechanism-in-titus-gateway-6cb89b9ce296?source=rss----2615bd06b42e---4"/>
         <updated>2022-11-03T19:19:31.000Z</updated>
+        <summary type="html"><![CDATA[by Tomasz Bak and Fabio Kung]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -339,46 +428,6 @@ The analytics in the dashboard are provided by plausible analytics,
 which is an anal…]]></summary>
         <author>
             <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VPN from Windows to Linux: WireGuard working example]]></title>
-        <id>https://yurichev.org/wireguard/</id>
-        <link href="https://yurichev.org/wireguard/"/>
-        <updated>2022-10-22T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[VPN from Windows to Linux: WireGuard working example]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Logic] Formal fallacy for programmers]]></title>
-        <id>https://yurichev.org/imply/</id>
-        <link href="https://yurichev.org/imply/"/>
-        <updated>2022-10-22T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Logic] Formal fallacy for programmers]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Math][Python] Mixed radix, part II]]></title>
-        <id>https://yurichev.org/mixed_radix2/</id>
-        <link href="https://yurichev.org/mixed_radix2/"/>
-        <updated>2022-10-22T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Math][Python] Mixed radix, part II]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wget patch: limit-size]]></title>
-        <id>https://yurichev.org/wget/</id>
-        <link href="https://yurichev.org/wget/"/>
-        <updated>2022-10-22T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Wget patch: limit-size]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
         </author>
     </entry>
 </feed>
