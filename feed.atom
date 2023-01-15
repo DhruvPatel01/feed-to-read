@@ -1,28 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-08T01:08:21.263Z</id>
+    <id>urn:2023-01-15T01:06:07.635Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-08T01:08:21.263Z</updated>
+    <updated>2023-01-15T01:06:07.635Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[[Crypto][Python] Padding oracle attack: demonstration]]></title>
-        <id>https://yurichev.org/padding_oracle_attack/</id>
-        <link href="https://yurichev.org/padding_oracle_attack/"/>
-        <updated>2023-01-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Crypto][Python] Padding oracle attack: demonstration]]></summary>
+        <title type="html"><![CDATA[Day 18 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-18</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-18"/>
+        <updated>2023-01-12T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>This time around, we're porting a solution from C++ to Rust and seeing how it
+feels, how it performs, and what we can learn about both languages by doing that.</p>
+<p>See <a href="part-17">Day 17</a> for the rationale re: porting solutions rather than
+writing my own from scratch. TL;DR is: it's better than nothing, and we can
+still focus about learning Rust rather than spending entire days fighting
+off-by-one errors.</p>]]></summary>
         <author>
-            <name>Dennis Yurichev's blog</name>
+            <name>fasterthanli.me</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[Crypto] PKCS#7 padding]]></title>
-        <id>https://yurichev.org/pkcs7/</id>
-        <link href="https://yurichev.org/pkcs7/"/>
-        <updated>2023-01-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Crypto] PKCS#7 padding]]></summary>
+        <title type="html"><![CDATA[Twitch fell behind]]></title>
+        <id>https://fasterthanli.me/articles/twitch-fell-behind</id>
+        <link href="https://fasterthanli.me/articles/twitch-fell-behind"/>
+        <updated>2023-01-12T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>
+
+                        <h2>
+                            <a id="let-s-talk-numbers" class="anchor" href="#let-s-talk-numbers">
+                                Let's talk numbers
+                            </a>
+                        </h2>]]></summary>
         <author>
-            <name>Dennis Yurichev's blog</name>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Day 17 (Advent of Code 2022)]]></title>
+        <id>https://fasterthanli.me/series/advent-of-code-2022/part-17</id>
+        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-17"/>
+        <updated>2023-01-11T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any
+more free time. So, in order to close out this series anyway, I'm going to try
+and port other people's solutions from &quot;language X&quot; to Rust. That way, they
+already figured out the hard stuff, and we can just focus on the Rust bits!</p>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Month with Nim: November and December 2022]]></title>
+        <id>https://nim-lang.org//blog/2023/01/11/this-month-with-nim.html</id>
+        <link href="https://nim-lang.org//blog/2023/01/11/this-month-with-nim.html"/>
+        <updated>2023-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New Cliche version
+Author: Juan Carlos
+New Cliche version:
+Added support for bool.
+Reads enum, Positive, Natural, BiggestInt, BiggestFloat, int, float directly from command line.
+Fallbacks for values: static default ➡️  env var ➡️  command line.
+Uses parseInt for int, parseFloat for float, parseEnum for enum, etc.
+import std/strutils
+import cliche
+# Use https://nim-lang.github.io/Nim/os.html#commandLineParams
+type Food = enum PIZZA, TACO  # Enum from CLI.
+# let real = commandLineParams()
+let fake = @["--a=1", "--v_1=9.9", "--v2=1", "--v3=2", "--v4=X", "--v5=t", "--v6=5", "--v7=true", "--food=PIZZA"]
+fake.getOpt (a: int.high, v_1: 3.14, v2: 9'u64, v3: -9'i64, v4: "a", v5: '4', v6: 9.Positive, v7: false, missing: 42, food: TACO)
+doAssert a == 1  # int
+doAssert v_1 == 9.9  # float
+doAssert v2…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDL2 common mistakes and how to avoid them]]></title>
+        <id>https://nullprogram.com/blog/2023/01/08/</id>
+        <link href="https://nullprogram.com/blog/2023/01/08/"/>
+        <updated>2023-01-08T02:09:26.000Z</updated>
+        <summary type="html"><![CDATA[This article was discussed on reddit.
+SDL has grown on me over the past year. I didn’t understand its value
+until viewing it in the right lens: as a complete platform and runtime
+replacing the host’s runtime, possibly including libc. Ideally an SDL
+application links exclusively against SDL and otherwise not directly
+against host libraries, though in practice it’s somewhat porous. With care
+— particularly in avoiding mistakes covered in this article — that ideal
+is quite achievable for C applications that fit within SDL’s feature set.
+SDL applications are always interesting one way or another, so I like to
+dig in when I come across them. The items in this article are mistakes
+I’ve either made myself or observed across many such passion projects in
+the wild.
+Mistake 1: Not using sdl2-config
+…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spherical Integration]]></title>
+        <id>https://thenumbat.github.io/Spherical-Integration/</id>
+        <link href="https://thenumbat.github.io/Spherical-Integration/"/>
+        <updated>2023-01-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Or, where does that \(\sin\theta\) come from? Integrating functions over spheres is a ubiquitous task in graphics—and a common source of confusion for beginners. In particular, understanding why integration in spherical coordinates requires multiplying by \(\sin\theta\) takes some thought. The Confusion So, we want to integrate a function \(f\) over the unit sphere. For simplicity, let’s assume \(f = 1\). Integrating \(1\) over any surface computes the area of that surface: for a unit sphere, we should end up with \(4\pi\). Integrating over spheres is much easier in the eponymous spherical coordinates, so let’s define \(f\) in terms of \(\theta, \phi\): \(\theta\) ranges from \(0\) to \(\pi\), representing latitude, and \(\phi\) ranges from \(0\) to \(2\pi\), representing longitude. Naively, we might try to integrate \(f\) by ranging over the two parameters: \[\begin{align*} \int_{0}^{2\pi}\int_0^\pi 1\, d\theta d\phi &amp;= \int_0^{2\pi} \theta\Big|_0^\pi\, d\phi\\ &amp;= \int_0^{2\pi} \pi\, d\phi \\ &amp;= \pi \left(\phi\Big|_0^{2\pi}\right) \\ &amp;= 2\pi^2 \end{align*}\] That’s not \(4\pi\)—we didn’t integrate over the sphere! All we did was integrate over a flat rectangle of height \(\pi\) and width \(2\pi\). One way to conceptualize this integral is by adding up the differential area \(dA\) of many small rectangular patches of the domain. Each patch has area \(dA = d\theta d\phi\), so adding them up results in the area of the rectangle. What we actually want is to add up the areas of patches on the sphere, where they are smaller. In the limit (small \(d\theta,d\phi\)), the spherical patch \(d\mathcal{S}\) is a factor of \(\sin\theta\) smaller than the rectangular patch \(dA\)1. Intuitively, the closer to the poles the patch is, the smaller its area. When integrating over the sphere \(\mathcal{S}\), we call the area differential \(d\mathcal{S} = \sin\theta\, d\theta d\phi\)2. Let’s try using it: \[\begin{align*} \iint_\mathcal{S} 1\,d\mathcal{S} &amp;= \int_{0}^{2\pi}\int_0^\pi \sin\theta\, d\theta d\phi\\ &amp;= \int_0^{2\pi} (-\cos\theta)\Big|_0^\pi\, d\phi\\ &amp;= \int_0^{2\pi} 2\, d\phi \\ &amp;= 2 \left(\phi\Big|_0^{2\pi}\right) \\ &amp;= 4\pi \end{align*}\] It works! If you just wanted the intuition, you can stop reading here. But why \(\sin\theta\)? It’s illustrative to analyze how \(\sin\theta\) arises from parameterizing the cartesian (\(x,y,z\)) sphere using spherical coordinates. In cartesian coordinates, a unit sphere is defined by \(x^2 + y^2 + z^2 = 1\). It’s possible to formulate a cartesian surface integral based on this definition, but it would be ugly. \[\iint_{x^2+y^2+z^2=1} f dA = \text{?}\] Instead, we can perform a change of coordinates from cartesian to spherical coordinates. To do so, we will define \(\Phi : \theta,\phi \mapsto x,y,z\): $$ \begin{align*} \Phi(\theta,\phi) = \begin{bmatrix}\sin\theta\cos\phi\\ \sin\theta\sin\phi\\ \cos\theta\end{bmatrix} \end{align*} $$ The function \(\Phi\) is a parameterization of the unit sphere \(\mathcal{S}\). We can check that it satisfies \(x^2+y^2+z^2=1\) regardless of \(\theta\) and \(\phi\): \[\begin{align*} |\Phi(\theta,\phi)|^2 &amp;= (\sin\theta\cos\phi)^2 + (\sin\theta\sin\phi)^2 + \cos^2\theta\\ &amp;= \sin^2\theta(\cos^2\phi+\sin^2\phi) + \cos^2\theta \\ &amp;= \sin^2\theta + \cos^2\theta\\ &amp;= 1 \end{align*}\] Applying \(\Phi\) to the rectangular domain \(\theta\in[0,\pi],\phi\in[0,2\pi]\) in fact describes all of \(\mathcal{S}\), giving us a much simpler parameterization of the integral. To integrate over \(d\theta\) and \(d\phi\), we also need to compute how they relate to \(d\mathcal{S}\). Luckily, there’s a formula that holds for any parametric surface \(\mathbf{r}(u,v)\) describing a three-dimensional domain \(\mathcal{R}\)3: \[d\mathcal{R} = \left\lVert \frac{\partial \mathbf{r}}{\partial u} \times \frac{\partial \mathbf{r}}{\partial v} \right\rVert du dv\] The two partial derivatives represent tangent vectors on \(\mathcal{R}\) along the \(u\) and \(v\) axes, respectively. Intuitively, each tangent vector describes how a \(u,v\) patch is stretched along the corresponding axis when mapped onto \(\mathcal{R}\). The magnitude of their cross product then computes the area of the resulting parallelogram. Finally, we can actually apply the change of coordinates: \[\begin{align*} \iint_\mathcal{S} f\, d\mathcal{S} &amp;= \int_0^{2\pi}\int_0^\pi f(\Phi(\theta,\phi)) \left\lVert \frac{\partial\Phi}{\partial\theta} \times \frac{\partial\Phi}{\partial\phi} \right\rVert d\theta d\phi \end{align*}\] We just need to compute the area term: \[\begin{align*} \frac{\partial\Phi}{\partial\theta} &amp;= \begin{bmatrix}\cos\phi\cos\theta &amp; \sin\phi\cos\theta &amp; -\sin\theta\end{bmatrix}\\ \frac{\partial\Phi}{\partial\phi} &amp;= \begin{bmatrix}-\sin\phi\sin\theta &amp; \cos\phi\sin\theta &amp; 0\end{bmatrix}\\ \frac{\partial\Phi}{\partial\theta} \times \frac{\partial\Phi}{\partial\phi} &amp;= \begin{bmatrix}\sin^2\theta\cos\phi &amp; \sin^2\theta\sin\phi &amp; \cos^2\phi\cos\theta\sin\theta + \sin^2\phi\cos\theta\sin\theta\end{bmatrix}\\ &amp;= \begin{bmatrix}\sin^2\theta\cos\phi &amp; \sin^2\theta\sin\phi &amp; \cos\theta\sin\theta \end{bmatrix}\\ \left\lVert\frac{\partial\Phi}{\partial\theta} \times \frac{\partial\Phi}{\partial\phi}\right\rVert &amp;= \sqrt{\sin^4\theta(\cos^2\phi+\sin^2\phi) + \cos^2\theta\sin^2\theta}\\ &amp;= \sqrt{\sin^2\theta(\sin^2\theta + \cos^2\theta)}\\ &amp;= \lvert\sin\theta\rvert \end{align*}\] Since \(\theta\in[0,\pi]\), we can say \(\lvert\sin\theta\rvert = \sin\theta\). That means \(d\mathcal{S} = \sin\theta\, d\theta d\phi\)! Our final result is the familiar spherical integral: \[\iint_\mathcal{S} f dS = \int_0^{2\pi}\int_0^\pi f(\theta,\phi) \sin\theta\, d\theta d\phi\] Footnotes Interestingly, if we knew the formula for the area of a spherical patch, we could do some slightly illegal math to derive the area form: \[\begin{align*} dA &amp;= (\phi_1-\phi_0)(\cos\theta_0-\cos\theta_1)\\ &amp;= ((\phi + d\phi) - \phi)(\cos(\theta)-\cos(\theta+d\theta))\\ &amp;= d\phi d\theta \frac{(\cos(\theta)-\cos(\theta+d\theta))}{d\theta}\\ &amp;= d\phi d\theta \sin\theta \tag{Def. derivative} \end{align*}\] &#8617; In graphics, also known as differential solid angle, \(d\mathbf{\omega} = \sin\theta\, d\theta d\phi\). &#8617; Even more generally, the scale is related to the inner product on the tangent space of the surface. This inner product is defined by the first fundamental form \(\mathrm{I}\) of the surface, and the scale factor is \(\sqrt{\det\mathrm{I}}\), regardless of dimension. For surfaces immersed in 3D, this simplifies to the cross product mentioned above. Changes of coordinates that don’t change dimensionality have a more straightforward scale factor: it’s the determinant of their Jacobian.4 &#8617; These topics are often more easily understood using the language of exterior calculus, where integrals can be uniformly expressed regardless of dimension. I will write about it at some point. &#8617;]]></summary>
+        <author>
+            <name>Max Slater</name>
         </author>
     </entry>
     <entry>
@@ -100,36 +183,6 @@ several folks asked if I was going to continue... let's continue.</p>]]></summar
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[Pure C][x86][RevEng] Function arguments as local variables]]></title>
-        <id>https://yurichev.org/local_vars/</id>
-        <link href="https://yurichev.org/local_vars/"/>
-        <updated>2022-12-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Pure C][x86][RevEng] Function arguments as local variables]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Math][Python] Trimming backups with logarithmic scale, part II]]></title>
-        <id>https://yurichev.org/logtrim/</id>
-        <link href="https://yurichev.org/logtrim/"/>
-        <updated>2022-12-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Math][Python] Trimming backups with logarithmic scale, part II]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Math][Python] Birthday problem]]></title>
-        <id>https://yurichev.org/birthday2/</id>
-        <link href="https://yurichev.org/birthday2/"/>
-        <updated>2022-12-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Math][Python] Birthday problem]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Version 2.0.0 release candidate]]></title>
         <id>https://nim-lang.org//blog/2022/12/21/version-20-rc.html</id>
         <link href="https://nim-lang.org//blog/2022/12/21/version-20-rc.html"/>
@@ -168,199 +221,6 @@ as an output format, especially for raw video output, but no
 longer will I use it for an embedded asset (n…]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 14 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-14</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-14"/>
-        <updated>2022-12-15T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I like how the <a href="https://adventofcode.com/2022/day/14">day 14 puzzle</a> sounds,
-because I think it'll give me an opportunity to show off yet <em>another way</em> to
-have Rust embedded in a web page.</p>
-<p>But first...</p>
-<div class="dialog bear">
-<div class="dialog-head" title="Cool bear says:">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z"/><path d="M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z"/><path d="M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z"/></svg>
-</div>
-<div class="dialog-text">
-<p>Let me guess: parsing?</p>
-</div>
-</div>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Украина][Киев][Bash] График отключений напруги]]></title>
-        <id>https://yurichev.org/dtek/</id>
-        <link href="https://yurichev.org/dtek/"/>
-        <updated>2022-12-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Украина][Киев][Bash] График отключений напруги]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 13 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-13</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-13"/>
-        <updated>2022-12-14T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>The <a href="https://adventofcode.com/2022/day/13">day 13 puzzle</a> needs a speech
-therapist.</p>
-<div class="dialog bear">
-<div class="dialog-head" title="Cool bear says:">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z"/><path d="M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z"/><path d="M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z"/></svg>
-</div>
-<div class="dialog-text">
-<p>???</p>
-</div>
-</div>
-<p>...because it has an awful lisp!! Ahhhahahahhhh</p>
-<div class="dialog bear">
-<div class="dialog-head" title="Cool bear says:">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z"/><path d="M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z"/><path d="M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z"/></svg>
-</div>
-<div class="dialog-text">
-<p>Are you ok? What is.. what is going on with you?</p>
-</div>
-</div>
-<p>No but seriously we have what are ostensibly S-expressions, except they use
-JSON-adjacent notation:</p>
-<div class="code-block" translate="no"><pre class="code-block-inner" data-lang="">[1,1,3,1,1]
-[1,1,5,1,1]
-
-[[1],[2,3,4]]
-[[1],4]
-
-[9]
-[[8,7,6]]
-
-[[4,4],4,4]
-[[4,4],4,4,4]
-
-[7,7,7,7]
-[7,7,7]
-
-[]
-[3]
-
-[[[]]]
-[[]]
-
-[1,[2,[3,[4,[5,6,7]]]],8,9]
-[1,[2,[3,[4,[5,6,0]]]],8,9]
-</pre></div>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 12 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-12</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-12"/>
-        <updated>2022-12-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Alright! The <a href="https://adventofcode.com/2022/day/12">day 12 puzzle</a> involves path
-finding, and it seems like a good time to lean more heavily on the WASM embeds
-I've set up for the previous parts.</p>
-<p>Let's start by setting up the types we'll want!</p>
-
-                        <h2>
-                            <a id="types-and-parsing" class="anchor" href="#types-and-parsing">
-                                Types and parsing
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 11 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-11</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-11"/>
-        <updated>2022-12-12T18:10:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>It's a new day, it's a <a href="https://adventofcode.com/2022/day/11">new advent of code
-puzzle</a>.</p>
-<p>In that one, we have to apparently cosplay as an IBM mainframe and just.. crunch
-them numbers. This doesn't look fun, and I can't think of a clever twist to make
-it fun, so let's try to make it short and sweet.</p>
-
-                        <h2>
-                            <a id="parsing" class="anchor" href="#parsing">
-                                Parsing
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 10 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-10</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-10"/>
-        <updated>2022-12-11T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Onwards! To the <a href="https://adventofcode.com/2022/day/10">day 10 puzzle</a>.</p>
-<p>I don't see a way to make part 1 especially fun, so let's just get to it.</p>
-
-                        <h2>
-                            <a id="parsing" class="anchor" href="#parsing">
-                                Parsing
-                            </a>
-                        </h2>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Unix] Comparing CPU features with the help of cut/tr/diff/grep commands]]></title>
-        <id>https://yurichev.org/tr/</id>
-        <link href="https://yurichev.org/tr/"/>
-        <updated>2022-12-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Unix] Comparing CPU features with the help of cut/tr/diff/grep commands]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 9 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-9</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-9"/>
-        <updated>2022-12-10T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>The Advent of Code is not a sprint: it's a marathon: sometimes you've got to
-stop and smell the roses.</p>
-<div class="dialog bear">
-<div class="dialog-head" title="Cool bear says:">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M21.41 41.398c.148-1.787.337-3.572.574-5.351.369-2.772 4.393-11.308 5.624-12.882l.553-.706-1.344-.449a5.772 5.772 0 0 1-3.948-5.478 5.786 5.786 0 0 1 5.779-5.78 5.768 5.768 0 0 1 5.684 4.758l.249 1.396 1.231-.704a28.845 28.845 0 0 1 14.282-3.801c4.991 0 9.93 1.314 14.282 3.801l1.231.704.249-1.396a5.766 5.766 0 0 1 5.683-4.758 5.786 5.786 0 0 1 5.779 5.78 5.772 5.772 0 0 1-3.948 5.478l-1.344.449.552.705c1.911 2.44 2.55 2.541 3.563 5.599 1.422 4.293 2.923 7.964 2.923 12.61v49.875h2V41.373c0-6.519-2.008-12.717-5.819-18.005a7.768 7.768 0 0 0 4.072-6.836c0-4.29-3.49-7.78-7.779-7.78a7.766 7.766 0 0 0-7.3 5.1 30.834 30.834 0 0 0-14.146-3.45 30.834 30.834 0 0 0-14.146 3.45 7.766 7.766 0 0 0-7.301-5.1c-4.289 0-7.779 3.49-7.779 7.78a7.766 7.766 0 0 0 4.072 6.836c-6.681 9.271-5.976 21.037-5.992 32.034-.017 11.946.656 23.895.109 35.838l2.006-.001c.67 0-.17-33.831-.156-36.912.022-4.312.148-8.631.505-12.929z"/><path d="M73.854 31.271v-4.494c0-.971-.79-1.76-1.761-1.76H55.235c-.604 0-1.3.869-1.778 1.905-.015 0-.027-.008-.042-.008H46.789c-.02 0-.037.011-.057.011-.478-1.037-1.175-1.908-1.779-1.908H28.094c-.971 0-1.761.79-1.761 1.76v4.494c0 4.477 3.643 8.119 8.119 8.119h5.12c4.265 0 7.734-3.47 7.734-7.734v-2.091H52.878v2.091c0 4.265 3.47 7.734 7.734 7.734h5.121c4.479-.001 8.121-3.643 8.121-8.119zm-41.713 3.192a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm11.163-2.18l-5.75 3.597a.95.95 0 0 1-1.313-.302.952.952 0 0 1 .303-1.312l5.75-3.597a.953.953 0 0 1 1.01 1.614zm15.168 1.935a1.387 1.387 0 0 1-1.917-.442 1.392 1.392 0 0 1 .442-1.917l8.403-5.255a1.392 1.392 0 0 1 1.475 2.359l-8.403 5.255zm4.909 1.561a.953.953 0 0 1-.506-1.759l5.75-3.597a.952.952 0 1 1 1.01 1.614l-5.75 3.597a.942.942 0 0 1-.504.145z"/><path d="M59.705 45.232h-2c0 1.823-1.483 3.306-3.306 3.306s-3.306-1.483-3.306-3.306v-1.439h1.06a3.294 3.294 0 0 0 3.285-3.285v-.17c0-.259-.038-.508-.095-.749a3.291 3.291 0 0 0-2.665-2.482 3.243 3.243 0 0 0-.525-.053h-4.12c-.18 0-.353.025-.525.053a3.291 3.291 0 0 0-2.665 2.482 3.255 3.255 0 0 0-.095.749v.17a3.294 3.294 0 0 0 3.285 3.285h1.06v1.439a3.31 3.31 0 0 1-3.307 3.306 3.31 3.31 0 0 1-3.306-3.306h-2a5.312 5.312 0 0 0 5.306 5.306 5.293 5.293 0 0 0 4.306-2.229 5.294 5.294 0 0 0 4.306 2.229 5.313 5.313 0 0 0 5.307-5.306zM29.742 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM43.779 58.336a.703.703 0 0 0-1.406 0v5.368a.704.704 0 0 0 1.406 0v-5.368zM57.816 58.336a.703.703 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM71.853 58.336a.704.704 0 0 0-1.407 0v5.368a.704.704 0 0 0 1.407 0v-5.368zM35.354 71.559v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-1.406 0zM49.39 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM63.427 71.559v5.369a.704.704 0 0 0 1.407 0v-5.369a.703.703 0 0 0-1.407 0zM29.038 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.703.703 0 0 0-.703-.703zM43.076 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.406 0v-5.369a.705.705 0 0 0-.703-.703zM57.113 81.364a.704.704 0 0 0-.704.703v5.369a.704.704 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.703-.703zM71.149 81.364a.703.703 0 0 0-.703.703v5.369a.703.703 0 0 0 1.407 0v-5.369a.705.705 0 0 0-.704-.703z"/></svg>
-</div>
-<div class="dialog-text">
-<p>I... what? That's not.. have you done a marathon before?</p>
-</div>
-</div>
-<p>No, and I haven't taken any creative writing classes either, I think you can
-tell. Anyway: Day 8 was a bit aggravating for me. In 2020 I gave up AoC after
-Day 14 I think, and then I skipped a year. It doesn't help that it overlaps some
-holidays and stuff, but!</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 8 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-8</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-8"/>
-        <updated>2022-12-09T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>In the <a href="https://adventofcode.com/2022/day/8">day 8 problem</a>, our input is a 
-height map:</p>
-<div class="code-block" translate="no"><pre class="code-block-inner" data-lang="">30373
-25512
-65332
-33549
-35390
-</pre></div>
-<p>This is a 5x5 grid, and every number denotes the height of a tree. For part 1,
-we must find out how many trees are visible from the outside of the grid.</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
         </author>
     </entry>
 </feed>
