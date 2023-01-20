@@ -6,23 +6,23 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2023/01/18/",
+          "author": null,
+          "description": "This article was discussed on Hacker News.\nIn my common SDL2 mistakes listing, the first was about winging it\ninstead of using the sdl2-config script. It’s just one of three official\noptions for portably configuring SDL2, but I had dismissed the others from\nconsideration. One is the pkg-config facility common to unix-like\nsystems. However, the SDL maintainers recently announced SDL3, which will\nnot have a sdl3-config. The concept has been deprecated in favor of the\nexisting pkg-config option. I’d like to support this on w64devkit, except\nthat it lacks pkg-config — not the first time this has come up. So last\nweekend I wrote a new pkg-config from scratch with first-class Windows\nsupport: u-config (“micro-config”). It will serve as pkg-config\nin w64devkit starting in the next release.\nUltima…",
+          "link": "https://nullprogram.com/blog/2023/01/18/",
+          "publishedOn": "2023-01-18T06:39:51.000Z",
+          "wordCount": 2979,
+          "title": "u-config: a new, lean pkg-config clone",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2023/01/08/",
           "author": null,
           "description": "This article was discussed on reddit.\nSDL has grown on me over the past year. I didn’t understand its value\nuntil viewing it in the right lens: as a complete platform and runtime\nreplacing the host’s runtime, possibly including libc. Ideally an SDL\napplication links exclusively against SDL and otherwise not directly\nagainst host libraries, though in practice it’s somewhat porous. With care\n— particularly in avoiding mistakes covered in this article — that ideal\nis quite achievable for C applications that fit within SDL’s feature set.\nSDL applications are always interesting one way or another, so I like to\ndig in when I come across them. The items in this article are mistakes\nI’ve either made myself or observed across many such passion projects in\nthe wild.\nMistake 1: Not using sdl2-config\n…",
           "link": "https://nullprogram.com/blog/2023/01/08/",
           "publishedOn": "2023-01-08T02:09:26.000Z",
-          "wordCount": 2133,
+          "wordCount": 2158,
           "title": "SDL2 common mistakes and how to avoid them",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2022/12/18/",
-          "author": null,
-          "description": "This article was discussed on Hacker News.\nThe Quite OK Image (QOI) format was announced late last year and\nfinalized into a specification a month later. Initially dismissive, a\nrevisit has shifted my opinion to impressed. The format hits a sweet spot\nin the trade-off space between complexity, speed, and compression ratio.\nAlso considering its alpha channel support, QOI has become my default\nchoice for embedded image assets. It’s not perfect, but at the very least\nit’s a solid foundation.\nSince I’m now working with QOI images, I need a good QOI viewer, and so I\nadded support to my ill-named pbmview tool, which I wrote to\nserve the same purpose for Netpbm. I will continue to use Netpbm\nas an output format, especially for raw video output, but no\nlonger will I use it for an embedded asset (n…",
-          "link": "https://nullprogram.com/blog/2022/12/18/",
-          "publishedOn": "2022-12-18T03:45:44.000Z",
-          "wordCount": 1519,
-          "title": "QOI is now my favorite asset format",
           "imageUrl": null
         }
       ]
@@ -66,12 +66,22 @@
       "siteUrl": "https://fasterthanli.me",
       "articles": [
         {
+          "id": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
+          "author": null,
+          "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
+          "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
+          "publishedOn": "2023-01-17T08:00:00.000Z",
+          "wordCount": 1018,
+          "title": "C++ vs Rust: which is faster?",
+          "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
+        },
+        {
           "id": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "author": null,
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4711,
+          "wordCount": 4727,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -81,7 +91,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3302,
+          "wordCount": 3316,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -91,7 +101,7 @@
           "description": "<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any\nmore free time. So, in order to close out this series anyway, I'm going to try\nand port other people's solutions from &quot;language X&quot; to Rust. That way, they\nalready figured out the hard stuff, and we can just focus on the Rust bits!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-17",
           "publishedOn": "2023-01-11T15:00:00.000Z",
-          "wordCount": 5788,
+          "wordCount": 5801,
           "title": "Day 17 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -101,7 +111,7 @@
           "description": "<p>Let's talk about big TV and movie studios. About the life and death of\nCollegeHumor, about what makes Dropout interesting, and how their video platform\ncould be improved!</p>\n<p>00:00 Big TV and movie studios<br />\n01:38 Internet and the attention economy<br />\n02:32 The life and death of CollegeHumor<br />\n03:55 Pivot to video they said<br />\n04:39 The second life of CollegeHumor\n05:56 Dirty Laundry, with Lili Du &amp; Grant O'Brien<br />\n06:42 Um, Actually, with Mike Trapp<br />\n07:38 Game Changer, with Sam Reich<br />\n08:41 The good parts of the Dropout platform<br />\n09:21 Ten details Dropout can fix<br />\n12:35 Thanks and announcements</p>",
           "link": "https://fasterthanli.me/videos/we-need-to-talk-about-dropout",
           "publishedOn": "2022-12-31T10:00:00.000Z",
-          "wordCount": 990,
+          "wordCount": 980,
           "title": "We need to talk about Dropout",
           "imageUrl": "https://tube.fasterthanli.me/covers/dropout/cover.jpg"
         },
@@ -111,7 +121,7 @@
           "description": "<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/16\">day 16 puzzle</a>!</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>\n                        \n<p>The input looks like this:</p>\n<div class=\"code-block\" translate=\"no\"><pre class=\"code-block-inner\" data-lang=\"\">Valve AA has flow rate=0; tunnels lead to valves DD, II, BB\nValve BB has flow rate=13; tunnels lead to valves CC, AA\nValve CC has flow rate=2; tunnels lead to valves DD, BB\nValve DD has flow rate=20; tunnels lead to valves CC, AA, EE\nValve EE has flow rate=3; tunnels lead to valves FF, DD\nValve FF has flow rate=0; tunnels lead to valves EE, GG\nValve GG has flow rate=0; tunnels lead to valves FF, HH\nValve HH has flow rate=22; tunnel leads to valve GG\nValve II has flow rate=0; tunnels lead to valves AA, JJ\nValve JJ has flow rate=21; tunnel leads to valve II\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-16",
           "publishedOn": "2022-12-29T15:00:00.000Z",
-          "wordCount": 6285,
+          "wordCount": 6303,
           "title": "Day 16 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -121,7 +131,7 @@
           "description": "<p>The <a href=\"https://adventofcode.com/2022/day/15\">day 15 puzzle</a> falls into the &quot;math\npuzzle&quot; territory more than &quot;let's learn something new about Rust&quot;, but since\nseveral folks asked if I was going to continue... let's continue.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-15",
           "publishedOn": "2022-12-25T17:00:00.000Z",
-          "wordCount": 2977,
+          "wordCount": 2992,
           "title": "Day 15 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -147,16 +157,33 @@
           "wordCount": 595,
           "title": "This Month with Nim: November and December 2022",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        }
+      ]
+    },
+    {
+      "title": "matklad",
+      "feedUrl": "https://matklad.github.io/feed.xml",
+      "siteUrl": "https://matklad.github.io",
+      "articles": [
+        {
+          "id": "https://matklad.github.io/2023/01/04/on-random-numbers.html",
+          "author": null,
+          "description": "todo",
+          "link": "https://matklad.github.io/2023/01/04/on-random-numbers.html",
+          "publishedOn": "2023-01-04T00:00:00.000Z",
+          "wordCount": 993,
+          "title": "On Random Numbers",
+          "imageUrl": null
         },
         {
-          "id": "https://nim-lang.org//blog/2022/12/21/version-20-rc.html",
+          "id": "https://matklad.github.io/2022/12/31/raytracer-construction-kit.html",
           "author": null,
-          "description": "The first release candidate for Nim version 2.0 is ready for testing.\nThree years after Nim version 1.0, and one year since the latest minor release (Nim 1.6), we are proud to announce Nim v2.0 RC1.\nWith more than 200 fixed bugs and 1000 commits, version 2.0 brings lots of improvements over Nim 1.6.\nDon’t panic! One of our design goals was to make it easy to write code that works with Nim version 1 and 2. Many\nimportant packages already work with version 2 and as usual many innovations are behind switches that can be enabled\nor disabled on a per module level thanks to the .experimental pragma.\nVersion 2 is based on the same codebase as version 1, it’s an evolution, not a revolution.\nWhy use Nim?\nIf you are regular Nim user, you already know Nim’s features.\nOn the other hand, if you waited …",
-          "link": "https://nim-lang.org//blog/2022/12/21/version-20-rc.html",
-          "publishedOn": "2022-12-21T00:00:00.000Z",
-          "wordCount": 4226,
-          "title": "Version 2.0.0 release candidate",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+          "description": "todo",
+          "link": "https://matklad.github.io/2022/12/31/raytracer-construction-kit.html",
+          "publishedOn": "2022-12-31T00:00:00.000Z",
+          "wordCount": 4564,
+          "title": "Ray Tracer Construction Kit",
+          "imageUrl": null
         }
       ]
     }
