@@ -15,3 +15,6 @@ sources:
   
   # Programming Languages
   - href: https://nim-lang.org/feed.xml
+  
+  ## Rust
+  - href: https://matklad.github.io/feed.xml
