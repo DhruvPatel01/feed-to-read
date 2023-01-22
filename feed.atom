@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-20T13:39:32.190Z</id>
+    <id>urn:2023-01-22T01:05:45.329Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-20T13:39:32.190Z</updated>
+    <updated>2023-01-22T01:05:45.329Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -148,7 +148,7 @@ Mistake 1: Not using sdl2-config
         <id>https://matklad.github.io/2023/01/04/on-random-numbers.html</id>
         <link href="https://matklad.github.io/2023/01/04/on-random-numbers.html"/>
         <updated>2023-01-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[todo]]></summary>
+        <summary type="html"><![CDATA[<p>This is a short post which decomposes &ldquo;random numbers&rdquo; topic into principal components and maps them to Rust ecosystem.</p>]]></summary>
         <author>
             <name>matklad</name>
         </author>
@@ -191,7 +191,10 @@ could be improved!</p>
         <id>https://matklad.github.io/2022/12/31/raytracer-construction-kit.html</id>
         <link href="https://matklad.github.io/2022/12/31/raytracer-construction-kit.html"/>
         <updated>2022-12-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[todo]]></summary>
+        <summary type="html"><![CDATA[<p>Ray or path tracing is an algorithm for getting a 2D picture out of a 3D virtual scene, by simulating a trajectory of a particle of light which hits the camera.
+It&rsquo;s one of the fundamental techniques of computer graphics, but that&rsquo;s not why it is the topic for today&rsquo;s blog post.
+Implementing a toy ray tracer is one of the best exercises for learning a particular programming language (and a great deal about software architecture in general as well), and that&rsquo;s the &ldquo;why?&rdquo; for this text.
+My goal here is to teach you to learn new programming languages better, by giving a particularly good exercise for that.</p>]]></summary>
         <author>
             <name>matklad</name>
         </author>

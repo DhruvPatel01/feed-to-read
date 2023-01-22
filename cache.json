@@ -71,7 +71,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1018,
+          "wordCount": 1005,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         },
@@ -81,7 +81,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4727,
+          "wordCount": 4731,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -91,7 +91,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3316,
+          "wordCount": 3314,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -111,7 +111,7 @@
           "description": "<p>Let's talk about big TV and movie studios. About the life and death of\nCollegeHumor, about what makes Dropout interesting, and how their video platform\ncould be improved!</p>\n<p>00:00 Big TV and movie studios<br />\n01:38 Internet and the attention economy<br />\n02:32 The life and death of CollegeHumor<br />\n03:55 Pivot to video they said<br />\n04:39 The second life of CollegeHumor\n05:56 Dirty Laundry, with Lili Du &amp; Grant O'Brien<br />\n06:42 Um, Actually, with Mike Trapp<br />\n07:38 Game Changer, with Sam Reich<br />\n08:41 The good parts of the Dropout platform<br />\n09:21 Ten details Dropout can fix<br />\n12:35 Thanks and announcements</p>",
           "link": "https://fasterthanli.me/videos/we-need-to-talk-about-dropout",
           "publishedOn": "2022-12-31T10:00:00.000Z",
-          "wordCount": 980,
+          "wordCount": 975,
           "title": "We need to talk about Dropout",
           "imageUrl": "https://tube.fasterthanli.me/covers/dropout/cover.jpg"
         },
@@ -131,7 +131,7 @@
           "description": "<p>The <a href=\"https://adventofcode.com/2022/day/15\">day 15 puzzle</a> falls into the &quot;math\npuzzle&quot; territory more than &quot;let's learn something new about Rust&quot;, but since\nseveral folks asked if I was going to continue... let's continue.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-15",
           "publishedOn": "2022-12-25T17:00:00.000Z",
-          "wordCount": 2992,
+          "wordCount": 3002,
           "title": "Day 15 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -168,7 +168,7 @@
         {
           "id": "https://matklad.github.io/2023/01/04/on-random-numbers.html",
           "author": null,
-          "description": "todo",
+          "description": "<p>This is a short post which decomposes &ldquo;random numbers&rdquo; topic into principal components and maps them to Rust ecosystem.</p>",
           "link": "https://matklad.github.io/2023/01/04/on-random-numbers.html",
           "publishedOn": "2023-01-04T00:00:00.000Z",
           "wordCount": 993,
@@ -178,7 +178,7 @@
         {
           "id": "https://matklad.github.io/2022/12/31/raytracer-construction-kit.html",
           "author": null,
-          "description": "todo",
+          "description": "<p>Ray or path tracing is an algorithm for getting a 2D picture out of a 3D virtual scene, by simulating a trajectory of a particle of light which hits the camera.\nIt&rsquo;s one of the fundamental techniques of computer graphics, but that&rsquo;s not why it is the topic for today&rsquo;s blog post.\nImplementing a toy ray tracer is one of the best exercises for learning a particular programming language (and a great deal about software architecture in general as well), and that&rsquo;s the &ldquo;why?&rdquo; for this text.\nMy goal here is to teach you to learn new programming languages better, by giving a particularly good exercise for that.</p>",
           "link": "https://matklad.github.io/2022/12/31/raytracer-construction-kit.html",
           "publishedOn": "2022-12-31T00:00:00.000Z",
           "wordCount": 4564,
