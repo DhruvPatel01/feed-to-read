@@ -55,10 +55,101 @@
       ]
     },
     {
-      "title": "Dennis Yurichev",
+      "title": "Dennis Yurichev's blog",
       "feedUrl": "https://yurichev.com/blog/rss.xml",
-      "siteUrl": "https://yurichev.com/blog/",
-      "articles": []
+      "siteUrl": "https://yurichev.org/",
+      "articles": [
+        {
+          "id": "https://yurichev.org/mysql/",
+          "author": null,
+          "description": "Weak data typing in MySQL",
+          "link": "https://yurichev.org/mysql/",
+          "publishedOn": "2023-01-26T00:00:00.000Z",
+          "wordCount": 244,
+          "title": "Weak data typing in MySQL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/side/",
+          "author": null,
+          "description": "[Russian][Crypto] Что такое side-channel attack / timing attack",
+          "link": "https://yurichev.org/side/",
+          "publishedOn": "2023-01-26T00:00:00.000Z",
+          "wordCount": 432,
+          "title": "[Russian][Crypto] Что такое side-channel attack / timing attack",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/Bleich4/",
+          "author": null,
+          "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part IV",
+          "link": "https://yurichev.org/Bleich4/",
+          "publishedOn": "2023-01-23T00:00:00.000Z",
+          "wordCount": 412,
+          "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part IV",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/Bleich3/",
+          "author": null,
+          "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part III",
+          "link": "https://yurichev.org/Bleich3/",
+          "publishedOn": "2023-01-23T00:00:00.000Z",
+          "wordCount": 820,
+          "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part III",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/Bleich2/",
+          "author": null,
+          "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part II",
+          "link": "https://yurichev.org/Bleich2/",
+          "publishedOn": "2023-01-23T00:00:00.000Z",
+          "wordCount": 1055,
+          "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part II",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/Bleich1/",
+          "author": null,
+          "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part I",
+          "link": "https://yurichev.org/Bleich1/",
+          "publishedOn": "2023-01-23T00:00:00.000Z",
+          "wordCount": 1028,
+          "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part I",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/RSA_blind/",
+          "author": null,
+          "description": "[Crypto] RSA blinding",
+          "link": "https://yurichev.org/RSA_blind/",
+          "publishedOn": "2023-01-22T00:00:00.000Z",
+          "wordCount": 337,
+          "title": "[Crypto] RSA blinding",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/padding_oracle_attack/",
+          "author": null,
+          "description": "[Crypto][Python] Padding oracle attack: demonstration",
+          "link": "https://yurichev.org/padding_oracle_attack/",
+          "publishedOn": "2023-01-05T00:00:00.000Z",
+          "wordCount": 1328,
+          "title": "[Crypto][Python] Padding oracle attack: demonstration",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/pkcs7/",
+          "author": null,
+          "description": "[Crypto] PKCS#7 padding",
+          "link": "https://yurichev.org/pkcs7/",
+          "publishedOn": "2023-01-04T00:00:00.000Z",
+          "wordCount": 1108,
+          "title": "[Crypto] PKCS#7 padding",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "fasterthanli.me",
@@ -71,7 +162,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1005,
+          "wordCount": 1015,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         },
@@ -81,7 +172,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4731,
+          "wordCount": 4728,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -91,7 +182,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3314,
+          "wordCount": 3318,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -101,7 +192,7 @@
           "description": "<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any\nmore free time. So, in order to close out this series anyway, I'm going to try\nand port other people's solutions from &quot;language X&quot; to Rust. That way, they\nalready figured out the hard stuff, and we can just focus on the Rust bits!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-17",
           "publishedOn": "2023-01-11T15:00:00.000Z",
-          "wordCount": 5801,
+          "wordCount": 5804,
           "title": "Day 17 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -111,7 +202,7 @@
           "description": "<p>Let's talk about big TV and movie studios. About the life and death of\nCollegeHumor, about what makes Dropout interesting, and how their video platform\ncould be improved!</p>\n<p>00:00 Big TV and movie studios<br />\n01:38 Internet and the attention economy<br />\n02:32 The life and death of CollegeHumor<br />\n03:55 Pivot to video they said<br />\n04:39 The second life of CollegeHumor\n05:56 Dirty Laundry, with Lili Du &amp; Grant O'Brien<br />\n06:42 Um, Actually, with Mike Trapp<br />\n07:38 Game Changer, with Sam Reich<br />\n08:41 The good parts of the Dropout platform<br />\n09:21 Ten details Dropout can fix<br />\n12:35 Thanks and announcements</p>",
           "link": "https://fasterthanli.me/videos/we-need-to-talk-about-dropout",
           "publishedOn": "2022-12-31T10:00:00.000Z",
-          "wordCount": 975,
+          "wordCount": 980,
           "title": "We need to talk about Dropout",
           "imageUrl": "https://tube.fasterthanli.me/covers/dropout/cover.jpg"
         },
@@ -121,18 +212,8 @@
           "description": "<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/16\">day 16 puzzle</a>!</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>\n                        \n<p>The input looks like this:</p>\n<div class=\"code-block\" translate=\"no\"><pre class=\"code-block-inner\" data-lang=\"\">Valve AA has flow rate=0; tunnels lead to valves DD, II, BB\nValve BB has flow rate=13; tunnels lead to valves CC, AA\nValve CC has flow rate=2; tunnels lead to valves DD, BB\nValve DD has flow rate=20; tunnels lead to valves CC, AA, EE\nValve EE has flow rate=3; tunnels lead to valves FF, DD\nValve FF has flow rate=0; tunnels lead to valves EE, GG\nValve GG has flow rate=0; tunnels lead to valves FF, HH\nValve HH has flow rate=22; tunnel leads to valve GG\nValve II has flow rate=0; tunnels lead to valves AA, JJ\nValve JJ has flow rate=21; tunnel leads to valve II\n</pre></div>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-16",
           "publishedOn": "2022-12-29T15:00:00.000Z",
-          "wordCount": 6303,
+          "wordCount": 6301,
           "title": "Day 16 (Advent of Code 2022)",
-          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
-        },
-        {
-          "id": "https://fasterthanli.me/series/advent-of-code-2022/part-15",
-          "author": null,
-          "description": "<p>The <a href=\"https://adventofcode.com/2022/day/15\">day 15 puzzle</a> falls into the &quot;math\npuzzle&quot; territory more than &quot;let's learn something new about Rust&quot;, but since\nseveral folks asked if I was going to continue... let's continue.</p>",
-          "link": "https://fasterthanli.me/series/advent-of-code-2022/part-15",
-          "publishedOn": "2022-12-25T17:00:00.000Z",
-          "wordCount": 3002,
-          "title": "Day 15 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
       ]
@@ -141,7 +222,18 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/f5ba9266d428",
+          "author": "Netflix Technology Blog",
+          "description": "In Marken (Scalable Annotation Service at Netflix), an annotation is a piece of metadata which can be attached to an object from any domain.",
+          "link": "https://netflixtechblog.com/scalable-annotation-service-marken-f5ba9266d428?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-01-26T03:07:29.000Z",
+          "wordCount": 6183,
+          "title": "Scalable Annotation Service — Marken",
+          "imageUrl": "https://miro.medium.com/max/1200/1*5eyi33Txa5kOKuyMmrpPGA.jpeg"
+        }
+      ]
     },
     {
       "title": "Nim Programming Language",
@@ -166,9 +258,29 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/01/26/rusts-ugly-syntax.html",
+          "author": null,
+          "description": "People complain about Rust syntax.\nI think that most of the time when people think they have an issue with Rust's syntax, they actually object to Rust's semantics.\nIn this slightly whimsical post, I'll try to disentangle the two.",
+          "link": "https://matklad.github.io/2023/01/26/rusts-ugly-syntax.html",
+          "publishedOn": "2023-01-26T00:00:00.000Z",
+          "wordCount": 1141,
+          "title": "Rust's Ugly Syntax",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2023/01/25/next-rust-compiler.html",
+          "author": null,
+          "description": "In Rust in 2023, @nrc floated an idea of a Rust compiler rewrite.\nAs my hobby is writing Rust compiler frontends (1, 2), I have some (but not very many) thoughts here!\nThe post consists of two parts, covering organizational and technical aspects.",
+          "link": "https://matklad.github.io/2023/01/25/next-rust-compiler.html",
+          "publishedOn": "2023-01-25T00:00:00.000Z",
+          "wordCount": 1296,
+          "title": "Next Rust Compiler",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/01/04/on-random-numbers.html",
           "author": null,
-          "description": "<p>This is a short post which decomposes &ldquo;random numbers&rdquo; topic into principal components and maps them to Rust ecosystem.</p>",
+          "description": "This is a short post which decomposes random numbers topic into principal components and maps them to Rust ecosystem.",
           "link": "https://matklad.github.io/2023/01/04/on-random-numbers.html",
           "publishedOn": "2023-01-04T00:00:00.000Z",
           "wordCount": 993,
@@ -178,7 +290,7 @@
         {
           "id": "https://matklad.github.io/2022/12/31/raytracer-construction-kit.html",
           "author": null,
-          "description": "<p>Ray or path tracing is an algorithm for getting a 2D picture out of a 3D virtual scene, by simulating a trajectory of a particle of light which hits the camera.\nIt&rsquo;s one of the fundamental techniques of computer graphics, but that&rsquo;s not why it is the topic for today&rsquo;s blog post.\nImplementing a toy ray tracer is one of the best exercises for learning a particular programming language (and a great deal about software architecture in general as well), and that&rsquo;s the &ldquo;why?&rdquo; for this text.\nMy goal here is to teach you to learn new programming languages better, by giving a particularly good exercise for that.</p>",
+          "description": "Ray or path tracing is an algorithm for getting a 2D picture out of a 3D virtual scene, by simulating a trajectory of a particle of light which hits the camera.\nIt's one of the fundamental techniques of computer graphics, but that's not why it is the topic for today's blog post.\nImplementing a toy ray tracer is one of the best exercises for learning a particular programming language (and a great deal about software architecture in general as well), and that's the why? for this text.\nMy goal here is to teach you to learn new programming languages better, by giving a particularly good exercise for that.",
           "link": "https://matklad.github.io/2022/12/31/raytracer-construction-kit.html",
           "publishedOn": "2022-12-31T00:00:00.000Z",
           "wordCount": 4564,
@@ -186,6 +298,12 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "Hugging Face - Blog",
+      "feedUrl": "https://huggingface.co/blog/feed.xml",
+      "siteUrl": "https://huggingface.co/blog",
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
