@@ -60,6 +60,26 @@
       "siteUrl": "https://yurichev.org/",
       "articles": [
         {
+          "id": "https://yurichev.org/py_serial/",
+          "author": null,
+          "description": "[Python] Simplest possible serialization/marshalling",
+          "link": "https://yurichev.org/py_serial/",
+          "publishedOn": "2023-01-28T00:00:00.000Z",
+          "wordCount": 212,
+          "title": "[Python] Simplest possible serialization/marshalling",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/glitch/",
+          "author": null,
+          "description": "Public transport glitch. Dedicated to all fans of John Conway's Game of Life. Seen in Kiev.",
+          "link": "https://yurichev.org/glitch/",
+          "publishedOn": "2023-01-27T00:00:00.000Z",
+          "wordCount": 176,
+          "title": "Public transport glitch. Dedicated to all fans of John Conway's Game of Life. Seen in Kiev.",
+          "imageUrl": null
+        },
+        {
           "id": "https://yurichev.org/mysql/",
           "author": null,
           "description": "Weak data typing in MySQL",
@@ -75,7 +95,7 @@
           "description": "[Russian][Crypto] Что такое side-channel attack / timing attack",
           "link": "https://yurichev.org/side/",
           "publishedOn": "2023-01-26T00:00:00.000Z",
-          "wordCount": 432,
+          "wordCount": 514,
           "title": "[Russian][Crypto] Что такое side-channel attack / timing attack",
           "imageUrl": null
         },
@@ -162,7 +182,7 @@
           "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
           "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
           "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 1015,
+          "wordCount": 1000,
           "title": "C++ vs Rust: which is faster?",
           "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
         },
@@ -172,7 +192,7 @@
           "description": "<p>This time around, we're porting a solution from C++ to Rust and seeing how it\nfeels, how it performs, and what we can learn about both languages by doing that.</p>\n<p>See <a href=\"part-17\">Day 17</a> for the rationale re: porting solutions rather than\nwriting my own from scratch. TL;DR is: it's better than nothing, and we can\nstill focus about learning Rust rather than spending entire days fighting\noff-by-one errors.</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-18",
           "publishedOn": "2023-01-12T14:00:00.000Z",
-          "wordCount": 4728,
+          "wordCount": 4730,
           "title": "Day 18 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -182,7 +202,7 @@
           "description": "<p>So you want to do live streams. Are you sure? Okay. Let's talk about it.</p>\n\n                        <h2>\n                            <a id=\"let-s-talk-numbers\" class=\"anchor\" href=\"#let-s-talk-numbers\">\n                                Let's talk numbers\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/twitch-fell-behind",
           "publishedOn": "2023-01-12T13:00:00.000Z",
-          "wordCount": 3318,
+          "wordCount": 3317,
           "title": "Twitch fell behind",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -192,7 +212,7 @@
           "description": "<p>Advent of Code gets harder and harder, and I'm not getting any smarter. Or any\nmore free time. So, in order to close out this series anyway, I'm going to try\nand port other people's solutions from &quot;language X&quot; to Rust. That way, they\nalready figured out the hard stuff, and we can just focus on the Rust bits!</p>",
           "link": "https://fasterthanli.me/series/advent-of-code-2022/part-17",
           "publishedOn": "2023-01-11T15:00:00.000Z",
-          "wordCount": 5804,
+          "wordCount": 5803,
           "title": "Day 17 (Advent of Code 2022)",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         },
@@ -202,19 +222,9 @@
           "description": "<p>Let's talk about big TV and movie studios. About the life and death of\nCollegeHumor, about what makes Dropout interesting, and how their video platform\ncould be improved!</p>\n<p>00:00 Big TV and movie studios<br />\n01:38 Internet and the attention economy<br />\n02:32 The life and death of CollegeHumor<br />\n03:55 Pivot to video they said<br />\n04:39 The second life of CollegeHumor\n05:56 Dirty Laundry, with Lili Du &amp; Grant O'Brien<br />\n06:42 Um, Actually, with Mike Trapp<br />\n07:38 Game Changer, with Sam Reich<br />\n08:41 The good parts of the Dropout platform<br />\n09:21 Ten details Dropout can fix<br />\n12:35 Thanks and announcements</p>",
           "link": "https://fasterthanli.me/videos/we-need-to-talk-about-dropout",
           "publishedOn": "2022-12-31T10:00:00.000Z",
-          "wordCount": 980,
+          "wordCount": 993,
           "title": "We need to talk about Dropout",
           "imageUrl": "https://tube.fasterthanli.me/covers/dropout/cover.jpg"
-        },
-        {
-          "id": "https://fasterthanli.me/series/advent-of-code-2022/part-16",
-          "author": null,
-          "description": "<p>Let's tackle the <a href=\"https://adventofcode.com/2022/day/16\">day 16 puzzle</a>!</p>\n\n                        <h2>\n                            <a id=\"parsing\" class=\"anchor\" href=\"#parsing\">\n                                Parsing\n                            </a>\n                        </h2>\n                        \n<p>The input looks like this:</p>\n<div class=\"code-block\" translate=\"no\"><pre class=\"code-block-inner\" data-lang=\"\">Valve AA has flow rate=0; tunnels lead to valves DD, II, BB\nValve BB has flow rate=13; tunnels lead to valves CC, AA\nValve CC has flow rate=2; tunnels lead to valves DD, BB\nValve DD has flow rate=20; tunnels lead to valves CC, AA, EE\nValve EE has flow rate=3; tunnels lead to valves FF, DD\nValve FF has flow rate=0; tunnels lead to valves EE, GG\nValve GG has flow rate=0; tunnels lead to valves FF, HH\nValve HH has flow rate=22; tunnel leads to valve GG\nValve II has flow rate=0; tunnels lead to valves AA, JJ\nValve JJ has flow rate=21; tunnel leads to valve II\n</pre></div>",
-          "link": "https://fasterthanli.me/series/advent-of-code-2022/part-16",
-          "publishedOn": "2022-12-29T15:00:00.000Z",
-          "wordCount": 6301,
-          "title": "Day 16 (Advent of Code 2022)",
-          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
       ]
     },
@@ -229,7 +239,7 @@
           "description": "In Marken (Scalable Annotation Service at Netflix), an annotation is a piece of metadata which can be attached to an object from any domain.",
           "link": "https://netflixtechblog.com/scalable-annotation-service-marken-f5ba9266d428?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-01-26T03:07:29.000Z",
-          "wordCount": 6183,
+          "wordCount": 6152,
           "title": "Scalable Annotation Service — Marken",
           "imageUrl": "https://miro.medium.com/max/1200/1*5eyi33Txa5kOKuyMmrpPGA.jpeg"
         }

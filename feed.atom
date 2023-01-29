@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-27T05:22:43.715Z</id>
+    <id>urn:2023-01-29T01:07:54.153Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-27T05:22:43.715Z</updated>
+    <updated>2023-01-29T01:07:54.153Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[[Python] Simplest possible serialization/marshalling]]></title>
+        <id>https://yurichev.org/py_serial/</id>
+        <link href="https://yurichev.org/py_serial/"/>
+        <updated>2023-01-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Python] Simplest possible serialization/marshalling]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Public transport glitch. Dedicated to all fans of John Conway's Game of Life. Seen in Kiev.]]></title>
+        <id>https://yurichev.org/glitch/</id>
+        <link href="https://yurichev.org/glitch/"/>
+        <updated>2023-01-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Public transport glitch. Dedicated to all fans of John Conway's Game of Life. Seen in Kiev.]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scalable Annotation Service — Marken]]></title>
         <id>https://medium.com/p/f5ba9266d428</id>
@@ -321,35 +341,6 @@ Implementing a toy ray tracer is one of the best exercises for learning a partic
 My goal here is to teach you to learn new programming languages better, by giving a particularly good exercise for that.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Day 16 (Advent of Code 2022)]]></title>
-        <id>https://fasterthanli.me/series/advent-of-code-2022/part-16</id>
-        <link href="https://fasterthanli.me/series/advent-of-code-2022/part-16"/>
-        <updated>2022-12-29T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Let's tackle the <a href="https://adventofcode.com/2022/day/16">day 16 puzzle</a>!</p>
-
-                        <h2>
-                            <a id="parsing" class="anchor" href="#parsing">
-                                Parsing
-                            </a>
-                        </h2>
-                        
-<p>The input looks like this:</p>
-<div class="code-block" translate="no"><pre class="code-block-inner" data-lang="">Valve AA has flow rate=0; tunnels lead to valves DD, II, BB
-Valve BB has flow rate=13; tunnels lead to valves CC, AA
-Valve CC has flow rate=2; tunnels lead to valves DD, BB
-Valve DD has flow rate=20; tunnels lead to valves CC, AA, EE
-Valve EE has flow rate=3; tunnels lead to valves FF, DD
-Valve FF has flow rate=0; tunnels lead to valves EE, GG
-Valve GG has flow rate=0; tunnels lead to valves FF, HH
-Valve HH has flow rate=22; tunnel leads to valve GG
-Valve II has flow rate=0; tunnels lead to valves AA, JJ
-Valve JJ has flow rate=21; tunnel leads to valve II
-</pre></div>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
         </author>
     </entry>
 </feed>
