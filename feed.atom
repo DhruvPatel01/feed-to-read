@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-29T01:07:54.153Z</id>
+    <id>urn:2023-02-05T01:08:05.401Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-29T01:07:54.153Z</updated>
+    <updated>2023-02-05T01:08:05.401Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Discovering Creative Insights in Promotional Artwork]]></title>
+        <id>https://medium.com/p/295e4d788db5</id>
+        <link href="https://netflixtechblog.com/discovering-creative-insights-in-promotional-artwork-295e4d788db5?source=rss----2615bd06b42e---4"/>
+        <updated>2023-01-30T16:16:03.000Z</updated>
+        <summary type="html"><![CDATA[By Grace Tang, Aneesh Vartakavi, Julija Bagdonaite, Cristina Segalin, and Vi Iyengar]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Python][C][C++][For noobs] What is 'continue']]></title>
+        <id>https://yurichev.org/py_continue/</id>
+        <link href="https://yurichev.org/py_continue/"/>
+        <updated>2023-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Python][C][C++][For noobs] What is 'continue']]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[Python] Simplest possible serialization/marshalling]]></title>
         <id>https://yurichev.org/py_serial/</id>
@@ -265,82 +285,6 @@ Mistake 1: Not using sdl2-config
         <summary type="html"><![CDATA[Or, where does that \(\sin\theta\) come from? Integrating functions over spheres is a ubiquitous task in graphics—and a common source of confusion for beginners. In particular, understanding why integration in spherical coordinates requires multiplying by \(\sin\theta\) takes some thought. The Confusion So, we want to integrate a function \(f\) over the unit sphere. For simplicity, let’s assume \(f = 1\). Integrating \(1\) over any surface computes the area of that surface: for a unit sphere, we should end up with \(4\pi\). Integrating over spheres is much easier in the eponymous spherical coordinates, so let’s define \(f\) in terms of \(\theta, \phi\): \(\theta\) ranges from \(0\) to \(\pi\), representing latitude, and \(\phi\) ranges from \(0\) to \(2\pi\), representing longitude. Naively, we might try to integrate \(f\) by ranging over the two parameters: \[\begin{align*} \int_{0}^{2\pi}\int_0^\pi 1\, d\theta d\phi &amp;= \int_0^{2\pi} \theta\Big|_0^\pi\, d\phi\\ &amp;= \int_0^{2\pi} \pi\, d\phi \\ &amp;= \pi \left(\phi\Big|_0^{2\pi}\right) \\ &amp;= 2\pi^2 \end{align*}\] That’s not \(4\pi\)—we didn’t integrate over the sphere! All we did was integrate over a flat rectangle of height \(\pi\) and width \(2\pi\). One way to conceptualize this integral is by adding up the differential area \(dA\) of many small rectangular patches of the domain. Each patch has area \(dA = d\theta d\phi\), so adding them up results in the area of the rectangle. What we actually want is to add up the areas of patches on the sphere, where they are smaller. In the limit (small \(d\theta,d\phi\)), the spherical patch \(d\mathcal{S}\) is a factor of \(\sin\theta\) smaller than the rectangular patch \(dA\)1. Intuitively, the closer to the poles the patch is, the smaller its area. When integrating over the sphere \(\mathcal{S}\), we call the area differential \(d\mathcal{S} = \sin\theta\, d\theta d\phi\)2. Let’s try using it: \[\begin{align*} \iint_\mathcal{S} 1\,d\mathcal{S} &amp;= \int_{0}^{2\pi}\int_0^\pi \sin\theta\, d\theta d\phi\\ &amp;= \int_0^{2\pi} (-\cos\theta)\Big|_0^\pi\, d\phi\\ &amp;= \int_0^{2\pi} 2\, d\phi \\ &amp;= 2 \left(\phi\Big|_0^{2\pi}\right) \\ &amp;= 4\pi \end{align*}\] It works! If you just wanted the intuition, you can stop reading here. But why \(\sin\theta\)? It’s illustrative to analyze how \(\sin\theta\) arises from parameterizing the cartesian (\(x,y,z\)) sphere using spherical coordinates. In cartesian coordinates, a unit sphere is defined by \(x^2 + y^2 + z^2 = 1\). It’s possible to formulate a cartesian surface integral based on this definition, but it would be ugly. \[\iint_{x^2+y^2+z^2=1} f dA = \text{?}\] Instead, we can perform a change of coordinates from cartesian to spherical coordinates. To do so, we will define \(\Phi : \theta,\phi \mapsto x,y,z\): $$ \begin{align*} \Phi(\theta,\phi) = \begin{bmatrix}\sin\theta\cos\phi\\ \sin\theta\sin\phi\\ \cos\theta\end{bmatrix} \end{align*} $$ The function \(\Phi\) is a parameterization of the unit sphere \(\mathcal{S}\). We can check that it satisfies \(x^2+y^2+z^2=1\) regardless of \(\theta\) and \(\phi\): \[\begin{align*} |\Phi(\theta,\phi)|^2 &amp;= (\sin\theta\cos\phi)^2 + (\sin\theta\sin\phi)^2 + \cos^2\theta\\ &amp;= \sin^2\theta(\cos^2\phi+\sin^2\phi) + \cos^2\theta \\ &amp;= \sin^2\theta + \cos^2\theta\\ &amp;= 1 \end{align*}\] Applying \(\Phi\) to the rectangular domain \(\theta\in[0,\pi],\phi\in[0,2\pi]\) in fact describes all of \(\mathcal{S}\), giving us a much simpler parameterization of the integral. To integrate over \(d\theta\) and \(d\phi\), we also need to compute how they relate to \(d\mathcal{S}\). Luckily, there’s a formula that holds for any parametric surface \(\mathbf{r}(u,v)\) describing a three-dimensional domain \(\mathcal{R}\)3: \[d\mathcal{R} = \left\lVert \frac{\partial \mathbf{r}}{\partial u} \times \frac{\partial \mathbf{r}}{\partial v} \right\rVert du dv\] The two partial derivatives represent tangent vectors on \(\mathcal{R}\) along the \(u\) and \(v\) axes, respectively. Intuitively, each tangent vector describes how a \(u,v\) patch is stretched along the corresponding axis when mapped onto \(\mathcal{R}\). The magnitude of their cross product then computes the area of the resulting parallelogram. Finally, we can actually apply the change of coordinates: \[\begin{align*} \iint_\mathcal{S} f\, d\mathcal{S} &amp;= \int_0^{2\pi}\int_0^\pi f(\Phi(\theta,\phi)) \left\lVert \frac{\partial\Phi}{\partial\theta} \times \frac{\partial\Phi}{\partial\phi} \right\rVert d\theta d\phi \end{align*}\] We just need to compute the area term: \[\begin{align*} \frac{\partial\Phi}{\partial\theta} &amp;= \begin{bmatrix}\cos\phi\cos\theta &amp; \sin\phi\cos\theta &amp; -\sin\theta\end{bmatrix}\\ \frac{\partial\Phi}{\partial\phi} &amp;= \begin{bmatrix}-\sin\phi\sin\theta &amp; \cos\phi\sin\theta &amp; 0\end{bmatrix}\\ \frac{\partial\Phi}{\partial\theta} \times \frac{\partial\Phi}{\partial\phi} &amp;= \begin{bmatrix}\sin^2\theta\cos\phi &amp; \sin^2\theta\sin\phi &amp; \cos^2\phi\cos\theta\sin\theta + \sin^2\phi\cos\theta\sin\theta\end{bmatrix}\\ &amp;= \begin{bmatrix}\sin^2\theta\cos\phi &amp; \sin^2\theta\sin\phi &amp; \cos\theta\sin\theta \end{bmatrix}\\ \left\lVert\frac{\partial\Phi}{\partial\theta} \times \frac{\partial\Phi}{\partial\phi}\right\rVert &amp;= \sqrt{\sin^4\theta(\cos^2\phi+\sin^2\phi) + \cos^2\theta\sin^2\theta}\\ &amp;= \sqrt{\sin^2\theta(\sin^2\theta + \cos^2\theta)}\\ &amp;= \lvert\sin\theta\rvert \end{align*}\] Since \(\theta\in[0,\pi]\), we can say \(\lvert\sin\theta\rvert = \sin\theta\). That means \(d\mathcal{S} = \sin\theta\, d\theta d\phi\)! Our final result is the familiar spherical integral: \[\iint_\mathcal{S} f dS = \int_0^{2\pi}\int_0^\pi f(\theta,\phi) \sin\theta\, d\theta d\phi\] Footnotes Interestingly, if we knew the formula for the area of a spherical patch, we could do some slightly illegal math to derive the area form: \[\begin{align*} dA &amp;= (\phi_1-\phi_0)(\cos\theta_0-\cos\theta_1)\\ &amp;= ((\phi + d\phi) - \phi)(\cos(\theta)-\cos(\theta+d\theta))\\ &amp;= d\phi d\theta \frac{(\cos(\theta)-\cos(\theta+d\theta))}{d\theta}\\ &amp;= d\phi d\theta \sin\theta \tag{Def. derivative} \end{align*}\] &#8617; In graphics, also known as differential solid angle, \(d\mathbf{\omega} = \sin\theta\, d\theta d\phi\). &#8617; Even more generally, the scale is related to the inner product on the tangent space of the surface. This inner product is defined by the first fundamental form \(\mathrm{I}\) of the surface, and the scale factor is \(\sqrt{\det\mathrm{I}}\), regardless of dimension. For surfaces immersed in 3D, this simplifies to the cross product mentioned above. Changes of coordinates that don’t change dimensionality have a more straightforward scale factor: it’s the determinant of their Jacobian.4 &#8617; These topics are often more easily understood using the language of exterior calculus, where integrals can be uniformly expressed regardless of dimension. I will write about it at some point. &#8617;]]></summary>
         <author>
             <name>Max Slater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Crypto][Python] Padding oracle attack: demonstration]]></title>
-        <id>https://yurichev.org/padding_oracle_attack/</id>
-        <link href="https://yurichev.org/padding_oracle_attack/"/>
-        <updated>2023-01-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Crypto][Python] Padding oracle attack: demonstration]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Crypto] PKCS#7 padding]]></title>
-        <id>https://yurichev.org/pkcs7/</id>
-        <link href="https://yurichev.org/pkcs7/"/>
-        <updated>2023-01-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Crypto] PKCS#7 padding]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Random Numbers]]></title>
-        <id>https://matklad.github.io/2023/01/04/on-random-numbers.html</id>
-        <link href="https://matklad.github.io/2023/01/04/on-random-numbers.html"/>
-        <updated>2023-01-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a short post which decomposes random numbers topic into principal components and maps them to Rust ecosystem.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Los Cabos]]></title>
-        <id>https://thenumbat.github.io/Cabo/</id>
-        <link href="https://thenumbat.github.io/Cabo/"/>
-        <updated>2023-01-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Los Cabos, BCS, Mexico, 2022]]></summary>
-        <author>
-            <name>Max Slater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We need to talk about Dropout]]></title>
-        <id>https://fasterthanli.me/videos/we-need-to-talk-about-dropout</id>
-        <link href="https://fasterthanli.me/videos/we-need-to-talk-about-dropout"/>
-        <updated>2022-12-31T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Let's talk about big TV and movie studios. About the life and death of
-CollegeHumor, about what makes Dropout interesting, and how their video platform
-could be improved!</p>
-<p>00:00 Big TV and movie studios<br />
-01:38 Internet and the attention economy<br />
-02:32 The life and death of CollegeHumor<br />
-03:55 Pivot to video they said<br />
-04:39 The second life of CollegeHumor
-05:56 Dirty Laundry, with Lili Du &amp; Grant O'Brien<br />
-06:42 Um, Actually, with Mike Trapp<br />
-07:38 Game Changer, with Sam Reich<br />
-08:41 The good parts of the Dropout platform<br />
-09:21 Ten details Dropout can fix<br />
-12:35 Thanks and announcements</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ray Tracer Construction Kit]]></title>
-        <id>https://matklad.github.io/2022/12/31/raytracer-construction-kit.html</id>
-        <link href="https://matklad.github.io/2022/12/31/raytracer-construction-kit.html"/>
-        <updated>2022-12-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ray or path tracing is an algorithm for getting a 2D picture out of a 3D virtual scene, by simulating a trajectory of a particle of light which hits the camera.
-It's one of the fundamental techniques of computer graphics, but that's not why it is the topic for today's blog post.
-Implementing a toy ray tracer is one of the best exercises for learning a particular programming language (and a great deal about software architecture in general as well), and that's the why? for this text.
-My goal here is to teach you to learn new programming languages better, by giving a particularly good exercise for that.]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>
