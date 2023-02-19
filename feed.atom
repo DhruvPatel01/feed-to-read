@@ -1,16 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-12T01:08:34.677Z</id>
+    <id>urn:2023-02-19T01:07:00.017Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-12T01:08:34.677Z</updated>
+    <updated>2023-02-19T01:07:00.017Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Understanding latency vs. network speed]]></title>
+        <id>https://yurichev.org/latency/</id>
+        <link href="https://yurichev.org/latency/"/>
+        <updated>2023-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding latency vs. network speed]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three-State Stability]]></title>
+        <id>https://matklad.github.io/2023/02/16/three-state-stability.html</id>
+        <link href="https://matklad.github.io/2023/02/16/three-state-stability.html"/>
+        <updated>2023-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Usually, when discussing stability of the APIs (in a broad sense; databases and programming languages are also APIs), only two states are mentioned:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CRT-free in 2023: tips and tricks]]></title>
+        <id>https://nullprogram.com/blog/2023/02/15/</id>
+        <link href="https://nullprogram.com/blog/2023/02/15/"/>
+        <updated>2023-02-15T02:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Seven years ago I wrote about “freestanding” Windows executables.
+After an additional seven years of practical experience both writing and
+distributing such programs, half using a custom-built toolchain,
+it’s time to revisit these cabalistic incantations and otherwise scant
+details. I’ve tweaked my older article over the years as I’ve learned, but
+this is a full replacement and does not assumes you’ve read it. The “why”
+has been covered and the focus will be on the “how”. Both the GNU
+and MSVC toolchains will be considered.
+I no longer call these “freestanding” programs since that term is, at
+best, inaccurate. In fact, we will be actively avoiding GCC features
+associated with that label. Instead I call these CRT-free programs,
+where CRT stands for the C runtime the Windows-oriented term fo…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning Perl]]></title>
+        <id>https://yurichev.org/perl/</id>
+        <link href="https://yurichev.org/perl/"/>
+        <updated>2023-02-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learning Perl]]></summary>
+        <author>
+            <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Media Machine Learning at Netflix]]></title>
+        <id>https://medium.com/p/f19b400243</id>
+        <link href="https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243?source=rss----2615bd06b42e---4"/>
+        <updated>2023-02-13T17:59:51.000Z</updated>
+        <summary type="html"><![CDATA[We tackle some of the unique challenges of scaling multimodal machine learning models that operate on media assets (video, audio, and…]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The bottom emoji breaks rust-analyzer]]></title>
+        <id>https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer</id>
+        <link href="https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer"/>
+        <updated>2023-02-13T14:20:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Some bugs are merely fun. Others are simply delicious!</p>
+<p>Today's pick is the latter.</p>
+
+                        <h2>
+                            <a id="reproducing-the-issue-part-1" class="anchor" href="#reproducing-the-issue-part-1">
+                                Reproducing the issue, part 1
+                            </a>
+                        </h2>]]></summary>
+        <author>
+            <name>fasterthanli.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's implement buffered, formatted output]]></title>
+        <id>https://nullprogram.com/blog/2023/02/13/</id>
+        <link href="https://nullprogram.com/blog/2023/02/13/"/>
+        <updated>2023-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article was discussed on reddit.
+When not using the C standard library, how does one deal with
+formatted output? Re-implementing the entirety of printf from scratch
+seems like a lot of work, and indeed it would be. Fortunately it’s rarely
+necessary. With the right mindset, and considering your program’s actual
+formatting needs, it’s not as difficult as it might appear. Since it goes
+hand-in-hand with buffering, I’ll cover both topics at once, including
+sprintf-like capabilities, which is where we’ll start.
+The print-is-append mindset
+Buffering amortizes the costs of write (and read) system calls. Many small
+writes are queued via the buffer into a few large writes. This isn’t just
+an implementation detail. It’s key in the mindset to tackle formatted
+output: Printing is appending.
+The m…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's write a setjmp]]></title>
+        <id>https://nullprogram.com/blog/2023/02/12/</id>
+        <link href="https://nullprogram.com/blog/2023/02/12/"/>
+        <updated>2023-02-12T02:23:11.000Z</updated>
+        <summary type="html"><![CDATA[This article was discussed on Hacker News.
+Yesterday I wrote that setjmp is handy and that it would be nice
+to have without linking the C standard library. It’s conceptually simple,
+after all. Today let’s explore some differently-portable implementation
+possibilities with distinct trade-offs. At the very least it should
+illuminate why setjmp sometimes requires the use of volatile.
+First, a quick review: setjmp and longjmp are a form of non-local
+goto.
+
+typedef void *jmp_buf[N];
+int setjmp(jmp_buf);
+void longjmp(jmp_buf, int);
+
+
+Calling setjmp saves the execution context in a jmp_buf, and longjmp
+restores this context, returning the thread to this previous point of
+execution. This means setjmp returns twice: (1) after saving the
+context, and (2) from longjmp. To distinguish these cases, the…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[<3 Deno]]></title>
+        <id>https://matklad.github.io/2023/02/12/a-love-letter-to-deno.html</id>
+        <link href="https://matklad.github.io/2023/02/12/a-love-letter-to-deno.html"/>
+        <updated>2023-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deno is a relatively new JavaScript runtime.
+I find quite interesting and aesthetically appealing, in-line with the recent trend to rein in the worse-is-better law of software evolution.
+This post explains why.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My review of the C standard library in practice]]></title>
         <id>https://nullprogram.com/blog/2023/02/11/</id>
         <link href="https://nullprogram.com/blog/2023/02/11/"/>
         <updated>2023-02-11T03:04:11.000Z</updated>
-        <summary type="html"><![CDATA[In general, when working in C I avoid the standard library, libc, as much
+        <summary type="html"><![CDATA[This article was discussed on Hacker News and critiqued on
+Wandering Thoughts.
+In general, when working in C I avoid the standard library, libc, as much
 as possible. If possible I won’t even link it. For people not used to
 working and thinking this way, the typical response is confusion. Isn’t
 that like re-inventing the wheel? For me, libc is a wheel barely worth
@@ -20,9 +162,7 @@ terrain ahead of time. In this article I’ll review the functions and
 function-like macros of the C standard library and discuss practical
 issues I’ve faced with them.
 Fortunately the flexibility of C-in-practice makes up for the standard
-library. I already have all the tools at hand to do what I need — not
-beholden to any runtime.
-How does one write portable software w…]]></summary>
+library. I already have all the tools at hand to do wh…]]></summary>
         <author>
             <name>null program</name>
         </author>
@@ -184,41 +324,6 @@ The post consists of two parts, covering organizational and technical aspects.]]
         <summary type="html"><![CDATA[[Crypto] RSA blinding]]></summary>
         <author>
             <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[u-config: a new, lean pkg-config clone]]></title>
-        <id>https://nullprogram.com/blog/2023/01/18/</id>
-        <link href="https://nullprogram.com/blog/2023/01/18/"/>
-        <updated>2023-01-18T06:39:51.000Z</updated>
-        <summary type="html"><![CDATA[This article was discussed on Hacker News.
-In my common SDL2 mistakes listing, the first was about winging it
-instead of using the sdl2-config script. It’s just one of three official
-options for portably configuring SDL2, but I had dismissed the others from
-consideration. One is the pkg-config facility common to unix-like
-systems. However, the SDL maintainers recently announced SDL3, which will
-not have a sdl3-config. The concept has been deprecated in favor of the
-existing pkg-config option. I’d like to support this on w64devkit, except
-that it lacks pkg-config — not the first time this has come up. So last
-weekend I wrote a new pkg-config from scratch with first-class Windows
-support: u-config (“micro-config”). It will serve as pkg-config
-in w64devkit starting in the next release.
-Ultima…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++ vs Rust: which is faster?]]></title>
-        <id>https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster</id>
-        <link href="https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster"/>
-        <updated>2023-01-17T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the
-opportunity to compare performance. When I couldn't explain why they performed
-differently, I had no choice but to disassemble both and look at what the
-codegen was like!</p>]]></summary>
-        <author>
-            <name>fasterthanli.me</name>
         </author>
     </entry>
 </feed>

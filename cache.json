@@ -6,23 +6,43 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
-          "id": "https://nullprogram.com/blog/2023/02/11/",
+          "id": "https://nullprogram.com/blog/2023/02/15/",
           "author": null,
-          "description": "In general, when working in C I avoid the standard library, libc, as much\nas possible. If possible I won’t even link it. For people not used to\nworking and thinking this way, the typical response is confusion. Isn’t\nthat like re-inventing the wheel? For me, libc is a wheel barely worth\nusing — too many deficiencies in both interface and implementation.\nFortunately, it’s easy to build a better, simpler wheel when you know the\nterrain ahead of time. In this article I’ll review the functions and\nfunction-like macros of the C standard library and discuss practical\nissues I’ve faced with them.\nFortunately the flexibility of C-in-practice makes up for the standard\nlibrary. I already have all the tools at hand to do what I need — not\nbeholden to any runtime.\nHow does one write portable software w…",
-          "link": "https://nullprogram.com/blog/2023/02/11/",
-          "publishedOn": "2023-02-11T03:04:11.000Z",
-          "wordCount": 3050,
-          "title": "My review of the C standard library in practice",
+          "description": "Seven years ago I wrote about “freestanding” Windows executables.\nAfter an additional seven years of practical experience both writing and\ndistributing such programs, half using a custom-built toolchain,\nit’s time to revisit these cabalistic incantations and otherwise scant\ndetails. I’ve tweaked my older article over the years as I’ve learned, but\nthis is a full replacement and does not assumes you’ve read it. The “why”\nhas been covered and the focus will be on the “how”. Both the GNU\nand MSVC toolchains will be considered.\nI no longer call these “freestanding” programs since that term is, at\nbest, inaccurate. In fact, we will be actively avoiding GCC features\nassociated with that label. Instead I call these CRT-free programs,\nwhere CRT stands for the C runtime the Windows-oriented term fo…",
+          "link": "https://nullprogram.com/blog/2023/02/15/",
+          "publishedOn": "2023-02-15T02:12:00.000Z",
+          "wordCount": 2203,
+          "title": "CRT-free in 2023: tips and tricks",
           "imageUrl": null
         },
         {
-          "id": "https://nullprogram.com/blog/2023/01/18/",
+          "id": "https://nullprogram.com/blog/2023/02/13/",
           "author": null,
-          "description": "This article was discussed on Hacker News.\nIn my common SDL2 mistakes listing, the first was about winging it\ninstead of using the sdl2-config script. It’s just one of three official\noptions for portably configuring SDL2, but I had dismissed the others from\nconsideration. One is the pkg-config facility common to unix-like\nsystems. However, the SDL maintainers recently announced SDL3, which will\nnot have a sdl3-config. The concept has been deprecated in favor of the\nexisting pkg-config option. I’d like to support this on w64devkit, except\nthat it lacks pkg-config — not the first time this has come up. So last\nweekend I wrote a new pkg-config from scratch with first-class Windows\nsupport: u-config (“micro-config”). It will serve as pkg-config\nin w64devkit starting in the next release.\nUltima…",
-          "link": "https://nullprogram.com/blog/2023/01/18/",
-          "publishedOn": "2023-01-18T06:39:51.000Z",
-          "wordCount": 3010,
-          "title": "u-config: a new, lean pkg-config clone",
+          "description": "This article was discussed on reddit.\nWhen not using the C standard library, how does one deal with\nformatted output? Re-implementing the entirety of printf from scratch\nseems like a lot of work, and indeed it would be. Fortunately it’s rarely\nnecessary. With the right mindset, and considering your program’s actual\nformatting needs, it’s not as difficult as it might appear. Since it goes\nhand-in-hand with buffering, I’ll cover both topics at once, including\nsprintf-like capabilities, which is where we’ll start.\nThe print-is-append mindset\nBuffering amortizes the costs of write (and read) system calls. Many small\nwrites are queued via the buffer into a few large writes. This isn’t just\nan implementation detail. It’s key in the mindset to tackle formatted\noutput: Printing is appending.\nThe m…",
+          "link": "https://nullprogram.com/blog/2023/02/13/",
+          "publishedOn": "2023-02-13T00:00:00.000Z",
+          "wordCount": 1773,
+          "title": "Let's implement buffered, formatted output",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2023/02/12/",
+          "author": null,
+          "description": "This article was discussed on Hacker News.\nYesterday I wrote that setjmp is handy and that it would be nice\nto have without linking the C standard library. It’s conceptually simple,\nafter all. Today let’s explore some differently-portable implementation\npossibilities with distinct trade-offs. At the very least it should\nilluminate why setjmp sometimes requires the use of volatile.\nFirst, a quick review: setjmp and longjmp are a form of non-local\ngoto.\n\ntypedef void *jmp_buf[N];\nint setjmp(jmp_buf);\nvoid longjmp(jmp_buf, int);\n\n\nCalling setjmp saves the execution context in a jmp_buf, and longjmp\nrestores this context, returning the thread to this previous point of\nexecution. This means setjmp returns twice: (1) after saving the\ncontext, and (2) from longjmp. To distinguish these cases, the…",
+          "link": "https://nullprogram.com/blog/2023/02/12/",
+          "publishedOn": "2023-02-12T02:23:11.000Z",
+          "wordCount": 1991,
+          "title": "Let's write a setjmp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2023/02/11/",
+          "author": null,
+          "description": "This article was discussed on Hacker News and critiqued on\nWandering Thoughts.\nIn general, when working in C I avoid the standard library, libc, as much\nas possible. If possible I won’t even link it. For people not used to\nworking and thinking this way, the typical response is confusion. Isn’t\nthat like re-inventing the wheel? For me, libc is a wheel barely worth\nusing — too many deficiencies in both interface and implementation.\nFortunately, it’s easy to build a better, simpler wheel when you know the\nterrain ahead of time. In this article I’ll review the functions and\nfunction-like macros of the C standard library and discuss practical\nissues I’ve faced with them.\nFortunately the flexibility of C-in-practice makes up for the standard\nlibrary. I already have all the tools at hand to do wh…",
+          "link": "https://nullprogram.com/blog/2023/02/11/",
+          "publishedOn": "2023-02-11T03:04:11.000Z",
+          "wordCount": 3071,
+          "title": "My review of the C standard library in practice",
           "imageUrl": null
         }
       ]
@@ -39,12 +59,32 @@
       "siteUrl": "https://yurichev.org/",
       "articles": [
         {
+          "id": "https://yurichev.org/latency/",
+          "author": null,
+          "description": "Understanding latency vs. network speed",
+          "link": "https://yurichev.org/latency/",
+          "publishedOn": "2023-02-17T00:00:00.000Z",
+          "wordCount": 567,
+          "title": "Understanding latency vs. network speed",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yurichev.org/perl/",
+          "author": null,
+          "description": "Learning Perl",
+          "link": "https://yurichev.org/perl/",
+          "publishedOn": "2023-02-14T00:00:00.000Z",
+          "wordCount": 233,
+          "title": "Learning Perl",
+          "imageUrl": null
+        },
+        {
           "id": "https://yurichev.org/py_continue/",
           "author": null,
           "description": "[Python][C][C++][For noobs] What is 'continue'",
           "link": "https://yurichev.org/py_continue/",
           "publishedOn": "2023-01-29T00:00:00.000Z",
-          "wordCount": 386,
+          "wordCount": 391,
           "title": "[Python][C][C++][For noobs] What is 'continue'",
           "imageUrl": null
         },
@@ -54,7 +94,7 @@
           "description": "[Python] Simplest possible serialization/marshalling",
           "link": "https://yurichev.org/py_serial/",
           "publishedOn": "2023-01-28T00:00:00.000Z",
-          "wordCount": 212,
+          "wordCount": 217,
           "title": "[Python] Simplest possible serialization/marshalling",
           "imageUrl": null
         },
@@ -64,7 +104,7 @@
           "description": "Public transport glitch. Dedicated to all fans of John Conway's Game of Life. Seen in Kiev.",
           "link": "https://yurichev.org/glitch/",
           "publishedOn": "2023-01-27T00:00:00.000Z",
-          "wordCount": 176,
+          "wordCount": 181,
           "title": "Public transport glitch. Dedicated to all fans of John Conway's Game of Life. Seen in Kiev.",
           "imageUrl": null
         },
@@ -74,7 +114,7 @@
           "description": "Weak data typing in MySQL",
           "link": "https://yurichev.org/mysql/",
           "publishedOn": "2023-01-26T00:00:00.000Z",
-          "wordCount": 244,
+          "wordCount": 249,
           "title": "Weak data typing in MySQL",
           "imageUrl": null
         },
@@ -84,7 +124,7 @@
           "description": "[Russian][Crypto] Что такое side-channel attack / timing attack",
           "link": "https://yurichev.org/side/",
           "publishedOn": "2023-01-26T00:00:00.000Z",
-          "wordCount": 671,
+          "wordCount": 841,
           "title": "[Russian][Crypto] Что такое side-channel attack / timing attack",
           "imageUrl": null
         },
@@ -94,7 +134,7 @@
           "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part IV",
           "link": "https://yurichev.org/Bleich4/",
           "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 412,
+          "wordCount": 417,
           "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part IV",
           "imageUrl": null
         },
@@ -104,7 +144,7 @@
           "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part III",
           "link": "https://yurichev.org/Bleich3/",
           "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 820,
+          "wordCount": 825,
           "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part III",
           "imageUrl": null
         },
@@ -114,7 +154,7 @@
           "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part II",
           "link": "https://yurichev.org/Bleich2/",
           "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 1055,
+          "wordCount": 1060,
           "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part II",
           "imageUrl": null
         },
@@ -124,7 +164,7 @@
           "description": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part I",
           "link": "https://yurichev.org/Bleich1/",
           "publishedOn": "2023-01-23T00:00:00.000Z",
-          "wordCount": 1028,
+          "wordCount": 1033,
           "title": "[Crypto][Python] D.Bleichenbacher attack on RSA PKCS#1, part I",
           "imageUrl": null
         },
@@ -134,7 +174,7 @@
           "description": "[Crypto] RSA blinding",
           "link": "https://yurichev.org/RSA_blind/",
           "publishedOn": "2023-01-22T00:00:00.000Z",
-          "wordCount": 337,
+          "wordCount": 342,
           "title": "[Crypto] RSA blinding",
           "imageUrl": null
         }
@@ -146,14 +186,14 @@
       "siteUrl": "https://fasterthanli.me",
       "articles": [
         {
-          "id": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
+          "id": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "author": null,
-          "description": "<p>I ported some Advent of Code solutions from C/C++ to Rust, and used the\nopportunity to compare performance. When I couldn't explain why they performed\ndifferently, I had no choice but to disassemble both and look at what the\ncodegen was like!</p>",
-          "link": "https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster",
-          "publishedOn": "2023-01-17T08:00:00.000Z",
-          "wordCount": 999,
-          "title": "C++ vs Rust: which is faster?",
-          "imageUrl": "https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg"
+          "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
+          "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
+          "publishedOn": "2023-02-13T14:20:00.000Z",
+          "wordCount": 9984,
+          "title": "The bottom emoji breaks rust-analyzer",
+          "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
       ]
     },
@@ -163,12 +203,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/f19b400243",
+          "author": "Netflix Technology Blog",
+          "description": "We tackle some of the unique challenges of scaling multimodal machine learning models that operate on media assets (video, audio, and…",
+          "link": "https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-02-13T17:59:51.000Z",
+          "wordCount": 5471,
+          "title": "Scaling Media Machine Learning at Netflix",
+          "imageUrl": "https://miro.medium.com/max/1200/0*I7mFezeKAt08o691"
+        },
+        {
           "id": "https://medium.com/p/295e4d788db5",
           "author": "Netflix Technology Blog",
           "description": "By Grace Tang, Aneesh Vartakavi, Julija Bagdonaite, Cristina Segalin, and Vi Iyengar",
           "link": "https://netflixtechblog.com/discovering-creative-insights-in-promotional-artwork-295e4d788db5?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-01-30T16:16:03.000Z",
-          "wordCount": 4707,
+          "wordCount": 4703,
           "title": "Discovering Creative Insights in Promotional Artwork",
           "imageUrl": "https://miro.medium.com/max/664/1*Y9kntVhxsTY0PoQEcQ4yIQ.png"
         },
@@ -178,7 +228,7 @@
           "description": "In Marken (Scalable Annotation Service at Netflix), an annotation is a piece of metadata which can be attached to an object from any domain.",
           "link": "https://netflixtechblog.com/scalable-annotation-service-marken-f5ba9266d428?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-01-26T03:07:29.000Z",
-          "wordCount": 5855,
+          "wordCount": 5851,
           "title": "Scalable Annotation Service — Marken",
           "imageUrl": "https://miro.medium.com/max/1200/1*5eyi33Txa5kOKuyMmrpPGA.jpeg"
         }
@@ -195,6 +245,26 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2023/02/16/three-state-stability.html",
+          "author": null,
+          "description": "Usually, when discussing stability of the APIs (in a broad sense; databases and programming languages are also APIs), only two states are mentioned:",
+          "link": "https://matklad.github.io/2023/02/16/three-state-stability.html",
+          "publishedOn": "2023-02-16T00:00:00.000Z",
+          "wordCount": 666,
+          "title": "Three-State Stability",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2023/02/12/a-love-letter-to-deno.html",
+          "author": null,
+          "description": "Deno is a relatively new JavaScript runtime.\nI find quite interesting and aesthetically appealing, in-line with the recent trend to rein in the worse-is-better law of software evolution.\nThis post explains why.",
+          "link": "https://matklad.github.io/2023/02/12/a-love-letter-to-deno.html",
+          "publishedOn": "2023-02-12T00:00:00.000Z",
+          "wordCount": 1522,
+          "title": "<3 Deno",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2023/02/10/how-a-zig-ide-could-work.html",
           "author": null,

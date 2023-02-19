@@ -22,6 +22,437 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-17 datetime="2023-02-17T00:00:00.000Z">2023-02-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-17 datetime="2023-02-17T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Dennis Yurichev&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://yurichev.org/latency/"
+                        open
+                      >
+                        <summary class="article-expander__title">Understanding latency vs. network speed</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/latency/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Understanding latency vs. network speed</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-16 datetime="2023-02-16T00:00:00.000Z">2023-02-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-16 datetime="2023-02-16T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2023/02/16/three-state-stability.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Three-State Stability</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/02/16/three-state-stability.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Usually, when discussing stability of the APIs (in a broad sense; databases and programming languages are also APIs), only two states are mentioned:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-15 datetime="2023-02-15T02:12:00.000Z">2023-02-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-15 datetime="2023-02-15T02:12:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2023/02/15/"
+                        open
+                      >
+                        <summary class="article-expander__title">CRT-free in 2023: tips and tricks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/02/15/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Seven years ago I wrote about “freestanding” Windows executables.
+After an additional seven years of practical experience both writing and
+distributing such programs, half using a custom-built toolchain,
+it’s time to revisit these cabalistic incantations and otherwise scant
+details. I’ve tweaked my older article over the years as I’ve learned, but
+this is a full replacement and does not assumes you’ve read it. The “why”
+has been covered and the focus will be on the “how”. Both the GNU
+and MSVC toolchains will be considered.
+I no longer call these “freestanding” programs since that term is, at
+best, inaccurate. In fact, we will be actively avoiding GCC features
+associated with that label. Instead I call these CRT-free programs,
+where CRT stands for the C runtime the Windows-oriented term fo…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-14 datetime="2023-02-14T00:00:00.000Z">2023-02-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-14 datetime="2023-02-14T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Dennis Yurichev&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://yurichev.org/perl/"
+                        open
+                      >
+                        <summary class="article-expander__title">Learning Perl</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/perl/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Learning Perl</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-13 datetime="2023-02-13T17:59:51.000Z">2023-02-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-13 datetime="2023-02-13T17:59:51.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Netflix TechBlog - Medium</button>
+                  <a class="source-heading__link" href="https://netflixtechblog.com?source&#x3D;rss----2615bd06b42e---4">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://medium.com/p/f19b400243"
+                        open
+                      >
+                        <summary class="article-expander__title">Scaling Media Machine Learning at Netflix</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243?source&#x3D;rss----2615bd06b42e---4">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/max/1200/0*I7mFezeKAt08o691" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We tackle some of the unique challenges of scaling multimodal machine learning models that operate on media assets (video, audio, and…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >fasterthanli.me</button>
+                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer"
+                        open
+                      >
+                        <summary class="article-expander__title">The bottom emoji breaks rust-analyzer</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Some bugs are merely fun. Others are simply delicious!
+Today&#x27;s pick is the latter.
+
+                        
+                            
+                                Reproducing the issue, part 1</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;33
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2023/02/13/"
+                        open
+                      >
+                        <summary class="article-expander__title">Let&#x27;s implement buffered, formatted output</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/02/13/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This article was discussed on reddit.
+When not using the C standard library, how does one deal with
+formatted output? Re-implementing the entirety of printf from scratch
+seems like a lot of work, and indeed it would be. Fortunately it’s rarely
+necessary. With the right mindset, and considering your program’s actual
+formatting needs, it’s not as difficult as it might appear. Since it goes
+hand-in-hand with buffering, I’ll cover both topics at once, including
+sprintf-like capabilities, which is where we’ll start.
+The print-is-append mindset
+Buffering amortizes the costs of write (and read) system calls. Many small
+writes are queued via the buffer into a few large writes. This isn’t just
+an implementation detail. It’s key in the mindset to tackle formatted
+output: Printing is appending.
+The m…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-12 datetime="2023-02-12T02:23:11.000Z">2023-02-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-12 datetime="2023-02-12T02:23:11.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2023/02/12/"
+                        open
+                      >
+                        <summary class="article-expander__title">Let&#x27;s write a setjmp</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/02/12/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This article was discussed on Hacker News.
+Yesterday I wrote that setjmp is handy and that it would be nice
+to have without linking the C standard library. It’s conceptually simple,
+after all. Today let’s explore some differently-portable implementation
+possibilities with distinct trade-offs. At the very least it should
+illuminate why setjmp sometimes requires the use of volatile.
+First, a quick review: setjmp and longjmp are a form of non-local
+goto.
+
+typedef void *jmp_buf[N];
+int setjmp(jmp_buf);
+void longjmp(jmp_buf, int);
+
+
+Calling setjmp saves the execution context in a jmp_buf, and longjmp
+restores this context, returning the thread to this previous point of
+execution. This means setjmp returns twice: (1) after saving the
+context, and (2) from longjmp. To distinguish these cases, the…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2023/02/12/a-love-letter-to-deno.html"
+                        open
+                      >
+                        <summary class="article-expander__title">&lt;3 Deno</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/02/12/a-love-letter-to-deno.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Deno is a relatively new JavaScript runtime.
+I find quite interesting and aesthetically appealing, in-line with the recent trend to rein in the worse-is-better law of software evolution.
+This post explains why.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-11 datetime="2023-02-11T03:04:11.000Z">2023-02-11</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-11 datetime="2023-02-11T03:04:11.000Z"></time>
           </button>
@@ -49,7 +480,9 @@
                         <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/02/11/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>In general, when working in C I avoid the standard library, libc, as much
+                              <span>This article was discussed on Hacker News and critiqued on
+Wandering Thoughts.
+In general, when working in C I avoid the standard library, libc, as much
 as possible. If possible I won’t even link it. For people not used to
 working and thinking this way, the typical response is confusion. Isn’t
 that like re-inventing the wheel? For me, libc is a wheel barely worth
@@ -59,9 +492,7 @@ terrain ahead of time. In this article I’ll review the functions and
 function-like macros of the C standard library and discuss practical
 issues I’ve faced with them.
 Fortunately the flexibility of C-in-practice makes up for the standard
-library. I already have all the tools at hand to do what I need — not
-beholden to any runtime.
-How does one write portable software w…</span>
+library. I already have all the tools at hand to do wh…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
@@ -403,7 +834,7 @@ I accidentally spent some time yesterday thinking about how to build an IDE for 
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>[Russian][Crypto] Что такое side-channel attack / timing attack</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -650,120 +1081,10 @@ The post consists of two parts, covering organizational and technical aspects.</
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-18 datetime="2023-01-18T06:39:51.000Z">2023-01-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-18 datetime="2023-01-18T06:39:51.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >null program</button>
-                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://nullprogram.com/blog/2023/01/18/"
-                        open
-                      >
-                        <summary class="article-expander__title">u-config: a new, lean pkg-config clone</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/01/18/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This article was discussed on Hacker News.
-In my common SDL2 mistakes listing, the first was about winging it
-instead of using the sdl2-config script. It’s just one of three official
-options for portably configuring SDL2, but I had dismissed the others from
-consideration. One is the pkg-config facility common to unix-like
-systems. However, the SDL maintainers recently announced SDL3, which will
-not have a sdl3-config. The concept has been deprecated in favor of the
-existing pkg-config option. I’d like to support this on w64devkit, except
-that it lacks pkg-config — not the first time this has come up. So last
-weekend I wrote a new pkg-config from scratch with first-class Windows
-support: u-config (“micro-config”). It will serve as pkg-config
-in w64devkit starting in the next release.
-Ultima…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-17 datetime="2023-01-17T08:00:00.000Z">2023-01-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-17 datetime="2023-01-17T08:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster"
-                        open
-                      >
-                        <summary class="article-expander__title">C++ vs Rust: which is faster?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/videos/cpp-vs-rust-which-is-faster">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://tube.fasterthanli.me/covers/cpp-vs-rust/cover.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I ported some Advent of Code solutions from C/C++ to Rust, and used the
-opportunity to compare performance. When I couldn&#x27;t explain why they performed
-differently, I had no choice but to disassemble both and look at what the
-codegen was like!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/4153992374">
-        <time id="build-timestamp" datetime="2023-02-12T01:08:34.655Z">2023-02-12T01:08:34.655Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/4213852352">
+        <time id="build-timestamp" datetime="2023-02-19T01:06:59.994Z">2023-02-19T01:06:59.994Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
