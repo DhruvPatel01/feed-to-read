@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-26T01:12:24.381Z</id>
+    <id>urn:2023-02-28T02:28:39.942Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-26T01:12:24.381Z</updated>
+    <updated>2023-02-28T02:28:39.943Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -60,6 +60,16 @@ It assumes some familiarity with the space, but it's not going to be too technic
         <summary type="html"><![CDATA[[Math] Binary logarithm, part III]]></summary>
         <author>
             <name>Dennis Yurichev's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Lambda Calculus With Coroutines and Heapless, Directly-Called Closures]]></title>
+        <id>https://ayazhafiz.com/articles/23/a-lambda-calculus-with-coroutines-and-heapless-closures</id>
+        <link href="https://ayazhafiz.com/articles/23/a-lambda-calculus-with-coroutines-and-heapless-closures"/>
+        <updated>2023-02-18T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[co_lc is a lambda calculus extended with stackful coroutines. An efficient implementation for the compilation and virtual machine execution of co_lc is presented. The implementation supports tail-call optimization and eliminates all indirect calls by defunctionalizing closures.]]></summary>
+        <author>
+            <name>ayazhafiz.com</name>
         </author>
     </entry>
     <entry>
@@ -247,26 +257,6 @@ I accidentally spent some time yesterday thinking about how to build an IDE for 
         <summary type="html"><![CDATA[By Grace Tang, Aneesh Vartakavi, Julija Bagdonaite, Cristina Segalin, and Vi Iyengar]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Python][C][C++][For noobs] What is 'continue']]></title>
-        <id>https://yurichev.org/py_continue/</id>
-        <link href="https://yurichev.org/py_continue/"/>
-        <updated>2023-01-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Python][C][C++][For noobs] What is 'continue']]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Python] Simplest possible serialization/marshalling]]></title>
-        <id>https://yurichev.org/py_serial/</id>
-        <link href="https://yurichev.org/py_serial/"/>
-        <updated>2023-01-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[Python] Simplest possible serialization/marshalling]]></summary>
-        <author>
-            <name>Dennis Yurichev's blog</name>
         </author>
     </entry>
 </feed>

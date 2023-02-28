@@ -117,26 +117,6 @@
           "wordCount": 315,
           "title": "Learning Perl",
           "imageUrl": null
-        },
-        {
-          "id": "https://yurichev.org/py_continue/",
-          "author": null,
-          "description": "[Python][C][C++][For noobs] What is 'continue'",
-          "link": "https://yurichev.org/py_continue/",
-          "publishedOn": "2023-01-29T00:00:00.000Z",
-          "wordCount": 391,
-          "title": "[Python][C][C++][For noobs] What is 'continue'",
-          "imageUrl": null
-        },
-        {
-          "id": "https://yurichev.org/py_serial/",
-          "author": null,
-          "description": "[Python] Simplest possible serialization/marshalling",
-          "link": "https://yurichev.org/py_serial/",
-          "publishedOn": "2023-01-28T00:00:00.000Z",
-          "wordCount": 217,
-          "title": "[Python] Simplest possible serialization/marshalling",
-          "imageUrl": null
         }
       ]
     },
@@ -151,7 +131,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9982,
+          "wordCount": 9985,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -168,7 +148,7 @@
           "description": "We tackle some of the unique challenges of scaling multimodal machine learning models that operate on media assets (video, audio, and…",
           "link": "https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-02-13T17:59:51.000Z",
-          "wordCount": 5475,
+          "wordCount": 5471,
           "title": "Scaling Media Machine Learning at Netflix",
           "imageUrl": "https://miro.medium.com/max/1200/0*bjkKC00A5uHNV9GW"
         },
@@ -178,7 +158,7 @@
           "description": "By Grace Tang, Aneesh Vartakavi, Julija Bagdonaite, Cristina Segalin, and Vi Iyengar",
           "link": "https://netflixtechblog.com/discovering-creative-insights-in-promotional-artwork-295e4d788db5?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-01-30T16:16:03.000Z",
-          "wordCount": 4707,
+          "wordCount": 4703,
           "title": "Discovering Creative Insights in Promotional Artwork",
           "imageUrl": "https://miro.medium.com/max/664/1*Y9kntVhxsTY0PoQEcQ4yIQ.png"
         }
@@ -191,6 +171,23 @@
       "articles": []
     },
     {
+      "title": null,
+      "feedUrl": "https://ayazhafiz.com/feed-rss2.xml",
+      "siteUrl": "https://ayazhafiz.com",
+      "articles": [
+        {
+          "id": "https://ayazhafiz.com/articles/23/a-lambda-calculus-with-coroutines-and-heapless-closures",
+          "author": null,
+          "description": "co_lc is a lambda calculus extended with stackful coroutines. An efficient implementation for the compilation and virtual machine execution of co_lc is presented. The implementation supports tail-call optimization and eliminates all indirect calls by defunctionalizing closures.",
+          "link": "https://ayazhafiz.com/articles/23/a-lambda-calculus-with-coroutines-and-heapless-closures",
+          "publishedOn": "2023-02-18T06:00:00.000Z",
+          "wordCount": 5488,
+          "title": "A Lambda Calculus With Coroutines and Heapless, Directly-Called Closures",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
@@ -201,7 +198,7 @@
           "description": "An introductory post about complexity theory today!\nIt is relatively well-known that there exist so-called NP-complete problems --- particularly hard problems, such that, if you solve one of them efficiently, you can solve all of them efficiently.\nI think I've learned relatively early that, e.g., SAT is such a hard problem.\nI've similarly learned a bunch of specific examples of equally hard problems, where solving one solves the other.\nHowever, why SAT is harder than any NP problem remained a mystery for a rather long time to me.\nIt is a shame --- this fact is rather intuitive and easy to understand.\nThis post is my attempt at an explanation.\nIt assumes some familiarity with the space, but it's not going to be too technical or thorough.",
           "link": "https://matklad.github.io/2023/02/21/why-SAT-is-hard.html",
           "publishedOn": "2023-02-21T00:00:00.000Z",
-          "wordCount": 1686,
+          "wordCount": 1693,
           "title": "Why SAT Is Hard",
           "imageUrl": null
         },
