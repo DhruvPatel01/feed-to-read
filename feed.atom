@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-28T02:49:47.606Z</id>
+    <id>urn:2023-03-05T01:14:41.118Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-28T02:49:47.606Z</updated>
+    <updated>2023-03-05T01:14:41.118Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[This Month with Nim: Feburary 2023]]></title>
+        <id>https://nim-lang.org//blog/2023/03/02/this-month-with-nim.html</id>
+        <link href="https://nim-lang.org//blog/2023/03/02/this-month-with-nim.html"/>
+        <updated>2023-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ttop
+Author: Inv2004
+System monitoring tool with TUI, historical data service and triggers
+[x] Saving historical snapshots via systemd.timer or crontab
+[x] Scroll via historical data
+[x] TUI with critical values highlight
+[x] External triggers (for notifications or other needs)
+[x] Ascii graph of historical stats (via https://github.com/Yardanico/asciigraph)
+[x] Temperature via sysfs
+[x] User-space only, doesn’t require root permissions
+[x] Static build
+[x] Threads tree
+ni18n
+Author: Hein Thant
+ni18n is a super simple and fast Nim macro for internationalization and localization.
+No runtime lookup for translation since all translations are compiled down to Nim functions except we still have a runtime case statement for locale to call correct generated locale specific function.
+import ni18n
+…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[Math][Python][Bash] Printing reminders picked using lorarithmic scale]]></title>
         <id>https://yurichev.org/log_reminders/</id>
@@ -236,8 +263,8 @@ library. I already have all the tools at hand to do wh…]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Implementing Co, a Small Language With Coroutines #3: Adding Coroutines]]></title>
-        <id>https://abhinavsarkar.net/posts/implementing-co-3/</id>
-        <link href="https://abhinavsarkar.net/posts/implementing-co-3/"/>
+        <id>https://abhinavsarkar.net/posts/implementing-co-3/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/implementing-co-3/?mtm_campaign=feed"/>
         <updated>2023-02-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>In the <a href="https://abhinavsarkar.net/posts/implementing-co-2/">previous post</a>, we wrote the interpreter for basic features of <span class="fancy">Co</span>, the small language we are building in this series of posts. In this post, we explore and implement what makes <span class="fancy">Co</span> really interesting: support for lightweight concurrency using Coroutines.</p>]]></summary>
         <author>
@@ -257,16 +284,6 @@ On the other hand, comptime.
 I accidentally spent some time yesterday thinking about how to build an IDE for that, this post is a result.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discovering Creative Insights in Promotional Artwork]]></title>
-        <id>https://medium.com/p/295e4d788db5</id>
-        <link href="https://netflixtechblog.com/discovering-creative-insights-in-promotional-artwork-295e4d788db5?source=rss----2615bd06b42e---4"/>
-        <updated>2023-01-30T16:16:03.000Z</updated>
-        <summary type="html"><![CDATA[By Grace Tang, Aneesh Vartakavi, Julija Bagdonaite, Cristina Segalin, and Vi Iyengar]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
         </author>
     </entry>
 </feed>

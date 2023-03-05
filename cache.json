@@ -131,7 +131,7 @@
           "description": "<p>Some bugs are merely fun. Others are simply delicious!</p>\n<p>Today's pick is the latter.</p>\n\n                        <h2>\n                            <a id=\"reproducing-the-issue-part-1\" class=\"anchor\" href=\"#reproducing-the-issue-part-1\">\n                                Reproducing the issue, part 1\n                            </a>\n                        </h2>",
           "link": "https://fasterthanli.me/articles/the-bottom-emoji-breaks-rust-analyzer",
           "publishedOn": "2023-02-13T14:20:00.000Z",
-          "wordCount": 9982,
+          "wordCount": 9979,
           "title": "The bottom emoji breaks rust-analyzer",
           "imageUrl": "https://fasterthanli.me/img/logo-square-2.png"
         }
@@ -148,19 +148,9 @@
           "description": "We tackle some of the unique challenges of scaling multimodal machine learning models that operate on media assets (video, audio, and…",
           "link": "https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-02-13T17:59:51.000Z",
-          "wordCount": 5471,
+          "wordCount": 5482,
           "title": "Scaling Media Machine Learning at Netflix",
-          "imageUrl": "https://miro.medium.com/max/1200/0*bjkKC00A5uHNV9GW"
-        },
-        {
-          "id": "https://medium.com/p/295e4d788db5",
-          "author": "Netflix Technology Blog",
-          "description": "By Grace Tang, Aneesh Vartakavi, Julija Bagdonaite, Cristina Segalin, and Vi Iyengar",
-          "link": "https://netflixtechblog.com/discovering-creative-insights-in-promotional-artwork-295e4d788db5?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-01-30T16:16:03.000Z",
-          "wordCount": 4703,
-          "title": "Discovering Creative Insights in Promotional Artwork",
-          "imageUrl": "https://miro.medium.com/max/664/1*Y9kntVhxsTY0PoQEcQ4yIQ.png"
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*bjkKC00A5uHNV9GW"
         }
       ]
     },
@@ -168,7 +158,18 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2023/03/02/this-month-with-nim.html",
+          "author": null,
+          "description": "ttop\nAuthor: Inv2004\nSystem monitoring tool with TUI, historical data service and triggers\n[x] Saving historical snapshots via systemd.timer or crontab\n[x] Scroll via historical data\n[x] TUI with critical values highlight\n[x] External triggers (for notifications or other needs)\n[x] Ascii graph of historical stats (via https://github.com/Yardanico/asciigraph)\n[x] Temperature via sysfs\n[x] User-space only, doesn’t require root permissions\n[x] Static build\n[x] Threads tree\nni18n\nAuthor: Hein Thant\nni18n is a super simple and fast Nim macro for internationalization and localization.\nNo runtime lookup for translation since all translations are compiled down to Nim functions except we still have a runtime case statement for locale to call correct generated locale specific function.\nimport ni18n\n…",
+          "link": "https://nim-lang.org//blog/2023/03/02/this-month-with-nim.html",
+          "publishedOn": "2023-03-02T00:00:00.000Z",
+          "wordCount": 1018,
+          "title": "This Month with Nim: Feburary 2023",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        }
+      ]
     },
     {
       "title": null,
@@ -193,10 +194,10 @@
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
       "articles": [
         {
-          "id": "https://abhinavsarkar.net/posts/implementing-co-3/",
+          "id": "https://abhinavsarkar.net/posts/implementing-co-3/?mtm_campaign=feed",
           "author": null,
           "description": "<p>In the <a href=\"https://abhinavsarkar.net/posts/implementing-co-2/\">previous post</a>, we wrote the interpreter for basic features of <span class=\"fancy\">Co</span>, the small language we are building in this series of posts. In this post, we explore and implement what makes <span class=\"fancy\">Co</span> really interesting: support for lightweight concurrency using Coroutines.</p>",
-          "link": "https://abhinavsarkar.net/posts/implementing-co-3/",
+          "link": "https://abhinavsarkar.net/posts/implementing-co-3/?mtm_campaign=feed",
           "publishedOn": "2023-02-11T00:00:00.000Z",
           "wordCount": 6266,
           "title": "Implementing Co, a Small Language With Coroutines #3: Adding Coroutines",
