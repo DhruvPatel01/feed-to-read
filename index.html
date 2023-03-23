@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-18 datetime="2023-03-18T00:00:00.000Z">2023-03-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-18 datetime="2023-03-18T00:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-23 datetime="2023-03-23T05:32:41.000Z">2023-03-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-23 datetime="2023-03-23T05:32:41.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -34,23 +34,81 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/chatgpt/"
+                        data-accordion-key="https://nullprogram.com/blog/2023/03/23/"
                         open
                       >
-                        <summary class="article-expander__title">A minute of narcissism: what ChatGPT knows about Dennis Yurichev?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/chatgpt/">
+                        <summary class="article-expander__title">Practical libc-free threading on Linux</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/03/23/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>A minute of narcissism: what ChatGPT knows about Dennis Yurichev?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                              <span>Suppose you’re not using a C runtime on Linux, and instead you’re
+programming against its system call API. It’s long-term and stable after
+all. Memory management and buffered I/O are easily
+solved, but a lot of software benefits from concurrency. It would be nice
+to also have thread spawning capability. This article will demonstrate a
+simple, practical, and robust approach to spawning and managing threads
+using only raw system calls. It only takes about a dozen lines of C,
+including 4 or so inline assembly instructions.
+The catch is that there’s no way to avoid using a bit of assembly. Neither
+the clone nor clone3 system calls have threading semantics compatible
+with C, so you’ll need to paper over it with a bit of inline assembly per
+architecture. This article will focus on x86-64, but th…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-19 datetime="2023-03-19T00:00:00.000Z">2023-03-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-19 datetime="2023-03-19T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Max Slater</button>
+                  <a class="source-heading__link" href="https://thenumbat.github.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thenumbat.github.io/Hashtables/"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimizing Open Addressing</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thenumbat.github.io/Hashtables/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Your default hash table should be open-addressed, using Robin Hood linear probing with backward-shift deletion. When prioritizing deterministic performance over memory efficiency, two-way chaining is also a good choice. Code for this article may be found on GitHub. Open Addressing vs. Separate Chaining Benchmark Setup Discussion Separate Chaining Linear Probing Quadratic Probing Double Hashing Robin Hood Linear Probing Two Way Chaining Unrolling, Prefetching, and SIMD Benchmark Data Open Addressing vs. Separate Chaining Most people first encounter hash tables implemented using separate chaining, a model simple to understand and analyze mathematically. In separate chaining, a hash function is used to map each key to one of \(K\) buckets. Each bucket holds a linked list, so to retrieve a key, one simply traverses its corresponding bucket. Given a hash function drawn from a universal family, inserting \(N\) keys into a table with \(K\) buckets results in an expected bucket size of \(\frac{N}{K}\), a quantity also known as the table’s load factor. Assuming (reasonably) that \(\frac{N}{K}\) is bounded by a constant, all operations on such a table can be performed in expected constant time. Unfortunately, this basic analysis doesn’t consider the myriad factors that go into implementing an efficient hash table on a real computer. In practice, hash tables based on open addressing can provide superior performance, and their limitations can be worked around in nearly all cases. Open Addressing In an open-addressed table, each bucket only contains a single key. Collisions are handled by placing additional keys elsewhere in the table. For example, in linear probing, a key is placed in the first open bucket starting from the index it hashes to. Unlike in separate chaining, open-addressed tables may be represented in memory as a single flat array. A priori, we should expect operations on flat arrays to offer higher performance than those on linked structures due to more coherent memory accesses.1 However, if the user wants to insert more than \(K\) keys into an open-addressed table with \(K\) buckets, the entire table must be resized. Typically, a larger array is allocated and all current keys are moved to the new table. The size is grown by a constant factor (e.g. 2x), so insertions occur in amortized constant time. Why Not Separate Chaining? In practice, the standard libraries of many languages provide separate chaining based hash tables, such as C++’s std::unordered_map. At least in C++, this choice is now considered a mistake—it violates the principle of not paying for features you didn’t ask for. Separate chaining still has some purported benefits, but they seem unconvincing: Separately chained tables don’t require any linear-time operations. First, this isn’t true. To maintain a constant load factor, separate chaining hash tables also have to resize once a sufficient number of keys are inserted, though the limit can be greater than \(K\). Most separately chained tables only provide amortized constant time insertion. Second, open-addressed tables can be incrementally resized. When the table grows, there’s no reason we have to move all existing keys right away. Instead, every subsequent operation can move a fixed number of old keys into the new table. Eventually, all keys will have been moved and the old table may be deallocated. This technique incurs overhead on every operation during a resize, but none will require linear time. When each (key + value) entry is allocated separately, entries can have stable addresses. External code can safely store pointers to them, and large entries never have to be copied. This property is easy to support by adding a single level of indirection. That is, allocate each entry separately, but use an open-addressed table to map keys to pointers-to-entries. In this case, resizing the table only requires copying pointers, rather than entire entries. Lower memory overhead. It’s possible for a separately chained table to store the same data in less space than an open-addressed equivalent, since flat tables necessarily waste space storing empty buckets. However, matching high-quality open addressing schemes (especially when storing entries indirectly) requires a load factor greater than one, degrading query performance. Further, individually allocating nodes wastes memory due to heap allocator overhead and fragmentation. In fact, the only situation where open addressing truly doesn’t work is when the table cannot allocate and entries cannot be moved. These requirements can arise when using intrusive linked lists, a common pattern in kernel data structures and embedded systems with no heap. Benchmark Setup For simplicity, let us only consider tables mapping 64-bit integer keys to 64-bit integer values. Results will not take into account the effects of larger values or non-trivial key comparison, but should still be representative, as keys can often be represented in 64 bits and values are often pointers. We will evaluate tables using the following metrics: Time to insert \(N\) keys into an empty table. Time to erase \(N\) existing keys. Time to look up \(N\) existing keys. Time to look up \(N\) missing keys2. Average probe length for existing &amp; missing keys. Maximum probe length for existing &amp; missing keys. Memory amplification in a full table (total size / size of data). Each open-addressed table was benchmarked at 50%, 75%, and 90% load factors. Every test targeted a table capacity of 8M entries, setting \(N &#x3D; \lfloor 8388608 * \text{Load Factor} \rfloor - 1\). Fixing the table capacity allows us to benchmark behavior at exactly the specified load factor, avoiding misleading results from tables that have recently grown. The large number of keys causes each test to unpredictably traverse a data set much larger than L3 cache (128MB+), so the CPU3 cannot effectively cache or prefetch memory accesses. Table Sizes All benchmarked tables use exclusively power-of-two sizes. This invariant allows us to translate hashes to array indices with a fast bitwise AND operation, since: h % 2**n &#x3D;&#x3D; h &amp; (2**n - 1) Power-of-two sizes also admit a neat virtual memory trick4, but that optimization is not included here. However, power-of-two sizes can cause pathological behavior when paired with some hash functions, since indexing simply throws away the hash’s high bits. An alternative strategy is to use prime sized tables, which are significantly more robust to the choice of hash function. For the purposes of this post, we have a fixed hash function, so prime sizes were not used5. Hash Function All benchmarked tables use the squirrel3 hash function, a fast integer hash that (as far as I can tell) only exists in this GDC talk on noise-based RNG. Here, it is adapted to 64-bit integers by choosing three large 64-bit primes: uint64_t squirrel3(uint64_t at) { constexpr uint64_t BIT_NOISE1 &#x3D; 0x9E3779B185EBCA87ULL; constexpr uint64_t BIT_NOISE2 &#x3D; 0xC2B2AE3D27D4EB4FULL; constexpr uint64_t BIT_NOISE3 &#x3D; 0x27D4EB2F165667C5ULL; at *&#x3D; BIT_NOISE1; at ^&#x3D; (at &gt;&gt; 8); at +&#x3D; BIT_NOISE2; at ^&#x3D; (at &lt;&lt; 8); at *&#x3D; BIT_NOISE3; at ^&#x3D; (at &gt;&gt; 8); return at; } I make no claims regarding the quality or robustness of this hash function, but observe that it’s cheap, it produces the expected number of collisions in power-of-two tables, and it passes smhasher when applied bytewise. Other Benchmarks Several less interesting benchmarks were also run, all of which exhibited identical performance across equal-memory open-addressed tables and much worse performance for separate chaining. Time to look up each element by following a Sattolo cycle6 (2-4x). Time to clear the table (100-200x). Time to iterate all values (3-10x). Discussion Separate Chaining To get our bearings, let’s first implement a simple separate chaining table and benchmark it at various load factors. We won’t be able to directly compare these results against the open addressed tables, but we can get a sense of what we’re up against. Separate Chaining50% Load100% Load200% Load500% Load ExistingMissingExistingMissingExistingMissingExistingMissing Insert (ns/key)120130130151 Erase (ns/key)112135179305 Lookup (ns/key)282836415169103186 Average Probe1.250.501.501.002.002.003.505.00 Max Probe77101012122121 Memory Amplification2.502.001.751.60 These are respectable results, especially lookups at 100%: the CPU is able to hide most of the memory latency despite the double indirection. Insertions and erasures, on the other hand, are pretty slow—they involve allocation. Technically, the reported memory amplification in an underestimate, as it does not include heap allocator overhead. However, we should not directly compare memory amplification against the open-addressed tables, as storing larger values would improve separate chaining’s ratio. std::unordered_map Running these benchmarks on std::unordered_map&lt;uint64_t,uint64_t&gt; produces roughly the same results as the 100% column, though with slower insertions and faster clears. Using squirrel3 with std::unordered_map additionally makes insertions slightly slower and lookups slightly faster. However, these results should not be considered canonical, since they depend on your standard library distribution (here, Microsoft’s). Linear Probing Next, let’s implement the simplest type of open addressing—linear probing. In the following diagrams, assume that each letter hashes to its alphabetical index. The skull denotes a tombstone. Insert: starting from the key’s index, place the key in the first empty or tombstone bucket. Lookup: starting from the key’s index, probe buckets in order until finding the key, reaching an empty non-tombstone bucket, or exhausting the table. Erase: lookup the key and replace it with a tombstone. The results are surprisingly good, considering the simplicity: Linear Probing(Naive)50% Load75% Load90% Load ExistingMissingExistingMissingExistingMissing Insert (ns/key)476073 Erase (ns/key)213647 Lookup (ns/key)21863512247291 Average Probe0.506.041.4929.494.46222.04 Max Probe438518143816042816 Memory Amplification2.001.331.11 For existing keys, we’re already beating the separately chained tables, and with lower memory overhead! Of course, there are also some obvious problems—looking for missing keys takes much longer, and the worst-case probe lengths are quite scary, even at 50% load factor. But, we can do much better. Erase: Rehashing One simple optimization is automatically recreating the table once it accumulates too many tombstones. Erase now occurs in amortized constant time, but we already tolerate that for insertion, so it shouldn’t be a big deal. Let’s implement a table that re-creates itself after erase has been called \(\frac{N}{2}\) times. Compared to naive linear probing: Linear Probing+ Rehashing50% Load75% Load90% Load ExistingMissingExistingMissingExistingMissing Insert (ns/key)465770 Erase (ns/key)23 (+8.3%)27 (-24.6%)28 (-39.7%) Lookup (ns/key)20843489 (-26.8%)46142 (-51.2%) Average Probe0.506.041.499.34 (-68.3%)4.4657.84 (-74.0%) Max Probe4385181245 (-44.1%)16041405 (-50.1%) Memory Amplification2.001.331.11 Clearing the tombstones dramatically improves missing key queries, but they are still pretty slow. It also makes erase slower at 50% load—there aren’t enough tombstones to make up for having to recreate the table. Rehashing also does nothing to mitigate long probe sequences for existing keys. Erase: Backward Shift Actually, who says we need tombstones? There’s a little-taught, but very simple algorithm for erasing keys that doesn’t degrade performance or have to recreate the table. When we erase a key, we don’t know whether the lookup algorithm is relying on our bucket being filled to find keys later in the table. Tombstones are one way to avoid this problem. Instead, however, we can guarantee that traversal is never disrupted by simply removing and reinserting all following keys, up to the next empty bucket. Note that despite the name, we are not simply shifting the following keys backward. Any keys that are already at their optimal index will not be moved. For example: After implementing backward-shift deletion, we can compare it to linear probing with rehashing: Linear Probing+ Backshift50% Load75% Load90% Load ExistingMissingExistingMissingExistingMissing Insert (ns/key)486073 Erase (ns/key)47 (+107%)83 (+208%)149 (+425%) Lookup (ns/key)2038 (-55.1%)368946134 Average Probe0.501.50 (-75.2%)1.497.46 (-20.1%)4.4649.7 (-14.1%) Max Probe4350 (-41.2%)18124316041403 Memory Amplification2.001.331.11 Naturally, erasures become significantly slower, but queries on missing keys now have reasonable behavior, especially at 50% load. In fact, at 50% load, this table already beats the performance of equal-memory separate chaining in all four metrics. But, we can still do better: a 50% load factor is unimpressive, and max probe lengths are still very high compared to separate chaining. You might have noticed that neither of these upgrades improved average probe length for existing keys. That’s because it’s not possible for linear probing to have any other average! Think about why that is—it’ll be interesting later. Quadratic Probing Quadratic probing is a common upgrade to linear probing intended to decrease average and maximum probe lengths. In the linear case, a probe of length \(n\) simply queries the bucket at index \(h(k) + n\). Quadratic probing instead queries the bucket at index \(h(k) + n^2\). Each table operation must be updated to use this new probe sequence, but the logic is otherwise almost identical. There are also a couple subtle caveats to quadratic probing: A quadratic probe sequence will not necessarily touch every bucket in the table, so insertions can fail despite there being an empty bucket. In this case, the table must grow and the insertion is retried. There actually is a true deletion algorithm for quadratic probing, but it’s a bit more involved than the linear case and hence not reproduced here. We will again use tombstones and rehashing. After implementing our quadratic table, we can compare it to linear probing with rehashing: Quadratic Probing+ Rehashing50% Load75% Load90% Load ExistingMissingExistingMissingExistingMissing Insert (ns/key)506072 Erase (ns/key)31 (+36.6%)36 (+32.0%)38 (+32.0%) Lookup (ns/key)21863297 (+8.0%)43179 (+25.8%) Average Probe0.43 (-13.9%)4.75 (-21.4%)0.97 (-35.2%)5.15 (-44.9%)1.79 (-59.9%)17.53 (-69.7%) Max Probe19 (-55.8%)56 (-34.1%)47 (-74.0%)87 (-64.5%)112 (-93.0%)289 (-79.4%) Memory Amplification2.001.331.11 As expected, quadratic probing dramatically reduces both the average and worst case probe lengths, especially at high load factors. These gains are not quite as impressive when compared to the linear table with backshift deletion, but are still very significant. Reducing the average probe length improves the average performance of all queries. Here, however, query performance has regressed slightly, as quadratic probing itself requires more computation and accesses memory less predictably. That’s not necessarily a deal breaker—performance is lower variance—but it’s not ideal. Double Hashing Double hashing purports to provide even better behavior than quadratic probing. Instead of using the same probe sequence for every key, double hashing determines the probe stride by hashing the key a second time. That is, a probe of length \(n\) queries the bucket at index \(h_1(k) + n*h_2(k)\) If \(h_2\) is always co-prime to the table size, insertions always succeed, since the probe sequence will touch every bucket. That might sound difficult to assure, but since our table sizes are always a power of two, we can simply make \(h_2\) always return an odd number. Unfortunately, there is no true deletion algorithm for double hashing. We will again use tombstones and rehashing. Let’s implement a table with a slightly modified squirrel3 as the second hash. The results, compared to quadratic probing with rehashing: Double Hashing+ Rehashing50% Load75% Load90% Load ExistingMissingExistingMissingExistingMissing Insert (ns/key)72 (+42.8%)77 (+28.9%)87 (+20.8%) Erase (ns/key)3040 (+11.4%)49 (+31.8%) Lookup (ns/key)28 (+33.2%)9038 (+18.6%)9247(+8.6%)180 Average Probe0.39 (-10.1%)4.38 (-7.7%)0.85 (-12.3%)4.72 (-8.3%)1.56 (-13.0%)16.25 (-7.3%) Max Probe17(-10.5%)62 (+10.7%)42(-10.6%)66 (-24.1%)116344 (+19.0%) Memory Amplification2.001.331.11 Double hashing succeeds in further reducing average probe lengths, but max lengths are more of a mixed bag. Unfortunately, the additional overhead of hashing every key twice makes most queries significantly slower, so double hashing does not seem worth it. Robin Hood Linear Probing So far, quadratic probing and double hashing have provided low probe lengths, but their raw query performance lags linear probing with backward shift deletion—at least at low load factors. Enter Robin Hood linear probing. This strategy drastically reins in maximum probe lengths while maintaining high query performance. The key difference is that when inserting a key, we are allowed to steal the position of an existing key if it is closer to its ideal index (“richer”) than the new key is. When this occurs, we simply swap the old and new keys and carry on inserting the old key in the same manner. This results in a more equitable distribution of probe lengths. This insertion method turns out to be so effective that we can entirely ignore rehashing as long as we keep track of the maximum probe length. Lookups will simply probe until either finding the key or exhausting the maximum probe length. Implementing this table, compared to linear probing with backshift deletion: Robin Hood(Naive)50% Load75% Load90% Load ExistingMissingExistingMissingExistingMissing Insert (ns/key)55 (+14.6%)85 (+41.8%)128 (+74.5%) Erase (ns/key)20 (-58.3%)31 (-63.0%)78 (-47.7%) Lookup (ns/key)20 58 (+54.5%)32 (-11.3%)109 (+23.1%)81 (+74.4%)148 (+9.9%) Average Probe0.5013 (+769%)1.4928(+275%)4.4667 (+34.9%) Max Probe12 (-72.1%)13 (-74.0%)24 (-86.7%)28(-88.5%)58 (-96.4%)67 (-95.2%) Memory Amplification2.001.331.11 Maximum probe lengths improve dramatically, undercutting even quadratic probing and double hashing. This solves the main problem with open addressing. However, performance gains are less clear-cut: Insertion performance suffers across the board. Existing lookups are slightly faster at low load, but much slower at 90%. Missing lookups are maximally pessimistic. Fortunately, we’ve got one more trick up our sleeves. Erase: Backward Shift When erasing a key, we can run a very similar backshift deletion algorithm. There are just two differences: We can stop upon finding a key that is already in its optimal location. No further keys could have been pushed past it—they would have stolen this spot during insertion. We don’t have to re-hash—since we stop at the first optimal key, all keys before it can simply be shifted backward. With backshift deletion, we no longer need to keep track of the maximum probe length. Implementing this table, compared to naive robin hood probing: Robin Hood+ Backshift50% Load75% Load90% Load ExistingMissingExistingMissingExistingMissing Insert (ns/key)5582125 Erase (ns/key)32 (+64.0%)48 (+54.2%)60 (-22.8%) Lookup (ns/key)2034 (-42.0%)3276 (-30.9%)80114 (-22.8%) Average Probe0.500.75 (-94.2%)1.491.87 (-93.3%)4.464.95 (-92.6%) Max Probe1212 (-7.7%)2425 (-10.7%)5867 Memory Amplification2.001.331.11 We again regress the performance of erase, but we finally achieve reasonable missing-key behavior. Given the excellent maximum probe lengths and overall query performance, Robin Hood probing with backshift deletion should be your default choice of hash table. You might notice that at 90% load, lookups are significantly slower than basic linear probing. This gap actually isn’t concerning, and explaining why is an interesting exercise7. Two-Way Chaining So, you’re still not satisfied with a maximum observed probe length of 12—you want to provably never iterate more than a constant number of buckets. Another class of hash tables based on Cuckoo hashing can provide this guarantee. Here, we will examine a particularly practical formulation known as Two-Way Chaining. Our table will still consist of a flat array of buckets, but each bucket will be able to hold a small handful of keys. When inserting an element, we will hash the key with two different functions, placing it into whichever corresponding bucket has more space. If both buckets happen to be filled, the entire table will grow and the insertion is retried. You might think this is crazy—in separate chaining, the expected maximum probe length scales with \(O(\frac{\lg N}{\lg \lg N})\), so wouldn’t this waste copious amounts of memory growing the table? It turns out adding a second hash function reduces the expected maximum to \(O(\lg\lg N)\), for reasons explored elsewhere. That makes it practical to cap the maximum bucket size at a relatively small number. Let’s implement a flat two-way chained table. We can measure how it performs with various bucket capacities: Two-WayChainingCapacity 2Capacity 4Capacity 8 ExistingMissingExistingMissingExistingMissing Insert (ns/key)165126123 Erase (ns/key)334254 Lookup (ns/key)323141354646 Average Probe0.070.470.752.733.608.96 Max Probe34681214 Memory Amplification16.004.002.00 Since every key can be found in one of two possible buckets, query times become essentially deterministic. Lookup times are especially impressive, only slightly lagging the Robin Hood table and having no penalty on missing keys. The average probe lengths indicate that most buckets are approximately half full, and the max probe lengths are strictly bounded by two times the bucket size. Memory efficiency does suffer at small bucket capacities (and hence insertion is slower on average due to growing the table), but is still reasonable for memory unconstrained use cases. Overall, two-way chaining is another good choice of hash table, at least when memory efficiency is not the highest priority. In the next section, we’ll also see how lookups can even further accelerated with prefetching and SIMD operations. Remember that deterministic queries might not matter if you haven’t already implemented incremental table growth. Cuckoo Hashing Cuckoo hashing involves storing keys in two separate tables, each of which holds one key per bucket. This scheme will guarantee that every key is stored in its ideal bucket in one of the two tables. Each key is hashed with two different functions and inserted using the following procedure: If at least one table’s bucket is empty, the key is inserted there. Otherwise, the key is inserted anyway, evicting one of the existing keys. The evicted key is transferred to the opposite table at its other possible position. If doing so evicts another existing key, go to 3. If the loop ends up evicting the key we’re trying to insert, we know it has found a cycle and hence must grow the table. Because Cuckoo hashing does not strictly bound the insertion sequence length, I didn’t benchmark it here, but it’s still an interesting option. Unrolling, Prefetching, and SIMD So far, the lookup benchmark has been implemented roughly like this: for(uint64_t i &#x3D; 0; i &lt; N; i++) { assert(table.find(keys[i]) &#x3D;&#x3D; values[i]); } Naively, this loop runs one lookup at a time. However, you might have noticed that we’ve been able to find keys faster than the CPU can load data from main memory—so something more complex must be going on. In reality, modern out-of-order CPUs can execute several iterations in parallel. Expressing the loop as a dataflow graph lets us build a simplified mental model of how it actually runs: the CPU is able to execute a computation whenever its dependencies are available. Here, green nodes are resolved, in-flight nodes are yellow, and white nodes have not begun: In this example, we can see that each iteration’s root node (i++) only requires the value of i from the previous step—not the result of find. Therefore, the CPU can run several find nodes in parallel, hiding the fact that each one takes ~100ns to fetch data from main memory. Unrolling There’s a common optimization strategy known as loop unrolling. Unrolling involves explicitly writing out the code for several semantic iterations inside each actual iteration of a loop. When each inner pseudo-iteration is independent, unrolling explicitly severs them from the loop iterator dependency chain. Most modern x86 CPUs can keep track of ~10 simultaneous pending loads, so let’s try manually unrolling our benchmark 10 times. The new code looks like the following, where index_of hashes the key but doesn’t do the actual lookup. uint64_t indices[10]; for(uint64_t i &#x3D; 0; i &lt; N; i +&#x3D; 10) { for(uint64_t j &#x3D; 0; j &lt; 10; j++) { indices[j] &#x3D; table.index_of(keys[i + j]); } for(uint64_t j &#x3D; 0; j &lt; 10; j++) { assert(table.find_index(indices[j]) &#x3D;&#x3D; values[i + j]); } } This isn’t true unrolling, since the inner loops introduce dependencies on j. However, it doesn’t matter in practice, as computing j is never a bottleneck. In fact, our compiler can automatically unroll the inner loop for us (clang in particular does this). Lookups (ns/find)NaiveUnrolled Separate Chaining (100%)3635 Linear (75%)3535 Quadratic (75%)3232 Double (75%)3837 Robin Hood (75%)3232 Two-Way Chaining (x4)4145 (+11.4%) Explicit unrolling has basically no effect, since the CPU was already able to saturate its pending load buffer. However, manual unrolling now lets us introduce software prefetching. Software Prefetching When traversing memory in a predictable pattern, the CPU is able to preemptively load data for future accesses. This capability, known as hardware prefetching, is the reason our flat tables are so fast to iterate. However, hash table lookups are inherently unpredictable: the address to load is determined by a hash function. That means hardware prefetching cannot help us. Instead, we can explicitly ask the CPU to prefetch address(es) we will load from in the near future. Doing so can’t speed up an individual lookup—we’d immediately wait for the result—but software prefetching can accelerate batches of queries. Given several keys, we can compute where each query will access the table, tell the CPU to prefetch those locations, and then start actually accessing the table. To do so, let’s make table.index_of prefetch the location(s) examined by table.find_indexed: In open-addressed tables, we prefetch the slot the key hashes to. In two-way chaining, we prefetch both buckets the key hashes to. Importantly, prefetching requests the entire cache line for the given address, i.e. the aligned 64-byte chunk of memory containing that address. That means surrounding data (e.g. the following keys) may also be loaded into cache. Lookups (ns/find)NaiveUnrolledPrefetched Separate Chaining (100%)363527 (-25.6%) Linear (75%)353523 (-35.5%) Quadratic (75%)323224 (-24.8%) Double (75%)383731 (-17.4%) Robin Hood (75%)323223 (-28.3%) Two-Way Chaining (x4)4145 (+11.4%)29 (-29.1%) Prefetching makes a big difference! Separate chaining benefits from prefetching the unpredictable initial load8. Linear tables with a low average probe length greatly benefit from prefetching. Quadratic and double-hashed probe sequences quickly leave the cache line (and require more computation), making prefetching a bit less effective. In two-way chaining, keys can always be found in a prefetched cache line—but each lookup requires fetching two locations, consuming extra load buffer slots. SIMD Modern CPUs provide SIMD (single instruction, multiple data) instructions that process multiple values at once. These operations are useful for probing: for example, we can load a batch of \(N\) keys and compare them with our query in parallel. In the best case, a SIMD probe sequence could run \(N\) times faster than checking each key individually. Let’s implement SIMD-accelerated lookups for linear probing and two-way chaining, with \(N&#x3D;4\): Lookups (ns/find)NaiveUnrolledPrefetched Linear (75%)353523 SIMD Linear (75%)40 (+13.7%)43 (+20.7%)27 (+20.1%) Two-Way Chaining (x4)414529 SIMD Two-Way Chaining (x4)34 (-17.2%)35 (-21.9%)19 (-34.8%) Unfortunately, SIMD lookups are slower for the linearly probed table—an average probe length of \(1.5\) meant the overhead of setting up an (unaligned) SIMD comparison wasn’t worth it. Two-way chaining, on the other hand, gets quite a bit faster. Buckets are on average half full, and we can find a key using at most two (aligned) SIMD comparisons. Benchmark Data The linear and Robin Hood tables use backshift deletion. The two-way SIMD table has capacity-4 buckets and uses AVX2 256-bit SIMD operations. Insert, erase, find, find unrolled, find prefetched, and find missing report nanoseconds per operation. Average probe, max probe, average missing probe, and max missing probe report number of iterations. Clear and iterate report milliseconds for the entire operation. Memory reports the ratio of allocated memory to size of stored data. Table Insert Erase Find Unrolled Prefetched Avg Probe Max Probe Find DNE DNE Avg DNE Max Clear (ms) Iterate (ms) Memory Chaining 50 120 112 28 27 21 1.2 7 28 0.5 7 117.1 16.4 2.5 Chaining 100 130 135 36 35 27 1.5 10 41 1.0 9 120.1 14.0 2.0 Chaining 200 130 179 51 51 38 2.0 12 69 2.0 13 133.7 14.6 1.8 Chaining 500 151 305 103 109 77 3.5 21 186 5.0 21 157.2 22.9 1.6 Linear 50 48 47 20 20 16 0.5 43 38 1.5 50 1.1 4.8 2.0 Linear 75 60 83 36 36 23 1.5 181 89 7.5 243 0.8 2.4 1.3 Linear 90 73 149 46 46 30 4.5 1604 134 49.7 1403 0.6 1.0 1.1 Quadratic 50 50 31 21 20 16 0.4 19 86 4.7 56 1.1 5.2 2.0 Quadratic 75 60 36 32 32 24 1.0 47 97 5.1 87 0.7 2.1 1.3 Quadratic 90 72 38 43 43 32 1.8 112 179 17.5 289 0.6 1.0 1.1 Double 50 72 31 28 28 24 0.4 17 90 4.4 62 1.1 5.6 2.0 Double 75 77 41 38 37 31 0.8 42 92 4.7 66 0.7 2.3 1.3 Double 90 87 46 47 48 42 1.6 116 180 16.2 344 0.6 0.9 1.1 Robin Hood 50 55 32 20 19 15 0.5 12 34 0.7 12 1.1 4.8 2.0 Robin Hood 75 82 48 32 32 22 1.5 24 76 1.9 25 0.7 2.1 1.3 Robin Hood 90 125 60 80 78 41 4.5 58 114 5.0 67 0.6 1.2 1.1 Two-way x2 165 33 32 30 19 0.1 3 31 0.5 4 9.0 11.8 16.0 Two-way x4 126 42 41 45 29 0.7 6 35 2.7 8 2.3 3.6 4.0 Two-way x8 123 54 46 50 40 3.6 12 46 9.0 14 1.1 1.5 2.0 Two-way SIMD 152 62 34 35 19 0.3 1 25 1.0 1 2.2 3.6 4.0 Footnotes Actually, this prior shouldn’t necessarily apply to hash tables, which by definition have unpredictable access patterns. However, we will see that flat storage still provides performance benefits, especially for linear probing, whole-table iteration, and serial accesses. ↩ To account for various deletion strategies, the find-missing benchmark was run after the insertion &amp; erasure tests, and after inserting a second set of elements. Looking up the latter set of elements was also benchmarked, but results are omitted here, as the tombstone-based tables were simply marginally slower across the board. ↩ AMD 5950X @ 4.4 GHz + DDR4 3600/CL16, Windows 11 Pro 22H2, MSVC 19.34.31937. No particular effort was made to isolate the benchmarks, but they were repeatable on an otherwise idle system. Each was run 10 times and average results are reported. ↩ Virtual memory allows separate regions of our address space to refer to the same underlying pages. If we map our table twice, one after the other, probe traversal never has to check whether it needs to wrap around to the start of the table. Instead, it can simply proceed into the second mapping—since writes to one range are automatically reflected in the other, this just works.  ↩ You might expect indexing a prime-sized table to require an expensive integer mod/div, but it actually doesn’t. Given a fixed set of possible primes, a prime-specific indexing operation can be selected at runtime based on the current size. Since each such operation is a modulo by a constant, the compiler can translate it to a fast integer multiplication. ↩ A Sattolo traversal causes each lookup to directly depend on the result of the previous one, serializing execution and preventing the CPU from hiding memory latency. Hence, finding each element took ~100ns in every type of open table: roughly equal to the latency of fetching data from RAM. Similarly, each lookup in the low-load separately chained table took ~200ns, i.e. \((1 + \text{Chain Length}) * \text{Memory Latency}\). ↩ First, any linearly probed table requires the same total number of probes to look up each element once—that’s why the average probe length never improved. Every hash collision requires moving some key one slot further from its index, i.e. adds one to the total probe count. Second, the cost of a lookup, per probe, can decrease with the number of probes required. When traversing a long chain, the CPU can avoid cache misses by prefetching future accesses. Therefore, allocating a larger portion of the same total probe count to long chains can increase performance. Hence, linear probing tops this particular benchmark—but it’s not the most useful metric in practice. Robin Hood probing greatly decreases maximum probe length, making query performance far more consistent even if technically slower on average. Anyway, you really don’t need a 90% load factor—just use 75% for consistently high performance. ↩ Is the CPU smart enough to automatically prefetch addresses contained within the explicitly prefetched cache line? I’m pretty sure it’s not, but that would be cool. ↩</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -130,181 +188,7 @@
                         <a class="article-summary-link article-summary-box-outer" href="https://thenumbat.github.io/Bronx-Zoo/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Bronx Zoo, New York, NY, 2022</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/BTC/"
-                        open
-                      >
-                        <summary class="article-expander__title">I&#x27;m selling BTC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/BTC/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I&#x27;m selling BTC</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-13 datetime="2023-03-13T00:00:00.000Z">2023-03-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-13 datetime="2023-03-13T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/py_lambda/"
-                        open
-                      >
-                        <summary class="article-expander__title">[Python][For noobs] What is anonymous/lambda function?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/py_lambda/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>[Python][For noobs] What is anonymous/lambda function?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-12 datetime="2023-03-12T00:00:00.000Z">2023-03-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-12 datetime="2023-03-12T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/REBK10/"
-                        open
-                      >
-                        <summary class="article-expander__title">Reverse Engineering for Beginners: 10-years anniversary</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/REBK10/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Reverse Engineering for Beginners: 10-years anniversary</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-11 datetime="2023-03-11T00:00:00.000Z">2023-03-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-11 datetime="2023-03-11T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/hakank/"
-                        open
-                      >
-                        <summary class="article-expander__title">[SAT][SMT][CS] Håkan Kjellerstrand&#x27;s work</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/hakank/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>[SAT][SMT][CS] Håkan Kjellerstrand&#x27;s work</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
+                              <span>Bronx Zoo, New York, NY, 2023</span>
                             </span>
                           </div>
                         </a>
@@ -577,389 +461,11 @@ In this post, I will highlight Emacs&#x27; thin waist, which I think is worthy o
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-06 datetime="2023-03-06T00:00:00.000Z">2023-03-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-06 datetime="2023-03-06T00:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T00:00:00.000Z">2023-03-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T00:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/NoSQL/"
-                        open
-                      >
-                        <summary class="article-expander__title">SQL vs NoSQL: shortest possible explanation</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/NoSQL/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>SQL vs NoSQL: shortest possible explanation</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T07:30:12.000Z">2023-03-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T07:30:12.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fasterthanli.me</button>
-                  <a class="source-heading__link" href="https://fasterthanli.me">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-12"
-                        open
-                      >
-                        <summary class="article-expander__title">Extra credit</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-12">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We&#x27;ve achieved our goals already with this series: we have a web service written
-in Rust, built into a Docker image with nix, with a nice dev shell, that we can
-deploy to fly.io.
-But there&#x27;s always room for improvement, and so I wanted to talk about a few
-things we didn&#x27;t bother doing in the previous chapters.
-clash-geoip available in the dev shell</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-11"
-                        open
-                      >
-                        <summary class="article-expander__title">Generating a docker image with nix</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-11">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>There it is. The final instalment.
-Over the course of this series, we&#x27;ve built a very useful Rust web service
-that shows us colored ASCII art cats, and we&#x27;ve packaged it with docker, and
-deployed it to https://fly.io.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-10"
-                        open
-                      >
-                        <summary class="article-expander__title">Making a dev shell with nix flakes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-10">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>In the previous chapter, we&#x27;ve made a nix &quot;dev shell&quot; that contained the fly.io
-command-line utility, &quot;flyctl&quot;.
-That said, that&#x27;s not how I want us to define a dev shell.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-9"
-                        open
-                      >
-                        <summary class="article-expander__title">Learning Nix from the bottom up</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-9">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Remember the snapshot we made allll the way back in Part 1? Now&#x27;s the time to use it.
-Well, make sure you&#x27;ve committed and pushed all your changes, but when you&#x27;re
-ready, let&#x27;s go back in time to before we installed anything catscii-specific in
-our VM.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-8"
-                        open
-                      >
-                        <summary class="article-expander__title">Doing geo-location and keeping analytics</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-8">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I sold you on some additional functionality for catscii last chapter, and we
-got caught up in private registry / docker shenanigans, so, now, let&#x27;s resume
-web development as promised.
-
-                        
-                            
-                                Adding geolocation</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-7"
-                        open
-                      >
-                        <summary class="article-expander__title">Using the Shipyard private crate registry with Docker</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-7">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Wait wait wait, so we&#x27;re not talking about nix yet?
-Well, no! The service we have is pretty simple, and I want to complicate things
-a bit, to show how things would work in both the Dockerfile and the nix
-scenario.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-6"
-                        open
-                      >
-                        <summary class="article-expander__title">Deploying catscii to fly.io</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-6">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Disclosure: 
-Because I used to work for fly.io, I still benefit from an employee discount
-at the time of this writing: I don&#x27;t have to pay for anything deployed there
-for now.
-fly.io is still sponsoring me for developing
-hring, but this isn&#x27;t a sponsored post. It&#x27;s
-just a good fit for what we&#x27;re doing here, with a generous free tier.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-5"
-                        open
-                      >
-                        <summary class="article-expander__title">Writing a Dockerfile for catscii</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-5">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Now that our service is production-ready, it&#x27;s time to deploy it somewhere.
-There&#x27;s a lot of ways to approach this: what we are going to do, though, is
-build a docker image. Or, I should say, an OCI
-image.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4"
-                        open
-                      >
-                        <summary class="article-expander__title">Serving ASCII cats over HTTP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-4">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Our catscii program does everything we want it to do, except that it&#x27;s a
-command-line application rather than a web server. Let&#x27;s fix that.
-axum</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3"
-                        open
-                      >
-                        <summary class="article-expander__title">Printing ASCII cats to the terminal</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-3">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Now that our development environment is all set up, let&#x27;s make something useful!
-catscii crate</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2"
-                        open
-                      >
-                        <summary class="article-expander__title">Developing over SSH</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-2">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>With the previous part&#x27;s VM still running, let&#x27;s try connecting to our
-machine over SSH.
-
-                        
-                            
-                                Network addresses, loopback and IP nets</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1"
-                        open
-                      >
-                        <summary class="article-expander__title">Setting up a local Ubuntu Server VM</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://fasterthanli.me/series/building-a-rust-service-with-nix/part-1">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://fasterthanli.me/img/logo-square-2.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The first step to using Nix to build Rust is to do so without Nix, so that
-when we finally do, we can feel the difference.
-There&#x27;s many ways to go about this: everyone has their favorite code editor,
-base Linux distribution (there&#x27;s even a NixOS
-distribution, which I won&#x27;t cover). Some folks like to develop on macOS first,
-and then build for Linux.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/CRC/"
-                        open
-                      >
-                        <summary class="article-expander__title">[Math] Cyclic redundancy check: yet another interesting feature</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/CRC/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>[Math] Cyclic redundancy check: yet another interesting feature</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1455,271 +961,10 @@ import ni18n
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-25 datetime="2023-02-25T00:00:00.000Z">2023-02-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-25 datetime="2023-02-25T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/log_reminders/"
-                        open
-                      >
-                        <summary class="article-expander__title">[Math][Python][Bash] Printing reminders picked using lorarithmic scale</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/log_reminders/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>[Math][Python][Bash] Printing reminders picked using lorarithmic scale</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-22 datetime="2023-02-22T00:00:00.000Z">2023-02-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-22 datetime="2023-02-22T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/discourse/"
-                        open
-                      >
-                        <summary class="article-expander__title">discourse.yurichev.com</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/discourse/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>discourse.yurichev.com</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/wireguard2/"
-                        open
-                      >
-                        <summary class="article-expander__title">VPN from Android to Linux: WireGuard working example</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/wireguard2/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>VPN from Android to Linux: WireGuard working example</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-21 datetime="2023-02-21T00:00:00.000Z">2023-02-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-21 datetime="2023-02-21T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >matklad</button>
-                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://matklad.github.io/2023/02/21/why-SAT-is-hard.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Why SAT Is Hard</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/02/21/why-SAT-is-hard.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>An introductory post about complexity theory today!
-It is relatively well-known that there exist so-called NP-complete problems --- particularly hard problems, such that, if you solve one of them efficiently, you can solve all of them efficiently.
-I think I&#x27;ve learned relatively early that, e.g., SAT is such a hard problem.
-I&#x27;ve similarly learned a bunch of specific examples of equally hard problems, where solving one solves the other.
-However, why SAT is harder than any NP problem remained a mystery for a rather long time to me.
-It is a shame --- this fact is rather intuitive and easy to understand.
-This post is my attempt at an explanation.
-It assumes some familiarity with the space, but it&#x27;s not going to be too technical or thorough.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-20 datetime="2023-02-20T00:00:00.000Z">2023-02-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-20 datetime="2023-02-20T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dennis Yurichev&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://yurichev.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://yurichev.org/log2_3/"
-                        open
-                      >
-                        <summary class="article-expander__title">[Math] Binary logarithm, part III</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://yurichev.org/log2_3/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>[Math] Binary logarithm, part III</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-18 datetime="2023-02-18T06:00:00.000Z">2023-02-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-18 datetime="2023-02-18T06:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  ></button>
-                  <a class="source-heading__link" href="https://ayazhafiz.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ayazhafiz.com/articles/23/a-lambda-calculus-with-coroutines-and-heapless-closures"
-                        open
-                      >
-                        <summary class="article-expander__title">A Lambda Calculus With Coroutines and Heapless, Directly-Called Closures</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ayazhafiz.com/articles/23/a-lambda-calculus-with-coroutines-and-heapless-closures">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>co_lc is a lambda calculus extended with stackful coroutines. An efficient implementation for the compilation and virtual machine execution of co_lc is presented. The implementation supports tail-call optimization and eliminates all indirect calls by defunctionalizing closures.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/4458186968">
-        <time id="build-timestamp" datetime="2023-03-19T01:09:30.535Z">2023-03-19T01:09:30.535Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/4498759817">
+        <time id="build-timestamp" datetime="2023-03-23T08:59:31.283Z">2023-03-23T08:59:31.283Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
