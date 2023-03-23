@@ -7,8 +7,6 @@
 sources:
   - href: https://nullprogram.com/feed/
   - href: https://thenumb.at/feed.xml
-  - href: https://yurichev.com/blog/rss.xml
-  - href: https://fasterthanli.me/index.xml
   
   # Tech Blogs from Industry
   - href: https://netflixtechblog.com/feed
