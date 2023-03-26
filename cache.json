@@ -11,7 +11,7 @@
           "description": "Suppose you’re not using a C runtime on Linux, and instead you’re\nprogramming against its system call API. It’s long-term and stable after\nall. Memory management and buffered I/O are easily\nsolved, but a lot of software benefits from concurrency. It would be nice\nto also have thread spawning capability. This article will demonstrate a\nsimple, practical, and robust approach to spawning and managing threads\nusing only raw system calls. It only takes about a dozen lines of C,\nincluding 4 or so inline assembly instructions.\nThe catch is that there’s no way to avoid using a bit of assembly. Neither\nthe clone nor clone3 system calls have threading semantics compatible\nwith C, so you’ll need to paper over it with a bit of inline assembly per\narchitecture. This article will focus on x86-64, but th…",
           "link": "https://nullprogram.com/blog/2023/03/23/",
           "publishedOn": "2023-03-23T05:32:41.000Z",
-          "wordCount": 2000,
+          "wordCount": 2003,
           "title": "Practical libc-free threading on Linux",
           "imageUrl": null
         }
