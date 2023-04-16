@@ -31,16 +31,6 @@
           "wordCount": 5592,
           "title": "Optimizing Open Addressing",
           "imageUrl": null
-        },
-        {
-          "id": "https://thenumbat.github.io/Bronx-Zoo/",
-          "author": null,
-          "description": "Bronx Zoo, New York, NY, 2023",
-          "link": "https://thenumbat.github.io/Bronx-Zoo/",
-          "publishedOn": "2023-03-14T00:00:00.000Z",
-          "wordCount": 62,
-          "title": "NYC: Bronx Zoo",
-          "imageUrl": null
         }
       ]
     },
@@ -48,38 +38,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/9bef9962dcb7",
-          "author": "Netflix Technology Blog",
-          "description": "The media understanding platform serves as an abstraction layer between Machine Learning (ML) algos and various applications.",
-          "link": "https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-03-14T15:48:28.000Z",
-          "wordCount": 6451,
-          "title": "Building a Media Understanding Platform for ML Innovations",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:854/0*6aJVHbaKKjAKvc3X"
-        },
-        {
-          "id": "https://medium.com/p/99332231e541",
-          "author": "Netflix Technology Blog",
-          "description": "By Burak Bacioglu, Meenakshi Jindal",
-          "link": "https://netflixtechblog.com/elasticsearch-indexing-strategy-in-asset-management-platform-amp-99332231e541?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-03-10T22:59:11.000Z",
-          "wordCount": 5366,
-          "title": "Elasticsearch Indexing Strategy in Asset Management Platform (AMP)",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*DQfg8USKquc3t9tdayuvQA.png"
-        },
-        {
-          "id": "https://medium.com/p/46fe225c35c9",
-          "author": "Netflix Technology Blog",
-          "description": "By Meenakshi Jindal",
-          "link": "https://netflixtechblog.com/data-reprocessing-pipeline-in-asset-management-platform-netflix-46fe225c35c9?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-03-10T22:58:47.000Z",
-          "wordCount": 4132,
-          "title": "Data Reprocessing Pipeline in Asset Management Platform @Netflix",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*1-HX6b39H2L9PwsyRaEBxA.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Nim Programming Language",
@@ -136,6 +95,26 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2023/04/13/reasonable-bootstrap.html",
+          "author": null,
+          "description": "Compilers for systems programming languages (C, C++, Rust, Zig) tend to be implemented in the languages themselves.\nThe idea being that the current version of the compiler is built using some previous version.\nBut how can you get a working compiler if you start out from nothing?",
+          "link": "https://matklad.github.io/2023/04/13/reasonable-bootstrap.html",
+          "publishedOn": "2023-04-13T00:00:00.000Z",
+          "wordCount": 941,
+          "title": "Reasonable Bootstrap",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html",
+          "author": null,
+          "description": "More or less the title this time, but first, a story about SIMD. There are three\nlevels of understanding how SIMD works (well, at least I am level 3 at the moment):",
+          "link": "https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html",
+          "publishedOn": "2023-04-09T00:00:00.000Z",
+          "wordCount": 2673,
+          "title": "Can You Trust a Compiler to Optimize Your Code?",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2023/04/02/ub-might-be-the-wrong-term-for-newer-languages.html",
           "author": null,
