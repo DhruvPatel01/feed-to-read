@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-23T01:04:14.598Z</id>
+    <id>urn:2023-04-30T01:04:36.893Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-23T01:04:14.598Z</updated>
+    <updated>2023-04-30T01:04:36.893Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[My favorite C compiler flags during development]]></title>
+        <id>https://nullprogram.com/blog/2023/04/29/</id>
+        <link href="https://nullprogram.com/blog/2023/04/29/"/>
+        <updated>2023-04-29T22:55:25.000Z</updated>
+        <summary type="html"><![CDATA[The major compilers have an enormous number of knobs. Most are
+highly specialized, but others are generally useful even if uncommon. For
+warnings, the venerable -﻿Wall -﻿Wextra is a good start, but
+circumstances improve by tweaking this warning set. This article covers
+high-hitting development-time options in GCC, Clang, and MSVC that ought
+to get more consideration.
+There’s an irony that the more you use these options, the less useful they
+become. Given a reasonable workflow, they are a harsh mistress in a fast,
+tight feedback loop quickly breaking the habits that cause warnings and
+errors. It’s a kind of self-improvement, where eventually most findings
+will be false positives. With heuristics internalized, you will be able
+spot the same issues just reading code — a handy skill during cod…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improved Alerting with Atlas Streaming Eval]]></title>
+        <id>https://medium.com/p/e691c60dc61e</id>
+        <link href="https://netflixtechblog.com/improved-alerting-with-atlas-streaming-eval-e691c60dc61e?source=rss----2615bd06b42e---4"/>
+        <updated>2023-04-27T20:52:51.000Z</updated>
+        <summary type="html"><![CDATA[Ruchir Jha, Brian Harrington, Yingwu Zhao]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Oriented Parallel Value Interner]]></title>
+        <id>https://matklad.github.io/2023/04/23/data-oriented-parallel-value-interner.html</id>
+        <link href="https://matklad.github.io/2023/04/23/data-oriented-parallel-value-interner.html"/>
+        <updated>2023-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post, I will present a theoretical design for an interner.
+It should be fast, but there will be no benchmarks as I haven't implemented the thing.
+So it might actually be completely broken or super slow for one reason or another.
+Still, I think there are a couple of neat ideas, which I would love to call out.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reasonable Bootstrap]]></title>
         <id>https://matklad.github.io/2023/04/13/reasonable-bootstrap.html</id>
@@ -141,62 +185,6 @@ How to write quines from first principles.</li>
 <p>Like, repost, or comment on this post on <a href="https://fantastic.earth/@abnv/110122311237335886">Mastodon</a>.</p>]]></summary>
         <author>
             <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Version 2.0.0 RC2]]></title>
-        <id>https://nim-lang.org//blog/2023/03/31/version-20-rc2.html</id>
-        <link href="https://nim-lang.org//blog/2023/03/31/version-20-rc2.html"/>
-        <updated>2023-03-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The second release candidate (RC2) for Nim version 2.0 is ready for testing.
-Don’t panic! One of our design goals was to make it easy to write code that works with Nim version 1 and 2.
-Many important packages already work with version 2 and as usual many innovations are behind switches
-that can be enabled or disabled on a per module level thanks to the .experimental pragma.
-Version 2 is based on the same codebase as version 1, it’s an evolution, not a revolution.
-Compared to the RC1, we have many ORC-related bugfixes,
-but the most crucial difference for ordinary users
-are the vastly improved error messages:
-proc foo(s: string) = discard
-proc foo(x, y: int) = discard
-proc foo(c: char) = discard
-
-foo 4
-
-produces:
-temp3.nim(11, 1) Error: type mismatch
-Expression: foo 4
-  [1] 4: int literal(4)…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Is a Scalable Language]]></title>
-        <id>https://matklad.github.io/2023/03/28/rust-is-a-scalable-language.html</id>
-        <link href="https://matklad.github.io/2023/03/28/rust-is-a-scalable-language.html"/>
-        <updated>2023-03-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In my last post about Zig and Rust, I mentioned that Rust is a scalable language.
-Let me expand on this a bit.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zig And Rust]]></title>
-        <id>https://matklad.github.io/2023/03/26/zig-and-rust.html</id>
-        <link href="https://matklad.github.io/2023/03/26/zig-and-rust.html"/>
-        <updated>2023-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post will be a bit all over the place.
-Several months ago, I wrote Hard Mode Rust, exploring an allocation-conscious style of programming.
-In the ensuing discussion, @jamii name-dropped TigerBeetle, a reliable, distributed, fast, and small database written in Zig in a similar style, and, well, I now find myself writing Zig full-time, after more than seven years of Rust.
-This post is a hand-wavy answer to the why? question.
-It is emphatically not a balanced and thorough comparison of the two languages.
-I haven't yet written my 100k lines of Zig to do that.
-(if you are looking for a more general what the heck is Zig, I can recommend @jamii's post).
-In fact, this post is going to be less about languages, and more about styles of writing software (but pre-existing knowledge of Rust and Zig would be very helpful).
-Without further caveats, let's get started.]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>

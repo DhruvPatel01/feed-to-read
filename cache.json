@@ -4,7 +4,18 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2023/04/29/",
+          "author": null,
+          "description": "The major compilers have an enormous number of knobs. Most are\nhighly specialized, but others are generally useful even if uncommon. For\nwarnings, the venerable -﻿Wall -﻿Wextra is a good start, but\ncircumstances improve by tweaking this warning set. This article covers\nhigh-hitting development-time options in GCC, Clang, and MSVC that ought\nto get more consideration.\nThere’s an irony that the more you use these options, the less useful they\nbecome. Given a reasonable workflow, they are a harsh mistress in a fast,\ntight feedback loop quickly breaking the habits that cause warnings and\nerrors. It’s a kind of self-improvement, where eventually most findings\nwill be false positives. With heuristics internalized, you will be able\nspot the same issues just reading code — a handy skill during cod…",
+          "link": "https://nullprogram.com/blog/2023/04/29/",
+          "publishedOn": "2023-04-29T22:55:25.000Z",
+          "wordCount": 2213,
+          "title": "My favorite C compiler flags during development",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Max Slater",
@@ -16,7 +27,18 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/e691c60dc61e",
+          "author": "Netflix Technology Blog",
+          "description": "Ruchir Jha, Brian Harrington, Yingwu Zhao",
+          "link": "https://netflixtechblog.com/improved-alerting-with-atlas-streaming-eval-e691c60dc61e?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-04-27T20:52:51.000Z",
+          "wordCount": 4018,
+          "title": "Improved Alerting with Atlas Streaming Eval",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*OEqSEUO7E-XcFzjkvgKtxA.png"
+        }
+      ]
     },
     {
       "title": "Nim Programming Language",
@@ -31,16 +53,6 @@
           "publishedOn": "2023-04-01T00:00:00.000Z",
           "wordCount": 1876,
           "title": "This Month with Nim: March 2023",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2023/03/31/version-20-rc2.html",
-          "author": null,
-          "description": "The second release candidate (RC2) for Nim version 2.0 is ready for testing.\nDon’t panic! One of our design goals was to make it easy to write code that works with Nim version 1 and 2.\nMany important packages already work with version 2 and as usual many innovations are behind switches\nthat can be enabled or disabled on a per module level thanks to the .experimental pragma.\nVersion 2 is based on the same codebase as version 1, it’s an evolution, not a revolution.\nCompared to the RC1, we have many ORC-related bugfixes,\nbut the most crucial difference for ordinary users\nare the vastly improved error messages:\nproc foo(s: string) = discard\nproc foo(x, y: int) = discard\nproc foo(c: char) = discard\n\nfoo 4\n\nproduces:\ntemp3.nim(11, 1) Error: type mismatch\nExpression: foo 4\n  [1] 4: int literal(4)…",
-          "link": "https://nim-lang.org//blog/2023/03/31/version-20-rc2.html",
-          "publishedOn": "2023-03-31T00:00:00.000Z",
-          "wordCount": 1113,
-          "title": "Version 2.0.0 RC2",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
@@ -74,6 +86,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/04/23/data-oriented-parallel-value-interner.html",
+          "author": null,
+          "description": "In this post, I will present a theoretical design for an interner.\nIt should be fast, but there will be no benchmarks as I haven't implemented the thing.\nSo it might actually be completely broken or super slow for one reason or another.\nStill, I think there are a couple of neat ideas, which I would love to call out.",
+          "link": "https://matklad.github.io/2023/04/23/data-oriented-parallel-value-interner.html",
+          "publishedOn": "2023-04-23T00:00:00.000Z",
+          "wordCount": 2866,
+          "title": "Data Oriented Parallel Value Interner",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/04/13/reasonable-bootstrap.html",
           "author": null,
           "description": "Compilers for systems programming languages (C, C++, Rust, Zig) tend to be implemented in the languages themselves.\nThe idea being that the current version of the compiler is built using some previous version.\nBut how can you get a working compiler if you start out from nothing?",
@@ -101,26 +123,6 @@
           "publishedOn": "2023-04-02T00:00:00.000Z",
           "wordCount": 561,
           "title": "UB Might Be a Wrong Term for Newer Languages",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/03/28/rust-is-a-scalable-language.html",
-          "author": null,
-          "description": "In my last post about Zig and Rust, I mentioned that Rust is a scalable language.\nLet me expand on this a bit.",
-          "link": "https://matklad.github.io/2023/03/28/rust-is-a-scalable-language.html",
-          "publishedOn": "2023-03-28T00:00:00.000Z",
-          "wordCount": 699,
-          "title": "Rust Is a Scalable Language",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/03/26/zig-and-rust.html",
-          "author": null,
-          "description": "This post will be a bit all over the place.\nSeveral months ago, I wrote Hard Mode Rust, exploring an allocation-conscious style of programming.\nIn the ensuing discussion, @jamii name-dropped TigerBeetle, a reliable, distributed, fast, and small database written in Zig in a similar style, and, well, I now find myself writing Zig full-time, after more than seven years of Rust.\nThis post is a hand-wavy answer to the why? question.\nIt is emphatically not a balanced and thorough comparison of the two languages.\nI haven't yet written my 100k lines of Zig to do that.\n(if you are looking for a more general what the heck is Zig, I can recommend @jamii's post).\nIn fact, this post is going to be less about languages, and more about styles of writing software (but pre-existing knowledge of Rust and Zig would be very helpful).\nWithout further caveats, let's get started.",
-          "link": "https://matklad.github.io/2023/03/26/zig-and-rust.html",
-          "publishedOn": "2023-03-26T00:00:00.000Z",
-          "wordCount": 3004,
-          "title": "Zig And Rust",
           "imageUrl": null
         }
       ]
