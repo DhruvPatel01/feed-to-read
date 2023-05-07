@@ -8,10 +8,10 @@
         {
           "id": "https://nullprogram.com/blog/2023/04/29/",
           "author": null,
-          "description": "The major compilers have an enormous number of knobs. Most are\nhighly specialized, but others are generally useful even if uncommon. For\nwarnings, the venerable -﻿Wall -﻿Wextra is a good start, but\ncircumstances improve by tweaking this warning set. This article covers\nhigh-hitting development-time options in GCC, Clang, and MSVC that ought\nto get more consideration.\nThere’s an irony that the more you use these options, the less useful they\nbecome. Given a reasonable workflow, they are a harsh mistress in a fast,\ntight feedback loop quickly breaking the habits that cause warnings and\nerrors. It’s a kind of self-improvement, where eventually most findings\nwill be false positives. With heuristics internalized, you will be able\nspot the same issues just reading code — a handy skill during cod…",
+          "description": "This article was discussed on Hacker News and on reddit.\nThe major compilers have an enormous number of knobs. Most are\nhighly specialized, but others are generally useful even if uncommon. For\nwarnings, the venerable -﻿Wall -﻿Wextra is a good start, but\ncircumstances improve by tweaking this warning set. This article covers\nhigh-hitting development-time options in GCC, Clang, and MSVC that ought\nto get more consideration.\nThere’s an irony that the more you use these options, the less useful they\nbecome. Given a reasonable workflow, they are a harsh mistress in a fast,\ntight feedback loop quickly breaking the habits that cause warnings and\nerrors. It’s a kind of self-improvement, where eventually most findings\nwill be false positives. With heuristics internalized, you will be able\nspot the…",
           "link": "https://nullprogram.com/blog/2023/04/29/",
           "publishedOn": "2023-04-29T22:55:25.000Z",
-          "wordCount": 2213,
+          "wordCount": 2223,
           "title": "My favorite C compiler flags during development",
           "imageUrl": null
         }
@@ -29,12 +29,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/ba1c7a1c7835",
+          "author": "Netflix Technology Blog",
+          "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
+          "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-1-ba1c7a1c7835?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-05-04T21:32:37.000Z",
+          "wordCount": 6451,
+          "title": "Migrating Critical Traffic At Scale with No Downtime — Part 1",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1075/1*Xq_jAychfflCMguIEhqKKw.png"
+        },
+        {
           "id": "https://medium.com/p/e691c60dc61e",
           "author": "Netflix Technology Blog",
           "description": "Ruchir Jha, Brian Harrington, Yingwu Zhao",
           "link": "https://netflixtechblog.com/improved-alerting-with-atlas-streaming-eval-e691c60dc61e?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-04-27T20:52:51.000Z",
-          "wordCount": 4018,
+          "wordCount": 4021,
           "title": "Improved Alerting with Atlas Streaming Eval",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*OEqSEUO7E-XcFzjkvgKtxA.png"
         }
@@ -44,18 +54,7 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2023/04/01/this-month-with-nim.html",
-          "author": null,
-          "description": "Binance\nAuthor: Juan Carlos\nTrade Bitcoin, USD and Gold using Nim!\nIncludes examples, API documentation, giftcards maker, futures maker,\nleveraged perpetual futures automated trading bots with TSL/SL/TP/PNL,\nmake your own strategy, code Nim and make some money.\nLichess BOT Annie\nAuthor: Tsoj\nI want to introduce you to Annie, a chess bot for Lichess.\nShe’s excited about exploring the more intricate sides of chess.\nHer favorite openings are the cloud variations and she is a very enthusiastic fan of en passant in every imaginable form.\nAnnie’s handcrafted, large-table powered evaluation was trained on no fewer than six million, four hundred and thirty-four positions from games played on Lichess.\nNot just the games of grandmasters, but the games of noobs and sub-800 Elo players too. On top of …",
-          "link": "https://nim-lang.org//blog/2023/04/01/this-month-with-nim.html",
-          "publishedOn": "2023-04-01T00:00:00.000Z",
-          "wordCount": 1876,
-          "title": "This Month with Nim: March 2023",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": null,
@@ -69,13 +68,13 @@
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
       "articles": [
         {
-          "id": "https://notes.abhinavsarkar.net/2023/links-23-03",
+          "id": "https://notes.abhinavsarkar.net/2023/links-23-04",
           "author": null,
-          "description": "<p>Here are some interesting things I read on the internet in March 2023:</p>\n\n<h2 id=\"haskell\">Haskell</h2>\n\n<ul>\n  <li><a href=\"https://web.archive.org/web/3/https://mihai.page/evolving-is-digit/\">Evolving <code class=\"language-plaintext highlighter-rouge\">isDigit</code></a> <br />\nUsing Genetic algorithms to evolve a Haskell program that determines if a character is a digit.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://typeclasses.substack.com/p/memfd-an-example-of-haskell-and-c\">memfd: An example of Haskell and C</a> <br />\nA simple example of how to call C code from Haskell.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://sriramsami.com/haskell-optimization/\">Optimizing Haskell Programs</a> <br />\nA guide to optimizing Haskell programs.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://www.lambdabytes.io/articles/defectprocess/\">The Source Code of Defect Process</a> <br />\nAn analysis of the source code of the Defect Process video game written in Haskell.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://typeclasses.substack.com/p/whats-new-in-ghc-2021\">What’s new in GHC 2021</a> <br />\nA summary of the new features in GHC 2021 language.</li>\n</ul>\n\n<h2 id=\"nix\">Nix</h2>\n\n<ul>\n  <li><a href=\"https://web.archive.org/web/3/https://typeclasses.substack.com/p/flakes-nixos-desktop\">7.5 years of NixOS on the desktop, cleaned up with Flakes</a> <br />\nA guide to using NixOS on the desktop.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://bmcgee.ie/posts/2022/11/getting-nixos-to-keep-a-secret/\">Getting NixOS to keep a secret</a> <br />\nA guide on how to use secrets in NixOS.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://jvns.ca/blog/2023/03/03/how-do-nix-builds-work-/\">How do Nix builds work?</a> <br />\nAn exploration of how Nix builds work.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://jvns.ca/blog/2023/02/28/some-notes-on-using-nix/\">Some notes on using Nix</a> <br />\nSome notes on using Nix as a beginner.</li>\n</ul>\n\n<h2 id=\"zig\">Zig</h2>\n\n<ul>\n  <li><a href=\"https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/assorted-thoughts-on-zig-and-rust/\">Assorted thoughts on Zig (and Rust)</a> <br />\nA comparison of Zig and Rust.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://matklad.github.io/2023/03/26/zig-and-rust.html\">Zig and Rust</a> <br />\nAnother comparison of Zig and Rust, from the point of view of writing reliable software.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://www.openmymind.net/Zig-Quirks/\">Zig Quirks</a> <br />\nSome quirks of the Zig programming language.</li>\n</ul>\n\n<h2 id=\"programming-languages-theory\">Programming Languages Theory</h2>\n\n<ul>\n  <li><a href=\"https://web.archive.org/web/3/https://yangdanny97.github.io/blog/2020/05/29/chocopy-typechecker\">Chocopy Hacking Part 1: Building a compiler frontend in Python</a> <br />\nBuilding a compiler frontend in Python for the Chocopy programming language.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://yangdanny97.github.io/blog/2021/08/26/chocopy-jvm-backend\">Chocopy Hacking Part 2: Compiling to JVM</a> <br />\nCompiling Chocopy to JVM bytecode.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://yangdanny97.github.io/blog/2022/10/11/chocopy-wasm-backend\">Chocopy Hacking Part 4: Compiling to WASM</a> <br />\nCompiling Chocopy to WASM.</li>\n  <li><a href=\"https://web.archive.org/web/3/http://www.iro.umontreal.ca/~felipe/IFT2030-Automne2002/Complements/tinyc.c\">Compiler for the Tiny-C language</a> <br />\nA bytecode compiler and virtual machine for a tiny C-like programming language written in C.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://pubby.games/codegen.html\">Explaining my fast 6502 code generator</a> <br />\nSomewhat unconventional 6502 code generation that is fast.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://tweedegolf.nl/en/blog/88/data-oriented-design\">Optimizing a parser/compiler with data-oriented design: a case study</a> <br />\nA case study of optimizing a parser/compiler with data-oriented design.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://yangdanny97.github.io/blog/2022/09/03/scratching-the-pl-itch\">Scratching the PL Itch</a> <br />\nVarious ways in which programming language theory can be applied to real-world problems other than compilers.</li>\n</ul>\n\n<h2 id=\"miscellaneous\">Miscellaneous</h2>\n\n<ul>\n  <li><a href=\"https://web.archive.org/web/3/https://sandymaguire.me/blog/book-mechanics/\">The Mechanics of Writing a Book</a> <br />\nHow to write a book.</li>\n  <li><a href=\"https://web.archive.org/web/3/https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html\">Typescripting the technical interview</a> <br />\nA homage to Aphyr’s “Typing the Technical Interview”.</li>\n  <li><a href=\"https://web.archive.org/web/3/http://rtpg.co/2023/03/02/quines-for-dummies.html\">Writing The World’s Most Boring Quine</a> <br />\nHow to write quines from first principles.</li>\n</ul>\n\n<p>Like, repost, or comment on this post on <a href=\"https://fantastic.earth/@abnv/110122311237335886\">Mastodon</a>.</p>",
-          "link": "https://notes.abhinavsarkar.net/2023/links-23-03",
-          "publishedOn": "2023-04-01T00:00:00.000Z",
-          "wordCount": 486,
-          "title": "Interesting Links for March 2023",
+          "description": "<p>Here are some interesting things I read on the internet in April 2023:</p>\n\n<h2 id=\"haskell\">Haskell</h2>\n\n<ul>\n  <li><a href=\"https://ciobaca.substack.com/p/pedagogical-downsides-of-haskell\">Pedagogical Downsides of Haskell</a> <br />\nWhy teaching Haskell is hard.</li>\n</ul>\n\n<h2 id=\"nix\">Nix</h2>\n\n<ul>\n  <li>\n    <p><a href=\"https://tweag.io/blog/2022-12-15-bazel-nix-migration-experience/\">Bazel and Nix: A Migration Experience</a> <br />\nIntegrating Nix with Bazel for dependency management.</p>\n  </li>\n  <li>\n    <p><a href=\"https://blinry.org/nix-time-travel/\">Building 15-year-old software with Nix</a> <br />\nHow to build old software with Nix.</p>\n  </li>\n  <li>\n    <p><a href=\"https://jade.fyi/blog/nix-evaluation-blocking/\">Stopping evaluation from blocking in Nix</a> <br />\nHow to stop Nix from blocking when evaluating an expression</p>\n  </li>\n</ul>\n\n<h2 id=\"programming-languages-theory\">Programming Languages Theory</h2>\n\n<ul>\n  <li>\n    <p><a href=\"https://danieljharvey.github.io//posts/2023-02-23-llvm-compiler-part-2.html\">Compiling a functional language to LLVM, part 2</a> <br />\nCompiling a functional language to LLVM: adding support for conditionals.</p>\n  </li>\n  <li>\n    <p><a href=\"https://elizarov.medium.com/deep-recursion-with-coroutines-7c53e15993e3\">Deep recursion with coroutines</a> <br />\nHow to do deep recursion with coroutines in Kotlin without blowing the stack.</p>\n  </li>\n  <li>\n    <p><a href=\"https://borretti.me/article/design-austral-compiler\">Design of the Austral Compiler</a> <br />\nComplete description of the design of the Austral compiler.</p>\n  </li>\n  <li>\n    <p><a href=\"https://blog.jez.io/intro-elim/\">Every type is defined by its intro and elim forms</a> <br />\nEvery type is defined by how we construct it and how we deconstruct it.</p>\n  </li>\n  <li>\n    <p><a href=\"https://intuitiveexplanations.com/tech/kalyn\">Kalyn: a self-hosting compiler for x86-64</a> <br />\nComplete description of a self-hosting compiler for x86-64.</p>\n  </li>\n  <li>\n    <p><a href=\"https://eli.thegreenplace.net/2017/on-recursion-continuations-and-trampolines/\">On Recursion, Continuations and Trampolines</a> <br />\nImplementing tail recursion using Continuation Passing Style and trampolines.</p>\n  </li>\n  <li>\n    <p><a href=\"https://matklad.github.io/2023/04/13/reasonable-bootstrap.html\">Reasonable Bootstrap</a> <br />\nA better way to bootstrap a compiler.</p>\n  </li>\n  <li>\n    <p><a href=\"https://capitalex.codeberg.page/scripting-languages-without-gcs/\">Scripting Objects without Trash Day</a> <br />\nSurvey of scripting languages without garbage collection.</p>\n  </li>\n</ul>\n\n<h2 id=\"reverse-engineering\">Reverse Engineering</h2>\n\n<ul>\n  <li>\n    <p><a href=\"https://www.anvilsecure.com/blog/compromising-garmins-sport-watches-a-deep-dive-into-garminos-and-its-monkeyc-virtual-machine.html\">Compromising Garmin’s Sport Watches: A Deep Dive into GarminOS and its MonkeyC Virtual Machine</a> <br />\nReverse engineering GarminOS and its MonkeyC VM to find vulnerabilities.</p>\n  </li>\n  <li>\n    <p><a href=\"https://blog.polybdenum.com/2021/05/05/how-i-hacked-google-app-engine-anatomy-of-a-java-bytecode-exploit.html\">How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit</a> <br />\nStory of a Java bytecode exploit that allowed running arbitrary code on Google App Engine.</p>\n  </li>\n</ul>\n\n<h2 id=\"programming\">Programming</h2>\n\n<ul>\n  <li>\n    <p><a href=\"https://mckayla.blog/posts/all-you-need-is-data-and-functions.html\">All you need is data and functions</a> <br />\nReplacing traits with data and functions.</p>\n  </li>\n  <li>\n    <p><a href=\"https://www.evalapply.org/posts/animate-text-art-javascript/index.html\">Animating Text Art in JavaScript</a> <br />\nHow to animate text art in JavaScript.</p>\n  </li>\n  <li>\n    <p><a href=\"https://typeclasses.substack.com/p/make-invalid-states-representable\">Make invalid states representable</a> <br />\nMaking invalid states representable to provide better error messages.</p>\n  </li>\n</ul>\n\n<h2 id=\"miscellaneous\">Miscellaneous</h2>\n\n<ul>\n  <li>\n    <p><a href=\"https://borretti.me/article/effective-spaced-repetition\">Effective Spaced Repetition</a> <br />\nStrategies for effective spaced repetition.</p>\n  </li>\n  <li>\n    <p><a href=\"https://typeclasses.substack.com/p/erasing-at-the-blackboard\">Erasing at the blackboard</a> <br />\nBetter ways to write code for a book.</p>\n  </li>\n</ul>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/110297621824341094\">Mastodon</a>.</p>",
+          "link": "https://notes.abhinavsarkar.net/2023/links-23-04",
+          "publishedOn": "2023-05-02T00:00:00.000Z",
+          "wordCount": 437,
+          "title": "Interesting Links for April 2023",
           "imageUrl": null
         }
       ]
@@ -85,6 +84,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2023/05/02/implicits-for-mvs.html",
+          "author": null,
+          "description": "An amateur note on language design which explores two important questions:",
+          "link": "https://matklad.github.io/2023/05/02/implicits-for-mvs.html",
+          "publishedOn": "2023-05-02T00:00:00.000Z",
+          "wordCount": 1259,
+          "title": "Value Oriented Programming Needs Implicits?",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2023/04/23/data-oriented-parallel-value-interner.html",
           "author": null,
@@ -113,16 +122,6 @@
           "publishedOn": "2023-04-09T00:00:00.000Z",
           "wordCount": 2673,
           "title": "Can You Trust a Compiler to Optimize Your Code?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/04/02/ub-might-be-the-wrong-term-for-newer-languages.html",
-          "author": null,
-          "description": "A short note on undefined behavior, which assumes familiarity with the subject (see this article for the introduction).\nThe TL;DR is that I think that carrying the wording from the C standard into newer languages, like Zig and Rust, might be a mistake.\nThis is strictly the word choice, the lexical syntax of the comments argument.",
-          "link": "https://matklad.github.io/2023/04/02/ub-might-be-the-wrong-term-for-newer-languages.html",
-          "publishedOn": "2023-04-02T00:00:00.000Z",
-          "wordCount": 561,
-          "title": "UB Might Be a Wrong Term for Newer Languages",
           "imageUrl": null
         }
       ]
