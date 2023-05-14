@@ -22,6 +22,242 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-13 datetime="2023-05-13T00:00:00.000Z">2023-05-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-13 datetime="2023-05-13T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Posts on abhinavsarkar.net</button>
+                  <a class="source-heading__link" href="https://abhinavsarkar.net/feed.atom">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://notes.abhinavsarkar.net/2023/mastodon-backup"
+                        open
+                      >
+                        <summary class="article-expander__title">Automating Mastodon Backups with NixOS and Syncthing</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://notes.abhinavsarkar.net/2023/mastodon-backup">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Six months ago, a bunch of my friends and I started the Mastodon instance fantastic.earth. Till now, we were kind of experimenting with it, but now that we are accepting new users, I wanted to make sure that we have a backup strategy for the Mastodon data. This post describes how I set up the backup system using NixOS, which we use to manage the server.
+There are two kinds of data that we need to backup for Mastodon: the database and the media files. Mastodon uses PostgreSQL for database, and the media files are stored in a directory on the server. Fortunately, NixOS already has all the tools we need to do this, we just need to assemble them together.
+The idea is to dump the Mastodon database hourly using pg_dump, encrypt it using GnuPG, and then back it up to one of more remote locations using Syncthing. The media files are backed up using Syncthing as well, but they are not encrypted. I chose this combination because I found it to be simpler and easier to understand that other options like Borg Backup, Restic, or Postgres WAL archiving.
+Setting Up the PostgreSQL Backup
+Here’s the Nix module that I wrote to set this up:
+The NixOS module
+
+  
+
+{ lib, config, pkgs, ... }:
+
+let
+  mastodonCfg &#x3D; config.services.mastodon;
+  syncthingCfg &#x3D; config.services.syncthing;
+  dbName &#x3D; mastodonCfg.database.name;
+  pgBackupDir &#x3D; config.services.postgresqlBackup.location;
+  backupFileLocation &#x3D; &quot;${pgBackupDir}/${dbName}.sql.gz&quot;;
+  encBackupFileLocation &#x3D; &quot;${backupFileLocation}.enc&quot;;
+  backupEncPassphraseFile &#x3D; &quot;/var/lib/postgresql/backup-enc-passphrase&quot;;
+  backupDir &#x3D; &quot;${syncthingCfg.dataDir}/Backups&quot;;
+  mastodonFilesDir &#x3D; &quot;/var/lib/mastodon/public-system&quot;;
+  devices &#x3D; [ ];
+in
+{
+  services.postgresqlBackup &#x3D; {
+    enable &#x3D; true;
+    startAt &#x3D; &quot;*-*-* *:40:00&quot;;
+    databases &#x3D; [ dbName ];
+  };
+
+  systemd.services.&quot;postgresqlBackup-${dbName}&quot;.serviceConfig &#x3D; {
+    ExecStartPost &#x3D; &#x27;&#x27;
+      /bin/sh -c &#x27;${pkgs.gnupg}/bin/gpg -c --batch --yes \
+        --passphrase-file ${backupEncPassphraseFile} \
+        --output ${encBackupFileLocation} ${backupFileLocation} &amp;&amp; \
+      echo &quot;DB dump encrypted successfully&quot; &amp;&amp; \
+      chgrp ${syncthingCfg.group} ${encBackupFileLocation} &amp;&amp; \
+      mv ${encBackupFileLocation} ${backupDir}/ &amp;&amp; \
+      echo &quot;DB dump moved to the backup directory&quot;&#x27;
+    &#x27;&#x27;;
+  };
+
+  services.syncthing &#x3D; {
+    enable &#x3D; true;
+    devices &#x3D; builtins.listToAttrs (builtins.map
+      (dev: {
+        name &#x3D; dev;
+        value &#x3D; { id &#x3D; builtins.readFile &quot;${syncthingCfg.dataDir}/${dev}-id&quot;; };
+      })
+      devices);
+    folders &#x3D; {
+      &quot;${backupDir}&quot; &#x3D;
+        let folderId &#x3D; &quot;db-dump&quot;;
+        in {
+          id &#x3D; folderId;
+          label &#x3D; folderId;
+          devices &#x3D; devices;
+          rescanInterval &#x3D; 300;
+          type &#x3D; &quot;sendonly&quot;;
+          versioning &#x3D; {
+            type &#x3D; &quot;simple&quot;;
+            params.keep &#x3D; &quot;6&quot;;
+          };
+        };
+      &quot;${mastodonFilesDir}&quot; &#x3D;
+        let folderId &#x3D; &quot;mastodon-files&quot;;
+        in {
+          id &#x3D; folderId;
+          label &#x3D; folderId;
+          devices &#x3D; devices;
+          rescanInterval &#x3D; 60;
+          type &#x3D; &quot;sendonly&quot;;
+        };
+    };
+    extraFlags &#x3D; [ &quot;--no-upgrade&quot; &quot;--no-restart&quot; ];
+  };
+
+  systemd.tmpfiles.rules &#x3D; [
+    &quot;z ${syncthingCfg.dataDir} 0750 ${syncthingCfg.user} ${syncthingCfg.group}&quot;
+    &quot;d ${backupDir} 0775 ${syncthingCfg.user} ${syncthingCfg.group}&quot;
+    &quot;z ${mastodonFilesDir} 0770 ${mastodonCfg.user} ${mastodonCfg.group}&quot;
+    &quot;z ${backupEncPassphraseFile} 400 postgres postgres&quot;
+  ];
+
+  users.users &#x3D; {
+    postgres.extraGroups &#x3D; [ syncthingCfg.group ];
+    ${syncthingCfg.user}.extraGroups &#x3D; [ mastodonCfg.group ];
+  };
+}
+
+  
+In the NixOS module above, first, we enable the PostgreSQL Backup service to dump the Mastodon database every hour. Next, we use Systemd’s ExecStartPost setting to run a shell script after the database dump is taken. This script encrypts the database dump using GnuPG, and moves it to the Syncthing backup directory. The passphrase for the GnuPG encryption is stored in a file that is readable only by the postgresql user.
+Next, we configure the Syncthing service to backup the Mastodon media files and the Backup directory containing the encrypted database dump to all the devices in the devices list. The directories are set to be sendonly so that any changes made to them on the backup devices are not synced back to the Mastodon server. The Backup directory is also configured to keep the last 6 versions of the database dump.
+Finally, we set up file permissions and user groups so that the PostgreSQL user can write to the Syncthing backup directory, and the Syncthing user can read from the Mastodon files directory. That’s all for the NixOS module.
+We also put a strong password in the file /var/lib/postgresql/backup-enc-passphrase that is used to encrypt the database dump.
+Setting Up Syncthing
+Before enabling the module we need to set up the Syncthing, the instructions for which are as follows:
+Get the Mastodon server’s Syncthing device ID by running the following commands on the server:
+    
+
+ sudo su syncthing -s /bin/sh
+ $(ls /nix/store/*syncthing*/bin/syncthing) --device-id
+
+    
+Copy the device ID, and use it to add a remote device in the Syncthing web UI of the backup device.
+    
+Check the “Auto Accept” checkbox in the Sharing tab.
+Copy the device ID of the backup device, and use it to add a remote device in the Mastodon server:
+    
+While still logged in as the syncthing user after running the previous command on the server, create a file /var/lib/syncthing/&lt;backup-device-name&gt;-id, put the backup device’s device ID into it, and change the file’s mode to 400:
+        
+
+ echo &lt;backup-device-id&gt; &gt; /var/lib/syncthing/&lt;backup-device-name&gt;-id
+ chmod 400 /var/lib/syncthing/&lt;backup-device-name&gt;-id
+
+        
+Edit the Nix module above to add the &lt;backup-device-name&gt; in the line containing devices &#x3D; [ ].
+Deploy the module on the Mastodon server. This will start the Syncthing service on the server.
+In the Syncthing web UI of the backup device:
+    
+accept the syncing for db-dump and mastodon-files folders,
+click the “Edit” button in the db-dump folder’s section, and:
+        
+change the “File Versioning” option in the “File Versioning” tab to “Simple File Versioning”,
+change the “Keep Versions” option to “6”, and
+change the “Folder Type” option in the “Advanced” tab to “Receive Only”.
+click the “Edit” button in the mastodon-files folder’s section, and:
+        
+add the ignore pattern “cache/**” in the “Ignore Patterns” tab, and
+change the “Folder Type” option in the “Advanced” tab to “Receive Only”.
+After this, the Syncthing backup should be set up and working as expected.
+Restoring the Database
+To restore the database, we need to decrypt the database dump, and then restore it using the pg_restore command:
+
+gpg -d --batch --yes \
+  --passphrase-file /var/lib/postgresql/backup-enc-passphrase \
+  --output /tmp/mastodon.sql.gz /var/lib/syncthing/Backup/mastodon.sql.gz.enc
+pg_restore --clean --if-exists --dbname mastodon /tmp/mastodon.sql.gz
+
+
+That’s all for setting up the Syncthing backup for Mastodon. I hope this helps someone. If you have any questions or suggestions, please feel free to leave a comment. Thanks for reading!
+You can like, share, or comment on this post on Mastodon.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-06 datetime="2023-05-06T00:00:00.000Z">2023-05-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-06 datetime="2023-05-06T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Zig Language Server And Cancellation</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I already have a dedicated post about a hypothetical Zig language server.
+But perhaps the most important thing I&#x27;ve written so far on the topic is the short note at the end of Zig and Rust.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-04 datetime="2023-05-04T21:32:37.000Z">2023-05-04</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-04 datetime="2023-05-04T21:32:37.000Z"></time>
           </button>
@@ -264,7 +500,7 @@ spot the…</span>
                               <img src="https://miro.medium.com/v2/resize:fit:1200/1*OEqSEUO7E-XcFzjkvgKtxA.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Ruchir Jha, Brian Harrington, Yingwu Zhao</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -326,107 +562,10 @@ Still, I think there are a couple of neat ideas, which I would love to call out.
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-13 datetime="2023-04-13T00:00:00.000Z">2023-04-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-13 datetime="2023-04-13T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >matklad</button>
-                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://matklad.github.io/2023/04/13/reasonable-bootstrap.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Reasonable Bootstrap</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/04/13/reasonable-bootstrap.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Compilers for systems programming languages (C, C++, Rust, Zig) tend to be implemented in the languages themselves.
-The idea being that the current version of the compiler is built using some previous version.
-But how can you get a working compiler if you start out from nothing?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-09 datetime="2023-04-09T00:00:00.000Z">2023-04-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-09 datetime="2023-04-09T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >matklad</button>
-                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Can You Trust a Compiler to Optimize Your Code?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/04/09/can-you-trust-a-compiler-to-optimize-your-code.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>More or less the title this time, but first, a story about SIMD. There are three
-levels of understanding how SIMD works (well, at least I am level 3 at the moment):</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/4904509238">
-        <time id="build-timestamp" datetime="2023-05-07T01:02:46.269Z">2023-05-07T01:02:46.269Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/4969737314">
+        <time id="build-timestamp" datetime="2023-05-14T01:02:08.816Z">2023-05-14T01:02:08.816Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
