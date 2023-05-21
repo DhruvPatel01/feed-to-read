@@ -22,6 +22,212 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-19 datetime="2023-05-19T19:21:03.000Z">2023-05-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-19 datetime="2023-05-19T19:21:03.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Netflix TechBlog - Medium</button>
+                  <a class="source-heading__link" href="https://netflixtechblog.com?source&#x3D;rss----2615bd06b42e---4">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://medium.com/p/c75cd7989b6d"
+                        open
+                      >
+                        <summary class="article-expander__title">Debugging a FUSE deadlock in the Linux kernel</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/debugging-a-fuse-deadlock-in-the-linux-kernel-c75cd7989b6d?source&#x3D;rss----2615bd06b42e---4">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Tycho Andersen</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://medium.com/p/c118f374fa89"
+                        open
+                      >
+                        <summary class="article-expander__title">ABAC on SpiceDB: Enabling Netflix’s Complex Identity Types</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/abac-on-spicedb-enabling-netflixs-complex-identity-types-c118f374fa89?source&#x3D;rss----2615bd06b42e---4">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>By Chris Wolfe, Joey Schorr, and Victor Roldán Betancort</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Max Slater</button>
+                  <a class="source-heading__link" href="https://thenumbat.github.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://thenumbat.github.io/Pittsburgh/"
+                        open
+                      >
+                        <summary class="article-expander__title">Pittsburgh</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://thenumbat.github.io/Pittsburgh/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>University of Pittsburgh / Carnegie Mellon University, Pittsburgh, PA, 2023</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Posts on abhinavsarkar.net</button>
+                  <a class="source-heading__link" href="https://abhinavsarkar.net/feed.atom">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://notes.abhinavsarkar.net/2023/mastodon-comments"
+                        open
+                      >
+                        <summary class="article-expander__title">Adding Mastodon Comments to a Website</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://notes.abhinavsarkar.net/2023/mastodon-comments">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Two of the core ideas of IndieWeb are POSSE and Backfeed. The idea behind POSSE is that you publish your content on your own website first, and then syndicate it to other platforms. Backfeed means that you pull back the comments and likes from the other platforms to your own website. In this post, I describe how I implemented these ideas for this website with Mastodon.
+Though it is possible to use services like Bridgy to implement POSSE and Backfeed, I chose to do it myself. Syndicating is just posting the URL of a blog post to Mastodon, so I do it manually. That lets me write a custom message for the post, and also lets me choose the right image to attach. For Backfeed, I use the Mastodon API to pull back the comments to this website.
+At the end of each post, I add a link to the Mastodon post that links to the blog post, like:
+
+You can like, share, or comment on this post on
+[Mastodon](https://fantastic.earth/@abnv/110362391871164484){:class&#x3D;&quot;mastodon-link&quot;}.
+
+
+Then this small Javascipt code pulls back the comments from Mastodon, and displays them on the post:
+
+document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+  let mastodonLink &#x3D; document.querySelector(&quot;a.mastodon-link&quot;);
+  if (mastodonLink !&#x3D; null) {
+    let parts &#x3D; mastodonLink.href.split(&quot;/&quot;);
+    let postId &#x3D; parts[parts.length - 1];
+    let main &#x3D; document.querySelector(&quot;main&quot;);
+    fetch(&#x60;https://fantastic.earth/api/v1/statuses/${postId}/context&#x60;)
+    .then(res &#x3D;&gt; res.json())
+    .then(res &#x3D;&gt; {
+      let comments &#x3D; res.descendants.filter(c &#x3D;&gt; c.visibility &#x3D;&#x3D;&#x3D; &quot;public&quot;);
+      if (comments.length &#x3D;&#x3D;&#x3D; 0)
+        return;
+
+      let commentContainer &#x3D; document.createElement(&quot;div&quot;);
+      commentContainer.className &#x3D; &quot;comments&quot;;
+
+      let commentsHeader &#x3D; document.createElement(&quot;h2&quot;);
+      commentsHeader.innerHTML &#x3D; &quot;Comments&quot;;
+      commentContainer.appendChild(commentsHeader);
+
+      for (let comment of comments) {
+        let html &#x3D; &#x60;
+&lt;a class&#x3D;&quot;account&quot; href&#x3D;&quot;${comment.account.url}&quot;&gt;${comment.account.username}&lt;/a&gt;
+&lt;a class&#x3D;&quot;pubtime&quot; href&#x3D;&quot;${comment.url}&quot;&gt;
+  &lt;time&gt;${new Date(comment.created_at).toLocaleString()}&lt;/time&gt;
+&lt;/a&gt;
+&lt;div class&#x3D;&quot;content&quot;&gt;${comment.content}&lt;/div&gt;&#x60;;
+        let commentElement &#x3D; document.createElement(&quot;div&quot;);
+        commentElement.innerHTML &#x3D; html;
+        commentElement.className &#x3D; &quot;comment&quot;;
+        if (comment.in_reply_to_id !&#x3D;&#x3D; postId) {
+          commentElement.classList.add(&quot;reply&quot;);
+        }
+        commentContainer.appendChild(commentElement);
+      }
+      main.appendChild(commentContainer);
+    });
+  }
+});
+
+
+The Javascript code looks for the aforementioned link, and uses the Mastodon API to get the public comments on the linked Mastodon post. The comments are then added to the bottom of the blog post.
+I also added some SCSS code to style the comments:
+
+.comment {
+  font-size: 0.95em;
+  border: 1px dashed #787882;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  .content p:last-of-type {
+    margin-bottom: 0;
+  }
+  .pubtime {
+    float: right;
+  }
+  .content p {
+    margin: 0.5rem auto;
+  }
+  &amp;.reply {
+    margin-left: 1rem;
+  }
+}
+
+
+The result looks like this:
+
+That’s it! Now go ahead and like, share, or comment on this post on Mastodon.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-13 datetime="2023-05-13T00:00:00.000Z">2023-05-13</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-13 datetime="2023-05-13T00:00:00.000Z"></time>
           </button>
@@ -360,7 +566,7 @@ Miscellaneous
 Effective Spaced Repetition 
 Erasing at the blackboard 
 Like, share, or comment on this post on Mastodon.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -564,8 +770,8 @@ Still, I think there are a couple of neat ideas, which I would love to call out.
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/4969737314">
-        <time id="build-timestamp" datetime="2023-05-14T01:02:08.816Z">2023-05-14T01:02:08.816Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/5035024041">
+        <time id="build-timestamp" datetime="2023-05-21T01:03:25.826Z">2023-05-21T01:03:25.826Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
