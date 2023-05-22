@@ -14,11 +14,16 @@ sources:
   # Programming Languages
   - href: https://nim-lang.org/feed.xml
   - href: https://ayazhafiz.com/feed-rss2.xml
-  - href: https://abhinavsarkar.net/feed.atom
-  - href: https://abhinavsarkar.net/notes/feed.atom
+
+  
   
   ## Rust
   - href: https://matklad.github.io/feed.xml
 
   # Learning
   - href: https://huggingface.co/blog/feed.xml
+  
+  #individuals
+  - href: https://samwho.dev/rss.xml
+  - href: https://abhinavsarkar.net/feed.atom
+  - href: https://abhinavsarkar.net/notes/feed.atom
