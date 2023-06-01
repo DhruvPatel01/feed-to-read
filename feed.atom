@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-28T01:05:52.317Z</id>
+    <id>urn:2023-06-01T14:29:20.435Z</id>
     <title>osmos::feed</title>
-    <updated>2023-05-28T01:05:52.317Z</updated>
+    <updated>2023-06-01T14:29:20.435Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Hand-written Windows API prototypes: fast, flexible, and tedious]]></title>
+        <id>https://nullprogram.com/blog/2023/05/31/</id>
+        <link href="https://nullprogram.com/blog/2023/05/31/"/>
+        <updated>2023-05-31T01:38:31.000Z</updated>
+        <summary type="html"><![CDATA[I love fast builds, and for years I’ve been bothered by the build penalty
+for translation units including windows.h. This header has an enormous
+number of definitions and declarations and so, for C programs, it tends to
+dominate the build time of those translation units. Most programs,
+especially systems software, only needs a tiny portion of it. For example,
+when compiling u-config with GCC, two thirds of the debug build was
+spent processing windows.h just for 4 types, 16 definitions, and 16
+prototypes.
+To give a sense of the numbers, here’s empty.c, which does nothing but
+include windows.h.
+
+#include <windows.h>
+
+
+With the current Mingw-w64 headers, that’s ~82kLOC (non-blank):
+
+$ gcc -E empty.c | grep -vc '^$'
+82041
+
+
+With w64devkit this takes my system ~450ms to compile with GCC:
+
+$ tim…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Expected performance of a Bloom filter]]></title>
+        <id>https://lemire.me/blog/?p=20589</id>
+        <link href="https://lemire.me/blog/2023/05/26/expected-performance-of-a-bloom-filter/"/>
+        <updated>2023-05-26T20:36:04.000Z</updated>
+        <summary type="html"><![CDATA[A hash function is a function that maps a value (such as a string) to an integer value. Typically, we want random-looking values. A Bloom filter is a standard data structure in computer science to approximate a set. Basically, you start with a large array of bits, all initialized at zero. Each time you want … Continue reading Expected performance of a Bloom filter]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Resilient LL Parsing Tutorial]]></title>
         <id>https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html</id>
@@ -24,6 +66,16 @@ Explaining the problem and the solution requires somewhat less than a trivial wo
         <summary type="html"><![CDATA[Tycho Andersen]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The absurd cost of finalizers in Go]]></title>
+        <id>https://lemire.me/blog/?p=20559</id>
+        <link href="https://lemire.me/blog/2023/05/19/the-absurd-cost-of-finalizers-in-go/"/>
+        <updated>2023-05-19T14:57:14.000Z</updated>
+        <summary type="html"><![CDATA[The Go programming language makes it easy to call C code. Suppose you have the following C functions: char* allocate() { return (char*)malloc(100); } void free_allocated(char *c) { free(c); } Then you can call them from Go as follows: c := C.allocate() C.free_allocated(c) It works well. You might argue that my functions are useless, but … Continue reading The absurd cost of finalizers in Go]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -135,6 +187,16 @@ Explaining the problem and the solution requires somewhat less than a trivial wo
 <p>That’s it! Now go ahead and like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/110395414125998660" class="mastodon-link">Mastodon</a>.</p>]]></summary>
         <author>
             <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Computing the UTF-8 size of a Latin 1 string quickly (ARM NEON edition)]]></title>
+        <id>https://lemire.me/blog/?p=20542</id>
+        <link href="https://lemire.me/blog/2023/05/15/computing-the-utf-8-size-of-a-latin-1-string-quickly-arm-neon-edition/"/>
+        <updated>2023-05-15T15:46:20.000Z</updated>
+        <summary type="html"><![CDATA[While most of our software relies on Unicode strings, we often still encounter legacy encodings such as Latin 1. Before we convert Latin 1 strings to Unicode (e.g., UTF-8), we must compute the size of the UTF-8 string. It is fairly easy: all ASCII characters map 1 byte to 1 byte, while other characters (with … Continue reading Computing the UTF-8 size of a Latin 1 string quickly (ARM NEON edition)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -312,6 +374,26 @@ pg_restore --clean --if-exists --dbname mastodon /tmp/mastodon.sql.gz
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ARM instructions do “less work”?]]></title>
+        <id>https://lemire.me/blog/?p=20534</id>
+        <link href="https://lemire.me/blog/2023/05/12/arm-instructions-do-less-work/"/>
+        <updated>2023-05-12T15:56:11.000Z</updated>
+        <summary type="html"><![CDATA[Modern processors can execute several instructions per cycle. Because processors cannot easily run faster (in terms of clock speed), vendors try to get their processors to do more work per cycle. Apple processors are wide in the sense that they can retire many more instructions per cycle than comparable Intel or AMD processors. However, some … Continue reading ARM instructions do “less work”?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (May 6 2023)]]></title>
+        <id>https://lemire.me/blog/?p=20527</id>
+        <link href="https://lemire.me/blog/2023/05/06/science-and-technology-links-may-6-2023/"/>
+        <updated>2023-05-06T15:00:46.000Z</updated>
+        <summary type="html"><![CDATA[Artificial intelligence (ChatGPT) can provide better answers to patients than physicians. Eating chocolate might affect your brain and cognitive functions. It may not make you smarter, but it might brighten your mood. Obesity may shorten your disease-free lifespan. A supplement called Netrin-1 appears to rejuvenate the bone marrow. Prior research indicated that high status individuals … Continue reading Science and Technology links (May 6 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Zig Language Server And Cancellation]]></title>
         <id>https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html</id>
         <link href="https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html"/>
@@ -333,151 +415,13 @@ But perhaps the most important thing I've written so far on the topic is the sho
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Value Oriented Programming Needs Implicits?]]></title>
-        <id>https://matklad.github.io/2023/05/02/implicits-for-mvs.html</id>
-        <link href="https://matklad.github.io/2023/05/02/implicits-for-mvs.html"/>
-        <updated>2023-05-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An amateur note on language design which explores two important questions:]]></summary>
+        <title type="html"><![CDATA[Graviton 3, Apple M2 and Qualcomm 8cx 3rd gen: a URL parsing benchmark]]></title>
+        <id>https://lemire.me/blog/?p=20504</id>
+        <link href="https://lemire.me/blog/2023/05/03/graviton-3-apple-m2-and-qualcomm-8cx-3rd-gen-a-url-parsing-benchmark/"/>
+        <updated>2023-05-03T15:22:35.000Z</updated>
+        <summary type="html"><![CDATA[Whenever you enter a URL into a system, it must be parsed and validated. It is a surprisingly challenging task: it may require hundreds of nanoseconds and possibly over a thousand cycles to parse a typical URL. We can use URL parsing as a reasonable benchmark of a system performance. Of course, no single measure … Continue reading Graviton 3, Apple M2 and Qualcomm 8cx 3rd gen: a URL parsing benchmark]]></summary>
         <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interesting Links for April 2023]]></title>
-        <id>https://notes.abhinavsarkar.net/2023/links-23-04</id>
-        <link href="https://notes.abhinavsarkar.net/2023/links-23-04"/>
-        <updated>2023-05-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Here are some interesting things I read on the internet in April 2023:</p>
-
-<h2 id="haskell">Haskell</h2>
-
-<ul>
-  <li><a href="https://ciobaca.substack.com/p/pedagogical-downsides-of-haskell">Pedagogical Downsides of Haskell</a> <br />
-Why teaching Haskell is hard.</li>
-</ul>
-
-<h2 id="nix">Nix</h2>
-
-<ul>
-  <li>
-    <p><a href="https://tweag.io/blog/2022-12-15-bazel-nix-migration-experience/">Bazel and Nix: A Migration Experience</a> <br />
-Integrating Nix with Bazel for dependency management.</p>
-  </li>
-  <li>
-    <p><a href="https://blinry.org/nix-time-travel/">Building 15-year-old software with Nix</a> <br />
-How to build old software with Nix.</p>
-  </li>
-  <li>
-    <p><a href="https://jade.fyi/blog/nix-evaluation-blocking/">Stopping evaluation from blocking in Nix</a> <br />
-How to stop Nix from blocking when evaluating an expression</p>
-  </li>
-</ul>
-
-<h2 id="programming-languages-theory">Programming Languages Theory</h2>
-
-<ul>
-  <li>
-    <p><a href="https://danieljharvey.github.io//posts/2023-02-23-llvm-compiler-part-2.html">Compiling a functional language to LLVM, part 2</a> <br />
-Compiling a functional language to LLVM: adding support for conditionals.</p>
-  </li>
-  <li>
-    <p><a href="https://elizarov.medium.com/deep-recursion-with-coroutines-7c53e15993e3">Deep recursion with coroutines</a> <br />
-How to do deep recursion with coroutines in Kotlin without blowing the stack.</p>
-  </li>
-  <li>
-    <p><a href="https://borretti.me/article/design-austral-compiler">Design of the Austral Compiler</a> <br />
-Complete description of the design of the Austral compiler.</p>
-  </li>
-  <li>
-    <p><a href="https://blog.jez.io/intro-elim/">Every type is defined by its intro and elim forms</a> <br />
-Every type is defined by how we construct it and how we deconstruct it.</p>
-  </li>
-  <li>
-    <p><a href="https://intuitiveexplanations.com/tech/kalyn">Kalyn: a self-hosting compiler for x86-64</a> <br />
-Complete description of a self-hosting compiler for x86-64.</p>
-  </li>
-  <li>
-    <p><a href="https://eli.thegreenplace.net/2017/on-recursion-continuations-and-trampolines/">On Recursion, Continuations and Trampolines</a> <br />
-Implementing tail recursion using Continuation Passing Style and trampolines.</p>
-  </li>
-  <li>
-    <p><a href="https://matklad.github.io/2023/04/13/reasonable-bootstrap.html">Reasonable Bootstrap</a> <br />
-A better way to bootstrap a compiler.</p>
-  </li>
-  <li>
-    <p><a href="https://capitalex.codeberg.page/scripting-languages-without-gcs/">Scripting Objects without Trash Day</a> <br />
-Survey of scripting languages without garbage collection.</p>
-  </li>
-</ul>
-
-<h2 id="reverse-engineering">Reverse Engineering</h2>
-
-<ul>
-  <li>
-    <p><a href="https://www.anvilsecure.com/blog/compromising-garmins-sport-watches-a-deep-dive-into-garminos-and-its-monkeyc-virtual-machine.html">Compromising Garmin’s Sport Watches: A Deep Dive into GarminOS and its MonkeyC Virtual Machine</a> <br />
-Reverse engineering GarminOS and its MonkeyC VM to find vulnerabilities.</p>
-  </li>
-  <li>
-    <p><a href="https://blog.polybdenum.com/2021/05/05/how-i-hacked-google-app-engine-anatomy-of-a-java-bytecode-exploit.html">How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit</a> <br />
-Story of a Java bytecode exploit that allowed running arbitrary code on Google App Engine.</p>
-  </li>
-</ul>
-
-<h2 id="programming">Programming</h2>
-
-<ul>
-  <li>
-    <p><a href="https://mckayla.blog/posts/all-you-need-is-data-and-functions.html">All you need is data and functions</a> <br />
-Replacing traits with data and functions.</p>
-  </li>
-  <li>
-    <p><a href="https://www.evalapply.org/posts/animate-text-art-javascript/index.html">Animating Text Art in JavaScript</a> <br />
-How to animate text art in JavaScript.</p>
-  </li>
-  <li>
-    <p><a href="https://typeclasses.substack.com/p/make-invalid-states-representable">Make invalid states representable</a> <br />
-Making invalid states representable to provide better error messages.</p>
-  </li>
-</ul>
-
-<h2 id="miscellaneous">Miscellaneous</h2>
-
-<ul>
-  <li>
-    <p><a href="https://borretti.me/article/effective-spaced-repetition">Effective Spaced Repetition</a> <br />
-Strategies for effective spaced repetition.</p>
-  </li>
-  <li>
-    <p><a href="https://typeclasses.substack.com/p/erasing-at-the-blackboard">Erasing at the blackboard</a> <br />
-Better ways to write code for a book.</p>
-  </li>
-</ul>
-
-<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/110297621824341094" class="mastodon-link">Mastodon</a>.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My favorite C compiler flags during development]]></title>
-        <id>https://nullprogram.com/blog/2023/04/29/</id>
-        <link href="https://nullprogram.com/blog/2023/04/29/"/>
-        <updated>2023-04-29T22:55:25.000Z</updated>
-        <summary type="html"><![CDATA[This article was discussed on Hacker News and on reddit.
-The major compilers have an enormous number of knobs. Most are
-highly specialized, but others are generally useful even if uncommon. For
-warnings, the venerable -﻿Wall -﻿Wextra is a good start, but
-circumstances improve by tweaking this warning set. This article covers
-high-hitting development-time options in GCC, Clang, and MSVC that ought
-to get more consideration.
-There’s an irony that the more you use these options, the less useful they
-become. Given a reasonable workflow, they are a harsh mistress in a fast,
-tight feedback loop quickly breaking the habits that cause warnings and
-errors. It’s a kind of self-improvement, where eventually most findings
-will be false positives. With heuristics internalized, you will be able
-spot the…]]></summary>
-        <author>
-            <name>null program</name>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
