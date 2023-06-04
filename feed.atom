@@ -1,10 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-01T14:29:20.435Z</id>
+    <id>urn:2023-06-04T01:18:09.269Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-01T14:29:20.435Z</updated>
+    <updated>2023-06-04T01:18:09.269Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Science and Technogy links (June 3 2023)]]></title>
+        <id>https://lemire.me/blog/?p=20599</id>
+        <link href="https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/"/>
+        <updated>2023-06-03T20:41:56.000Z</updated>
+        <summary type="html"><![CDATA[There are fewer serial killers these days. Some suggests it is due to better forensic techniques: we catch the killers faster and more efficiently. Between the beginnings of the Web (1996) and today, the household Internet connection bandwidth got over 5000 times faster. Thus what took nearly two hours of download time back then can … Continue reading Science and Technogy links (June 3 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implementing Co, a Small Language With Coroutines #4: Adding Channels]]></title>
+        <id>https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed"/>
+        <updated>2023-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In the <a href="https://abhinavsarkar.net/posts/implementing-co-3/">previous post</a>, we added coroutines to <span class="fancy">Co</span>, the small language we are implementing in this series of posts. In this post, we add channels to it to be able to communicate between coroutines.</p>
+<ol type="1">
+<li><a href="https://abhinavsarkar.net/posts/implementing-co-1/">Implementing Co #1: The Parser</a></li>
+<li><a href="https://abhinavsarkar.net/posts/implementing-co-2/">Implementing Co #2: The Interpreter</a></li>
+<li><a href="https://abhinavsarkar.net/posts/implementing-co-3/">Implementing Co #3: Adding Coroutines</a></li>
+<li>Implementing Co #4: Adding Channels</li>
+<li>Implementing Co #5: Adding Sleep</li>
+</ol>]]></summary>
+        <author>
+            <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Month with Nim: April and May 2023]]></title>
+        <id>https://nim-lang.org//blog/2023/06/02/this-month-with-nim.html</id>
+        <link href="https://nim-lang.org//blog/2023/06/02/this-month-with-nim.html"/>
+        <updated>2023-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nuance
+Author: metagn
+nuance is a library that provides:
+Runtime-compatible types to represent Nim (untyped) AST including filename, line and column information.
+Serialization of these types into an S-expression format that can be directly inserted inside a Nim triple-quoted string.
+Deserialization to these types that works in the compile-time VM.
+Conversion from these types into the compile-time NimNode type that can be used in macros.
+This allows complex systems that generate Nim code to do it in a much faster and easier way than the current alternatives (making all code run only in the compile-time VM, generating it as raw text, interfacing with the compiler codebase etc.).
+Examples of use cases may be templating engines, alternative parsers etc.
+As a demonstration of what we can do, li…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Worst Zig Version Manager]]></title>
+        <id>https://matklad.github.io/2023/06/02/the-worst-zig-version-manager.html</id>
+        <link href="https://matklad.github.io/2023/06/02/the-worst-zig-version-manager.html"/>
+        <updated>2023-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/matklad/hello-getzig]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ensuring the Successful Launch of Ads on Netflix]]></title>
+        <id>https://medium.com/p/f99490fdf1ba</id>
+        <link href="https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netflix-f99490fdf1ba?source=rss----2615bd06b42e---4"/>
+        <updated>2023-06-01T19:22:48.000Z</updated>
+        <summary type="html"><![CDATA[By Jose Fernandez, Ed Barker, Hank Jacobs]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Peak credentialism]]></title>
+        <id>https://lemire.me/blog/?p=20602</id>
+        <link href="https://lemire.me/blog/2023/06/01/peak-credentialism/"/>
+        <updated>2023-06-01T16:40:15.000Z</updated>
+        <summary type="html"><![CDATA[How much is a degree from a prestigious university worth? The answer is a bit difficult to answer because there are many cofounding factors: people from the connected class  (folks that ‘know people’) tend to attend the most prestigious universities, and they also tend to do well professionally. It is likely that highly connected people … Continue reading Peak credentialism]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hand-written Windows API prototypes: fast, flexible, and tedious]]></title>
         <id>https://nullprogram.com/blog/2023/05/31/</id>
@@ -90,8 +166,8 @@ Explaining the problem and the solution requires somewhat less than a trivial wo
     </entry>
     <entry>
         <title type="html"><![CDATA[Pittsburgh]]></title>
-        <id>https://thenumbat.github.io/Pittsburgh/</id>
-        <link href="https://thenumbat.github.io/Pittsburgh/"/>
+        <id>https://thenumb.at/Pittsburgh/</id>
+        <link href="https://thenumb.at/Pittsburgh/"/>
         <updated>2023-05-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[University of Pittsburgh / Carnegie Mellon University, Pittsburgh, PA, 2023]]></summary>
         <author>
@@ -402,26 +478,6 @@ pg_restore --clean --if-exists --dbname mastodon /tmp/mastodon.sql.gz
 But perhaps the most important thing I've written so far on the topic is the short note at the end of Zig and Rust.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating Critical Traffic At Scale with No Downtime — Part 1]]></title>
-        <id>https://medium.com/p/ba1c7a1c7835</id>
-        <link href="https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-1-ba1c7a1c7835?source=rss----2615bd06b42e---4"/>
-        <updated>2023-05-04T21:32:37.000Z</updated>
-        <summary type="html"><![CDATA[Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Graviton 3, Apple M2 and Qualcomm 8cx 3rd gen: a URL parsing benchmark]]></title>
-        <id>https://lemire.me/blog/?p=20504</id>
-        <link href="https://lemire.me/blog/2023/05/03/graviton-3-apple-m2-and-qualcomm-8cx-3rd-gen-a-url-parsing-benchmark/"/>
-        <updated>2023-05-03T15:22:35.000Z</updated>
-        <summary type="html"><![CDATA[Whenever you enter a URL into a system, it must be parsed and validated. It is a surprisingly challenging task: it may require hundreds of nanoseconds and possibly over a thousand cycles to parse a typical URL. We can use URL parsing as a reasonable benchmark of a system performance. Of course, no single measure … Continue reading Graviton 3, Apple M2 and Qualcomm 8cx 3rd gen: a URL parsing benchmark]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
