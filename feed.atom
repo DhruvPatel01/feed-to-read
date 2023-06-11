@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-04T01:18:09.269Z</id>
+    <id>urn:2023-06-11T01:14:49.790Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-04T01:18:09.269Z</updated>
+    <updated>2023-06-11T01:14:49.790Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Parsing IP addresses crazily fast]]></title>
+        <id>https://lemire.me/blog/?p=20611</id>
+        <link href="https://lemire.me/blog/2023/06/08/parsing-ip-addresses-crazily-fast/"/>
+        <updated>2023-06-08T20:47:56.000Z</updated>
+        <summary type="html"><![CDATA[Most of us are familiar with IP addresses: they are strings typically of the form “ddd.ddd.ddd.ddd” where ddd is a decimal number of up to three digits in the range 0 to 255. For example, 127.0.0.1 or 192.168.0.2. Each of the four number is a byte value, and the address is n IPv4 network address … Continue reading Parsing IP addresses crazily fast]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Native Frame Rate Playback]]></title>
+        <id>https://medium.com/p/6c87836a948</id>
+        <link href="https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4"/>
+        <updated>2023-06-05T16:31:44.000Z</updated>
+        <summary type="html"><![CDATA[This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Science and Technogy links (June 3 2023)]]></title>
         <id>https://lemire.me/blog/?p=20599</id>
@@ -457,27 +477,6 @@ pg_restore --clean --if-exists --dbname mastodon /tmp/mastodon.sql.gz
         <summary type="html"><![CDATA[Modern processors can execute several instructions per cycle. Because processors cannot easily run faster (in terms of clock speed), vendors try to get their processors to do more work per cycle. Apple processors are wide in the sense that they can retire many more instructions per cycle than comparable Intel or AMD processors. However, some … Continue reading ARM instructions do “less work”?]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Science and Technology links (May 6 2023)]]></title>
-        <id>https://lemire.me/blog/?p=20527</id>
-        <link href="https://lemire.me/blog/2023/05/06/science-and-technology-links-may-6-2023/"/>
-        <updated>2023-05-06T15:00:46.000Z</updated>
-        <summary type="html"><![CDATA[Artificial intelligence (ChatGPT) can provide better answers to patients than physicians. Eating chocolate might affect your brain and cognitive functions. It may not make you smarter, but it might brighten your mood. Obesity may shorten your disease-free lifespan. A supplement called Netrin-1 appears to rejuvenate the bone marrow. Prior research indicated that high status individuals … Continue reading Science and Technology links (May 6 2023)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zig Language Server And Cancellation]]></title>
-        <id>https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html</id>
-        <link href="https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html"/>
-        <updated>2023-05-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I already have a dedicated post about a hypothetical Zig language server.
-But perhaps the most important thing I've written so far on the topic is the short note at the end of Zig and Rust.]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>

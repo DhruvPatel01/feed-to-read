@@ -40,12 +40,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/6c87836a948",
+          "author": "Netflix Technology Blog",
+          "description": "This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.",
+          "link": "https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-06-05T16:31:44.000Z",
+          "wordCount": 4920,
+          "title": "Native Frame Rate Playback",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:800/1*hO3tzOhKVzbfMZcgpJvRrA.gif"
+        },
+        {
           "id": "https://medium.com/p/f99490fdf1ba",
           "author": "Netflix Technology Blog",
           "description": "By Jose Fernandez, Ed Barker, Hank Jacobs",
           "link": "https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netflix-f99490fdf1ba?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-01T19:22:48.000Z",
-          "wordCount": 2945,
+          "wordCount": 2942,
           "title": "Ensuring the Successful Launch of Ads on Netflix",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1172/1*WSR0HigxkANIu6uyIA-lkQ.png"
         },
@@ -55,7 +65,7 @@
           "description": "Tycho Andersen",
           "link": "https://netflixtechblog.com/debugging-a-fuse-deadlock-in-the-linux-kernel-c75cd7989b6d?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-05-19T19:21:03.000Z",
-          "wordCount": 4697,
+          "wordCount": 4695,
           "title": "Debugging a FUSE deadlock in the Linux kernel",
           "imageUrl": null
         },
@@ -65,7 +75,7 @@
           "description": "By Chris Wolfe, Joey Schorr, and Victor Roldán Betancort",
           "link": "https://netflixtechblog.com/abac-on-spicedb-enabling-netflixs-complex-identity-types-c118f374fa89?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-05-19T12:01:47.000Z",
-          "wordCount": 4842,
+          "wordCount": 4840,
           "title": "ABAC on SpiceDB: Enabling Netflix’s Complex Identity Types",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*SzRBmrSwBYBJyCjvcqFy3w.png"
         }
@@ -118,16 +128,6 @@
           "wordCount": 6278,
           "title": "Resilient LL Parsing Tutorial",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html",
-          "author": null,
-          "description": "I already have a dedicated post about a hypothetical Zig language server.\nBut perhaps the most important thing I've written so far on the topic is the short note at the end of Zig and Rust.",
-          "link": "https://matklad.github.io/2023/05/06/zig-language-server-and-cancellation.html",
-          "publishedOn": "2023-05-06T00:00:00.000Z",
-          "wordCount": 2178,
-          "title": "Zig Language Server And Cancellation",
-          "imageUrl": null
         }
       ]
     },
@@ -154,7 +154,7 @@
           "description": "<p>In the <a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">previous post</a>, we added coroutines to <span class=\"fancy\">Co</span>, the small language we are implementing in this series of posts. In this post, we add channels to it to be able to communicate between coroutines.</p>\n<ol type=\"1\">\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-1/\">Implementing Co #1: The Parser</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-2/\">Implementing Co #2: The Interpreter</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">Implementing Co #3: Adding Coroutines</a></li>\n<li>Implementing Co #4: Adding Channels</li>\n<li>Implementing Co #5: Adding Sleep</li>\n</ol>",
           "link": "https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed",
           "publishedOn": "2023-06-03T00:00:00.000Z",
-          "wordCount": 5158,
+          "wordCount": 5414,
           "title": "Implementing Co, a Small Language With Coroutines #4: Adding Channels",
           "imageUrl": "https://abhinavsarkar.net/images/implementing-co-4/preview.png"
         },
@@ -186,12 +186,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20611",
+          "author": "Daniel Lemire",
+          "description": "Most of us are familiar with IP addresses: they are strings typically of the form “ddd.ddd.ddd.ddd” where ddd is a decimal number of up to three digits in the range 0 to 255. For example, 127.0.0.1 or 192.168.0.2. Each of the four number is a byte value, and the address is n IPv4 network address … Continue reading Parsing IP addresses crazily fast",
+          "link": "https://lemire.me/blog/2023/06/08/parsing-ip-addresses-crazily-fast/",
+          "publishedOn": "2023-06-08T20:47:56.000Z",
+          "wordCount": 4220,
+          "title": "Parsing IP addresses crazily fast",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20599",
           "author": "Daniel Lemire",
           "description": "There are fewer serial killers these days. Some suggests it is due to better forensic techniques: we catch the killers faster and more efficiently. Between the beginnings of the Web (1996) and today, the household Internet connection bandwidth got over 5000 times faster. Thus what took nearly two hours of download time back then can … Continue reading Science and Technogy links (June 3 2023)",
           "link": "https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/",
           "publishedOn": "2023-06-03T20:41:56.000Z",
-          "wordCount": 3363,
+          "wordCount": 3411,
           "title": "Science and Technogy links (June 3 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -201,7 +211,7 @@
           "description": "How much is a degree from a prestigious university worth? The answer is a bit difficult to answer because there are many cofounding factors: people from the connected class  (folks that ‘know people’) tend to attend the most prestigious universities, and they also tend to do well professionally. It is likely that highly connected people … Continue reading Peak credentialism",
           "link": "https://lemire.me/blog/2023/06/01/peak-credentialism/",
           "publishedOn": "2023-06-01T16:40:15.000Z",
-          "wordCount": 4030,
+          "wordCount": 4063,
           "title": "Peak credentialism",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -211,7 +221,7 @@
           "description": "A hash function is a function that maps a value (such as a string) to an integer value. Typically, we want random-looking values. A Bloom filter is a standard data structure in computer science to approximate a set. Basically, you start with a large array of bits, all initialized at zero. Each time you want … Continue reading Expected performance of a Bloom filter",
           "link": "https://lemire.me/blog/2023/05/26/expected-performance-of-a-bloom-filter/",
           "publishedOn": "2023-05-26T20:36:04.000Z",
-          "wordCount": 3865,
+          "wordCount": 3873,
           "title": "Expected performance of a Bloom filter",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -221,7 +231,7 @@
           "description": "The Go programming language makes it easy to call C code. Suppose you have the following C functions: char* allocate() { return (char*)malloc(100); } void free_allocated(char *c) { free(c); } Then you can call them from Go as follows: c := C.allocate() C.free_allocated(c) It works well. You might argue that my functions are useless, but … Continue reading The absurd cost of finalizers in Go",
           "link": "https://lemire.me/blog/2023/05/19/the-absurd-cost-of-finalizers-in-go/",
           "publishedOn": "2023-05-19T14:57:14.000Z",
-          "wordCount": 4678,
+          "wordCount": 4686,
           "title": "The absurd cost of finalizers in Go",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -231,7 +241,7 @@
           "description": "While most of our software relies on Unicode strings, we often still encounter legacy encodings such as Latin 1. Before we convert Latin 1 strings to Unicode (e.g., UTF-8), we must compute the size of the UTF-8 string. It is fairly easy: all ASCII characters map 1 byte to 1 byte, while other characters (with … Continue reading Computing the UTF-8 size of a Latin 1 string quickly (ARM NEON edition)",
           "link": "https://lemire.me/blog/2023/05/15/computing-the-utf-8-size-of-a-latin-1-string-quickly-arm-neon-edition/",
           "publishedOn": "2023-05-15T15:46:20.000Z",
-          "wordCount": 4269,
+          "wordCount": 4277,
           "title": "Computing the UTF-8 size of a Latin 1 string quickly (ARM NEON edition)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -241,18 +251,8 @@
           "description": "Modern processors can execute several instructions per cycle. Because processors cannot easily run faster (in terms of clock speed), vendors try to get their processors to do more work per cycle. Apple processors are wide in the sense that they can retire many more instructions per cycle than comparable Intel or AMD processors. However, some … Continue reading ARM instructions do “less work”?",
           "link": "https://lemire.me/blog/2023/05/12/arm-instructions-do-less-work/",
           "publishedOn": "2023-05-12T15:56:11.000Z",
-          "wordCount": 3568,
+          "wordCount": 3576,
           "title": "ARM instructions do “less work”?",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20527",
-          "author": "Daniel Lemire",
-          "description": "Artificial intelligence (ChatGPT) can provide better answers to patients than physicians. Eating chocolate might affect your brain and cognitive functions. It may not make you smarter, but it might brighten your mood. Obesity may shorten your disease-free lifespan. A supplement called Netrin-1 appears to rejuvenate the bone marrow. Prior research indicated that high status individuals … Continue reading Science and Technology links (May 6 2023)",
-          "link": "https://lemire.me/blog/2023/05/06/science-and-technology-links-may-6-2023/",
-          "publishedOn": "2023-05-06T15:00:46.000Z",
-          "wordCount": 3076,
-          "title": "Science and Technology links (May 6 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
