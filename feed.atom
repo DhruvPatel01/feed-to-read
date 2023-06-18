@@ -1,16 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-11T01:14:49.790Z</id>
+    <id>urn:2023-06-18T01:14:28.490Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-11T01:14:49.790Z</updated>
+    <updated>2023-06-18T01:14:28.490Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Migrating Netflix to GraphQL Safely]]></title>
+        <id>https://medium.com/p/8e1e4d4f1e72</id>
+        <link href="https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4"/>
+        <updated>2023-06-14T17:59:46.000Z</updated>
+        <summary type="html"><![CDATA[By Jennifer Shin, Tejas Shikhare, Will Emmanuel]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Citogenesis in science and the importance of real problems]]></title>
+        <id>http://lemire.me/blog/?p=3931</id>
+        <link href="https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/"/>
+        <updated>2023-06-14T10:05:44.000Z</updated>
+        <summary type="html"><![CDATA[Scientists publish papers in refereed journals and conferences: they write up their results and we ask anonymous referees to assess it. If the work is published, presumably because the anonymous referees found nothing objectionable, the published paper joins the “literature”. It is not a strict requirement: you can do excellent research without publishing in refereed … Continue reading Citogenesis in science and the importance of real problems]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrating Critical Traffic At Scale with No Downtime — Part 2]]></title>
+        <id>https://medium.com/p/4b1c8c7155c1</id>
+        <link href="https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-2-4b1c8c7155c1?source=rss----2615bd06b42e---4"/>
+        <updated>2023-06-13T17:23:17.000Z</updated>
+        <summary type="html"><![CDATA[Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM]]></title>
+        <id>https://medium.com/p/815aef5107cd</id>
+        <link href="https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4"/>
+        <updated>2023-06-12T16:36:25.000Z</updated>
+        <summary type="html"><![CDATA[Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (June 11 2023)]]></title>
+        <id>https://lemire.me/blog/?p=20619</id>
+        <link href="https://lemire.me/blog/2023/06/11/science-and-technology-links-june-11-2023/"/>
+        <updated>2023-06-11T19:45:32.000Z</updated>
+        <summary type="html"><![CDATA[Similar species can have vastly different lifespan. Researchers have been looking for the limiting factors that explain these differences. As we age, our genes are expressed differently through methylation. Different species vary their methylation at different speeds. There is some evidence that it could be that the methylation rate that determines the lifespan. If that … Continue reading Science and Technology links (June 11 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Parsing IP addresses crazily fast]]></title>
         <id>https://lemire.me/blog/?p=20611</id>
         <link href="https://lemire.me/blog/2023/06/08/parsing-ip-addresses-crazily-fast/"/>
         <updated>2023-06-08T20:47:56.000Z</updated>
-        <summary type="html"><![CDATA[Most of us are familiar with IP addresses: they are strings typically of the form “ddd.ddd.ddd.ddd” where ddd is a decimal number of up to three digits in the range 0 to 255. For example, 127.0.0.1 or 192.168.0.2. Each of the four number is a byte value, and the address is n IPv4 network address … Continue reading Parsing IP addresses crazily fast]]></summary>
+        <summary type="html"><![CDATA[Most of us are familiar with IP addresses: they are strings typically of the form “ddd.ddd.ddd.ddd” where ddd is a decimal number of up to three digits in the range 0 to 255. For example, 127.0.0.1 or 192.168.0.2. Each of the four number is a byte value, and the address is an IPv4 network address … Continue reading Parsing IP addresses crazily fast]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
@@ -170,311 +220,6 @@ Explaining the problem and the solution requires somewhat less than a trivial wo
         <link href="https://lemire.me/blog/2023/05/19/the-absurd-cost-of-finalizers-in-go/"/>
         <updated>2023-05-19T14:57:14.000Z</updated>
         <summary type="html"><![CDATA[The Go programming language makes it easy to call C code. Suppose you have the following C functions: char* allocate() { return (char*)malloc(100); } void free_allocated(char *c) { free(c); } Then you can call them from Go as follows: c := C.allocate() C.free_allocated(c) It works well. You might argue that my functions are useless, but … Continue reading The absurd cost of finalizers in Go]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ABAC on SpiceDB: Enabling Netflix’s Complex Identity Types]]></title>
-        <id>https://medium.com/p/c118f374fa89</id>
-        <link href="https://netflixtechblog.com/abac-on-spicedb-enabling-netflixs-complex-identity-types-c118f374fa89?source=rss----2615bd06b42e---4"/>
-        <updated>2023-05-19T12:01:47.000Z</updated>
-        <summary type="html"><![CDATA[By Chris Wolfe, Joey Schorr, and Victor Roldán Betancort]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pittsburgh]]></title>
-        <id>https://thenumb.at/Pittsburgh/</id>
-        <link href="https://thenumb.at/Pittsburgh/"/>
-        <updated>2023-05-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[University of Pittsburgh / Carnegie Mellon University, Pittsburgh, PA, 2023]]></summary>
-        <author>
-            <name>Max Slater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding Mastodon Comments to a Website]]></title>
-        <id>https://notes.abhinavsarkar.net/2023/mastodon-comments</id>
-        <link href="https://notes.abhinavsarkar.net/2023/mastodon-comments"/>
-        <updated>2023-05-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Two of the core ideas of <a href="https://indieweb.org/">IndieWeb</a> are <a href="https://indieweb.org/POSSE">POSSE</a> and <a href="https://indieweb.org/backfeed">Backfeed</a>. The idea behind POSSE is that you publish your content on your own website first, and then syndicate it to other platforms. Backfeed means that you pull back the comments and likes from the other platforms to your own website. In this post, I describe how I implemented these ideas for this website with <a href="https://joinmastodon.org/">Mastodon</a>.</p>
-
-<p>Though it is possible to use services like <a href="https://brid.gy/">Bridgy</a> to implement POSSE and Backfeed, I chose to do it myself. Syndicating is just posting the URL of a blog post to Mastodon, so I do it manually. That lets me write a custom message for the post, and also lets me choose the right image to attach. For Backfeed, I use the <a href="https://docs.joinmastodon.org/api/">Mastodon API</a> to pull back the comments to this website.</p>
-
-<p>At the end of each post, I add a link to the Mastodon post that links to the blog post, like:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You can like, share, or comment on this post on
-<span class="p">[</span><span class="nv">Mastodon</span><span class="p">](</span><span class="sx">https://fantastic.earth/@abnv/110362391871164484</span><span class="p">)</span>{:class="mastodon-link"}.
-</code></pre></div></div>
-
-<p>Then this small Javascipt code pulls back the comments from Mastodon, and displays them on the post:</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">DOMContentLoaded</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">let</span> <span class="nx">mastodonLink</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">a.mastodon-link</span><span class="dl">"</span><span class="p">);</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">mastodonLink</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">let</span> <span class="nx">parts</span> <span class="o">=</span> <span class="nx">mastodonLink</span><span class="p">.</span><span class="nx">href</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">);</span>
-    <span class="kd">let</span> <span class="nx">postId</span> <span class="o">=</span> <span class="nx">parts</span><span class="p">[</span><span class="nx">parts</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span>
-    <span class="kd">let</span> <span class="nx">main</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">main</span><span class="dl">"</span><span class="p">);</span>
-    <span class="nx">fetch</span><span class="p">(</span><span class="s2">`https://fantastic.earth/api/v1/statuses/</span><span class="p">${</span><span class="nx">postId</span><span class="p">}</span><span class="s2">/context`</span><span class="p">)</span>
-    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
-    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="kd">let</span> <span class="nx">comments</span> <span class="o">=</span> <span class="nx">res</span><span class="p">.</span><span class="nx">descendants</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">c</span> <span class="o">=&gt;</span> <span class="nx">c</span><span class="p">.</span><span class="nx">visibility</span> <span class="o">===</span> <span class="dl">"</span><span class="s2">public</span><span class="dl">"</span><span class="p">);</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nx">comments</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span>
-        <span class="k">return</span><span class="p">;</span>
-
-      <span class="kd">let</span> <span class="nx">commentContainer</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">"</span><span class="s2">div</span><span class="dl">"</span><span class="p">);</span>
-      <span class="nx">commentContainer</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">comments</span><span class="dl">"</span><span class="p">;</span>
-
-      <span class="kd">let</span> <span class="nx">commentsHeader</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">"</span><span class="s2">h2</span><span class="dl">"</span><span class="p">);</span>
-      <span class="nx">commentsHeader</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Comments</span><span class="dl">"</span><span class="p">;</span>
-      <span class="nx">commentContainer</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">commentsHeader</span><span class="p">);</span>
-
-      <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">comment</span> <span class="k">of</span> <span class="nx">comments</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">let</span> <span class="nx">html</span> <span class="o">=</span> <span class="s2">`
-&lt;a class="account" href="</span><span class="p">${</span><span class="nx">comment</span><span class="p">.</span><span class="nx">account</span><span class="p">.</span><span class="nx">url</span><span class="p">}</span><span class="s2">"&gt;</span><span class="p">${</span><span class="nx">comment</span><span class="p">.</span><span class="nx">account</span><span class="p">.</span><span class="nx">username</span><span class="p">}</span><span class="s2">&lt;/a&gt;
-&lt;a class="pubtime" href="</span><span class="p">${</span><span class="nx">comment</span><span class="p">.</span><span class="nx">url</span><span class="p">}</span><span class="s2">"&gt;
-  &lt;time&gt;</span><span class="p">${</span><span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">comment</span><span class="p">.</span><span class="nx">created_at</span><span class="p">).</span><span class="nx">toLocaleString</span><span class="p">()}</span><span class="s2">&lt;/time&gt;
-&lt;/a&gt;
-&lt;div class="content"&gt;</span><span class="p">${</span><span class="nx">comment</span><span class="p">.</span><span class="nx">content</span><span class="p">}</span><span class="s2">&lt;/div&gt;`</span><span class="p">;</span>
-        <span class="kd">let</span> <span class="nx">commentElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">"</span><span class="s2">div</span><span class="dl">"</span><span class="p">);</span>
-        <span class="nx">commentElement</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">html</span><span class="p">;</span>
-        <span class="nx">commentElement</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">comment</span><span class="dl">"</span><span class="p">;</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">comment</span><span class="p">.</span><span class="nx">in_reply_to_id</span> <span class="o">!==</span> <span class="nx">postId</span><span class="p">)</span> <span class="p">{</span>
-          <span class="nx">commentElement</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">"</span><span class="s2">reply</span><span class="dl">"</span><span class="p">);</span>
-        <span class="p">}</span>
-        <span class="nx">commentContainer</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">commentElement</span><span class="p">);</span>
-      <span class="p">}</span>
-      <span class="nx">main</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">commentContainer</span><span class="p">);</span>
-    <span class="p">});</span>
-  <span class="p">}</span>
-<span class="p">});</span>
-</code></pre></div></div>
-
-<p>The Javascript code looks for the aforementioned link, and uses the Mastodon API to get the public comments on the linked Mastodon post. The comments are then added to the bottom of the blog post.</p>
-
-<p>I also added some SCSS code to style the comments:</p>
-
-<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.comment</span> <span class="p">{</span>
-  <span class="nl">font-size</span><span class="p">:</span> <span class="m">0</span><span class="mi">.95em</span><span class="p">;</span>
-  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">dashed</span> <span class="mh">#787882</span><span class="p">;</span>
-  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="mi">.5rem</span><span class="p">;</span>
-  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="mi">.5rem</span> <span class="m">0</span><span class="p">;</span>
-  <span class="nc">.content</span> <span class="nt">p</span><span class="nd">:last-of-type</span> <span class="p">{</span>
-    <span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="nc">.pubtime</span> <span class="p">{</span>
-    <span class="nl">float</span><span class="p">:</span> <span class="nb">right</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="nc">.content</span> <span class="nt">p</span> <span class="p">{</span>
-    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="mi">.5rem</span> <span class="nb">auto</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="k">&amp;</span><span class="nc">.reply</span> <span class="p">{</span>
-    <span class="nl">margin-left</span><span class="p">:</span> <span class="m">1rem</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>The result looks like this:</p>
-
-<p><img src="/files/mastodon-comments/comments.png" alt="Screenshot of the comments" /></p>
-
-<p>That’s it! Now go ahead and like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/110395414125998660" class="mastodon-link">Mastodon</a>.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Computing the UTF-8 size of a Latin 1 string quickly (ARM NEON edition)]]></title>
-        <id>https://lemire.me/blog/?p=20542</id>
-        <link href="https://lemire.me/blog/2023/05/15/computing-the-utf-8-size-of-a-latin-1-string-quickly-arm-neon-edition/"/>
-        <updated>2023-05-15T15:46:20.000Z</updated>
-        <summary type="html"><![CDATA[While most of our software relies on Unicode strings, we often still encounter legacy encodings such as Latin 1. Before we convert Latin 1 strings to Unicode (e.g., UTF-8), we must compute the size of the UTF-8 string. It is fairly easy: all ASCII characters map 1 byte to 1 byte, while other characters (with … Continue reading Computing the UTF-8 size of a Latin 1 string quickly (ARM NEON edition)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating Mastodon Backups with NixOS and Syncthing]]></title>
-        <id>https://notes.abhinavsarkar.net/2023/mastodon-backup</id>
-        <link href="https://notes.abhinavsarkar.net/2023/mastodon-backup"/>
-        <updated>2023-05-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Six months ago, a bunch of my friends and I started the Mastodon instance <a href="https://fantastic.earth">fantastic.earth</a>. Till now, we were kind of experimenting with it, but now that we are accepting new users, I wanted to make sure that we have a backup strategy for the Mastodon data. This post describes how I set up the backup system using <a href="https://nixos.org/">NixOS</a>, which we use to manage the server.</p>
-
-<p>There are two kinds of data that we need to backup for Mastodon: the database and the media files. Mastodon uses <a href="https://www.postgresql.org/">PostgreSQL</a> for database, and the media files are stored in a directory on the server. Fortunately, NixOS already has all the tools we need to do this, we just need to assemble them together.</p>
-
-<p>The idea is to dump the Mastodon database hourly using <a href="https://www.postgresql.org/docs/15/app-pgdump.html"><code class="language-plaintext highlighter-rouge">pg_dump</code></a>, encrypt it using <a href="https://gnupg.org/">GnuPG</a>, and then back it up to one of more remote locations using <a href="https://syncthing.net/">Syncthing</a>. The media files are backed up using Syncthing as well, but they are not encrypted. I chose this combination because I found it to be simpler and easier to understand that other options like <a href="https://www.borgbackup.org/">Borg Backup</a>, <a href="https://restic.net/">Restic</a>, or <a href="https://www.postgresql.org/docs/15/continuous-archiving.html">Postgres WAL archiving</a>.</p>
-
-<h2 id="setting-up-the-postgresql-backup">Setting Up the PostgreSQL Backup</h2>
-
-<p>Here’s the Nix module that I wrote to set this up:</p>
-
-<details>
-  <summary>The NixOS module</summary>
-
-  <div class="language-nix highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span> <span class="nv">lib</span><span class="p">,</span> <span class="nv">config</span><span class="p">,</span> <span class="nv">pkgs</span><span class="p">,</span> <span class="o">...</span> <span class="p">}:</span>
-
-<span class="kd">let</span>
-  <span class="nv">mastodonCfg</span> <span class="o">=</span> <span class="nv">config</span><span class="o">.</span><span class="nv">services</span><span class="o">.</span><span class="nv">mastodon</span><span class="p">;</span>
-  <span class="nv">syncthingCfg</span> <span class="o">=</span> <span class="nv">config</span><span class="o">.</span><span class="nv">services</span><span class="o">.</span><span class="nv">syncthing</span><span class="p">;</span>
-  <span class="nv">dbName</span> <span class="o">=</span> <span class="nv">mastodonCfg</span><span class="o">.</span><span class="nv">database</span><span class="o">.</span><span class="nv">name</span><span class="p">;</span>
-  <span class="nv">pgBackupDir</span> <span class="o">=</span> <span class="nv">config</span><span class="o">.</span><span class="nv">services</span><span class="o">.</span><span class="nv">postgresqlBackup</span><span class="o">.</span><span class="nv">location</span><span class="p">;</span>
-  <span class="nv">backupFileLocation</span> <span class="o">=</span> <span class="s2">"</span><span class="si">${</span><span class="nv">pgBackupDir</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dbName</span><span class="si">}</span><span class="s2">.sql.gz"</span><span class="p">;</span>
-  <span class="nv">encBackupFileLocation</span> <span class="o">=</span> <span class="s2">"</span><span class="si">${</span><span class="nv">backupFileLocation</span><span class="si">}</span><span class="s2">.enc"</span><span class="p">;</span>
-  <span class="nv">backupEncPassphraseFile</span> <span class="o">=</span> <span class="s2">"/var/lib/postgresql/backup-enc-passphrase"</span><span class="p">;</span>
-  <span class="nv">backupDir</span> <span class="o">=</span> <span class="s2">"</span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">dataDir</span><span class="si">}</span><span class="s2">/Backups"</span><span class="p">;</span>
-  <span class="nv">mastodonFilesDir</span> <span class="o">=</span> <span class="s2">"/var/lib/mastodon/public-system"</span><span class="p">;</span>
-  <span class="nv">devices</span> <span class="o">=</span> <span class="p">[</span> <span class="p">];</span>
-<span class="kn">in</span>
-<span class="p">{</span>
-  <span class="nv">services</span><span class="o">.</span><span class="nv">postgresqlBackup</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nv">enable</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-    <span class="nv">startAt</span> <span class="o">=</span> <span class="s2">"*-*-* *:40:00"</span><span class="p">;</span>
-    <span class="nv">databases</span> <span class="o">=</span> <span class="p">[</span> <span class="nv">dbName</span> <span class="p">];</span>
-  <span class="p">};</span>
-
-  <span class="nv">systemd</span><span class="o">.</span><span class="nv">services</span><span class="o">.</span><span class="s2">"postgresqlBackup-</span><span class="si">${</span><span class="nv">dbName</span><span class="si">}</span><span class="s2">"</span><span class="o">.</span><span class="nv">serviceConfig</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nv">ExecStartPost</span> <span class="o">=</span> <span class="s2">''</span><span class="err">
-</span><span class="s2">      /bin/sh -c '</span><span class="si">${</span><span class="nv">pkgs</span><span class="o">.</span><span class="nv">gnupg</span><span class="si">}</span><span class="s2">/bin/gpg -c --batch --yes \</span><span class="err">
-</span><span class="s2">        --passphrase-file </span><span class="si">${</span><span class="nv">backupEncPassphraseFile</span><span class="si">}</span><span class="s2"> \</span><span class="err">
-</span><span class="s2">        --output </span><span class="si">${</span><span class="nv">encBackupFileLocation</span><span class="si">}</span><span class="s2"> </span><span class="si">${</span><span class="nv">backupFileLocation</span><span class="si">}</span><span class="s2"> &amp;&amp; \</span><span class="err">
-</span><span class="s2">      echo "DB dump encrypted successfully" &amp;&amp; \</span><span class="err">
-</span><span class="s2">      chgrp </span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">group</span><span class="si">}</span><span class="s2"> </span><span class="si">${</span><span class="nv">encBackupFileLocation</span><span class="si">}</span><span class="s2"> &amp;&amp; \</span><span class="err">
-</span><span class="s2">      mv </span><span class="si">${</span><span class="nv">encBackupFileLocation</span><span class="si">}</span><span class="s2"> </span><span class="si">${</span><span class="nv">backupDir</span><span class="si">}</span><span class="s2">/ &amp;&amp; \</span><span class="err">
-</span><span class="s2">      echo "DB dump moved to the backup directory"'</span><span class="err">
-</span><span class="s2">    ''</span><span class="p">;</span>
-  <span class="p">};</span>
-
-  <span class="nv">services</span><span class="o">.</span><span class="nv">syncthing</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nv">enable</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-    <span class="nv">devices</span> <span class="o">=</span> <span class="kr">builtins</span><span class="o">.</span><span class="nv">listToAttrs</span> <span class="p">(</span><span class="kr">builtins</span><span class="o">.</span><span class="kr">map</span>
-      <span class="p">(</span><span class="nv">dev</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nv">name</span> <span class="o">=</span> <span class="nv">dev</span><span class="p">;</span>
-        <span class="nv">value</span> <span class="o">=</span> <span class="p">{</span> <span class="nv">id</span> <span class="o">=</span> <span class="kr">builtins</span><span class="o">.</span><span class="nv">readFile</span> <span class="s2">"</span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">dataDir</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">dev</span><span class="si">}</span><span class="s2">-id"</span><span class="p">;</span> <span class="p">};</span>
-      <span class="p">})</span>
-      <span class="nv">devices</span><span class="p">);</span>
-    <span class="nv">folders</span> <span class="o">=</span> <span class="p">{</span>
-      <span class="s2">"</span><span class="si">${</span><span class="nv">backupDir</span><span class="si">}</span><span class="s2">"</span> <span class="o">=</span>
-        <span class="kd">let</span> <span class="nv">folderId</span> <span class="o">=</span> <span class="s2">"db-dump"</span><span class="p">;</span>
-        <span class="kn">in</span> <span class="p">{</span>
-          <span class="nv">id</span> <span class="o">=</span> <span class="nv">folderId</span><span class="p">;</span>
-          <span class="nv">label</span> <span class="o">=</span> <span class="nv">folderId</span><span class="p">;</span>
-          <span class="nv">devices</span> <span class="o">=</span> <span class="nv">devices</span><span class="p">;</span>
-          <span class="nv">rescanInterval</span> <span class="o">=</span> <span class="mi">300</span><span class="p">;</span>
-          <span class="nv">type</span> <span class="o">=</span> <span class="s2">"sendonly"</span><span class="p">;</span>
-          <span class="nv">versioning</span> <span class="o">=</span> <span class="p">{</span>
-            <span class="nv">type</span> <span class="o">=</span> <span class="s2">"simple"</span><span class="p">;</span>
-            <span class="nv">params</span><span class="o">.</span><span class="nv">keep</span> <span class="o">=</span> <span class="s2">"6"</span><span class="p">;</span>
-          <span class="p">};</span>
-        <span class="p">};</span>
-      <span class="s2">"</span><span class="si">${</span><span class="nv">mastodonFilesDir</span><span class="si">}</span><span class="s2">"</span> <span class="o">=</span>
-        <span class="kd">let</span> <span class="nv">folderId</span> <span class="o">=</span> <span class="s2">"mastodon-files"</span><span class="p">;</span>
-        <span class="kn">in</span> <span class="p">{</span>
-          <span class="nv">id</span> <span class="o">=</span> <span class="nv">folderId</span><span class="p">;</span>
-          <span class="nv">label</span> <span class="o">=</span> <span class="nv">folderId</span><span class="p">;</span>
-          <span class="nv">devices</span> <span class="o">=</span> <span class="nv">devices</span><span class="p">;</span>
-          <span class="nv">rescanInterval</span> <span class="o">=</span> <span class="mi">60</span><span class="p">;</span>
-          <span class="nv">type</span> <span class="o">=</span> <span class="s2">"sendonly"</span><span class="p">;</span>
-        <span class="p">};</span>
-    <span class="p">};</span>
-    <span class="nv">extraFlags</span> <span class="o">=</span> <span class="p">[</span> <span class="s2">"--no-upgrade"</span> <span class="s2">"--no-restart"</span> <span class="p">];</span>
-  <span class="p">};</span>
-
-  <span class="nv">systemd</span><span class="o">.</span><span class="nv">tmpfiles</span><span class="o">.</span><span class="nv">rules</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">"z </span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">dataDir</span><span class="si">}</span><span class="s2"> 0750 </span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">user</span><span class="si">}</span><span class="s2"> </span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">group</span><span class="si">}</span><span class="s2">"</span>
-    <span class="s2">"d </span><span class="si">${</span><span class="nv">backupDir</span><span class="si">}</span><span class="s2"> 0775 </span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">user</span><span class="si">}</span><span class="s2"> </span><span class="si">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">group</span><span class="si">}</span><span class="s2">"</span>
-    <span class="s2">"z </span><span class="si">${</span><span class="nv">mastodonFilesDir</span><span class="si">}</span><span class="s2"> 0770 </span><span class="si">${</span><span class="nv">mastodonCfg</span><span class="o">.</span><span class="nv">user</span><span class="si">}</span><span class="s2"> </span><span class="si">${</span><span class="nv">mastodonCfg</span><span class="o">.</span><span class="nv">group</span><span class="si">}</span><span class="s2">"</span>
-    <span class="s2">"z </span><span class="si">${</span><span class="nv">backupEncPassphraseFile</span><span class="si">}</span><span class="s2"> 400 postgres postgres"</span>
-  <span class="p">];</span>
-
-  <span class="nv">users</span><span class="o">.</span><span class="nv">users</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nv">postgres</span><span class="o">.</span><span class="nv">extraGroups</span> <span class="o">=</span> <span class="p">[</span> <span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">group</span> <span class="p">];</span>
-    <span class="p">${</span><span class="nv">syncthingCfg</span><span class="o">.</span><span class="nv">user</span><span class="p">}</span><span class="o">.</span><span class="nv">extraGroups</span> <span class="o">=</span> <span class="p">[</span> <span class="nv">mastodonCfg</span><span class="o">.</span><span class="nv">group</span> <span class="p">];</span>
-  <span class="p">};</span>
-<span class="p">}</span>
-</code></pre></div>  </div>
-</details>
-
-<p>In the NixOS module above, first, we enable the <a href="https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/services/backup/postgresql-backup.nix">PostgreSQL Backup service</a> to dump the Mastodon database every hour. Next, we use Systemd’s <code class="language-plaintext highlighter-rouge">ExecStartPost</code> setting to run a shell script after the database dump is taken. This script encrypts the database dump using GnuPG, and moves it to the Syncthing backup directory. The passphrase for the GnuPG encryption is stored in a file that is readable only by the postgresql user.</p>
-
-<p>Next, we configure the <a href="https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/services/networking/syncthing.nix">Syncthing service</a> to backup the Mastodon media files and the <code class="language-plaintext highlighter-rouge">Backup</code> directory containing the encrypted database dump to all the devices in the <code class="language-plaintext highlighter-rouge">devices</code> list. The directories are set to be <code class="language-plaintext highlighter-rouge">sendonly</code> so that any changes made to them on the backup devices are not synced back to the Mastodon server. The <code class="language-plaintext highlighter-rouge">Backup</code> directory is also configured to keep the last 6 versions of the database dump.</p>
-
-<p>Finally, we set up file permissions and user groups so that the PostgreSQL user can write to the Syncthing backup directory, and the Syncthing user can read from the Mastodon files directory. That’s all for the NixOS module.</p>
-
-<p>We also put a strong password in the file <code class="language-plaintext highlighter-rouge">/var/lib/postgresql/backup-enc-passphrase</code> that is used to encrypt the database dump.</p>
-
-<h2 id="setting-up-syncthing">Setting Up Syncthing</h2>
-
-<p>Before enabling the module we need to set up the Syncthing, the instructions for which are as follows:</p>
-
-<ol>
-  <li>Get the Mastodon server’s Syncthing device ID by running the following commands on the server:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> sudo su syncthing -s /bin/sh
- $(ls /nix/store/*syncthing*/bin/syncthing) --device-id
-</code></pre></div>    </div>
-  </li>
-  <li>Copy the device ID, and use it to add a remote device in the Syncthing web UI of the backup device.
-    <ul>
-      <li>Check the “Auto Accept” checkbox in the Sharing tab.</li>
-    </ul>
-  </li>
-  <li>Copy the device ID of the backup device, and use it to add a remote device in the Mastodon server:
-    <ul>
-      <li>While still logged in as the <code class="language-plaintext highlighter-rouge">syncthing</code> user after running the previous command on the server, create a file <code class="language-plaintext highlighter-rouge">/var/lib/syncthing/&lt;backup-device-name&gt;-id</code>, put the backup device’s device ID into it, and change the file’s mode to 400:
-        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> echo &lt;backup-device-id&gt; &gt; /var/lib/syncthing/&lt;backup-device-name&gt;-id
- chmod 400 /var/lib/syncthing/&lt;backup-device-name&gt;-id
-</code></pre></div>        </div>
-      </li>
-    </ul>
-  </li>
-  <li>Edit the Nix module above to add the <code class="language-plaintext highlighter-rouge">&lt;backup-device-name&gt;</code> in the line containing <code class="language-plaintext highlighter-rouge">devices = [ ]</code>.</li>
-  <li>Deploy the module on the Mastodon server. This will start the Syncthing service on the server.</li>
-  <li>In the Syncthing web UI of the backup device:
-    <ol>
-      <li>accept the syncing for <code class="language-plaintext highlighter-rouge">db-dump</code> and <code class="language-plaintext highlighter-rouge">mastodon-files</code> folders,</li>
-      <li>click the “Edit” button in the <code class="language-plaintext highlighter-rouge">db-dump</code> folder’s section, and:
-        <ol>
-          <li>change the “File Versioning” option in the “File Versioning” tab to “Simple File Versioning”,</li>
-          <li>change the “Keep Versions” option to “6”, and</li>
-          <li>change the “Folder Type” option in the “Advanced” tab to “Receive Only”.</li>
-        </ol>
-      </li>
-      <li>click the “Edit” button in the <code class="language-plaintext highlighter-rouge">mastodon-files</code> folder’s section, and:
-        <ol>
-          <li>add the ignore pattern “cache/**” in the “Ignore Patterns” tab, and</li>
-          <li>change the “Folder Type” option in the “Advanced” tab to “Receive Only”.</li>
-        </ol>
-      </li>
-    </ol>
-  </li>
-</ol>
-
-<p>After this, the Syncthing backup should be set up and working as expected.</p>
-
-<h2 id="restoring-the-database">Restoring the Database</h2>
-
-<p>To restore the database, we need to decrypt the database dump, and then restore it using the <code class="language-plaintext highlighter-rouge">pg_restore</code> command:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gpg -d --batch --yes \
-  --passphrase-file /var/lib/postgresql/backup-enc-passphrase \
-  --output /tmp/mastodon.sql.gz /var/lib/syncthing/Backup/mastodon.sql.gz.enc
-pg_restore --clean --if-exists --dbname mastodon /tmp/mastodon.sql.gz
-</code></pre></div></div>
-
-<p>That’s all for setting up the Syncthing backup for Mastodon. I hope this helps someone. If you have any questions or suggestions, please feel free to leave a comment. Thanks for reading!</p>
-
-<p>You can like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/110362391871164484" class="mastodon-link">Mastodon</a>.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ARM instructions do “less work”?]]></title>
-        <id>https://lemire.me/blog/?p=20534</id>
-        <link href="https://lemire.me/blog/2023/05/12/arm-instructions-do-less-work/"/>
-        <updated>2023-05-12T15:56:11.000Z</updated>
-        <summary type="html"><![CDATA[Modern processors can execute several instructions per cycle. Because processors cannot easily run faster (in terms of clock speed), vendors try to get their processors to do more work per cycle. Apple processors are wide in the sense that they can retire many more instructions per cycle than comparable Intel or AMD processors. However, some … Continue reading ARM instructions do “less work”?]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
