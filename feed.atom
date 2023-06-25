@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-18T01:14:28.490Z</id>
+    <id>urn:2023-06-25T01:20:28.747Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-18T01:14:28.490Z</updated>
+    <updated>2023-06-25T01:20:28.747Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[My ranking of every Shakespeare play]]></title>
+        <id>https://nullprogram.com/blog/2023/06/22/</id>
+        <link href="https://nullprogram.com/blog/2023/06/22/"/>
+        <updated>2023-06-22T19:10:25.000Z</updated>
+        <summary type="html"><![CDATA[This article was discussed on Hacker News.
+A few years ago I set out on a personal journey to study and watch a
+performance of each of Shakespeare’s 37 plays. I’ve reached my goal and,
+though it’s not a usual topic around here, I wanted to get my thoughts
+down while fresh. I absolutely loved some of these plays and performances,
+and so I’d like to highlight them, especially because my favorites are,
+with one exception, not “popular” plays. Per tradition, I begin with my
+least enjoyed plays and work my way up. All performances were either a
+recording of a live stage or an adaptation, so they’re also available to
+you if you’re interested, though in most cases not for free. I’ll mention
+notable performances when applicable. The availability of a great
+performance certainly influenced my play …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting Scene Changes in Audiovisual Content]]></title>
+        <id>https://medium.com/p/77a61d3eaad6</id>
+        <link href="https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4"/>
+        <updated>2023-06-20T16:51:36.000Z</updated>
+        <summary type="html"><![CDATA[Avneesh Saluja, Andy Yao, Hossein Taghavi]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Merge Queue]]></title>
+        <id>https://matklad.github.io/2023/06/18/GitHub-merge-queue.html</id>
+        <link href="https://matklad.github.io/2023/06/18/GitHub-merge-queue.html"/>
+        <updated>2023-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Short, unedited note on GitHub merge queue.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Migrating Netflix to GraphQL Safely]]></title>
         <id>https://medium.com/p/8e1e4d4f1e72</id>
@@ -189,37 +230,6 @@ $ tim…]]></summary>
         <link href="https://lemire.me/blog/2023/05/26/expected-performance-of-a-bloom-filter/"/>
         <updated>2023-05-26T20:36:04.000Z</updated>
         <summary type="html"><![CDATA[A hash function is a function that maps a value (such as a string) to an integer value. Typically, we want random-looking values. A Bloom filter is a standard data structure in computer science to approximate a set. Basically, you start with a large array of bits, all initialized at zero. Each time you want … Continue reading Expected performance of a Bloom filter]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Resilient LL Parsing Tutorial]]></title>
-        <id>https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html</id>
-        <link href="https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html"/>
-        <updated>2023-05-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this tutorial, I will explain a particular approach to parsing, which gracefully handles syntax errors and is thus suitable for language servers, which, by their nature, have to handle incomplete and invalid code.
-Explaining the problem and the solution requires somewhat less than a trivial worked example, and I want to share a couple of tricks not directly related to resilience, so the tutorial builds a full, self-contained parser, instead of explaining abstractly just the resilience.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debugging a FUSE deadlock in the Linux kernel]]></title>
-        <id>https://medium.com/p/c75cd7989b6d</id>
-        <link href="https://netflixtechblog.com/debugging-a-fuse-deadlock-in-the-linux-kernel-c75cd7989b6d?source=rss----2615bd06b42e---4"/>
-        <updated>2023-05-19T19:21:03.000Z</updated>
-        <summary type="html"><![CDATA[Tycho Andersen]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The absurd cost of finalizers in Go]]></title>
-        <id>https://lemire.me/blog/?p=20559</id>
-        <link href="https://lemire.me/blog/2023/05/19/the-absurd-cost-of-finalizers-in-go/"/>
-        <updated>2023-05-19T14:57:14.000Z</updated>
-        <summary type="html"><![CDATA[The Go programming language makes it easy to call C code. Suppose you have the following C functions: char* allocate() { return (char*)malloc(100); } void free_allocated(char *c) { free(c); } Then you can call them from Go as follows: c := C.allocate() C.free_allocated(c) It works well. You might argue that my functions are useless, but … Continue reading The absurd cost of finalizers in Go]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>

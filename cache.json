@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2023/06/22/",
+          "author": null,
+          "description": "This article was discussed on Hacker News.\nA few years ago I set out on a personal journey to study and watch a\nperformance of each of Shakespeare’s 37 plays. I’ve reached my goal and,\nthough it’s not a usual topic around here, I wanted to get my thoughts\ndown while fresh. I absolutely loved some of these plays and performances,\nand so I’d like to highlight them, especially because my favorites are,\nwith one exception, not “popular” plays. Per tradition, I begin with my\nleast enjoyed plays and work my way up. All performances were either a\nrecording of a live stage or an adaptation, so they’re also available to\nyou if you’re interested, though in most cases not for free. I’ll mention\nnotable performances when applicable. The availability of a great\nperformance certainly influenced my play …",
+          "link": "https://nullprogram.com/blog/2023/06/22/",
+          "publishedOn": "2023-06-22T19:10:25.000Z",
+          "wordCount": 5052,
+          "title": "My ranking of every Shakespeare play",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2023/05/31/",
           "author": null,
           "description": "I love fast builds, and for years I’ve been bothered by the build penalty\nfor translation units including windows.h. This header has an enormous\nnumber of definitions and declarations and so, for C programs, it tends to\ndominate the build time of those translation units. Most programs,\nespecially systems software, only needs a tiny portion of it. For example,\nwhen compiling u-config with GCC, two thirds of the debug build was\nspent processing windows.h just for 4 types, 16 definitions, and 16\nprototypes.\nTo give a sense of the numbers, here’s empty.c, which does nothing but\ninclude windows.h.\n\n#include <windows.h>\n\n\nWith the current Mingw-w64 headers, that’s ~82kLOC (non-blank):\n\n$ gcc -E empty.c | grep -vc '^$'\n82041\n\n\nWith w64devkit this takes my system ~450ms to compile with GCC:\n\n$ tim…",
           "link": "https://nullprogram.com/blog/2023/05/31/",
           "publishedOn": "2023-05-31T01:38:31.000Z",
-          "wordCount": 1468,
+          "wordCount": 1475,
           "title": "Hand-written Windows API prototypes: fast, flexible, and tedious",
           "imageUrl": null
         }
@@ -29,12 +39,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/77a61d3eaad6",
+          "author": "Netflix Technology Blog",
+          "description": "Avneesh Saluja, Andy Yao, Hossein Taghavi",
+          "link": "https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-06-20T16:51:36.000Z",
+          "wordCount": 4223,
+          "title": "Detecting Scene Changes in Audiovisual Content",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:600/1*28phnQtCgyCSTL4nPeclrg.gif"
+        },
+        {
           "id": "https://medium.com/p/8e1e4d4f1e72",
           "author": "Netflix Technology Blog",
           "description": "By Jennifer Shin, Tejas Shikhare, Will Emmanuel",
           "link": "https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-14T17:59:46.000Z",
-          "wordCount": 4288,
+          "wordCount": 5079,
           "title": "Migrating Netflix to GraphQL Safely",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*u38PDW5BKHqtOEui3_WQjA.png"
         },
@@ -44,7 +64,7 @@
           "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
           "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-2-4b1c8c7155c1?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-13T17:23:17.000Z",
-          "wordCount": 5333,
+          "wordCount": 6133,
           "title": "Migrating Critical Traffic At Scale with No Downtime — Part 2",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*uItq6RyqItzoa9onfxFPoQ.png"
         },
@@ -54,7 +74,7 @@
           "description": "Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…",
           "link": "https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-12T16:36:25.000Z",
-          "wordCount": 3154,
+          "wordCount": 3919,
           "title": "Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:300/1*BESDvRL6Ts6iMGWt7C-Juw.png"
         },
@@ -64,7 +84,7 @@
           "description": "This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.",
           "link": "https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-05T16:31:44.000Z",
-          "wordCount": 4919,
+          "wordCount": 5746,
           "title": "Native Frame Rate Playback",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:800/1*hO3tzOhKVzbfMZcgpJvRrA.gif"
         },
@@ -74,19 +94,9 @@
           "description": "By Jose Fernandez, Ed Barker, Hank Jacobs",
           "link": "https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netflix-f99490fdf1ba?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-01T19:22:48.000Z",
-          "wordCount": 2942,
+          "wordCount": 3778,
           "title": "Ensuring the Successful Launch of Ads on Netflix",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1172/1*WSR0HigxkANIu6uyIA-lkQ.png"
-        },
-        {
-          "id": "https://medium.com/p/c75cd7989b6d",
-          "author": "Netflix Technology Blog",
-          "description": "Tycho Andersen",
-          "link": "https://netflixtechblog.com/debugging-a-fuse-deadlock-in-the-linux-kernel-c75cd7989b6d?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-05-19T19:21:03.000Z",
-          "wordCount": 4695,
-          "title": "Debugging a FUSE deadlock in the Linux kernel",
-          "imageUrl": null
         }
       ]
     },
@@ -119,6 +129,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/06/18/GitHub-merge-queue.html",
+          "author": null,
+          "description": "Short, unedited note on GitHub merge queue.",
+          "link": "https://matklad.github.io/2023/06/18/GitHub-merge-queue.html",
+          "publishedOn": "2023-06-18T00:00:00.000Z",
+          "wordCount": 630,
+          "title": "GitHub Merge Queue",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/06/02/the-worst-zig-version-manager.html",
           "author": null,
           "description": "https://github.com/matklad/hello-getzig",
@@ -126,16 +146,6 @@
           "publishedOn": "2023-06-02T00:00:00.000Z",
           "wordCount": 1115,
           "title": "The Worst Zig Version Manager",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html",
-          "author": null,
-          "description": "In this tutorial, I will explain a particular approach to parsing, which gracefully handles syntax errors and is thus suitable for language servers, which, by their nature, have to handle incomplete and invalid code.\nExplaining the problem and the solution requires somewhat less than a trivial worked example, and I want to share a couple of tricks not directly related to resilience, so the tutorial builds a full, self-contained parser, instead of explaining abstractly just the resilience.",
-          "link": "https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html",
-          "publishedOn": "2023-05-21T00:00:00.000Z",
-          "wordCount": 6278,
-          "title": "Resilient LL Parsing Tutorial",
           "imageUrl": null
         }
       ]
@@ -163,7 +173,7 @@
           "description": "<p>In the <a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">previous post</a>, we added coroutines to <span class=\"fancy\">Co</span>, the small language we are implementing in this series of posts. In this post, we add channels to it to be able to communicate between coroutines.</p>\n<ol type=\"1\">\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-1/\">Implementing Co #1: The Parser</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-2/\">Implementing Co #2: The Interpreter</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">Implementing Co #3: Adding Coroutines</a></li>\n<li>Implementing Co #4: Adding Channels</li>\n<li>Implementing Co #5: Adding Sleep</li>\n</ol>",
           "link": "https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed",
           "publishedOn": "2023-06-03T00:00:00.000Z",
-          "wordCount": 5323,
+          "wordCount": 5361,
           "title": "Implementing Co, a Small Language With Coroutines #4: Adding Channels",
           "imageUrl": "https://abhinavsarkar.net/images/implementing-co-4/preview.png"
         }
@@ -180,7 +190,7 @@
           "description": "Scientists publish papers in refereed journals and conferences: they write up their results and we ask anonymous referees to assess it. If the work is published, presumably because the anonymous referees found nothing objectionable, the published paper joins the “literature”. It is not a strict requirement: you can do excellent research without publishing in refereed … Continue reading Citogenesis in science and the importance of real problems",
           "link": "https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/",
           "publishedOn": "2023-06-14T10:05:44.000Z",
-          "wordCount": 4720,
+          "wordCount": 4942,
           "title": "Citogenesis in science and the importance of real problems",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -232,16 +242,6 @@
           "publishedOn": "2023-05-26T20:36:04.000Z",
           "wordCount": 3895,
           "title": "Expected performance of a Bloom filter",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20559",
-          "author": "Daniel Lemire",
-          "description": "The Go programming language makes it easy to call C code. Suppose you have the following C functions: char* allocate() { return (char*)malloc(100); } void free_allocated(char *c) { free(c); } Then you can call them from Go as follows: c := C.allocate() C.free_allocated(c) It works well. You might argue that my functions are useless, but … Continue reading The absurd cost of finalizers in Go",
-          "link": "https://lemire.me/blog/2023/05/19/the-absurd-cost-of-finalizers-in-go/",
-          "publishedOn": "2023-05-19T14:57:14.000Z",
-          "wordCount": 4708,
-          "title": "The absurd cost of finalizers in Go",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
