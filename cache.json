@@ -44,7 +44,7 @@
           "description": "Avneesh Saluja, Andy Yao, Hossein Taghavi",
           "link": "https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-20T16:51:36.000Z",
-          "wordCount": 4259,
+          "wordCount": 4293,
           "title": "Detecting Scene Changes in Audiovisual Content",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:600/1*28phnQtCgyCSTL4nPeclrg.gif"
         },
@@ -54,7 +54,7 @@
           "description": "By Jennifer Shin, Tejas Shikhare, Will Emmanuel",
           "link": "https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-14T17:59:46.000Z",
-          "wordCount": 5119,
+          "wordCount": 5138,
           "title": "Migrating Netflix to GraphQL Safely",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*u38PDW5BKHqtOEui3_WQjA.png"
         },
@@ -64,7 +64,7 @@
           "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
           "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-2-4b1c8c7155c1?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-13T17:23:17.000Z",
-          "wordCount": 6127,
+          "wordCount": 6144,
           "title": "Migrating Critical Traffic At Scale with No Downtime — Part 2",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*uItq6RyqItzoa9onfxFPoQ.png"
         },
@@ -74,7 +74,7 @@
           "description": "Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…",
           "link": "https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-12T16:36:25.000Z",
-          "wordCount": 3975,
+          "wordCount": 4026,
           "title": "Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:300/1*BESDvRL6Ts6iMGWt7C-Juw.png"
         },
@@ -84,7 +84,7 @@
           "description": "This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.",
           "link": "https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-05T16:31:44.000Z",
-          "wordCount": 5692,
+          "wordCount": 5733,
           "title": "Native Frame Rate Playback",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:800/1*hO3tzOhKVzbfMZcgpJvRrA.gif"
         }
@@ -146,18 +146,7 @@
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
-      "articles": [
-        {
-          "id": "https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>In the <a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">previous post</a>, we added coroutines to <span class=\"fancy\">Co</span>, the small language we are implementing in this series of posts. In this post, we add channels to it to be able to communicate between coroutines.</p>\n<ol type=\"1\">\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-1/\">Implementing Co #1: The Parser</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-2/\">Implementing Co #2: The Interpreter</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">Implementing Co #3: Adding Coroutines</a></li>\n<li>Implementing Co #4: Adding Channels</li>\n<li>Implementing Co #5: Adding Sleep</li>\n</ol>",
-          "link": "https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed",
-          "publishedOn": "2023-06-03T00:00:00.000Z",
-          "wordCount": 5348,
-          "title": "Implementing Co, a Small Language With Coroutines #4: Adding Channels",
-          "imageUrl": "https://abhinavsarkar.net/images/implementing-co-4/preview.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Daniel Lemire's blog",
@@ -170,7 +159,7 @@
           "description": "In software, it is common to represent time as a time-stamp string. It is usually specified by a time format string. Some standards use the format %Y%m%d%H%M%S meaning that we print the year, the month, the day, the hours, the minutes and the seconds. The current time as I write this blog post would be … Continue reading Parsing time stamps faster with SIMD instructions",
           "link": "https://lemire.me/blog/2023/07/01/parsing-time-stamps-faster-with-simd-instructions/",
           "publishedOn": "2023-07-01T21:38:06.000Z",
-          "wordCount": 3507,
+          "wordCount": 3614,
           "title": "Parsing time stamps faster with SIMD instructions",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -180,7 +169,7 @@
           "description": "Suppose that you want to reorder, arbitrarily, the bits in a 64-bit word. This question was raised on Twitter by @experquisite. Formally, you might want to provide, for each of the 64 bit position, an original bit position you want to copy. Hence, the following code would reverse the bit order in your 64-bit word: … Continue reading Dynamic bit shuffle using AVX-512",
           "link": "https://lemire.me/blog/2023/06/29/dynamic-bit-shuffle-using-avx-512/",
           "publishedOn": "2023-06-29T15:59:01.000Z",
-          "wordCount": 3835,
+          "wordCount": 3996,
           "title": "Dynamic bit shuffle using AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -190,7 +179,7 @@
           "description": "Women in highly religious relationships report the highest levels of relationship quality. US politics is largely divided into two parties (Republicans and Democrats). People who are affiliated with the Republicans have many more kids. The Antartic ice shelves gained 661 gigaton of ice over the past decade. A low protein diet increases mortality among older … Continue reading Science and Technology links (June 25 2023)",
           "link": "https://lemire.me/blog/2023/06/25/science-and-technology-links-june-25-2023/",
           "publishedOn": "2023-06-25T17:32:56.000Z",
-          "wordCount": 3111,
+          "wordCount": 3112,
           "title": "Science and Technology links (June 25 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -200,7 +189,7 @@
           "description": "Scientists publish papers in refereed journals and conferences: they write up their results and we ask anonymous referees to assess it. If the work is published, presumably because the anonymous referees found nothing objectionable, the published paper joins the “literature”. It is not a strict requirement: you can do excellent research without publishing in refereed … Continue reading Citogenesis in science and the importance of real problems",
           "link": "https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/",
           "publishedOn": "2023-06-14T10:05:44.000Z",
-          "wordCount": 4942,
+          "wordCount": 4943,
           "title": "Citogenesis in science and the importance of real problems",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -210,7 +199,7 @@
           "description": "Similar species can have vastly different lifespan. Researchers have been looking for the limiting factors that explain these differences. As we age, our genes are expressed differently through methylation. Different species vary their methylation at different speeds. There is some evidence that it could be that the methylation rate that determines the lifespan. If that … Continue reading Science and Technology links (June 11 2023)",
           "link": "https://lemire.me/blog/2023/06/11/science-and-technology-links-june-11-2023/",
           "publishedOn": "2023-06-11T19:45:32.000Z",
-          "wordCount": 3195,
+          "wordCount": 3196,
           "title": "Science and Technology links (June 11 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -220,7 +209,7 @@
           "description": "Most of us are familiar with IP addresses: they are strings typically of the form “ddd.ddd.ddd.ddd” where ddd is a decimal number of up to three digits in the range 0 to 255. For example, 127.0.0.1 or 192.168.0.2. Each of the four number is a byte value, and the address is an IPv4 network address … Continue reading Parsing IP addresses crazily fast",
           "link": "https://lemire.me/blog/2023/06/08/parsing-ip-addresses-crazily-fast/",
           "publishedOn": "2023-06-08T20:47:56.000Z",
-          "wordCount": 4242,
+          "wordCount": 4243,
           "title": "Parsing IP addresses crazily fast",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -230,9 +219,56 @@
           "description": "There are fewer serial killers these days. Some suggests it is due to better forensic techniques: we catch the killers faster and more efficiently. Between the beginnings of the Web (1996) and today, the household Internet connection bandwidth got over 5000 times faster. Thus what took nearly two hours of download time back then can … Continue reading Science and Technogy links (June 3 2023)",
           "link": "https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/",
           "publishedOn": "2023-06-03T20:41:56.000Z",
-          "wordCount": 3477,
+          "wordCount": 3478,
           "title": "Science and Technogy links (June 3 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        }
+      ]
+    },
+    {
+      "title": "devever.net/~hl",
+      "feedUrl": "https://www.devever.net/~hl/index.feed",
+      "siteUrl": "https://www.devever.net/~hl/",
+      "articles": [
+        {
+          "id": "https://www.devever.net/~hl/webappcoupling",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Trying to make web applications federated is a popular effort. Examples include\nthings like the “fediverse”, as well as various other efforts, like attempts to\nmake distributed software forges, and so on. However, all of these efforts\nsuffer from a problem which is fundamental in building federated applications\nbuilt on top of the web platform.</p></div></div>",
+          "link": "https://www.devever.net/~hl/webappcoupling",
+          "publishedOn": "2023-07-01T12:05:00.000Z",
+          "wordCount": 770,
+          "title": "[Computing] The problem with federated web apps",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.devever.net/~hl/u/202306#25a",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><a href=\"https://blog.dijit.sh/i-don-t-trust-signal\">I don't trust Signal</a></li></ul><p xmlns=\"http://www.w3.org/1999/xhtml\">Re: my article , this is another good article focused on Signal specifically and why it should not be considered trustworthy or secure.<a href=\"https://www.devever.net/~hl/webcrypto\">Web-based cryptography is always snake oil</a></p></div></div>",
+          "link": "https://www.devever.net/~hl/u/202306#25a",
+          "publishedOn": "2023-06-25T10:34:12.000Z",
+          "wordCount": 54,
+          "title": "[Hμblog] I don't trust Signal",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.devever.net/~hl/webcrypto",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Nowadays, there is an epidemic of web applications purporting to offer\n“end-to-end” encryption. Examples might range from a file upload service,\nwhich allows you to upload and share files of arbitrary size and promises\n“end-to-end encryption”; or a web-based password safe service which claims that\nit can't see your passwords because they're encrypted; or a web-based\ncryptocurrency wallet.</p></div></div>",
+          "link": "https://www.devever.net/~hl/webcrypto",
+          "publishedOn": "2023-06-25T08:38:00.000Z",
+          "wordCount": 3225,
+          "title": "[Computing] Web-based cryptography is always snake oil",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.devever.net/~hl/kvm",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Linux's Kernel Virtual Machine (KVM) is a hypervisor built into the Linux\nkernel. Whereas in the past Xen proved a more popular hypervisor for\nmulti-tenant clouds — being the original basis of AWS EC2, for example — over\nthe years Linux's own hypervisor has matured and grown in popularity, and now\neclipsed Xen as the hypervisor of preference for many clouds. AWS at some point\nswitched to KVM (though it's unclear to me if they still use it or a custom\nhypervisor at this point), and Google Cloud has used KVM from the beginning.</p></div></div>",
+          "link": "https://www.devever.net/~hl/kvm",
+          "publishedOn": "2023-06-04T10:52:00.000Z",
+          "wordCount": 3701,
+          "title": "[Computing] Writing a KVM hypervisor VMM in Python",
+          "imageUrl": null
         }
       ]
     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-02T01:17:57.819Z</id>
+    <id>urn:2023-07-02T13:28:48.332Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-02T01:17:57.820Z</updated>
+    <updated>2023-07-02T13:28:48.332Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -13,6 +13,20 @@
         <summary type="html"><![CDATA[In software, it is common to represent time as a time-stamp string. It is usually specified by a time format string. Some standards use the format %Y%m%d%H%M%S meaning that we print the year, the month, the day, the hours, the minutes and the seconds. The current time as I write this blog post would be … Continue reading Parsing time stamps faster with SIMD instructions]]></summary>
         <author>
             <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Computing] The problem with federated web apps]]></title>
+        <id>https://www.devever.net/~hl/webappcoupling</id>
+        <link href="https://www.devever.net/~hl/webappcoupling"/>
+        <updated>2023-07-01T12:05:00.000Z</updated>
+        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">Trying to make web applications federated is a popular effort. Examples include
+things like the “fediverse”, as well as various other efforts, like attempts to
+make distributed software forges, and so on. However, all of these efforts
+suffer from a problem which is fundamental in building federated applications
+built on top of the web platform.</p></div></div>]]></summary>
+        <author>
+            <name>devever.net/~hl</name>
         </author>
     </entry>
     <entry>
@@ -82,6 +96,31 @@ exercise …]]></summary>
         <summary type="html"><![CDATA[Women in highly religious relationships report the highest levels of relationship quality. US politics is largely divided into two parties (Republicans and Democrats). People who are affiliated with the Republicans have many more kids. The Antartic ice shelves gained 661 gigaton of ice over the past decade. A low protein diet increases mortality among older … Continue reading Science and Technology links (June 25 2023)]]></summary>
         <author>
             <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Hμblog] I don't trust Signal]]></title>
+        <id>https://www.devever.net/~hl/u/202306#25a</id>
+        <link href="https://www.devever.net/~hl/u/202306#25a"/>
+        <updated>2023-06-25T10:34:12.000Z</updated>
+        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><ul><li><a href="https://blog.dijit.sh/i-don-t-trust-signal">I don't trust Signal</a></li></ul><p xmlns="http://www.w3.org/1999/xhtml">Re: my article , this is another good article focused on Signal specifically and why it should not be considered trustworthy or secure.<a href="https://www.devever.net/~hl/webcrypto">Web-based cryptography is always snake oil</a></p></div></div>]]></summary>
+        <author>
+            <name>devever.net/~hl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Computing] Web-based cryptography is always snake oil]]></title>
+        <id>https://www.devever.net/~hl/webcrypto</id>
+        <link href="https://www.devever.net/~hl/webcrypto"/>
+        <updated>2023-06-25T08:38:00.000Z</updated>
+        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">Nowadays, there is an epidemic of web applications purporting to offer
+“end-to-end” encryption. Examples might range from a file upload service,
+which allows you to upload and share files of arbitrary size and promises
+“end-to-end encryption”; or a web-based password safe service which claims that
+it can't see your passwords because they're encrypted; or a web-based
+cryptocurrency wallet.</p></div></div>]]></summary>
+        <author>
+            <name>devever.net/~hl</name>
         </author>
     </entry>
     <entry>
@@ -196,6 +235,22 @@ performance certainly influenced my play …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[Computing] Writing a KVM hypervisor VMM in Python]]></title>
+        <id>https://www.devever.net/~hl/kvm</id>
+        <link href="https://www.devever.net/~hl/kvm"/>
+        <updated>2023-06-04T10:52:00.000Z</updated>
+        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">Linux's Kernel Virtual Machine (KVM) is a hypervisor built into the Linux
+kernel. Whereas in the past Xen proved a more popular hypervisor for
+multi-tenant clouds — being the original basis of AWS EC2, for example — over
+the years Linux's own hypervisor has matured and grown in popularity, and now
+eclipsed Xen as the hypervisor of preference for many clouds. AWS at some point
+switched to KVM (though it's unclear to me if they still use it or a custom
+hypervisor at this point), and Google Cloud has used KVM from the beginning.</p></div></div>]]></summary>
+        <author>
+            <name>devever.net/~hl</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Science and Technogy links (June 3 2023)]]></title>
         <id>https://lemire.me/blog/?p=20599</id>
         <link href="https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/"/>
@@ -203,23 +258,6 @@ performance certainly influenced my play …]]></summary>
         <summary type="html"><![CDATA[There are fewer serial killers these days. Some suggests it is due to better forensic techniques: we catch the killers faster and more efficiently. Between the beginnings of the Web (1996) and today, the household Internet connection bandwidth got over 5000 times faster. Thus what took nearly two hours of download time back then can … Continue reading Science and Technogy links (June 3 2023)]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Implementing Co, a Small Language With Coroutines #4: Adding Channels]]></title>
-        <id>https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed"/>
-        <updated>2023-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>In the <a href="https://abhinavsarkar.net/posts/implementing-co-3/">previous post</a>, we added coroutines to <span class="fancy">Co</span>, the small language we are implementing in this series of posts. In this post, we add channels to it to be able to communicate between coroutines.</p>
-<ol type="1">
-<li><a href="https://abhinavsarkar.net/posts/implementing-co-1/">Implementing Co #1: The Parser</a></li>
-<li><a href="https://abhinavsarkar.net/posts/implementing-co-2/">Implementing Co #2: The Interpreter</a></li>
-<li><a href="https://abhinavsarkar.net/posts/implementing-co-3/">Implementing Co #3: Adding Coroutines</a></li>
-<li>Implementing Co #4: Adding Channels</li>
-<li>Implementing Co #5: Adding Sleep</li>
-</ol>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
         </author>
     </entry>
 </feed>
