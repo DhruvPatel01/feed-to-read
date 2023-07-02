@@ -6,23 +6,23 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2023/06/26/",
+          "author": null,
+          "description": "I came across a question: How does one efficiently solve Two Sum in C?\nThere’s a naive quadratic time solution, but also an amortized linear time\nsolution using a hash table. Without a built-in or standard library hash\ntable, the latter sounds onerous. However, a mask-step-index table,\na hash table construction suitable for many problems, requires only a few\nlines of code. This approach is useful even when a standard hash table is\navailable, because by exploiting the known problem constraints, it\nbeats typical generic hash table performance by 1–2 orders of magnitude\n(demo).\nThe Two Sum exercise, restated:\nGiven an integer array and target, return the distinct indices of two\nelements that sum to the target.\nIn particular, the solution doesn’t find elements, but their indices. The\nexercise …",
+          "link": "https://nullprogram.com/blog/2023/06/26/",
+          "publishedOn": "2023-06-26T19:38:18.000Z",
+          "wordCount": 1749,
+          "title": "Solving \"Two Sum\" in C with a tiny hash table",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2023/06/22/",
           "author": null,
           "description": "This article was discussed on Hacker News.\nA few years ago I set out on a personal journey to study and watch a\nperformance of each of Shakespeare’s 37 plays. I’ve reached my goal and,\nthough it’s not a usual topic around here, I wanted to get my thoughts\ndown while fresh. I absolutely loved some of these plays and performances,\nand so I’d like to highlight them, especially because my favorites are,\nwith one exception, not “popular” plays. Per tradition, I begin with my\nleast enjoyed plays and work my way up. All performances were either a\nrecording of a live stage or an adaptation, so they’re also available to\nyou if you’re interested, though in most cases not for free. I’ll mention\nnotable performances when applicable. The availability of a great\nperformance certainly influenced my play …",
           "link": "https://nullprogram.com/blog/2023/06/22/",
           "publishedOn": "2023-06-22T19:10:25.000Z",
-          "wordCount": 5052,
+          "wordCount": 5063,
           "title": "My ranking of every Shakespeare play",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2023/05/31/",
-          "author": null,
-          "description": "I love fast builds, and for years I’ve been bothered by the build penalty\nfor translation units including windows.h. This header has an enormous\nnumber of definitions and declarations and so, for C programs, it tends to\ndominate the build time of those translation units. Most programs,\nespecially systems software, only needs a tiny portion of it. For example,\nwhen compiling u-config with GCC, two thirds of the debug build was\nspent processing windows.h just for 4 types, 16 definitions, and 16\nprototypes.\nTo give a sense of the numbers, here’s empty.c, which does nothing but\ninclude windows.h.\n\n#include <windows.h>\n\n\nWith the current Mingw-w64 headers, that’s ~82kLOC (non-blank):\n\n$ gcc -E empty.c | grep -vc '^$'\n82041\n\n\nWith w64devkit this takes my system ~450ms to compile with GCC:\n\n$ tim…",
-          "link": "https://nullprogram.com/blog/2023/05/31/",
-          "publishedOn": "2023-05-31T01:38:31.000Z",
-          "wordCount": 1475,
-          "title": "Hand-written Windows API prototypes: fast, flexible, and tedious",
           "imageUrl": null
         }
       ]
@@ -44,7 +44,7 @@
           "description": "Avneesh Saluja, Andy Yao, Hossein Taghavi",
           "link": "https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-20T16:51:36.000Z",
-          "wordCount": 4223,
+          "wordCount": 4259,
           "title": "Detecting Scene Changes in Audiovisual Content",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:600/1*28phnQtCgyCSTL4nPeclrg.gif"
         },
@@ -54,7 +54,7 @@
           "description": "By Jennifer Shin, Tejas Shikhare, Will Emmanuel",
           "link": "https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-14T17:59:46.000Z",
-          "wordCount": 5079,
+          "wordCount": 5119,
           "title": "Migrating Netflix to GraphQL Safely",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*u38PDW5BKHqtOEui3_WQjA.png"
         },
@@ -64,7 +64,7 @@
           "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
           "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-2-4b1c8c7155c1?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-13T17:23:17.000Z",
-          "wordCount": 6133,
+          "wordCount": 6127,
           "title": "Migrating Critical Traffic At Scale with No Downtime — Part 2",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*uItq6RyqItzoa9onfxFPoQ.png"
         },
@@ -74,7 +74,7 @@
           "description": "Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…",
           "link": "https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-12T16:36:25.000Z",
-          "wordCount": 3919,
+          "wordCount": 3975,
           "title": "Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:300/1*BESDvRL6Ts6iMGWt7C-Juw.png"
         },
@@ -84,19 +84,9 @@
           "description": "This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.",
           "link": "https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-05T16:31:44.000Z",
-          "wordCount": 5746,
+          "wordCount": 5692,
           "title": "Native Frame Rate Playback",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:800/1*hO3tzOhKVzbfMZcgpJvRrA.gif"
-        },
-        {
-          "id": "https://medium.com/p/f99490fdf1ba",
-          "author": "Netflix Technology Blog",
-          "description": "By Jose Fernandez, Ed Barker, Hank Jacobs",
-          "link": "https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netflix-f99490fdf1ba?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-06-01T19:22:48.000Z",
-          "wordCount": 3778,
-          "title": "Ensuring the Successful Launch of Ads on Netflix",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1172/1*WSR0HigxkANIu6uyIA-lkQ.png"
         }
       ]
     },
@@ -106,13 +96,13 @@
       "siteUrl": "https://nim-lang.org//",
       "articles": [
         {
-          "id": "https://nim-lang.org//blog/2023/06/02/this-month-with-nim.html",
+          "id": "https://nim-lang.org//blog/2023/06/27/version-1614-released.html",
           "author": null,
-          "description": "Nuance\nAuthor: metagn\nnuance is a library that provides:\nRuntime-compatible types to represent Nim (untyped) AST including filename, line and column information.\nSerialization of these types into an S-expression format that can be directly inserted inside a Nim triple-quoted string.\nDeserialization to these types that works in the compile-time VM.\nConversion from these types into the compile-time NimNode type that can be used in macros.\nThis allows complex systems that generate Nim code to do it in a much faster and easier way than the current alternatives (making all code run only in the compile-time VM, generating it as raw text, interfacing with the compiler codebase etc.).\nExamples of use cases may be templating engines, alternative parsers etc.\nAs a demonstration of what we can do, li…",
-          "link": "https://nim-lang.org//blog/2023/06/02/this-month-with-nim.html",
-          "publishedOn": "2023-06-02T00:00:00.000Z",
-          "wordCount": 1230,
-          "title": "This Month with Nim: April and May 2023",
+          "description": "The Nim team is happy to announce version 1.6.14, our seventh (and largest) patch release for\nNim 1.6.\nVersion 1.6.14 is a result of three months of hard work, and it contains\n179 commits,\nbringing lots of general improvements over 1.6.12.\nThis release contains more than the usual amount of commits for a patch release\nbecause we want to give you the best Nim v1 experience, in case you won’t be able to\nimmediately switch to Nim v2, which will be our next release.\nWe would recommend to all of our users to upgrade and use version 1.6.14.\nInstalling Nim 1.6\nNew users\nCheck out if the package manager of your OS already ships version 1.6.14 or\ninstall it as described here.\nExisting users\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 1.6.14 is as easy as:\n$ chooseni…",
+          "link": "https://nim-lang.org//blog/2023/06/27/version-1614-released.html",
+          "publishedOn": "2023-06-27T00:00:00.000Z",
+          "wordCount": 1403,
+          "title": "Version 1.6.14 released",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
@@ -136,16 +126,6 @@
           "publishedOn": "2023-06-18T00:00:00.000Z",
           "wordCount": 630,
           "title": "GitHub Merge Queue",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/06/02/the-worst-zig-version-manager.html",
-          "author": null,
-          "description": "https://github.com/matklad/hello-getzig",
-          "link": "https://matklad.github.io/2023/06/02/the-worst-zig-version-manager.html",
-          "publishedOn": "2023-06-02T00:00:00.000Z",
-          "wordCount": 1115,
-          "title": "The Worst Zig Version Manager",
           "imageUrl": null
         }
       ]
@@ -173,7 +153,7 @@
           "description": "<p>In the <a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">previous post</a>, we added coroutines to <span class=\"fancy\">Co</span>, the small language we are implementing in this series of posts. In this post, we add channels to it to be able to communicate between coroutines.</p>\n<ol type=\"1\">\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-1/\">Implementing Co #1: The Parser</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-2/\">Implementing Co #2: The Interpreter</a></li>\n<li><a href=\"https://abhinavsarkar.net/posts/implementing-co-3/\">Implementing Co #3: Adding Coroutines</a></li>\n<li>Implementing Co #4: Adding Channels</li>\n<li>Implementing Co #5: Adding Sleep</li>\n</ol>",
           "link": "https://abhinavsarkar.net/posts/implementing-co-4/?mtm_campaign=feed",
           "publishedOn": "2023-06-03T00:00:00.000Z",
-          "wordCount": 5361,
+          "wordCount": 5348,
           "title": "Implementing Co, a Small Language With Coroutines #4: Adding Channels",
           "imageUrl": "https://abhinavsarkar.net/images/implementing-co-4/preview.png"
         }
@@ -184,6 +164,36 @@
       "feedUrl": "https://lemire.me/blog/feed/",
       "siteUrl": "https://lemire.me/blog",
       "articles": [
+        {
+          "id": "https://lemire.me/blog/?p=20651",
+          "author": "Daniel Lemire",
+          "description": "In software, it is common to represent time as a time-stamp string. It is usually specified by a time format string. Some standards use the format %Y%m%d%H%M%S meaning that we print the year, the month, the day, the hours, the minutes and the seconds. The current time as I write this blog post would be … Continue reading Parsing time stamps faster with SIMD instructions",
+          "link": "https://lemire.me/blog/2023/07/01/parsing-time-stamps-faster-with-simd-instructions/",
+          "publishedOn": "2023-07-01T21:38:06.000Z",
+          "wordCount": 3507,
+          "title": "Parsing time stamps faster with SIMD instructions",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20642",
+          "author": "Daniel Lemire",
+          "description": "Suppose that you want to reorder, arbitrarily, the bits in a 64-bit word. This question was raised on Twitter by @experquisite. Formally, you might want to provide, for each of the 64 bit position, an original bit position you want to copy. Hence, the following code would reverse the bit order in your 64-bit word: … Continue reading Dynamic bit shuffle using AVX-512",
+          "link": "https://lemire.me/blog/2023/06/29/dynamic-bit-shuffle-using-avx-512/",
+          "publishedOn": "2023-06-29T15:59:01.000Z",
+          "wordCount": 3835,
+          "title": "Dynamic bit shuffle using AVX-512",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20640",
+          "author": "Daniel Lemire",
+          "description": "Women in highly religious relationships report the highest levels of relationship quality. US politics is largely divided into two parties (Republicans and Democrats). People who are affiliated with the Republicans have many more kids. The Antartic ice shelves gained 661 gigaton of ice over the past decade. A low protein diet increases mortality among older … Continue reading Science and Technology links (June 25 2023)",
+          "link": "https://lemire.me/blog/2023/06/25/science-and-technology-links-june-25-2023/",
+          "publishedOn": "2023-06-25T17:32:56.000Z",
+          "wordCount": 3111,
+          "title": "Science and Technology links (June 25 2023)",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
         {
           "id": "http://lemire.me/blog/?p=3931",
           "author": "Daniel Lemire",
@@ -200,7 +210,7 @@
           "description": "Similar species can have vastly different lifespan. Researchers have been looking for the limiting factors that explain these differences. As we age, our genes are expressed differently through methylation. Different species vary their methylation at different speeds. There is some evidence that it could be that the methylation rate that determines the lifespan. If that … Continue reading Science and Technology links (June 11 2023)",
           "link": "https://lemire.me/blog/2023/06/11/science-and-technology-links-june-11-2023/",
           "publishedOn": "2023-06-11T19:45:32.000Z",
-          "wordCount": 3204,
+          "wordCount": 3195,
           "title": "Science and Technology links (June 11 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -210,7 +220,7 @@
           "description": "Most of us are familiar with IP addresses: they are strings typically of the form “ddd.ddd.ddd.ddd” where ddd is a decimal number of up to three digits in the range 0 to 255. For example, 127.0.0.1 or 192.168.0.2. Each of the four number is a byte value, and the address is an IPv4 network address … Continue reading Parsing IP addresses crazily fast",
           "link": "https://lemire.me/blog/2023/06/08/parsing-ip-addresses-crazily-fast/",
           "publishedOn": "2023-06-08T20:47:56.000Z",
-          "wordCount": 4251,
+          "wordCount": 4242,
           "title": "Parsing IP addresses crazily fast",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -220,28 +230,8 @@
           "description": "There are fewer serial killers these days. Some suggests it is due to better forensic techniques: we catch the killers faster and more efficiently. Between the beginnings of the Web (1996) and today, the household Internet connection bandwidth got over 5000 times faster. Thus what took nearly two hours of download time back then can … Continue reading Science and Technogy links (June 3 2023)",
           "link": "https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/",
           "publishedOn": "2023-06-03T20:41:56.000Z",
-          "wordCount": 3486,
+          "wordCount": 3477,
           "title": "Science and Technogy links (June 3 2023)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20602",
-          "author": "Daniel Lemire",
-          "description": "How much is a degree from a prestigious university worth? The answer is a bit difficult to answer because there are many cofounding factors: people from the connected class  (folks that ‘know people’) tend to attend the most prestigious universities, and they also tend to do well professionally. It is likely that highly connected people … Continue reading Peak credentialism",
-          "link": "https://lemire.me/blog/2023/06/01/peak-credentialism/",
-          "publishedOn": "2023-06-01T16:40:15.000Z",
-          "wordCount": 4085,
-          "title": "Peak credentialism",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20589",
-          "author": "Daniel Lemire",
-          "description": "A hash function is a function that maps a value (such as a string) to an integer value. Typically, we want random-looking values. A Bloom filter is a standard data structure in computer science to approximate a set. Basically, you start with a large array of bits, all initialized at zero. Each time you want … Continue reading Expected performance of a Bloom filter",
-          "link": "https://lemire.me/blog/2023/05/26/expected-performance-of-a-bloom-filter/",
-          "publishedOn": "2023-05-26T20:36:04.000Z",
-          "wordCount": 3895,
-          "title": "Expected performance of a Bloom filter",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]

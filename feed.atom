@@ -1,10 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-25T01:20:28.747Z</id>
+    <id>urn:2023-07-02T01:17:57.819Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-25T01:20:28.747Z</updated>
+    <updated>2023-07-02T01:17:57.820Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Parsing time stamps faster with SIMD instructions]]></title>
+        <id>https://lemire.me/blog/?p=20651</id>
+        <link href="https://lemire.me/blog/2023/07/01/parsing-time-stamps-faster-with-simd-instructions/"/>
+        <updated>2023-07-01T21:38:06.000Z</updated>
+        <summary type="html"><![CDATA[In software, it is common to represent time as a time-stamp string. It is usually specified by a time format string. Some standards use the format %Y%m%d%H%M%S meaning that we print the year, the month, the day, the hours, the minutes and the seconds. The current time as I write this blog post would be … Continue reading Parsing time stamps faster with SIMD instructions]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dynamic bit shuffle using AVX-512]]></title>
+        <id>https://lemire.me/blog/?p=20642</id>
+        <link href="https://lemire.me/blog/2023/06/29/dynamic-bit-shuffle-using-avx-512/"/>
+        <updated>2023-06-29T15:59:01.000Z</updated>
+        <summary type="html"><![CDATA[Suppose that you want to reorder, arbitrarily, the bits in a 64-bit word. This question was raised on Twitter by @experquisite. Formally, you might want to provide, for each of the 64 bit position, an original bit position you want to copy. Hence, the following code would reverse the bit order in your 64-bit word: … Continue reading Dynamic bit shuffle using AVX-512]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 1.6.14 released]]></title>
+        <id>https://nim-lang.org//blog/2023/06/27/version-1614-released.html</id>
+        <link href="https://nim-lang.org//blog/2023/06/27/version-1614-released.html"/>
+        <updated>2023-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim team is happy to announce version 1.6.14, our seventh (and largest) patch release for
+Nim 1.6.
+Version 1.6.14 is a result of three months of hard work, and it contains
+179 commits,
+bringing lots of general improvements over 1.6.12.
+This release contains more than the usual amount of commits for a patch release
+because we want to give you the best Nim v1 experience, in case you won’t be able to
+immediately switch to Nim v2, which will be our next release.
+We would recommend to all of our users to upgrade and use version 1.6.14.
+Installing Nim 1.6
+New users
+Check out if the package manager of your OS already ships version 1.6.14 or
+install it as described here.
+Existing users
+If you have installed a previous version of Nim using choosenim,
+getting Nim 1.6.14 is as easy as:
+$ chooseni…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving "Two Sum" in C with a tiny hash table]]></title>
+        <id>https://nullprogram.com/blog/2023/06/26/</id>
+        <link href="https://nullprogram.com/blog/2023/06/26/"/>
+        <updated>2023-06-26T19:38:18.000Z</updated>
+        <summary type="html"><![CDATA[I came across a question: How does one efficiently solve Two Sum in C?
+There’s a naive quadratic time solution, but also an amortized linear time
+solution using a hash table. Without a built-in or standard library hash
+table, the latter sounds onerous. However, a mask-step-index table,
+a hash table construction suitable for many problems, requires only a few
+lines of code. This approach is useful even when a standard hash table is
+available, because by exploiting the known problem constraints, it
+beats typical generic hash table performance by 1–2 orders of magnitude
+(demo).
+The Two Sum exercise, restated:
+Given an integer array and target, return the distinct indices of two
+elements that sum to the target.
+In particular, the solution doesn’t find elements, but their indices. The
+exercise …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (June 25 2023)]]></title>
+        <id>https://lemire.me/blog/?p=20640</id>
+        <link href="https://lemire.me/blog/2023/06/25/science-and-technology-links-june-25-2023/"/>
+        <updated>2023-06-25T17:32:56.000Z</updated>
+        <summary type="html"><![CDATA[Women in highly religious relationships report the highest levels of relationship quality. US politics is largely divided into two parties (Republicans and Democrats). People who are affiliated with the Republicans have many more kids. The Antartic ice shelves gained 661 gigaton of ice over the past decade. A low protein diet increases mortality among older … Continue reading Science and Technology links (June 25 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My ranking of every Shakespeare play]]></title>
         <id>https://nullprogram.com/blog/2023/06/22/</id>
@@ -141,97 +220,6 @@ performance certainly influenced my play …]]></summary>
 </ol>]]></summary>
         <author>
             <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Month with Nim: April and May 2023]]></title>
-        <id>https://nim-lang.org//blog/2023/06/02/this-month-with-nim.html</id>
-        <link href="https://nim-lang.org//blog/2023/06/02/this-month-with-nim.html"/>
-        <updated>2023-06-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nuance
-Author: metagn
-nuance is a library that provides:
-Runtime-compatible types to represent Nim (untyped) AST including filename, line and column information.
-Serialization of these types into an S-expression format that can be directly inserted inside a Nim triple-quoted string.
-Deserialization to these types that works in the compile-time VM.
-Conversion from these types into the compile-time NimNode type that can be used in macros.
-This allows complex systems that generate Nim code to do it in a much faster and easier way than the current alternatives (making all code run only in the compile-time VM, generating it as raw text, interfacing with the compiler codebase etc.).
-Examples of use cases may be templating engines, alternative parsers etc.
-As a demonstration of what we can do, li…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Worst Zig Version Manager]]></title>
-        <id>https://matklad.github.io/2023/06/02/the-worst-zig-version-manager.html</id>
-        <link href="https://matklad.github.io/2023/06/02/the-worst-zig-version-manager.html"/>
-        <updated>2023-06-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/matklad/hello-getzig]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ensuring the Successful Launch of Ads on Netflix]]></title>
-        <id>https://medium.com/p/f99490fdf1ba</id>
-        <link href="https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netflix-f99490fdf1ba?source=rss----2615bd06b42e---4"/>
-        <updated>2023-06-01T19:22:48.000Z</updated>
-        <summary type="html"><![CDATA[By Jose Fernandez, Ed Barker, Hank Jacobs]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Peak credentialism]]></title>
-        <id>https://lemire.me/blog/?p=20602</id>
-        <link href="https://lemire.me/blog/2023/06/01/peak-credentialism/"/>
-        <updated>2023-06-01T16:40:15.000Z</updated>
-        <summary type="html"><![CDATA[How much is a degree from a prestigious university worth? The answer is a bit difficult to answer because there are many cofounding factors: people from the connected class  (folks that ‘know people’) tend to attend the most prestigious universities, and they also tend to do well professionally. It is likely that highly connected people … Continue reading Peak credentialism]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hand-written Windows API prototypes: fast, flexible, and tedious]]></title>
-        <id>https://nullprogram.com/blog/2023/05/31/</id>
-        <link href="https://nullprogram.com/blog/2023/05/31/"/>
-        <updated>2023-05-31T01:38:31.000Z</updated>
-        <summary type="html"><![CDATA[I love fast builds, and for years I’ve been bothered by the build penalty
-for translation units including windows.h. This header has an enormous
-number of definitions and declarations and so, for C programs, it tends to
-dominate the build time of those translation units. Most programs,
-especially systems software, only needs a tiny portion of it. For example,
-when compiling u-config with GCC, two thirds of the debug build was
-spent processing windows.h just for 4 types, 16 definitions, and 16
-prototypes.
-To give a sense of the numbers, here’s empty.c, which does nothing but
-include windows.h.
-
-#include <windows.h>
-
-
-With the current Mingw-w64 headers, that’s ~82kLOC (non-blank):
-
-$ gcc -E empty.c | grep -vc '^$'
-82041
-
-
-With w64devkit this takes my system ~450ms to compile with GCC:
-
-$ tim…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Expected performance of a Bloom filter]]></title>
-        <id>https://lemire.me/blog/?p=20589</id>
-        <link href="https://lemire.me/blog/2023/05/26/expected-performance-of-a-bloom-filter/"/>
-        <updated>2023-05-26T20:36:04.000Z</updated>
-        <summary type="html"><![CDATA[A hash function is a function that maps a value (such as a string) to an integer value. Typically, we want random-looking values. A Bloom filter is a standard data structure in computer science to approximate a set. Basically, you start with a large array of bits, all initialized at zero. Each time you want … Continue reading Expected performance of a Bloom filter]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
