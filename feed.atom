@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-02T13:28:48.332Z</id>
+    <id>urn:2023-07-09T01:19:22.733Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-02T13:28:48.332Z</updated>
+    <updated>2023-07-09T01:19:22.733Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Stealth, not secrecy]]></title>
+        <id>https://lemire.me/blog/?p=20671</id>
+        <link href="https://lemire.me/blog/2023/07/08/stealth-not-secrecy/"/>
+        <updated>2023-07-08T16:43:46.000Z</updated>
+        <summary type="html"><![CDATA[The strategy for winning is simple: do good work and tell the world about it. In that order! This implies some level of stealth as you are doing the good work. If you plan to lose weight, don’t announce it… lose the weight and then do the reveal. Early feedback frames the problem and might … Continue reading Stealth, not secrecy]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Packing a string of digits into an integer quickly]]></title>
+        <id>https://lemire.me/blog/?p=20663</id>
+        <link href="https://lemire.me/blog/2023/07/07/packing-a-string-of-digits-into-an-integer-quickly/"/>
+        <updated>2023-07-07T17:19:34.000Z</updated>
+        <summary type="html"><![CDATA[Suppose that I give you a short string of digits, containing possibly spaces or other characters (e.g., "20141103 012910"). We would like to pack the digits into an integer (e.g., 0x20141103012910) so that the lexicographical order over the string matches the ordering of the integers. We can use the fact that in ASCII, the digits … Continue reading Packing a string of digits into an integer quickly]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jersey City]]></title>
+        <id>https://thenumb.at/Jersey-City/</id>
+        <link href="https://thenumb.at/Jersey-City/"/>
+        <updated>2023-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jersey City, NJ, 2023]]></summary>
+        <author>
+            <name>Max Slater</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Having fun with string literal suffixes in C++]]></title>
+        <id>https://lemire.me/blog/?p=20659</id>
+        <link href="https://lemire.me/blog/2023/07/05/having-fun-with-string-literal-suffixes-in-c/"/>
+        <updated>2023-07-05T21:38:25.000Z</updated>
+        <summary type="html"><![CDATA[The C++11 standard introduced user-defined string suffixes. It also added regular  expressions to the C++ language as a standard feature. I wanted to have fun and see whether we could combine these features. Regular expressions are useful to check whether a given string matches a pattern. For example, the expression \d+ checks that the string … Continue reading Having fun with string literal suffixes in C++]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Parsing time stamps faster with SIMD instructions]]></title>
         <id>https://lemire.me/blog/?p=20651</id>
@@ -210,52 +250,6 @@ performance certainly influenced my play …]]></summary>
         <link href="https://lemire.me/blog/2023/06/11/science-and-technology-links-june-11-2023/"/>
         <updated>2023-06-11T19:45:32.000Z</updated>
         <summary type="html"><![CDATA[Similar species can have vastly different lifespan. Researchers have been looking for the limiting factors that explain these differences. As we age, our genes are expressed differently through methylation. Different species vary their methylation at different speeds. There is some evidence that it could be that the methylation rate that determines the lifespan. If that … Continue reading Science and Technology links (June 11 2023)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parsing IP addresses crazily fast]]></title>
-        <id>https://lemire.me/blog/?p=20611</id>
-        <link href="https://lemire.me/blog/2023/06/08/parsing-ip-addresses-crazily-fast/"/>
-        <updated>2023-06-08T20:47:56.000Z</updated>
-        <summary type="html"><![CDATA[Most of us are familiar with IP addresses: they are strings typically of the form “ddd.ddd.ddd.ddd” where ddd is a decimal number of up to three digits in the range 0 to 255. For example, 127.0.0.1 or 192.168.0.2. Each of the four number is a byte value, and the address is an IPv4 network address … Continue reading Parsing IP addresses crazily fast]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Native Frame Rate Playback]]></title>
-        <id>https://medium.com/p/6c87836a948</id>
-        <link href="https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4"/>
-        <updated>2023-06-05T16:31:44.000Z</updated>
-        <summary type="html"><![CDATA[This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Computing] Writing a KVM hypervisor VMM in Python]]></title>
-        <id>https://www.devever.net/~hl/kvm</id>
-        <link href="https://www.devever.net/~hl/kvm"/>
-        <updated>2023-06-04T10:52:00.000Z</updated>
-        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">Linux's Kernel Virtual Machine (KVM) is a hypervisor built into the Linux
-kernel. Whereas in the past Xen proved a more popular hypervisor for
-multi-tenant clouds — being the original basis of AWS EC2, for example — over
-the years Linux's own hypervisor has matured and grown in popularity, and now
-eclipsed Xen as the hypervisor of preference for many clouds. AWS at some point
-switched to KVM (though it's unclear to me if they still use it or a custom
-hypervisor at this point), and Google Cloud has used KVM from the beginning.</p></div></div>]]></summary>
-        <author>
-            <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Science and Technogy links (June 3 2023)]]></title>
-        <id>https://lemire.me/blog/?p=20599</id>
-        <link href="https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/"/>
-        <updated>2023-06-03T20:41:56.000Z</updated>
-        <summary type="html"><![CDATA[There are fewer serial killers these days. Some suggests it is due to better forensic techniques: we catch the killers faster and more efficiently. Between the beginnings of the Web (1996) and today, the household Internet connection bandwidth got over 5000 times faster. Thus what took nearly two hours of download time back then can … Continue reading Science and Technogy links (June 3 2023)]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
