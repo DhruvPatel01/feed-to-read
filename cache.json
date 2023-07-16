@@ -55,39 +55,9 @@
           "description": "Avneesh Saluja, Andy Yao, Hossein Taghavi",
           "link": "https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-06-20T16:51:36.000Z",
-          "wordCount": 4320,
+          "wordCount": 4039,
           "title": "Detecting Scene Changes in Audiovisual Content",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:600/1*28phnQtCgyCSTL4nPeclrg.gif"
-        },
-        {
-          "id": "https://medium.com/p/8e1e4d4f1e72",
-          "author": "Netflix Technology Blog",
-          "description": "By Jennifer Shin, Tejas Shikhare, Will Emmanuel",
-          "link": "https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-06-14T17:59:46.000Z",
-          "wordCount": 5133,
-          "title": "Migrating Netflix to GraphQL Safely",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*u38PDW5BKHqtOEui3_WQjA.png"
-        },
-        {
-          "id": "https://medium.com/p/4b1c8c7155c1",
-          "author": "Netflix Technology Blog",
-          "description": "Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah",
-          "link": "https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-2-4b1c8c7155c1?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-06-13T17:23:17.000Z",
-          "wordCount": 6096,
-          "title": "Migrating Critical Traffic At Scale with No Downtime — Part 2",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*uItq6RyqItzoa9onfxFPoQ.png"
-        },
-        {
-          "id": "https://medium.com/p/815aef5107cd",
-          "author": "Netflix Technology Blog",
-          "description": "Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…",
-          "link": "https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-06-12T16:36:25.000Z",
-          "wordCount": 4014,
-          "title": "Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:300/1*BESDvRL6Ts6iMGWt7C-Juw.png"
         }
       ]
     },
@@ -155,12 +125,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20688",
+          "author": "Daniel Lemire",
+          "description": "Suppose that I give you a long list of string tokens (e.g., “A”, “A6”, “AAAA”, “AFSDB”, “APL”, “CAA”, “CDS”, “CDNSKEY”, “CERT”, “CH”, “CNAME”, “CS”, “CSYNC”, “DHC”, etc.). I give you a pointer inside a much larger string and I ask you whether you are pointing at one of these tokens, and if so, which one. … Continue reading Recognizing string prefixes with SIMD instructions",
+          "link": "https://lemire.me/blog/2023/07/14/recognizing-string-prefixes-with-simd-instructions/",
+          "publishedOn": "2023-07-14T03:11:02.000Z",
+          "wordCount": 4725,
+          "title": "Recognizing string prefixes with SIMD instructions",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20671",
           "author": "Daniel Lemire",
           "description": "The strategy for winning is simple: do good work and tell the world about it. In that order! This implies some level of stealth as you are doing the good work. If you plan to lose weight, don’t announce it… lose the weight and then do the reveal. Early feedback frames the problem and might … Continue reading Stealth, not secrecy",
           "link": "https://lemire.me/blog/2023/07/08/stealth-not-secrecy/",
           "publishedOn": "2023-07-08T16:43:46.000Z",
-          "wordCount": 3156,
+          "wordCount": 3343,
           "title": "Stealth, not secrecy",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -170,7 +150,7 @@
           "description": "Suppose that I give you a short string of digits, containing possibly spaces or other characters (e.g., \"20141103 012910\"). We would like to pack the digits into an integer (e.g., 0x20141103012910) so that the lexicographical order over the string matches the ordering of the integers. We can use the fact that in ASCII, the digits … Continue reading Packing a string of digits into an integer quickly",
           "link": "https://lemire.me/blog/2023/07/07/packing-a-string-of-digits-into-an-integer-quickly/",
           "publishedOn": "2023-07-07T17:19:34.000Z",
-          "wordCount": 3519,
+          "wordCount": 3562,
           "title": "Packing a string of digits into an integer quickly",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -180,7 +160,7 @@
           "description": "The C++11 standard introduced user-defined string suffixes. It also added regular  expressions to the C++ language as a standard feature. I wanted to have fun and see whether we could combine these features. Regular expressions are useful to check whether a given string matches a pattern. For example, the expression \\d+ checks that the string … Continue reading Having fun with string literal suffixes in C++",
           "link": "https://lemire.me/blog/2023/07/05/having-fun-with-string-literal-suffixes-in-c/",
           "publishedOn": "2023-07-05T21:38:25.000Z",
-          "wordCount": 3365,
+          "wordCount": 3543,
           "title": "Having fun with string literal suffixes in C++",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -190,7 +170,7 @@
           "description": "In software, it is common to represent time as a time-stamp string. It is usually specified by a time format string. Some standards use the format %Y%m%d%H%M%S meaning that we print the year, the month, the day, the hours, the minutes and the seconds. The current time as I write this blog post would be … Continue reading Parsing time stamps faster with SIMD instructions",
           "link": "https://lemire.me/blog/2023/07/01/parsing-time-stamps-faster-with-simd-instructions/",
           "publishedOn": "2023-07-01T21:38:06.000Z",
-          "wordCount": 4126,
+          "wordCount": 4118,
           "title": "Parsing time stamps faster with SIMD instructions",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -200,7 +180,7 @@
           "description": "Suppose that you want to reorder, arbitrarily, the bits in a 64-bit word. This question was raised on Twitter by @experquisite. Formally, you might want to provide, for each of the 64 bit position, an original bit position you want to copy. Hence, the following code would reverse the bit order in your 64-bit word: … Continue reading Dynamic bit shuffle using AVX-512",
           "link": "https://lemire.me/blog/2023/06/29/dynamic-bit-shuffle-using-avx-512/",
           "publishedOn": "2023-06-29T15:59:01.000Z",
-          "wordCount": 4006,
+          "wordCount": 3998,
           "title": "Dynamic bit shuffle using AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -210,28 +190,8 @@
           "description": "Women in highly religious relationships report the highest levels of relationship quality. US politics is largely divided into two parties (Republicans and Democrats). People who are affiliated with the Republicans have many more kids. The Antartic ice shelves gained 661 gigaton of ice over the past decade. A low protein diet increases mortality among older … Continue reading Science and Technology links (June 25 2023)",
           "link": "https://lemire.me/blog/2023/06/25/science-and-technology-links-june-25-2023/",
           "publishedOn": "2023-06-25T17:32:56.000Z",
-          "wordCount": 3122,
+          "wordCount": 3114,
           "title": "Science and Technology links (June 25 2023)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "http://lemire.me/blog/?p=3931",
-          "author": "Daniel Lemire",
-          "description": "Scientists publish papers in refereed journals and conferences: they write up their results and we ask anonymous referees to assess it. If the work is published, presumably because the anonymous referees found nothing objectionable, the published paper joins the “literature”. It is not a strict requirement: you can do excellent research without publishing in refereed … Continue reading Citogenesis in science and the importance of real problems",
-          "link": "https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/",
-          "publishedOn": "2023-06-14T10:05:44.000Z",
-          "wordCount": 4953,
-          "title": "Citogenesis in science and the importance of real problems",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20619",
-          "author": "Daniel Lemire",
-          "description": "Similar species can have vastly different lifespan. Researchers have been looking for the limiting factors that explain these differences. As we age, our genes are expressed differently through methylation. Different species vary their methylation at different speeds. There is some evidence that it could be that the methylation rate that determines the lifespan. If that … Continue reading Science and Technology links (June 11 2023)",
-          "link": "https://lemire.me/blog/2023/06/11/science-and-technology-links-june-11-2023/",
-          "publishedOn": "2023-06-11T19:45:32.000Z",
-          "wordCount": 3206,
-          "title": "Science and Technology links (June 11 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]

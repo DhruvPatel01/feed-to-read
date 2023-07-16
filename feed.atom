@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-09T01:19:22.733Z</id>
+    <id>urn:2023-07-16T01:23:08.683Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-09T01:19:22.733Z</updated>
+    <updated>2023-07-16T01:23:08.683Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Recognizing string prefixes with SIMD instructions]]></title>
+        <id>https://lemire.me/blog/?p=20688</id>
+        <link href="https://lemire.me/blog/2023/07/14/recognizing-string-prefixes-with-simd-instructions/"/>
+        <updated>2023-07-14T03:11:02.000Z</updated>
+        <summary type="html"><![CDATA[Suppose that I give you a long list of string tokens (e.g., “A”, “A6”, “AAAA”, “AFSDB”, “APL”, “CAA”, “CDS”, “CDNSKEY”, “CERT”, “CH”, “CNAME”, “CS”, “CSYNC”, “DHC”, etc.). I give you a pointer inside a much larger string and I ask you whether you are pointing at one of these tokens, and if so, which one. … Continue reading Recognizing string prefixes with SIMD instructions]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Stealth, not secrecy]]></title>
         <id>https://lemire.me/blog/?p=20671</id>
@@ -202,56 +212,6 @@ performance certainly influenced my play …]]></summary>
         <summary type="html"><![CDATA[Short, unedited note on GitHub merge queue.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating Netflix to GraphQL Safely]]></title>
-        <id>https://medium.com/p/8e1e4d4f1e72</id>
-        <link href="https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4"/>
-        <updated>2023-06-14T17:59:46.000Z</updated>
-        <summary type="html"><![CDATA[By Jennifer Shin, Tejas Shikhare, Will Emmanuel]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Citogenesis in science and the importance of real problems]]></title>
-        <id>http://lemire.me/blog/?p=3931</id>
-        <link href="https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/"/>
-        <updated>2023-06-14T10:05:44.000Z</updated>
-        <summary type="html"><![CDATA[Scientists publish papers in refereed journals and conferences: they write up their results and we ask anonymous referees to assess it. If the work is published, presumably because the anonymous referees found nothing objectionable, the published paper joins the “literature”. It is not a strict requirement: you can do excellent research without publishing in refereed … Continue reading Citogenesis in science and the importance of real problems]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating Critical Traffic At Scale with No Downtime — Part 2]]></title>
-        <id>https://medium.com/p/4b1c8c7155c1</id>
-        <link href="https://netflixtechblog.com/migrating-critical-traffic-at-scale-with-no-downtime-part-2-4b1c8c7155c1?source=rss----2615bd06b42e---4"/>
-        <updated>2023-06-13T17:23:17.000Z</updated>
-        <summary type="html"><![CDATA[Shyam Gala, Javier Fernandez-Ivern, Anup Rokkam Pratap, Devang Shah]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM]]></title>
-        <id>https://medium.com/p/815aef5107cd</id>
-        <link href="https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4"/>
-        <updated>2023-06-12T16:36:25.000Z</updated>
-        <summary type="html"><![CDATA[Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Science and Technology links (June 11 2023)]]></title>
-        <id>https://lemire.me/blog/?p=20619</id>
-        <link href="https://lemire.me/blog/2023/06/11/science-and-technology-links-june-11-2023/"/>
-        <updated>2023-06-11T19:45:32.000Z</updated>
-        <summary type="html"><![CDATA[Similar species can have vastly different lifespan. Researchers have been looking for the limiting factors that explain these differences. As we age, our genes are expressed differently through methylation. Different species vary their methylation at different speeds. There is some evidence that it could be that the methylation rate that determines the lifespan. If that … Continue reading Science and Technology links (June 11 2023)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
