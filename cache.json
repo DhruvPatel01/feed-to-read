@@ -48,18 +48,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/77a61d3eaad6",
-          "author": "Netflix Technology Blog",
-          "description": "Avneesh Saluja, Andy Yao, Hossein Taghavi",
-          "link": "https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-06-20T16:51:36.000Z",
-          "wordCount": 4039,
-          "title": "Detecting Scene Changes in Audiovisual Content",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:600/1*28phnQtCgyCSTL4nPeclrg.gif"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Nim Programming Language",
@@ -90,13 +79,13 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
-          "id": "https://matklad.github.io/2023/06/18/GitHub-merge-queue.html",
+          "id": "https://matklad.github.io/2023/07/16/three-different-cuts.html",
           "author": null,
-          "description": "Short, unedited note on GitHub merge queue.",
-          "link": "https://matklad.github.io/2023/06/18/GitHub-merge-queue.html",
-          "publishedOn": "2023-06-18T00:00:00.000Z",
-          "wordCount": 630,
-          "title": "GitHub Merge Queue",
+          "description": "In this post, we'll look at how Rust, Go, and Zig express the signature of function cut --- the power tool of string manipulation.\nCut takes a string and a pattern, and splits the string around the first occurrence of the pattern:\ncut(\"life\", \"if\") = (\"l\", \"e\").",
+          "link": "https://matklad.github.io/2023/07/16/three-different-cuts.html",
+          "publishedOn": "2023-07-16T00:00:00.000Z",
+          "wordCount": 1062,
+          "title": "Three Different Cuts",
           "imageUrl": null
         }
       ]
@@ -125,12 +114,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20706",
+          "author": "Daniel Lemire",
+          "description": "We often need to encode binary data into ASCII strings. The standards (e.g., email) to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings",
+          "link": "https://lemire.me/blog/2023/07/20/fast-decoding-of-base32-strings/",
+          "publishedOn": "2023-07-20T23:26:24.000Z",
+          "wordCount": 3434,
+          "title": "Fast decoding of base32 strings",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20704",
+          "author": "Daniel Lemire",
+          "description": "Most people think that they are more intelligent than average. Lack of vitamin C may damage the arteries. Make sure you have enough! A difficult problem in software is caching. Caching is the idea that you keep some values in fast memory. But how do you choose which values to keep? A standard technique is … Continue reading Science and Technology links (July 16 2023)",
+          "link": "https://lemire.me/blog/2023/07/16/science-and-technology-links-july-16-2023/",
+          "publishedOn": "2023-07-16T18:00:20.000Z",
+          "wordCount": 3190,
+          "title": "Science and Technology links (July 16 2023)",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20688",
           "author": "Daniel Lemire",
           "description": "Suppose that I give you a long list of string tokens (e.g., “A”, “A6”, “AAAA”, “AFSDB”, “APL”, “CAA”, “CDS”, “CDNSKEY”, “CERT”, “CH”, “CNAME”, “CS”, “CSYNC”, “DHC”, etc.). I give you a pointer inside a much larger string and I ask you whether you are pointing at one of these tokens, and if so, which one. … Continue reading Recognizing string prefixes with SIMD instructions",
           "link": "https://lemire.me/blog/2023/07/14/recognizing-string-prefixes-with-simd-instructions/",
           "publishedOn": "2023-07-14T03:11:02.000Z",
-          "wordCount": 4725,
+          "wordCount": 5123,
           "title": "Recognizing string prefixes with SIMD instructions",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -140,7 +149,7 @@
           "description": "The strategy for winning is simple: do good work and tell the world about it. In that order! This implies some level of stealth as you are doing the good work. If you plan to lose weight, don’t announce it… lose the weight and then do the reveal. Early feedback frames the problem and might … Continue reading Stealth, not secrecy",
           "link": "https://lemire.me/blog/2023/07/08/stealth-not-secrecy/",
           "publishedOn": "2023-07-08T16:43:46.000Z",
-          "wordCount": 3343,
+          "wordCount": 3336,
           "title": "Stealth, not secrecy",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -150,7 +159,7 @@
           "description": "Suppose that I give you a short string of digits, containing possibly spaces or other characters (e.g., \"20141103 012910\"). We would like to pack the digits into an integer (e.g., 0x20141103012910) so that the lexicographical order over the string matches the ordering of the integers. We can use the fact that in ASCII, the digits … Continue reading Packing a string of digits into an integer quickly",
           "link": "https://lemire.me/blog/2023/07/07/packing-a-string-of-digits-into-an-integer-quickly/",
           "publishedOn": "2023-07-07T17:19:34.000Z",
-          "wordCount": 3562,
+          "wordCount": 3555,
           "title": "Packing a string of digits into an integer quickly",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -160,7 +169,7 @@
           "description": "The C++11 standard introduced user-defined string suffixes. It also added regular  expressions to the C++ language as a standard feature. I wanted to have fun and see whether we could combine these features. Regular expressions are useful to check whether a given string matches a pattern. For example, the expression \\d+ checks that the string … Continue reading Having fun with string literal suffixes in C++",
           "link": "https://lemire.me/blog/2023/07/05/having-fun-with-string-literal-suffixes-in-c/",
           "publishedOn": "2023-07-05T21:38:25.000Z",
-          "wordCount": 3543,
+          "wordCount": 3536,
           "title": "Having fun with string literal suffixes in C++",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -170,7 +179,7 @@
           "description": "In software, it is common to represent time as a time-stamp string. It is usually specified by a time format string. Some standards use the format %Y%m%d%H%M%S meaning that we print the year, the month, the day, the hours, the minutes and the seconds. The current time as I write this blog post would be … Continue reading Parsing time stamps faster with SIMD instructions",
           "link": "https://lemire.me/blog/2023/07/01/parsing-time-stamps-faster-with-simd-instructions/",
           "publishedOn": "2023-07-01T21:38:06.000Z",
-          "wordCount": 4118,
+          "wordCount": 4111,
           "title": "Parsing time stamps faster with SIMD instructions",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -180,7 +189,7 @@
           "description": "Suppose that you want to reorder, arbitrarily, the bits in a 64-bit word. This question was raised on Twitter by @experquisite. Formally, you might want to provide, for each of the 64 bit position, an original bit position you want to copy. Hence, the following code would reverse the bit order in your 64-bit word: … Continue reading Dynamic bit shuffle using AVX-512",
           "link": "https://lemire.me/blog/2023/06/29/dynamic-bit-shuffle-using-avx-512/",
           "publishedOn": "2023-06-29T15:59:01.000Z",
-          "wordCount": 3998,
+          "wordCount": 3991,
           "title": "Dynamic bit shuffle using AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -190,7 +199,7 @@
           "description": "Women in highly religious relationships report the highest levels of relationship quality. US politics is largely divided into two parties (Republicans and Democrats). People who are affiliated with the Republicans have many more kids. The Antartic ice shelves gained 661 gigaton of ice over the past decade. A low protein diet increases mortality among older … Continue reading Science and Technology links (June 25 2023)",
           "link": "https://lemire.me/blog/2023/06/25/science-and-technology-links-june-25-2023/",
           "publishedOn": "2023-06-25T17:32:56.000Z",
-          "wordCount": 3114,
+          "wordCount": 3107,
           "title": "Science and Technology links (June 25 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
@@ -229,6 +238,33 @@
           "publishedOn": "2023-06-25T08:38:00.000Z",
           "wordCount": 3225,
           "title": "[Computing] Web-based cryptography is always snake oil",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "apenwarr",
+      "feedUrl": "https://apenwarr.ca/log/rss.php",
+      "siteUrl": "https://apenwarr.ca/log/",
+      "articles": [
+        {
+          "id": "https://apenwarr.ca/log/20230605",
+          "author": null,
+          "description": "I really like the \"tech debt\" metaphor. A lot of people don't,\nbut I think that's because they either don't extend the metaphor far enough,\nor because they don't properly understand financial debt.\nSo let's talk about debt!\nConsumer debt vs capital investment\nBack in school my professor, Canadian economics superhero Larry\nSmith, explained debt this way (paraphrased): debt is\nstupid if it's for instant gratification that you pay for later, with\ninterest. But debt is great if it means you can make more money than the\ninterest payments.\nA family that takes on high-interest credit card debt\nfor a visit to Disneyland is wasting money. If you think you can pay it off\nin a year, you'll pay 20%-ish interest for that year for no reason. You can\ninstead save up for a year and get the same gratificat…",
+          "link": "https://apenwarr.ca/log/20230605",
+          "publishedOn": "2023-07-11T03:12:47.000Z",
+          "wordCount": 4274,
+          "title": "Tech debt metaphor maximalism",
+          "imageUrl": null
+        },
+        {
+          "id": "https://apenwarr.ca/log/20230415",
+          "author": null,
+          "description": "Someone asked if I could write about the rise of AI and Large Language Models (LLMs) and what I think that means for the future of people, technology, society, and so on. Although that's a fun topic, it left me with two problems: I know approximately nothing about AI, and predicting the future is hard even for people who know what they're talking about.\nLet's try something else instead. I'll tell you a bunch of things I do know that are somehow related to the topic, and then you can predict the future yourself.\nMagic\nI think magic gets a bad reputation for no good reason.\nFirst of all, you might be thinking: magic doesn't actually exist. I assure you that it does. We just need to agree on a definition. For our purposes, let's define magic as: something you know is there, but you can't expl…",
+          "link": "https://apenwarr.ca/log/20230415",
+          "publishedOn": "2023-07-11T03:12:47.000Z",
+          "wordCount": 5697,
+          "title": "Systems design 2: What we hope we know",
           "imageUrl": null
         }
       ]

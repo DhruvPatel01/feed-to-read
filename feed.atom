@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-16T01:23:08.683Z</id>
+    <id>urn:2023-07-21T14:40:52.431Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-16T01:23:08.683Z</updated>
+    <updated>2023-07-21T14:40:52.431Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Fast decoding of base32 strings]]></title>
+        <id>https://lemire.me/blog/?p=20706</id>
+        <link href="https://lemire.me/blog/2023/07/20/fast-decoding-of-base32-strings/"/>
+        <updated>2023-07-20T23:26:24.000Z</updated>
+        <summary type="html"><![CDATA[We often need to encode binary data into ASCII strings. The standards (e.g., email) to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (July 16 2023)]]></title>
+        <id>https://lemire.me/blog/?p=20704</id>
+        <link href="https://lemire.me/blog/2023/07/16/science-and-technology-links-july-16-2023/"/>
+        <updated>2023-07-16T18:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Most people think that they are more intelligent than average. Lack of vitamin C may damage the arteries. Make sure you have enough! A difficult problem in software is caching. Caching is the idea that you keep some values in fast memory. But how do you choose which values to keep? A standard technique is … Continue reading Science and Technology links (July 16 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three Different Cuts]]></title>
+        <id>https://matklad.github.io/2023/07/16/three-different-cuts.html</id>
+        <link href="https://matklad.github.io/2023/07/16/three-different-cuts.html"/>
+        <updated>2023-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post, we'll look at how Rust, Go, and Zig express the signature of function cut --- the power tool of string manipulation.
+Cut takes a string and a pattern, and splits the string around the first occurrence of the pattern:
+cut("life", "if") = ("l", "e").]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Recognizing string prefixes with SIMD instructions]]></title>
         <id>https://lemire.me/blog/?p=20688</id>
@@ -13,6 +45,43 @@
         <summary type="html"><![CDATA[Suppose that I give you a long list of string tokens (e.g., “A”, “A6”, “AAAA”, “AFSDB”, “APL”, “CAA”, “CDS”, “CDNSKEY”, “CERT”, “CH”, “CNAME”, “CS”, “CSYNC”, “DHC”, etc.). I give you a pointer inside a much larger string and I ask you whether you are pointing at one of these tokens, and if so, which one. … Continue reading Recognizing string prefixes with SIMD instructions]]></summary>
         <author>
             <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tech debt metaphor maximalism]]></title>
+        <id>https://apenwarr.ca/log/20230605</id>
+        <link href="https://apenwarr.ca/log/20230605"/>
+        <updated>2023-07-11T03:12:47.000Z</updated>
+        <summary type="html"><![CDATA[I really like the "tech debt" metaphor. A lot of people don't,
+but I think that's because they either don't extend the metaphor far enough,
+or because they don't properly understand financial debt.
+So let's talk about debt!
+Consumer debt vs capital investment
+Back in school my professor, Canadian economics superhero Larry
+Smith, explained debt this way (paraphrased): debt is
+stupid if it's for instant gratification that you pay for later, with
+interest. But debt is great if it means you can make more money than the
+interest payments.
+A family that takes on high-interest credit card debt
+for a visit to Disneyland is wasting money. If you think you can pay it off
+in a year, you'll pay 20%-ish interest for that year for no reason. You can
+instead save up for a year and get the same gratificat…]]></summary>
+        <author>
+            <name>apenwarr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Systems design 2: What we hope we know]]></title>
+        <id>https://apenwarr.ca/log/20230415</id>
+        <link href="https://apenwarr.ca/log/20230415"/>
+        <updated>2023-07-11T03:12:47.000Z</updated>
+        <summary type="html"><![CDATA[Someone asked if I could write about the rise of AI and Large Language Models (LLMs) and what I think that means for the future of people, technology, society, and so on. Although that's a fun topic, it left me with two problems: I know approximately nothing about AI, and predicting the future is hard even for people who know what they're talking about.
+Let's try something else instead. I'll tell you a bunch of things I do know that are somehow related to the topic, and then you can predict the future yourself.
+Magic
+I think magic gets a bad reputation for no good reason.
+First of all, you might be thinking: magic doesn't actually exist. I assure you that it does. We just need to agree on a definition. For our purposes, let's define magic as: something you know is there, but you can't expl…]]></summary>
+        <author>
+            <name>apenwarr</name>
         </author>
     </entry>
     <entry>
@@ -192,26 +261,6 @@ notable performances when applicable. The availability of a great
 performance certainly influenced my play …]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detecting Scene Changes in Audiovisual Content]]></title>
-        <id>https://medium.com/p/77a61d3eaad6</id>
-        <link href="https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4"/>
-        <updated>2023-06-20T16:51:36.000Z</updated>
-        <summary type="html"><![CDATA[Avneesh Saluja, Andy Yao, Hossein Taghavi]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Merge Queue]]></title>
-        <id>https://matklad.github.io/2023/06/18/GitHub-merge-queue.html</id>
-        <link href="https://matklad.github.io/2023/06/18/GitHub-merge-queue.html"/>
-        <updated>2023-06-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Short, unedited note on GitHub merge queue.]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>
