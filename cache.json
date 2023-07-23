@@ -14,16 +14,6 @@
           "wordCount": 1749,
           "title": "Solving \"Two Sum\" in C with a tiny hash table",
           "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2023/06/22/",
-          "author": null,
-          "description": "This article was discussed on Hacker News.\nA few years ago I set out on a personal journey to study and watch a\nperformance of each of Shakespeare’s 37 plays. I’ve reached my goal and,\nthough it’s not a usual topic around here, I wanted to get my thoughts\ndown while fresh. I absolutely loved some of these plays and performances,\nand so I’d like to highlight them, especially because my favorites are,\nwith one exception, not “popular” plays. Per tradition, I begin with my\nleast enjoyed plays and work my way up. All performances were either a\nrecording of a live stage or an adaptation, so they’re also available to\nyou if you’re interested, though in most cases not for free. I’ll mention\nnotable performances when applicable. The availability of a great\nperformance certainly influenced my play …",
-          "link": "https://nullprogram.com/blog/2023/06/22/",
-          "publishedOn": "2023-06-22T19:10:25.000Z",
-          "wordCount": 5063,
-          "title": "My ranking of every Shakespeare play",
-          "imageUrl": null
         }
       ]
     },
@@ -116,7 +106,7 @@
         {
           "id": "https://lemire.me/blog/?p=20706",
           "author": "Daniel Lemire",
-          "description": "We often need to encode binary data into ASCII strings. The standards (e.g., email) to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings",
+          "description": "We often need to encode binary data into ASCII strings (e.g., email). The standards to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings",
           "link": "https://lemire.me/blog/2023/07/20/fast-decoding-of-base32-strings/",
           "publishedOn": "2023-07-20T23:26:24.000Z",
           "wordCount": 3434,
@@ -211,6 +201,16 @@
       "siteUrl": "https://www.devever.net/~hl/",
       "articles": [
         {
+          "id": "https://www.devever.net/~hl/passwords",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Today we seem to be living through a war on passwords. This is manifested in\nvarious ways; in its most passive form, it takes the form of people blogging\nabout how passwords are bad. The more material changes are the general trend\ntowards no longer treating passwords as a sufficient condition for access in\nfavour of either mandatory “2FA” or, where 2FA is not used, , in which some extra authentication step is\nnon-deterministically and randomly demanded.<a href=\"logindenial\">risk-based\nauthentication</a></p></div></div>",
+          "link": "https://www.devever.net/~hl/passwords",
+          "publishedOn": "2023-07-22T13:35:00.000Z",
+          "wordCount": 2146,
+          "title": "[Computing] Why even let users set their own passwords?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.devever.net/~hl/webappcoupling",
           "author": null,
           "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Trying to make web applications federated is a popular effort. Examples include\nthings like the “fediverse”, as well as various other efforts, like attempts to\nmake distributed software forges, and so on. However, all of these efforts\nsuffer from a problem which is fundamental in building federated applications\nbuilt on top of the web platform.</p></div></div>",
@@ -253,7 +253,7 @@
           "description": "I really like the \"tech debt\" metaphor. A lot of people don't,\nbut I think that's because they either don't extend the metaphor far enough,\nor because they don't properly understand financial debt.\nSo let's talk about debt!\nConsumer debt vs capital investment\nBack in school my professor, Canadian economics superhero Larry\nSmith, explained debt this way (paraphrased): debt is\nstupid if it's for instant gratification that you pay for later, with\ninterest. But debt is great if it means you can make more money than the\ninterest payments.\nA family that takes on high-interest credit card debt\nfor a visit to Disneyland is wasting money. If you think you can pay it off\nin a year, you'll pay 20%-ish interest for that year for no reason. You can\ninstead save up for a year and get the same gratificat…",
           "link": "https://apenwarr.ca/log/20230605",
           "publishedOn": "2023-07-11T03:12:47.000Z",
-          "wordCount": 4274,
+          "wordCount": 4278,
           "title": "Tech debt metaphor maximalism",
           "imageUrl": null
         },
@@ -263,7 +263,7 @@
           "description": "Someone asked if I could write about the rise of AI and Large Language Models (LLMs) and what I think that means for the future of people, technology, society, and so on. Although that's a fun topic, it left me with two problems: I know approximately nothing about AI, and predicting the future is hard even for people who know what they're talking about.\nLet's try something else instead. I'll tell you a bunch of things I do know that are somehow related to the topic, and then you can predict the future yourself.\nMagic\nI think magic gets a bad reputation for no good reason.\nFirst of all, you might be thinking: magic doesn't actually exist. I assure you that it does. We just need to agree on a definition. For our purposes, let's define magic as: something you know is there, but you can't expl…",
           "link": "https://apenwarr.ca/log/20230415",
           "publishedOn": "2023-07-11T03:12:47.000Z",
-          "wordCount": 5697,
+          "wordCount": 5701,
           "title": "Systems design 2: What we hope we know",
           "imageUrl": null
         }

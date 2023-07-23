@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-21T14:40:52.431Z</id>
+    <id>urn:2023-07-23T01:09:03.251Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-21T14:40:52.431Z</updated>
+    <updated>2023-07-23T01:09:03.251Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[[Computing] Why even let users set their own passwords?]]></title>
+        <id>https://www.devever.net/~hl/passwords</id>
+        <link href="https://www.devever.net/~hl/passwords"/>
+        <updated>2023-07-22T13:35:00.000Z</updated>
+        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">Today we seem to be living through a war on passwords. This is manifested in
+various ways; in its most passive form, it takes the form of people blogging
+about how passwords are bad. The more material changes are the general trend
+towards no longer treating passwords as a sufficient condition for access in
+favour of either mandatory “2FA” or, where 2FA is not used, , in which some extra authentication step is
+non-deterministically and randomly demanded.<a href="logindenial">risk-based
+authentication</a></p></div></div>]]></summary>
+        <author>
+            <name>devever.net/~hl</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fast decoding of base32 strings]]></title>
         <id>https://lemire.me/blog/?p=20706</id>
         <link href="https://lemire.me/blog/2023/07/20/fast-decoding-of-base32-strings/"/>
         <updated>2023-07-20T23:26:24.000Z</updated>
-        <summary type="html"><![CDATA[We often need to encode binary data into ASCII strings. The standards (e.g., email) to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings]]></summary>
+        <summary type="html"><![CDATA[We often need to encode binary data into ASCII strings (e.g., email). The standards to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
@@ -240,27 +256,6 @@ it can't see your passwords because they're encrypted; or a web-based
 cryptocurrency wallet.</p></div></div>]]></summary>
         <author>
             <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My ranking of every Shakespeare play]]></title>
-        <id>https://nullprogram.com/blog/2023/06/22/</id>
-        <link href="https://nullprogram.com/blog/2023/06/22/"/>
-        <updated>2023-06-22T19:10:25.000Z</updated>
-        <summary type="html"><![CDATA[This article was discussed on Hacker News.
-A few years ago I set out on a personal journey to study and watch a
-performance of each of Shakespeare’s 37 plays. I’ve reached my goal and,
-though it’s not a usual topic around here, I wanted to get my thoughts
-down while fresh. I absolutely loved some of these plays and performances,
-and so I’d like to highlight them, especially because my favorites are,
-with one exception, not “popular” plays. Per tradition, I begin with my
-least enjoyed plays and work my way up. All performances were either a
-recording of a live stage or an adaptation, so they’re also available to
-you if you’re interested, though in most cases not for free. I’ll mention
-notable performances when applicable. The availability of a great
-performance certainly influenced my play …]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>
