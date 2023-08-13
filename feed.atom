@@ -1,10 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-06T00:54:48.768Z</id>
+    <id>urn:2023-08-13T00:51:28.425Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-06T00:54:48.768Z</updated>
+    <updated>2023-08-13T00:51:28.425Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Transcoding UTF-8 strings to Latin 1 strings at 12 GB/s using AVX-512]]></title>
+        <id>https://lemire.me/blog/?p=20738</id>
+        <link href="https://lemire.me/blog/2023/08/12/transcoding-utf-8-strings-to-latin-1-strings-at-12-gb-s-using-avx-512/"/>
+        <updated>2023-08-12T01:18:50.000Z</updated>
+        <summary type="html"><![CDATA[Most strings online are Unicode strings in the UTF-8 format. Other systems (e.g., Java, Microsoft) might prefer UTF-16. However, Latin 1 is still a common encoding (e.g., within JavaScript runtimes). Its relationship with Unicode is simple: Latin 1 includes the first 256 Unicode characters. It is rich enough to convert most of the standard European … Continue reading Transcoding UTF-8 strings to Latin 1 strings at 12 GB/s using AVX-512]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coding of domain names to wire format at gigabytes per second]]></title>
+        <id>https://lemire.me/blog/?p=20735</id>
+        <link href="https://lemire.me/blog/2023/08/10/coding-of-domain-names-to-wire-format-at-gigabytes-per-second/"/>
+        <updated>2023-08-10T02:02:57.000Z</updated>
+        <summary type="html"><![CDATA[When you enter in your browser the domain name lemire.me, it eventually gets encoded into a so-called wire format. The name lemire.me contains two labels, one of length 6 (lemire) and one of length two (me). The wire format starts with 6lemire2me: that is, imagining that the name starts with an imaginary dot, all dots … Continue reading Coding of domain names to wire format at gigabytes per second]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Types and the Zig Programming Language]]></title>
+        <id>https://matklad.github.io/2023/08/09/types-and-zig.html</id>
+        <link href="https://matklad.github.io/2023/08/09/types-and-zig.html"/>
+        <updated>2023-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Notes on less-than-obvious aspects of Zig's type system and things that surprised me after diving
+deeper into the language.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (August 6 2023)]]></title>
+        <id>https://lemire.me/blog/?p=20728</id>
+        <link href="https://lemire.me/blog/2023/08/06/science-and-technology-links-august-6-2023/"/>
+        <updated>2023-08-06T20:43:06.000Z</updated>
+        <summary type="html"><![CDATA[In an extensive study, You et al. (2022) found that meat consumption was correlated with higher life expectancies: Meat intake is positively correlated with life expectancies. This relationship remained significant when influences of caloric intake, urbanization, obesity, education and carbohydrate crops were statistically controlled. Stepwise linear regression selected meat intake, not carbohydrate crops, as one … Continue reading Science and Technology links (August 6 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fantastic Learning Resources]]></title>
+        <id>https://matklad.github.io/2023/08/06/fantastic-learning-resources.html</id>
+        <link href="https://matklad.github.io/2023/08/06/fantastic-learning-resources.html"/>
+        <updated>2023-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[People sometimes ask me: Alex, how do I learn X?. This article is a compilation of advice I
+usually give. This is things that worked for me rather than the most awesome things on earth. I
+do consider every item on the list to be fantastic though, and I am forever grateful to people
+putting these resources together.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nim v2.0 released]]></title>
         <id>https://nim-lang.org//blog/2023/08/01/nim-v20-released.html</id>
@@ -149,73 +203,6 @@ Cut takes a string and a pattern, and splits the string around the first occurre
 cut("life", "if") = ("l", "e").]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recognizing string prefixes with SIMD instructions]]></title>
-        <id>https://lemire.me/blog/?p=20688</id>
-        <link href="https://lemire.me/blog/2023/07/14/recognizing-string-prefixes-with-simd-instructions/"/>
-        <updated>2023-07-14T03:11:02.000Z</updated>
-        <summary type="html"><![CDATA[Suppose that I give you a long list of string tokens (e.g., “A”, “A6”, “AAAA”, “AFSDB”, “APL”, “CAA”, “CDS”, “CDNSKEY”, “CERT”, “CH”, “CNAME”, “CS”, “CSYNC”, “DHC”, etc.). I give you a pointer inside a much larger string and I ask you whether you are pointing at one of these tokens, and if so, which one. … Continue reading Recognizing string prefixes with SIMD instructions]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tech debt metaphor maximalism]]></title>
-        <id>https://apenwarr.ca/log/20230605</id>
-        <link href="https://apenwarr.ca/log/20230605"/>
-        <updated>2023-07-11T03:12:47.000Z</updated>
-        <summary type="html"><![CDATA[I really like the "tech debt" metaphor. A lot of people don't,
-but I think that's because they either don't extend the metaphor far enough,
-or because they don't properly understand financial debt.
-So let's talk about debt!
-Consumer debt vs capital investment
-Back in school my professor, Canadian economics superhero Larry
-Smith, explained debt this way (paraphrased): debt is
-stupid if it's for instant gratification that you pay for later, with
-interest. But debt is great if it means you can make more money than the
-interest payments.
-A family that takes on high-interest credit card debt
-for a visit to Disneyland is wasting money. If you think you can pay it off
-in a year, you'll pay 20%-ish interest for that year for no reason. You can
-instead save up for a year and get the same gratificat…]]></summary>
-        <author>
-            <name>apenwarr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Systems design 2: What we hope we know]]></title>
-        <id>https://apenwarr.ca/log/20230415</id>
-        <link href="https://apenwarr.ca/log/20230415"/>
-        <updated>2023-07-11T03:12:47.000Z</updated>
-        <summary type="html"><![CDATA[Someone asked if I could write about the rise of AI and Large Language Models (LLMs) and what I think that means for the future of people, technology, society, and so on. Although that's a fun topic, it left me with two problems: I know approximately nothing about AI, and predicting the future is hard even for people who know what they're talking about.
-Let's try something else instead. I'll tell you a bunch of things I do know that are somehow related to the topic, and then you can predict the future yourself.
-Magic
-I think magic gets a bad reputation for no good reason.
-First of all, you might be thinking: magic doesn't actually exist. I assure you that it does. We just need to agree on a definition. For our purposes, let's define magic as: something you know is there, but you can't expl…]]></summary>
-        <author>
-            <name>apenwarr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stealth, not secrecy]]></title>
-        <id>https://lemire.me/blog/?p=20671</id>
-        <link href="https://lemire.me/blog/2023/07/08/stealth-not-secrecy/"/>
-        <updated>2023-07-08T16:43:46.000Z</updated>
-        <summary type="html"><![CDATA[The strategy for winning is simple: do good work and tell the world about it. In that order! This implies some level of stealth as you are doing the good work. If you plan to lose weight, don’t announce it… lose the weight and then do the reveal. Early feedback frames the problem and might … Continue reading Stealth, not secrecy]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Packing a string of digits into an integer quickly]]></title>
-        <id>https://lemire.me/blog/?p=20663</id>
-        <link href="https://lemire.me/blog/2023/07/07/packing-a-string-of-digits-into-an-integer-quickly/"/>
-        <updated>2023-07-07T17:19:34.000Z</updated>
-        <summary type="html"><![CDATA[Suppose that I give you a short string of digits, containing possibly spaces or other characters (e.g., "20141103 012910"). We would like to pack the digits into an integer (e.g., 0x20141103012910) so that the lexicographical order over the string matches the ordering of the integers. We can use the fact that in ASCII, the digits … Continue reading Packing a string of digits into an integer quickly]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

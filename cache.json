@@ -69,6 +69,26 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/08/09/types-and-zig.html",
+          "author": null,
+          "description": "Notes on less-than-obvious aspects of Zig's type system and things that surprised me after diving\ndeeper into the language.",
+          "link": "https://matklad.github.io/2023/08/09/types-and-zig.html",
+          "publishedOn": "2023-08-09T00:00:00.000Z",
+          "wordCount": 1462,
+          "title": "Types and the Zig Programming Language",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2023/08/06/fantastic-learning-resources.html",
+          "author": null,
+          "description": "People sometimes ask me: Alex, how do I learn X?. This article is a compilation of advice I\nusually give. This is things that worked for me rather than the most awesome things on earth. I\ndo consider every item on the list to be fantastic though, and I am forever grateful to people\nputting these resources together.",
+          "link": "https://matklad.github.io/2023/08/06/fantastic-learning-resources.html",
+          "publishedOn": "2023-08-06T00:00:00.000Z",
+          "wordCount": 1991,
+          "title": "Fantastic Learning Resources",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/08/01/on-modularity-of-lexical-analysis.html",
           "author": null,
           "description": "I was going to write a long post about designing an IDE-friendly language. I wrote an intro and\nfigured that it would make a better, shorter post on its own. Enjoy!",
@@ -114,12 +134,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20738",
+          "author": "Daniel Lemire",
+          "description": "Most strings online are Unicode strings in the UTF-8 format. Other systems (e.g., Java, Microsoft) might prefer UTF-16. However, Latin 1 is still a common encoding (e.g., within JavaScript runtimes). Its relationship with Unicode is simple: Latin 1 includes the first 256 Unicode characters. It is rich enough to convert most of the standard European … Continue reading Transcoding UTF-8 strings to Latin 1 strings at 12 GB/s using AVX-512",
+          "link": "https://lemire.me/blog/2023/08/12/transcoding-utf-8-strings-to-latin-1-strings-at-12-gb-s-using-avx-512/",
+          "publishedOn": "2023-08-12T01:18:50.000Z",
+          "wordCount": 3627,
+          "title": "Transcoding UTF-8 strings to Latin 1 strings at 12 GB/s using AVX-512",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20735",
+          "author": "Daniel Lemire",
+          "description": "When you enter in your browser the domain name lemire.me, it eventually gets encoded into a so-called wire format. The name lemire.me contains two labels, one of length 6 (lemire) and one of length two (me). The wire format starts with 6lemire2me: that is, imagining that the name starts with an imaginary dot, all dots … Continue reading Coding of domain names to wire format at gigabytes per second",
+          "link": "https://lemire.me/blog/2023/08/10/coding-of-domain-names-to-wire-format-at-gigabytes-per-second/",
+          "publishedOn": "2023-08-10T02:02:57.000Z",
+          "wordCount": 4036,
+          "title": "Coding of domain names to wire format at gigabytes per second",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20728",
+          "author": "Daniel Lemire",
+          "description": "In an extensive study, You et al. (2022) found that meat consumption was correlated with higher life expectancies: Meat intake is positively correlated with life expectancies. This relationship remained significant when influences of caloric intake, urbanization, obesity, education and carbohydrate crops were statistically controlled. Stepwise linear regression selected meat intake, not carbohydrate crops, as one … Continue reading Science and Technology links (August 6 2023)",
+          "link": "https://lemire.me/blog/2023/08/06/science-and-technology-links-august-6-2023/",
+          "publishedOn": "2023-08-06T20:43:06.000Z",
+          "wordCount": 3308,
+          "title": "Science and Technology links (August 6 2023)",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20716",
           "author": "Daniel Lemire",
           "description": "We sometimes represent binary data using the hexadecimal notation. We use a base-16 representation where the first 10 digits are 0, 1, 2, 3, 5, 6, 7, 8, 9 and where the following digits are A, B, C, D, E, F (or a, b, c, d, e, f). Thus each character represents 4 bits. A … Continue reading Decoding base16 sequences quickly",
           "link": "https://lemire.me/blog/2023/07/27/decoding-base16-sequences-quickly/",
           "publishedOn": "2023-07-27T16:53:57.000Z",
-          "wordCount": 3849,
+          "wordCount": 3896,
           "title": "Decoding base16 sequences quickly",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -129,7 +179,7 @@
           "description": "People increasingly consume ultra processed foods. They include energy drinks, mass-produced packaged breads, margarines, cereal, energy bars, fruit yogurts, fruit drinks, vegan meat and cheese, infant formulas, pizza, chicken nuggets, and so forth. Ultra processed foods are correlated with poorer health. Homo sapiens was not the first human species to venture out of Africa, it was the … Continue reading Science and Technology links (July 23 2023)",
           "link": "https://lemire.me/blog/2023/07/24/science-and-technology-links-july-23-2023/",
           "publishedOn": "2023-07-24T02:14:57.000Z",
-          "wordCount": 3458,
+          "wordCount": 3496,
           "title": "Science and Technology links (July 23 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -139,7 +189,7 @@
           "description": "We often need to encode binary data into ASCII strings (e.g., email). The standards to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings",
           "link": "https://lemire.me/blog/2023/07/20/fast-decoding-of-base32-strings/",
           "publishedOn": "2023-07-20T23:26:24.000Z",
-          "wordCount": 3443,
+          "wordCount": 3481,
           "title": "Fast decoding of base32 strings",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -149,38 +199,8 @@
           "description": "Most people think that they are more intelligent than average. Lack of vitamin C may damage the arteries. Make sure you have enough! A difficult problem in software is caching. Caching is the idea that you keep some values in fast memory. But how do you choose which values to keep? A standard technique is … Continue reading Science and Technology links (July 16 2023)",
           "link": "https://lemire.me/blog/2023/07/16/science-and-technology-links-july-16-2023/",
           "publishedOn": "2023-07-16T18:00:20.000Z",
-          "wordCount": 3190,
+          "wordCount": 3228,
           "title": "Science and Technology links (July 16 2023)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20688",
-          "author": "Daniel Lemire",
-          "description": "Suppose that I give you a long list of string tokens (e.g., “A”, “A6”, “AAAA”, “AFSDB”, “APL”, “CAA”, “CDS”, “CDNSKEY”, “CERT”, “CH”, “CNAME”, “CS”, “CSYNC”, “DHC”, etc.). I give you a pointer inside a much larger string and I ask you whether you are pointing at one of these tokens, and if so, which one. … Continue reading Recognizing string prefixes with SIMD instructions",
-          "link": "https://lemire.me/blog/2023/07/14/recognizing-string-prefixes-with-simd-instructions/",
-          "publishedOn": "2023-07-14T03:11:02.000Z",
-          "wordCount": 5123,
-          "title": "Recognizing string prefixes with SIMD instructions",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20671",
-          "author": "Daniel Lemire",
-          "description": "The strategy for winning is simple: do good work and tell the world about it. In that order! This implies some level of stealth as you are doing the good work. If you plan to lose weight, don’t announce it… lose the weight and then do the reveal. Early feedback frames the problem and might … Continue reading Stealth, not secrecy",
-          "link": "https://lemire.me/blog/2023/07/08/stealth-not-secrecy/",
-          "publishedOn": "2023-07-08T16:43:46.000Z",
-          "wordCount": 3393,
-          "title": "Stealth, not secrecy",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20663",
-          "author": "Daniel Lemire",
-          "description": "Suppose that I give you a short string of digits, containing possibly spaces or other characters (e.g., \"20141103 012910\"). We would like to pack the digits into an integer (e.g., 0x20141103012910) so that the lexicographical order over the string matches the ordering of the integers. We can use the fact that in ASCII, the digits … Continue reading Packing a string of digits into an integer quickly",
-          "link": "https://lemire.me/blog/2023/07/07/packing-a-string-of-digits-into-an-integer-quickly/",
-          "publishedOn": "2023-07-07T17:19:34.000Z",
-          "wordCount": 3577,
-          "title": "Packing a string of digits into an integer quickly",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -216,28 +236,7 @@
       "title": "apenwarr",
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
-      "articles": [
-        {
-          "id": "https://apenwarr.ca/log/20230605",
-          "author": null,
-          "description": "I really like the \"tech debt\" metaphor. A lot of people don't,\nbut I think that's because they either don't extend the metaphor far enough,\nor because they don't properly understand financial debt.\nSo let's talk about debt!\nConsumer debt vs capital investment\nBack in school my professor, Canadian economics superhero Larry\nSmith, explained debt this way (paraphrased): debt is\nstupid if it's for instant gratification that you pay for later, with\ninterest. But debt is great if it means you can make more money than the\ninterest payments.\nA family that takes on high-interest credit card debt\nfor a visit to Disneyland is wasting money. If you think you can pay it off\nin a year, you'll pay 20%-ish interest for that year for no reason. You can\ninstead save up for a year and get the same gratificat…",
-          "link": "https://apenwarr.ca/log/20230605",
-          "publishedOn": "2023-07-11T03:12:47.000Z",
-          "wordCount": 4277,
-          "title": "Tech debt metaphor maximalism",
-          "imageUrl": null
-        },
-        {
-          "id": "https://apenwarr.ca/log/20230415",
-          "author": null,
-          "description": "Someone asked if I could write about the rise of AI and Large Language Models (LLMs) and what I think that means for the future of people, technology, society, and so on. Although that's a fun topic, it left me with two problems: I know approximately nothing about AI, and predicting the future is hard even for people who know what they're talking about.\nLet's try something else instead. I'll tell you a bunch of things I do know that are somehow related to the topic, and then you can predict the future yourself.\nMagic\nI think magic gets a bad reputation for no good reason.\nFirst of all, you might be thinking: magic doesn't actually exist. I assure you that it does. We just need to agree on a definition. For our purposes, let's define magic as: something you know is there, but you can't expl…",
-          "link": "https://apenwarr.ca/log/20230415",
-          "publishedOn": "2023-07-11T03:12:47.000Z",
-          "wordCount": 5700,
-          "title": "Systems design 2: What we hope we know",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
