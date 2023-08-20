@@ -1,16 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-13T00:51:28.425Z</id>
+    <id>urn:2023-08-20T00:51:18.485Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-13T00:51:28.425Z</updated>
+    <updated>2023-08-20T00:51:18.485Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Transcoding UTF-8 strings to Latin 1 strings at 12 GB/s using AVX-512]]></title>
+        <title type="html"><![CDATA[Transcoding Latin 1 strings to UTF-8 strings at 12 GB/s using AVX-512]]></title>
+        <id>https://lemire.me/blog/?p=20758</id>
+        <link href="https://lemire.me/blog/2023/08/18/transcoding-latin-1-strings-to-utf-8-strings-at-12-gb-s-using-avx-512/"/>
+        <updated>2023-08-18T18:17:42.000Z</updated>
+        <summary type="html"><![CDATA[Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers). It captures the first 256 characters from the Unicode standard and represents them as a single byte per character. In a previous blog post, we examined how we could … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 12 GB/s using AVX-512]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AVA Discovery View: Surfacing Authentic Moments]]></title>
+        <id>https://medium.com/p/b8cd145491cc</id>
+        <link href="https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4"/>
+        <updated>2023-08-17T22:07:14.000Z</updated>
+        <summary type="html"><![CDATA[By: Hamid Shahid, Laura Johnson, Tiffany Low]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript is Surprisingly OK for Compilers]]></title>
+        <id>https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html</id>
+        <link href="https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html"/>
+        <updated>2023-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There are two main historical trends when choosing an implementation language for something
+compiler-shaped.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Curbing Connection Churn in Zuul]]></title>
+        <id>https://medium.com/p/2feb273a3598</id>
+        <link href="https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4"/>
+        <updated>2023-08-16T17:55:48.000Z</updated>
+        <summary type="html"><![CDATA[Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How accurate is the birthday’s paradox formula?]]></title>
+        <id>https://lemire.me/blog/?p=20745</id>
+        <link href="https://lemire.me/blog/2023/08/15/how-accurate-is-the-birthdays-paradox-formula/"/>
+        <updated>2023-08-15T17:28:53.000Z</updated>
+        <summary type="html"><![CDATA[Given a set of r random values from a large set (of size N), I have been using the formula 1-exp(-r**2/(2N)) to approximate the probability of a collision. It assumes that r is much smaller than N. The formula suggests that if you have hundreds of millions of random 64-bit numbers, you will start getting … Continue reading How accurate is the birthday’s paradox formula?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NYC: Botanical Garden]]></title>
+        <id>https://thenumb.at/NYBG/</id>
+        <link href="https://thenumb.at/NYBG/"/>
+        <updated>2023-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New York Botanical Garden, New York, NY, 2023]]></summary>
+        <author>
+            <name>Max Slater</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Role Of Algorithms]]></title>
+        <id>https://matklad.github.io/2023/08/13/role-of-algorithms.html</id>
+        <link href="https://matklad.github.io/2023/08/13/role-of-algorithms.html"/>
+        <updated>2023-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is lobste.rs comment as an article, so expect even more abysmal editing than usual.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512]]></title>
         <id>https://lemire.me/blog/?p=20738</id>
         <link href="https://lemire.me/blog/2023/08/12/transcoding-utf-8-strings-to-latin-1-strings-at-12-gb-s-using-avx-512/"/>
         <updated>2023-08-12T01:18:50.000Z</updated>
-        <summary type="html"><![CDATA[Most strings online are Unicode strings in the UTF-8 format. Other systems (e.g., Java, Microsoft) might prefer UTF-16. However, Latin 1 is still a common encoding (e.g., within JavaScript runtimes). Its relationship with Unicode is simple: Latin 1 includes the first 256 Unicode characters. It is rich enough to convert most of the standard European … Continue reading Transcoding UTF-8 strings to Latin 1 strings at 12 GB/s using AVX-512]]></summary>
+        <summary type="html"><![CDATA[Most strings online are Unicode strings in the UTF-8 format. Other systems (e.g., Java, Microsoft) might prefer UTF-16. However, Latin 1 is still a common encoding (e.g., within JavaScript runtimes). Its relationship with Unicode is simple: Latin 1 includes the first 256 Unicode characters. It is rich enough to convert most of the standard European … Continue reading Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
@@ -171,38 +242,6 @@ non-deterministically and randomly demanded.<a href="logindenial">risk-based
 authentication</a></p></div></div>]]></summary>
         <author>
             <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast decoding of base32 strings]]></title>
-        <id>https://lemire.me/blog/?p=20706</id>
-        <link href="https://lemire.me/blog/2023/07/20/fast-decoding-of-base32-strings/"/>
-        <updated>2023-07-20T23:26:24.000Z</updated>
-        <summary type="html"><![CDATA[We often need to encode binary data into ASCII strings (e.g., email). The standards to do so include base16, base32 and base64. There are some research papers on fast base64 encoding and decoding: Base64 encoding and decoding at almost the speed of a memory copy and Faster Base64 Encoding and Decoding using AVX2 Instructions. For … Continue reading Fast decoding of base32 strings]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Science and Technology links (July 16 2023)]]></title>
-        <id>https://lemire.me/blog/?p=20704</id>
-        <link href="https://lemire.me/blog/2023/07/16/science-and-technology-links-july-16-2023/"/>
-        <updated>2023-07-16T18:00:20.000Z</updated>
-        <summary type="html"><![CDATA[Most people think that they are more intelligent than average. Lack of vitamin C may damage the arteries. Make sure you have enough! A difficult problem in software is caching. Caching is the idea that you keep some values in fast memory. But how do you choose which values to keep? A standard technique is … Continue reading Science and Technology links (July 16 2023)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three Different Cuts]]></title>
-        <id>https://matklad.github.io/2023/07/16/three-different-cuts.html</id>
-        <link href="https://matklad.github.io/2023/07/16/three-different-cuts.html"/>
-        <updated>2023-07-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this post, we'll look at how Rust, Go, and Zig express the signature of function cut --- the power tool of string manipulation.
-Cut takes a string and a pattern, and splits the string around the first occurrence of the pattern:
-cut("life", "if") = ("l", "e").]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>
