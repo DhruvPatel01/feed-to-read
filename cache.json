@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2023/08/23/",
+          "author": null,
+          "description": "In an effort to avoid programming by superstition, I did a deep dive\ninto the Win32 “environment block,” the data structure holding a process’s\nenvironment variables, in order to better understand it. Along the way I\ndiscovered implied and undocumented behaviors. (The environment block\nmust not to be confused with the Process Environment Block (PEB)\nwhich is different.) Because I cannot possibly retain all the quirky\ndetails in my head for long, I’m writing them down for future reference. I\nran my tests on different Windows versions as far back as Windows XP SP3\nin order to fill in gaps where documentation is ambiguous, incomplete, or\nwrong. Overall conclusion: Correct, direct manipulation of an environment\nblock is impossible in the general case due to under-specified and\nincorrect docume…",
+          "link": "https://nullprogram.com/blog/2023/08/23/",
+          "publishedOn": "2023-08-23T21:51:10.000Z",
+          "wordCount": 1704,
+          "title": "Everything you never wanted to know about Win32 environment blocks",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2023/07/31/",
           "author": null,
           "description": "We’ve previously discussed integer barriers, integer queues, and\ninteger wait groups as tiny concurrency utilities. Next let’s tackle\n“once” initialization, i.e. pthread_once, using an integer.\nWe’ll need only three basic atomic operations — store, load, and increment\n— and futex wait/wake. It will be zero-initialized and the entire source\nsmall enough to fit on an old-fashioned terminal display. The interface\nwill also get an overhaul, more to my own tastes.\nIf you’d like to skip ahead: once.c\nWhat’s the purpose? Suppose a concurrent program requires initialization,\nbut has no definite moment to do so. Threads are already in motion, and\nit’s unpredictable which will arrive first, and when. It might be because\nthis part of the program is loaded lazily, or initialization is expensive\nand on…",
           "link": "https://nullprogram.com/blog/2023/07/31/",
           "publishedOn": "2023-07-31T23:00:41.000Z",
-          "wordCount": 1402,
+          "wordCount": 1413,
           "title": "\"Once\" one-time concurrent initialization with an integer",
           "imageUrl": null
         }
@@ -55,7 +65,7 @@
           "description": "By: Hamid Shahid, Laura Johnson, Tiffany Low",
           "link": "https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-17T22:07:14.000Z",
-          "wordCount": 5750,
+          "wordCount": 5735,
           "title": "AVA Discovery View: Surfacing Authentic Moments",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:890/0*o3U-Eg_XXmXzmMMO"
         },
@@ -65,7 +75,7 @@
           "description": "Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends",
           "link": "https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-16T17:55:48.000Z",
-          "wordCount": 5737,
+          "wordCount": 5818,
           "title": "Curbing Connection Churn in Zuul",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:734/0*lL_0weS3WX_b4cZC"
         }
@@ -177,11 +187,11 @@
         {
           "id": "https://lemire.me/blog/?p=20758",
           "author": "Daniel Lemire",
-          "description": "Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers). It captures the first 256 characters from the Unicode standard and represents them as a single byte per character. In a previous blog post, we examined how we could … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 12 GB/s using AVX-512",
+          "description": "Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers) as JavaScript strings are often stored as either Latin 1, UTF-8 or UTF-16 internally. Latin 1 captures the first 256 characters from the Unicode standard and represents them as … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512",
           "link": "https://lemire.me/blog/2023/08/18/transcoding-latin-1-strings-to-utf-8-strings-at-12-gb-s-using-avx-512/",
           "publishedOn": "2023-08-18T18:17:42.000Z",
-          "wordCount": 3561,
-          "title": "Transcoding Latin 1 strings to UTF-8 strings at 12 GB/s using AVX-512",
+          "wordCount": 4022,
+          "title": "Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
         {
@@ -190,7 +200,7 @@
           "description": "Given a set of r random values from a large set (of size N), I have been using the formula 1-exp(-r**2/(2N)) to approximate the probability of a collision. It assumes that r is much smaller than N. The formula suggests that if you have hundreds of millions of random 64-bit numbers, you will start getting … Continue reading How accurate is the birthday’s paradox formula?",
           "link": "https://lemire.me/blog/2023/08/15/how-accurate-is-the-birthdays-paradox-formula/",
           "publishedOn": "2023-08-15T17:28:53.000Z",
-          "wordCount": 3197,
+          "wordCount": 3242,
           "title": "How accurate is the birthday’s paradox formula?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -200,7 +210,7 @@
           "description": "Most strings online are Unicode strings in the UTF-8 format. Other systems (e.g., Java, Microsoft) might prefer UTF-16. However, Latin 1 is still a common encoding (e.g., within JavaScript runtimes). Its relationship with Unicode is simple: Latin 1 includes the first 256 Unicode characters. It is rich enough to convert most of the standard European … Continue reading Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512",
           "link": "https://lemire.me/blog/2023/08/12/transcoding-utf-8-strings-to-latin-1-strings-at-12-gb-s-using-avx-512/",
           "publishedOn": "2023-08-12T01:18:50.000Z",
-          "wordCount": 4115,
+          "wordCount": 4259,
           "title": "Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -210,7 +220,7 @@
           "description": "When you enter in your browser the domain name lemire.me, it eventually gets encoded into a so-called wire format. The name lemire.me contains two labels, one of length 6 (lemire) and one of length two (me). The wire format starts with 6lemire2me: that is, imagining that the name starts with an imaginary dot, all dots … Continue reading Coding of domain names to wire format at gigabytes per second",
           "link": "https://lemire.me/blog/2023/08/10/coding-of-domain-names-to-wire-format-at-gigabytes-per-second/",
           "publishedOn": "2023-08-10T02:02:57.000Z",
-          "wordCount": 4108,
+          "wordCount": 4153,
           "title": "Coding of domain names to wire format at gigabytes per second",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -220,28 +230,8 @@
           "description": "In an extensive study, You et al. (2022) found that meat consumption was correlated with higher life expectancies: Meat intake is positively correlated with life expectancies. This relationship remained significant when influences of caloric intake, urbanization, obesity, education and carbohydrate crops were statistically controlled. Stepwise linear regression selected meat intake, not carbohydrate crops, as one … Continue reading Science and Technology links (August 6 2023)",
           "link": "https://lemire.me/blog/2023/08/06/science-and-technology-links-august-6-2023/",
           "publishedOn": "2023-08-06T20:43:06.000Z",
-          "wordCount": 3313,
+          "wordCount": 3389,
           "title": "Science and Technology links (August 6 2023)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20716",
-          "author": "Daniel Lemire",
-          "description": "We sometimes represent binary data using the hexadecimal notation. We use a base-16 representation where the first 10 digits are 0, 1, 2, 3, 5, 6, 7, 8, 9 and where the following digits are A, B, C, D, E, F (or a, b, c, d, e, f). Thus each character represents 4 bits. A … Continue reading Decoding base16 sequences quickly",
-          "link": "https://lemire.me/blog/2023/07/27/decoding-base16-sequences-quickly/",
-          "publishedOn": "2023-07-27T16:53:57.000Z",
-          "wordCount": 3901,
-          "title": "Decoding base16 sequences quickly",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20712",
-          "author": "Daniel Lemire",
-          "description": "People increasingly consume ultra processed foods. They include energy drinks, mass-produced packaged breads, margarines, cereal, energy bars, fruit yogurts, fruit drinks, vegan meat and cheese, infant formulas, pizza, chicken nuggets, and so forth. Ultra processed foods are correlated with poorer health. Homo sapiens was not the first human species to venture out of Africa, it was the … Continue reading Science and Technology links (July 23 2023)",
-          "link": "https://lemire.me/blog/2023/07/24/science-and-technology-links-july-23-2023/",
-          "publishedOn": "2023-07-24T02:14:57.000Z",
-          "wordCount": 3501,
-          "title": "Science and Technology links (July 23 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -259,16 +249,6 @@
           "publishedOn": "2023-07-29T15:48:47.000Z",
           "wordCount": 55,
           "title": "[Hμblog] Make the web great again",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.devever.net/~hl/passwords",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Today we seem to be living through a war on passwords. This is manifested in\nvarious ways; in its most passive form, it takes the form of people blogging\nabout how passwords are bad. The more material changes are the general trend\ntowards no longer treating passwords as a sufficient condition for access in\nfavour of either mandatory “2FA” or, where 2FA is not used, , in which some extra authentication step is\nnon-deterministically and randomly demanded.<a href=\"logindenial\">risk-based\nauthentication</a></p></div></div>",
-          "link": "https://www.devever.net/~hl/passwords",
-          "publishedOn": "2023-07-22T13:35:00.000Z",
-          "wordCount": 2146,
-          "title": "[Computing] Why even let users set their own passwords?",
           "imageUrl": null
         }
       ]

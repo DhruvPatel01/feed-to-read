@@ -22,6 +22,64 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-23 datetime="2023-08-23T21:51:10.000Z">2023-08-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-23 datetime="2023-08-23T21:51:10.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2023/08/23/"
+                        open
+                      >
+                        <summary class="article-expander__title">Everything you never wanted to know about Win32 environment blocks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/08/23/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In an effort to avoid programming by superstition, I did a deep dive
+into the Win32 “environment block,” the data structure holding a process’s
+environment variables, in order to better understand it. Along the way I
+discovered implied and undocumented behaviors. (The environment block
+must not to be confused with the Process Environment Block (PEB)
+which is different.) Because I cannot possibly retain all the quirky
+details in my head for long, I’m writing them down for future reference. I
+ran my tests on different Windows versions as far back as Windows XP SP3
+in order to fill in gaps where documentation is ambiguous, incomplete, or
+wrong. Overall conclusion: Correct, direct manipulation of an environment
+block is impossible in the general case due to under-specified and
+incorrect docume…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-18 datetime="2023-08-18T18:17:42.000Z">2023-08-18</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-18 datetime="2023-08-18T18:17:42.000Z"></time>
           </button>
@@ -45,13 +103,13 @@
                         data-accordion-key="https://lemire.me/blog/?p&#x3D;20758"
                         open
                       >
-                        <summary class="article-expander__title">Transcoding Latin 1 strings to UTF-8 strings at 12 GB/s using AVX-512</summary>
+                        <summary class="article-expander__title">Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2023/08/18/transcoding-latin-1-strings-to-utf-8-strings-at-12-gb-s-using-avx-512/">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers). It captures the first 256 characters from the Unicode standard and represents them as a single byte per character. In a previous blog post, we examined how we could … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 12 GB/s using AVX-512</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                              <span>Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers) as JavaScript strings are often stored as either Latin 1, UTF-8 or UTF-16 internally. Latin 1 captures the first 256 characters from the Unicode standard and represents them as … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -785,159 +843,10 @@ website of great depth and variation.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-27 datetime="2023-07-27T16:53:57.000Z">2023-07-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-27 datetime="2023-07-27T16:53:57.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;20716"
-                        open
-                      >
-                        <summary class="article-expander__title">Decoding base16 sequences quickly</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2023/07/27/decoding-base16-sequences-quickly/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We sometimes represent binary data using the hexadecimal notation. We use a base-16 representation where the first 10 digits are 0, 1, 2, 3, 5, 6, 7, 8, 9 and where the following digits are A, B, C, D, E, F (or a, b, c, d, e, f). Thus each character represents 4 bits. A … Continue reading Decoding base16 sequences quickly</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-24 datetime="2023-07-24T02:14:57.000Z">2023-07-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-24 datetime="2023-07-24T02:14:57.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;20712"
-                        open
-                      >
-                        <summary class="article-expander__title">Science and Technology links (July 23 2023)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2023/07/24/science-and-technology-links-july-23-2023/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>People increasingly consume ultra processed foods. They include energy drinks, mass-produced packaged breads, margarines, cereal, energy bars, fruit yogurts, fruit drinks, vegan meat and cheese, infant formulas, pizza, chicken nuggets, and so forth. Ultra processed foods are correlated with poorer health. Homo sapiens was not the first human species to venture out of Africa, it was the … Continue reading Science and Technology links (July 23 2023)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-22 datetime="2023-07-22T13:35:00.000Z">2023-07-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-22 datetime="2023-07-22T13:35:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >devever.net/~hl</button>
-                  <a class="source-heading__link" href="https://www.devever.net/~hl/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.devever.net/~hl/passwords"
-                        open
-                      >
-                        <summary class="article-expander__title">[Computing] Why even let users set their own passwords?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.devever.net/~hl/passwords">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Today we seem to be living through a war on passwords. This is manifested in
-various ways; in its most passive form, it takes the form of people blogging
-about how passwords are bad. The more material changes are the general trend
-towards no longer treating passwords as a sufficient condition for access in
-favour of either mandatory “2FA” or, where 2FA is not used, , in which some extra authentication step is
-non-deterministically and randomly demanded.risk-based
-authentication</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/5914447673">
-        <time id="build-timestamp" datetime="2023-08-20T00:51:18.459Z">2023-08-20T00:51:18.459Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/5987926827">
+        <time id="build-timestamp" datetime="2023-08-27T00:52:48.064Z">2023-08-27T00:52:48.064Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
