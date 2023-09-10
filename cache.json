@@ -55,7 +55,7 @@
           "description": "Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption",
           "link": "https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-29T23:08:45.000Z",
-          "wordCount": 5704,
+          "wordCount": 5774,
           "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj"
         },
@@ -65,7 +65,7 @@
           "description": "By: Hamid Shahid, Laura Johnson, Tiffany Low",
           "link": "https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-17T22:07:14.000Z",
-          "wordCount": 5837,
+          "wordCount": 5834,
           "title": "AVA Discovery View: Surfacing Authentic Moments",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:890/0*o3U-Eg_XXmXzmMMO"
         },
@@ -75,7 +75,7 @@
           "description": "Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends",
           "link": "https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-16T17:55:48.000Z",
-          "wordCount": 5851,
+          "wordCount": 5884,
           "title": "Curbing Connection Churn in Zuul",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:734/0*lL_0weS3WX_b4cZC"
         }
@@ -128,26 +128,6 @@
           "wordCount": 2399,
           "title": "Role Of Algorithms",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/08/09/types-and-zig.html",
-          "author": null,
-          "description": "Notes on less-than-obvious aspects of Zig's type system and things that surprised me after diving\ndeeper into the language.",
-          "link": "https://matklad.github.io/2023/08/09/types-and-zig.html",
-          "publishedOn": "2023-08-09T00:00:00.000Z",
-          "wordCount": 1462,
-          "title": "Types and the Zig Programming Language",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/08/06/fantastic-learning-resources.html",
-          "author": null,
-          "description": "People sometimes ask me: Alex, how do I learn X?. This article is a compilation of advice I\nusually give. This is things that worked for me rather than the most awesome things on earth. I\ndo consider every item on the list to be fantastic though, and I am forever grateful to people\nputting these resources together.",
-          "link": "https://matklad.github.io/2023/08/06/fantastic-learning-resources.html",
-          "publishedOn": "2023-08-06T00:00:00.000Z",
-          "wordCount": 1991,
-          "title": "Fantastic Learning Resources",
-          "imageUrl": null
         }
       ]
     },
@@ -175,12 +155,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20798",
+          "author": "Daniel Lemire",
+          "description": "A common problem in parsing is that you want to find all identifiers (e.g., variable names, function names) in a document quickly. There are typically some fixed rules. For example, it is common to allow ASCII letters and digits as well as characters like ‘_’ in the identifier, but to forbid some characters at the … Continue reading Locating ‘identifiers’ quickly (ARM NEON edition)",
+          "link": "https://lemire.me/blog/2023/09/04/locating-identifiers-quickly-arm-neon-edition/",
+          "publishedOn": "2023-09-04T00:46:18.000Z",
+          "wordCount": 3688,
+          "title": "Locating ‘identifiers’ quickly (ARM NEON edition)",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20790",
           "author": "Daniel Lemire",
           "description": "Physicists have a published a paper with 5154 authors. The list of authors takes 24 pages out of the 33 pages. The lesson is that if someone tell you that they have published an important paper, you should ask how many authors there were and what their exact role was. Vegatarians are at higher risk … Continue reading Science and Technology links (September 2 2023)",
           "link": "https://lemire.me/blog/2023/09/02/science-and-technology-links-september-2-2023/",
           "publishedOn": "2023-09-02T18:30:10.000Z",
-          "wordCount": 3654,
+          "wordCount": 3727,
           "title": "Science and Technology links (September 2 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -190,7 +180,7 @@
           "description": "Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers) as JavaScript strings are often stored as either Latin 1, UTF-8 or UTF-16 internally. Latin 1 captures the first 256 characters from the Unicode standard and represents them as … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512",
           "link": "https://lemire.me/blog/2023/08/18/transcoding-latin-1-strings-to-utf-8-strings-at-12-gb-s-using-avx-512/",
           "publishedOn": "2023-08-18T18:17:42.000Z",
-          "wordCount": 4035,
+          "wordCount": 4019,
           "title": "Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -200,7 +190,7 @@
           "description": "Given a set of r random values from a large set (of size N), I have been using the formula 1-exp(-r**2/(2N)) to approximate the probability of a collision. It assumes that r is much smaller than N. The formula suggests that if you have hundreds of millions of random 64-bit numbers, you will start getting … Continue reading How accurate is the birthday’s paradox formula?",
           "link": "https://lemire.me/blog/2023/08/15/how-accurate-is-the-birthdays-paradox-formula/",
           "publishedOn": "2023-08-15T17:28:53.000Z",
-          "wordCount": 3246,
+          "wordCount": 3230,
           "title": "How accurate is the birthday’s paradox formula?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -210,28 +200,8 @@
           "description": "Most strings online are Unicode strings in the UTF-8 format. Other systems (e.g., Java, Microsoft) might prefer UTF-16. However, Latin 1 is still a common encoding (e.g., within JavaScript runtimes). Its relationship with Unicode is simple: Latin 1 includes the first 256 Unicode characters. It is rich enough to convert most of the standard European … Continue reading Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512",
           "link": "https://lemire.me/blog/2023/08/12/transcoding-utf-8-strings-to-latin-1-strings-at-12-gb-s-using-avx-512/",
           "publishedOn": "2023-08-12T01:18:50.000Z",
-          "wordCount": 4263,
+          "wordCount": 4247,
           "title": "Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20735",
-          "author": "Daniel Lemire",
-          "description": "When you enter in your browser the domain name lemire.me, it eventually gets encoded into a so-called wire format. The name lemire.me contains two labels, one of length 6 (lemire) and one of length two (me). The wire format starts with 6lemire2me: that is, imagining that the name starts with an imaginary dot, all dots … Continue reading Coding of domain names to wire format at gigabytes per second",
-          "link": "https://lemire.me/blog/2023/08/10/coding-of-domain-names-to-wire-format-at-gigabytes-per-second/",
-          "publishedOn": "2023-08-10T02:02:57.000Z",
-          "wordCount": 4635,
-          "title": "Coding of domain names to wire format at gigabytes per second",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20728",
-          "author": "Daniel Lemire",
-          "description": "In an extensive study, You et al. (2022) found that meat consumption was correlated with higher life expectancies: Meat intake is positively correlated with life expectancies. This relationship remained significant when influences of caloric intake, urbanization, obesity, education and carbohydrate crops were statistically controlled. Stepwise linear regression selected meat intake, not carbohydrate crops, as one … Continue reading Science and Technology links (August 6 2023)",
-          "link": "https://lemire.me/blog/2023/08/06/science-and-technology-links-august-6-2023/",
-          "publishedOn": "2023-08-06T20:43:06.000Z",
-          "wordCount": 3393,
-          "title": "Science and Technology links (August 6 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
