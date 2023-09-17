@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-10T00:53:26.858Z</id>
+    <id>urn:2023-09-17T00:53:54.972Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-10T00:53:26.858Z</updated>
+    <updated>2023-09-17T00:53:54.973Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Transcoding Unicode strings at crazy speeds with AVX-512]]></title>
+        <id>https://lemire.me/blog/?p=20820</id>
+        <link href="https://lemire.me/blog/2023/09/13/transcoding-unicode-strings-at-crazy-speeds-with-avx-512/"/>
+        <updated>2023-09-13T16:00:30.000Z</updated>
+        <summary type="html"><![CDATA[In software, we store strings of text as arrays of bytes in memory using one of the Unicode Transformation Formats (UTF), the most popular being UTF-8 and UTF-16. Windows, Java, C# and other systems common languages and systems default on UTF-16, whereas other systems and most of the web relies on UTF-8. There are benefits … Continue reading Transcoding Unicode strings at crazy speeds with AVX-512]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comparative Analysis]]></title>
+        <id>https://matklad.github.io/2023/09/13/comparative-analysis.html</id>
+        <link href="https://matklad.github.io/2023/09/13/comparative-analysis.html"/>
+        <updated>2023-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Most languages provide 6 comparison operators:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Locating ‘identifiers’ quickly (ARM NEON edition)]]></title>
         <id>https://lemire.me/blog/?p=20798</id>
@@ -119,77 +139,6 @@ incorrect docume…]]></summary>
         <link href="https://lemire.me/blog/2023/08/18/transcoding-latin-1-strings-to-utf-8-strings-at-12-gb-s-using-avx-512/"/>
         <updated>2023-08-18T18:17:42.000Z</updated>
         <summary type="html"><![CDATA[Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers) as JavaScript strings are often stored as either Latin 1, UTF-8 or UTF-16 internally. Latin 1 captures the first 256 characters from the Unicode standard and represents them as … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AVA Discovery View: Surfacing Authentic Moments]]></title>
-        <id>https://medium.com/p/b8cd145491cc</id>
-        <link href="https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4"/>
-        <updated>2023-08-17T22:07:14.000Z</updated>
-        <summary type="html"><![CDATA[By: Hamid Shahid, Laura Johnson, Tiffany Low]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript is Surprisingly OK for Compilers]]></title>
-        <id>https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html</id>
-        <link href="https://matklad.github.io/2023/08/17/typescript-is-surprisingly-ok-for-compilers.html"/>
-        <updated>2023-08-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There are two main historical trends when choosing an implementation language for something
-compiler-shaped.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Curbing Connection Churn in Zuul]]></title>
-        <id>https://medium.com/p/2feb273a3598</id>
-        <link href="https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4"/>
-        <updated>2023-08-16T17:55:48.000Z</updated>
-        <summary type="html"><![CDATA[Netflix’s Zuul Gateway eliminated tens of millions of connections and reduced almost all connection churn to backends]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How accurate is the birthday’s paradox formula?]]></title>
-        <id>https://lemire.me/blog/?p=20745</id>
-        <link href="https://lemire.me/blog/2023/08/15/how-accurate-is-the-birthdays-paradox-formula/"/>
-        <updated>2023-08-15T17:28:53.000Z</updated>
-        <summary type="html"><![CDATA[Given a set of r random values from a large set (of size N), I have been using the formula 1-exp(-r**2/(2N)) to approximate the probability of a collision. It assumes that r is much smaller than N. The formula suggests that if you have hundreds of millions of random 64-bit numbers, you will start getting … Continue reading How accurate is the birthday’s paradox formula?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYC: Botanical Garden]]></title>
-        <id>https://thenumb.at/NYBG/</id>
-        <link href="https://thenumb.at/NYBG/"/>
-        <updated>2023-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New York Botanical Garden, New York, NY, 2023]]></summary>
-        <author>
-            <name>Max Slater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Role Of Algorithms]]></title>
-        <id>https://matklad.github.io/2023/08/13/role-of-algorithms.html</id>
-        <link href="https://matklad.github.io/2023/08/13/role-of-algorithms.html"/>
-        <updated>2023-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is lobste.rs comment as an article, so expect even more abysmal editing than usual.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512]]></title>
-        <id>https://lemire.me/blog/?p=20738</id>
-        <link href="https://lemire.me/blog/2023/08/12/transcoding-utf-8-strings-to-latin-1-strings-at-12-gb-s-using-avx-512/"/>
-        <updated>2023-08-12T01:18:50.000Z</updated>
-        <summary type="html"><![CDATA[Most strings online are Unicode strings in the UTF-8 format. Other systems (e.g., Java, Microsoft) might prefer UTF-16. However, Latin 1 is still a common encoding (e.g., within JavaScript runtimes). Its relationship with Unicode is simple: Latin 1 includes the first 256 Unicode characters. It is rich enough to convert most of the standard European … Continue reading Transcoding UTF-8 strings to Latin 1 strings at 18 GB/s using AVX-512]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
