@@ -14,16 +14,6 @@
           "wordCount": 1103,
           "title": "How to link identical function names from different DLLs",
           "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2023/08/23/",
-          "author": null,
-          "description": "In an effort to avoid programming by superstition, I did a deep dive\ninto the Win32 “environment block,” the data structure holding a process’s\nenvironment variables, in order to better understand it. Along the way I\ndiscovered implied and undocumented behaviors. (The environment block\nmust not to be confused with the Process Environment Block (PEB)\nwhich is different.) Because I cannot possibly retain all the quirky\ndetails in my head for long, I’m writing them down for future reference. I\nran my tests on different Windows versions as far back as Windows XP SP3\nin order to fill in gaps where documentation is ambiguous, incomplete, or\nwrong. Overall conclusion: Correct, direct manipulation of an environment\nblock is impossible in the general case due to under-specified and\nincorrect docume…",
-          "link": "https://nullprogram.com/blog/2023/08/23/",
-          "publishedOn": "2023-08-23T21:51:10.000Z",
-          "wordCount": 1714,
-          "title": "Everything you never wanted to know about Win32 environment blocks",
-          "imageUrl": null
         }
       ]
     },
@@ -44,7 +34,7 @@
           "description": "Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption",
           "link": "https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-08-29T23:08:45.000Z",
-          "wordCount": 5712,
+          "wordCount": 5720,
           "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj"
         }
@@ -55,6 +45,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2023/09/19/mastering-nim.html",
+          "author": null,
+          "description": "Discover the secret of Nim!\nThe definite guide on Nim!\nWritten by the inventor himself.\nNow with updated content for version 2.0 which solves the biggest pain point of Nim 1.0, shared memory in a multi-threaded setting.\nPlease have a look at its cover image:\nBut Nim’s logo is a crown!\nWhere is the crown?\nThat’s the secret of Nim!\nSend us your reply to support@nim-lang.org until December 6th 2023.\nAmong the correct answers we will select 3 winners by randomization.\nThe winners will receive a signed hardcover!\n“Mastering Nim” is available here:\namazon.com\namazon.de",
+          "link": "https://nim-lang.org//blog/2023/09/19/mastering-nim.html",
+          "publishedOn": "2023-09-19T00:00:00.000Z",
+          "wordCount": 241,
+          "title": "Mastering Nim, 2nd edition",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2023/09/01/this-month-with-nim.html",
           "author": null,
@@ -114,12 +114,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20836",
+          "author": "Daniel Lemire",
+          "description": "If I give a programmer a string such as \"9223372036854775808\" and I ask them to convert it to an integer, they might do the following in C++: std::string s = .... uint64_t val; auto [ptr, ec] = std::from_chars(s.data(), s.data() + s.size(), val); if (ec != std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512",
+          "link": "https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/",
+          "publishedOn": "2023-09-22T21:50:14.000Z",
+          "wordCount": 3569,
+          "title": "Parsing integers quickly with AVX-512",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20820",
           "author": "Daniel Lemire",
           "description": "In software, we store strings of text as arrays of bytes in memory using one of the Unicode Transformation Formats (UTF), the most popular being UTF-8 and UTF-16. Windows, Java, C# and other systems common languages and systems default on UTF-16, whereas other systems and most of the web relies on UTF-8. There are benefits … Continue reading Transcoding Unicode strings at crazy speeds with AVX-512",
           "link": "https://lemire.me/blog/2023/09/13/transcoding-unicode-strings-at-crazy-speeds-with-avx-512/",
           "publishedOn": "2023-09-13T16:00:30.000Z",
-          "wordCount": 3803,
+          "wordCount": 3809,
           "title": "Transcoding Unicode strings at crazy speeds with AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -129,7 +139,7 @@
           "description": "A common problem in parsing is that you want to find all identifiers (e.g., variable names, function names) in a document quickly. There are typically some fixed rules. For example, it is common to allow ASCII letters and digits as well as characters like ‘_’ in the identifier, but to forbid some characters at the … Continue reading Locating ‘identifiers’ quickly (ARM NEON edition)",
           "link": "https://lemire.me/blog/2023/09/04/locating-identifiers-quickly-arm-neon-edition/",
           "publishedOn": "2023-09-04T00:46:18.000Z",
-          "wordCount": 3691,
+          "wordCount": 3690,
           "title": "Locating ‘identifiers’ quickly (ARM NEON edition)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -139,18 +149,8 @@
           "description": "Physicists have a published a paper with 5154 authors. The list of authors takes 24 pages out of the 33 pages. The lesson is that if someone tell you that they have published an important paper, you should ask how many authors there were and what their exact role was. Vegatarians are at higher risk … Continue reading Science and Technology links (September 2 2023)",
           "link": "https://lemire.me/blog/2023/09/02/science-and-technology-links-september-2-2023/",
           "publishedOn": "2023-09-02T18:30:10.000Z",
-          "wordCount": 3720,
+          "wordCount": 3719,
           "title": "Science and Technology links (September 2 2023)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20758",
-          "author": "Daniel Lemire",
-          "description": "Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers) as JavaScript strings are often stored as either Latin 1, UTF-8 or UTF-16 internally. Latin 1 captures the first 256 characters from the Unicode standard and represents them as … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512",
-          "link": "https://lemire.me/blog/2023/08/18/transcoding-latin-1-strings-to-utf-8-strings-at-12-gb-s-using-avx-512/",
-          "publishedOn": "2023-08-18T18:17:42.000Z",
-          "wordCount": 4012,
-          "title": "Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]

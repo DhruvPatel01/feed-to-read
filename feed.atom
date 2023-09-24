@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-17T00:53:54.972Z</id>
+    <id>urn:2023-09-24T00:53:50.382Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-17T00:53:54.973Z</updated>
+    <updated>2023-09-24T00:53:50.382Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Parsing integers quickly with AVX-512]]></title>
+        <id>https://lemire.me/blog/?p=20836</id>
+        <link href="https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/"/>
+        <updated>2023-09-22T21:50:14.000Z</updated>
+        <summary type="html"><![CDATA[If I give a programmer a string such as "9223372036854775808" and I ask them to convert it to an integer, they might do the following in C++: std::string s = .... uint64_t val; auto [ptr, ec] = std::from_chars(s.data(), s.data() + s.size(), val); if (ec != std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mastering Nim, 2nd edition]]></title>
+        <id>https://nim-lang.org//blog/2023/09/19/mastering-nim.html</id>
+        <link href="https://nim-lang.org//blog/2023/09/19/mastering-nim.html"/>
+        <updated>2023-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover the secret of Nim!
+The definite guide on Nim!
+Written by the inventor himself.
+Now with updated content for version 2.0 which solves the biggest pain point of Nim 1.0, shared memory in a multi-threaded setting.
+Please have a look at its cover image:
+But Nim’s logo is a crown!
+Where is the crown?
+That’s the secret of Nim!
+Send us your reply to support@nim-lang.org until December 6th 2023.
+Among the correct answers we will select 3 winners by randomization.
+The winners will receive a signed hardcover!
+“Mastering Nim” is available here:
+amazon.com
+amazon.de]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Transcoding Unicode strings at crazy speeds with AVX-512]]></title>
         <id>https://lemire.me/blog/?p=20820</id>
@@ -110,37 +143,6 @@ In PE executable images, an import isn’t just a symbol, but a tuple
 of DLL name and symbol. For human display, a tup…]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everything you never wanted to know about Win32 environment blocks]]></title>
-        <id>https://nullprogram.com/blog/2023/08/23/</id>
-        <link href="https://nullprogram.com/blog/2023/08/23/"/>
-        <updated>2023-08-23T21:51:10.000Z</updated>
-        <summary type="html"><![CDATA[In an effort to avoid programming by superstition, I did a deep dive
-into the Win32 “environment block,” the data structure holding a process’s
-environment variables, in order to better understand it. Along the way I
-discovered implied and undocumented behaviors. (The environment block
-must not to be confused with the Process Environment Block (PEB)
-which is different.) Because I cannot possibly retain all the quirky
-details in my head for long, I’m writing them down for future reference. I
-ran my tests on different Windows versions as far back as Windows XP SP3
-in order to fill in gaps where documentation is ambiguous, incomplete, or
-wrong. Overall conclusion: Correct, direct manipulation of an environment
-block is impossible in the general case due to under-specified and
-incorrect docume…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512]]></title>
-        <id>https://lemire.me/blog/?p=20758</id>
-        <link href="https://lemire.me/blog/2023/08/18/transcoding-latin-1-strings-to-utf-8-strings-at-12-gb-s-using-avx-512/"/>
-        <updated>2023-08-18T18:17:42.000Z</updated>
-        <summary type="html"><![CDATA[Though most strings online today follow the Unicode standard (e.g., using UTF-8), the Latin 1 standard is still in widespread inside some systems (such as browsers) as JavaScript strings are often stored as either Latin 1, UTF-8 or UTF-16 internally. Latin 1 captures the first 256 characters from the Unicode standard and represents them as … Continue reading Transcoding Latin 1 strings to UTF-8 strings at 18 GB/s using AVX-512]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
