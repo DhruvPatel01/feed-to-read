@@ -22,6 +22,123 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-30 datetime="2023-09-30T23:18:40.000Z">2023-09-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-30 datetime="2023-09-30T23:18:40.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2023/09/30/"
+                        open
+                      >
+                        <summary class="article-expander__title">An easy-to-implement, arena-friendly hash map</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/09/30/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>My last article had tips for for arena allocation. This next
+article demonstrates a technique for building bespoke hash maps that
+compose nicely with arena allocation. In addition, they’re fast, simple,
+and automatically scale to any problem that could reasonably be solved
+with an in-memory hash map. To avoid resizing — both to better support
+arenas and to simplify implementation — they have slightly above average
+memory requirements. The design, which we’re calling a hash-trie, is the
+result of fruitful collaboration with NRK, whose sibling article
+includes benchmarks. It’s my new favorite data structure, and has proven
+incredibly useful. With a couple well-placed acquire/release atomics, we
+can even turn it into a lock-free concurrent hash map.
+I’ve written before about MSI hash tables, …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-27 datetime="2023-09-27T03:58:59.000Z">2023-09-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-27 datetime="2023-09-27T03:58:59.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2023/09/27/"
+                        open
+                      >
+                        <summary class="article-expander__title">Arena allocator tips and tricks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/09/27/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This article was discussed on Hacker News.
+Over the past year I’ve refined my approach to arena allocation.
+With practice, it’s effective, simple, and fast; typically as easy to use
+as garbage collection but without the costs. Depending on need, an
+allocator can weigh just 7–25 lines of code — perfect when lacking a
+runtime. With the core details of my own technique settled, now is a
+good time to document and share lessons learned. This is certainly not the
+only way to approach arena allocation, but these are practices I’ve worked
+out to simplify programs and reduce mistakes.
+An arena is a memory buffer and an offset into that buffer, initially
+zero. To allocate an object, grab a pointer at the offset, advance the
+offset by the size of the object, and return the pointer. There’s a little
+m…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-22 datetime="2023-09-22T21:50:14.000Z">2023-09-22</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-22 datetime="2023-09-22T21:50:14.000Z"></time>
           </button>
@@ -51,7 +168,7 @@
                               <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>If I give a programmer a string such as &quot;9223372036854775808&quot; and I ask them to convert it to an integer, they might do the following in C++: std::string s &#x3D; .... uint64_t val; auto [ptr, ec] &#x3D; std::from_chars(s.data(), s.data() + s.size(), val); if (ec !&#x3D; std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -301,190 +418,10 @@ amazon.de</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-01 datetime="2023-09-01T00:00:00.000Z">2023-09-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-01 datetime="2023-09-01T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Nim Programming Language</button>
-                  <a class="source-heading__link" href="https://nim-lang.org//">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://nim-lang.org//blog/2023/09/01/this-month-with-nim.html"
-                        open
-                      >
-                        <summary class="article-expander__title">This Month with Nim: July and August 2023</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://nim-lang.org//blog/2023/09/01/this-month-with-nim.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://nim-lang.org/assets/img/twitter_banner.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>HappyX
-Author: ethosa
-HappyX is a macro-oriented full-stack web framework that combines frontend and backend features.
-With HappyX you can write single page applications (SPA),
-static site generation (SSG),
-and server side rendering (SSR) web applications.
-It provides the same syntax for all of these solutions:
-import happyx
-
-serve(&quot;127.0.0.1&quot;, 5000):
-  &quot;/&quot;:
-    &quot;Hello, world!&quot;
-
-or:
-import happyx
-
-appRoutes(&quot;app&quot;):
-  &quot;/&quot;:
-    &quot;Hello, world!&quot;
-
-Included is a command line interface hpx.
-This enables easy creation of projects for Nim and Python.
-A non exhaustive list of features is as follows:
-Multiple server options (built-in asynchttpserver, microasynchttpserver, httpbeast and httpx)
-Hot code reloading (now only for SPA)
-Debug logging with -d:debug
-Powerful routing that includes path params …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-29 datetime="2023-08-29T23:08:45.000Z">2023-08-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-29 datetime="2023-08-29T23:08:45.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Netflix TechBlog - Medium</button>
-                  <a class="source-heading__link" href="https://netflixtechblog.com?source&#x3D;rss----2615bd06b42e---4">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/p/ac6483b52a51"
-                        open
-                      >
-                        <summary class="article-expander__title">Zero Configuration Service Mesh with On-Demand Cluster Discovery</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source&#x3D;rss----2615bd06b42e---4">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-27 datetime="2023-08-27T01:46:31.000Z">2023-08-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-27 datetime="2023-08-27T01:46:31.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >null program</button>
-                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://nullprogram.com/blog/2023/08/27/"
-                        open
-                      >
-                        <summary class="article-expander__title">How to link identical function names from different DLLs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2023/08/27/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>For the typical DLL function call you declare the function prototype (via
-header file), you inform the link editor (ld, link) that the DLL
-exports a symbol with that name (import library), it matches the declared
-name with this export, and it becomes an import in your program’s import
-table. What happens when two different DLLs export the same symbol? The
-link editor will pick the first found. But what if you want to use both
-exports? If they have the same name, how could program or link editor
-distinguish them? In this article I’ll demonstrate a technique to resolve
-this by creating a program which links with and directly uses two
-different C runtimes (CRTs) simultaneously.
-In PE executable images, an import isn’t just a symbol, but a tuple
-of DLL name and symbol. For human display, a tup…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/6287012337">
-        <time id="build-timestamp" datetime="2023-09-24T00:53:50.356Z">2023-09-24T00:53:50.356Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/6366837569">
+        <time id="build-timestamp" datetime="2023-10-01T00:58:21.116Z">2023-10-01T00:58:21.116Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

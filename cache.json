@@ -6,13 +6,23 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
-          "id": "https://nullprogram.com/blog/2023/08/27/",
+          "id": "https://nullprogram.com/blog/2023/09/30/",
           "author": null,
-          "description": "For the typical DLL function call you declare the function prototype (via\nheader file), you inform the link editor (ld, link) that the DLL\nexports a symbol with that name (import library), it matches the declared\nname with this export, and it becomes an import in your program’s import\ntable. What happens when two different DLLs export the same symbol? The\nlink editor will pick the first found. But what if you want to use both\nexports? If they have the same name, how could program or link editor\ndistinguish them? In this article I’ll demonstrate a technique to resolve\nthis by creating a program which links with and directly uses two\ndifferent C runtimes (CRTs) simultaneously.\nIn PE executable images, an import isn’t just a symbol, but a tuple\nof DLL name and symbol. For human display, a tup…",
-          "link": "https://nullprogram.com/blog/2023/08/27/",
-          "publishedOn": "2023-08-27T01:46:31.000Z",
-          "wordCount": 1103,
-          "title": "How to link identical function names from different DLLs",
+          "description": "My last article had tips for for arena allocation. This next\narticle demonstrates a technique for building bespoke hash maps that\ncompose nicely with arena allocation. In addition, they’re fast, simple,\nand automatically scale to any problem that could reasonably be solved\nwith an in-memory hash map. To avoid resizing — both to better support\narenas and to simplify implementation — they have slightly above average\nmemory requirements. The design, which we’re calling a hash-trie, is the\nresult of fruitful collaboration with NRK, whose sibling article\nincludes benchmarks. It’s my new favorite data structure, and has proven\nincredibly useful. With a couple well-placed acquire/release atomics, we\ncan even turn it into a lock-free concurrent hash map.\nI’ve written before about MSI hash tables, …",
+          "link": "https://nullprogram.com/blog/2023/09/30/",
+          "publishedOn": "2023-09-30T23:18:40.000Z",
+          "wordCount": 2246,
+          "title": "An easy-to-implement, arena-friendly hash map",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2023/09/27/",
+          "author": null,
+          "description": "This article was discussed on Hacker News.\nOver the past year I’ve refined my approach to arena allocation.\nWith practice, it’s effective, simple, and fast; typically as easy to use\nas garbage collection but without the costs. Depending on need, an\nallocator can weigh just 7–25 lines of code — perfect when lacking a\nruntime. With the core details of my own technique settled, now is a\ngood time to document and share lessons learned. This is certainly not the\nonly way to approach arena allocation, but these are practices I’ve worked\nout to simplify programs and reduce mistakes.\nAn arena is a memory buffer and an offset into that buffer, initially\nzero. To allocate an object, grab a pointer at the offset, advance the\noffset by the size of the object, and return the pointer. There’s a little\nm…",
+          "link": "https://nullprogram.com/blog/2023/09/27/",
+          "publishedOn": "2023-09-27T03:58:59.000Z",
+          "wordCount": 2590,
+          "title": "Arena allocator tips and tricks",
           "imageUrl": null
         }
       ]
@@ -27,18 +37,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/ac6483b52a51",
-          "author": "Netflix Technology Blog",
-          "description": "Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption",
-          "link": "https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-08-29T23:08:45.000Z",
-          "wordCount": 5720,
-          "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*xr1EBhghfcC8j4Uj"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Nim Programming Language",
@@ -53,16 +52,6 @@
           "publishedOn": "2023-09-19T00:00:00.000Z",
           "wordCount": 241,
           "title": "Mastering Nim, 2nd edition",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2023/09/01/this-month-with-nim.html",
-          "author": null,
-          "description": "HappyX\nAuthor: ethosa\nHappyX is a macro-oriented full-stack web framework that combines frontend and backend features.\nWith HappyX you can write single page applications (SPA),\nstatic site generation (SSG),\nand server side rendering (SSR) web applications.\nIt provides the same syntax for all of these solutions:\nimport happyx\n\nserve(\"127.0.0.1\", 5000):\n  \"/\":\n    \"Hello, world!\"\n\nor:\nimport happyx\n\nappRoutes(\"app\"):\n  \"/\":\n    \"Hello, world!\"\n\nIncluded is a command line interface hpx.\nThis enables easy creation of projects for Nim and Python.\nA non exhaustive list of features is as follows:\nMultiple server options (built-in asynchttpserver, microasynchttpserver, httpbeast and httpx)\nHot code reloading (now only for SPA)\nDebug logging with -d:debug\nPowerful routing that includes path params …",
-          "link": "https://nim-lang.org//blog/2023/09/01/this-month-with-nim.html",
-          "publishedOn": "2023-09-01T00:00:00.000Z",
-          "wordCount": 771,
-          "title": "This Month with Nim: July and August 2023",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
@@ -119,7 +108,7 @@
           "description": "If I give a programmer a string such as \"9223372036854775808\" and I ask them to convert it to an integer, they might do the following in C++: std::string s = .... uint64_t val; auto [ptr, ec] = std::from_chars(s.data(), s.data() + s.size(), val); if (ec != std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512",
           "link": "https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/",
           "publishedOn": "2023-09-22T21:50:14.000Z",
-          "wordCount": 3569,
+          "wordCount": 4146,
           "title": "Parsing integers quickly with AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -129,7 +118,7 @@
           "description": "In software, we store strings of text as arrays of bytes in memory using one of the Unicode Transformation Formats (UTF), the most popular being UTF-8 and UTF-16. Windows, Java, C# and other systems common languages and systems default on UTF-16, whereas other systems and most of the web relies on UTF-8. There are benefits … Continue reading Transcoding Unicode strings at crazy speeds with AVX-512",
           "link": "https://lemire.me/blog/2023/09/13/transcoding-unicode-strings-at-crazy-speeds-with-avx-512/",
           "publishedOn": "2023-09-13T16:00:30.000Z",
-          "wordCount": 3809,
+          "wordCount": 3800,
           "title": "Transcoding Unicode strings at crazy speeds with AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -139,7 +128,7 @@
           "description": "A common problem in parsing is that you want to find all identifiers (e.g., variable names, function names) in a document quickly. There are typically some fixed rules. For example, it is common to allow ASCII letters and digits as well as characters like ‘_’ in the identifier, but to forbid some characters at the … Continue reading Locating ‘identifiers’ quickly (ARM NEON edition)",
           "link": "https://lemire.me/blog/2023/09/04/locating-identifiers-quickly-arm-neon-edition/",
           "publishedOn": "2023-09-04T00:46:18.000Z",
-          "wordCount": 3690,
+          "wordCount": 3681,
           "title": "Locating ‘identifiers’ quickly (ARM NEON edition)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -149,7 +138,7 @@
           "description": "Physicists have a published a paper with 5154 authors. The list of authors takes 24 pages out of the 33 pages. The lesson is that if someone tell you that they have published an important paper, you should ask how many authors there were and what their exact role was. Vegatarians are at higher risk … Continue reading Science and Technology links (September 2 2023)",
           "link": "https://lemire.me/blog/2023/09/02/science-and-technology-links-september-2-2023/",
           "publishedOn": "2023-09-02T18:30:10.000Z",
-          "wordCount": 3719,
+          "wordCount": 3710,
           "title": "Science and Technology links (September 2 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }

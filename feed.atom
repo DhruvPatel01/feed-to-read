@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-24T00:53:50.382Z</id>
+    <id>urn:2023-10-01T00:58:21.142Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-24T00:53:50.382Z</updated>
+    <updated>2023-10-01T00:58:21.142Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[An easy-to-implement, arena-friendly hash map]]></title>
+        <id>https://nullprogram.com/blog/2023/09/30/</id>
+        <link href="https://nullprogram.com/blog/2023/09/30/"/>
+        <updated>2023-09-30T23:18:40.000Z</updated>
+        <summary type="html"><![CDATA[My last article had tips for for arena allocation. This next
+article demonstrates a technique for building bespoke hash maps that
+compose nicely with arena allocation. In addition, they’re fast, simple,
+and automatically scale to any problem that could reasonably be solved
+with an in-memory hash map. To avoid resizing — both to better support
+arenas and to simplify implementation — they have slightly above average
+memory requirements. The design, which we’re calling a hash-trie, is the
+result of fruitful collaboration with NRK, whose sibling article
+includes benchmarks. It’s my new favorite data structure, and has proven
+incredibly useful. With a couple well-placed acquire/release atomics, we
+can even turn it into a lock-free concurrent hash map.
+I’ve written before about MSI hash tables, …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arena allocator tips and tricks]]></title>
+        <id>https://nullprogram.com/blog/2023/09/27/</id>
+        <link href="https://nullprogram.com/blog/2023/09/27/"/>
+        <updated>2023-09-27T03:58:59.000Z</updated>
+        <summary type="html"><![CDATA[This article was discussed on Hacker News.
+Over the past year I’ve refined my approach to arena allocation.
+With practice, it’s effective, simple, and fast; typically as easy to use
+as garbage collection but without the costs. Depending on need, an
+allocator can weigh just 7–25 lines of code — perfect when lacking a
+runtime. With the core details of my own technique settled, now is a
+good time to document and share lessons learned. This is certainly not the
+only way to approach arena allocation, but these are practices I’ve worked
+out to simplify programs and reduce mistakes.
+An arena is a memory buffer and an offset into that buffer, initially
+zero. To allocate an object, grab a pointer at the offset, advance the
+offset by the size of the object, and return the pointer. There’s a little
+m…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Parsing integers quickly with AVX-512]]></title>
         <id>https://lemire.me/blog/?p=20836</id>
@@ -76,73 +119,6 @@ amazon.de]]></summary>
         <summary type="html"><![CDATA[Physicists have a published a paper with 5154 authors. The list of authors takes 24 pages out of the 33 pages. The lesson is that if someone tell you that they have published an important paper, you should ask how many authors there were and what their exact role was. Vegatarians are at higher risk … Continue reading Science and Technology links (September 2 2023)]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Month with Nim: July and August 2023]]></title>
-        <id>https://nim-lang.org//blog/2023/09/01/this-month-with-nim.html</id>
-        <link href="https://nim-lang.org//blog/2023/09/01/this-month-with-nim.html"/>
-        <updated>2023-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[HappyX
-Author: ethosa
-HappyX is a macro-oriented full-stack web framework that combines frontend and backend features.
-With HappyX you can write single page applications (SPA),
-static site generation (SSG),
-and server side rendering (SSR) web applications.
-It provides the same syntax for all of these solutions:
-import happyx
-
-serve("127.0.0.1", 5000):
-  "/":
-    "Hello, world!"
-
-or:
-import happyx
-
-appRoutes("app"):
-  "/":
-    "Hello, world!"
-
-Included is a command line interface hpx.
-This enables easy creation of projects for Nim and Python.
-A non exhaustive list of features is as follows:
-Multiple server options (built-in asynchttpserver, microasynchttpserver, httpbeast and httpx)
-Hot code reloading (now only for SPA)
-Debug logging with -d:debug
-Powerful routing that includes path params …]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Configuration Service Mesh with On-Demand Cluster Discovery]]></title>
-        <id>https://medium.com/p/ac6483b52a51</id>
-        <link href="https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4"/>
-        <updated>2023-08-29T23:08:45.000Z</updated>
-        <summary type="html"><![CDATA[Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to link identical function names from different DLLs]]></title>
-        <id>https://nullprogram.com/blog/2023/08/27/</id>
-        <link href="https://nullprogram.com/blog/2023/08/27/"/>
-        <updated>2023-08-27T01:46:31.000Z</updated>
-        <summary type="html"><![CDATA[For the typical DLL function call you declare the function prototype (via
-header file), you inform the link editor (ld, link) that the DLL
-exports a symbol with that name (import library), it matches the declared
-name with this export, and it becomes an import in your program’s import
-table. What happens when two different DLLs export the same symbol? The
-link editor will pick the first found. But what if you want to use both
-exports? If they have the same name, how could program or link editor
-distinguish them? In this article I’ll demonstrate a technique to resolve
-this by creating a program which links with and directly uses two
-different C runtimes (CRTs) simultaneously.
-In PE executable images, an import isn’t just a symbol, but a tuple
-of DLL name and symbol. For human display, a tup…]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>
