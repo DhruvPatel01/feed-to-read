@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-01T00:58:21.142Z</id>
+    <id>urn:2023-10-08T00:55:04.170Z</id>
     <title>osmos::feed</title>
-    <updated>2023-10-01T00:58:21.142Z</updated>
+    <updated>2023-10-08T00:55:04.170Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun]]></title>
+        <id>https://lemire.me/blog/?p=20845</id>
+        <link href="https://lemire.me/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/"/>
+        <updated>2023-10-07T05:43:25.000Z</updated>
+        <summary type="html"><![CDATA[There are many popular frameworks for writing little web applications. Go and JavaScript (Node.js) are among the most popular choices. Reportedly, Netflix runs on Node.js; Uber moved from Node.js to Go for better performance. There are also less popular options such as Nim. An in-depth review of their performance characteristics would be challenging.  But I … Continue reading Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interesting]]></title>
+        <id>https://apenwarr.ca/log/20231006</id>
+        <link href="https://apenwarr.ca/log/20231006"/>
+        <updated>2023-10-06T20:59:31.000Z</updated>
+        <summary type="html"><![CDATA[A few conversations last week made me realize I use the word “interesting” in an unusual way.
+I rely heavily on mental models. Of course, everyone relies on mental models. But I do it intentionally and I push it extra hard.
+What I mean by that is, when I’m making predictions about what will happen next, I mostly don’t look around me and make a judgement based on my immediate surroundings. Instead, I look at what I see, try to match it to something inside my mental model, and then let the mental model extrapolate what “should” happen from there.
+If this sounds predictably error prone: yes. It is.
+But it’s also powerful, when used the right way, which I try to do. Here’s my system.
+Confirmation bias
+First of all, let’s acknowledge the problem with mental models: confirmation bias. Confirmati…]]></summary>
+        <author>
+            <name>apenwarr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is an Invariant?]]></title>
+        <id>https://matklad.github.io/2023/10/06/what-is-an-invariant.html</id>
+        <link href="https://matklad.github.io/2023/10/06/what-is-an-invariant.html"/>
+        <updated>2023-10-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I extolled the benefits of programming with invariants in a couple of recent posts.
+Naturally, I didn't explain what I think when I write invariant. This post fixes that.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A simple, arena-backed, generic dynamic array for C]]></title>
+        <id>https://nullprogram.com/blog/2023/10/05/</id>
+        <link href="https://nullprogram.com/blog/2023/10/05/"/>
+        <updated>2023-10-05T23:05:57.000Z</updated>
+        <summary type="html"><![CDATA[Previously I presented an arena-friendly hash map applicable to any
+programming language where one might use arena allocation. In this third
+article I present a generic, arena-backed dynamic array. The details are
+specific to C, as the most appropriate mechanism depends on the language
+(e.g. templates, generics). Just as in the previous two articles, the goal
+is to demonstrate an idea so simple that a full implementation fits on one
+terminal pager screen — a concept rather than a library.
+Unlike a hash map or linked list, a dynamic array — a data buffer with a
+size that varies during run time — is more difficult to square with arena
+allocation. They’re contiguous by definition, and we cannot resize objects
+in the middle of an arena, i.e. realloc. So while convenient, they come
+with trade-o…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An easy-to-implement, arena-friendly hash map]]></title>
         <id>https://nullprogram.com/blog/2023/09/30/</id>
@@ -99,26 +157,6 @@ amazon.de]]></summary>
         <summary type="html"><![CDATA[Most languages provide 6 comparison operators:]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Locating ‘identifiers’ quickly (ARM NEON edition)]]></title>
-        <id>https://lemire.me/blog/?p=20798</id>
-        <link href="https://lemire.me/blog/2023/09/04/locating-identifiers-quickly-arm-neon-edition/"/>
-        <updated>2023-09-04T00:46:18.000Z</updated>
-        <summary type="html"><![CDATA[A common problem in parsing is that you want to find all identifiers (e.g., variable names, function names) in a document quickly. There are typically some fixed rules. For example, it is common to allow ASCII letters and digits as well as characters like ‘_’ in the identifier, but to forbid some characters at the … Continue reading Locating ‘identifiers’ quickly (ARM NEON edition)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Science and Technology links (September 2 2023)]]></title>
-        <id>https://lemire.me/blog/?p=20790</id>
-        <link href="https://lemire.me/blog/2023/09/02/science-and-technology-links-september-2-2023/"/>
-        <updated>2023-09-02T18:30:10.000Z</updated>
-        <summary type="html"><![CDATA[Physicists have a published a paper with 5154 authors. The list of authors takes 24 pages out of the 33 pages. The lesson is that if someone tell you that they have published an important paper, you should ask how many authors there were and what their exact role was. Vegatarians are at higher risk … Continue reading Science and Technology links (September 2 2023)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

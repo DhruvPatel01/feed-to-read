@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2023/10/05/",
+          "author": null,
+          "description": "Previously I presented an arena-friendly hash map applicable to any\nprogramming language where one might use arena allocation. In this third\narticle I present a generic, arena-backed dynamic array. The details are\nspecific to C, as the most appropriate mechanism depends on the language\n(e.g. templates, generics). Just as in the previous two articles, the goal\nis to demonstrate an idea so simple that a full implementation fits on one\nterminal pager screen — a concept rather than a library.\nUnlike a hash map or linked list, a dynamic array — a data buffer with a\nsize that varies during run time — is more difficult to square with arena\nallocation. They’re contiguous by definition, and we cannot resize objects\nin the middle of an arena, i.e. realloc. So while convenient, they come\nwith trade-o…",
+          "link": "https://nullprogram.com/blog/2023/10/05/",
+          "publishedOn": "2023-10-05T23:05:57.000Z",
+          "wordCount": 2078,
+          "title": "A simple, arena-backed, generic dynamic array for C",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2023/09/30/",
           "author": null,
           "description": "My last article had tips for for arena allocation. This next\narticle demonstrates a technique for building bespoke hash maps that\ncompose nicely with arena allocation. In addition, they’re fast, simple,\nand automatically scale to any problem that could reasonably be solved\nwith an in-memory hash map. To avoid resizing — both to better support\narenas and to simplify implementation — they have slightly above average\nmemory requirements. The design, which we’re calling a hash-trie, is the\nresult of fruitful collaboration with NRK, whose sibling article\nincludes benchmarks. It’s my new favorite data structure, and has proven\nincredibly useful. With a couple well-placed acquire/release atomics, we\ncan even turn it into a lock-free concurrent hash map.\nI’ve written before about MSI hash tables, …",
           "link": "https://nullprogram.com/blog/2023/09/30/",
           "publishedOn": "2023-09-30T23:18:40.000Z",
-          "wordCount": 2246,
+          "wordCount": 2251,
           "title": "An easy-to-implement, arena-friendly hash map",
           "imageUrl": null
         },
@@ -21,7 +31,7 @@
           "description": "This article was discussed on Hacker News.\nOver the past year I’ve refined my approach to arena allocation.\nWith practice, it’s effective, simple, and fast; typically as easy to use\nas garbage collection but without the costs. Depending on need, an\nallocator can weigh just 7–25 lines of code — perfect when lacking a\nruntime. With the core details of my own technique settled, now is a\ngood time to document and share lessons learned. This is certainly not the\nonly way to approach arena allocation, but these are practices I’ve worked\nout to simplify programs and reduce mistakes.\nAn arena is a memory buffer and an offset into that buffer, initially\nzero. To allocate an object, grab a pointer at the offset, advance the\noffset by the size of the object, and return the pointer. There’s a little\nm…",
           "link": "https://nullprogram.com/blog/2023/09/27/",
           "publishedOn": "2023-09-27T03:58:59.000Z",
-          "wordCount": 2590,
+          "wordCount": 2580,
           "title": "Arena allocator tips and tricks",
           "imageUrl": null
         }
@@ -68,6 +78,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/10/06/what-is-an-invariant.html",
+          "author": null,
+          "description": "I extolled the benefits of programming with invariants in a couple of recent posts.\nNaturally, I didn't explain what I think when I write invariant. This post fixes that.",
+          "link": "https://matklad.github.io/2023/10/06/what-is-an-invariant.html",
+          "publishedOn": "2023-10-06T00:00:00.000Z",
+          "wordCount": 2103,
+          "title": "What is an Invariant?",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/09/13/comparative-analysis.html",
           "author": null,
           "description": "Most languages provide 6 comparison operators:",
@@ -103,12 +123,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20845",
+          "author": "Daniel Lemire",
+          "description": "There are many popular frameworks for writing little web applications. Go and JavaScript (Node.js) are among the most popular choices. Reportedly, Netflix runs on Node.js; Uber moved from Node.js to Go for better performance. There are also less popular options such as Nim. An in-depth review of their performance characteristics would be challenging.  But I … Continue reading Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
+          "link": "https://lemire.me/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/",
+          "publishedOn": "2023-10-07T05:43:25.000Z",
+          "wordCount": 4621,
+          "title": "Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20836",
           "author": "Daniel Lemire",
           "description": "If I give a programmer a string such as \"9223372036854775808\" and I ask them to convert it to an integer, they might do the following in C++: std::string s = .... uint64_t val; auto [ptr, ec] = std::from_chars(s.data(), s.data() + s.size(), val); if (ec != std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512",
           "link": "https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/",
           "publishedOn": "2023-09-22T21:50:14.000Z",
-          "wordCount": 4146,
+          "wordCount": 4204,
           "title": "Parsing integers quickly with AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -118,28 +148,8 @@
           "description": "In software, we store strings of text as arrays of bytes in memory using one of the Unicode Transformation Formats (UTF), the most popular being UTF-8 and UTF-16. Windows, Java, C# and other systems common languages and systems default on UTF-16, whereas other systems and most of the web relies on UTF-8. There are benefits … Continue reading Transcoding Unicode strings at crazy speeds with AVX-512",
           "link": "https://lemire.me/blog/2023/09/13/transcoding-unicode-strings-at-crazy-speeds-with-avx-512/",
           "publishedOn": "2023-09-13T16:00:30.000Z",
-          "wordCount": 3800,
+          "wordCount": 3843,
           "title": "Transcoding Unicode strings at crazy speeds with AVX-512",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20798",
-          "author": "Daniel Lemire",
-          "description": "A common problem in parsing is that you want to find all identifiers (e.g., variable names, function names) in a document quickly. There are typically some fixed rules. For example, it is common to allow ASCII letters and digits as well as characters like ‘_’ in the identifier, but to forbid some characters at the … Continue reading Locating ‘identifiers’ quickly (ARM NEON edition)",
-          "link": "https://lemire.me/blog/2023/09/04/locating-identifiers-quickly-arm-neon-edition/",
-          "publishedOn": "2023-09-04T00:46:18.000Z",
-          "wordCount": 3681,
-          "title": "Locating ‘identifiers’ quickly (ARM NEON edition)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20790",
-          "author": "Daniel Lemire",
-          "description": "Physicists have a published a paper with 5154 authors. The list of authors takes 24 pages out of the 33 pages. The lesson is that if someone tell you that they have published an important paper, you should ask how many authors there were and what their exact role was. Vegatarians are at higher risk … Continue reading Science and Technology links (September 2 2023)",
-          "link": "https://lemire.me/blog/2023/09/02/science-and-technology-links-september-2-2023/",
-          "publishedOn": "2023-09-02T18:30:10.000Z",
-          "wordCount": 3710,
-          "title": "Science and Technology links (September 2 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -154,7 +164,18 @@
       "title": "apenwarr",
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://apenwarr.ca/log/20231006",
+          "author": null,
+          "description": "A few conversations last week made me realize I use the word “interesting” in an unusual way.\nI rely heavily on mental models. Of course, everyone relies on mental models. But I do it intentionally and I push it extra hard.\nWhat I mean by that is, when I’m making predictions about what will happen next, I mostly don’t look around me and make a judgement based on my immediate surroundings. Instead, I look at what I see, try to match it to something inside my mental model, and then let the mental model extrapolate what “should” happen from there.\nIf this sounds predictably error prone: yes. It is.\nBut it’s also powerful, when used the right way, which I try to do. Here’s my system.\nConfirmation bias\nFirst of all, let’s acknowledge the problem with mental models: confirmation bias. Confirmati…",
+          "link": "https://apenwarr.ca/log/20231006",
+          "publishedOn": "2023-10-06T20:59:31.000Z",
+          "wordCount": 1980,
+          "title": "Interesting",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
