@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2023/10/08/",
+          "author": null,
+          "description": "This article was discussed on Hacker News and on reddit.\nThis has been a ground-breaking year for my C skills, and paradigm shifts\nin my technique has provoked me to reconsider my habits and coding style.\nIt’s been my largest personal style change in years, so I’ve decided to\ntake a snapshot of its current state and my reasoning. These changes have\nproduced significant productive and organizational benefits, so while most\nis certainly subjective, it likely includes a few objective improvements.\nI’m not saying everyone should write C this way, and when I contribute\ncode to a project I follow their local style. This is about what works\nwell for me.\nPrimitive types\nStarting with the fundamentals, I’ve been using short names for primitive\ntypes. The resulting clarity was more than I had expect…",
+          "link": "https://nullprogram.com/blog/2023/10/08/",
+          "publishedOn": "2023-10-08T23:30:57.000Z",
+          "wordCount": 2138,
+          "title": "My personal C coding style as of late 2023",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2023/10/05/",
           "author": null,
           "description": "Previously I presented an arena-friendly hash map applicable to any\nprogramming language where one might use arena allocation. In this third\narticle I present a generic, arena-backed dynamic array. The details are\nspecific to C, as the most appropriate mechanism depends on the language\n(e.g. templates, generics). Just as in the previous two articles, the goal\nis to demonstrate an idea so simple that a full implementation fits on one\nterminal pager screen — a concept rather than a library.\nUnlike a hash map or linked list, a dynamic array — a data buffer with a\nsize that varies during run time — is more difficult to square with arena\nallocation. They’re contiguous by definition, and we cannot resize objects\nin the middle of an arena, i.e. realloc. So while convenient, they come\nwith trade-o…",
           "link": "https://nullprogram.com/blog/2023/10/05/",
           "publishedOn": "2023-10-05T23:05:57.000Z",
-          "wordCount": 2078,
+          "wordCount": 2088,
           "title": "A simple, arena-backed, generic dynamic array for C",
           "imageUrl": null
         },
@@ -31,7 +41,7 @@
           "description": "This article was discussed on Hacker News.\nOver the past year I’ve refined my approach to arena allocation.\nWith practice, it’s effective, simple, and fast; typically as easy to use\nas garbage collection but without the costs. Depending on need, an\nallocator can weigh just 7–25 lines of code — perfect when lacking a\nruntime. With the core details of my own technique settled, now is a\ngood time to document and share lessons learned. This is certainly not the\nonly way to approach arena allocation, but these are practices I’ve worked\nout to simplify programs and reduce mistakes.\nAn arena is a memory buffer and an offset into that buffer, initially\nzero. To allocate an object, grab a pointer at the offset, advance the\noffset by the size of the object, and return the pointer. There’s a little\nm…",
           "link": "https://nullprogram.com/blog/2023/09/27/",
           "publishedOn": "2023-09-27T03:58:59.000Z",
-          "wordCount": 2580,
+          "wordCount": 2581,
           "title": "Arena allocator tips and tricks",
           "imageUrl": null
         }
@@ -54,6 +64,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2023/10/11/version-1616-released.html",
+          "author": null,
+          "description": "The Nim team is happy to announce version 1.6.16, our eight patch release for\nNim 1.6.\nVersion 1.6.16 is a result of three months of hard work, and it contains\n84 commits,\nbringing lots of general improvements over 1.6.14.\nThis release is aimed at our users who haven’t switched to Nim v2.0 yet.\nInstalling Nim 1.6\nNew users\nCheck out if the package manager of your OS already ships version 1.6.16 or\ninstall it as described here.\nExisting users\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 1.6.16 is as easy as:\n$ choosenim 1.6.16\n\nAlternatively, you can download Nim 1.6.16 from\nour nightlies builds.\nDonating to Nim\nWe would like to encourage you to donate to Nim.\nThe donated money will be used to further improve Nim by creating bounties\nfor the most important bu…",
+          "link": "https://nim-lang.org//blog/2023/10/11/version-1616-released.html",
+          "publishedOn": "2023-10-11T00:00:00.000Z",
+          "wordCount": 614,
+          "title": "Version 1.6.16 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2023/09/19/mastering-nim.html",
           "author": null,
@@ -78,23 +98,33 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/10/12/lsp-could-have-been-better.html",
+          "author": null,
+          "description": "We talk about programming like it is about writing code, but the code ends up being less important\nthan the architecture, and the architecture ends up being less important than social issues.",
+          "link": "https://matklad.github.io/2023/10/12/lsp-could-have-been-better.html",
+          "publishedOn": "2023-10-12T00:00:00.000Z",
+          "wordCount": 2822,
+          "title": "LSP could have been better",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2023/10/11/unix-structured-concurrency.html",
+          "author": null,
+          "description": "A short note on a particular structured concurrency pattern for UNIX systems programming.",
+          "link": "https://matklad.github.io/2023/10/11/unix-structured-concurrency.html",
+          "publishedOn": "2023-10-11T00:00:00.000Z",
+          "wordCount": 707,
+          "title": "UNIX Structured Concurrency",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/10/06/what-is-an-invariant.html",
           "author": null,
           "description": "I extolled the benefits of programming with invariants in a couple of recent posts.\nNaturally, I didn't explain what I think when I write invariant. This post fixes that.",
           "link": "https://matklad.github.io/2023/10/06/what-is-an-invariant.html",
           "publishedOn": "2023-10-06T00:00:00.000Z",
-          "wordCount": 2103,
+          "wordCount": 2102,
           "title": "What is an Invariant?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/09/13/comparative-analysis.html",
-          "author": null,
-          "description": "Most languages provide 6 comparison operators:",
-          "link": "https://matklad.github.io/2023/09/13/comparative-analysis.html",
-          "publishedOn": "2023-09-13T00:00:00.000Z",
-          "wordCount": 594,
-          "title": "Comparative Analysis",
           "imageUrl": null
         }
       ]
@@ -128,7 +158,7 @@
           "description": "There are many popular frameworks for writing little web applications. Go and JavaScript (Node.js) are among the most popular choices. Reportedly, Netflix runs on Node.js; Uber moved from Node.js to Go for better performance. There are also less popular options such as Nim. An in-depth review of their performance characteristics would be challenging.  But I … Continue reading Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
           "link": "https://lemire.me/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/",
           "publishedOn": "2023-10-07T05:43:25.000Z",
-          "wordCount": 4621,
+          "wordCount": 4967,
           "title": "Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -138,18 +168,8 @@
           "description": "If I give a programmer a string such as \"9223372036854775808\" and I ask them to convert it to an integer, they might do the following in C++: std::string s = .... uint64_t val; auto [ptr, ec] = std::from_chars(s.data(), s.data() + s.size(), val); if (ec != std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512",
           "link": "https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/",
           "publishedOn": "2023-09-22T21:50:14.000Z",
-          "wordCount": 4204,
+          "wordCount": 4205,
           "title": "Parsing integers quickly with AVX-512",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20820",
-          "author": "Daniel Lemire",
-          "description": "In software, we store strings of text as arrays of bytes in memory using one of the Unicode Transformation Formats (UTF), the most popular being UTF-8 and UTF-16. Windows, Java, C# and other systems common languages and systems default on UTF-16, whereas other systems and most of the web relies on UTF-8. There are benefits … Continue reading Transcoding Unicode strings at crazy speeds with AVX-512",
-          "link": "https://lemire.me/blog/2023/09/13/transcoding-unicode-strings-at-crazy-speeds-with-avx-512/",
-          "publishedOn": "2023-09-13T16:00:30.000Z",
-          "wordCount": 3843,
-          "title": "Transcoding Unicode strings at crazy speeds with AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -171,7 +191,7 @@
           "description": "A few conversations last week made me realize I use the word “interesting” in an unusual way.\nI rely heavily on mental models. Of course, everyone relies on mental models. But I do it intentionally and I push it extra hard.\nWhat I mean by that is, when I’m making predictions about what will happen next, I mostly don’t look around me and make a judgement based on my immediate surroundings. Instead, I look at what I see, try to match it to something inside my mental model, and then let the mental model extrapolate what “should” happen from there.\nIf this sounds predictably error prone: yes. It is.\nBut it’s also powerful, when used the right way, which I try to do. Here’s my system.\nConfirmation bias\nFirst of all, let’s acknowledge the problem with mental models: confirmation bias. Confirmati…",
           "link": "https://apenwarr.ca/log/20231006",
           "publishedOn": "2023-10-06T20:59:31.000Z",
-          "wordCount": 1980,
+          "wordCount": 1976,
           "title": "Interesting",
           "imageUrl": null
         }
