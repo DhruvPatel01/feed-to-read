@@ -31,7 +31,7 @@
           "description": "My last article had tips for for arena allocation. This next\narticle demonstrates a technique for building bespoke hash maps that\ncompose nicely with arena allocation. In addition, they’re fast, simple,\nand automatically scale to any problem that could reasonably be solved\nwith an in-memory hash map. To avoid resizing — both to better support\narenas and to simplify implementation — they have slightly above average\nmemory requirements. The design, which we’re calling a hash-trie, is the\nresult of fruitful collaboration with NRK, whose sibling article\nincludes benchmarks. It’s my new favorite data structure, and has proven\nincredibly useful. With a couple well-placed acquire/release atomics, we\ncan even turn it into a lock-free concurrent hash map.\nI’ve written before about MSI hash tables, …",
           "link": "https://nullprogram.com/blog/2023/09/30/",
           "publishedOn": "2023-09-30T23:18:40.000Z",
-          "wordCount": 2251,
+          "wordCount": 2274,
           "title": "An easy-to-implement, arena-friendly hash map",
           "imageUrl": null
         },
@@ -73,16 +73,6 @@
           "wordCount": 614,
           "title": "Version 1.6.16 released",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2023/09/19/mastering-nim.html",
-          "author": null,
-          "description": "Discover the secret of Nim!\nThe definite guide on Nim!\nWritten by the inventor himself.\nNow with updated content for version 2.0 which solves the biggest pain point of Nim 1.0, shared memory in a multi-threaded setting.\nPlease have a look at its cover image:\nBut Nim’s logo is a crown!\nWhere is the crown?\nThat’s the secret of Nim!\nSend us your reply to support@nim-lang.org until December 6th 2023.\nAmong the correct answers we will select 3 winners by randomization.\nThe winners will receive a signed hardcover!\n“Mastering Nim” is available here:\namazon.com\namazon.de",
-          "link": "https://nim-lang.org//blog/2023/09/19/mastering-nim.html",
-          "publishedOn": "2023-09-19T00:00:00.000Z",
-          "wordCount": 241,
-          "title": "Mastering Nim, 2nd edition",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
     },
@@ -97,6 +87,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2023/10/18/obligations.html",
+          "author": null,
+          "description": "My thoughts on the topic of whether maintainers owe you anything. Speaking as an author, a maintainer,\na user of, and a contributor to open source software.",
+          "link": "https://matklad.github.io/2023/10/18/obligations.html",
+          "publishedOn": "2023-10-18T00:00:00.000Z",
+          "wordCount": 910,
+          "title": "Unless Explicitly Specified Otherwise, Open Source Software With Users Carries Moral Obligations",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2023/10/12/lsp-could-have-been-better.html",
           "author": null,
@@ -153,12 +153,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20899",
+          "author": "Daniel Lemire",
+          "description": "The C++ library has long been organized around stream classes, at least when it comes to reading and parsing strings. But streams can be surprisingly slow. For example, if you want to parse numbers, then this C++ routine is close to being the worst possible choice for performance: std::stringstream in(mystring); while(in >> x) { sum … Continue reading For processing strings, streams in C++ can be slow",
+          "link": "https://lemire.me/blog/2023/10/19/for-processing-strings-streams-in-c-can-be-slow/",
+          "publishedOn": "2023-10-19T01:55:34.000Z",
+          "wordCount": 4094,
+          "title": "For processing strings, streams in C++ can be slow",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20892",
+          "author": "Daniel Lemire",
+          "description": "In about 10 years, Apple has multiplied by 19 the number of transistors in its mobile processors. It corresponds roughly to a steady rate of improvement of 34% per year on the number of transistors, or a doubling every 2.5 years. In real dollars, an iPhone has roughly a constant price: the price tag of … Continue reading How many billions of transistors in your iPhone processor?",
+          "link": "https://lemire.me/blog/2023/10/18/how-many-billions-of-transistors-in-your-iphone-processor/",
+          "publishedOn": "2023-10-18T13:51:28.000Z",
+          "wordCount": 3251,
+          "title": "How many billions of transistors in your iPhone processor?",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20886",
+          "author": "Daniel Lemire",
+          "description": "Computer software is typically deterministic on paper: if you run twice the same program with the same inputs, you should get the same outputs. In practice, the complexity of modern computing makes it unlikely that you could ever run twice the same program and get exactly the same result, down to the exact same execution … Continue reading Randomness in programming (with Go code)",
+          "link": "https://lemire.me/blog/2023/10/17/randomness-in-programming-with-go-code/",
+          "publishedOn": "2023-10-17T00:15:32.000Z",
+          "wordCount": 13361,
+          "title": "Randomness in programming (with Go code)",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20845",
           "author": "Daniel Lemire",
-          "description": "There are many popular frameworks for writing little web applications. Go and JavaScript (Node.js) are among the most popular choices. Reportedly, Netflix runs on Node.js; Uber moved from Node.js to Go for better performance. There are also less popular options such as Nim. An in-depth review of their performance characteristics would be challenging.  But I … Continue reading Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
+          "description": "The Web is a convenient interface to your software. Many times, if you have an existing application, you may want to allow Web access to it using HTTP. Or you may want to build a small specialized Web application. In such instances, you do not want to use an actual Web server (e.g., Apache or … Continue reading Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
           "link": "https://lemire.me/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/",
           "publishedOn": "2023-10-07T05:43:25.000Z",
-          "wordCount": 4967,
+          "wordCount": 5796,
           "title": "Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -168,7 +198,7 @@
           "description": "If I give a programmer a string such as \"9223372036854775808\" and I ask them to convert it to an integer, they might do the following in C++: std::string s = .... uint64_t val; auto [ptr, ec] = std::from_chars(s.data(), s.data() + s.size(), val); if (ec != std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512",
           "link": "https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/",
           "publishedOn": "2023-09-22T21:50:14.000Z",
-          "wordCount": 4205,
+          "wordCount": 4193,
           "title": "Parsing integers quickly with AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
@@ -178,7 +208,18 @@
       "title": "devever.net/~hl",
       "feedUrl": "https://www.devever.net/~hl/index.feed",
       "siteUrl": "https://www.devever.net/~hl/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.devever.net/~hl/xmpp-incident",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">(If you just want some recommendations for what to do, .)<a href=\"#recommendations\">skip down to the Recommendations section below</a></p></div></div>",
+          "link": "https://www.devever.net/~hl/xmpp-incident",
+          "publishedOn": "2023-10-20T20:30:00.000Z",
+          "wordCount": 3667,
+          "title": "[Computing] Mitigating the Hetzner/Linode XMPP.ru MitM interception incident",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "apenwarr",
@@ -191,7 +232,7 @@
           "description": "A few conversations last week made me realize I use the word “interesting” in an unusual way.\nI rely heavily on mental models. Of course, everyone relies on mental models. But I do it intentionally and I push it extra hard.\nWhat I mean by that is, when I’m making predictions about what will happen next, I mostly don’t look around me and make a judgement based on my immediate surroundings. Instead, I look at what I see, try to match it to something inside my mental model, and then let the mental model extrapolate what “should” happen from there.\nIf this sounds predictably error prone: yes. It is.\nBut it’s also powerful, when used the right way, which I try to do. Here’s my system.\nConfirmation bias\nFirst of all, let’s acknowledge the problem with mental models: confirmation bias. Confirmati…",
           "link": "https://apenwarr.ca/log/20231006",
           "publishedOn": "2023-10-06T20:59:31.000Z",
-          "wordCount": 1976,
+          "wordCount": 1982,
           "title": "Interesting",
           "imageUrl": null
         }
