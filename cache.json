@@ -34,16 +34,6 @@
           "wordCount": 2274,
           "title": "An easy-to-implement, arena-friendly hash map",
           "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2023/09/27/",
-          "author": null,
-          "description": "This article was discussed on Hacker News.\nOver the past year I’ve refined my approach to arena allocation.\nWith practice, it’s effective, simple, and fast; typically as easy to use\nas garbage collection but without the costs. Depending on need, an\nallocator can weigh just 7–25 lines of code — perfect when lacking a\nruntime. With the core details of my own technique settled, now is a\ngood time to document and share lessons learned. This is certainly not the\nonly way to approach arena allocation, but these are practices I’ve worked\nout to simplify programs and reduce mistakes.\nAn arena is a memory buffer and an offset into that buffer, initially\nzero. To allocate an object, grab a pointer at the offset, advance the\noffset by the size of the object, and return the pointer. There’s a little\nm…",
-          "link": "https://nullprogram.com/blog/2023/09/27/",
-          "publishedOn": "2023-09-27T03:58:59.000Z",
-          "wordCount": 2581,
-          "title": "Arena allocator tips and tricks",
-          "imageUrl": null
         }
       ]
     },
@@ -57,7 +47,18 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/ed620b9c6225",
+          "author": "Netflix Technology Blog",
+          "description": "How Netflix’s Container Platform Connects Linux Kernel Panics to Pods",
+          "link": "https://netflixtechblog.com/kubernetes-and-kernel-panics-ed620b9c6225?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-10-27T16:05:58.000Z",
+          "wordCount": 4078,
+          "title": "Kubernetes And Kernel Panics",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*cjClRuyUQ67lu2shmjCObQ.png"
+        }
+      ]
     },
     {
       "title": "Nim Programming Language",
@@ -88,12 +89,22 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/10/23/unified-vs-split-diff.html",
+          "author": null,
+          "description": "Which is better for code reviews, a unified diff or a split diff?",
+          "link": "https://matklad.github.io/2023/10/23/unified-vs-split-diff.html",
+          "publishedOn": "2023-10-23T00:00:00.000Z",
+          "wordCount": 681,
+          "title": "Unified Versus Split Diff",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/10/18/obligations.html",
           "author": null,
-          "description": "My thoughts on the topic of whether maintainers owe you anything. Speaking as an author, a maintainer,\na user of, and a contributor to open source software.",
+          "description": "My thoughts on the topic of whether maintainers owe you anything. Speaking as an author, a maintainer,\na user of, and a contributor to open-source software.",
           "link": "https://matklad.github.io/2023/10/18/obligations.html",
           "publishedOn": "2023-10-18T00:00:00.000Z",
-          "wordCount": 910,
+          "wordCount": 906,
           "title": "Unless Explicitly Specified Otherwise, Open Source Software With Users Carries Moral Obligations",
           "imageUrl": null
         },
@@ -153,12 +164,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20907",
+          "author": "Daniel Lemire",
+          "description": "In C++, suppose that you append to a string one character at a time: while(my_string.size() <= 10'000'000) { my_string += \"a\"; } In theory, it might be possible for the C++ runtime library to implement this routine as the creation of a new string with each append: it could allocate a new memory region that … Continue reading Appending to an std::string character-by-character: how does the capacity grow?",
+          "link": "https://lemire.me/blog/2023/10/23/appending-to-an-stdstring-character-by-character-how-does-the-capacity-grow/",
+          "publishedOn": "2023-10-23T13:33:37.000Z",
+          "wordCount": 4489,
+          "title": "Appending to an std::string character-by-character: how does the capacity grow?",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20899",
           "author": "Daniel Lemire",
           "description": "The C++ library has long been organized around stream classes, at least when it comes to reading and parsing strings. But streams can be surprisingly slow. For example, if you want to parse numbers, then this C++ routine is close to being the worst possible choice for performance: std::stringstream in(mystring); while(in >> x) { sum … Continue reading For processing strings, streams in C++ can be slow",
           "link": "https://lemire.me/blog/2023/10/19/for-processing-strings-streams-in-c-can-be-slow/",
           "publishedOn": "2023-10-19T01:55:34.000Z",
-          "wordCount": 4094,
+          "wordCount": 4355,
           "title": "For processing strings, streams in C++ can be slow",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -168,7 +189,7 @@
           "description": "In about 10 years, Apple has multiplied by 19 the number of transistors in its mobile processors. It corresponds roughly to a steady rate of improvement of 34% per year on the number of transistors, or a doubling every 2.5 years. In real dollars, an iPhone has roughly a constant price: the price tag of … Continue reading How many billions of transistors in your iPhone processor?",
           "link": "https://lemire.me/blog/2023/10/18/how-many-billions-of-transistors-in-your-iphone-processor/",
           "publishedOn": "2023-10-18T13:51:28.000Z",
-          "wordCount": 3251,
+          "wordCount": 3366,
           "title": "How many billions of transistors in your iPhone processor?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -178,7 +199,7 @@
           "description": "Computer software is typically deterministic on paper: if you run twice the same program with the same inputs, you should get the same outputs. In practice, the complexity of modern computing makes it unlikely that you could ever run twice the same program and get exactly the same result, down to the exact same execution … Continue reading Randomness in programming (with Go code)",
           "link": "https://lemire.me/blog/2023/10/17/randomness-in-programming-with-go-code/",
           "publishedOn": "2023-10-17T00:15:32.000Z",
-          "wordCount": 13361,
+          "wordCount": 13359,
           "title": "Randomness in programming (with Go code)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -188,18 +209,8 @@
           "description": "The Web is a convenient interface to your software. Many times, if you have an existing application, you may want to allow Web access to it using HTTP. Or you may want to build a small specialized Web application. In such instances, you do not want to use an actual Web server (e.g., Apache or … Continue reading Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
           "link": "https://lemire.me/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/",
           "publishedOn": "2023-10-07T05:43:25.000Z",
-          "wordCount": 5796,
+          "wordCount": 5794,
           "title": "Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20836",
-          "author": "Daniel Lemire",
-          "description": "If I give a programmer a string such as \"9223372036854775808\" and I ask them to convert it to an integer, they might do the following in C++: std::string s = .... uint64_t val; auto [ptr, ec] = std::from_chars(s.data(), s.data() + s.size(), val); if (ec != std::errc()) {} // I have an error ! // val … Continue reading Parsing integers quickly with AVX-512",
-          "link": "https://lemire.me/blog/2023/09/22/parsing-integers-quickly-with-avx-512/",
-          "publishedOn": "2023-09-22T21:50:14.000Z",
-          "wordCount": 4193,
-          "title": "Parsing integers quickly with AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -210,12 +221,32 @@
       "siteUrl": "https://www.devever.net/~hl/",
       "articles": [
         {
+          "id": "https://www.devever.net/~hl/expect-ct-lite",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Last week we witnessed the , most likely by a Western nation-state. While it's  to any\nattack which was carried out in this incident, one thing that has been brought\nto my attention in the aftermath of this is that Certificate Transparency\nlogging remains optional for CAs.<a href=\"xmpp-incident\">discovery of the compromise of an XMPP\nservice</a><a href=\"xmpp-incident-2#context-of-certificate-transparency\">not\ndirectly related</a></p></div></div>",
+          "link": "https://www.devever.net/~hl/expect-ct-lite",
+          "publishedOn": "2023-10-28T14:07:00.000Z",
+          "wordCount": 3264,
+          "title": "[Computing] Expect-CT Lite: A humble proposal for minimal CT enforcement in TLS certificates",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.devever.net/~hl/xmpp-incident-2",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">I've had a few comments in response to my previous article,  which have provided\nXMPP-specific suggestions for how this could have been mitigated.<a href=\"https://www.devever.net/~hl/xmpp-incident\">Mitigating the\nHetzner/Linode XMPP.ru MitM interception\nincident</a></p></div></div>",
+          "link": "https://www.devever.net/~hl/xmpp-incident-2",
+          "publishedOn": "2023-10-28T14:06:00.000Z",
+          "wordCount": 1566,
+          "title": "[Computing] Mitigating the Hetzner/Linode XMPP.ru MitM interception incident, part 2: XMPP-specific mitigations",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.devever.net/~hl/xmpp-incident",
           "author": null,
           "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">(If you just want some recommendations for what to do, .)<a href=\"#recommendations\">skip down to the Recommendations section below</a></p></div></div>",
           "link": "https://www.devever.net/~hl/xmpp-incident",
           "publishedOn": "2023-10-20T20:30:00.000Z",
-          "wordCount": 3667,
+          "wordCount": 3734,
           "title": "[Computing] Mitigating the Hetzner/Linode XMPP.ru MitM interception incident",
           "imageUrl": null
         }
@@ -232,7 +263,7 @@
           "description": "A few conversations last week made me realize I use the word “interesting” in an unusual way.\nI rely heavily on mental models. Of course, everyone relies on mental models. But I do it intentionally and I push it extra hard.\nWhat I mean by that is, when I’m making predictions about what will happen next, I mostly don’t look around me and make a judgement based on my immediate surroundings. Instead, I look at what I see, try to match it to something inside my mental model, and then let the mental model extrapolate what “should” happen from there.\nIf this sounds predictably error prone: yes. It is.\nBut it’s also powerful, when used the right way, which I try to do. Here’s my system.\nConfirmation bias\nFirst of all, let’s acknowledge the problem with mental models: confirmation bias. Confirmati…",
           "link": "https://apenwarr.ca/log/20231006",
           "publishedOn": "2023-10-06T20:59:31.000Z",
-          "wordCount": 1982,
+          "wordCount": 1980,
           "title": "Interesting",
           "imageUrl": null
         }
