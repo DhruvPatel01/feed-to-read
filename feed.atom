@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-29T00:54:50.965Z</id>
+    <id>urn:2023-11-05T00:55:47.445Z</id>
     <title>osmos::feed</title>
-    <updated>2023-10-29T00:54:50.965Z</updated>
+    <updated>2023-11-05T00:55:47.445Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Streaming SQL in Data Mesh]]></title>
+        <id>https://medium.com/p/0d83f5a00d08</id>
+        <link href="https://netflixtechblog.com/streaming-sql-in-data-mesh-0d83f5a00d08?source=rss----2615bd06b42e---4"/>
+        <updated>2023-11-03T21:48:50.000Z</updated>
+        <summary type="html"><![CDATA[Democratizing Stream Processing @ Netflix]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[Computing] Expect-CT Lite: A humble proposal for minimal CT enforcement in TLS certificates]]></title>
         <id>https://www.devever.net/~hl/expect-ct-lite</id>
@@ -211,59 +221,6 @@ Confirmation bias
 First of all, let’s acknowledge the problem with mental models: confirmation bias. Confirmati…]]></summary>
         <author>
             <name>apenwarr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is an Invariant?]]></title>
-        <id>https://matklad.github.io/2023/10/06/what-is-an-invariant.html</id>
-        <link href="https://matklad.github.io/2023/10/06/what-is-an-invariant.html"/>
-        <updated>2023-10-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I extolled the benefits of programming with invariants in a couple of recent posts.
-Naturally, I didn't explain what I think when I write invariant. This post fixes that.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A simple, arena-backed, generic dynamic array for C]]></title>
-        <id>https://nullprogram.com/blog/2023/10/05/</id>
-        <link href="https://nullprogram.com/blog/2023/10/05/"/>
-        <updated>2023-10-05T23:05:57.000Z</updated>
-        <summary type="html"><![CDATA[Previously I presented an arena-friendly hash map applicable to any
-programming language where one might use arena allocation. In this third
-article I present a generic, arena-backed dynamic array. The details are
-specific to C, as the most appropriate mechanism depends on the language
-(e.g. templates, generics). Just as in the previous two articles, the goal
-is to demonstrate an idea so simple that a full implementation fits on one
-terminal pager screen — a concept rather than a library.
-Unlike a hash map or linked list, a dynamic array — a data buffer with a
-size that varies during run time — is more difficult to square with arena
-allocation. They’re contiguous by definition, and we cannot resize objects
-in the middle of an arena, i.e. realloc. So while convenient, they come
-with trade-o…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An easy-to-implement, arena-friendly hash map]]></title>
-        <id>https://nullprogram.com/blog/2023/09/30/</id>
-        <link href="https://nullprogram.com/blog/2023/09/30/"/>
-        <updated>2023-09-30T23:18:40.000Z</updated>
-        <summary type="html"><![CDATA[My last article had tips for for arena allocation. This next
-article demonstrates a technique for building bespoke hash maps that
-compose nicely with arena allocation. In addition, they’re fast, simple,
-and automatically scale to any problem that could reasonably be solved
-with an in-memory hash map. To avoid resizing — both to better support
-arenas and to simplify implementation — they have slightly above average
-memory requirements. The design, which we’re calling a hash-trie, is the
-result of fruitful collaboration with NRK, whose sibling article
-includes benchmarks. It’s my new favorite data structure, and has proven
-incredibly useful. With a couple well-placed acquire/release atomics, we
-can even turn it into a lock-free concurrent hash map.
-I’ve written before about MSI hash tables, …]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>
