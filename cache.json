@@ -4,18 +4,7 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2023/10/08/",
-          "author": null,
-          "description": "This article was discussed on Hacker News and on reddit.\nThis has been a ground-breaking year for my C skills, and paradigm shifts\nin my technique has provoked me to reconsider my habits and coding style.\nIt’s been my largest personal style change in years, so I’ve decided to\ntake a snapshot of its current state and my reasoning. These changes have\nproduced significant productive and organizational benefits, so while most\nis certainly subjective, it likely includes a few objective improvements.\nI’m not saying everyone should write C this way, and when I contribute\ncode to a project I follow their local style. This is about what works\nwell for me.\nPrimitive types\nStarting with the fundamentals, I’ve been using short names for primitive\ntypes. The resulting clarity was more than I had expect…",
-          "link": "https://nullprogram.com/blog/2023/10/08/",
-          "publishedOn": "2023-10-08T23:30:57.000Z",
-          "wordCount": 2138,
-          "title": "My personal C coding style as of late 2023",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Max Slater",
@@ -29,12 +18,32 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/4dc4ce2011ef",
+          "author": "Netflix Technology Blog",
+          "description": "Authors:Bruce Wobbe, Leticia Kwok",
+          "link": "https://netflixtechblog.com/the-next-step-in-personalization-dynamic-sizzles-4dc4ce2011ef?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-11-08T20:56:53.000Z",
+          "wordCount": 4174,
+          "title": "The Next Step in Personalization: Dynamic Sizzles",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:948/0*OxP3aIMkQW6d-BjK"
+        },
+        {
+          "id": "https://medium.com/p/936766f0017c",
+          "author": "Netflix Technology Blog",
+          "description": "Empowering video editors with multimodal machine learning to discover perfect moments across the entire Netflix catalog",
+          "link": "https://netflixtechblog.com/building-in-video-search-936766f0017c?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-11-06T17:35:19.000Z",
+          "wordCount": 3929,
+          "title": "Building In-Video Search",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1000/0*32RfnKGMENXaqEX8"
+        },
+        {
           "id": "https://medium.com/p/0d83f5a00d08",
           "author": "Netflix Technology Blog",
           "description": "Democratizing Stream Processing @ Netflix",
           "link": "https://netflixtechblog.com/streaming-sql-in-data-mesh-0d83f5a00d08?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-03T21:48:50.000Z",
-          "wordCount": 4820,
+          "wordCount": 4750,
           "title": "Streaming SQL in Data Mesh",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*VxZlXPDb8-d7Xf4kfSulnw.png"
         },
@@ -44,7 +53,7 @@
           "description": "How Netflix’s Container Platform Connects Linux Kernel Panics to Pods",
           "link": "https://netflixtechblog.com/kubernetes-and-kernel-panics-ed620b9c6225?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-10-27T16:05:58.000Z",
-          "wordCount": 4219,
+          "wordCount": 4122,
           "title": "Kubernetes And Kernel Panics",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*cjClRuyUQ67lu2shmjCObQ.png"
         }
@@ -54,18 +63,7 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2023/10/11/version-1616-released.html",
-          "author": null,
-          "description": "The Nim team is happy to announce version 1.6.16, our eight patch release for\nNim 1.6.\nVersion 1.6.16 is a result of three months of hard work, and it contains\n84 commits,\nbringing lots of general improvements over 1.6.14.\nThis release is aimed at our users who haven’t switched to Nim v2.0 yet.\nInstalling Nim 1.6\nNew users\nCheck out if the package manager of your OS already ships version 1.6.16 or\ninstall it as described here.\nExisting users\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 1.6.16 is as easy as:\n$ choosenim 1.6.16\n\nAlternatively, you can download Nim 1.6.16 from\nour nightlies builds.\nDonating to Nim\nWe would like to encourage you to donate to Nim.\nThe donated money will be used to further improve Nim by creating bounties\nfor the most important bu…",
-          "link": "https://nim-lang.org//blog/2023/10/11/version-1616-released.html",
-          "publishedOn": "2023-10-11T00:00:00.000Z",
-          "wordCount": 614,
-          "title": "Version 1.6.16 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": null,
@@ -79,12 +77,22 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/11/07/dta-oriented-blogging.html",
+          "author": null,
+          "description": "Wherein I describe the setup of this blog. The main take away from the post are not specific\ntechnical tools, but the underlying principles and ideas, which I wish I had articulated earlier.",
+          "link": "https://matklad.github.io/2023/11/07/dta-oriented-blogging.html",
+          "publishedOn": "2023-11-07T00:00:00.000Z",
+          "wordCount": 2058,
+          "title": "Data Oriented Blogging",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/10/23/unified-vs-split-diff.html",
           "author": null,
           "description": "Which is better for code reviews, a unified diff or a split diff?",
           "link": "https://matklad.github.io/2023/10/23/unified-vs-split-diff.html",
           "publishedOn": "2023-10-23T00:00:00.000Z",
-          "wordCount": 681,
+          "wordCount": 684,
           "title": "Unified Versus Split Diff",
           "imageUrl": null
         },
@@ -94,28 +102,8 @@
           "description": "My thoughts on the topic of whether maintainers owe you anything. Speaking as an author, a maintainer,\na user of, and a contributor to open-source software.",
           "link": "https://matklad.github.io/2023/10/18/obligations.html",
           "publishedOn": "2023-10-18T00:00:00.000Z",
-          "wordCount": 906,
+          "wordCount": 909,
           "title": "Unless Explicitly Specified Otherwise, Open Source Software With Users Carries Moral Obligations",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/10/12/lsp-could-have-been-better.html",
-          "author": null,
-          "description": "We talk about programming like it is about writing code, but the code ends up being less important\nthan the architecture, and the architecture ends up being less important than social issues.",
-          "link": "https://matklad.github.io/2023/10/12/lsp-could-have-been-better.html",
-          "publishedOn": "2023-10-12T00:00:00.000Z",
-          "wordCount": 2822,
-          "title": "LSP could have been better",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/10/11/unix-structured-concurrency.html",
-          "author": null,
-          "description": "A short note on a particular structured concurrency pattern for UNIX systems programming.",
-          "link": "https://matklad.github.io/2023/10/11/unix-structured-concurrency.html",
-          "publishedOn": "2023-10-11T00:00:00.000Z",
-          "wordCount": 707,
-          "title": "UNIX Structured Concurrency",
           "imageUrl": null
         }
       ]
@@ -144,12 +132,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20933",
+          "author": "Daniel Lemire",
+          "description": "Suppose that you want to check whether a character in C++ belongs to a fixed set, such as ‘\\0’, ‘\\x09’, ‘\\x0a’,’\\x0d’, ‘ ‘, ‘#’, ‘/’, ‘:’, ‘<‘, ‘>’, ‘?’, ‘@’, ‘[‘, ‘\\\\’, ‘]’, ‘^’, ‘|’. A simple way is to generate a 256-byte array of Boolean values and lookup the value. This approach is sometimes … Continue reading Generating arrays at compile-time in C++ with lambdas",
+          "link": "https://lemire.me/blog/2023/11/07/generating-arrays-at-compile-time-in-c-with-lambdas/",
+          "publishedOn": "2023-11-07T20:54:12.000Z",
+          "wordCount": 3668,
+          "title": "Generating arrays at compile-time in C++ with lambdas",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20907",
           "author": "Daniel Lemire",
           "description": "In C++, suppose that you append to a string one character at a time: while(my_string.size() <= 10'000'000) { my_string += \"a\"; } In theory, it might be possible for the C++ runtime library to implement this routine as the creation of a new string with each append: it could allocate a new memory region that … Continue reading Appending to an std::string character-by-character: how does the capacity grow?",
           "link": "https://lemire.me/blog/2023/10/23/appending-to-an-stdstring-character-by-character-how-does-the-capacity-grow/",
           "publishedOn": "2023-10-23T13:33:37.000Z",
-          "wordCount": 4541,
+          "wordCount": 4547,
           "title": "Appending to an std::string character-by-character: how does the capacity grow?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -159,7 +157,7 @@
           "description": "The C++ library has long been organized around stream classes, at least when it comes to reading and parsing strings. But streams can be surprisingly slow. For example, if you want to parse numbers, then this C++ routine is close to being the worst possible choice for performance: std::stringstream in(mystring); while(in >> x) { sum … Continue reading For processing strings, streams in C++ can be slow",
           "link": "https://lemire.me/blog/2023/10/19/for-processing-strings-streams-in-c-can-be-slow/",
           "publishedOn": "2023-10-19T01:55:34.000Z",
-          "wordCount": 4355,
+          "wordCount": 4351,
           "title": "For processing strings, streams in C++ can be slow",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -169,7 +167,7 @@
           "description": "In about 10 years, Apple has multiplied by 19 the number of transistors in its mobile processors. It corresponds roughly to a steady rate of improvement of 34% per year on the number of transistors, or a doubling every 2.5 years. In real dollars, an iPhone has roughly a constant price: the price tag of … Continue reading How many billions of transistors in your iPhone processor?",
           "link": "https://lemire.me/blog/2023/10/18/how-many-billions-of-transistors-in-your-iphone-processor/",
           "publishedOn": "2023-10-18T13:51:28.000Z",
-          "wordCount": 3700,
+          "wordCount": 3696,
           "title": "How many billions of transistors in your iPhone processor?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -179,18 +177,8 @@
           "description": "Computer software is typically deterministic on paper: if you run twice the same program with the same inputs, you should get the same outputs. In practice, the complexity of modern computing makes it unlikely that you could ever run twice the same program and get exactly the same result, down to the exact same execution … Continue reading Randomness in programming (with Go code)",
           "link": "https://lemire.me/blog/2023/10/17/randomness-in-programming-with-go-code/",
           "publishedOn": "2023-10-17T00:15:32.000Z",
-          "wordCount": 13359,
+          "wordCount": 13355,
           "title": "Randomness in programming (with Go code)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20845",
-          "author": "Daniel Lemire",
-          "description": "The Web is a convenient interface to your software. Many times, if you have an existing application, you may want to allow Web access to it using HTTP. Or you may want to build a small specialized Web application. In such instances, you do not want to use an actual Web server (e.g., Apache or … Continue reading Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
-          "link": "https://lemire.me/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/",
-          "publishedOn": "2023-10-07T05:43:25.000Z",
-          "wordCount": 5794,
-          "title": "Web server ‘hello world’ benchmark : Go vs Node.js vs Nim vs Bun",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -236,18 +224,7 @@
       "title": "apenwarr",
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
-      "articles": [
-        {
-          "id": "https://apenwarr.ca/log/20231006",
-          "author": null,
-          "description": "A few conversations last week made me realize I use the word “interesting” in an unusual way.\nI rely heavily on mental models. Of course, everyone relies on mental models. But I do it intentionally and I push it extra hard.\nWhat I mean by that is, when I’m making predictions about what will happen next, I mostly don’t look around me and make a judgement based on my immediate surroundings. Instead, I look at what I see, try to match it to something inside my mental model, and then let the mental model extrapolate what “should” happen from there.\nIf this sounds predictably error prone: yes. It is.\nBut it’s also powerful, when used the right way, which I try to do. Here’s my system.\nConfirmation bias\nFirst of all, let’s acknowledge the problem with mental models: confirmation bias. Confirmati…",
-          "link": "https://apenwarr.ca/log/20231006",
-          "publishedOn": "2023-10-06T20:59:31.000Z",
-          "wordCount": 1981,
-          "title": "Interesting",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
