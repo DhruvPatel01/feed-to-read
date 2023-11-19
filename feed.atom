@@ -1,10 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-11-12T00:56:23.082Z</id>
+    <id>urn:2023-11-19T00:58:05.719Z</id>
     <title>osmos::feed</title>
-    <updated>2023-11-12T00:56:23.082Z</updated>
+    <updated>2023-11-19T00:58:05.719Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Launching the 2023 Nim Community Survey]]></title>
+        <id>https://nim-lang.org//blog/2023/11/17/community-survey-2023.html</id>
+        <link href="https://nim-lang.org//blog/2023/11/17/community-survey-2023.html"/>
+        <updated>2023-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are proud to announce the launch of the official
+2023 Nim Community Survey!
+No matter whether you use Nim today, have used Nim previously, or never used Nim before;
+we want to know your opinions.
+Your feedback will help the Nim project understand its strengths and
+weaknesses, and to determine development priorities for the future.
+It shouldn’t take you much longer than 5 minutes to complete this survey.
+Submissions will be accepted until the start of 2024, depending on the
+response rates.
+If you have any questions or feedback, please don’t hesitate
+to get in touch with us via email at survey@nim-lang.org or on the
+Nim Forum.
+This is now the seventh year in which this survey has been running.
+An analysis of the results for the past years can be found at the following links:
+2016
+2017
+2018
+2019
+2020
+2021
+We would appreciate your help in spreading the word about this survey.
+Share the Google Forms link on your social network feeds, with your colleagues
+and in other communities.
+Once the submission period ends, the results will be shown here and publicized
+via the Nim Forum.
+Thanks for your time!]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IronBeetle]]></title>
+        <id>https://matklad.github.io/2023/11/16/IronBeetle.html</id>
+        <link href="https://matklad.github.io/2023/11/16/IronBeetle.html"/>
+        <updated>2023-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey, I am trying my hand at this Twitch thing and stream stuff about TigerBeetle at 17:00 UTC on
+Thursdays. The format is unscripted, unedited stream&amp;talk, so this is not particularly information
+dense, but it is fun (at least for me):]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Psyberg: Automated end to end catch up]]></title>
+        <id>https://medium.com/p/260fbe366fe2</id>
+        <link href="https://netflixtechblog.com/3-psyberg-automated-end-to-end-catch-up-260fbe366fe2?source=rss----2615bd06b42e---4"/>
+        <updated>2023-11-15T03:25:23.000Z</updated>
+        <summary type="html"><![CDATA[By Abhinaya Shetty, Bharath Mummadisetty]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diving Deeper into Psyberg: Stateless vs Stateful Data Processing]]></title>
+        <id>https://medium.com/p/1d273b3aaefb</id>
+        <link href="https://netflixtechblog.com/2-diving-deeper-into-psyberg-stateless-vs-stateful-data-processing-1d273b3aaefb?source=rss----2615bd06b42e---4"/>
+        <updated>2023-11-15T03:25:13.000Z</updated>
+        <summary type="html"><![CDATA[By Abhinaya Shetty, Bharath Mummadisetty]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1. Streamlining Membership Data Engineering at Netflix with Psyberg]]></title>
+        <id>https://medium.com/p/f68830617dd1</id>
+        <link href="https://netflixtechblog.com/1-streamlining-membership-data-engineering-at-netflix-with-psyberg-f68830617dd1?source=rss----2615bd06b42e---4"/>
+        <updated>2023-11-15T03:24:49.000Z</updated>
+        <summary type="html"><![CDATA[By Abhinaya Shetty, Bharath Mummadisetty]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Push Ifs Up And Fors Down]]></title>
+        <id>https://matklad.github.io/2023/11/15/push-ifs-up-and-fors-down.html</id>
+        <link href="https://matklad.github.io/2023/11/15/push-ifs-up-and-fors-down.html"/>
+        <updated>2023-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A short note on two related rules of thumb.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Hμblog] Stop deploying web application firewalls]]></title>
+        <id>https://www.devever.net/~hl/u/202311#14a</id>
+        <link href="https://www.devever.net/~hl/u/202311#14a"/>
+        <updated>2023-11-14T07:25:56.000Z</updated>
+        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><ul><li><a href="https://www.macchaffee.com/blog/2023/wafs/">Stop deploying web application firewalls</a></li></ul><p xmlns="http://www.w3.org/1999/xhtml">Excellent writeup by  about how web application firewalls are universally a terrible idea. I've been meaning to write an article on this subject for some time, but this is a good overview of many issues with them.<a href="https://www.macchaffee.com/">Mac Chaffee</a></p></div></div>]]></summary>
+        <author>
+            <name>devever.net/~hl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting Speech and Music in Audio Content]]></title>
+        <id>https://medium.com/p/afd64e6a5bf8</id>
+        <link href="https://netflixtechblog.com/detecting-speech-and-music-in-audio-content-afd64e6a5bf8?source=rss----2615bd06b42e---4"/>
+        <updated>2023-11-14T01:55:45.000Z</updated>
+        <summary type="html"><![CDATA[Iroro Orife, Chih-Wei Wu and Yun-Ning (Amy) Hung]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (November 12 2023)]]></title>
+        <id>https://lemire.me/blog/?p=20942</id>
+        <link href="https://lemire.me/blog/2023/11/12/science-and-technology-links-november-12-2023/"/>
+        <updated>2023-11-12T18:42:15.000Z</updated>
+        <summary type="html"><![CDATA[Vitamin K2 supplements might reduce the risk of myocardial infarction (heart attacks) and of all-cause death (Hasific et al. 2022). You find vitamin K2 in some Gouda cheeses and in eggs. Most of the water on Earth is salinated (in the oceans) and cannot be consumed. Fresh water is often scarce. Yet Israel is desalinating … Continue reading Science and Technology links (November 12 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Next Step in Personalization: Dynamic Sizzles]]></title>
         <id>https://medium.com/p/4dc4ce2011ef</id>
@@ -122,47 +239,6 @@ incident</a></p></div></div>]]></summary>
         <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">(If you just want some recommendations for what to do, .)<a href="#recommendations">skip down to the Recommendations section below</a></p></div></div>]]></summary>
         <author>
             <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[For processing strings, streams in C++ can be slow]]></title>
-        <id>https://lemire.me/blog/?p=20899</id>
-        <link href="https://lemire.me/blog/2023/10/19/for-processing-strings-streams-in-c-can-be-slow/"/>
-        <updated>2023-10-19T01:55:34.000Z</updated>
-        <summary type="html"><![CDATA[The C++ library has long been organized around stream classes, at least when it comes to reading and parsing strings. But streams can be surprisingly slow. For example, if you want to parse numbers, then this C++ routine is close to being the worst possible choice for performance: std::stringstream in(mystring); while(in >> x) { sum … Continue reading For processing strings, streams in C++ can be slow]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How many billions of transistors in your iPhone processor?]]></title>
-        <id>https://lemire.me/blog/?p=20892</id>
-        <link href="https://lemire.me/blog/2023/10/18/how-many-billions-of-transistors-in-your-iphone-processor/"/>
-        <updated>2023-10-18T13:51:28.000Z</updated>
-        <summary type="html"><![CDATA[In about 10 years, Apple has multiplied by 19 the number of transistors in its mobile processors. It corresponds roughly to a steady rate of improvement of 34% per year on the number of transistors, or a doubling every 2.5 years. In real dollars, an iPhone has roughly a constant price: the price tag of … Continue reading How many billions of transistors in your iPhone processor?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unless Explicitly Specified Otherwise, Open Source Software With Users Carries Moral Obligations]]></title>
-        <id>https://matklad.github.io/2023/10/18/obligations.html</id>
-        <link href="https://matklad.github.io/2023/10/18/obligations.html"/>
-        <updated>2023-10-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[My thoughts on the topic of whether maintainers owe you anything. Speaking as an author, a maintainer,
-a user of, and a contributor to open-source software.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Randomness in programming (with Go code)]]></title>
-        <id>https://lemire.me/blog/?p=20886</id>
-        <link href="https://lemire.me/blog/2023/10/17/randomness-in-programming-with-go-code/"/>
-        <updated>2023-10-17T00:15:32.000Z</updated>
-        <summary type="html"><![CDATA[Computer software is typically deterministic on paper: if you run twice the same program with the same inputs, you should get the same outputs. In practice, the complexity of modern computing makes it unlikely that you could ever run twice the same program and get exactly the same result, down to the exact same execution … Continue reading Randomness in programming (with Go code)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
