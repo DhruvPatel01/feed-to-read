@@ -29,12 +29,32 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/e9e0cb15f2ba",
+          "author": "Netflix Technology Blog",
+          "description": "by  Aditya Mavlankar, Zhi Li, Lukáš Krasula and Christos Bampis",
+          "link": "https://netflixtechblog.com/all-of-netflixs-hdr-video-streaming-is-now-dynamically-optimized-e9e0cb15f2ba?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-11-29T21:26:33.000Z",
+          "wordCount": 4656,
+          "title": "All of Netflix’s HDR video streaming is now dynamically optimized",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*B5i80MShTsFKuNJNGXjYZQ.png"
+        },
+        {
+          "id": "https://medium.com/p/9340b879176a",
+          "author": "Netflix Technology Blog",
+          "description": "Netflix was thrilled to be the premier sponsor for the 2nd year in a row at the 2023 Conference on Digital Experimentation (CODE@MIT).",
+          "link": "https://netflixtechblog.com/netflix-original-research-mit-code-2023-9340b879176a?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-11-27T20:59:14.000Z",
+          "wordCount": 2706,
+          "title": "Netflix Original Research: MIT CODE 2023",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:640/0*87ZdDoYnh5R3XGhS"
+        },
+        {
           "id": "https://medium.com/p/4b0ce22a8a96",
           "author": "Netflix Technology Blog",
           "description": "A framework to identify the causal impact of successful visual components.",
           "link": "https://netflixtechblog.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-25T01:27:21.000Z",
-          "wordCount": 7049,
+          "wordCount": 7149,
           "title": "Causal Machine Learning for Creative Insights",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:504/1*S6h7dLUsWKqjRJ6HKbD6vw.png"
         },
@@ -44,7 +64,7 @@
           "description": "by Jun He, Yingyi Zhang, and Pawan Dixit",
           "link": "https://netflixtechblog.com/incremental-processing-using-netflix-maestro-and-apache-iceberg-b8ba072ddeeb?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-21T05:49:38.000Z",
-          "wordCount": 8661,
+          "wordCount": 8686,
           "title": "Incremental Processing using Netflix Maestro and Apache Iceberg",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1172/1*iIxEBzgYTiqc6J2lkA2lSQ.gif"
         },
@@ -54,7 +74,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/3-psyberg-automated-end-to-end-catch-up-260fbe366fe2?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:25:23.000Z",
-          "wordCount": 3737,
+          "wordCount": 3867,
           "title": "Psyberg: Automated end to end catch up",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*NhFne1sCHTTW8ZzahSZqAQ.png"
         },
@@ -64,7 +84,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/2-diving-deeper-into-psyberg-stateless-vs-stateful-data-processing-1d273b3aaefb?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:25:13.000Z",
-          "wordCount": 4283,
+          "wordCount": 4402,
           "title": "Diving Deeper into Psyberg: Stateless vs Stateful Data Processing",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:389/1*RnFDv0pCKpSxEiWBF_e2kw.png"
         },
@@ -74,9 +94,9 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/1-streamlining-membership-data-engineering-at-netflix-with-psyberg-f68830617dd1?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:24:49.000Z",
-          "wordCount": 4653,
+          "wordCount": 4760,
           "title": "1. Streamlining Membership Data Engineering at Netflix with Psyberg",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*i3Q9OtyFGyxh0Zon"
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:726/1*r6S_24f1aF-f6kHXtIK8_Q.png"
         },
         {
           "id": "https://medium.com/p/afd64e6a5bf8",
@@ -84,7 +104,7 @@
           "description": "Iroro Orife, Chih-Wei Wu and Yun-Ning (Amy) Hung",
           "link": "https://netflixtechblog.com/detecting-speech-and-music-in-audio-content-afd64e6a5bf8?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-14T01:55:45.000Z",
-          "wordCount": 4572,
+          "wordCount": 4603,
           "title": "Detecting Speech and Music in Audio Content",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:720/1*W-4QTtWN_NDQt4HWr3EBBQ.gif"
         },
@@ -94,7 +114,7 @@
           "description": "Authors:Bruce Wobbe, Leticia Kwok",
           "link": "https://netflixtechblog.com/the-next-step-in-personalization-dynamic-sizzles-4dc4ce2011ef?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-08T20:56:53.000Z",
-          "wordCount": 4141,
+          "wordCount": 4149,
           "title": "The Next Step in Personalization: Dynamic Sizzles",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:948/0*OxP3aIMkQW6d-BjK"
         },
@@ -104,29 +124,9 @@
           "description": "Empowering video editors with multimodal machine learning to discover perfect moments across the entire Netflix catalog",
           "link": "https://netflixtechblog.com/building-in-video-search-936766f0017c?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-06T17:35:19.000Z",
-          "wordCount": 3878,
+          "wordCount": 3884,
           "title": "Building In-Video Search",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1000/0*32RfnKGMENXaqEX8"
-        },
-        {
-          "id": "https://medium.com/p/0d83f5a00d08",
-          "author": "Netflix Technology Blog",
-          "description": "Democratizing Stream Processing @ Netflix",
-          "link": "https://netflixtechblog.com/streaming-sql-in-data-mesh-0d83f5a00d08?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-03T21:48:50.000Z",
-          "wordCount": 4655,
-          "title": "Streaming SQL in Data Mesh",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*VxZlXPDb8-d7Xf4kfSulnw.png"
-        },
-        {
-          "id": "https://medium.com/p/ed620b9c6225",
-          "author": "Netflix Technology Blog",
-          "description": "How Netflix’s Container Platform Connects Linux Kernel Panics to Pods",
-          "link": "https://netflixtechblog.com/kubernetes-and-kernel-panics-ed620b9c6225?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-10-27T16:05:58.000Z",
-          "wordCount": 3920,
-          "title": "Kubernetes And Kernel Panics",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*cjClRuyUQ67lu2shmjCObQ.png"
         }
       ]
     },
@@ -214,12 +214,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=20970",
+          "author": "Daniel Lemire",
+          "description": "Suppose that you want to parse quickly 8-bit integers (0, 1, 2, …, 254, 255) from an ASCII/UTF-8 string. The problem comes up in the simdzone project lead by Jeroen Koekkoek (NLnet Labs). You are given a string and its length: e.g., ’22’ and length is 2. The naive approach in C might be: int … Continue reading Parsing 8-bit integers quickly",
+          "link": "https://lemire.me/blog/2023/11/28/parsing-8-bit-integers-quickly/",
+          "publishedOn": "2023-11-28T20:17:17.000Z",
+          "wordCount": 7565,
+          "title": "Parsing 8-bit integers quickly",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=20964",
+          "author": "Daniel Lemire",
+          "description": "Modern web applications often use the http/https protocols. However, when the server and client needs to talk to each other in a symmetrical fashion, the WebSocket protocol might be preferable. For example, if you want to program a multiplayer video game, the WebSocket protocol is almost surely better than http. In A simple WebSocket benchmark … Continue reading A simple WebSocket benchmark in Python",
+          "link": "https://lemire.me/blog/2023/11/28/a-simple-websocket-benchmark-in-python/",
+          "publishedOn": "2023-11-28T00:16:12.000Z",
+          "wordCount": 3586,
+          "title": "A simple WebSocket benchmark in Python",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20957",
           "author": "Daniel Lemire",
           "description": "Conventional web applications use the http protocol (or the https variant). The http protocol is essentially asymmetrical: a client application such as a browser issues requests and the server responds. It is not possible for the server to initiate communication with the client. Certain types of applications are therefore more difficult to design. For example, … Continue reading A simple WebSocket benchmark in JavaScript: Node.js versus Bun",
           "link": "https://lemire.me/blog/2023/11/25/a-simple-websocket-benchmark-in-javascript-node-js-versus-bun/",
           "publishedOn": "2023-11-25T19:04:20.000Z",
-          "wordCount": 3532,
+          "wordCount": 3838,
           "title": "A simple WebSocket benchmark in JavaScript: Node.js versus Bun",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -229,7 +249,7 @@
           "description": "Vitamin K2 supplements might reduce the risk of myocardial infarction (heart attacks) and of all-cause death (Hasific et al. 2022). You find vitamin K2 in some Gouda cheeses and in eggs. Most of the water on Earth is salinated (in the oceans) and cannot be consumed. Fresh water is often scarce. Yet Israel is desalinating … Continue reading Science and Technology links (November 12 2023)",
           "link": "https://lemire.me/blog/2023/11/12/science-and-technology-links-november-12-2023/",
           "publishedOn": "2023-11-12T18:42:15.000Z",
-          "wordCount": 3348,
+          "wordCount": 3391,
           "title": "Science and Technology links (November 12 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -239,7 +259,7 @@
           "description": "Suppose that you want to check whether a character in C++ belongs to a fixed set, such as ‘\\0’, ‘\\x09’, ‘\\x0a’,’\\x0d’, ‘ ‘, ‘#’, ‘/’, ‘:’, ‘<‘, ‘>’, ‘?’, ‘@’, ‘[‘, ‘\\\\’, ‘]’, ‘^’, ‘|’. A simple way is to generate a 256-byte array of Boolean values and lookup the value. This approach is sometimes … Continue reading Generating arrays at compile-time in C++ with lambdas",
           "link": "https://lemire.me/blog/2023/11/07/generating-arrays-at-compile-time-in-c-with-lambdas/",
           "publishedOn": "2023-11-07T20:54:12.000Z",
-          "wordCount": 3676,
+          "wordCount": 3640,
           "title": "Generating arrays at compile-time in C++ with lambdas",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
@@ -268,26 +288,6 @@
           "publishedOn": "2023-11-14T07:25:56.000Z",
           "wordCount": 115,
           "title": "[Hμblog] Stop deploying web application firewalls",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.devever.net/~hl/expect-ct-lite",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">Last week we witnessed the , most likely by a Western nation-state. While it's  to any\nattack which was carried out in this incident, one thing that has been brought\nto my attention in the aftermath of this is that Certificate Transparency\nlogging remains optional for CAs.<a href=\"xmpp-incident\">discovery of the compromise of an XMPP\nservice</a><a href=\"xmpp-incident-2#context-of-certificate-transparency\">not\ndirectly related</a></p></div></div>",
-          "link": "https://www.devever.net/~hl/expect-ct-lite",
-          "publishedOn": "2023-10-28T14:07:00.000Z",
-          "wordCount": 3264,
-          "title": "[Computing] Expect-CT Lite: A humble proposal for minimal CT enforcement in TLS certificates",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.devever.net/~hl/xmpp-incident-2",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">I've had a few comments in response to my previous article,  which have provided\nXMPP-specific suggestions for how this could have been mitigated.<a href=\"https://www.devever.net/~hl/xmpp-incident\">Mitigating the\nHetzner/Linode XMPP.ru MitM interception\nincident</a></p></div></div>",
-          "link": "https://www.devever.net/~hl/xmpp-incident-2",
-          "publishedOn": "2023-10-28T14:06:00.000Z",
-          "wordCount": 1566,
-          "title": "[Computing] Mitigating the Hetzner/Linode XMPP.ru MitM interception incident, part 2: XMPP-specific mitigations",
           "imageUrl": null
         }
       ]

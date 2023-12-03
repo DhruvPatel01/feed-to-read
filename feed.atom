@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-11-26T00:57:32.369Z</id>
+    <id>urn:2023-12-03T00:57:32.748Z</id>
     <title>osmos::feed</title>
-    <updated>2023-11-26T00:57:32.369Z</updated>
+    <updated>2023-12-03T00:57:32.748Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[All of Netflix’s HDR video streaming is now dynamically optimized]]></title>
+        <id>https://medium.com/p/e9e0cb15f2ba</id>
+        <link href="https://netflixtechblog.com/all-of-netflixs-hdr-video-streaming-is-now-dynamically-optimized-e9e0cb15f2ba?source=rss----2615bd06b42e---4"/>
+        <updated>2023-11-29T21:26:33.000Z</updated>
+        <summary type="html"><![CDATA[by  Aditya Mavlankar, Zhi Li, Lukáš Krasula and Christos Bampis]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parsing 8-bit integers quickly]]></title>
+        <id>https://lemire.me/blog/?p=20970</id>
+        <link href="https://lemire.me/blog/2023/11/28/parsing-8-bit-integers-quickly/"/>
+        <updated>2023-11-28T20:17:17.000Z</updated>
+        <summary type="html"><![CDATA[Suppose that you want to parse quickly 8-bit integers (0, 1, 2, …, 254, 255) from an ASCII/UTF-8 string. The problem comes up in the simdzone project lead by Jeroen Koekkoek (NLnet Labs). You are given a string and its length: e.g., ’22’ and length is 2. The naive approach in C might be: int … Continue reading Parsing 8-bit integers quickly]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A simple WebSocket benchmark in Python]]></title>
+        <id>https://lemire.me/blog/?p=20964</id>
+        <link href="https://lemire.me/blog/2023/11/28/a-simple-websocket-benchmark-in-python/"/>
+        <updated>2023-11-28T00:16:12.000Z</updated>
+        <summary type="html"><![CDATA[Modern web applications often use the http/https protocols. However, when the server and client needs to talk to each other in a symmetrical fashion, the WebSocket protocol might be preferable. For example, if you want to program a multiplayer video game, the WebSocket protocol is almost surely better than http. In A simple WebSocket benchmark … Continue reading A simple WebSocket benchmark in Python]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix Original Research: MIT CODE 2023]]></title>
+        <id>https://medium.com/p/9340b879176a</id>
+        <link href="https://netflixtechblog.com/netflix-original-research-mit-code-2023-9340b879176a?source=rss----2615bd06b42e---4"/>
+        <updated>2023-11-27T20:59:14.000Z</updated>
+        <summary type="html"><![CDATA[Netflix was thrilled to be the premier sponsor for the 2nd year in a row at the 2023 Conference on Digital Experimentation (CODE@MIT).]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A simple WebSocket benchmark in JavaScript: Node.js versus Bun]]></title>
         <id>https://lemire.me/blog/?p=20957</id>
@@ -212,54 +252,6 @@ technical tools, but the underlying principles and ideas, which I wish I had art
         <link href="https://netflixtechblog.com/building-in-video-search-936766f0017c?source=rss----2615bd06b42e---4"/>
         <updated>2023-11-06T17:35:19.000Z</updated>
         <summary type="html"><![CDATA[Empowering video editors with multimodal machine learning to discover perfect moments across the entire Netflix catalog]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Streaming SQL in Data Mesh]]></title>
-        <id>https://medium.com/p/0d83f5a00d08</id>
-        <link href="https://netflixtechblog.com/streaming-sql-in-data-mesh-0d83f5a00d08?source=rss----2615bd06b42e---4"/>
-        <updated>2023-11-03T21:48:50.000Z</updated>
-        <summary type="html"><![CDATA[Democratizing Stream Processing @ Netflix]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Computing] Expect-CT Lite: A humble proposal for minimal CT enforcement in TLS certificates]]></title>
-        <id>https://www.devever.net/~hl/expect-ct-lite</id>
-        <link href="https://www.devever.net/~hl/expect-ct-lite"/>
-        <updated>2023-10-28T14:07:00.000Z</updated>
-        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">Last week we witnessed the , most likely by a Western nation-state. While it's  to any
-attack which was carried out in this incident, one thing that has been brought
-to my attention in the aftermath of this is that Certificate Transparency
-logging remains optional for CAs.<a href="xmpp-incident">discovery of the compromise of an XMPP
-service</a><a href="xmpp-incident-2#context-of-certificate-transparency">not
-directly related</a></p></div></div>]]></summary>
-        <author>
-            <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Computing] Mitigating the Hetzner/Linode XMPP.ru MitM interception incident, part 2: XMPP-specific mitigations]]></title>
-        <id>https://www.devever.net/~hl/xmpp-incident-2</id>
-        <link href="https://www.devever.net/~hl/xmpp-incident-2"/>
-        <updated>2023-10-28T14:06:00.000Z</updated>
-        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">I've had a few comments in response to my previous article,  which have provided
-XMPP-specific suggestions for how this could have been mitigated.<a href="https://www.devever.net/~hl/xmpp-incident">Mitigating the
-Hetzner/Linode XMPP.ru MitM interception
-incident</a></p></div></div>]]></summary>
-        <author>
-            <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes And Kernel Panics]]></title>
-        <id>https://medium.com/p/ed620b9c6225</id>
-        <link href="https://netflixtechblog.com/kubernetes-and-kernel-panics-ed620b9c6225?source=rss----2615bd06b42e---4"/>
-        <updated>2023-10-27T16:05:58.000Z</updated>
-        <summary type="html"><![CDATA[How Netflix’s Container Platform Connects Linux Kernel Panics to Pods]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
