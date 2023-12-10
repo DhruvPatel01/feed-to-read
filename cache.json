@@ -17,8 +17,8 @@
           "description": "Many people have chronicled their programming journey in the 80s, 90s, and 00s—here’s one for the 2010s. 2010 I first encountered programming sometime around 2010, when I was 9 years old. I can’t recall precisely how or why I got started, but I wrote my first programs in TI-BASIC, meticulously entering each symbol into my TI-83 calculator. They computed simple algebraic expressions that I used to do math problems. I was fascinated by video games, so after learning how to poll for input, I created Catch the θ. The player would move an ‘I’ character up and down to catch falling ‘θ’ characters. Each new ‘θ’ would fall faster than the last, until it became impossible to catch them all. I soon discovered you could transfer programs between TI calculators, resulting in a new source of distraction for our math class. The game looked like this: LIVES: 3 SCORE: 3 I θ Around the same time, I got my first personal computer: a big Gateway laptop with a first-gen Intel i3 and 4GB DDR3. Previously, I had only used my parents’ old iMac G3, on which I learned to type, used the AppleWorks programs, and played Mac OS 9’s limited selection of games.1 2011 My new laptop, on the other hand, ran the recently released Windows 7. Windows opened up a whole new world of software I could download from the internet. I somehow ended up with an IDE called Just BASIC, in which I wrote a few more utilities and text-based games. I only remember one: a “HiLo” game where the player would find a number via binary search.2 Eventually, I wanted to make a game with graphics, so I downloaded GameMaker 8. After following the tutorials, I used the visual scripting language to make a couple games, but never really finished anything. I did, however, write an essay about game development, in which I stated that 3D graphics was “very hard” for amateurs. Up until this point, I had been more interested in making physical systems than programming—I spent a lot of time on LEGOs, domino runs, and Rube Goldberg machines. Programming something of comparable complexity on my own was still out of reach. 2012 My interests started to converge when I discovered Minecraft upon its release in late 2011. It was one of the first popular building games, and quickly became a mainstay for me. By version 1.2, I was exploring mods that added technology &amp; automation and hosting servers for friends.3 I soon got a desktop computer: a Gateway mid-tower with an i5-2320 and 8GB DDR3. This encouraged me to continue programming, but I didn’t learn Java—the internet claimed Minecraft’s mediocre performance was due to its choice of language. Instead, I embarked on learning the lingua franca of game development: C++. I started with Dev-C++ 4.9.9. I can’t remember much from this period, but I believe I first learned C-with-classes style C++ from an online course. Presumably, I then wrote some slightly bigger programs—but I have no record of them, so I must not have gotten very far. At some point, I got stuck trying to get Allegro to link properly. Some things never change. 2013 This is the first year from which any code is preserved. In school, I took a robotics class, where we used RobotC to control LEGO Mindstorms robots. The programs were simple and messy, including line following and maze solving (if you can call it that). Outside of school, I acquired an Arduino Uno and did some small projects in C. Judging from files I still have lying around, I made a binary clock, as well as Catch the LED, a game where the player would try to press a button just as a sequence of lights passed a central LED. I also upgraded the desktop with a GTX 650—to run minecraft shaders, obviously. 2014 I started making more progress with C++, eventually learning C++11 features and switching to Visual Studio. Thanks to the Lazy Foo tutorials, I was able to successfully link SDL and write some graphical programs. For reasons unknown, I then decided it was time to learn Java. After going through another online course, I used Eclipse to write some more advanced programs, including a matrix calculator/linear solver, a Lorentz transform calculator, and a Pong clone. At this point, I started spending a lot of time reading articles and watching YouTube videos on technical topics. I discovered cryptocurrencies and set up my GPU to mine Dogecoin (what else?) for a few weeks. Too bad I lost the wallet—it’d be worth a whole $200 today. In late 2014, I happened upon one of Jonathan Blow’s streams discussing Jai, a programming language for games. I recall being particularly impressed by the compile-time code execution demo, which seemed so much better than inscrutable C++ templates. More importantly at the time, he mentioned Handmade Hero, Casey Muratori’s new series on creating a game from scratch. It was just what I wanted to learn—the details of how complex programs actually worked. 2015 I followed Handmade Hero for a few months, learning a lot about low-level programming and operating systems.4 I attempted to follow along with the code, but didn’t have sufficient free time to keep it up indefinitely. Still, the series had a lasting impact on my approach to programming. I learned how to understand programs at multiple levels of abstraction, as well as the practice of semantic compression. That summer, I took my first formal Computer Science course at the local university. It was an introduction to programming in C++, which I found quite boring. I built my first computer, scouring the internet for deals and putting together an i7-5820k, GTX 970, 16GB DDR4 build for ~$1000.5 I repurposed the old hardware as a media / game server running Unraid. In the fall, I took a second CS course, but it wasn’t much better. More importantly, I started teaching programming. I ran a weekly elective class, teaching yet another introduction to programming in C++. The first semester covered the basics: control flow, functions, IO, memory management, classes, and sorting. For sample projects, I wrote a square root calculator, maze escape game, and BS poker card game. Outside of school, I started using Sublime Text in conjunction with the Visual Studio debugger. I learned how to use Git and pushed my first project to GitHub. It was my most complex program yet: a text-based RPG engine that would interpret a file containing a tree of locations/prompts. The code was rather disorganized and probably leaked memory, but it successfully performed recursive-descent parsing and tree traversal. At some point, I learned a bit of Python, but didn’t stick with it. 2016 Inspired by Handmade Hero, I started working on my own 2D game engine. It wasn’t totally from scratch—I used SDL2 and the C++ STL. I would work on it for the rest of the year. The “engine” part mostly consisted of wrappers around SDL2 and associated libraries, but also included a sprite renderer, a chunked world system, hot reloading, text rendering, profiling features, and (buggy) collisions. I taught a second semester of programming, this time covering more advanced C++ topics like operator overloading, basic data structures, templates, and OOP. I started converting the notes I had written into a website, which gets a fair amount of traffic to this day. I wrote a “Simple Drawing Library” and used it to demonstrate DFS/BFS. In the fall, I took Data Structures, which was more interesting than the introductory courses. I taught a third semester, this time focusing on SDL2 and game programming patterns. I wrote my own condensed version of the Lazy Foo tutorials I had followed in years prior. I got tired of the 2D engine and embarked on learning 3D rendering. I started learning OpenGL 3.3 from learnopengl.com and found it quite fun. At the time, I was taking calculus III, so I started working on a 3D graphing program. I also discovered Dear ImGui, which I’ve used ever since. [GitHub] I would occasionally add features for ~1.5 years, and the grapher would became my first program that anyone else actually used. 2017 In spring, I took a “Math for Computer Science” (i.e. logic and proofs) class, which was new and interesting. I played The Witness, which doesn’t directly relate to programming, but greatly influenced how I think about game design. I taught a fourth semester, this time covering data structures and C++11 topics. I stopped updating the website, but created lessons on stacks, queues, lists, heaps, balanced trees, hash maps, graphs, threading, smart pointers, move semantics, exceptions, and basic functional programming. In the summer, I began a larger project: a Minecraft-inspired 3D voxel engine called Exile. This time, it was from scratch: I wrote my own data structures, Win32 and Linux platform code, ImGui, and OpenGL 4 renderer. The project started in the Odin programming language, but I quickly switched back to C++ since the Odin compiler wasn’t stable at the time. I also tried streaming my work on Twitch, but never consistently. Finally, I started tracking my ever-growing repository of bookmarks on GitHub. [GitHub] I would work on Exile sporadically for the next several years, eventually rewriting it multiple times and evolving it into the pure-rendering project I’m working on today. I did a month-long internship with a local mobile gaming startup, where I wrote some promotional Facebook games in Javascript. I don’t think they amounted to anything, but I got paid (a bit) for programming. In the fall, I started supervising a few group projects instead of teaching new content. I took Computer Graphics, where (yet again) I already knew a good deal of the content—but I enjoyed it anyway. I made a solar system simulator, a physics-based pinball game, and a chunk-based voxel renderer that I later used in Exile. 2018 During spring/summer, I spent a lot of time working on Exile. I learned more advanced rendering techniques, including deferred lighting, ambient occlusion, and environment maps. I designed a memory efficient rendering pipeline for voxel data, and wrote a libclang-based metaprogram that generated reflection data. [GitHub] I wrote my first three blog posts on Exile’s hot reloading, reflection, and voxel meshing systems. I then left home to attend university. I started taking many technical courses, but I’ll only be mentioning those with significant programming projects. It started with another round of discrete math and data structures, which were a big step up in difficulty. My friend and I participated in a hackathon, where we made a visualization app for high-dimensional machine learning data. [GitHub] I also started using VSCode, learned \\(\\LaTeX\\), and basically never handwrote anything again. 2019 In spring, I took a functional programming class, which I found pretty elegant and intuitive. The class was taught in SML, exposing me to a language with a coherent design. I continued using C++, but started applying more functional programming techniques. In summer, I interned at NVIDIA, working on some automated OpenGL benchmarking tools. It turned out there wasn’t much work to do, so I spent much of my time working on a ray tracer based on Ray Tracing in One Weekend, as well as Exile. I found and reported a miscompilation bug in the Visual Studio compiler. [GitHub] In fall, I took several more classes. Computer systems, involving a malloc implementation, shell, and web proxy in C. Parallel algorithms, involving various span-efficient programs in SML. Computer graphics (again), involving a rasterizer, mesh editor, path tracer, and animation system in C++. I particularly enjoyed graphics, but was frustrated with the course’s out-of-date OpenGL 2 codebase, Scotty3D. Therefore, I applied to become a teaching assistant for the course, and began work on a new version of Scotty3D in modern C++17 and OpenGL 4. [GitHub] 2020 In spring, I took a course on operating systems, where (along with a partner) I wrote a bare-metal Sokoban game, a user-space threading library, and an x86 kernel, all from scratch in C. Our kernel ran on real hardware, supporting virtual memory, preemptive multitasking, and concurrent syscalls. The course taught me a lot about concurrency and system design, though our final product was certainly not entirely concurrency-safe.6 In the summer, I interned at Apple, working on more GPU benchmarking tools. Unfortunately, this was the summer of COVID, so my project was derailed and I again didn’t end up with much work to do. Hence, I spent a lot of time on Scotty3D. By the end of the summer, it was ready to support three of the four major assignments. [GitHub] That fall, we released the new version—I had to fix many bugs, but overall it was a big hit. Students were able to produce much cooler results than previous years. I also took a compilers course, where (along with a partner) I wrote a compiler for the C0 language. We implemented the compiler in Rust, which I would describe as a redesign of C++ without (most of) the insanity.7 Much of the work was in the compiler backend, which supported SSA, SCCP, register allocation, x86 code generation, and fork/join parallelism. Finally, I started writing a new version of Exile from scratch, this time using Vulkan and modern C++17. Keeping with the theme, I again started by writing my own standard library. To learn Vulkan, I went through the Vulkan Tutorial, which was useful, but I later realized it contained some bad advice. 2021 I built a new computer: a compact ITX system with a Ryzen 5950X, RTX 3090, and 32GB DDR4. The GPU shortage was in full swing, so I borrowed the GPU from one of the graphics PhD students—ostensibly for research purposes—and later replaced it with an RTX 3080ti. In spring, I took several more classes: Parallel architecture &amp; programming, involving ILP, SIMD, CUDA, OpenMP, and MPI. A research assistantship, where I worked on high-performance closest point queries. Physics-based rendering, where I implemented a real-time path tracer using the 3090’s RTX hardware. [GitHub] Technical animation, where I added various simulation features to Scotty3D. In the summer, I interned at Jane Street, where I learned OCaml and gained more practical experience with functional programming. I worked on an autocompletion engine for S-expressions, as well as APIs for risk management. In the fall, I took a programming languages course (also in OCaml), where I learned more about type systems, static analysis, and theorem provers. I also took “deep learning systems,” where I implemented my own version of PyTorch in Python and CUDA. I hadn’t done any formal machine learning courses, so I got to learn a lot about both deep learning and its practical implementation. I did another research assistantship, where I worked on sampling strategies for differentiable rendering in Mitsuba. I didn’t really have enough time for this project, so it didn’t amount to much. Up until now, I had been a TA for the graphics course. This semester, I switched to game programming, which was pretty fun. Finally, I graduated. With my newfound free time, I decided to restart my blog. I wrote a couple short posts on that compiler bug from 2019 and hamming codes. 2022 In the spring, I felt pretty burnt out after seven semesters and three summers of work, so didn’t do much of anything (other than finally getting to Grandmaster in Overwatch). I eventually wrote a longer, interactive post about 3D rotations and the exponential map. The response greatly exceeded my expectations—it was my first post to get a lot of traffic, mostly from Hacker News and Twitter. In the summer, I did another brief stint as a research assistant working on additional updates to Scotty3D. We wrote a new instanced scene graph, a test suite for the assignments, a custom file format, and integrated the remaining major assignment into the codebase. I wrote another interactive post on differentiable programming, which received an honorable mention in the Summer of Math Exposition. I did some more work on Exile, rewriting the Vulkan abstractions and using RTX hardware to dynamically render huge amounts of cubes at high frame rates. I then became a full time software engineer on Jane Street’s compilers team. I began working on profiling and optimization tools, as well as learning more OCaml and functional programming theory. I wrote another post on neural graphics primitives, the first to cover a research topic. In the winter, I didn’t do much programming, but briefly worked on a puzzle game concept with a friend. 2023 In spring, I wrote posts on spherical integration and open addressed hash tables, which also became relatively popular. For work, I wrote a series of articles covering the addition of modes to the OCaml type system. We’re slowly making OCaml more akin to Rust, so I titled the series Oxidizing OCaml. In the summer, I started contributing primarily to the OCaml compiler itself. I implemented support for SIMD types &amp; operations, as well as other additions to the x86 backend. I wrote my longest post yet on functional analysis, which received another honorable mention in the Summer of Math Exposition. Functions are Vectors took so long (likely 100+ hours) that I lost motivation to write anything else until the post you’re reading right now. Instead, I did some more programming: I ripped out the core of Exile and started a new project focused on real-time path tracing. I did another pass on the Vulkan abstraction layer, which I think is finally in a good state. It covers all the fancy features you’re supposed to use in Vulkan, like multiple frames in flight, multithreaded command buffer recording, async compute and transfer queues, dynamic rendering, and custom allocators. For reasons of masochism, I then decided to rewrite my C++ standard library *again*, this time in C++20. I think it’s also finally in a pretty good state, so I put the current version on GitHub. And that brings us to the present. I’m working on a post covering the design principles behind the library, as well as how I got it to compile in 100ms per invocation. Then vs. Now I’m part of the first generation to grow up with the Web, but the last to remember it before the rise of smartphones. In some respects, this meant the late 2000s was the easiest time in history to get started in computing. You may have noticed this post doesn’t reference any textbooks, nor any personal mentors (though it does include a degree). That’s because I was able to learn primarily from the internet, which wasn’t really feasible for previous generations. However, the leap from using computers to modifying them was still small: doing anything interesting required delving into desktop computing, which lead to programming. Now, users can get by without learning to type, let alone program—so most never do. On the other hand, online resources are more accessible than ever. The pandemic heralded a big increase in the amount of university-level content online, and I expect that trend to continue. Going beyond YouTube and its ilk, students of the 2020s will have access to LLMs, which can (arguably) already function as search engine and tutor. We’ll see how it turns out. Footnotes See Roller Coaster Tycoon 3, Marble Blast Gold, and Enigmo. &#8617; Did I watch this video? I have no idea. &#8617; See IndustrialCraft, BuildCraft, RedPower, ComputerCraft, and Railcraft. Remember Hamachi? &#8617; Don’t start here if you want to finish a game. It was great for learning systems programming, though. &#8617; The human eye can’t see more than 3.5GB anyway. &#8617; Arguably, (unstructured) concurrency is the only really difficult problem in programming. Help from the compiler is sorely needed. &#8617; I think Rust is a good language, but I’ve since avoided it because I value short compile times and don’t work on anything security-critical. I also do borrow-checker-unfriendly things (e.g. using Vulkan) that are annoying in Rust. However, I may return to it now that the parallel frontend has landed. &#8617;",
           "link": "https://thenumb.at/14-Years/",
           "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 3367,
-          "title": "14 Years of Programming",
+          "wordCount": 3369,
+          "title": "14 Years of (Graphics) Programming",
           "imageUrl": null
         }
       ]
@@ -34,7 +34,7 @@
           "description": "by  Aditya Mavlankar, Zhi Li, Lukáš Krasula and Christos Bampis",
           "link": "https://netflixtechblog.com/all-of-netflixs-hdr-video-streaming-is-now-dynamically-optimized-e9e0cb15f2ba?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-29T21:26:33.000Z",
-          "wordCount": 4656,
+          "wordCount": 3851,
           "title": "All of Netflix’s HDR video streaming is now dynamically optimized",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*B5i80MShTsFKuNJNGXjYZQ.png"
         },
@@ -44,7 +44,7 @@
           "description": "Netflix was thrilled to be the premier sponsor for the 2nd year in a row at the 2023 Conference on Digital Experimentation (CODE@MIT).",
           "link": "https://netflixtechblog.com/netflix-original-research-mit-code-2023-9340b879176a?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-27T20:59:14.000Z",
-          "wordCount": 2706,
+          "wordCount": 1857,
           "title": "Netflix Original Research: MIT CODE 2023",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:640/0*87ZdDoYnh5R3XGhS"
         },
@@ -54,7 +54,7 @@
           "description": "A framework to identify the causal impact of successful visual components.",
           "link": "https://netflixtechblog.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-25T01:27:21.000Z",
-          "wordCount": 7149,
+          "wordCount": 6345,
           "title": "Causal Machine Learning for Creative Insights",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:504/1*S6h7dLUsWKqjRJ6HKbD6vw.png"
         },
@@ -64,7 +64,7 @@
           "description": "by Jun He, Yingyi Zhang, and Pawan Dixit",
           "link": "https://netflixtechblog.com/incremental-processing-using-netflix-maestro-and-apache-iceberg-b8ba072ddeeb?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-21T05:49:38.000Z",
-          "wordCount": 8686,
+          "wordCount": 8026,
           "title": "Incremental Processing using Netflix Maestro and Apache Iceberg",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1172/1*iIxEBzgYTiqc6J2lkA2lSQ.gif"
         },
@@ -74,7 +74,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/3-psyberg-automated-end-to-end-catch-up-260fbe366fe2?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:25:23.000Z",
-          "wordCount": 3867,
+          "wordCount": 3133,
           "title": "Psyberg: Automated end to end catch up",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*NhFne1sCHTTW8ZzahSZqAQ.png"
         },
@@ -84,7 +84,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/2-diving-deeper-into-psyberg-stateless-vs-stateful-data-processing-1d273b3aaefb?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:25:13.000Z",
-          "wordCount": 4402,
+          "wordCount": 3681,
           "title": "Diving Deeper into Psyberg: Stateless vs Stateful Data Processing",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:389/1*RnFDv0pCKpSxEiWBF_e2kw.png"
         },
@@ -94,7 +94,7 @@
           "description": "By Abhinaya Shetty, Bharath Mummadisetty",
           "link": "https://netflixtechblog.com/1-streamlining-membership-data-engineering-at-netflix-with-psyberg-f68830617dd1?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-15T03:24:49.000Z",
-          "wordCount": 4760,
+          "wordCount": 4025,
           "title": "1. Streamlining Membership Data Engineering at Netflix with Psyberg",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:726/1*r6S_24f1aF-f6kHXtIK8_Q.png"
         },
@@ -104,29 +104,9 @@
           "description": "Iroro Orife, Chih-Wei Wu and Yun-Ning (Amy) Hung",
           "link": "https://netflixtechblog.com/detecting-speech-and-music-in-audio-content-afd64e6a5bf8?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-11-14T01:55:45.000Z",
-          "wordCount": 4603,
+          "wordCount": 3898,
           "title": "Detecting Speech and Music in Audio Content",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:720/1*W-4QTtWN_NDQt4HWr3EBBQ.gif"
-        },
-        {
-          "id": "https://medium.com/p/4dc4ce2011ef",
-          "author": "Netflix Technology Blog",
-          "description": "Authors:Bruce Wobbe, Leticia Kwok",
-          "link": "https://netflixtechblog.com/the-next-step-in-personalization-dynamic-sizzles-4dc4ce2011ef?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-08T20:56:53.000Z",
-          "wordCount": 4149,
-          "title": "The Next Step in Personalization: Dynamic Sizzles",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:948/0*OxP3aIMkQW6d-BjK"
-        },
-        {
-          "id": "https://medium.com/p/936766f0017c",
-          "author": "Netflix Technology Blog",
-          "description": "Empowering video editors with multimodal machine learning to discover perfect moments across the entire Netflix catalog",
-          "link": "https://netflixtechblog.com/building-in-video-search-936766f0017c?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-06T17:35:19.000Z",
-          "wordCount": 3884,
-          "title": "Building In-Video Search",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1000/0*32RfnKGMENXaqEX8"
         }
       ]
     },
@@ -135,6 +115,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2023/12/07/contest-winners.html",
+          "author": null,
+          "description": "The contest is over!\nA gold crown can be seen by turning the picture upside down:\nWe received lots of correct answers!\nAmong those who answered correctly, three lucky winners were chosen by random draw.\nAn email has been sent to the lucky winners and we hope they reply in time with their postal addresses so that they can receive their signed books before Christmas eve. \nDue to privacy concerns we will not publish any information about the winners.\nIf they want, they can share the information on our forum.\nWe thank everybody who has participated and wish you a happy Santa Claus!",
+          "link": "https://nim-lang.org//blog/2023/12/07/contest-winners.html",
+          "publishedOn": "2023-12-07T00:00:00.000Z",
+          "wordCount": 248,
+          "title": "Mastering Nim contest winners",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2023/11/17/community-survey-2023.html",
           "author": null,
@@ -177,16 +167,6 @@
           "wordCount": 999,
           "title": "Push Ifs Up And Fors Down",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/11/07/dta-oriented-blogging.html",
-          "author": null,
-          "description": "Wherein I describe the setup of this blog. The main take away from the post are not specific\ntechnical tools, but the underlying principles and ideas, which I wish I had articulated earlier.",
-          "link": "https://matklad.github.io/2023/11/07/dta-oriented-blogging.html",
-          "publishedOn": "2023-11-07T00:00:00.000Z",
-          "wordCount": 2058,
-          "title": "Data Oriented Blogging",
-          "imageUrl": null
         }
       ]
     },
@@ -214,12 +194,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21020",
+          "author": "Daniel Lemire",
+          "description": "When programming in a JavaScript environment such as Node.js, you might recover raw data from the network and need to convert the bytes into strings. In a system such as Node.js, you may represent such raw bytes using a Buffer instance. You can conveniently convert a Buffer instance into a JavaScript (mybuffer.toString()). But, maybe surprisingly, … Continue reading Fast Buffer-to-String conversion in JavaScript with a Lookup Table",
+          "link": "https://lemire.me/blog/2023/12/08/fast-buffer-to-string-conversion-in-javascript-with-a-lookup-table/",
+          "publishedOn": "2023-12-08T05:40:28.000Z",
+          "wordCount": 4408,
+          "title": "Fast Buffer-to-String conversion in JavaScript with a Lookup Table",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21010",
+          "author": "Daniel Lemire",
+          "description": "When you recover textual content from the disk or from the network, you may expect it to be a Unicode string in UTF-8. It is the most common format. Unfortunately, not all sequences of bytes are valid UTF-8 and accepting invalid UTF-8 without validating it is a security risk. How might you validate a UTF-8 … Continue reading How fast can you validate UTF-8 strings in JavaScript?",
+          "link": "https://lemire.me/blog/2023/12/05/how-fast-can-you-validate-utf-8-strings-in-javascript/",
+          "publishedOn": "2023-12-05T22:23:52.000Z",
+          "wordCount": 3123,
+          "title": "How fast can you validate UTF-8 strings in JavaScript?",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=20970",
           "author": "Daniel Lemire",
           "description": "Suppose that you want to parse quickly 8-bit integers (0, 1, 2, …, 254, 255) from an ASCII/UTF-8 string. The problem comes up in the simdzone project lead by Jeroen Koekkoek (NLnet Labs). You are given a string and its length: e.g., ’22’ and length is 2. The naive approach in C might be: int … Continue reading Parsing 8-bit integers quickly",
           "link": "https://lemire.me/blog/2023/11/28/parsing-8-bit-integers-quickly/",
           "publishedOn": "2023-11-28T20:17:17.000Z",
-          "wordCount": 7565,
+          "wordCount": 9287,
           "title": "Parsing 8-bit integers quickly",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -229,7 +229,7 @@
           "description": "Modern web applications often use the http/https protocols. However, when the server and client needs to talk to each other in a symmetrical fashion, the WebSocket protocol might be preferable. For example, if you want to program a multiplayer video game, the WebSocket protocol is almost surely better than http. In A simple WebSocket benchmark … Continue reading A simple WebSocket benchmark in Python",
           "link": "https://lemire.me/blog/2023/11/28/a-simple-websocket-benchmark-in-python/",
           "publishedOn": "2023-11-28T00:16:12.000Z",
-          "wordCount": 3586,
+          "wordCount": 3599,
           "title": "A simple WebSocket benchmark in Python",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -239,7 +239,7 @@
           "description": "Conventional web applications use the http protocol (or the https variant). The http protocol is essentially asymmetrical: a client application such as a browser issues requests and the server responds. It is not possible for the server to initiate communication with the client. Certain types of applications are therefore more difficult to design. For example, … Continue reading A simple WebSocket benchmark in JavaScript: Node.js versus Bun",
           "link": "https://lemire.me/blog/2023/11/25/a-simple-websocket-benchmark-in-javascript-node-js-versus-bun/",
           "publishedOn": "2023-11-25T19:04:20.000Z",
-          "wordCount": 3838,
+          "wordCount": 3851,
           "title": "A simple WebSocket benchmark in JavaScript: Node.js versus Bun",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -249,18 +249,8 @@
           "description": "Vitamin K2 supplements might reduce the risk of myocardial infarction (heart attacks) and of all-cause death (Hasific et al. 2022). You find vitamin K2 in some Gouda cheeses and in eggs. Most of the water on Earth is salinated (in the oceans) and cannot be consumed. Fresh water is often scarce. Yet Israel is desalinating … Continue reading Science and Technology links (November 12 2023)",
           "link": "https://lemire.me/blog/2023/11/12/science-and-technology-links-november-12-2023/",
           "publishedOn": "2023-11-12T18:42:15.000Z",
-          "wordCount": 3391,
+          "wordCount": 3404,
           "title": "Science and Technology links (November 12 2023)",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20933",
-          "author": "Daniel Lemire",
-          "description": "Suppose that you want to check whether a character in C++ belongs to a fixed set, such as ‘\\0’, ‘\\x09’, ‘\\x0a’,’\\x0d’, ‘ ‘, ‘#’, ‘/’, ‘:’, ‘<‘, ‘>’, ‘?’, ‘@’, ‘[‘, ‘\\\\’, ‘]’, ‘^’, ‘|’. A simple way is to generate a 256-byte array of Boolean values and lookup the value. This approach is sometimes … Continue reading Generating arrays at compile-time in C++ with lambdas",
-          "link": "https://lemire.me/blog/2023/11/07/generating-arrays-at-compile-time-in-c-with-lambdas/",
-          "publishedOn": "2023-11-07T20:54:12.000Z",
-          "wordCount": 3640,
-          "title": "Generating arrays at compile-time in C++ with lambdas",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -270,6 +260,16 @@
       "feedUrl": "https://www.devever.net/~hl/index.feed",
       "siteUrl": "https://www.devever.net/~hl/",
       "articles": [
+        {
+          "id": "https://www.devever.net/~hl/37c3-announce",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">The 37th Chaos Communications Congress (CCC), taking place in Hamburg on the\n27th through 30th December 2023 inclusive, has accepted my talk submission,\n“Adventures in Reverse Engineering Broadcom NIC Firmware”, so I'll be giving a\ntalk there this Christmas. This will follow on from my  by\nthe same name while also covering new ground.<a href=\"ortega\">blog post</a></p></div></div>",
+          "link": "https://www.devever.net/~hl/37c3-announce",
+          "publishedOn": "2023-12-03T13:29:00.000Z",
+          "wordCount": 240,
+          "title": "[Computing] I'll be speaking at 37C3 (and have some spare tickets)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.devever.net/~hl/u/202311#25a",
           "author": null,
@@ -296,7 +296,18 @@
       "title": "apenwarr",
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://apenwarr.ca/log/20231204",
+          "author": null,
+          "description": "The Net Promoter Score (NPS) is a statistically questionable way to turn a\nset of 10-point ratings into a single number you can compare with other\nNPSes. That's not the good part.\nHumans\nTo understand the good parts, first we have to start with humans. Humans\nhave emotions, and those emotions are what they mostly use when asked to\nrate things on a 10-point scale.\nAlmost exactly twenty years ago, I wrote about sitting on a plane next to a\nmusician who told me about music album reviews. The worst\nrating an artist can receive, he said, is a lukewarm one. If people think\nyour music is neutral, it means you didn't make them feel anything at all.\nYou failed. Someone might buy music that reviewers hate, or buy music that\npeople love, but they aren't really that interested in music that is just\nki…",
+          "link": "https://apenwarr.ca/log/20231204",
+          "publishedOn": "2023-12-05T05:01:12.000Z",
+          "wordCount": 2805,
+          "title": "NPS, the good parts",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
