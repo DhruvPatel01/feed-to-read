@@ -4,7 +4,18 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2023/12/17/",
+          "author": null,
+          "description": "This article was discussed on Hacker News and on reddit.\nUsers of mature C libraries conventionally get to choose how memory is\nallocated — that is, when it cannot be avoided entirely. The C\nstandard never laid down a convention — perhaps for the better —\nso each library re-invents an allocator interface. Not all are created\nequal, and most repeat a few fundamental mistakes. Often the interface is\nmerely a token effort, to check off that it’s “supported” without actual\nconsideration to its use. This article describes the critical features of\na practical allocator interface, and demonstrates why they’re important.\nBefore diving into the details, here’s the checklist for library authors:\nAll allocation functions accept a user-defined context pointer.\nThe “free” function accepts the original …",
+          "link": "https://nullprogram.com/blog/2023/12/17/",
+          "publishedOn": "2023-12-17T17:52:26.000Z",
+          "wordCount": 1999,
+          "title": "So you want custom allocator support in your C library",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Max Slater",
@@ -23,7 +34,7 @@
           "description": "Holden Karau Elizabeth Stone Pedro Duarte Chris Stephens Pallavi Phadnis Lee Woodridge Mark Cho Guil Pires Sujay Jain Tristan Reid…",
           "link": "https://netflixtechblog.com/our-first-netflix-data-engineering-summit-f326b0589102?source=rss----2615bd06b42e---4",
           "publishedOn": "2023-12-14T16:54:11.000Z",
-          "wordCount": 1796,
+          "wordCount": 1795,
           "title": "Our First Netflix Data Engineering Summit",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1111/1*0EF4tpjprbMxn8rF_pKyFQ.png"
         },
@@ -56,16 +67,6 @@
           "wordCount": 6345,
           "title": "Causal Machine Learning for Creative Insights",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:504/1*S6h7dLUsWKqjRJ6HKbD6vw.png"
-        },
-        {
-          "id": "https://medium.com/p/b8ba072ddeeb",
-          "author": "Netflix Technology Blog",
-          "description": "by Jun He, Yingyi Zhang, and Pawan Dixit",
-          "link": "https://netflixtechblog.com/incremental-processing-using-netflix-maestro-and-apache-iceberg-b8ba072ddeeb?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-21T05:49:38.000Z",
-          "wordCount": 8026,
-          "title": "Incremental Processing using Netflix Maestro and Apache Iceberg",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1172/1*iIxEBzgYTiqc6J2lkA2lSQ.gif"
         }
       ]
     },
@@ -74,6 +75,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2023/12/19/versions-1618-202-released.html",
+          "author": null,
+          "description": "The Nim team is happy to announce two releases:\nthe latest Nim, version 2.0.2\nLTS release, version 1.6.18\nFor the majority of our users, v2.0.2 contains 63 commits and brings bugfixes and improvements to Nim 2.0.0, released four months ago.\nNOTE: If your program uses threads (--threads:on became the default in the 2.0.x line) please also use the -d:useMalloc switch.\nThis problem will be fixed in 2.0.4, sorry for the inconvenience.\nFor those users who haven’t switched to Nim v2.0 yet, we have released the ninth patch release for Nim 1.6.x.\nIt is a small release with 13 commits.\nNim Community Survey 2023\nBefore going into details of the release, we would like to remind you that 2023 Nim Community Survey is still open, and we would appreciate your input if you haven’t done it already.\nInstall…",
+          "link": "https://nim-lang.org//blog/2023/12/19/versions-1618-202-released.html",
+          "publishedOn": "2023-12-19T00:00:00.000Z",
+          "wordCount": 631,
+          "title": "Versions 2.0.2 and 1.6.18 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2023/12/07/contest-winners.html",
           "author": null,
@@ -97,6 +108,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2023/12/21/retry-loop.html",
+          "author": null,
+          "description": "A post about writing a retry loop. Not a smart post about avoiding thundering heards and resonance.\nA simpleton kind of post about wrangling ifs and fors together to minimize bugs.",
+          "link": "https://matklad.github.io/2023/12/21/retry-loop.html",
+          "publishedOn": "2023-12-21T00:00:00.000Z",
+          "wordCount": 734,
+          "title": "Retry Loop",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2023/12/10/nsfw.html",
           "author": null,

@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-17T00:58:32.936Z</id>
+    <id>urn:2023-12-24T00:57:23.002Z</id>
     <title>osmos::feed</title>
-    <updated>2023-12-17T00:58:32.936Z</updated>
+    <updated>2023-12-24T00:57:23.002Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Retry Loop]]></title>
+        <id>https://matklad.github.io/2023/12/21/retry-loop.html</id>
+        <link href="https://matklad.github.io/2023/12/21/retry-loop.html"/>
+        <updated>2023-12-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A post about writing a retry loop. Not a smart post about avoiding thundering heards and resonance.
+A simpleton kind of post about wrangling ifs and fors together to minimize bugs.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Versions 2.0.2 and 1.6.18 released]]></title>
+        <id>https://nim-lang.org//blog/2023/12/19/versions-1618-202-released.html</id>
+        <link href="https://nim-lang.org//blog/2023/12/19/versions-1618-202-released.html"/>
+        <updated>2023-12-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim team is happy to announce two releases:
+the latest Nim, version 2.0.2
+LTS release, version 1.6.18
+For the majority of our users, v2.0.2 contains 63 commits and brings bugfixes and improvements to Nim 2.0.0, released four months ago.
+NOTE: If your program uses threads (--threads:on became the default in the 2.0.x line) please also use the -d:useMalloc switch.
+This problem will be fixed in 2.0.4, sorry for the inconvenience.
+For those users who haven’t switched to Nim v2.0 yet, we have released the ninth patch release for Nim 1.6.x.
+It is a small release with 13 commits.
+Nim Community Survey 2023
+Before going into details of the release, we would like to remind you that 2023 Nim Community Survey is still open, and we would appreciate your input if you haven’t done it already.
+Install…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So you want custom allocator support in your C library]]></title>
+        <id>https://nullprogram.com/blog/2023/12/17/</id>
+        <link href="https://nullprogram.com/blog/2023/12/17/"/>
+        <updated>2023-12-17T17:52:26.000Z</updated>
+        <summary type="html"><![CDATA[This article was discussed on Hacker News and on reddit.
+Users of mature C libraries conventionally get to choose how memory is
+allocated — that is, when it cannot be avoided entirely. The C
+standard never laid down a convention — perhaps for the better —
+so each library re-invents an allocator interface. Not all are created
+equal, and most repeat a few fundamental mistakes. Often the interface is
+merely a token effort, to check off that it’s “supported” without actual
+consideration to its use. This article describes the critical features of
+a practical allocator interface, and demonstrates why they’re important.
+Before diving into the details, here’s the checklist for library authors:
+All allocation functions accept a user-defined context pointer.
+The “free” function accepts the original …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Our First Netflix Data Engineering Summit]]></title>
         <id>https://medium.com/p/f326b0589102</id>
@@ -191,16 +243,6 @@ CT</a></p></div></div>]]></summary>
         <link href="https://netflixtechblog.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96?source=rss----2615bd06b42e---4"/>
         <updated>2023-11-25T01:27:21.000Z</updated>
         <summary type="html"><![CDATA[A framework to identify the causal impact of successful visual components.]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incremental Processing using Netflix Maestro and Apache Iceberg]]></title>
-        <id>https://medium.com/p/b8ba072ddeeb</id>
-        <link href="https://netflixtechblog.com/incremental-processing-using-netflix-maestro-and-apache-iceberg-b8ba072ddeeb?source=rss----2615bd06b42e---4"/>
-        <updated>2023-11-21T05:49:38.000Z</updated>
-        <summary type="html"><![CDATA[by Jun He, Yingyi Zhang, and Pawan Dixit]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
