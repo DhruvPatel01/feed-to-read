@@ -37,36 +37,6 @@
           "wordCount": 1795,
           "title": "Our First Netflix Data Engineering Summit",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1111/1*0EF4tpjprbMxn8rF_pKyFQ.png"
-        },
-        {
-          "id": "https://medium.com/p/e9e0cb15f2ba",
-          "author": "Netflix Technology Blog",
-          "description": "by  Aditya Mavlankar, Zhi Li, Lukáš Krasula and Christos Bampis",
-          "link": "https://netflixtechblog.com/all-of-netflixs-hdr-video-streaming-is-now-dynamically-optimized-e9e0cb15f2ba?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-29T21:26:33.000Z",
-          "wordCount": 3851,
-          "title": "All of Netflix’s HDR video streaming is now dynamically optimized",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*B5i80MShTsFKuNJNGXjYZQ.png"
-        },
-        {
-          "id": "https://medium.com/p/9340b879176a",
-          "author": "Netflix Technology Blog",
-          "description": "Netflix was thrilled to be the premier sponsor for the 2nd year in a row at the 2023 Conference on Digital Experimentation (CODE@MIT).",
-          "link": "https://netflixtechblog.com/netflix-original-research-mit-code-2023-9340b879176a?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-27T20:59:14.000Z",
-          "wordCount": 1857,
-          "title": "Netflix Original Research: MIT CODE 2023",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:640/0*87ZdDoYnh5R3XGhS"
-        },
-        {
-          "id": "https://medium.com/p/4b0ce22a8a96",
-          "author": "Netflix Technology Blog",
-          "description": "A framework to identify the causal impact of successful visual components.",
-          "link": "https://netflixtechblog.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-25T01:27:21.000Z",
-          "wordCount": 6345,
-          "title": "Causal Machine Learning for Creative Insights",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:504/1*S6h7dLUsWKqjRJ6HKbD6vw.png"
         }
       ]
     },
@@ -109,6 +79,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2023/12/24/ci-dream.html",
+          "author": null,
+          "description": "This is more of an android dream (that one with a unicorn) than a coherent post, but please indulge me.\nIt's a short one at least!",
+          "link": "https://matklad.github.io/2023/12/24/ci-dream.html",
+          "publishedOn": "2023-12-24T00:00:00.000Z",
+          "wordCount": 602,
+          "title": "CI Dream",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2023/12/21/retry-loop.html",
           "author": null,
           "description": "A post about writing a retry loop. Not a smart post about avoiding thundering heards and resonance.\nA simpleton kind of post about wrangling ifs and fors together to minimize bugs.",
@@ -124,7 +104,7 @@
           "description": "Ever since reading\nWhat If We Pretended That a Task = Thread?\nI can't stop thinking about borrowing non-Sync data across .await.\nIn this post, I'd love to take one more look at the problem.",
           "link": "https://matklad.github.io/2023/12/10/nsfw.html",
           "publishedOn": "2023-12-10T00:00:00.000Z",
-          "wordCount": 2073,
+          "wordCount": 2454,
           "title": "Non-Send Futures When?",
           "imageUrl": null
         }
@@ -154,12 +134,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21051",
+          "author": "Daniel Lemire",
+          "description": "Parenting does not appear to be able to determine the personality traits of a child. When the last ice age ended, 12,000 years ago, the Sahara was green and full of life. It turned into a desert about 5,500 years ago. Fadnes et al. claim that the UK population could live 10 years older if … Continue reading Science and Technology links (December 30th 2023)",
+          "link": "https://lemire.me/blog/2023/12/30/science-and-technology-links-december-30th-2023/",
+          "publishedOn": "2023-12-30T20:18:07.000Z",
+          "wordCount": 3257,
+          "title": "Science and Technology links (December 30th 2023)",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=21030",
           "author": "Daniel Lemire",
           "description": "Our computers do not read or write memory in units of bits or even bytes. Rather memory is accessed in small blocks of memory called “cache lines”. For a given system, the cache line size is usually fixed and small (e.g.,  16 to 256 bytes). All Intel/AMD x64 systems I have used relied on a … Continue reading Measuring the size of the cache line empirically",
           "link": "https://lemire.me/blog/2023/12/12/measuring-the-size-of-the-cache-line-empirically/",
           "publishedOn": "2023-12-12T18:17:36.000Z",
-          "wordCount": 3697,
+          "wordCount": 3694,
           "title": "Measuring the size of the cache line empirically",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -169,7 +159,7 @@
           "description": "When programming in a JavaScript environment such as Node.js, you might recover raw data from the network and need to convert the bytes into strings. In a system such as Node.js, you may represent such raw bytes using a Buffer instance. You can conveniently convert a Buffer instance into a JavaScript (mybuffer.toString()). But, maybe surprisingly, … Continue reading Fast Buffer-to-String conversion in JavaScript with a Lookup Table",
           "link": "https://lemire.me/blog/2023/12/08/fast-buffer-to-string-conversion-in-javascript-with-a-lookup-table/",
           "publishedOn": "2023-12-08T05:40:28.000Z",
-          "wordCount": 4520,
+          "wordCount": 4517,
           "title": "Fast Buffer-to-String conversion in JavaScript with a Lookup Table",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -179,38 +169,8 @@
           "description": "When you recover textual content from the disk or from the network, you may expect it to be a Unicode string in UTF-8. It is the most common format. Unfortunately, not all sequences of bytes are valid UTF-8 and accepting invalid UTF-8 without validating it is a security risk. How might you validate a UTF-8 … Continue reading How fast can you validate UTF-8 strings in JavaScript?",
           "link": "https://lemire.me/blog/2023/12/05/how-fast-can-you-validate-utf-8-strings-in-javascript/",
           "publishedOn": "2023-12-05T22:23:52.000Z",
-          "wordCount": 3139,
+          "wordCount": 3136,
           "title": "How fast can you validate UTF-8 strings in JavaScript?",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20970",
-          "author": "Daniel Lemire",
-          "description": "Suppose that you want to parse quickly 8-bit integers (0, 1, 2, …, 254, 255) from an ASCII/UTF-8 string. The problem comes up in the simdzone project lead by Jeroen Koekkoek (NLnet Labs). You are given a string and its length: e.g., ’22’ and length is 2. The naive approach in C might be: int … Continue reading Parsing 8-bit integers quickly",
-          "link": "https://lemire.me/blog/2023/11/28/parsing-8-bit-integers-quickly/",
-          "publishedOn": "2023-11-28T20:17:17.000Z",
-          "wordCount": 9395,
-          "title": "Parsing 8-bit integers quickly",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20964",
-          "author": "Daniel Lemire",
-          "description": "Modern web applications often use the http/https protocols. However, when the server and client needs to talk to each other in a symmetrical fashion, the WebSocket protocol might be preferable. For example, if you want to program a multiplayer video game, the WebSocket protocol is almost surely better than http. In A simple WebSocket benchmark … Continue reading A simple WebSocket benchmark in Python",
-          "link": "https://lemire.me/blog/2023/11/28/a-simple-websocket-benchmark-in-python/",
-          "publishedOn": "2023-11-28T00:16:12.000Z",
-          "wordCount": 3615,
-          "title": "A simple WebSocket benchmark in Python",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=20957",
-          "author": "Daniel Lemire",
-          "description": "Conventional web applications use the http protocol (or the https variant). The http protocol is essentially asymmetrical: a client application such as a browser issues requests and the server responds. It is not possible for the server to initiate communication with the client. Certain types of applications are therefore more difficult to design. For example, … Continue reading A simple WebSocket benchmark in JavaScript: Node.js versus Bun",
-          "link": "https://lemire.me/blog/2023/11/25/a-simple-websocket-benchmark-in-javascript-node-js-versus-bun/",
-          "publishedOn": "2023-11-25T19:04:20.000Z",
-          "wordCount": 3867,
-          "title": "A simple WebSocket benchmark in JavaScript: Node.js versus Bun",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -239,16 +199,6 @@
           "wordCount": 251,
           "title": "[Computing] I'll be speaking at 37C3 (and have some spare tickets)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.devever.net/~hl/u/202311#25a",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><a href=\"https://unmitigatedrisk.com/?p=731\">Towards Greater Accountability: A Proposal for CA Issuance Decision Logs</a></li><li><a href=\"https://unmitigatedrisk.com/?p=729\">Exploring the Potential of Domain Control Notaries for MPDV in WebPKI</a></li></ul><p xmlns=\"http://www.w3.org/1999/xhtml\">Interesting articles by  about\npossible improvements to WebPKI security via more certificate transparency\n(CT)-like technologies. There's also .<a href=\"https://unmitigatedrisk.com/\">Ryan Hurst</a><a href=\"https://www.devever.net/~hl/expect-ct-lite\">my own writings on\nCT</a></p></div></div>",
-          "link": "https://www.devever.net/~hl/u/202311#25a",
-          "publishedOn": "2023-11-25T11:02:58.000Z",
-          "wordCount": 115,
-          "title": "[Hμblog] Towards Greater Accountability: A Proposal for CA Issuance Decision Logs",
-          "imageUrl": null
         }
       ]
     },
@@ -263,7 +213,7 @@
           "description": "The Net Promoter Score (NPS) is a statistically questionable way to turn a\nset of 10-point ratings into a single number you can compare with other\nNPSes. That's not the good part.\nHumans\nTo understand the good parts, first we have to start with humans. Humans\nhave emotions, and those emotions are what they mostly use when asked to\nrate things on a 10-point scale.\nAlmost exactly twenty years ago, I wrote about sitting on a plane next to a\nmusician who told me about music album reviews. The worst\nrating an artist can receive, he said, is a lukewarm one. If people think\nyour music is neutral, it means you didn't make them feel anything at all.\nYou failed. Someone might buy music that reviewers hate, or buy music that\npeople love, but they aren't really that interested in music that is just\nki…",
           "link": "https://apenwarr.ca/log/20231204",
           "publishedOn": "2023-12-05T05:01:12.000Z",
-          "wordCount": 2804,
+          "wordCount": 2807,
           "title": "NPS, the good parts",
           "imageUrl": null
         }

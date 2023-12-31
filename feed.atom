@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-24T00:57:23.002Z</id>
+    <id>urn:2023-12-31T00:58:00.028Z</id>
     <title>osmos::feed</title>
-    <updated>2023-12-24T00:57:23.002Z</updated>
+    <updated>2023-12-31T00:58:00.028Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (December 30th 2023)]]></title>
+        <id>https://lemire.me/blog/?p=21051</id>
+        <link href="https://lemire.me/blog/2023/12/30/science-and-technology-links-december-30th-2023/"/>
+        <updated>2023-12-30T20:18:07.000Z</updated>
+        <summary type="html"><![CDATA[Parenting does not appear to be able to determine the personality traits of a child. When the last ice age ended, 12,000 years ago, the Sahara was green and full of life. It turned into a desert about 5,500 years ago. Fadnes et al. claim that the UK population could live 10 years older if … Continue reading Science and Technology links (December 30th 2023)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CI Dream]]></title>
+        <id>https://matklad.github.io/2023/12/24/ci-dream.html</id>
+        <link href="https://matklad.github.io/2023/12/24/ci-dream.html"/>
+        <updated>2023-12-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is more of an android dream (that one with a unicorn) than a coherent post, but please indulge me.
+It's a short one at least!]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Retry Loop]]></title>
         <id>https://matklad.github.io/2023/12/21/retry-loop.html</id>
@@ -172,79 +193,6 @@ talk there this Christmas. This will follow on from my  by
 the same name while also covering new ground.<a href="ortega">blog post</a></p></div></div>]]></summary>
         <author>
             <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All of Netflix’s HDR video streaming is now dynamically optimized]]></title>
-        <id>https://medium.com/p/e9e0cb15f2ba</id>
-        <link href="https://netflixtechblog.com/all-of-netflixs-hdr-video-streaming-is-now-dynamically-optimized-e9e0cb15f2ba?source=rss----2615bd06b42e---4"/>
-        <updated>2023-11-29T21:26:33.000Z</updated>
-        <summary type="html"><![CDATA[by  Aditya Mavlankar, Zhi Li, Lukáš Krasula and Christos Bampis]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parsing 8-bit integers quickly]]></title>
-        <id>https://lemire.me/blog/?p=20970</id>
-        <link href="https://lemire.me/blog/2023/11/28/parsing-8-bit-integers-quickly/"/>
-        <updated>2023-11-28T20:17:17.000Z</updated>
-        <summary type="html"><![CDATA[Suppose that you want to parse quickly 8-bit integers (0, 1, 2, …, 254, 255) from an ASCII/UTF-8 string. The problem comes up in the simdzone project lead by Jeroen Koekkoek (NLnet Labs). You are given a string and its length: e.g., ’22’ and length is 2. The naive approach in C might be: int … Continue reading Parsing 8-bit integers quickly]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A simple WebSocket benchmark in Python]]></title>
-        <id>https://lemire.me/blog/?p=20964</id>
-        <link href="https://lemire.me/blog/2023/11/28/a-simple-websocket-benchmark-in-python/"/>
-        <updated>2023-11-28T00:16:12.000Z</updated>
-        <summary type="html"><![CDATA[Modern web applications often use the http/https protocols. However, when the server and client needs to talk to each other in a symmetrical fashion, the WebSocket protocol might be preferable. For example, if you want to program a multiplayer video game, the WebSocket protocol is almost surely better than http. In A simple WebSocket benchmark … Continue reading A simple WebSocket benchmark in Python]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netflix Original Research: MIT CODE 2023]]></title>
-        <id>https://medium.com/p/9340b879176a</id>
-        <link href="https://netflixtechblog.com/netflix-original-research-mit-code-2023-9340b879176a?source=rss----2615bd06b42e---4"/>
-        <updated>2023-11-27T20:59:14.000Z</updated>
-        <summary type="html"><![CDATA[Netflix was thrilled to be the premier sponsor for the 2nd year in a row at the 2023 Conference on Digital Experimentation (CODE@MIT).]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A simple WebSocket benchmark in JavaScript: Node.js versus Bun]]></title>
-        <id>https://lemire.me/blog/?p=20957</id>
-        <link href="https://lemire.me/blog/2023/11/25/a-simple-websocket-benchmark-in-javascript-node-js-versus-bun/"/>
-        <updated>2023-11-25T19:04:20.000Z</updated>
-        <summary type="html"><![CDATA[Conventional web applications use the http protocol (or the https variant). The http protocol is essentially asymmetrical: a client application such as a browser issues requests and the server responds. It is not possible for the server to initiate communication with the client. Certain types of applications are therefore more difficult to design. For example, … Continue reading A simple WebSocket benchmark in JavaScript: Node.js versus Bun]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Hμblog] Towards Greater Accountability: A Proposal for CA Issuance Decision Logs]]></title>
-        <id>https://www.devever.net/~hl/u/202311#25a</id>
-        <link href="https://www.devever.net/~hl/u/202311#25a"/>
-        <updated>2023-11-25T11:02:58.000Z</updated>
-        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><ul><li><a href="https://unmitigatedrisk.com/?p=731">Towards Greater Accountability: A Proposal for CA Issuance Decision Logs</a></li><li><a href="https://unmitigatedrisk.com/?p=729">Exploring the Potential of Domain Control Notaries for MPDV in WebPKI</a></li></ul><p xmlns="http://www.w3.org/1999/xhtml">Interesting articles by  about
-possible improvements to WebPKI security via more certificate transparency
-(CT)-like technologies. There's also .<a href="https://unmitigatedrisk.com/">Ryan Hurst</a><a href="https://www.devever.net/~hl/expect-ct-lite">my own writings on
-CT</a></p></div></div>]]></summary>
-        <author>
-            <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Causal Machine Learning for Creative Insights]]></title>
-        <id>https://medium.com/p/4b0ce22a8a96</id>
-        <link href="https://netflixtechblog.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96?source=rss----2615bd06b42e---4"/>
-        <updated>2023-11-25T01:27:21.000Z</updated>
-        <summary type="html"><![CDATA[A framework to identify the causal impact of successful visual components.]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
         </author>
     </entry>
 </feed>
