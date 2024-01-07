@@ -1,10 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-31T00:58:00.028Z</id>
+    <id>urn:2024-01-07T00:59:30.837Z</id>
     <title>osmos::feed</title>
-    <updated>2023-12-31T00:58:00.028Z</updated>
+    <updated>2024-01-07T00:59:30.837Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Of Rats and Ratchets]]></title>
+        <id>https://matklad.github.io/2024/01/03/of-rats-and-ratchets.html</id>
+        <link href="https://matklad.github.io/2024/01/03/of-rats-and-ratchets.html"/>
+        <updated>2024-01-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is going to be related to software engineering, pinky promise!]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git Things]]></title>
+        <id>https://matklad.github.io/2023/12/31/git-things.html</id>
+        <link href="https://matklad.github.io/2023/12/31/git-things.html"/>
+        <updated>2023-12-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A grab bag of less frequently talked about git adjacent points.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[O(1) Build File]]></title>
+        <id>https://matklad.github.io/2023/12/31/O(1)-build-file.html</id>
+        <link href="https://matklad.github.io/2023/12/31/O(1)-build-file.html"/>
+        <updated>2023-12-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rule of thumb: the size of build or CI configuration should be mostly independent of the project size.
+In other words, adding, say, a new test should not require adding a new line to the build file to build the test, and a new line to .yml to run it on CI.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Generating Standalone Haddock Docs for a Multi-package Haskell Project]]></title>
+        <id>https://notes.abhinavsarkar.net/2023/standalone-haddock</id>
+        <link href="https://notes.abhinavsarkar.net/2023/standalone-haddock"/>
+        <updated>2023-12-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>So here’s a thing I recently wanted to do. I am working on a personal Haskell project, and as the
+project grew big, I split it up into multiple packages. Something like <code class="language-plaintext highlighter-rouge">project-core</code>, <code class="language-plaintext highlighter-rouge">project-backend</code>,
+<code class="language-plaintext highlighter-rouge">project-frontend</code> and such. After writing some thousands of lines of code, I decided to put the
+project documentation online. Now, this is not the kind of project that I’d publish as a bunch of
+libraries on <a href="https://hackage.haskell.org/">Hackage</a>. Nevertheless, I wanted to publish the API docs and hyperlinked source code
+online as a self-contained website. Well, turns out, this is a really hard to do with Haskell projects.</p>
+
+<p>Haskell has <a href="http://www.haskell.org/haddock/">Haddock</a>, its documentation generation tool. It generates
+the API docs and sources fine, but not for a self-contained website. You can run <code class="language-plaintext highlighter-rouge">cabal haddock-project</code> in the <code class="language-plaintext highlighter-rouge">--local</code> mode,
+in which all the generated docs will link to other packages’ local docs only. Or you can run it in
+the <code class="language-plaintext highlighter-rouge">--hackage</code> mode, in which the
+docs will link to other packages’ docs on Hackage. In either case, all the hyperlinked source code
+link only to other packages’ local source code. I didn’t want this.</p>
+
+<p>What I wanted was to generate API docs and source code that linked to local ones only for the
+packages in my project, and to the Hackage ones for all my project’s dependency libraries. This just doesn’t
+seem possible with Haddock.</p>
+
+<p>So I did what I had to. I summoned my old self from when I used to work as a Perl<sup id="fnref:fn3" role="doc-noteref"><a href="#fn:fn3" class="footnote" rel="footnote">1</a></sup> programmer
+(my first job decades ago!), and I wrote
+some regexes<sup id="fnref:fn1" role="doc-noteref"><a href="#fn:fn1" class="footnote" rel="footnote">2</a></sup> and a Bash script<sup id="fnref:fn2" role="doc-noteref"><a href="#fn:fn2" class="footnote" rel="footnote">3</a></sup>. It took some experimentation, but I finally got it working. Here it is
+in its full glory:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/usr/bin/env bash</span>
+<span class="nb">set</span> <span class="nt">-euo</span> pipefail
+
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$# </span><span class="nt">-ne</span> 2 <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Usage: </span><span class="nv">$0</span><span class="s2"> &lt;title&gt; &lt;output&gt;"</span>
+    <span class="nb">exit </span>1
+<span class="k">fi
+
+</span><span class="nv">TITLE</span><span class="o">=</span><span class="nv">$1</span>
+<span class="nv">OUTPUT</span><span class="o">=</span><span class="nv">$2</span>
+
+<span class="nv">OS</span><span class="o">=</span><span class="si">$(</span><span class="nb">uname</span> <span class="nt">-s</span><span class="si">)</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="s2">"</span><span class="nv">$OS</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"Darwin"</span> <span class="o">]</span>
+<span class="k">then
+    </span><span class="nv">OS</span><span class="o">=</span><span class="s2">"osx"</span>
+<span class="k">elif</span> <span class="o">[</span> <span class="s2">"</span><span class="nv">$OS</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"Linux"</span> <span class="o">]</span>
+<span class="k">then
+    </span><span class="nv">OS</span><span class="o">=</span><span class="s2">"linux"</span>
+<span class="k">else
+    </span><span class="nb">printf</span> <span class="s2">"OS not supported: %s</span><span class="se">\n</span><span class="s2">"</span> <span class="s2">"</span><span class="nv">$OS</span><span class="s2">"</span> <span class="o">&gt;</span>&amp;2
+    <span class="nb">exit </span>1
+<span class="k">fi
+
+</span><span class="nv">ARCH</span><span class="o">=</span><span class="si">$(</span><span class="nb">uname</span> <span class="nt">-m</span><span class="si">)</span>
+<span class="nv">GHC_VERSION</span><span class="o">=</span><span class="si">$(</span>ghc <span class="nt">--version</span> | <span class="nb">awk</span> <span class="s1">'{print $8}'</span><span class="si">)</span>
+<span class="nv">PKG_NAME</span><span class="o">=</span><span class="si">$(</span><span class="nb">cat</span> ./<span class="k">*</span>.cabal | <span class="nb">grep </span>name | <span class="nb">head</span> <span class="nt">-1</span> | <span class="nb">awk</span> <span class="s1">'{print $2}'</span><span class="si">)</span>
+<span class="nv">PKG_VERSION</span><span class="o">=</span><span class="si">$(</span><span class="nb">cat</span> ./<span class="k">*</span>.cabal | <span class="nb">grep </span>version | <span class="nb">grep</span> <span class="nt">-v</span> cabal | <span class="nb">awk</span> <span class="s1">'{print $2}'</span> | <span class="nb">head</span> <span class="nt">-1</span><span class="si">)</span>
+<span class="nv">BUILD_PATH</span><span class="o">=</span><span class="s2">"dist-newstyle/build/</span><span class="k">${</span><span class="nv">ARCH</span><span class="k">}</span><span class="s2">-</span><span class="k">${</span><span class="nv">OS</span><span class="k">}</span><span class="s2">/ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">/</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">-</span><span class="k">${</span><span class="nv">PKG_VERSION</span><span class="k">}</span><span class="s2">"</span>
+<span class="nv">DOC_PATH</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">BUILD_PATH</span><span class="k">}</span><span class="s2">/l/*/doc/html/</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">"</span>
+
+<span class="nv">temp_files</span><span class="o">=()</span>
+
+cleanup<span class="o">()</span> <span class="o">{</span>
+  <span class="k">for </span>file <span class="k">in</span> <span class="s2">"</span><span class="k">${</span><span class="nv">temp_files</span><span class="p">[@]</span><span class="k">}</span><span class="s2">"</span><span class="p">;</span> <span class="k">do
+        </span><span class="nb">rm</span> <span class="s2">"</span><span class="nv">$file</span><span class="s2">"</span>
+  <span class="k">done</span>
+<span class="o">}</span>
+<span class="nb">trap </span>cleanup EXIT INT TERM
+
+bold_print<span class="o">()</span> <span class="o">{</span>
+  <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"</span><span class="se">\0</span><span class="s2">33[1m</span><span class="nv">$1</span><span class="se">\0</span><span class="s2">33[0m"</span>
+<span class="o">}</span>
+
+<span class="c"># build project</span>
+bold_print <span class="s2">"Building project"</span>
+cabal build <span class="nt">--enable-documentation</span>
+
+<span class="c"># generate docs</span>
+bold_print <span class="s2">"Generating docs"</span>
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"</span><span class="k">${</span><span class="nv">OUTPUT</span><span class="k">}</span><span class="s2">"</span>
+cabal haddock <span class="nt">--haddock-html</span> <span class="se">\</span>
+    <span class="nt">--haddock-quickjump</span> <span class="se">\</span>
+    <span class="nt">--haddock-hyperlink-source</span> <span class="se">\</span>
+    <span class="nt">--haddock-option</span><span class="o">=</span><span class="s2">"--use-index=../doc-index.html"</span> <span class="se">\</span>
+    <span class="nt">--haddock-option</span><span class="o">=</span><span class="s2">"--use-contents=../index.html"</span> <span class="se">\</span>
+    <span class="nt">--haddock-option</span><span class="o">=</span><span class="s2">"--base-url=.."</span> <span class="se">\</span>
+    all
+<span class="nb">cp</span> <span class="nt">-f</span> <span class="nt">-r</span> <span class="k">${</span><span class="nv">DOC_PATH</span><span class="k">}</span>/ <span class="s2">"</span><span class="k">${</span><span class="nv">OUTPUT</span><span class="k">}</span><span class="s2">"</span>
+
+<span class="c"># generate index</span>
+bold_print <span class="s2">"Generating index"</span>
+
+<span class="nv">CMD_FILE1</span><span class="o">=</span><span class="si">$(</span><span class="nb">mktemp</span><span class="si">)</span>
+temp_files+<span class="o">=(</span><span class="s2">"</span><span class="nv">$CMD_FILE1</span><span class="s2">"</span><span class="o">)</span>
+
+<span class="nb">echo</span> <span class="s2">"set -euo pipefail"</span> <span class="o">&gt;</span> <span class="s2">"</span><span class="k">${</span><span class="nv">CMD_FILE1</span><span class="k">}</span><span class="s2">"</span>
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"haddock -t </span><span class="se">\"</span><span class="k">${</span><span class="nv">TITLE</span><span class="k">}</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="k">${</span><span class="nv">OUTPUT</span><span class="k">}</span><span class="se">\"</span><span class="s2"> --quickjump --gen-index --gen-contents "</span> <span class="o">&gt;&gt;</span> <span class="s2">"</span><span class="k">${</span><span class="nv">CMD_FILE1</span><span class="k">}</span><span class="s2">"</span>
+find <span class="k">${</span><span class="nv">DOC_PATH</span><span class="k">}</span>/<span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span>.haddock <span class="nt">-print0</span> | xargs <span class="nt">-0</span> <span class="nt">-I</span> <span class="o">{}</span> <span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"--read-interface=</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">,{} "</span> <span class="o">&gt;&gt;</span> <span class="s2">"</span><span class="k">${</span><span class="nv">CMD_FILE1</span><span class="k">}</span><span class="s2">"</span>
+bash <span class="s2">"</span><span class="k">${</span><span class="nv">CMD_FILE1</span><span class="k">}</span><span class="s2">"</span>
+
+<span class="c"># fix links in hyperlinked source and docs</span>
+<span class="nv">GEN_SRC_PATH</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">OUTPUT</span><span class="k">}</span><span class="s2">/</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">/src/*.html"</span>
+<span class="nv">GEN_DOC_PATH</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">OUTPUT</span><span class="k">}</span><span class="s2">/</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">/*.html"</span>
+
+bold_print <span class="s2">"Fixing links to project subpackages"</span>
+<span class="c"># fix links to source files for project subpackages</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|file:[^</span><span class="se">\"</span><span class="s2">]*?/</span><span class="k">${</span><span class="nv">BUILD_PATH</span><span class="k">}</span><span class="s2">/l/.*?/doc/html/</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">/src/||g"</span> <span class="k">${</span><span class="nv">GEN_SRC_PATH</span><span class="k">}</span>
+<span class="c"># fix links to doc files for project subpackages</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|href=</span><span class="se">\"</span><span class="s2">../</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">/|href=</span><span class="se">\"</span><span class="s2">|g"</span> <span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span>
+
+bold_print <span class="s2">"Fixing links to project dependencies"</span>
+<span class="c"># fix links to doc files for project dependency libraries</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|href=</span><span class="se">\"</span><span class="s2">../([^</span><span class="se">\"</span><span class="s2">]+)/([^</span><span class="se">\"</span><span class="s2">]+)|href=</span><span class="se">\"</span><span class="s2">https://hackage.haskell.org/package/</span><span class="se">\$</span><span class="s2">1/docs/</span><span class="se">\$</span><span class="s2">2|g"</span> <span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span>
+
+bold_print <span class="s2">"Fixing links to libraries in Nix store"</span>
+<span class="c"># fix links to source files for GHC libraries stored in the Nix store</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|file:///nix/store/[</span><span class="se">\d\w</span><span class="s2">]*-ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">-doc/share/doc/ghc/html/libraries/([^</span><span class="se">\"</span><span class="s2">]*)/src/([^</span><span class="se">\"</span><span class="s2">]*)|https://hackage.haskell.org/package/</span><span class="se">\$</span><span class="s2">1/docs/src/</span><span class="se">\$</span><span class="s2">2|g"</span> <span class="k">${</span><span class="nv">GEN_SRC_PATH</span><span class="k">}</span>
+<span class="c"># fix links to doc files for GHC libraries stored in the Nix store</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|file:///nix/store/[</span><span class="se">\d\w</span><span class="s2">]*-ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">-doc/share/doc/ghc/html/libraries/([^</span><span class="se">\"</span><span class="s2">]*)/src|https://hackage.haskell.org/package/</span><span class="se">\$</span><span class="s2">1/docs/src/|g"</span> <span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span>
+
+<span class="c"># fix links to source files for Hackage libraries stored in the Nix store</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|file:///nix/store/[^</span><span class="se">\"</span><span class="s2">]+-doc/share/doc/([^</span><span class="se">\"</span><span class="s2">]+)/html/src/([^</span><span class="se">\"</span><span class="s2">]+)|https://hackage.haskell.org/package/</span><span class="se">\$</span><span class="s2">1/docs/src/</span><span class="se">\$</span><span class="s2">2|g"</span> <span class="k">${</span><span class="nv">GEN_SRC_PATH</span><span class="k">}</span>
+<span class="c"># fix links to doc files for Hackage libraries stored in the Nix store</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|file:///nix/store/[^</span><span class="se">\"</span><span class="s2">]+-doc/share/doc/([^</span><span class="se">\"</span><span class="s2">]+)/html/src|https://hackage.haskell.org/package/</span><span class="se">\$</span><span class="s2">1/docs/src|g"</span> <span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span>
+
+<span class="c"># generate Cabal package short ID to package name mapping</span>
+bold_print <span class="s2">"Generating Cabal package short ID to package name mapping"</span>
+<span class="nv">SHORT_IDS_FILE</span><span class="o">=</span><span class="si">$(</span><span class="nb">mktemp</span><span class="si">)</span>
+temp_files+<span class="o">=(</span><span class="s2">"</span><span class="nv">$SHORT_IDS_FILE</span><span class="s2">"</span><span class="o">)</span>
+
+<span class="nb">grep</span> <span class="nt">-h</span> <span class="nt">-o</span> <span class="nt">-P</span> <span class="s2">"href=</span><span class="se">\"</span><span class="s2">file://[^</span><span class="se">\"</span><span class="s2">]+/</span><span class="se">\.</span><span class="s2">cabal/store/ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">/.+?/"</span> <span class="k">${</span><span class="nv">GEN_SRC_PATH</span><span class="k">}</span> <span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span> | <span class="se">\</span>
+  <span class="nb">sort</span> <span class="nt">-u</span> | <span class="nb">grep</span> <span class="nt">-h</span> <span class="nt">-o</span> <span class="nt">-P</span> <span class="s2">"</span><span class="se">\.</span><span class="s2">cabal/store/ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">/.+?/"</span> | <span class="nb">cut</span> <span class="nt">-d</span> <span class="s1">'/'</span> <span class="nt">-f</span> 4 <span class="o">&gt;</span> <span class="s2">"</span><span class="k">${</span><span class="nv">SHORT_IDS_FILE</span><span class="k">}</span><span class="s2">"</span>
+
+<span class="nv">PKG_NAMES_FILE</span><span class="o">=</span><span class="si">$(</span><span class="nb">mktemp</span><span class="si">)</span>
+temp_files+<span class="o">=(</span><span class="s2">"</span><span class="nv">$PKG_NAMES_FILE</span><span class="s2">"</span><span class="o">)</span>
+
+<span class="nb">grep</span> <span class="nt">-h</span> <span class="nt">-o</span> <span class="nt">-P</span> <span class="s2">"href=</span><span class="se">\"</span><span class="s2">file://[^</span><span class="se">\"</span><span class="s2">]+/</span><span class="se">\.</span><span class="s2">cabal/store/ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">/.+?/"</span> <span class="k">${</span><span class="nv">GEN_SRC_PATH</span><span class="k">}</span> <span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span> | <span class="nb">sort</span> <span class="nt">-u</span> | <span class="se">\</span>
+  <span class="nb">cut</span> <span class="nt">-c</span> 14- | xargs <span class="nt">-I</span> <span class="o">{}</span> <span class="nb">cat</span> <span class="o">{}</span>cabal-hash.txt | <span class="nb">grep</span> <span class="s2">"pkgid:"</span> | <span class="nb">cut</span> <span class="nt">-d</span> <span class="s1">' '</span> <span class="nt">-f</span> 2 <span class="o">&gt;</span> <span class="s2">"</span><span class="k">${</span><span class="nv">PKG_NAMES_FILE</span><span class="k">}</span><span class="s2">"</span>
+
+<span class="nv">CMD_FILE2</span><span class="o">=</span><span class="si">$(</span><span class="nb">mktemp</span><span class="si">)</span>
+temp_files+<span class="o">=(</span><span class="s2">"</span><span class="nv">$CMD_FILE2</span><span class="s2">"</span><span class="o">)</span>
+
+<span class="nb">echo</span> <span class="s2">"set -euo pipefail"</span> <span class="o">&gt;</span> <span class="s2">"</span><span class="k">${</span><span class="nv">CMD_FILE2</span><span class="k">}</span><span class="s2">"</span>
+<span class="nb">paste</span> <span class="nt">-d</span> <span class="s2">" "</span> <span class="s2">"</span><span class="k">${</span><span class="nv">SHORT_IDS_FILE</span><span class="k">}</span><span class="s2">"</span> <span class="s2">"</span><span class="k">${</span><span class="nv">PKG_NAMES_FILE</span><span class="k">}</span><span class="s2">"</span> | <span class="nb">awk</span> <span class="s2">"{print </span><span class="se">\"</span><span class="s2">perl -i -pe </span><span class="se">\\\"</span><span class="s2">s|</span><span class="se">\"\$</span><span class="s2">1</span><span class="se">\"</span><span class="s2">|</span><span class="se">\"\$</span><span class="s2">2</span><span class="se">\"</span><span class="s2">|g</span><span class="se">\\\"</span><span class="s2"> </span><span class="k">${</span><span class="nv">GEN_SRC_PATH</span><span class="k">}</span><span class="s2"> </span><span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span><span class="se">\"</span><span class="s2">}"</span> <span class="o">&gt;&gt;</span> <span class="s2">"</span><span class="k">${</span><span class="nv">CMD_FILE2</span><span class="k">}</span><span class="s2">"</span>
+bash <span class="s2">"</span><span class="k">${</span><span class="nv">CMD_FILE2</span><span class="k">}</span><span class="s2">"</span>
+
+<span class="c"># fix links to doc and source files of libraries stored in the Cabal store</span>
+bold_print <span class="s2">"Fixing links to libraries in Cabal store"</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|href=</span><span class="se">\"</span><span class="s2">file://[^</span><span class="se">\"</span><span class="s2">]+/</span><span class="se">\.</span><span class="s2">cabal/store/ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">/(.+?)/share/doc/html/([^</span><span class="se">\"</span><span class="s2">]+)|href=</span><span class="se">\"</span><span class="s2">https://hackage.haskell.org/package/</span><span class="se">\$</span><span class="s2">1/docs/src/</span><span class="se">\$</span><span class="s2">2|g"</span> <span class="k">${</span><span class="nv">GEN_DOC_PATH</span><span class="k">}</span>
+perl <span class="nt">-i</span> <span class="nt">-pe</span> <span class="s2">"s|href=</span><span class="se">\"</span><span class="s2">file://[^</span><span class="se">\"</span><span class="s2">]+/</span><span class="se">\.</span><span class="s2">cabal/store/ghc-</span><span class="k">${</span><span class="nv">GHC_VERSION</span><span class="k">}</span><span class="s2">/(.+?)/share/doc/html/src|href=</span><span class="se">\"</span><span class="s2">https://hackage.haskell.org/package/</span><span class="se">\$</span><span class="s2">1/docs/src/|g"</span> <span class="k">${</span><span class="nv">GEN_SRC_PATH</span><span class="k">}</span>
+
+<span class="nb">rm</span> <span class="s2">"</span><span class="k">${</span><span class="nv">OUTPUT</span><span class="k">}</span><span class="s2">/</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">/</span><span class="k">${</span><span class="nv">PKG_NAME</span><span class="k">}</span><span class="s2">.haddock"</span>
+bold_print <span class="s2">"Done"</span>
+</code></pre></div></div>
+
+<p>You can invoke this script in your project’s root directory like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash standalone-haddock.sh "My wonderful project" docs
+</code></pre></div></div>
+
+<p>It will generate correctly linked and self-contained docs in the <code class="language-plaintext highlighter-rouge">docs</code> directory. Now you
+can publish this directory on Github pages, or wherever you want.</p>
+
+<p>I hope this script is useful to you. If you know better ways of accomplishing this task, please
+let me know.</p>
+
+<p>You can like, share or comment on this post on <a href="https://fantastic.earth/@abnv/111675766745919140" class="mastodon-link">Mastodon</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:fn3" role="doc-endnote">
+      <p><a href="https://www.xkcd.com/224">Ahmm</a>. <a href="#fnref:fn3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn1" role="doc-endnote">
+      <p>Thankfully, generated HTML files are uniform enough for regex substitutions. <a href="#fnref:fn1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn2" role="doc-endnote">
+      <p><a href="https://www.shellcheck.net/">Shellcheck</a> is an absolute life saver when writing Bash scripts. <a href="#fnref:fn2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></summary>
+        <author>
+            <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Science and Technology links (December 30th 2023)]]></title>
         <id>https://lemire.me/blog/?p=21051</id>
@@ -119,80 +333,6 @@ I can't stop thinking about borrowing non-Sync data across .await.
 In this post, I'd love to take one more look at the problem.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast Buffer-to-String conversion in JavaScript with a Lookup Table]]></title>
-        <id>https://lemire.me/blog/?p=21020</id>
-        <link href="https://lemire.me/blog/2023/12/08/fast-buffer-to-string-conversion-in-javascript-with-a-lookup-table/"/>
-        <updated>2023-12-08T05:40:28.000Z</updated>
-        <summary type="html"><![CDATA[When programming in a JavaScript environment such as Node.js, you might recover raw data from the network and need to convert the bytes into strings. In a system such as Node.js, you may represent such raw bytes using a Buffer instance. You can conveniently convert a Buffer instance into a JavaScript (mybuffer.toString()). But, maybe surprisingly, … Continue reading Fast Buffer-to-String conversion in JavaScript with a Lookup Table]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mastering Nim contest winners]]></title>
-        <id>https://nim-lang.org//blog/2023/12/07/contest-winners.html</id>
-        <link href="https://nim-lang.org//blog/2023/12/07/contest-winners.html"/>
-        <updated>2023-12-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The contest is over!
-A gold crown can be seen by turning the picture upside down:
-We received lots of correct answers!
-Among those who answered correctly, three lucky winners were chosen by random draw.
-An email has been sent to the lucky winners and we hope they reply in time with their postal addresses so that they can receive their signed books before Christmas eve. 
-Due to privacy concerns we will not publish any information about the winners.
-If they want, they can share the information on our forum.
-We thank everybody who has participated and wish you a happy Santa Claus!]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast can you validate UTF-8 strings in JavaScript?]]></title>
-        <id>https://lemire.me/blog/?p=21010</id>
-        <link href="https://lemire.me/blog/2023/12/05/how-fast-can-you-validate-utf-8-strings-in-javascript/"/>
-        <updated>2023-12-05T22:23:52.000Z</updated>
-        <summary type="html"><![CDATA[When you recover textual content from the disk or from the network, you may expect it to be a Unicode string in UTF-8. It is the most common format. Unfortunately, not all sequences of bytes are valid UTF-8 and accepting invalid UTF-8 without validating it is a security risk. How might you validate a UTF-8 … Continue reading How fast can you validate UTF-8 strings in JavaScript?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NPS, the good parts]]></title>
-        <id>https://apenwarr.ca/log/20231204</id>
-        <link href="https://apenwarr.ca/log/20231204"/>
-        <updated>2023-12-05T05:01:12.000Z</updated>
-        <summary type="html"><![CDATA[The Net Promoter Score (NPS) is a statistically questionable way to turn a
-set of 10-point ratings into a single number you can compare with other
-NPSes. That's not the good part.
-Humans
-To understand the good parts, first we have to start with humans. Humans
-have emotions, and those emotions are what they mostly use when asked to
-rate things on a 10-point scale.
-Almost exactly twenty years ago, I wrote about sitting on a plane next to a
-musician who told me about music album reviews. The worst
-rating an artist can receive, he said, is a lukewarm one. If people think
-your music is neutral, it means you didn't make them feel anything at all.
-You failed. Someone might buy music that reviewers hate, or buy music that
-people love, but they aren't really that interested in music that is just
-ki…]]></summary>
-        <author>
-            <name>apenwarr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Computing] I'll be speaking at 37C3 (and have some spare tickets)]]></title>
-        <id>https://www.devever.net/~hl/37c3-announce</id>
-        <link href="https://www.devever.net/~hl/37c3-announce"/>
-        <updated>2023-12-03T13:29:00.000Z</updated>
-        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">The 37th Chaos Communications Congress (CCC), taking place in Hamburg on the
-27th through 30th December 2023 inclusive, has accepted my talk submission,
-“Adventures in Reverse Engineering Broadcom NIC Firmware”, so I'll be giving a
-talk there this Christmas. This will follow on from my  by
-the same name while also covering new ground.<a href="ortega">blog post</a></p></div></div>]]></summary>
-        <author>
-            <name>devever.net/~hl</name>
         </author>
     </entry>
 </feed>

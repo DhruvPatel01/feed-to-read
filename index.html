@@ -22,6 +22,311 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-03 datetime="2024-01-03T00:00:00.000Z">2024-01-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-03 datetime="2024-01-03T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2024/01/03/of-rats-and-ratchets.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Of Rats and Ratchets</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2024/01/03/of-rats-and-ratchets.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>This is going to be related to software engineering, pinky promise!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-31 datetime="2023-12-31T00:00:00.000Z">2023-12-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-31 datetime="2023-12-31T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2023/12/31/git-things.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Git Things</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/12/31/git-things.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>A grab bag of less frequently talked about git adjacent points.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2023/12/31/O(1)-build-file.html"
+                        open
+                      >
+                        <summary class="article-expander__title">O(1) Build File</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2023/12/31/O(1)-build-file.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Rule of thumb: the size of build or CI configuration should be mostly independent of the project size.
+In other words, adding, say, a new test should not require adding a new line to the build file to build the test, and a new line to .yml to run it on CI.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Posts on abhinavsarkar.net</button>
+                  <a class="source-heading__link" href="https://abhinavsarkar.net/feed.atom">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://notes.abhinavsarkar.net/2023/standalone-haddock"
+                        open
+                      >
+                        <summary class="article-expander__title">Generating Standalone Haddock Docs for a Multi-package Haskell Project</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://notes.abhinavsarkar.net/2023/standalone-haddock">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>So here’s a thing I recently wanted to do. I am working on a personal Haskell project, and as the
+project grew big, I split it up into multiple packages. Something like project-core, project-backend,
+project-frontend and such. After writing some thousands of lines of code, I decided to put the
+project documentation online. Now, this is not the kind of project that I’d publish as a bunch of
+libraries on Hackage. Nevertheless, I wanted to publish the API docs and hyperlinked source code
+online as a self-contained website. Well, turns out, this is a really hard to do with Haskell projects.
+Haskell has Haddock, its documentation generation tool. It generates
+the API docs and sources fine, but not for a self-contained website. You can run cabal haddock-project in the --local mode,
+in which all the generated docs will link to other packages’ local docs only. Or you can run it in
+the --hackage mode, in which the
+docs will link to other packages’ docs on Hackage. In either case, all the hyperlinked source code
+link only to other packages’ local source code. I didn’t want this.
+What I wanted was to generate API docs and source code that linked to local ones only for the
+packages in my project, and to the Hackage ones for all my project’s dependency libraries. This just doesn’t
+seem possible with Haddock.
+So I did what I had to. I summoned my old self from when I used to work as a Perl1 programmer
+(my first job decades ago!), and I wrote
+some regexes2 and a Bash script3. It took some experimentation, but I finally got it working. Here it is
+in its full glory:
+
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [ $# -ne 2 ]; then
+    echo &quot;Usage: $0 &lt;title&gt; &lt;output&gt;&quot;
+    exit 1
+fi
+
+TITLE&#x3D;$1
+OUTPUT&#x3D;$2
+
+OS&#x3D;$(uname -s)
+
+if [ &quot;$OS&quot; &#x3D; &quot;Darwin&quot; ]
+then
+    OS&#x3D;&quot;osx&quot;
+elif [ &quot;$OS&quot; &#x3D; &quot;Linux&quot; ]
+then
+    OS&#x3D;&quot;linux&quot;
+else
+    printf &quot;OS not supported: %s\n&quot; &quot;$OS&quot; &gt;&amp;2
+    exit 1
+fi
+
+ARCH&#x3D;$(uname -m)
+GHC_VERSION&#x3D;$(ghc --version | awk &#x27;{print $8}&#x27;)
+PKG_NAME&#x3D;$(cat ./*.cabal | grep name | head -1 | awk &#x27;{print $2}&#x27;)
+PKG_VERSION&#x3D;$(cat ./*.cabal | grep version | grep -v cabal | awk &#x27;{print $2}&#x27; | head -1)
+BUILD_PATH&#x3D;&quot;dist-newstyle/build/${ARCH}-${OS}/ghc-${GHC_VERSION}/${PKG_NAME}-${PKG_VERSION}&quot;
+DOC_PATH&#x3D;&quot;${BUILD_PATH}/l/*/doc/html/${PKG_NAME}&quot;
+
+temp_files&#x3D;()
+
+cleanup() {
+  for file in &quot;${temp_files[@]}&quot;; do
+        rm &quot;$file&quot;
+  done
+}
+trap cleanup EXIT INT TERM
+
+bold_print() {
+  echo -e &quot;\033[1m$1\033[0m&quot;
+}
+
+# build project
+bold_print &quot;Building project&quot;
+cabal build --enable-documentation
+
+# generate docs
+bold_print &quot;Generating docs&quot;
+mkdir -p &quot;${OUTPUT}&quot;
+cabal haddock --haddock-html \
+    --haddock-quickjump \
+    --haddock-hyperlink-source \
+    --haddock-option&#x3D;&quot;--use-index&#x3D;../doc-index.html&quot; \
+    --haddock-option&#x3D;&quot;--use-contents&#x3D;../index.html&quot; \
+    --haddock-option&#x3D;&quot;--base-url&#x3D;..&quot; \
+    all
+cp -f -r ${DOC_PATH}/ &quot;${OUTPUT}&quot;
+
+# generate index
+bold_print &quot;Generating index&quot;
+
+CMD_FILE1&#x3D;$(mktemp)
+temp_files+&#x3D;(&quot;$CMD_FILE1&quot;)
+
+echo &quot;set -euo pipefail&quot; &gt; &quot;${CMD_FILE1}&quot;
+echo -n &quot;haddock -t \&quot;${TITLE}\&quot; -o \&quot;${OUTPUT}\&quot; --quickjump --gen-index --gen-contents &quot; &gt;&gt; &quot;${CMD_FILE1}&quot;
+find ${DOC_PATH}/${PKG_NAME}.haddock -print0 | xargs -0 -I {} echo -n &quot;--read-interface&#x3D;${PKG_NAME},{} &quot; &gt;&gt; &quot;${CMD_FILE1}&quot;
+bash &quot;${CMD_FILE1}&quot;
+
+# fix links in hyperlinked source and docs
+GEN_SRC_PATH&#x3D;&quot;${OUTPUT}/${PKG_NAME}/src/*.html&quot;
+GEN_DOC_PATH&#x3D;&quot;${OUTPUT}/${PKG_NAME}/*.html&quot;
+
+bold_print &quot;Fixing links to project subpackages&quot;
+# fix links to source files for project subpackages
+perl -i -pe &quot;s|file:[^\&quot;]*?/${BUILD_PATH}/l/.*?/doc/html/${PKG_NAME}/src/||g&quot; ${GEN_SRC_PATH}
+# fix links to doc files for project subpackages
+perl -i -pe &quot;s|href&#x3D;\&quot;../${PKG_NAME}/|href&#x3D;\&quot;|g&quot; ${GEN_DOC_PATH}
+
+bold_print &quot;Fixing links to project dependencies&quot;
+# fix links to doc files for project dependency libraries
+perl -i -pe &quot;s|href&#x3D;\&quot;../([^\&quot;]+)/([^\&quot;]+)|href&#x3D;\&quot;https://hackage.haskell.org/package/\$1/docs/\$2|g&quot; ${GEN_DOC_PATH}
+
+bold_print &quot;Fixing links to libraries in Nix store&quot;
+# fix links to source files for GHC libraries stored in the Nix store
+perl -i -pe &quot;s|file:///nix/store/[\d\w]*-ghc-${GHC_VERSION}-doc/share/doc/ghc/html/libraries/([^\&quot;]*)/src/([^\&quot;]*)|https://hackage.haskell.org/package/\$1/docs/src/\$2|g&quot; ${GEN_SRC_PATH}
+# fix links to doc files for GHC libraries stored in the Nix store
+perl -i -pe &quot;s|file:///nix/store/[\d\w]*-ghc-${GHC_VERSION}-doc/share/doc/ghc/html/libraries/([^\&quot;]*)/src|https://hackage.haskell.org/package/\$1/docs/src/|g&quot; ${GEN_DOC_PATH}
+
+# fix links to source files for Hackage libraries stored in the Nix store
+perl -i -pe &quot;s|file:///nix/store/[^\&quot;]+-doc/share/doc/([^\&quot;]+)/html/src/([^\&quot;]+)|https://hackage.haskell.org/package/\$1/docs/src/\$2|g&quot; ${GEN_SRC_PATH}
+# fix links to doc files for Hackage libraries stored in the Nix store
+perl -i -pe &quot;s|file:///nix/store/[^\&quot;]+-doc/share/doc/([^\&quot;]+)/html/src|https://hackage.haskell.org/package/\$1/docs/src|g&quot; ${GEN_DOC_PATH}
+
+# generate Cabal package short ID to package name mapping
+bold_print &quot;Generating Cabal package short ID to package name mapping&quot;
+SHORT_IDS_FILE&#x3D;$(mktemp)
+temp_files+&#x3D;(&quot;$SHORT_IDS_FILE&quot;)
+
+grep -h -o -P &quot;href&#x3D;\&quot;file://[^\&quot;]+/\.cabal/store/ghc-${GHC_VERSION}/.+?/&quot; ${GEN_SRC_PATH} ${GEN_DOC_PATH} | \
+  sort -u | grep -h -o -P &quot;\.cabal/store/ghc-${GHC_VERSION}/.+?/&quot; | cut -d &#x27;/&#x27; -f 4 &gt; &quot;${SHORT_IDS_FILE}&quot;
+
+PKG_NAMES_FILE&#x3D;$(mktemp)
+temp_files+&#x3D;(&quot;$PKG_NAMES_FILE&quot;)
+
+grep -h -o -P &quot;href&#x3D;\&quot;file://[^\&quot;]+/\.cabal/store/ghc-${GHC_VERSION}/.+?/&quot; ${GEN_SRC_PATH} ${GEN_DOC_PATH} | sort -u | \
+  cut -c 14- | xargs -I {} cat {}cabal-hash.txt | grep &quot;pkgid:&quot; | cut -d &#x27; &#x27; -f 2 &gt; &quot;${PKG_NAMES_FILE}&quot;
+
+CMD_FILE2&#x3D;$(mktemp)
+temp_files+&#x3D;(&quot;$CMD_FILE2&quot;)
+
+echo &quot;set -euo pipefail&quot; &gt; &quot;${CMD_FILE2}&quot;
+paste -d &quot; &quot; &quot;${SHORT_IDS_FILE}&quot; &quot;${PKG_NAMES_FILE}&quot; | awk &quot;{print \&quot;perl -i -pe \\\&quot;s|\&quot;\$1\&quot;|\&quot;\$2\&quot;|g\\\&quot; ${GEN_SRC_PATH} ${GEN_DOC_PATH}\&quot;}&quot; &gt;&gt; &quot;${CMD_FILE2}&quot;
+bash &quot;${CMD_FILE2}&quot;
+
+# fix links to doc and source files of libraries stored in the Cabal store
+bold_print &quot;Fixing links to libraries in Cabal store&quot;
+perl -i -pe &quot;s|href&#x3D;\&quot;file://[^\&quot;]+/\.cabal/store/ghc-${GHC_VERSION}/(.+?)/share/doc/html/([^\&quot;]+)|href&#x3D;\&quot;https://hackage.haskell.org/package/\$1/docs/src/\$2|g&quot; ${GEN_DOC_PATH}
+perl -i -pe &quot;s|href&#x3D;\&quot;file://[^\&quot;]+/\.cabal/store/ghc-${GHC_VERSION}/(.+?)/share/doc/html/src|href&#x3D;\&quot;https://hackage.haskell.org/package/\$1/docs/src/|g&quot; ${GEN_SRC_PATH}
+
+rm &quot;${OUTPUT}/${PKG_NAME}/${PKG_NAME}.haddock&quot;
+bold_print &quot;Done&quot;
+
+
+You can invoke this script in your project’s root directory like so:
+
+bash standalone-haddock.sh &quot;My wonderful project&quot; docs
+
+
+It will generate correctly linked and self-contained docs in the docs directory. Now you
+can publish this directory on Github pages, or wherever you want.
+I hope this script is useful to you. If you know better ways of accomplishing this task, please
+let me know.
+You can like, share or comment on this post on Mastodon.
+Ahmm. ↩
+Thankfully, generated HTML files are uniform enough for regex substitutions. ↩
+Shellcheck is an absolute life saver when writing Bash scripts. ↩</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-30 datetime="2023-12-30T20:18:07.000Z">2023-12-30</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-30 datetime="2023-12-30T20:18:07.000Z"></time>
           </button>
@@ -51,7 +356,7 @@
                               <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Parenting does not appear to be able to determine the personality traits of a child. When the last ice age ended, 12,000 years ago, the Sahara was green and full of life. It turned into a desert about 5,500 years ago. Fadnes et al. claim that the UK population could live 10 years older if … Continue reading Science and Technology links (December 30th 2023)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -468,258 +773,10 @@ In this post, I&#x27;d love to take one more look at the problem.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-08 datetime="2023-12-08T05:40:28.000Z">2023-12-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-08 datetime="2023-12-08T05:40:28.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21020"
-                        open
-                      >
-                        <summary class="article-expander__title">Fast Buffer-to-String conversion in JavaScript with a Lookup Table</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2023/12/08/fast-buffer-to-string-conversion-in-javascript-with-a-lookup-table/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>When programming in a JavaScript environment such as Node.js, you might recover raw data from the network and need to convert the bytes into strings. In a system such as Node.js, you may represent such raw bytes using a Buffer instance. You can conveniently convert a Buffer instance into a JavaScript (mybuffer.toString()). But, maybe surprisingly, … Continue reading Fast Buffer-to-String conversion in JavaScript with a Lookup Table</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-07 datetime="2023-12-07T00:00:00.000Z">2023-12-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-07 datetime="2023-12-07T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Nim Programming Language</button>
-                  <a class="source-heading__link" href="https://nim-lang.org//">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://nim-lang.org//blog/2023/12/07/contest-winners.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Mastering Nim contest winners</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://nim-lang.org//blog/2023/12/07/contest-winners.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://nim-lang.org/assets/img/twitter_banner.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The contest is over!
-A gold crown can be seen by turning the picture upside down:
-We received lots of correct answers!
-Among those who answered correctly, three lucky winners were chosen by random draw.
-An email has been sent to the lucky winners and we hope they reply in time with their postal addresses so that they can receive their signed books before Christmas eve. 
-Due to privacy concerns we will not publish any information about the winners.
-If they want, they can share the information on our forum.
-We thank everybody who has participated and wish you a happy Santa Claus!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-05 datetime="2023-12-05T22:23:52.000Z">2023-12-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-05 datetime="2023-12-05T22:23:52.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21010"
-                        open
-                      >
-                        <summary class="article-expander__title">How fast can you validate UTF-8 strings in JavaScript?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2023/12/05/how-fast-can-you-validate-utf-8-strings-in-javascript/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>When you recover textual content from the disk or from the network, you may expect it to be a Unicode string in UTF-8. It is the most common format. Unfortunately, not all sequences of bytes are valid UTF-8 and accepting invalid UTF-8 without validating it is a security risk. How might you validate a UTF-8 … Continue reading How fast can you validate UTF-8 strings in JavaScript?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >apenwarr</button>
-                  <a class="source-heading__link" href="https://apenwarr.ca/log/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://apenwarr.ca/log/20231204"
-                        open
-                      >
-                        <summary class="article-expander__title">NPS, the good parts</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://apenwarr.ca/log/20231204">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The Net Promoter Score (NPS) is a statistically questionable way to turn a
-set of 10-point ratings into a single number you can compare with other
-NPSes. That&#x27;s not the good part.
-Humans
-To understand the good parts, first we have to start with humans. Humans
-have emotions, and those emotions are what they mostly use when asked to
-rate things on a 10-point scale.
-Almost exactly twenty years ago, I wrote about sitting on a plane next to a
-musician who told me about music album reviews. The worst
-rating an artist can receive, he said, is a lukewarm one. If people think
-your music is neutral, it means you didn&#x27;t make them feel anything at all.
-You failed. Someone might buy music that reviewers hate, or buy music that
-people love, but they aren&#x27;t really that interested in music that is just
-ki…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-03 datetime="2023-12-03T13:29:00.000Z">2023-12-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-03 datetime="2023-12-03T13:29:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >devever.net/~hl</button>
-                  <a class="source-heading__link" href="https://www.devever.net/~hl/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.devever.net/~hl/37c3-announce"
-                        open
-                      >
-                        <summary class="article-expander__title">[Computing] I&#x27;ll be speaking at 37C3 (and have some spare tickets)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.devever.net/~hl/37c3-announce">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The 37th Chaos Communications Congress (CCC), taking place in Hamburg on the
-27th through 30th December 2023 inclusive, has accepted my talk submission,
-“Adventures in Reverse Engineering Broadcom NIC Firmware”, so I&#x27;ll be giving a
-talk there this Christmas. This will follow on from my  by
-the same name while also covering new ground.blog post</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/7367394638">
-        <time id="build-timestamp" datetime="2023-12-31T00:58:00.011Z">2023-12-31T00:58:00.011Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/7435032871">
+        <time id="build-timestamp" datetime="2024-01-07T00:59:30.820Z">2024-01-07T00:59:30.820Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
