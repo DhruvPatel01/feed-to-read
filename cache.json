@@ -44,7 +44,7 @@
           "description": "This is the first blog in a multi-part series on how Netflix rebuilt its video processing pipeline with microservices, so we can maintain…",
           "link": "https://netflixtechblog.com/rebuilding-netflix-video-processing-pipeline-with-microservices-4e5e6310e359?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-01-10T23:20:40.000Z",
-          "wordCount": 5142,
+          "wordCount": 5135,
           "title": "Rebuilding Netflix Video Processing Pipeline with Microservices",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Wen2M8BgqhC7Hacc1O2Nqg.png"
         }
@@ -106,16 +106,6 @@
           "wordCount": 762,
           "title": "O(1) Build File",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2023/12/24/ci-dream.html",
-          "author": null,
-          "description": "This is more of an android dream (that one with a unicorn) than a coherent post, but please indulge me.\nIt's a short one at least!",
-          "link": "https://matklad.github.io/2023/12/24/ci-dream.html",
-          "publishedOn": "2023-12-24T00:00:00.000Z",
-          "wordCount": 631,
-          "title": "CI Dream",
-          "imageUrl": null
         }
       ]
     },
@@ -154,12 +144,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21097",
+          "author": "Daniel Lemire",
+          "description": "One of the established and most popular programming languages is the C programming language. It is relatively easy to learn, and highly practical. Maybe surprisingly, the C programming language keeps evolving, slowly and carefully. If you have GCC 13 or LLVM (Clang) 16, you already have a compiler with some of the features from the … Continue reading C23: a slightly better C",
+          "link": "https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/",
+          "publishedOn": "2024-01-21T19:20:10.000Z",
+          "wordCount": 5795,
+          "title": "C23: a slightly better C",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=21092",
           "author": "Daniel Lemire",
           "description": "In my previous post, I described how you can write a C++ program to estimate your read memory bandwidth. It is not very difficult: you allocate a large memory region and you read it as fast as you can. To see how much bandwidth you may have if you use multithreaded applications, you can use … Continue reading How much memory bandwidth do large Amazon instances offer?",
           "link": "https://lemire.me/blog/2024/01/18/how-much-memory-bandwidth-do-large-amazon-instances-offer/",
           "publishedOn": "2024-01-18T15:47:12.000Z",
-          "wordCount": 3190,
+          "wordCount": 3459,
           "title": "How much memory bandwidth do large Amazon instances offer?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -169,7 +169,7 @@
           "description": "One of the limitations of a compute is the memory bandwidth. For the scope of this article, I define “memory bandwidth” as the maximal number of bytes you can bring from memory to the CPU per unit of time. E.g., if your system has 5 GB/s of bandwidth, you can read up to 5 GB … Continue reading Estimating your memory bandwidth",
           "link": "https://lemire.me/blog/2024/01/13/estimating-your-memory-bandwidth/",
           "publishedOn": "2024-01-13T21:00:46.000Z",
-          "wordCount": 3411,
+          "wordCount": 3410,
           "title": "Estimating your memory bandwidth",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -179,7 +179,7 @@
           "description": "Intel and AMD have expanded the x64 instruction sets over time. In particular, the SIMD (Single instruction, multiple data) instructions have become progressively wider and more general: from 64 bits to 128 bits (SSE2), to 256 bits (AVX/AVX2) to 512 bits (AVX-512). Interestingly, many instructions defined on 256 bits registers through AVX/AVX2 are not available … Continue reading Implementing the missing sign instruction in AVX-512",
           "link": "https://lemire.me/blog/2024/01/11/implementing-the-missing-sign-instruction-in-avx-512/",
           "publishedOn": "2024-01-11T19:53:48.000Z",
-          "wordCount": 3712,
+          "wordCount": 3711,
           "title": "Implementing the missing sign instruction in AVX-512",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -189,7 +189,7 @@
           "description": "Parenting does not appear to be able to determine the personality traits of a child. When the last ice age ended, 12,000 years ago, the Sahara was green and full of life. It turned into a desert about 5,500 years ago. Fadnes et al. claim that the UK population could live 10 years older if … Continue reading Science and Technology links (December 30th 2023)",
           "link": "https://lemire.me/blog/2023/12/30/science-and-technology-links-december-30th-2023/",
           "publishedOn": "2023-12-30T20:18:07.000Z",
-          "wordCount": 4115,
+          "wordCount": 4114,
           "title": "Science and Technology links (December 30th 2023)",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }

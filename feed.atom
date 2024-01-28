@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-21T00:59:58.127Z</id>
+    <id>urn:2024-01-28T00:54:50.608Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-21T00:59:58.127Z</updated>
+    <updated>2024-01-28T00:54:50.608Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[C23: a slightly better C]]></title>
+        <id>https://lemire.me/blog/?p=21097</id>
+        <link href="https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/"/>
+        <updated>2024-01-21T19:20:10.000Z</updated>
+        <summary type="html"><![CDATA[One of the established and most popular programming languages is the C programming language. It is relatively easy to learn, and highly practical. Maybe surprisingly, the C programming language keeps evolving, slowly and carefully. If you have GCC 13 or LLVM (Clang) 16, you already have a compiler with some of the features from the … Continue reading C23: a slightly better C]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How much memory bandwidth do large Amazon instances offer?]]></title>
         <id>https://lemire.me/blog/?p=21092</id>
@@ -297,17 +307,6 @@ let me know.</p>
         <summary type="html"><![CDATA[Parenting does not appear to be able to determine the personality traits of a child. When the last ice age ended, 12,000 years ago, the Sahara was green and full of life. It turned into a desert about 5,500 years ago. Fadnes et al. claim that the UK population could live 10 years older if … Continue reading Science and Technology links (December 30th 2023)]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CI Dream]]></title>
-        <id>https://matklad.github.io/2023/12/24/ci-dream.html</id>
-        <link href="https://matklad.github.io/2023/12/24/ci-dream.html"/>
-        <updated>2023-12-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is more of an android dream (that one with a unicorn) than a coherent post, but please indulge me.
-It's a short one at least!]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>
