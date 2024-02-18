@@ -37,7 +37,28 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/cba6c7ed49df",
+          "author": "Netflix Technology Blog",
+          "description": "Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley",
+          "link": "https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-02-13T19:10:28.000Z",
+          "wordCount": 5216,
+          "title": "Sequential A/B Testing Keeps the World Streaming Netflix\nPart 1: Continuous Data",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1024/0*mK01JWbQB9QlCEsL"
+        },
+        {
+          "id": "https://medium.com/p/37f9f88c152d",
+          "author": "Netflix Technology Blog",
+          "description": "by Moshe Kolodny",
+          "link": "https://netflixtechblog.com/introducing-safetest-a-novel-approach-to-front-end-testing-37f9f88c152d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-02-13T16:07:48.000Z",
+          "wordCount": 4174,
+          "title": "Introducing SafeTest: A Novel Approach to Front End Testing",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:995/1*OFmV3PX7Is8X48-V9ryeig.png"
+        }
+      ]
     },
     {
       "title": "Nim Programming Language",
@@ -118,7 +139,7 @@
           "description": "A hash function maps values (e.g., strings) into a fixed number of strings, typically smaller than the original. It is useful to compare quickly two long strings, for example. Instead of comparing the strings, you may compare the hash values. A simple hash function consists in repeatedly multiplying the hash value by some constant B … Continue reading How fast is rolling Karp-Rabin hashing?",
           "link": "https://lemire.me/blog/2024/02/04/how-fast-is-rolling-karp-rabin-hashing/",
           "publishedOn": "2024-02-04T20:29:59.000Z",
-          "wordCount": 3735,
+          "wordCount": 3759,
           "title": "How fast is rolling Karp-Rabin hashing?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -130,26 +151,6 @@
           "publishedOn": "2024-01-21T19:20:10.000Z",
           "wordCount": 5818,
           "title": "C23: a slightly better C",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21092",
-          "author": "Daniel Lemire",
-          "description": "In my previous post, I described how you can write a C++ program to estimate your read memory bandwidth. It is not very difficult: you allocate a large memory region and you read it as fast as you can. To see how much bandwidth you may have if you use multithreaded applications, you can use … Continue reading How much memory bandwidth do large Amazon instances offer?",
-          "link": "https://lemire.me/blog/2024/01/18/how-much-memory-bandwidth-do-large-amazon-instances-offer/",
-          "publishedOn": "2024-01-18T15:47:12.000Z",
-          "wordCount": 3457,
-          "title": "How much memory bandwidth do large Amazon instances offer?",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21076",
-          "author": "Daniel Lemire",
-          "description": "One of the limitations of a compute is the memory bandwidth. For the scope of this article, I define “memory bandwidth” as the maximal number of bytes you can bring from memory to the CPU per unit of time. E.g., if your system has 5 GB/s of bandwidth, you can read up to 5 GB … Continue reading Estimating your memory bandwidth",
-          "link": "https://lemire.me/blog/2024/01/13/estimating-your-memory-bandwidth/",
-          "publishedOn": "2024-01-13T21:00:46.000Z",
-          "wordCount": 3891,
-          "title": "Estimating your memory bandwidth",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]

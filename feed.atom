@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-11T00:55:28.357Z</id>
+    <id>urn:2024-02-18T00:55:03.468Z</id>
     <title>osmos::feed</title>
-    <updated>2024-02-11T00:55:28.357Z</updated>
+    <updated>2024-02-18T00:55:03.468Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Sequential A/B Testing Keeps the World Streaming Netflix
+Part 1: Continuous Data]]></title>
+        <id>https://medium.com/p/cba6c7ed49df</id>
+        <link href="https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df?source=rss----2615bd06b42e---4"/>
+        <updated>2024-02-13T19:10:28.000Z</updated>
+        <summary type="html"><![CDATA[Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing SafeTest: A Novel Approach to Front End Testing]]></title>
+        <id>https://medium.com/p/37f9f88c152d</id>
+        <link href="https://netflixtechblog.com/introducing-safetest-a-novel-approach-to-front-end-testing-37f9f88c152d?source=rss----2615bd06b42e---4"/>
+        <updated>2024-02-13T16:07:48.000Z</updated>
+        <summary type="html"><![CDATA[by Moshe Kolodny]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Window: Live, Constant Time Grep]]></title>
         <id>https://matklad.github.io/2024/02/10/window-live-constant-time-grep.html</id>
@@ -143,26 +164,6 @@ coaches, a train of which I have many memories and which I will dearly miss).</p
         <link href="https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/"/>
         <updated>2024-01-21T19:20:10.000Z</updated>
         <summary type="html"><![CDATA[One of the established and most popular programming languages is the C programming language. It is relatively easy to learn, and highly practical. Maybe surprisingly, the C programming language keeps evolving, slowly and carefully. If you have GCC 13 or LLVM (Clang) 16, you already have a compiler with some of the features from the … Continue reading C23: a slightly better C]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How much memory bandwidth do large Amazon instances offer?]]></title>
-        <id>https://lemire.me/blog/?p=21092</id>
-        <link href="https://lemire.me/blog/2024/01/18/how-much-memory-bandwidth-do-large-amazon-instances-offer/"/>
-        <updated>2024-01-18T15:47:12.000Z</updated>
-        <summary type="html"><![CDATA[In my previous post, I described how you can write a C++ program to estimate your read memory bandwidth. It is not very difficult: you allocate a large memory region and you read it as fast as you can. To see how much bandwidth you may have if you use multithreaded applications, you can use … Continue reading How much memory bandwidth do large Amazon instances offer?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Estimating your memory bandwidth]]></title>
-        <id>https://lemire.me/blog/?p=21076</id>
-        <link href="https://lemire.me/blog/2024/01/13/estimating-your-memory-bandwidth/"/>
-        <updated>2024-01-13T21:00:46.000Z</updated>
-        <summary type="html"><![CDATA[One of the limitations of a compute is the memory bandwidth. For the scope of this article, I define “memory bandwidth” as the maximal number of bytes you can bring from memory to the CPU per unit of time. E.g., if your system has 5 GB/s of bandwidth, you can read up to 5 GB … Continue reading Estimating your memory bandwidth]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
