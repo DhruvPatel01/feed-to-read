@@ -11,7 +11,7 @@
           "description": "If you’ve spent much time developing with Mingw-w64 you’ve likely seen the\nsymbol ___chkstk_ms, perhaps in an error message. It’s a little piece of\nruntime provided by GCC via libgcc which ensures enough of the stack is\ncommitted for the caller’s stack frame. The “function” uses a custom ABI\nand is implemented in assembly. So is the subject of this article, a\nslightly improved implementation soon to be included in w64devkit as\nlibchkstk (-lchkstk).\nThe MSVC toolchain has an identical (x64) or similar (x86) function named\n__chkstk. We’ll discuss that as well, and w64devkit will include x86 and\nx64 implementations, useful when linking with MSVC object files. The new\nx86 __chkstk in particular is also better than the MSVC definition.\nA note on spelling: ___chkstk_ms is spelled with three unde…",
           "link": "https://nullprogram.com/blog/2024/02/05/",
           "publishedOn": "2024-02-05T17:56:05.000Z",
-          "wordCount": 2683,
+          "wordCount": 2795,
           "title": "An improved chkstk function on Windows",
           "imageUrl": null
         },
@@ -110,50 +110,24 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "https://samwho.dev/rss.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://samwho.dev/bloom-filters/",
+          "author": null,
+          "description": ".bf {\n  width: 100%;\n  height: 150px;\n}\n\n@media only screen and (min-width: 320px) and (max-width: 479px) {\n  .bf {\n    height: 200px;\n  }\n}\n\n@media only screen and (min-width: 480px) and (max-width: 676px) {\n  .bf {\n    height: 200px;\n  }\n }\n\n@media only screen and (min-width: 677px) and (max-width: 991px) {\n  .bf {\n    height: 150px;\n  }\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: stretch;\n}\n\ninput {\n    border: 1px solid rgb(119, 119, 119);\n    padding: 0.25rem;\n    border-radius: 0.25rem;\n    height: 2em;\n    line-height: 2em;\n}\n\n.aside {\n  padding: 2rem;\n  width: 100vw;\n  position: relative;\n  margin-left: -50vw;\n  left: 50%;\n  background-color: #eeeeee;\n\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n}\n\n.aside > * …",
+          "link": "https://samwho.dev/bloom-filters/",
+          "publishedOn": "2024-02-19T00:00:00.000Z",
+          "wordCount": 3118,
+          "title": "Bloom Filters",
+          "imageUrl": "https://samwho.dev/images/bloom-filters.png?h=92a20de28f9c649be1ad"
+        }
+      ]
     },
     {
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
       "articles": []
-    },
-    {
-      "title": "Daniel Lemire's blog",
-      "feedUrl": "https://lemire.me/blog/feed/",
-      "siteUrl": "https://lemire.me/blog",
-      "articles": [
-        {
-          "id": "https://lemire.me/blog/?p=21112",
-          "author": "Daniel Lemire",
-          "description": "Intel has release a new generation of server processors (Sapphire Rapids) while the latest AMD technology (Zen 4) is now broadly available. There are extensive comparisons available. Of particular interest is the open benchmark results which assess various aspects of processor speeds, including JSON parsing performance. In these benchmarks, AMD systems appear to dominate. I … Continue reading JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
-          "link": "https://lemire.me/blog/2024/02/09/json-parsing-intel-sapphire-rapids-versus-amd-zen-4/",
-          "publishedOn": "2024-02-09T19:57:29.000Z",
-          "wordCount": 3389,
-          "title": "JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21109",
-          "author": "Daniel Lemire",
-          "description": "A hash function maps values (e.g., strings) into a fixed number of strings, typically smaller than the original. It is useful to compare quickly two long strings, for example. Instead of comparing the strings, you may compare the hash values. A simple hash function consists in repeatedly multiplying the hash value by some constant B … Continue reading How fast is rolling Karp-Rabin hashing?",
-          "link": "https://lemire.me/blog/2024/02/04/how-fast-is-rolling-karp-rabin-hashing/",
-          "publishedOn": "2024-02-04T20:29:59.000Z",
-          "wordCount": 3759,
-          "title": "How fast is rolling Karp-Rabin hashing?",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21097",
-          "author": "Daniel Lemire",
-          "description": "One of the established and most popular programming languages is the C programming language. It is relatively easy to learn, and highly practical. Maybe surprisingly, the C programming language keeps evolving, slowly and carefully. If you have GCC 13 or LLVM (Clang) 16, you already have a compiler with some of the features from the … Continue reading C23: a slightly better C",
-          "link": "https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/",
-          "publishedOn": "2024-01-21T19:20:10.000Z",
-          "wordCount": 5818,
-          "title": "C23: a slightly better C",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        }
-      ]
     },
     {
       "title": "devever.net/~hl",

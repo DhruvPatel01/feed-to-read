@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-18T00:55:03.468Z</id>
+    <id>urn:2024-02-25T00:55:07.671Z</id>
     <title>osmos::feed</title>
-    <updated>2024-02-18T00:55:03.468Z</updated>
+    <updated>2024-02-25T00:55:07.671Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Bloom Filters]]></title>
+        <id>https://samwho.dev/bloom-filters/</id>
+        <link href="https://samwho.dev/bloom-filters/"/>
+        <updated>2024-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[.bf {
+  width: 100%;
+  height: 150px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .bf {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 676px) {
+  .bf {
+    height: 200px;
+  }
+ }
+
+@media only screen and (min-width: 677px) and (max-width: 991px) {
+  .bf {
+    height: 150px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+}
+
+input {
+    border: 1px solid rgb(119, 119, 119);
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    height: 2em;
+    line-height: 2em;
+}
+
+.aside {
+  padding: 2rem;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  background-color: #eeeeee;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aside > * …]]></summary>
+        <author>
+            <name>samwho.dev</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sequential A/B Testing Keeps the World Streaming Netflix
 Part 1: Continuous Data]]></title>
@@ -41,16 +102,6 @@ ideas of rust-analyzer and TigerBeetle!]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4]]></title>
-        <id>https://lemire.me/blog/?p=21112</id>
-        <link href="https://lemire.me/blog/2024/02/09/json-parsing-intel-sapphire-rapids-versus-amd-zen-4/"/>
-        <updated>2024-02-09T19:57:29.000Z</updated>
-        <summary type="html"><![CDATA[Intel has release a new generation of server processors (Sapphire Rapids) while the latest AMD technology (Zen 4) is now broadly available. There are extensive comparisons available. Of particular interest is the open benchmark results which assess various aspects of processor speeds, including JSON parsing performance. In these benchmarks, AMD systems appear to dominate. I … Continue reading JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[An improved chkstk function on Windows]]></title>
         <id>https://nullprogram.com/blog/2024/02/05/</id>
         <link href="https://nullprogram.com/blog/2024/02/05/"/>
@@ -69,16 +120,6 @@ x86 __chkstk in particular is also better than the MSVC definition.
 A note on spelling: ___chkstk_ms is spelled with three unde…]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast is rolling Karp-Rabin hashing?]]></title>
-        <id>https://lemire.me/blog/?p=21109</id>
-        <link href="https://lemire.me/blog/2024/02/04/how-fast-is-rolling-karp-rabin-hashing/"/>
-        <updated>2024-02-04T20:29:59.000Z</updated>
-        <summary type="html"><![CDATA[A hash function maps values (e.g., strings) into a fixed number of strings, typically smaller than the original. It is useful to compare quickly two long strings, for example. Instead of comparing the strings, you may compare the hash values. A simple hash function consists in repeatedly multiplying the hash value by some constant B … Continue reading How fast is rolling Karp-Rabin hashing?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -156,16 +197,6 @@ Express” train designed to replace the venerable HST (Intercity 125 with Mark 
 coaches, a train of which I have many memories and which I will dearly miss).</p></div></div>]]></summary>
         <author>
             <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C23: a slightly better C]]></title>
-        <id>https://lemire.me/blog/?p=21097</id>
-        <link href="https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/"/>
-        <updated>2024-01-21T19:20:10.000Z</updated>
-        <summary type="html"><![CDATA[One of the established and most popular programming languages is the C programming language. It is relatively easy to learn, and highly practical. Maybe surprisingly, the C programming language keeps evolving, slowly and carefully. If you have GCC 13 or LLVM (Clang) 16, you already have a compiler with some of the features from the … Continue reading C23: a slightly better C]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

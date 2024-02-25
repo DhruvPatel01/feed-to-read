@@ -22,6 +22,105 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-19 datetime="2024-02-19T00:00:00.000Z">2024-02-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-19 datetime="2024-02-19T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >samwho.dev</button>
+                  <a class="source-heading__link" href="https://samwho.dev/rss.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://samwho.dev/bloom-filters/"
+                        open
+                      >
+                        <summary class="article-expander__title">Bloom Filters</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://samwho.dev/bloom-filters/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://samwho.dev/images/bloom-filters.png?h&#x3D;92a20de28f9c649be1ad" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>.bf {
+  width: 100%;
+  height: 150px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .bf {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 676px) {
+  .bf {
+    height: 200px;
+  }
+ }
+
+@media only screen and (min-width: 677px) and (max-width: 991px) {
+  .bf {
+    height: 150px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+}
+
+input {
+    border: 1px solid rgb(119, 119, 119);
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    height: 2em;
+    line-height: 2em;
+}
+
+.aside {
+  padding: 2rem;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  background-color: #eeeeee;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aside &gt; * …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-13 datetime="2024-02-13T19:10:28.000Z">2024-02-13</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-13 datetime="2024-02-13T19:10:28.000Z"></time>
           </button>
@@ -142,54 +241,6 @@ ideas of rust-analyzer and TigerBeetle!</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-09 datetime="2024-02-09T19:57:29.000Z">2024-02-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-09 datetime="2024-02-09T19:57:29.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21112"
-                        open
-                      >
-                        <summary class="article-expander__title">JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/02/09/json-parsing-intel-sapphire-rapids-versus-amd-zen-4/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Intel has release a new generation of server processors (Sapphire Rapids) while the latest AMD technology (Zen 4) is now broadly available. There are extensive comparisons available. Of particular interest is the open benchmark results which assess various aspects of processor speeds, including JSON parsing performance. In these benchmarks, AMD systems appear to dominate. I … Continue reading JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-05 datetime="2024-02-05T17:56:05.000Z">2024-02-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-05 datetime="2024-02-05T17:56:05.000Z"></time>
           </button>
@@ -248,45 +299,11 @@ A note on spelling: ___chkstk_ms is spelled with three unde…</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-04 datetime="2024-02-04T20:29:59.000Z">2024-02-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-04 datetime="2024-02-04T20:29:59.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-04 datetime="2024-02-04T11:37:00.000Z">2024-02-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-04 datetime="2024-02-04T11:37:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21109"
-                        open
-                      >
-                        <summary class="article-expander__title">How fast is rolling Karp-Rabin hashing?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/02/04/how-fast-is-rolling-karp-rabin-hashing/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A hash function maps values (e.g., strings) into a fixed number of strings, typically smaller than the original. It is useful to compare quickly two long strings, for example. Instead of comparing the strings, you may compare the hash values. A simple hash function consists in repeatedly multiplying the hash value by some constant B … Continue reading How fast is rolling Karp-Rabin hashing?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -524,58 +541,10 @@ coaches, a train of which I have many memories and which I will dearly miss).</s
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-21 datetime="2024-01-21T19:20:10.000Z">2024-01-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-21 datetime="2024-01-21T19:20:10.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21097"
-                        open
-                      >
-                        <summary class="article-expander__title">C23: a slightly better C</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://lemire.me/img/portrait2018facebook.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>One of the established and most popular programming languages is the C programming language. It is relatively easy to learn, and highly practical. Maybe surprisingly, the C programming language keeps evolving, slowly and carefully. If you have GCC 13 or LLVM (Clang) 16, you already have a compiler with some of the features from the … Continue reading C23: a slightly better C</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/7945444708">
-        <time id="build-timestamp" datetime="2024-02-18T00:55:03.451Z">2024-02-18T00:55:03.451Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/8034394356">
+        <time id="build-timestamp" datetime="2024-02-25T00:55:07.654Z">2024-02-25T00:55:07.654Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
