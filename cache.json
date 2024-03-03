@@ -14,16 +14,6 @@
           "wordCount": 2795,
           "title": "An improved chkstk function on Windows",
           "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2024/01/28/",
-          "author": null,
-          "description": "Over the past couple months I’ve discovered a couple of handy tricks for\nworking with GDB breakpoints. I figured these out on my own, and I’ve not\nseen either discussed elsewhere, so I really ought to share them.\nContinuable assertions\nThe assert macro in typical C implementations leaves a lot to be\ndesired, as does raise and abort, so I’ve suggested\nalternative definitions that behave better under debuggers:\n\n#define assert(c)  while (!(c)) __builtin_trap()\n#define assert(c)  while (!(c)) __builtin_unreachable()\n#define assert(c)  while (!(c)) *(volatile int *)0 = 0\n\n\nEach serves a slightly different purpose but still has the most\nimportant property: Immediately halt the program directly on the defect.\nNone have an occasionally useful secondary property: Optionally allow the\nprogram to co…",
-          "link": "https://nullprogram.com/blog/2024/01/28/",
-          "publishedOn": "2024-01-28T21:56:07.000Z",
-          "wordCount": 1137,
-          "title": "Two handy GDB breakpoint tricks",
-          "imageUrl": null
         }
       ]
     },
@@ -38,6 +28,16 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/6a727c1ae2e5",
+          "author": "Netflix Technology Blog",
+          "description": "By Jose Fernandez",
+          "link": "https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-02-26T16:43:30.000Z",
+          "wordCount": 1371,
+          "title": "Announcing bpftop: Streamlining eBPF performance optimization",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*hLvLcNDb6RljixhN8la-lg.gif"
+        },
         {
           "id": "https://medium.com/p/cba6c7ed49df",
           "author": "Netflix Technology Blog",
@@ -64,18 +64,7 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2024/01/31/community-survey-results-2023.html",
-          "author": null,
-          "description": "The Nim community survey 2023 has been open for two months, and we have received 662 responses – we think this is a large enough sample to draw conclusions about our users and their habits.\nBefore we go into details, we would like to thank all the people who took the time to respond.\nWe really appreciate the feedback!\nThe goal of this survey was primarily to determine how our community is using Nim, in order to better understand how we should be improving it.\nDo you use Nim?\nBased on the answer to this question, the respondents were divided into two groups that each received a separate set of questions.\n\nApproximately three quarters of the respondents use Nim (33% frequently, 40% occasionally), while the remaining quarter is divided between people who never used Nim (10%) and people who st…",
-          "link": "https://nim-lang.org//blog/2024/01/31/community-survey-results-2023.html",
-          "publishedOn": "2024-01-31T00:00:00.000Z",
-          "wordCount": 1186,
-          "title": "Nim Community Survey 2023 Results",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": null,
@@ -88,6 +77,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html",
+          "author": null,
+          "description": "Uplifting a lobste.rs comment to a stand-alone post.",
+          "link": "https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html",
+          "publishedOn": "2024-03-02T00:00:00.000Z",
+          "wordCount": 972,
+          "title": "Kafka versus Nabokov",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2024/02/10/window-live-constant-time-grep.html",
           "author": null,
@@ -130,6 +129,53 @@
       "articles": []
     },
     {
+      "title": "Daniel Lemire's blog",
+      "feedUrl": "https://lemire.me/blog/feed/",
+      "siteUrl": "https://lemire.me/blog",
+      "articles": [
+        {
+          "id": "https://lemire.me/blog/?p=21135",
+          "author": "Daniel Lemire",
+          "description": "When I was young, science fiction was the genre of choice for many engineers and scientists. But the genre declined significantly in recent years. Part of the problem is the rise dystopian fiction. In the imagined future, we are no longer conquering space or developing new fantastic technologies, but rather, increasingly, battling the consequences of … Continue reading Book review: Theft of Fire by Devon Eriksen",
+          "link": "https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/",
+          "publishedOn": "2024-02-24T18:35:03.000Z",
+          "wordCount": 3851,
+          "title": "Book review: Theft of Fire by Devon Eriksen",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21126",
+          "author": "Daniel Lemire",
+          "description": "Modern processor have fancy instructions that can do many operations at one using wide registers: SIMD instructions. Intel and AMD have 512-bit registers and associated instructions under AVX-512. You expect these instructions to use more power, more energy. However, they get the job done faster. Do you save energy overall? You should expect so. Let … Continue reading Measuring energy usage: regular code vs. SIMD code",
+          "link": "https://lemire.me/blog/2024/02/19/measuring-energy-usage-regular-code-vs-simd-code/",
+          "publishedOn": "2024-02-19T21:39:32.000Z",
+          "wordCount": 4085,
+          "title": "Measuring energy usage: regular code vs. SIMD code",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21112",
+          "author": "Daniel Lemire",
+          "description": "Intel has release a new generation of server processors (Sapphire Rapids) while the latest AMD technology (Zen 4) is now broadly available. There are extensive comparisons available. Of particular interest is the open benchmark results which assess various aspects of processor speeds, including JSON parsing performance. In these benchmarks, AMD systems appear to dominate. I … Continue reading JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
+          "link": "https://lemire.me/blog/2024/02/09/json-parsing-intel-sapphire-rapids-versus-amd-zen-4/",
+          "publishedOn": "2024-02-09T19:57:29.000Z",
+          "wordCount": 3780,
+          "title": "JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21109",
+          "author": "Daniel Lemire",
+          "description": "A hash function maps values (e.g., strings) into a fixed number of strings, typically smaller than the original. It is useful to compare quickly two long strings, for example. Instead of comparing the strings, you may compare the hash values. A simple hash function consists in repeatedly multiplying the hash value by some constant B … Continue reading How fast is rolling Karp-Rabin hashing?",
+          "link": "https://lemire.me/blog/2024/02/04/how-fast-is-rolling-karp-rabin-hashing/",
+          "publishedOn": "2024-02-04T20:29:59.000Z",
+          "wordCount": 3766,
+          "title": "How fast is rolling Karp-Rabin hashing?",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        }
+      ]
+    },
+    {
       "title": "devever.net/~hl",
       "feedUrl": "https://www.devever.net/~hl/index.feed",
       "siteUrl": "https://www.devever.net/~hl/",
@@ -152,16 +198,6 @@
           "publishedOn": "2024-02-03T07:31:16.000Z",
           "wordCount": 49,
           "title": "[Hμblog] 37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.devever.net/~hl/traintoilet",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">The other day I rode on a Class 800 train in the UK. This is the “Intercity\nExpress” train designed to replace the venerable HST (Intercity 125 with Mark 3\ncoaches, a train of which I have many memories and which I will dearly miss).</p></div></div>",
-          "link": "https://www.devever.net/~hl/traintoilet",
-          "publishedOn": "2024-01-28T09:08:00.000Z",
-          "wordCount": 867,
-          "title": "[Computing] I hacked a train toilet",
           "imageUrl": null
         }
       ]

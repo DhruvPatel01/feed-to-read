@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-25T00:55:07.671Z</id>
+    <id>urn:2024-03-03T00:54:10.665Z</id>
     <title>osmos::feed</title>
-    <updated>2024-02-25T00:55:07.671Z</updated>
+    <updated>2024-03-03T00:54:10.665Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kafka versus Nabokov]]></title>
+        <id>https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html</id>
+        <link href="https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html"/>
+        <updated>2024-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Uplifting a lobste.rs comment to a stand-alone post.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing bpftop: Streamlining eBPF performance optimization]]></title>
+        <id>https://medium.com/p/6a727c1ae2e5</id>
+        <link href="https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4"/>
+        <updated>2024-02-26T16:43:30.000Z</updated>
+        <summary type="html"><![CDATA[By Jose Fernandez]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Book review: Theft of Fire by Devon Eriksen]]></title>
+        <id>https://lemire.me/blog/?p=21135</id>
+        <link href="https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/"/>
+        <updated>2024-02-24T18:35:03.000Z</updated>
+        <summary type="html"><![CDATA[When I was young, science fiction was the genre of choice for many engineers and scientists. But the genre declined significantly in recent years. Part of the problem is the rise dystopian fiction. In the imagined future, we are no longer conquering space or developing new fantastic technologies, but rather, increasingly, battling the consequences of … Continue reading Book review: Theft of Fire by Devon Eriksen]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Measuring energy usage: regular code vs. SIMD code]]></title>
+        <id>https://lemire.me/blog/?p=21126</id>
+        <link href="https://lemire.me/blog/2024/02/19/measuring-energy-usage-regular-code-vs-simd-code/"/>
+        <updated>2024-02-19T21:39:32.000Z</updated>
+        <summary type="html"><![CDATA[Modern processor have fancy instructions that can do many operations at one using wide registers: SIMD instructions. Intel and AMD have 512-bit registers and associated instructions under AVX-512. You expect these instructions to use more power, more energy. However, they get the job done faster. Do you save energy overall? You should expect so. Let … Continue reading Measuring energy usage: regular code vs. SIMD code]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bloom Filters]]></title>
         <id>https://samwho.dev/bloom-filters/</id>
@@ -102,6 +142,16 @@ ideas of rust-analyzer and TigerBeetle!]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4]]></title>
+        <id>https://lemire.me/blog/?p=21112</id>
+        <link href="https://lemire.me/blog/2024/02/09/json-parsing-intel-sapphire-rapids-versus-amd-zen-4/"/>
+        <updated>2024-02-09T19:57:29.000Z</updated>
+        <summary type="html"><![CDATA[Intel has release a new generation of server processors (Sapphire Rapids) while the latest AMD technology (Zen 4) is now broadly available. There are extensive comparisons available. Of particular interest is the open benchmark results which assess various aspects of processor speeds, including JSON parsing performance. In these benchmarks, AMD systems appear to dominate. I … Continue reading JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[An improved chkstk function on Windows]]></title>
         <id>https://nullprogram.com/blog/2024/02/05/</id>
         <link href="https://nullprogram.com/blog/2024/02/05/"/>
@@ -123,6 +173,16 @@ A note on spelling: ___chkstk_ms is spelled with three unde…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How fast is rolling Karp-Rabin hashing?]]></title>
+        <id>https://lemire.me/blog/?p=21109</id>
+        <link href="https://lemire.me/blog/2024/02/04/how-fast-is-rolling-karp-rabin-hashing/"/>
+        <updated>2024-02-04T20:29:59.000Z</updated>
+        <summary type="html"><![CDATA[A hash function maps values (e.g., strings) into a fixed number of strings, typically smaller than the original. It is useful to compare quickly two long strings, for example. Instead of comparing the strings, you may compare the hash values. A simple hash function consists in repeatedly multiplying the hash value by some constant B … Continue reading How fast is rolling Karp-Rabin hashing?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[Computing] The Bootstrapping Exam: Escaping from “Trusting Trust”]]></title>
         <id>https://www.devever.net/~hl/bootstrapping-exam</id>
         <link href="https://www.devever.net/~hl/bootstrapping-exam"/>
@@ -140,61 +200,6 @@ possible, and it makes for an interesting discussion.<em>extremely</em></p></div
         <link href="https://www.devever.net/~hl/u/202402#03a"/>
         <updated>2024-02-03T07:31:16.000Z</updated>
         <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><ul><li><a href="https://media.ccc.de/v/37c3-11781-adventures_in_reverse_engineering_broadcom_nic_firmware">37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware</a></li></ul><p xmlns="http://www.w3.org/1999/xhtml">For those that missed it, a recording of my talk at 37C3 can be found here.</p></div></div>]]></summary>
-        <author>
-            <name>devever.net/~hl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nim Community Survey 2023 Results]]></title>
-        <id>https://nim-lang.org//blog/2024/01/31/community-survey-results-2023.html</id>
-        <link href="https://nim-lang.org//blog/2024/01/31/community-survey-results-2023.html"/>
-        <updated>2024-01-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim community survey 2023 has been open for two months, and we have received 662 responses – we think this is a large enough sample to draw conclusions about our users and their habits.
-Before we go into details, we would like to thank all the people who took the time to respond.
-We really appreciate the feedback!
-The goal of this survey was primarily to determine how our community is using Nim, in order to better understand how we should be improving it.
-Do you use Nim?
-Based on the answer to this question, the respondents were divided into two groups that each received a separate set of questions.
-
-Approximately three quarters of the respondents use Nim (33% frequently, 40% occasionally), while the remaining quarter is divided between people who never used Nim (10%) and people who st…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two handy GDB breakpoint tricks]]></title>
-        <id>https://nullprogram.com/blog/2024/01/28/</id>
-        <link href="https://nullprogram.com/blog/2024/01/28/"/>
-        <updated>2024-01-28T21:56:07.000Z</updated>
-        <summary type="html"><![CDATA[Over the past couple months I’ve discovered a couple of handy tricks for
-working with GDB breakpoints. I figured these out on my own, and I’ve not
-seen either discussed elsewhere, so I really ought to share them.
-Continuable assertions
-The assert macro in typical C implementations leaves a lot to be
-desired, as does raise and abort, so I’ve suggested
-alternative definitions that behave better under debuggers:
-
-#define assert(c)  while (!(c)) __builtin_trap()
-#define assert(c)  while (!(c)) __builtin_unreachable()
-#define assert(c)  while (!(c)) *(volatile int *)0 = 0
-
-
-Each serves a slightly different purpose but still has the most
-important property: Immediately halt the program directly on the defect.
-None have an occasionally useful secondary property: Optionally allow the
-program to co…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Computing] I hacked a train toilet]]></title>
-        <id>https://www.devever.net/~hl/traintoilet</id>
-        <link href="https://www.devever.net/~hl/traintoilet"/>
-        <updated>2024-01-28T09:08:00.000Z</updated>
-        <summary type="html"><![CDATA[<div type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml">The other day I rode on a Class 800 train in the UK. This is the “Intercity
-Express” train designed to replace the venerable HST (Intercity 125 with Mark 3
-coaches, a train of which I have many memories and which I will dearly miss).</p></div></div>]]></summary>
         <author>
             <name>devever.net/~hl</name>
         </author>
