@@ -6,13 +6,13 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
-          "id": "https://nullprogram.com/blog/2024/02/05/",
+          "id": "https://nullprogram.com/blog/2024/03/05/",
           "author": null,
-          "description": "If you’ve spent much time developing with Mingw-w64 you’ve likely seen the\nsymbol ___chkstk_ms, perhaps in an error message. It’s a little piece of\nruntime provided by GCC via libgcc which ensures enough of the stack is\ncommitted for the caller’s stack frame. The “function” uses a custom ABI\nand is implemented in assembly. So is the subject of this article, a\nslightly improved implementation soon to be included in w64devkit as\nlibchkstk (-lchkstk).\nThe MSVC toolchain has an identical (x64) or similar (x86) function named\n__chkstk. We’ll discuss that as well, and w64devkit will include x86 and\nx64 implementations, useful when linking with MSVC object files. The new\nx86 __chkstk in particular is also better than the MSVC definition.\nA note on spelling: ___chkstk_ms is spelled with three unde…",
-          "link": "https://nullprogram.com/blog/2024/02/05/",
-          "publishedOn": "2024-02-05T17:56:05.000Z",
-          "wordCount": 2795,
-          "title": "An improved chkstk function on Windows",
+          "description": "After a year I’ve finally came up with an elegant solution to a vexing\nu-config problem. The pkg-config format uses macros to generate build\nflags through recursive expansion. Some flags embed file system paths, but\nto the macro system it’s all strings. The output is also ultimately just\none big string, which the receiving shell splits into fields. If\na path contains spaces, or shell metacharacters, u-config must escape them\nso that shells treat them as part of a token. But how can u-config itself\ndistinguish incidental spaces in paths from deliberate spaces between\nflags? What about other shell metacharacters in paths? My solution is to\nextend UTF-8 to encode metadata that survives macro expansion.\nAs usual, it helps to begin with a concrete example of the problem. The\nfollowing is a conv…",
+          "link": "https://nullprogram.com/blog/2024/03/05/",
+          "publishedOn": "2024-03-05T03:15:12.000Z",
+          "wordCount": 1101,
+          "title": "Protecting paths in macro expansions by extending UTF-8",
           "imageUrl": null
         }
       ]
@@ -28,6 +28,36 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/2d2e6b6d205d",
+          "author": "Netflix Technology Blog",
+          "description": "David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu",
+          "link": "https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-03-07T18:33:07.000Z",
+          "wordCount": 6313,
+          "title": "Supporting Diverse ML Systems at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*4hoAg4FX6oeua708alTMlA.png"
+        },
+        {
+          "id": "https://medium.com/p/256629c9386b",
+          "author": "Netflix Technology Blog",
+          "description": "The surprising and not so surprising benefits of generations in the Z Garbage Collector.",
+          "link": "https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-03-06T01:35:08.000Z",
+          "wordCount": 3115,
+          "title": "Bending pause times to your will with Generational ZGC",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*GuEZ-RMhzNnYgLQd"
+        },
+        {
+          "id": "https://medium.com/p/039d5efd115b",
+          "author": "Netflix Technology Blog",
+          "description": "by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit",
+          "link": "https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-03-04T18:01:55.000Z",
+          "wordCount": 6839,
+          "title": "Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*2eENd1mhwyGpMWNccEwqlQ.png"
+        },
         {
           "id": "https://medium.com/p/6a727c1ae2e5",
           "author": "Netflix Technology Blog",
@@ -134,12 +164,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21150",
+          "author": "Daniel Lemire",
+          "description": "Canada has several political parties with elected member of parliament: the Liberals, the Conservatives, the Bloc Québecois, de NDP and the Green. But do they behave as distinct political parties when voting, or are they somehow aligned? Voting data for the member of parliament in Canada is easily accessible as JSON or XML. Thus I … Continue reading How many political parties rule Canada? Fun with statistics",
+          "link": "https://lemire.me/blog/2024/03/08/how-many-political-parties-rule-canada-fun-with-statistics/",
+          "publishedOn": "2024-03-08T15:59:04.000Z",
+          "wordCount": 3222,
+          "title": "How many political parties rule Canada? Fun with statistics",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=21135",
           "author": "Daniel Lemire",
           "description": "When I was young, science fiction was the genre of choice for many engineers and scientists. But the genre declined significantly in recent years. Part of the problem is the rise dystopian fiction. In the imagined future, we are no longer conquering space or developing new fantastic technologies, but rather, increasingly, battling the consequences of … Continue reading Book review: Theft of Fire by Devon Eriksen",
           "link": "https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/",
           "publishedOn": "2024-02-24T18:35:03.000Z",
-          "wordCount": 3851,
+          "wordCount": 3858,
           "title": "Book review: Theft of Fire by Devon Eriksen",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -149,7 +189,7 @@
           "description": "Modern processor have fancy instructions that can do many operations at one using wide registers: SIMD instructions. Intel and AMD have 512-bit registers and associated instructions under AVX-512. You expect these instructions to use more power, more energy. However, they get the job done faster. Do you save energy overall? You should expect so. Let … Continue reading Measuring energy usage: regular code vs. SIMD code",
           "link": "https://lemire.me/blog/2024/02/19/measuring-energy-usage-regular-code-vs-simd-code/",
           "publishedOn": "2024-02-19T21:39:32.000Z",
-          "wordCount": 4085,
+          "wordCount": 4081,
           "title": "Measuring energy usage: regular code vs. SIMD code",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -159,18 +199,8 @@
           "description": "Intel has release a new generation of server processors (Sapphire Rapids) while the latest AMD technology (Zen 4) is now broadly available. There are extensive comparisons available. Of particular interest is the open benchmark results which assess various aspects of processor speeds, including JSON parsing performance. In these benchmarks, AMD systems appear to dominate. I … Continue reading JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
           "link": "https://lemire.me/blog/2024/02/09/json-parsing-intel-sapphire-rapids-versus-amd-zen-4/",
           "publishedOn": "2024-02-09T19:57:29.000Z",
-          "wordCount": 3780,
+          "wordCount": 3776,
           "title": "JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21109",
-          "author": "Daniel Lemire",
-          "description": "A hash function maps values (e.g., strings) into a fixed number of strings, typically smaller than the original. It is useful to compare quickly two long strings, for example. Instead of comparing the strings, you may compare the hash values. A simple hash function consists in repeatedly multiplying the hash value by some constant B … Continue reading How fast is rolling Karp-Rabin hashing?",
-          "link": "https://lemire.me/blog/2024/02/04/how-fast-is-rolling-karp-rabin-hashing/",
-          "publishedOn": "2024-02-04T20:29:59.000Z",
-          "wordCount": 3766,
-          "title": "How fast is rolling Karp-Rabin hashing?",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
@@ -179,28 +209,7 @@
       "title": "devever.net/~hl",
       "feedUrl": "https://www.devever.net/~hl/index.feed",
       "siteUrl": "https://www.devever.net/~hl/",
-      "articles": [
-        {
-          "id": "https://www.devever.net/~hl/bootstrapping-exam",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p xmlns=\"http://www.w3.org/1999/xhtml\">The following is an “exam”. To my knowledge, nobody has ever passed it, as it\nis an  difficult challenge. But I am firmly convinced it is\npossible, and it makes for an interesting discussion.<em>extremely</em></p></div></div>",
-          "link": "https://www.devever.net/~hl/bootstrapping-exam",
-          "publishedOn": "2024-02-04T11:37:00.000Z",
-          "wordCount": 1576,
-          "title": "[Computing] The Bootstrapping Exam: Escaping from “Trusting Trust”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.devever.net/~hl/u/202402#03a",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><a href=\"https://media.ccc.de/v/37c3-11781-adventures_in_reverse_engineering_broadcom_nic_firmware\">37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware</a></li></ul><p xmlns=\"http://www.w3.org/1999/xhtml\">For those that missed it, a recording of my talk at 37C3 can be found here.</p></div></div>",
-          "link": "https://www.devever.net/~hl/u/202402#03a",
-          "publishedOn": "2024-02-03T07:31:16.000Z",
-          "wordCount": 49,
-          "title": "[Hμblog] 37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "apenwarr",
