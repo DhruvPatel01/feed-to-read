@@ -67,26 +67,6 @@
           "wordCount": 1371,
           "title": "Announcing bpftop: Streamlining eBPF performance optimization",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*hLvLcNDb6RljixhN8la-lg.gif"
-        },
-        {
-          "id": "https://medium.com/p/cba6c7ed49df",
-          "author": "Netflix Technology Blog",
-          "description": "Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley",
-          "link": "https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-02-13T19:10:28.000Z",
-          "wordCount": 5216,
-          "title": "Sequential A/B Testing Keeps the World Streaming Netflix\nPart 1: Continuous Data",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1024/0*mK01JWbQB9QlCEsL"
-        },
-        {
-          "id": "https://medium.com/p/37f9f88c152d",
-          "author": "Netflix Technology Blog",
-          "description": "by Moshe Kolodny",
-          "link": "https://netflixtechblog.com/introducing-safetest-a-novel-approach-to-front-end-testing-37f9f88c152d?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-02-13T16:07:48.000Z",
-          "wordCount": 4174,
-          "title": "Introducing SafeTest: A Novel Approach to Front End Testing",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:995/1*OFmV3PX7Is8X48-V9ryeig.png"
         }
       ]
     },
@@ -113,18 +93,8 @@
           "description": "Uplifting a lobste.rs comment to a stand-alone post.",
           "link": "https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html",
           "publishedOn": "2024-03-02T00:00:00.000Z",
-          "wordCount": 972,
+          "wordCount": 973,
           "title": "Kafka versus Nabokov",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/02/10/window-live-constant-time-grep.html",
-          "author": null,
-          "description": "In this post, I describe the design of window --- a small\ngrep-like utility I implemented in 500 lines of Rust. The utility itself is likely not that\ninteresting --- I bet some greybeared can implement an equivalent in 5 lines of bash. But the\ndesign principles behind it might be interesting --- this small utility manages to combine core\nideas of rust-analyzer and TigerBeetle!",
-          "link": "https://matklad.github.io/2024/02/10/window-live-constant-time-grep.html",
-          "publishedOn": "2024-02-10T00:00:00.000Z",
-          "wordCount": 1610,
-          "title": "Window: Live, Constant Time Grep",
           "imageUrl": null
         }
       ]
@@ -164,12 +134,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21158",
+          "author": "Daniel Lemire",
+          "description": "Suppose you need to read several files on a server using JavaScript. There are many ways to read files in JavaScript with a runtime like Node.js. Which one is best? Let us consider the various approaches. Using fs.promises const fs = require('fs/promises'); const readFile = fs.readFile; readFile(\"lipsum.txt\", { encoding: 'utf-8' }) .then((data) => {...}) .catch((err) … Continue reading How to read files quickly in JavaScript",
+          "link": "https://lemire.me/blog/2024/03/12/how-to-read-files-quickly-in-javascript/",
+          "publishedOn": "2024-03-12T15:43:09.000Z",
+          "wordCount": 3439,
+          "title": "How to read files quickly in JavaScript",
+          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=21150",
           "author": "Daniel Lemire",
           "description": "Canada has several political parties with elected member of parliament: the Liberals, the Conservatives, the Bloc Québecois, de NDP and the Green. But do they behave as distinct political parties when voting, or are they somehow aligned? Voting data for the member of parliament in Canada is easily accessible as JSON or XML. Thus I … Continue reading How many political parties rule Canada? Fun with statistics",
           "link": "https://lemire.me/blog/2024/03/08/how-many-political-parties-rule-canada-fun-with-statistics/",
           "publishedOn": "2024-03-08T15:59:04.000Z",
-          "wordCount": 3222,
+          "wordCount": 3234,
           "title": "How many political parties rule Canada? Fun with statistics",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -179,7 +159,7 @@
           "description": "When I was young, science fiction was the genre of choice for many engineers and scientists. But the genre declined significantly in recent years. Part of the problem is the rise dystopian fiction. In the imagined future, we are no longer conquering space or developing new fantastic technologies, but rather, increasingly, battling the consequences of … Continue reading Book review: Theft of Fire by Devon Eriksen",
           "link": "https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/",
           "publishedOn": "2024-02-24T18:35:03.000Z",
-          "wordCount": 3858,
+          "wordCount": 3861,
           "title": "Book review: Theft of Fire by Devon Eriksen",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         },
@@ -189,18 +169,8 @@
           "description": "Modern processor have fancy instructions that can do many operations at one using wide registers: SIMD instructions. Intel and AMD have 512-bit registers and associated instructions under AVX-512. You expect these instructions to use more power, more energy. However, they get the job done faster. Do you save energy overall? You should expect so. Let … Continue reading Measuring energy usage: regular code vs. SIMD code",
           "link": "https://lemire.me/blog/2024/02/19/measuring-energy-usage-regular-code-vs-simd-code/",
           "publishedOn": "2024-02-19T21:39:32.000Z",
-          "wordCount": 4081,
+          "wordCount": 4084,
           "title": "Measuring energy usage: regular code vs. SIMD code",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21112",
-          "author": "Daniel Lemire",
-          "description": "Intel has release a new generation of server processors (Sapphire Rapids) while the latest AMD technology (Zen 4) is now broadly available. There are extensive comparisons available. Of particular interest is the open benchmark results which assess various aspects of processor speeds, including JSON parsing performance. In these benchmarks, AMD systems appear to dominate. I … Continue reading JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
-          "link": "https://lemire.me/blog/2024/02/09/json-parsing-intel-sapphire-rapids-versus-amd-zen-4/",
-          "publishedOn": "2024-02-09T19:57:29.000Z",
-          "wordCount": 3776,
-          "title": "JSON Parsing: Intel Sapphire Rapids versus AMD Zen 4",
           "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
         }
       ]
