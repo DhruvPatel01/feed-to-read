@@ -29,6 +29,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/da6805341642",
+          "author": "Netflix Technology Blog",
+          "description": "Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley",
+          "link": "https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-03-18T12:46:46.000Z",
+          "wordCount": 3862,
+          "title": "Sequential Testing Keeps the World Streaming Netflix Part 2: Counting Processes",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1024/1*7DNyGA0x7r7msS7w1Zpvpw.jpeg"
+        },
+        {
           "id": "https://medium.com/p/2d2e6b6d205d",
           "author": "Netflix Technology Blog",
           "description": "David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu",
@@ -88,6 +98,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2024/03/21/defer-patterns.html",
+          "author": null,
+          "description": "A short note about some unexpected usages of Zig's defer statement.",
+          "link": "https://matklad.github.io/2024/03/21/defer-patterns.html",
+          "publishedOn": "2024-03-21T00:00:00.000Z",
+          "wordCount": 825,
+          "title": "Zig defer Patterns",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html",
           "author": null,
           "description": "Uplifting a lobste.rs comment to a stand-alone post.",
@@ -109,18 +129,7 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "https://samwho.dev/rss.xml",
-      "articles": [
-        {
-          "id": "https://samwho.dev/bloom-filters/",
-          "author": null,
-          "description": ".bf {\n  width: 100%;\n  height: 150px;\n}\n\n@media only screen and (min-width: 320px) and (max-width: 479px) {\n  .bf {\n    height: 200px;\n  }\n}\n\n@media only screen and (min-width: 480px) and (max-width: 676px) {\n  .bf {\n    height: 200px;\n  }\n }\n\n@media only screen and (min-width: 677px) and (max-width: 991px) {\n  .bf {\n    height: 150px;\n  }\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: stretch;\n}\n\ninput {\n    border: 1px solid rgb(119, 119, 119);\n    padding: 0.25rem;\n    border-radius: 0.25rem;\n    height: 2em;\n    line-height: 2em;\n}\n\n.aside {\n  padding: 2rem;\n  width: 100vw;\n  position: relative;\n  margin-left: -50vw;\n  left: 50%;\n  background-color: #eeeeee;\n\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n}\n\n.aside > * …",
-          "link": "https://samwho.dev/bloom-filters/",
-          "publishedOn": "2024-02-19T00:00:00.000Z",
-          "wordCount": 3118,
-          "title": "Bloom Filters",
-          "imageUrl": "https://samwho.dev/images/bloom-filters.png?h=92a20de28f9c649be1ad"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Posts on abhinavsarkar.net",
@@ -134,14 +143,34 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21179",
+          "author": "Daniel Lemire",
+          "description": "In modern C++, as in many popular languages, you can create ‘lambdas’. Effectively, they are potentially anonymous function instances that you can create on the fly as you are programming, possibly inside another function. The following is a simple example. auto return1 = [](int n) -> int { return 1; }; What about recursive functions? … Continue reading Passing recursive C++ lambdas as function pointers",
+          "link": "https://lemire.me/blog/2024/03/22/passing-recursive-c-lambdas-as-function-pointers/",
+          "publishedOn": "2024-03-22T15:14:36.000Z",
+          "wordCount": 3173,
+          "title": "Passing recursive C++ lambdas as function pointers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21167",
+          "author": "Daniel Lemire",
+          "description": "When programming software, we are working over an abstraction over a system. The computer hardware may not know about your functions, your variables, and your data. It may only see bits and instructions. Yet to write efficient software, the programmer needs to be aware of the characteristics of the underlying system. Thankfully, we can also … Continue reading Measuring your system’s performance using software  (Go edition)",
+          "link": "https://lemire.me/blog/2024/03/17/measuring-your-systems-performance-using-software-go-edition/",
+          "publishedOn": "2024-03-17T21:24:01.000Z",
+          "wordCount": 10613,
+          "title": "Measuring your system’s performance using software  (Go edition)",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21158",
           "author": "Daniel Lemire",
           "description": "Suppose you need to read several files on a server using JavaScript. There are many ways to read files in JavaScript with a runtime like Node.js. Which one is best? Let us consider the various approaches. Using fs.promises const fs = require('fs/promises'); const readFile = fs.readFile; readFile(\"lipsum.txt\", { encoding: 'utf-8' }) .then((data) => {...}) .catch((err) … Continue reading How to read files quickly in JavaScript",
           "link": "https://lemire.me/blog/2024/03/12/how-to-read-files-quickly-in-javascript/",
           "publishedOn": "2024-03-12T15:43:09.000Z",
-          "wordCount": 3439,
+          "wordCount": 3167,
           "title": "How to read files quickly in JavaScript",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+          "imageUrl": null
         },
         {
           "id": "https://lemire.me/blog/?p=21150",
@@ -149,9 +178,9 @@
           "description": "Canada has several political parties with elected member of parliament: the Liberals, the Conservatives, the Bloc Québecois, de NDP and the Green. But do they behave as distinct political parties when voting, or are they somehow aligned? Voting data for the member of parliament in Canada is easily accessible as JSON or XML. Thus I … Continue reading How many political parties rule Canada? Fun with statistics",
           "link": "https://lemire.me/blog/2024/03/08/how-many-political-parties-rule-canada-fun-with-statistics/",
           "publishedOn": "2024-03-08T15:59:04.000Z",
-          "wordCount": 3234,
+          "wordCount": 2916,
           "title": "How many political parties rule Canada? Fun with statistics",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+          "imageUrl": null
         },
         {
           "id": "https://lemire.me/blog/?p=21135",
@@ -159,19 +188,9 @@
           "description": "When I was young, science fiction was the genre of choice for many engineers and scientists. But the genre declined significantly in recent years. Part of the problem is the rise dystopian fiction. In the imagined future, we are no longer conquering space or developing new fantastic technologies, but rather, increasingly, battling the consequences of … Continue reading Book review: Theft of Fire by Devon Eriksen",
           "link": "https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/",
           "publishedOn": "2024-02-24T18:35:03.000Z",
-          "wordCount": 3861,
+          "wordCount": 3725,
           "title": "Book review: Theft of Fire by Devon Eriksen",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21126",
-          "author": "Daniel Lemire",
-          "description": "Modern processor have fancy instructions that can do many operations at one using wide registers: SIMD instructions. Intel and AMD have 512-bit registers and associated instructions under AVX-512. You expect these instructions to use more power, more energy. However, they get the job done faster. Do you save energy overall? You should expect so. Let … Continue reading Measuring energy usage: regular code vs. SIMD code",
-          "link": "https://lemire.me/blog/2024/02/19/measuring-energy-usage-regular-code-vs-simd-code/",
-          "publishedOn": "2024-02-19T21:39:32.000Z",
-          "wordCount": 4084,
-          "title": "Measuring energy usage: regular code vs. SIMD code",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
+          "imageUrl": null
         }
       ]
     },

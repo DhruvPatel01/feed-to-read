@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-17T00:55:04.995Z</id>
+    <id>urn:2024-03-24T00:57:13.529Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-17T00:55:04.995Z</updated>
+    <updated>2024-03-24T00:57:13.529Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Passing recursive C++ lambdas as function pointers]]></title>
+        <id>https://lemire.me/blog/?p=21179</id>
+        <link href="https://lemire.me/blog/2024/03/22/passing-recursive-c-lambdas-as-function-pointers/"/>
+        <updated>2024-03-22T15:14:36.000Z</updated>
+        <summary type="html"><![CDATA[In modern C++, as in many popular languages, you can create ‘lambdas’. Effectively, they are potentially anonymous function instances that you can create on the fly as you are programming, possibly inside another function. The following is a simple example. auto return1 = [](int n) -> int { return 1; }; What about recursive functions? … Continue reading Passing recursive C++ lambdas as function pointers]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zig defer Patterns]]></title>
+        <id>https://matklad.github.io/2024/03/21/defer-patterns.html</id>
+        <link href="https://matklad.github.io/2024/03/21/defer-patterns.html"/>
+        <updated>2024-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A short note about some unexpected usages of Zig's defer statement.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sequential Testing Keeps the World Streaming Netflix Part 2: Counting Processes]]></title>
+        <id>https://medium.com/p/da6805341642</id>
+        <link href="https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source=rss----2615bd06b42e---4"/>
+        <updated>2024-03-18T12:46:46.000Z</updated>
+        <summary type="html"><![CDATA[Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Measuring your system’s performance using software  (Go edition)]]></title>
+        <id>https://lemire.me/blog/?p=21167</id>
+        <link href="https://lemire.me/blog/2024/03/17/measuring-your-systems-performance-using-software-go-edition/"/>
+        <updated>2024-03-17T21:24:01.000Z</updated>
+        <summary type="html"><![CDATA[When programming software, we are working over an abstraction over a system. The computer hardware may not know about your functions, your variables, and your data. It may only see bits and instructions. Yet to write efficient software, the programmer needs to be aware of the characteristics of the underlying system. Thankfully, we can also … Continue reading Measuring your system’s performance using software  (Go edition)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to read files quickly in JavaScript]]></title>
         <id>https://lemire.me/blog/?p=21158</id>
@@ -104,77 +144,6 @@ following is a conv…]]></summary>
         <summary type="html"><![CDATA[When I was young, science fiction was the genre of choice for many engineers and scientists. But the genre declined significantly in recent years. Part of the problem is the rise dystopian fiction. In the imagined future, we are no longer conquering space or developing new fantastic technologies, but rather, increasingly, battling the consequences of … Continue reading Book review: Theft of Fire by Devon Eriksen]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring energy usage: regular code vs. SIMD code]]></title>
-        <id>https://lemire.me/blog/?p=21126</id>
-        <link href="https://lemire.me/blog/2024/02/19/measuring-energy-usage-regular-code-vs-simd-code/"/>
-        <updated>2024-02-19T21:39:32.000Z</updated>
-        <summary type="html"><![CDATA[Modern processor have fancy instructions that can do many operations at one using wide registers: SIMD instructions. Intel and AMD have 512-bit registers and associated instructions under AVX-512. You expect these instructions to use more power, more energy. However, they get the job done faster. Do you save energy overall? You should expect so. Let … Continue reading Measuring energy usage: regular code vs. SIMD code]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bloom Filters]]></title>
-        <id>https://samwho.dev/bloom-filters/</id>
-        <link href="https://samwho.dev/bloom-filters/"/>
-        <updated>2024-02-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[.bf {
-  width: 100%;
-  height: 150px;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-  .bf {
-    height: 200px;
-  }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 676px) {
-  .bf {
-    height: 200px;
-  }
- }
-
-@media only screen and (min-width: 677px) and (max-width: 991px) {
-  .bf {
-    height: 150px;
-  }
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: stretch;
-}
-
-input {
-    border: 1px solid rgb(119, 119, 119);
-    padding: 0.25rem;
-    border-radius: 0.25rem;
-    height: 2em;
-    line-height: 2em;
-}
-
-.aside {
-  padding: 2rem;
-  width: 100vw;
-  position: relative;
-  margin-left: -50vw;
-  left: 50%;
-  background-color: #eeeeee;
-
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.aside > * …]]></summary>
-        <author>
-            <name>samwho.dev</name>
         </author>
     </entry>
 </feed>
