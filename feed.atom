@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-24T00:57:13.529Z</id>
+    <id>urn:2024-03-31T00:57:09.265Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-24T00:57:13.529Z</updated>
+    <updated>2024-03-31T00:57:09.265Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -13,6 +13,17 @@
         <summary type="html"><![CDATA[In modern C++, as in many popular languages, you can create ‘lambdas’. Effectively, they are potentially anonymous function instances that you can create on the fly as you are programming, possibly inside another function. The following is a simple example. auto return1 = [](int n) -> int { return 1; }; What about recursive functions? … Continue reading Passing recursive C++ lambdas as function pointers]]></summary>
         <author>
             <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Basic Things]]></title>
+        <id>https://matklad.github.io/2024/03/22/basic-things.html</id>
+        <link href="https://matklad.github.io/2024/03/22/basic-things.html"/>
+        <updated>2024-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After working on the initial stages of several largish projects, I accumulated a list of things that
+share the following three properties:]]></summary>
+        <author>
+            <name>matklad</name>
         </author>
     </entry>
     <entry>
@@ -124,26 +135,6 @@ following is a conv…]]></summary>
         <summary type="html"><![CDATA[Uplifting a lobste.rs comment to a stand-alone post.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing bpftop: Streamlining eBPF performance optimization]]></title>
-        <id>https://medium.com/p/6a727c1ae2e5</id>
-        <link href="https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4"/>
-        <updated>2024-02-26T16:43:30.000Z</updated>
-        <summary type="html"><![CDATA[By Jose Fernandez]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Book review: Theft of Fire by Devon Eriksen]]></title>
-        <id>https://lemire.me/blog/?p=21135</id>
-        <link href="https://lemire.me/blog/2024/02/24/book-review-theft-of-fire-by-devon-eriksen/"/>
-        <updated>2024-02-24T18:35:03.000Z</updated>
-        <summary type="html"><![CDATA[When I was young, science fiction was the genre of choice for many engineers and scientists. But the genre declined significantly in recent years. Part of the problem is the rise dystopian fiction. In the imagined future, we are no longer conquering space or developing new fantastic technologies, but rather, increasingly, battling the consequences of … Continue reading Book review: Theft of Fire by Devon Eriksen]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
