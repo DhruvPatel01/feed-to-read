@@ -4,30 +4,40 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2024/03/05/",
-          "author": null,
-          "description": "After a year I’ve finally came up with an elegant solution to a vexing\nu-config problem. The pkg-config format uses macros to generate build\nflags through recursive expansion. Some flags embed file system paths, but\nto the macro system it’s all strings. The output is also ultimately just\none big string, which the receiving shell splits into fields. If\na path contains spaces, or shell metacharacters, u-config must escape them\nso that shells treat them as part of a token. But how can u-config itself\ndistinguish incidental spaces in paths from deliberate spaces between\nflags? What about other shell metacharacters in paths? My solution is to\nextend UTF-8 to encode metadata that survives macro expansion.\nAs usual, it helps to begin with a concrete example of the problem. The\nfollowing is a conv…",
-          "link": "https://nullprogram.com/blog/2024/03/05/",
-          "publishedOn": "2024-03-05T03:15:12.000Z",
-          "wordCount": 1101,
-          "title": "Protecting paths in macro expansions by extending UTF-8",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Max Slater",
       "feedUrl": "https://thenumb.at/feed.xml",
       "siteUrl": "https://thenumb.at/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://thenumb.at/Puerto-Rico/",
+          "author": null,
+          "description": "Río Grande, Puerto Rico, 2024",
+          "link": "https://thenumb.at/Puerto-Rico/",
+          "publishedOn": "2024-04-06T00:00:00.000Z",
+          "wordCount": 48,
+          "title": "Puerto Rico",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/222ac5d23576",
+          "author": "Netflix Technology Blog",
+          "description": "By Ricky Gardiner, Alex Hutter, and Katie Lefevre",
+          "link": "https://netflixtechblog.com/reverse-searching-netflixs-federated-graph-222ac5d23576?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-04-04T21:26:42.000Z",
+          "wordCount": 4292,
+          "title": "Reverse Searching Netflix’s Federated Graph",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GCZRoNqT8seObcUFzYthXg.png"
+        },
         {
           "id": "https://medium.com/p/da6805341642",
           "author": "Netflix Technology Blog",
@@ -37,36 +47,6 @@
           "wordCount": 3862,
           "title": "Sequential Testing Keeps the World Streaming Netflix Part 2: Counting Processes",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1024/1*7DNyGA0x7r7msS7w1Zpvpw.jpeg"
-        },
-        {
-          "id": "https://medium.com/p/2d2e6b6d205d",
-          "author": "Netflix Technology Blog",
-          "description": "David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu",
-          "link": "https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-03-07T18:33:07.000Z",
-          "wordCount": 6313,
-          "title": "Supporting Diverse ML Systems at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*4hoAg4FX6oeua708alTMlA.png"
-        },
-        {
-          "id": "https://medium.com/p/256629c9386b",
-          "author": "Netflix Technology Blog",
-          "description": "The surprising and not so surprising benefits of generations in the Z Garbage Collector.",
-          "link": "https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-03-06T01:35:08.000Z",
-          "wordCount": 3115,
-          "title": "Bending pause times to your will with Generational ZGC",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*GuEZ-RMhzNnYgLQd"
-        },
-        {
-          "id": "https://medium.com/p/039d5efd115b",
-          "author": "Netflix Technology Blog",
-          "description": "by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit",
-          "link": "https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-03-04T18:01:55.000Z",
-          "wordCount": 6839,
-          "title": "Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*2eENd1mhwyGpMWNccEwqlQ.png"
         }
       ]
     },
@@ -106,16 +86,6 @@
           "wordCount": 825,
           "title": "Zig defer Patterns",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html",
-          "author": null,
-          "description": "Uplifting a lobste.rs comment to a stand-alone post.",
-          "link": "https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html",
-          "publishedOn": "2024-03-02T00:00:00.000Z",
-          "wordCount": 973,
-          "title": "Kafka versus Nabokov",
-          "imageUrl": null
         }
       ]
     },
@@ -143,12 +113,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21209",
+          "author": "Daniel Lemire",
+          "description": "Last year, I looked at writing small “hello world” web applications in various programming languages (Go, JavaScript, Nim…). Go, using nothing but the standard library, did well. In these benchmarks, I am just programming an HTTP route that returns a small string (e.g., ‘hello world’). The query is from the host itself. The intent behind … Continue reading C++ web app with Crow: early scalability results",
+          "link": "https://lemire.me/blog/2024/04/06/c-web-app-with-crow-early-scalability-results/",
+          "publishedOn": "2024-04-06T22:01:26.000Z",
+          "wordCount": 2960,
+          "title": "C++ web app with Crow: early scalability results",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21191",
+          "author": "Daniel Lemire",
+          "description": "Large language models (e.g., ChatGPT) do better at legal questions than lawyers: Our empirical analysis benchmarks LLMs against a ground truth set by Senior Lawyers, uncovering that advanced models match or exceed human accuracy in determining legal issues (Martin et al.). Gene therapy-mediated partial reprogramming extends lifespan and reverses age-related changes in aged mice. Increased … Continue reading Science and Technology links (March 31 2024)",
+          "link": "https://lemire.me/blog/2024/03/31/science-and-technology-links-march-31-2024/",
+          "publishedOn": "2024-03-31T21:24:30.000Z",
+          "wordCount": 3647,
+          "title": "Science and Technology links (March 31 2024)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21187",
+          "author": "Daniel Lemire",
+          "description": "Sometimes you need to filter out or filter in data quickly. Suppose that your employer maintains a list of forbidden passwords or URLs or words. You may store them in a relational database and query them as needed. Unfortunately, this process can be slow and inefficient. A better approach might be to use a probabilistic … Continue reading Fast and concise probabilistic filters in Python",
+          "link": "https://lemire.me/blog/2024/03/31/fast-and-concise-probabilistic-filters-in-python/",
+          "publishedOn": "2024-03-31T18:00:55.000Z",
+          "wordCount": 3332,
+          "title": "Fast and concise probabilistic filters in Python",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21179",
           "author": "Daniel Lemire",
           "description": "In modern C++, as in many popular languages, you can create ‘lambdas’. Effectively, they are potentially anonymous function instances that you can create on the fly as you are programming, possibly inside another function. The following is a simple example. auto return1 = [](int n) -> int { return 1; }; What about recursive functions? … Continue reading Passing recursive C++ lambdas as function pointers",
           "link": "https://lemire.me/blog/2024/03/22/passing-recursive-c-lambdas-as-function-pointers/",
           "publishedOn": "2024-03-22T15:14:36.000Z",
-          "wordCount": 3313,
+          "wordCount": 3321,
           "title": "Passing recursive C++ lambdas as function pointers",
           "imageUrl": null
         },
@@ -158,7 +158,7 @@
           "description": "When programming software, we are working over an abstraction over a system. The computer hardware may not know about your functions, your variables, and your data. It may only see bits and instructions. Yet to write efficient software, the programmer needs to be aware of the characteristics of the underlying system. Thankfully, we can also … Continue reading Measuring your system’s performance using software  (Go edition)",
           "link": "https://lemire.me/blog/2024/03/17/measuring-your-systems-performance-using-software-go-edition/",
           "publishedOn": "2024-03-17T21:24:01.000Z",
-          "wordCount": 10611,
+          "wordCount": 10610,
           "title": "Measuring your system’s performance using software  (Go edition)",
           "imageUrl": null
         },
@@ -168,7 +168,7 @@
           "description": "Suppose you need to read several files on a server using JavaScript. There are many ways to read files in JavaScript with a runtime like Node.js. Which one is best? Let us consider the various approaches. Using fs.promises const fs = require('fs/promises'); const readFile = fs.readFile; readFile(\"lipsum.txt\", { encoding: 'utf-8' }) .then((data) => {...}) .catch((err) … Continue reading How to read files quickly in JavaScript",
           "link": "https://lemire.me/blog/2024/03/12/how-to-read-files-quickly-in-javascript/",
           "publishedOn": "2024-03-12T15:43:09.000Z",
-          "wordCount": 3165,
+          "wordCount": 3164,
           "title": "How to read files quickly in JavaScript",
           "imageUrl": null
         },
@@ -178,7 +178,7 @@
           "description": "Canada has several political parties with elected member of parliament: the Liberals, the Conservatives, the Bloc Québecois, de NDP and the Green. But do they behave as distinct political parties when voting, or are they somehow aligned? Voting data for the member of parliament in Canada is easily accessible as JSON or XML. Thus I … Continue reading How many political parties rule Canada? Fun with statistics",
           "link": "https://lemire.me/blog/2024/03/08/how-many-political-parties-rule-canada-fun-with-statistics/",
           "publishedOn": "2024-03-08T15:59:04.000Z",
-          "wordCount": 2914,
+          "wordCount": 2913,
           "title": "How many political parties rule Canada? Fun with statistics",
           "imageUrl": null
         }

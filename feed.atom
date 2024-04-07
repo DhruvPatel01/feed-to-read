@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-31T00:57:09.265Z</id>
+    <id>urn:2024-04-07T00:57:22.182Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-31T00:57:09.265Z</updated>
+    <updated>2024-04-07T00:57:22.182Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[C++ web app with Crow: early scalability results]]></title>
+        <id>https://lemire.me/blog/?p=21209</id>
+        <link href="https://lemire.me/blog/2024/04/06/c-web-app-with-crow-early-scalability-results/"/>
+        <updated>2024-04-06T22:01:26.000Z</updated>
+        <summary type="html"><![CDATA[Last year, I looked at writing small “hello world” web applications in various programming languages (Go, JavaScript, Nim…). Go, using nothing but the standard library, did well. In these benchmarks, I am just programming an HTTP route that returns a small string (e.g., ‘hello world’). The query is from the host itself. The intent behind … Continue reading C++ web app with Crow: early scalability results]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Puerto Rico]]></title>
+        <id>https://thenumb.at/Puerto-Rico/</id>
+        <link href="https://thenumb.at/Puerto-Rico/"/>
+        <updated>2024-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Río Grande, Puerto Rico, 2024]]></summary>
+        <author>
+            <name>Max Slater</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse Searching Netflix’s Federated Graph]]></title>
+        <id>https://medium.com/p/222ac5d23576</id>
+        <link href="https://netflixtechblog.com/reverse-searching-netflixs-federated-graph-222ac5d23576?source=rss----2615bd06b42e---4"/>
+        <updated>2024-04-04T21:26:42.000Z</updated>
+        <summary type="html"><![CDATA[By Ricky Gardiner, Alex Hutter, and Katie Lefevre]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (March 31 2024)]]></title>
+        <id>https://lemire.me/blog/?p=21191</id>
+        <link href="https://lemire.me/blog/2024/03/31/science-and-technology-links-march-31-2024/"/>
+        <updated>2024-03-31T21:24:30.000Z</updated>
+        <summary type="html"><![CDATA[Large language models (e.g., ChatGPT) do better at legal questions than lawyers: Our empirical analysis benchmarks LLMs against a ground truth set by Senior Lawyers, uncovering that advanced models match or exceed human accuracy in determining legal issues (Martin et al.). Gene therapy-mediated partial reprogramming extends lifespan and reverses age-related changes in aged mice. Increased … Continue reading Science and Technology links (March 31 2024)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast and concise probabilistic filters in Python]]></title>
+        <id>https://lemire.me/blog/?p=21187</id>
+        <link href="https://lemire.me/blog/2024/03/31/fast-and-concise-probabilistic-filters-in-python/"/>
+        <updated>2024-03-31T18:00:55.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes you need to filter out or filter in data quickly. Suppose that your employer maintains a list of forbidden passwords or URLs or words. You may store them in a relational database and query them as needed. Unfortunately, this process can be slow and inefficient. A better approach might be to use a probabilistic … Continue reading Fast and concise probabilistic filters in Python]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Passing recursive C++ lambdas as function pointers]]></title>
         <id>https://lemire.me/blog/?p=21179</id>
@@ -74,67 +124,6 @@ share the following three properties:]]></summary>
         <summary type="html"><![CDATA[Canada has several political parties with elected member of parliament: the Liberals, the Conservatives, the Bloc Québecois, de NDP and the Green. But do they behave as distinct political parties when voting, or are they somehow aligned? Voting data for the member of parliament in Canada is easily accessible as JSON or XML. Thus I … Continue reading How many political parties rule Canada? Fun with statistics]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supporting Diverse ML Systems at Netflix]]></title>
-        <id>https://medium.com/p/2d2e6b6d205d</id>
-        <link href="https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4"/>
-        <updated>2024-03-07T18:33:07.000Z</updated>
-        <summary type="html"><![CDATA[David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bending pause times to your will with Generational ZGC]]></title>
-        <id>https://medium.com/p/256629c9386b</id>
-        <link href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4"/>
-        <updated>2024-03-06T01:35:08.000Z</updated>
-        <summary type="html"><![CDATA[The surprising and not so surprising benefits of generations in the Z Garbage Collector.]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protecting paths in macro expansions by extending UTF-8]]></title>
-        <id>https://nullprogram.com/blog/2024/03/05/</id>
-        <link href="https://nullprogram.com/blog/2024/03/05/"/>
-        <updated>2024-03-05T03:15:12.000Z</updated>
-        <summary type="html"><![CDATA[After a year I’ve finally came up with an elegant solution to a vexing
-u-config problem. The pkg-config format uses macros to generate build
-flags through recursive expansion. Some flags embed file system paths, but
-to the macro system it’s all strings. The output is also ultimately just
-one big string, which the receiving shell splits into fields. If
-a path contains spaces, or shell metacharacters, u-config must escape them
-so that shells treat them as part of a token. But how can u-config itself
-distinguish incidental spaces in paths from deliberate spaces between
-flags? What about other shell metacharacters in paths? My solution is to
-extend UTF-8 to encode metadata that survives macro expansion.
-As usual, it helps to begin with a concrete example of the problem. The
-following is a conv…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…]]></title>
-        <id>https://medium.com/p/039d5efd115b</id>
-        <link href="https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4"/>
-        <updated>2024-03-04T18:01:55.000Z</updated>
-        <summary type="html"><![CDATA[by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kafka versus Nabokov]]></title>
-        <id>https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html</id>
-        <link href="https://matklad.github.io/2024/03/02/Kafka-vs-Nabokov.html"/>
-        <updated>2024-03-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Uplifting a lobste.rs comment to a stand-alone post.]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>
