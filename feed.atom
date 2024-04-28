@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-21T00:57:23.492Z</id>
+    <id>urn:2024-04-28T00:57:57.616Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-21T00:57:23.492Z</updated>
+    <updated>2024-04-28T00:57:57.616Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Large language models (e.g., ChatGPT) as research assistants]]></title>
+        <id>https://lemire.me/blog/?p=21288</id>
+        <link href="https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/"/>
+        <updated>2024-04-27T00:05:24.000Z</updated>
+        <summary type="html"><![CDATA[Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How do you recognize an expert?]]></title>
+        <id>https://lemire.me/blog/?p=21278</id>
+        <link href="https://lemire.me/blog/2024/04/21/how-do-you-recognize-an-expert/"/>
+        <updated>2024-04-21T17:35:28.000Z</updated>
+        <summary type="html"><![CDATA[Go back to the roots: experience. An expert is someone who has repeatedly solved the concrete problem you are encountering. If your toilet leaks, an experienced plumber is an expert. An expert has a track record and has had to face the consequences of their work. Failing is part of what makes an expert: any … Continue reading How do you recognize an expert?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How quickly can you break a long string into lines?]]></title>
         <id>https://lemire.me/blog/?p=21272</id>
@@ -214,16 +234,6 @@ Existing practice is unimportant. …]]></summary>
         <link href="https://lemire.me/blog/2024/03/31/fast-and-concise-probabilistic-filters-in-python/"/>
         <updated>2024-03-31T18:00:55.000Z</updated>
         <summary type="html"><![CDATA[Sometimes you need to filter out or filter in data quickly. Suppose that your employer maintains a list of forbidden passwords or URLs or words. You may store them in a relational database and query them as needed. Unfortunately, this process can be slow and inefficient. A better approach might be to use a probabilistic … Continue reading Fast and concise probabilistic filters in Python]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Passing recursive C++ lambdas as function pointers]]></title>
-        <id>https://lemire.me/blog/?p=21179</id>
-        <link href="https://lemire.me/blog/2024/03/22/passing-recursive-c-lambdas-as-function-pointers/"/>
-        <updated>2024-03-22T15:14:36.000Z</updated>
-        <summary type="html"><![CDATA[In modern C++, as in many popular languages, you can create ‘lambdas’. Effectively, they are potentially anonymous function instances that you can create on the fly as you are programming, possibly inside another function. The following is a simple example. auto return1 = [](int n) -> int { return 1; }; What about recursive functions? … Continue reading Passing recursive C++ lambdas as function pointers]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
