@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-28T00:57:57.616Z</id>
+    <id>urn:2024-05-05T00:57:54.677Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-28T00:57:57.616Z</updated>
+    <updated>2024-05-05T00:57:54.677Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Should Node.js be built with ClangCL under Windows?]]></title>
+        <id>https://lemire.me/blog/?p=21309</id>
+        <link href="https://lemire.me/blog/2024/05/02/should-node-js-be-built-with-clangcl-under-windows/"/>
+        <updated>2024-05-02T19:23:11.000Z</updated>
+        <summary type="html"><![CDATA[Under Windows, when using Visual Studio to build C++ code, there are two possible compiler strategies. The Visual Studio compiler (often referred to as MSVC) is the default compiler provided by Microsoft for Windows development. In Debug mode, the regular Visual Studio compiler produces faster compilation times and more performant code compared to ClangCL. ClangCL … Continue reading Should Node.js be built with ClangCL under Windows?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brooklyn Botanical Garden]]></title>
+        <id>https://thenumb.at/BBG/</id>
+        <link href="https://thenumb.at/BBG/"/>
+        <updated>2024-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Brooklyn Botanical Garden, New York, NY, 2024]]></summary>
+        <author>
+            <name>Max Slater</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Careful with Pair-of-Registers instructions on Apple Silicon]]></title>
+        <id>https://lemire.me/blog/?p=21297</id>
+        <link href="https://lemire.me/blog/2024/04/29/careful-with-pair-of-registers-instructions-on-apple-silicon/"/>
+        <updated>2024-04-29T00:32:38.000Z</updated>
+        <summary type="html"><![CDATA[Egor Bogatov is an engineer working on C# compiler technology at Microsoft. He had an intriguing remark about a performance regression on Apple hardware following what appears to be an optimization. The .NET 9.0 runtime introduced the optimization where two loads (ldr) could be combined into a single load (ldp). It is a typical peephole … Continue reading Careful with Pair-of-Registers instructions on Apple Silicon]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Large language models (e.g., ChatGPT) as research assistants]]></title>
         <id>https://lemire.me/blog/?p=21288</id>
@@ -206,36 +236,6 @@ Existing practice is unimportant. …]]></summary>
         <summary type="html"><![CDATA[Río Grande, Puerto Rico, 2024]]></summary>
         <author>
             <name>Max Slater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reverse Searching Netflix’s Federated Graph]]></title>
-        <id>https://medium.com/p/222ac5d23576</id>
-        <link href="https://netflixtechblog.com/reverse-searching-netflixs-federated-graph-222ac5d23576?source=rss----2615bd06b42e---4"/>
-        <updated>2024-04-04T21:26:42.000Z</updated>
-        <summary type="html"><![CDATA[By Ricky Gardiner, Alex Hutter, and Katie Lefevre]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Science and Technology links (March 31 2024)]]></title>
-        <id>https://lemire.me/blog/?p=21191</id>
-        <link href="https://lemire.me/blog/2024/03/31/science-and-technology-links-march-31-2024/"/>
-        <updated>2024-03-31T21:24:30.000Z</updated>
-        <summary type="html"><![CDATA[Large language models (e.g., ChatGPT) do better at legal questions than lawyers: Our empirical analysis benchmarks LLMs against a ground truth set by Senior Lawyers, uncovering that advanced models match or exceed human accuracy in determining legal issues (Martin et al.). Gene therapy-mediated partial reprogramming extends lifespan and reverses age-related changes in aged mice. Increased … Continue reading Science and Technology links (March 31 2024)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast and concise probabilistic filters in Python]]></title>
-        <id>https://lemire.me/blog/?p=21187</id>
-        <link href="https://lemire.me/blog/2024/03/31/fast-and-concise-probabilistic-filters-in-python/"/>
-        <updated>2024-03-31T18:00:55.000Z</updated>
-        <summary type="html"><![CDATA[Sometimes you need to filter out or filter in data quickly. Suppose that your employer maintains a list of forbidden passwords or URLs or words. You may store them in a relational database and query them as needed. Unfortunately, this process can be slow and inefficient. A better approach might be to use a probabilistic … Continue reading Fast and concise probabilistic filters in Python]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

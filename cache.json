@@ -23,6 +23,16 @@
       "siteUrl": "https://thenumb.at/",
       "articles": [
         {
+          "id": "https://thenumb.at/BBG/",
+          "author": null,
+          "description": "Brooklyn Botanical Garden, New York, NY, 2024",
+          "link": "https://thenumb.at/BBG/",
+          "publishedOn": "2024-05-01T00:00:00.000Z",
+          "wordCount": 52,
+          "title": "Brooklyn Botanical Garden",
+          "imageUrl": null
+        },
+        {
           "id": "https://thenumb.at/Puerto-Rico/",
           "author": null,
           "description": "Río Grande, Puerto Rico, 2024",
@@ -45,19 +55,9 @@
           "description": "Liwei Guo, Vinicius Carvalho, Anush Moorthy, Aditya Mavlankar, Lishan Zhu",
           "link": "https://netflixtechblog.com/the-making-of-ves-the-cosmos-microservice-for-netflix-video-encoding-946b9b3cd300?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-04-09T22:12:32.000Z",
-          "wordCount": 5878,
+          "wordCount": 5762,
           "title": "The Making of VES: the Cosmos Microservice for Netflix Video Encoding",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*7n3hN3lYhe89Ezk6"
-        },
-        {
-          "id": "https://medium.com/p/222ac5d23576",
-          "author": "Netflix Technology Blog",
-          "description": "By Ricky Gardiner, Alex Hutter, and Katie Lefevre",
-          "link": "https://netflixtechblog.com/reverse-searching-netflixs-federated-graph-222ac5d23576?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-04-04T21:26:42.000Z",
-          "wordCount": 4292,
-          "title": "Reverse Searching Netflix’s Federated Graph",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GCZRoNqT8seObcUFzYthXg.png"
         }
       ]
     },
@@ -123,7 +123,7 @@
           "description": "<p>Every year I try to solve some problems from the <a href=\"https://adventofcode.com\" target=\"_blank\" rel=\"noopener\">Advent of Code</a> (AoC) competition in a <a href=\"https://abhinavsarkar.net/posts/type-level-haskell-aoc7/\">not</a> <a href=\"https://notes.abhinavsarkar.net/2022/type-level-rps\" target=\"_blank\" rel=\"noopener\">straightforward</a> <a href=\"https://abhinavsarkar.net/posts/parsers-zippers-interpreters-aoc7/\">way</a>. Let’s solve the part one of the day 19 problem <a href=\"https://adventofcode.com/2023/day/19\" target=\"_blank\" rel=\"noopener\">Aplenty</a> by compiling the problem input to an executable file.</p>",
           "link": "https://abhinavsarkar.net/posts/compiling-aoc23-aplenty/?mtm_campaign=feed",
           "publishedOn": "2024-04-07T00:00:00.000Z",
-          "wordCount": 4735,
+          "wordCount": 4739,
           "title": "Solving Advent of Code ’23 “Aplenty” by Compiling",
           "imageUrl": "https://abhinavsarkar.net/images/compiling-aoc23-aplenty/preview.png"
         }
@@ -135,12 +135,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21309",
+          "author": "Daniel Lemire",
+          "description": "Under Windows, when using Visual Studio to build C++ code, there are two possible compiler strategies. The Visual Studio compiler (often referred to as MSVC) is the default compiler provided by Microsoft for Windows development. In Debug mode, the regular Visual Studio compiler produces faster compilation times and more performant code compared to ClangCL. ClangCL … Continue reading Should Node.js be built with ClangCL under Windows?",
+          "link": "https://lemire.me/blog/2024/05/02/should-node-js-be-built-with-clangcl-under-windows/",
+          "publishedOn": "2024-05-02T19:23:11.000Z",
+          "wordCount": 3112,
+          "title": "Should Node.js be built with ClangCL under Windows?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21297",
+          "author": "Daniel Lemire",
+          "description": "Egor Bogatov is an engineer working on C# compiler technology at Microsoft. He had an intriguing remark about a performance regression on Apple hardware following what appears to be an optimization. The .NET 9.0 runtime introduced the optimization where two loads (ldr) could be combined into a single load (ldp). It is a typical peephole … Continue reading Careful with Pair-of-Registers instructions on Apple Silicon",
+          "link": "https://lemire.me/blog/2024/04/29/careful-with-pair-of-registers-instructions-on-apple-silicon/",
+          "publishedOn": "2024-04-29T00:32:38.000Z",
+          "wordCount": 3197,
+          "title": "Careful with Pair-of-Registers instructions on Apple Silicon",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21288",
           "author": "Daniel Lemire",
           "description": "Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants",
           "link": "https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/",
           "publishedOn": "2024-04-27T00:05:24.000Z",
-          "wordCount": 3503,
+          "wordCount": 3560,
           "title": "Large language models (e.g., ChatGPT) as research assistants",
           "imageUrl": null
         },
@@ -150,7 +170,7 @@
           "description": "Go back to the roots: experience. An expert is someone who has repeatedly solved the concrete problem you are encountering. If your toilet leaks, an experienced plumber is an expert. An expert has a track record and has had to face the consequences of their work. Failing is part of what makes an expert: any … Continue reading How do you recognize an expert?",
           "link": "https://lemire.me/blog/2024/04/21/how-do-you-recognize-an-expert/",
           "publishedOn": "2024-04-21T17:35:28.000Z",
-          "wordCount": 3195,
+          "wordCount": 3192,
           "title": "How do you recognize an expert?",
           "imageUrl": null
         },
@@ -160,7 +180,7 @@
           "description": "Suppose that you receive a long string and you need to break it down into lines. Consider the simplified problems where you need to break the string into segments of (say) 72 characters. It is a relevant problem if your string is a base64 string or a Fortran formatted statement. The problem could be a … Continue reading How quickly can you break a long string into lines?",
           "link": "https://lemire.me/blog/2024/04/19/how-quickly-can-you-break-a-long-string-into-lines/",
           "publishedOn": "2024-04-19T21:25:21.000Z",
-          "wordCount": 3385,
+          "wordCount": 3382,
           "title": "How quickly can you break a long string into lines?",
           "imageUrl": null
         },
@@ -170,7 +190,7 @@
           "description": "Our computer hardware exchange data using a standard called PCI Express. Your disk, your network and your GPU are limited by what PCI Express can do. Currently, it means that you are limited to a few gigabytes per second of bandwidth. PCI Express is about to receive a big performance boost in 2025 when PCI … Continue reading Science and Technology links (April 13 2024)",
           "link": "https://lemire.me/blog/2024/04/13/science-and-technology-links-april-13-2024/",
           "publishedOn": "2024-04-13T22:31:25.000Z",
-          "wordCount": 3115,
+          "wordCount": 3112,
           "title": "Science and Technology links (April 13 2024)",
           "imageUrl": null
         },
@@ -180,7 +200,7 @@
           "description": "We sometimes need to find the greatest common divisor between two integers in software. The fastest way to compute the greatest common divisor might be the binary Euclidean algorithm. In C++20, it can be implemented generically as follows: template <typename int_type> int_type binary_gcd(int_type u, int_type v) { if (u == 0) { return v; } … Continue reading Greatest common divisor,  the extended Euclidean algorithm, and speed!",
           "link": "https://lemire.me/blog/2024/04/13/greatest-common-divisor-the-extended-euclidean-algorithm-and-speed/",
           "publishedOn": "2024-04-13T20:56:11.000Z",
-          "wordCount": 4192,
+          "wordCount": 4189,
           "title": "Greatest common divisor,  the extended Euclidean algorithm, and speed!",
           "imageUrl": null
         },
@@ -190,7 +210,7 @@
           "description": "A reader asked me for some help in computing (1 – sqrt(0.5)) to an arbitrary precision, from scratch. A simpler but equivalent problem is to compute the square root of an integer (e.g., 2). There are many sophisticated algorithms for such problems, but we want something relatively simple. We’d like to compute the square root … Continue reading A simple algorithm to compute the square root of an integer, byte by byte",
           "link": "https://lemire.me/blog/2024/04/11/a-simple-algorithm-to-compute-the-square-root-of-an-integer-byte-by-byte/",
           "publishedOn": "2024-04-11T19:39:11.000Z",
-          "wordCount": 3137,
+          "wordCount": 3134,
           "title": "A simple algorithm to compute the square root of an integer, byte by byte",
           "imageUrl": null
         },
@@ -200,28 +220,8 @@
           "description": "Last year, I looked at writing small “hello world” web applications in various programming languages (Go, JavaScript, Nim…). Go, using nothing but the standard library, did well. In these benchmarks, I am just programming an HTTP route that returns a small string (e.g., ‘hello world’). The query is from the host itself. The intent behind … Continue reading C++ web app with Crow: early scalability results",
           "link": "https://lemire.me/blog/2024/04/06/c-web-app-with-crow-early-scalability-results/",
           "publishedOn": "2024-04-06T22:01:26.000Z",
-          "wordCount": 4555,
+          "wordCount": 4552,
           "title": "C++ web app with Crow: early scalability results",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21191",
-          "author": "Daniel Lemire",
-          "description": "Large language models (e.g., ChatGPT) do better at legal questions than lawyers: Our empirical analysis benchmarks LLMs against a ground truth set by Senior Lawyers, uncovering that advanced models match or exceed human accuracy in determining legal issues (Martin et al.). Gene therapy-mediated partial reprogramming extends lifespan and reverses age-related changes in aged mice. Increased … Continue reading Science and Technology links (March 31 2024)",
-          "link": "https://lemire.me/blog/2024/03/31/science-and-technology-links-march-31-2024/",
-          "publishedOn": "2024-03-31T21:24:30.000Z",
-          "wordCount": 3680,
-          "title": "Science and Technology links (March 31 2024)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21187",
-          "author": "Daniel Lemire",
-          "description": "Sometimes you need to filter out or filter in data quickly. Suppose that your employer maintains a list of forbidden passwords or URLs or words. You may store them in a relational database and query them as needed. Unfortunately, this process can be slow and inefficient. A better approach might be to use a probabilistic … Continue reading Fast and concise probabilistic filters in Python",
-          "link": "https://lemire.me/blog/2024/03/31/fast-and-concise-probabilistic-filters-in-python/",
-          "publishedOn": "2024-03-31T18:00:55.000Z",
-          "wordCount": 3355,
-          "title": "Fast and concise probabilistic filters in Python",
           "imageUrl": null
         }
       ]
