@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-05T00:57:54.677Z</id>
+    <id>urn:2024-05-12T00:59:17.978Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-05T00:57:54.677Z</updated>
+    <updated>2024-05-12T00:59:17.978Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Peer review is not the gold standard in science]]></title>
+        <id>https://lemire.me/blog/?p=21322</id>
+        <link href="https://lemire.me/blog/2024/05/11/peer-review-is-not-the-gold-standard-in-science/"/>
+        <updated>2024-05-11T22:47:16.000Z</updated>
+        <summary type="html"><![CDATA[Peer review as we know it today was introduced very late, over a century after the scientific revolution. It happened after Einstein’s time… arguably the most productive era in science. Current scientists often equate a success with the publication in a selective peer-reviewed venue. But that was never the scientific paradigm. In fact, it is … Continue reading Peer review is not the gold standard in science]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How fast can you construct a small list of strings in C for Python?]]></title>
+        <id>https://lemire.me/blog/?p=21316</id>
+        <link href="https://lemire.me/blog/2024/05/09/how-fast-can-construct-small-list-of-strings-in-c-for-python/"/>
+        <updated>2024-05-09T03:55:45.000Z</updated>
+        <summary type="html"><![CDATA[Python is probably the most popular programming language in the world right now. Python is easy to extend using C code. You may want to return from Python a small data structure. When crossing from C to Python, there is an overhead. Thus, if performance is a concern, you do not want to return lots … Continue reading How fast can you construct a small list of strings in C for Python?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Should Node.js be built with ClangCL under Windows?]]></title>
         <id>https://lemire.me/blog/?p=21309</id>
@@ -186,56 +206,6 @@ Existing practice is unimportant. …]]></summary>
         <summary type="html"><![CDATA[We sometimes need to find the greatest common divisor between two integers in software. The fastest way to compute the greatest common divisor might be the binary Euclidean algorithm. In C++20, it can be implemented generically as follows: template <typename int_type> int_type binary_gcd(int_type u, int_type v) { if (u == 0) { return v; } … Continue reading Greatest common divisor,  the extended Euclidean algorithm, and speed!]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A simple algorithm to compute the square root of an integer, byte by byte]]></title>
-        <id>https://lemire.me/blog/?p=21244</id>
-        <link href="https://lemire.me/blog/2024/04/11/a-simple-algorithm-to-compute-the-square-root-of-an-integer-byte-by-byte/"/>
-        <updated>2024-04-11T19:39:11.000Z</updated>
-        <summary type="html"><![CDATA[A reader asked me for some help in computing (1 – sqrt(0.5)) to an arbitrary precision, from scratch. A simpler but equivalent problem is to compute the square root of an integer (e.g., 2). There are many sophisticated algorithms for such problems, but we want something relatively simple. We’d like to compute the square root … Continue reading A simple algorithm to compute the square root of an integer, byte by byte]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Making of VES: the Cosmos Microservice for Netflix Video Encoding]]></title>
-        <id>https://medium.com/p/946b9b3cd300</id>
-        <link href="https://netflixtechblog.com/the-making-of-ves-the-cosmos-microservice-for-netflix-video-encoding-946b9b3cd300?source=rss----2615bd06b42e---4"/>
-        <updated>2024-04-09T22:12:32.000Z</updated>
-        <summary type="html"><![CDATA[Liwei Guo, Vinicius Carvalho, Anush Moorthy, Aditya Mavlankar, Lishan Zhu]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solving Advent of Code ’23 “Aplenty” by Compiling]]></title>
-        <id>https://abhinavsarkar.net/posts/compiling-aoc23-aplenty/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/posts/compiling-aoc23-aplenty/?mtm_campaign=feed"/>
-        <updated>2024-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Every year I try to solve some problems from the <a href="https://adventofcode.com" target="_blank" rel="noopener">Advent of Code</a> (AoC) competition in a <a href="https://abhinavsarkar.net/posts/type-level-haskell-aoc7/">not</a> <a href="https://notes.abhinavsarkar.net/2022/type-level-rps" target="_blank" rel="noopener">straightforward</a> <a href="https://abhinavsarkar.net/posts/parsers-zippers-interpreters-aoc7/">way</a>. Let’s solve the part one of the day 19 problem <a href="https://adventofcode.com/2023/day/19" target="_blank" rel="noopener">Aplenty</a> by compiling the problem input to an executable file.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++ web app with Crow: early scalability results]]></title>
-        <id>https://lemire.me/blog/?p=21209</id>
-        <link href="https://lemire.me/blog/2024/04/06/c-web-app-with-crow-early-scalability-results/"/>
-        <updated>2024-04-06T22:01:26.000Z</updated>
-        <summary type="html"><![CDATA[Last year, I looked at writing small “hello world” web applications in various programming languages (Go, JavaScript, Nim…). Go, using nothing but the standard library, did well. In these benchmarks, I am just programming an HTTP route that returns a small string (e.g., ‘hello world’). The query is from the host itself. The intent behind … Continue reading C++ web app with Crow: early scalability results]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Puerto Rico]]></title>
-        <id>https://thenumb.at/Puerto-Rico/</id>
-        <link href="https://thenumb.at/Puerto-Rico/"/>
-        <updated>2024-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Río Grande, Puerto Rico, 2024]]></summary>
-        <author>
-            <name>Max Slater</name>
         </author>
     </entry>
 </feed>
