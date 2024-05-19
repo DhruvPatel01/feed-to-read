@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-12T00:59:17.978Z</id>
+    <id>urn:2024-05-19T00:59:39.959Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-12T00:59:17.978Z</updated>
+    <updated>2024-05-19T00:59:39.959Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Learning from the object-oriented mania]]></title>
+        <id>https://lemire.me/blog/?p=21333</id>
+        <link href="https://lemire.me/blog/2024/05/14/learning-from-the-object-oriented-mania/"/>
+        <updated>2024-05-14T14:17:42.000Z</updated>
+        <summary type="html"><![CDATA[Back when I started programming professionally, every expert and every software engineering professor would swear by object-oriented programming. Resistance was futile. History had spoken: the future was object-oriented. It is hard to understate how strong the mania was. In education, we started calling textbooks and videos ‘learning objects‘. Educators would soon ‘combine learning objects and reuse them‘. A competitor … Continue reading Learning from the object-oriented mania]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Forwarding references in C++]]></title>
+        <id>https://lemire.me/blog/?p=21331</id>
+        <link href="https://lemire.me/blog/2024/05/13/forwarding-references-in-c/"/>
+        <updated>2024-05-13T15:51:51.000Z</updated>
+        <summary type="html"><![CDATA[In C++, there are different ways to pass a value to a function. Typically, at any given time, an object in C++ ‘belongs’ to a single function. The various ways to call a function differ in who owns the object, the caller or the callee (the function being called). The simplest one is that we … Continue reading Forwarding references in C++]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Peer review is not the gold standard in science]]></title>
         <id>https://lemire.me/blog/?p=21322</id>
@@ -81,129 +101,6 @@
         <link href="https://lemire.me/blog/2024/04/19/how-quickly-can-you-break-a-long-string-into-lines/"/>
         <updated>2024-04-19T21:25:21.000Z</updated>
         <summary type="html"><![CDATA[Suppose that you receive a long string and you need to break it down into lines. Consider the simplified problems where you need to break the string into segments of (say) 72 characters. It is a relevant problem if your string is a base64 string or a Fortran formatted statement. The problem could be a … Continue reading How quickly can you break a long string into lines?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Versions 2.0.4 and 1.6.20 released]]></title>
-        <id>https://nim-lang.org//blog/2024/04/16/versions-1620-204-released.html</id>
-        <link href="https://nim-lang.org//blog/2024/04/16/versions-1620-204-released.html"/>
-        <updated>2024-04-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim team is happy to announce two releases:
-the latest Nim, version 2.0.4
-LTS release, version 1.6.20
-For the majority of our users, v2.0.4 contains 23 commits and brings bugfixes and improvements to Nim 2.0.2, released four months ago.
-For those users who haven’t switched to Nim v2.0 yet, we have released the ninth patch release for Nim 1.6.x.
-It is a small release with 13 commits.
-Installing Nim 2.0.4
-New users
-Check out if the package manager of your OS already ships version 2.0.4 or
-install it as described here.
-Existing users
-If you have installed a previous version of Nim using choosenim,
-getting Nim 2.0.4 is as easy as:
-$ choosenim 2.0.4
-
-If you are on OSX ARM, choosenim will not work for you.
-Please choose an alternative method of installing or updating.
-Alternatively, you can …]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interesting Links for April 2024]]></title>
-        <id>https://notes.abhinavsarkar.net/2024/links-04</id>
-        <link href="https://notes.abhinavsarkar.net/2024/links-04"/>
-        <updated>2024-04-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Here are some interesting things I recently read on the internet:</p>
-
-<ul>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://blog.brycekerley.net/2024/04/01/p-langs.html">A lazy and flippant classification of programming languages</a> <br />
-Bryce Kerley classifies some popular programming languages into categories with single letter names, with hilarious effects.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://benhoyt.com/writings/go-1brc/">The One Billion Row Challenge in Go: from 1m45s to 3.4s in nine solutions</a> <br />
-Ben Hoyt optimizes a Golang program to be thirty times faster.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://tonsky.me/blog/js-bloat/">JavaScript Bloat in 2024</a> <br />
-Nikita Prokopov gets in touch with modern front-end development, and hates how bloated everything is.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://andrewkelley.me/post/why-we-cant-have-nice-software.html">Why We Can’t Have Nice Software</a> <br />
-Andrew Kelley muses about the bad state of current software, and attributes it to human greed.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://tratt.net/laurie/blog/2024/faster_shell_startup_with_shell_switching.html">Faster Shell Startup With Shell Switching</a> <br />
-Laurence Tratt uses profiling to figure out a trick to start shells faster.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://buttondown.email/hillelwayne/archive/when-would-you-ever-want-bubblesort/">When would you ever want bubblesort?</a> <br />
-Hillel Wayne finally finds the answer to the age-old oft-asked question.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://vfoley.xyz/parsing/">You already know how to parse by hand</a> <br />
-Vincent Foley lets you know how to parse by hand, but then you already knew that.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://compiler.club/compiling-lambda-calculus/">Compiling Lambda Calculus</a> <br />
-Colin James compiles Lambda Calculus to LLVM IR, for fun and no profit.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://dubroy.com/blog/three-ways-of-handling-user-input">Three ways of handling user input</a> <br />
-Patrick Dubroy surveys different ways of handling user input: callbacks, polling and magic.</p>
-  </li>
-  <li>
-    <p><a href="https://web.archive.org/web/3/https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity.html">Why Static Languages Suffer From Complexity</a> <br />
-Tima Kinsart argues that statically typed languages are complex because metaprogramming them is hard.</p>
-  </li>
-</ul>
-
-<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/112281600001282969" class="mastodon-link">Mastodon</a>.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Speculations on arenas and custom strings in C++]]></title>
-        <id>https://nullprogram.com/blog/2024/04/14/</id>
-        <link href="https://nullprogram.com/blog/2024/04/14/"/>
-        <updated>2024-04-14T00:39:18.000Z</updated>
-        <summary type="html"><![CDATA[My techniques with arena allocation and strings are
-oriented around C. I’m always looking for a better way, and lately I’ve
-been experimenting with building them using C++ features. What are the
-trade-offs? Are the benefits worth the costs? In this article I lay out my
-goals, review implementation possibilities, and discuss my findings.
-Following along will require familiarity with those previous two articles.
-Some of C++ is beyond my mental capabilities, and so I cannot wield those
-parts effectively. Other parts I can wrap my head around, but it
-requires substantial effort and the inevitable mistakes are difficult to
-debug. So a general goal is to minimize contact with that complexity, only
-touching a few higher-value features that I can use confidently.
-Existing practice is unimportant. …]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Science and Technology links (April 13 2024)]]></title>
-        <id>https://lemire.me/blog/?p=21254</id>
-        <link href="https://lemire.me/blog/2024/04/13/science-and-technology-links-april-13-2024/"/>
-        <updated>2024-04-13T22:31:25.000Z</updated>
-        <summary type="html"><![CDATA[Our computer hardware exchange data using a standard called PCI Express. Your disk, your network and your GPU are limited by what PCI Express can do. Currently, it means that you are limited to a few gigabytes per second of bandwidth. PCI Express is about to receive a big performance boost in 2025 when PCI … Continue reading Science and Technology links (April 13 2024)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Greatest common divisor,  the extended Euclidean algorithm, and speed!]]></title>
-        <id>https://lemire.me/blog/?p=21250</id>
-        <link href="https://lemire.me/blog/2024/04/13/greatest-common-divisor-the-extended-euclidean-algorithm-and-speed/"/>
-        <updated>2024-04-13T20:56:11.000Z</updated>
-        <summary type="html"><![CDATA[We sometimes need to find the greatest common divisor between two integers in software. The fastest way to compute the greatest common divisor might be the binary Euclidean algorithm. In C++20, it can be implemented generically as follows: template <typename int_type> int_type binary_gcd(int_type u, int_type v) { if (u == 0) { return v; } … Continue reading Greatest common divisor,  the extended Euclidean algorithm, and speed!]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>

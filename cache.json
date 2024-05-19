@@ -4,18 +4,7 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2024/04/14/",
-          "author": null,
-          "description": "My techniques with arena allocation and strings are\noriented around C. I’m always looking for a better way, and lately I’ve\nbeen experimenting with building them using C++ features. What are the\ntrade-offs? Are the benefits worth the costs? In this article I lay out my\ngoals, review implementation possibilities, and discuss my findings.\nFollowing along will require familiarity with those previous two articles.\nSome of C++ is beyond my mental capabilities, and so I cannot wield those\nparts effectively. Other parts I can wrap my head around, but it\nrequires substantial effort and the inevitable mistakes are difficult to\ndebug. So a general goal is to minimize contact with that complexity, only\ntouching a few higher-value features that I can use confidently.\nExisting practice is unimportant. …",
-          "link": "https://nullprogram.com/blog/2024/04/14/",
-          "publishedOn": "2024-04-14T00:39:18.000Z",
-          "wordCount": 2008,
-          "title": "Speculations on arenas and custom strings in C++",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Max Slater",
@@ -44,18 +33,7 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2024/04/16/versions-1620-204-released.html",
-          "author": null,
-          "description": "The Nim team is happy to announce two releases:\nthe latest Nim, version 2.0.4\nLTS release, version 1.6.20\nFor the majority of our users, v2.0.4 contains 23 commits and brings bugfixes and improvements to Nim 2.0.2, released four months ago.\nFor those users who haven’t switched to Nim v2.0 yet, we have released the ninth patch release for Nim 1.6.x.\nIt is a small release with 13 commits.\nInstalling Nim 2.0.4\nNew users\nCheck out if the package manager of your OS already ships version 2.0.4 or\ninstall it as described here.\nExisting users\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.0.4 is as easy as:\n$ choosenim 2.0.4\n\nIf you are on OSX ARM, choosenim will not work for you.\nPlease choose an alternative method of installing or updating.\nAlternatively, you can …",
-          "link": "https://nim-lang.org//blog/2024/04/16/versions-1620-204-released.html",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": 531,
-          "title": "Versions 2.0.4 and 1.6.20 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": null,
@@ -85,18 +63,7 @@
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
-      "articles": [
-        {
-          "id": "https://notes.abhinavsarkar.net/2024/links-04",
-          "author": null,
-          "description": "<p>Here are some interesting things I recently read on the internet:</p>\n\n<ul>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://blog.brycekerley.net/2024/04/01/p-langs.html\">A lazy and flippant classification of programming languages</a> <br />\nBryce Kerley classifies some popular programming languages into categories with single letter names, with hilarious effects.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://benhoyt.com/writings/go-1brc/\">The One Billion Row Challenge in Go: from 1m45s to 3.4s in nine solutions</a> <br />\nBen Hoyt optimizes a Golang program to be thirty times faster.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://tonsky.me/blog/js-bloat/\">JavaScript Bloat in 2024</a> <br />\nNikita Prokopov gets in touch with modern front-end development, and hates how bloated everything is.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://andrewkelley.me/post/why-we-cant-have-nice-software.html\">Why We Can’t Have Nice Software</a> <br />\nAndrew Kelley muses about the bad state of current software, and attributes it to human greed.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://tratt.net/laurie/blog/2024/faster_shell_startup_with_shell_switching.html\">Faster Shell Startup With Shell Switching</a> <br />\nLaurence Tratt uses profiling to figure out a trick to start shells faster.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://buttondown.email/hillelwayne/archive/when-would-you-ever-want-bubblesort/\">When would you ever want bubblesort?</a> <br />\nHillel Wayne finally finds the answer to the age-old oft-asked question.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://vfoley.xyz/parsing/\">You already know how to parse by hand</a> <br />\nVincent Foley lets you know how to parse by hand, but then you already knew that.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://compiler.club/compiling-lambda-calculus/\">Compiling Lambda Calculus</a> <br />\nColin James compiles Lambda Calculus to LLVM IR, for fun and no profit.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://dubroy.com/blog/three-ways-of-handling-user-input\">Three ways of handling user input</a> <br />\nPatrick Dubroy surveys different ways of handling user input: callbacks, polling and magic.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity.html\">Why Static Languages Suffer From Complexity</a> <br />\nTima Kinsart argues that statically typed languages are complex because metaprogramming them is hard.</p>\n  </li>\n</ul>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/112281600001282969\" class=\"mastodon-link\">Mastodon</a>.</p>",
-          "link": "https://notes.abhinavsarkar.net/2024/links-04",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": 534,
-          "title": "Interesting Links for April 2024",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Daniel Lemire's blog",
@@ -104,12 +71,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21333",
+          "author": "Daniel Lemire",
+          "description": "Back when I started programming professionally, every expert and every software engineering professor would swear by object-oriented programming. Resistance was futile. History had spoken: the future was object-oriented. It is hard to understate how strong the mania was. In education, we started calling textbooks and videos ‘learning objects‘. Educators would soon ‘combine learning objects and reuse them‘. A competitor … Continue reading Learning from the object-oriented mania",
+          "link": "https://lemire.me/blog/2024/05/14/learning-from-the-object-oriented-mania/",
+          "publishedOn": "2024-05-14T14:17:42.000Z",
+          "wordCount": 3569,
+          "title": "Learning from the object-oriented mania",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21331",
+          "author": "Daniel Lemire",
+          "description": "In C++, there are different ways to pass a value to a function. Typically, at any given time, an object in C++ ‘belongs’ to a single function. The various ways to call a function differ in who owns the object, the caller or the callee (the function being called). The simplest one is that we … Continue reading Forwarding references in C++",
+          "link": "https://lemire.me/blog/2024/05/13/forwarding-references-in-c/",
+          "publishedOn": "2024-05-13T15:51:51.000Z",
+          "wordCount": 2875,
+          "title": "Forwarding references in C++",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21322",
           "author": "Daniel Lemire",
           "description": "Peer review as we know it today was introduced very late, over a century after the scientific revolution. It happened after Einstein’s time… arguably the most productive era in science. Current scientists often equate a success with the publication in a selective peer-reviewed venue. But that was never the scientific paradigm. In fact, it is … Continue reading Peer review is not the gold standard in science",
           "link": "https://lemire.me/blog/2024/05/11/peer-review-is-not-the-gold-standard-in-science/",
           "publishedOn": "2024-05-11T22:47:16.000Z",
-          "wordCount": 3225,
+          "wordCount": 4117,
           "title": "Peer review is not the gold standard in science",
           "imageUrl": null
         },
@@ -119,7 +106,7 @@
           "description": "Python is probably the most popular programming language in the world right now. Python is easy to extend using C code. You may want to return from Python a small data structure. When crossing from C to Python, there is an overhead. Thus, if performance is a concern, you do not want to return lots … Continue reading How fast can you construct a small list of strings in C for Python?",
           "link": "https://lemire.me/blog/2024/05/09/how-fast-can-construct-small-list-of-strings-in-c-for-python/",
           "publishedOn": "2024-05-09T03:55:45.000Z",
-          "wordCount": 3366,
+          "wordCount": 3499,
           "title": "How fast can you construct a small list of strings in C for Python?",
           "imageUrl": null
         },
@@ -129,7 +116,7 @@
           "description": "Under Windows, when using Visual Studio to build C++ code, there are two possible compiler strategies. The Visual Studio compiler (often referred to as MSVC) is the default compiler provided by Microsoft for Windows development. In Debug mode, the regular Visual Studio compiler produces faster compilation times and more performant code compared to ClangCL. ClangCL … Continue reading Should Node.js be built with ClangCL under Windows?",
           "link": "https://lemire.me/blog/2024/05/02/should-node-js-be-built-with-clangcl-under-windows/",
           "publishedOn": "2024-05-02T19:23:11.000Z",
-          "wordCount": 3476,
+          "wordCount": 3427,
           "title": "Should Node.js be built with ClangCL under Windows?",
           "imageUrl": null
         },
@@ -139,7 +126,7 @@
           "description": "Egor Bogatov is an engineer working on C# compiler technology at Microsoft. He had an intriguing remark about a performance regression on Apple hardware following what appears to be an optimization. The .NET 9.0 runtime introduced the optimization where two loads (ldr) could be combined into a single load (ldp). It is a typical peephole … Continue reading Careful with Pair-of-Registers instructions on Apple Silicon",
           "link": "https://lemire.me/blog/2024/04/29/careful-with-pair-of-registers-instructions-on-apple-silicon/",
           "publishedOn": "2024-04-29T00:32:38.000Z",
-          "wordCount": 3214,
+          "wordCount": 3165,
           "title": "Careful with Pair-of-Registers instructions on Apple Silicon",
           "imageUrl": null
         },
@@ -149,7 +136,7 @@
           "description": "Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants",
           "link": "https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/",
           "publishedOn": "2024-04-27T00:05:24.000Z",
-          "wordCount": 3577,
+          "wordCount": 3528,
           "title": "Large language models (e.g., ChatGPT) as research assistants",
           "imageUrl": null
         },
@@ -159,7 +146,7 @@
           "description": "Go back to the roots: experience. An expert is someone who has repeatedly solved the concrete problem you are encountering. If your toilet leaks, an experienced plumber is an expert. An expert has a track record and has had to face the consequences of their work. Failing is part of what makes an expert: any … Continue reading How do you recognize an expert?",
           "link": "https://lemire.me/blog/2024/04/21/how-do-you-recognize-an-expert/",
           "publishedOn": "2024-04-21T17:35:28.000Z",
-          "wordCount": 3209,
+          "wordCount": 3160,
           "title": "How do you recognize an expert?",
           "imageUrl": null
         },
@@ -169,28 +156,8 @@
           "description": "Suppose that you receive a long string and you need to break it down into lines. Consider the simplified problems where you need to break the string into segments of (say) 72 characters. It is a relevant problem if your string is a base64 string or a Fortran formatted statement. The problem could be a … Continue reading How quickly can you break a long string into lines?",
           "link": "https://lemire.me/blog/2024/04/19/how-quickly-can-you-break-a-long-string-into-lines/",
           "publishedOn": "2024-04-19T21:25:21.000Z",
-          "wordCount": 3399,
+          "wordCount": 3386,
           "title": "How quickly can you break a long string into lines?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21254",
-          "author": "Daniel Lemire",
-          "description": "Our computer hardware exchange data using a standard called PCI Express. Your disk, your network and your GPU are limited by what PCI Express can do. Currently, it means that you are limited to a few gigabytes per second of bandwidth. PCI Express is about to receive a big performance boost in 2025 when PCI … Continue reading Science and Technology links (April 13 2024)",
-          "link": "https://lemire.me/blog/2024/04/13/science-and-technology-links-april-13-2024/",
-          "publishedOn": "2024-04-13T22:31:25.000Z",
-          "wordCount": 3129,
-          "title": "Science and Technology links (April 13 2024)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21250",
-          "author": "Daniel Lemire",
-          "description": "We sometimes need to find the greatest common divisor between two integers in software. The fastest way to compute the greatest common divisor might be the binary Euclidean algorithm. In C++20, it can be implemented generically as follows: template <typename int_type> int_type binary_gcd(int_type u, int_type v) { if (u == 0) { return v; } … Continue reading Greatest common divisor,  the extended Euclidean algorithm, and speed!",
-          "link": "https://lemire.me/blog/2024/04/13/greatest-common-divisor-the-extended-euclidean-algorithm-and-speed/",
-          "publishedOn": "2024-04-13T20:56:11.000Z",
-          "wordCount": 4206,
-          "title": "Greatest common divisor,  the extended Euclidean algorithm, and speed!",
           "imageUrl": null
         }
       ]
