@@ -4,7 +4,28 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2024/05/25/",
+          "author": null,
+          "description": "I continue to streamline an arena-based paradigm, and stumbled\nupon a concise technique for dynamic growth — an efficient, generic\n“concatenate anything to anything” within an arena built atop a core of\n9-ish lines of code. The key insight originated from a reader suggestion\nabout dynamic arrays. The subject of concatenation can be a string,\ndynamic array, or even something else. The “system” is extensible, and\nespecially useful for path handling.\nContinuing from last time, the examples are in light, C-style C++.\nI chose it because templates and function overloading express the concepts\nsuccinctly. It uses no standard library functionality, so converting to C,\nor similar, should be straightforward. The core concatenation “operator”:\n\ntemplate<typename T>\nT concat(arena *a, T head, T tail)\n…",
+          "link": "https://nullprogram.com/blog/2024/05/25/",
+          "publishedOn": "2024-05-25T00:00:00.000Z",
+          "wordCount": 1666,
+          "title": "Arenas and the almighty concatenation operator",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2024/05/24/",
+          "author": null,
+          "description": "Occasionally we need to compute the size of an object that does not yet\nexist, or a subscript that may fall out of bounds. It’s easy to miss\nthe edge cases where results overflow, creating a nasty, subtle bug, even\nin the presence of type safety. Ideally such computations happen in\nspecialized code, such as inside an allocator (calloc, reallocarray)\nand not outside by the allocatee (i.e. malloc). Mitigations exist with\ndifferent trade-offs: arbitrary precision, or using a wider fixed integer\n— i.e. 128-bit integers on 64-bit hosts. In the typical case, working only\nwith fixed size-type integers, I’ve come up with a set of guidelines to\navoid overflows in the edge cases.\nRange check before computing a result. No exceptions.\nDo not cast unless you know a priori the operand is in range.\nNever…",
+          "link": "https://nullprogram.com/blog/2024/05/24/",
+          "publishedOn": "2024-05-24T22:25:10.000Z",
+          "wordCount": 1145,
+          "title": "Guidelines for computing sizes and subscripts",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Max Slater",
@@ -63,7 +84,18 @@
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://notes.abhinavsarkar.net/2024/links-05",
+          "author": null,
+          "description": "<p>Here are some interesting things I recently read on the internet:</p>\n\n<ul>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://adam.nels.onl/blog/an-oo-languge-for-the-20s/\">An Object-Oriented Language for the ’20s</a> <br />\nAdam Nelson remixes the good ideas from various modern programming languages and proposes what an object-oriented language designed for the present-time should be.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://quuxplusone.github.io/blog/2024/03/31/ed-catmurs-triliteral/\">Ed Catmur’s Triliteral esolang</a> <br />\nArthur O’Dwyer describes Triliteral, an esoteric programming language invented by prolific C++ contributor Ed Catmur, which is inspired by how words are created in Semitic languages by weaving vowels through triconsonantal roots.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/\">The origin and virtues of semicolons in programming languages</a> <br />\nNicole Tietz-Sokolskaya wades through computer science history trying to find the when and why of the wide use of the humble semicolon in many programming languages.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/20240517073857/https://old.reddit.com/r/ProgrammingLanguages/comments/1cm8m9o/is_there_a_minimum_viable_language_within/\">Is there a minimum viable language within imperative languages like C++ or Rust from which the rest of language can be built?</a> <br />\nSome wise Redditors discuss the minimal viable programming language that can serve as a core language for bigger imperative languages like C++. Lisp and Assembly are mentioned many times.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://kubyshkin.name/posts/type-checking-as-evaluation/\">Type Checking as Evaluation</a> <br />\nDmitriy Kubyshkin explains are how type checking in statically typed programming languages is like evaluation of a secondary program in dynamically typed languages.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/\">Unexplanations: query optimization works because sql is declarative</a> <br />\nJamie Brandon explains the true reason why SQL queries are more amenable to optimizations compared to other programming languages.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://www.lesleylai.info/en/ast-in-cpp-part-1-variant\">Representing an Abstract Syntax Tree in C++: Part 1 - Variants</a> <br />\nLesley Lai explores the different ways of representing Abstract Syntax Trees in C++.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/\">The Alternative Implementation Problem</a> <br />\nMaxime Chevalier-Boisvert posits that most of the alternative implementations of programming languages are unsuccessful because they are incompatible with the vast amount of code written for the original implementations.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://mcyoung.xyz/2021/06/01/linker-script/\">Everything You Never Wanted To Know About Linker Script</a> <br />\nIn this comprehensive guide, Miguel Young tells us everything there is to know about the art and science of linking to create executables.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://bitbashing.io/gc-for-systems-programmers.html\">Garbage Collection for Systems Programmers</a> <br />\nMatt Kline argues that it is okay to use garbage collection with system programming languages because modern garbage collectors have amazing throughput.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://vaibhavsagar.com/blog/2019/09/08/popcount/\">You Won’t Believe This One Weird CPU Instruction!</a> <br />\nVaibhav Sagar explored the history and use of the <code class=\"language-plaintext highlighter-rouge\">popcount</code> CPU instruction.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://coredumped.dev/2021/04/07/when-pure-function-lie/\">When pure function lie</a> <br />\nTroy Hinckley puzzles over how it is possible for pure functions to return different values in Common Lisp.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/20240522104922/https://henko.net/blog/why-write-unit-tests/\">Why write unit tests?</a> <br />\nHenrik Jernevad lists some good reasons to unit test your programs.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/3/https://vfoley.xyz/reasonable-use/\">Making Reasonable Use of Computer Resources</a> <br />\nVincent Foley argues that me must think about the performance of our software at the outset, not as an afterthought.</p>\n  </li>\n  <li>\n    <p><a href=\"https://web.archive.org/web/20240522105655/https://yangdanny97.github.io/blog/2024/04/26/dubois-challenge\">Recreating Historical Data Viz in 2024 using D3.js</a> <br />\nDanny Yang recreates W.E.B Du Bois’s famous historical data visualizations using D3.js.</p>\n  </li>\n</ul>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/112485258469122899\" class=\"mastodon-link\">Mastodon</a>.</p>",
+          "link": "https://notes.abhinavsarkar.net/2024/links-05",
+          "publishedOn": "2024-05-22T00:00:00.000Z",
+          "wordCount": 753,
+          "title": "Interesting Links for May 2024",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Daniel Lemire's blog",
@@ -76,7 +108,7 @@
           "description": "Back when I started programming professionally, every expert and every software engineering professor would swear by object-oriented programming. Resistance was futile. History had spoken: the future was object-oriented. It is hard to understate how strong the mania was. In education, we started calling textbooks and videos ‘learning objects‘. Educators would soon ‘combine learning objects and reuse them‘. A competitor … Continue reading Learning from the object-oriented mania",
           "link": "https://lemire.me/blog/2024/05/14/learning-from-the-object-oriented-mania/",
           "publishedOn": "2024-05-14T14:17:42.000Z",
-          "wordCount": 3569,
+          "wordCount": 3878,
           "title": "Learning from the object-oriented mania",
           "imageUrl": null
         },
@@ -86,7 +118,7 @@
           "description": "In C++, there are different ways to pass a value to a function. Typically, at any given time, an object in C++ ‘belongs’ to a single function. The various ways to call a function differ in who owns the object, the caller or the callee (the function being called). The simplest one is that we … Continue reading Forwarding references in C++",
           "link": "https://lemire.me/blog/2024/05/13/forwarding-references-in-c/",
           "publishedOn": "2024-05-13T15:51:51.000Z",
-          "wordCount": 2875,
+          "wordCount": 2861,
           "title": "Forwarding references in C++",
           "imageUrl": null
         },
@@ -96,7 +128,7 @@
           "description": "Peer review as we know it today was introduced very late, over a century after the scientific revolution. It happened after Einstein’s time… arguably the most productive era in science. Current scientists often equate a success with the publication in a selective peer-reviewed venue. But that was never the scientific paradigm. In fact, it is … Continue reading Peer review is not the gold standard in science",
           "link": "https://lemire.me/blog/2024/05/11/peer-review-is-not-the-gold-standard-in-science/",
           "publishedOn": "2024-05-11T22:47:16.000Z",
-          "wordCount": 4117,
+          "wordCount": 4103,
           "title": "Peer review is not the gold standard in science",
           "imageUrl": null
         },
@@ -106,7 +138,7 @@
           "description": "Python is probably the most popular programming language in the world right now. Python is easy to extend using C code. You may want to return from Python a small data structure. When crossing from C to Python, there is an overhead. Thus, if performance is a concern, you do not want to return lots … Continue reading How fast can you construct a small list of strings in C for Python?",
           "link": "https://lemire.me/blog/2024/05/09/how-fast-can-construct-small-list-of-strings-in-c-for-python/",
           "publishedOn": "2024-05-09T03:55:45.000Z",
-          "wordCount": 3499,
+          "wordCount": 3485,
           "title": "How fast can you construct a small list of strings in C for Python?",
           "imageUrl": null
         },
@@ -116,7 +148,7 @@
           "description": "Under Windows, when using Visual Studio to build C++ code, there are two possible compiler strategies. The Visual Studio compiler (often referred to as MSVC) is the default compiler provided by Microsoft for Windows development. In Debug mode, the regular Visual Studio compiler produces faster compilation times and more performant code compared to ClangCL. ClangCL … Continue reading Should Node.js be built with ClangCL under Windows?",
           "link": "https://lemire.me/blog/2024/05/02/should-node-js-be-built-with-clangcl-under-windows/",
           "publishedOn": "2024-05-02T19:23:11.000Z",
-          "wordCount": 3427,
+          "wordCount": 3413,
           "title": "Should Node.js be built with ClangCL under Windows?",
           "imageUrl": null
         },
@@ -126,7 +158,7 @@
           "description": "Egor Bogatov is an engineer working on C# compiler technology at Microsoft. He had an intriguing remark about a performance regression on Apple hardware following what appears to be an optimization. The .NET 9.0 runtime introduced the optimization where two loads (ldr) could be combined into a single load (ldp). It is a typical peephole … Continue reading Careful with Pair-of-Registers instructions on Apple Silicon",
           "link": "https://lemire.me/blog/2024/04/29/careful-with-pair-of-registers-instructions-on-apple-silicon/",
           "publishedOn": "2024-04-29T00:32:38.000Z",
-          "wordCount": 3165,
+          "wordCount": 3151,
           "title": "Careful with Pair-of-Registers instructions on Apple Silicon",
           "imageUrl": null
         },
@@ -136,28 +168,8 @@
           "description": "Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants",
           "link": "https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/",
           "publishedOn": "2024-04-27T00:05:24.000Z",
-          "wordCount": 3528,
+          "wordCount": 3514,
           "title": "Large language models (e.g., ChatGPT) as research assistants",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21278",
-          "author": "Daniel Lemire",
-          "description": "Go back to the roots: experience. An expert is someone who has repeatedly solved the concrete problem you are encountering. If your toilet leaks, an experienced plumber is an expert. An expert has a track record and has had to face the consequences of their work. Failing is part of what makes an expert: any … Continue reading How do you recognize an expert?",
-          "link": "https://lemire.me/blog/2024/04/21/how-do-you-recognize-an-expert/",
-          "publishedOn": "2024-04-21T17:35:28.000Z",
-          "wordCount": 3160,
-          "title": "How do you recognize an expert?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21272",
-          "author": "Daniel Lemire",
-          "description": "Suppose that you receive a long string and you need to break it down into lines. Consider the simplified problems where you need to break the string into segments of (say) 72 characters. It is a relevant problem if your string is a base64 string or a Fortran formatted statement. The problem could be a … Continue reading How quickly can you break a long string into lines?",
-          "link": "https://lemire.me/blog/2024/04/19/how-quickly-can-you-break-a-long-string-into-lines/",
-          "publishedOn": "2024-04-19T21:25:21.000Z",
-          "wordCount": 3386,
-          "title": "How quickly can you break a long string into lines?",
           "imageUrl": null
         }
       ]

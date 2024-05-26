@@ -22,6 +22,190 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-25 datetime="2024-05-25T00:00:00.000Z">2024-05-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-25 datetime="2024-05-25T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2024/05/25/"
+                        open
+                      >
+                        <summary class="article-expander__title">Arenas and the almighty concatenation operator</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2024/05/25/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I continue to streamline an arena-based paradigm, and stumbled
+upon a concise technique for dynamic growth — an efficient, generic
+“concatenate anything to anything” within an arena built atop a core of
+9-ish lines of code. The key insight originated from a reader suggestion
+about dynamic arrays. The subject of concatenation can be a string,
+dynamic array, or even something else. The “system” is extensible, and
+especially useful for path handling.
+Continuing from last time, the examples are in light, C-style C++.
+I chose it because templates and function overloading express the concepts
+succinctly. It uses no standard library functionality, so converting to C,
+or similar, should be straightforward. The core concatenation “operator”:
+
+template
+T concat(arena *a, T head, T tail)
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-24 datetime="2024-05-24T22:25:10.000Z">2024-05-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-24 datetime="2024-05-24T22:25:10.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2024/05/24/"
+                        open
+                      >
+                        <summary class="article-expander__title">Guidelines for computing sizes and subscripts</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2024/05/24/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Occasionally we need to compute the size of an object that does not yet
+exist, or a subscript that may fall out of bounds. It’s easy to miss
+the edge cases where results overflow, creating a nasty, subtle bug, even
+in the presence of type safety. Ideally such computations happen in
+specialized code, such as inside an allocator (calloc, reallocarray)
+and not outside by the allocatee (i.e. malloc). Mitigations exist with
+different trade-offs: arbitrary precision, or using a wider fixed integer
+— i.e. 128-bit integers on 64-bit hosts. In the typical case, working only
+with fixed size-type integers, I’ve come up with a set of guidelines to
+avoid overflows in the edge cases.
+Range check before computing a result. No exceptions.
+Do not cast unless you know a priori the operand is in range.
+Never…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-22 datetime="2024-05-22T00:00:00.000Z">2024-05-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-22 datetime="2024-05-22T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Posts on abhinavsarkar.net</button>
+                  <a class="source-heading__link" href="https://abhinavsarkar.net/feed.atom">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://notes.abhinavsarkar.net/2024/links-05"
+                        open
+                      >
+                        <summary class="article-expander__title">Interesting Links for May 2024</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://notes.abhinavsarkar.net/2024/links-05">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Here are some interesting things I recently read on the internet:
+An Object-Oriented Language for the ’20s 
+Ed Catmur’s Triliteral esolang 
+The origin and virtues of semicolons in programming languages 
+Is there a minimum viable language within imperative languages like C++ or Rust from which the rest of language can be built? 
+Type Checking as Evaluation 
+Unexplanations: query optimization works because sql is declarative 
+Representing an Abstract Syntax Tree in C++: Part 1 - Variants 
+The Alternative Implementation Problem 
+Everything You Never Wanted To Know About Linker Script 
+Garbage Collection for Systems Programmers 
+You Won’t Believe This One Weird CPU Instruction! 
+popcount CPU instruction.
+When pure function lie 
+Why write unit tests? 
+Making Reasonable Use of Computer Resources 
+Recreating Historical Data Viz in 2024 using D3.js 
+Like, share, or comment on this post on Mastodon.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-14 datetime="2024-05-14T14:17:42.000Z">2024-05-14</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-14 datetime="2024-05-14T14:17:42.000Z"></time>
           </button>
@@ -50,7 +234,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Back when I started programming professionally, every expert and every software engineering professor would swear by object-oriented programming. Resistance was futile. History had spoken: the future was object-oriented. It is hard to understate how strong the mania was. In education, we started calling textbooks and videos ‘learning objects‘. Educators would soon ‘combine learning objects and reuse them‘. A competitor … Continue reading Learning from the object-oriented mania</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -389,104 +573,10 @@
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-21 datetime="2024-04-21T17:35:28.000Z">2024-04-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-21 datetime="2024-04-21T17:35:28.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21278"
-                        open
-                      >
-                        <summary class="article-expander__title">How do you recognize an expert?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/04/21/how-do-you-recognize-an-expert/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Go back to the roots: experience. An expert is someone who has repeatedly solved the concrete problem you are encountering. If your toilet leaks, an experienced plumber is an expert. An expert has a track record and has had to face the consequences of their work. Failing is part of what makes an expert: any … Continue reading How do you recognize an expert?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-19 datetime="2024-04-19T21:25:21.000Z">2024-04-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-19 datetime="2024-04-19T21:25:21.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21272"
-                        open
-                      >
-                        <summary class="article-expander__title">How quickly can you break a long string into lines?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/04/19/how-quickly-can-you-break-a-long-string-into-lines/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Suppose that you receive a long string and you need to break it down into lines. Consider the simplified problems where you need to break the string into segments of (say) 72 characters. It is a relevant problem if your string is a base64 string or a Fortran formatted statement. The problem could be a … Continue reading How quickly can you break a long string into lines?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9143884541">
-        <time id="build-timestamp" datetime="2024-05-19T00:59:39.943Z">2024-05-19T00:59:39.943Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9239458012">
+        <time id="build-timestamp" datetime="2024-05-26T01:00:21.829Z">2024-05-26T01:00:21.829Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

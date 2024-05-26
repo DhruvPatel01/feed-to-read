@@ -1,10 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-19T00:59:39.959Z</id>
+    <id>urn:2024-05-26T01:00:21.847Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-19T00:59:39.959Z</updated>
+    <updated>2024-05-26T01:00:21.847Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Arenas and the almighty concatenation operator]]></title>
+        <id>https://nullprogram.com/blog/2024/05/25/</id>
+        <link href="https://nullprogram.com/blog/2024/05/25/"/>
+        <updated>2024-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I continue to streamline an arena-based paradigm, and stumbled
+upon a concise technique for dynamic growth — an efficient, generic
+“concatenate anything to anything” within an arena built atop a core of
+9-ish lines of code. The key insight originated from a reader suggestion
+about dynamic arrays. The subject of concatenation can be a string,
+dynamic array, or even something else. The “system” is extensible, and
+especially useful for path handling.
+Continuing from last time, the examples are in light, C-style C++.
+I chose it because templates and function overloading express the concepts
+succinctly. It uses no standard library functionality, so converting to C,
+or similar, should be straightforward. The core concatenation “operator”:
+
+template<typename T>
+T concat(arena *a, T head, T tail)
+…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Guidelines for computing sizes and subscripts]]></title>
+        <id>https://nullprogram.com/blog/2024/05/24/</id>
+        <link href="https://nullprogram.com/blog/2024/05/24/"/>
+        <updated>2024-05-24T22:25:10.000Z</updated>
+        <summary type="html"><![CDATA[Occasionally we need to compute the size of an object that does not yet
+exist, or a subscript that may fall out of bounds. It’s easy to miss
+the edge cases where results overflow, creating a nasty, subtle bug, even
+in the presence of type safety. Ideally such computations happen in
+specialized code, such as inside an allocator (calloc, reallocarray)
+and not outside by the allocatee (i.e. malloc). Mitigations exist with
+different trade-offs: arbitrary precision, or using a wider fixed integer
+— i.e. 128-bit integers on 64-bit hosts. In the typical case, working only
+with fixed size-type integers, I’ve come up with a set of guidelines to
+avoid overflows in the edge cases.
+Range check before computing a result. No exceptions.
+Do not cast unless you know a priori the operand is in range.
+Never…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interesting Links for May 2024]]></title>
+        <id>https://notes.abhinavsarkar.net/2024/links-05</id>
+        <link href="https://notes.abhinavsarkar.net/2024/links-05"/>
+        <updated>2024-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Here are some interesting things I recently read on the internet:</p>
+
+<ul>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://adam.nels.onl/blog/an-oo-languge-for-the-20s/">An Object-Oriented Language for the ’20s</a> <br />
+Adam Nelson remixes the good ideas from various modern programming languages and proposes what an object-oriented language designed for the present-time should be.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://quuxplusone.github.io/blog/2024/03/31/ed-catmurs-triliteral/">Ed Catmur’s Triliteral esolang</a> <br />
+Arthur O’Dwyer describes Triliteral, an esoteric programming language invented by prolific C++ contributor Ed Catmur, which is inspired by how words are created in Semitic languages by weaving vowels through triconsonantal roots.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/">The origin and virtues of semicolons in programming languages</a> <br />
+Nicole Tietz-Sokolskaya wades through computer science history trying to find the when and why of the wide use of the humble semicolon in many programming languages.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/20240517073857/https://old.reddit.com/r/ProgrammingLanguages/comments/1cm8m9o/is_there_a_minimum_viable_language_within/">Is there a minimum viable language within imperative languages like C++ or Rust from which the rest of language can be built?</a> <br />
+Some wise Redditors discuss the minimal viable programming language that can serve as a core language for bigger imperative languages like C++. Lisp and Assembly are mentioned many times.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://kubyshkin.name/posts/type-checking-as-evaluation/">Type Checking as Evaluation</a> <br />
+Dmitriy Kubyshkin explains are how type checking in statically typed programming languages is like evaluation of a secondary program in dynamically typed languages.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/">Unexplanations: query optimization works because sql is declarative</a> <br />
+Jamie Brandon explains the true reason why SQL queries are more amenable to optimizations compared to other programming languages.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://www.lesleylai.info/en/ast-in-cpp-part-1-variant">Representing an Abstract Syntax Tree in C++: Part 1 - Variants</a> <br />
+Lesley Lai explores the different ways of representing Abstract Syntax Trees in C++.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/">The Alternative Implementation Problem</a> <br />
+Maxime Chevalier-Boisvert posits that most of the alternative implementations of programming languages are unsuccessful because they are incompatible with the vast amount of code written for the original implementations.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://mcyoung.xyz/2021/06/01/linker-script/">Everything You Never Wanted To Know About Linker Script</a> <br />
+In this comprehensive guide, Miguel Young tells us everything there is to know about the art and science of linking to create executables.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://bitbashing.io/gc-for-systems-programmers.html">Garbage Collection for Systems Programmers</a> <br />
+Matt Kline argues that it is okay to use garbage collection with system programming languages because modern garbage collectors have amazing throughput.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://vaibhavsagar.com/blog/2019/09/08/popcount/">You Won’t Believe This One Weird CPU Instruction!</a> <br />
+Vaibhav Sagar explored the history and use of the <code class="language-plaintext highlighter-rouge">popcount</code> CPU instruction.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://coredumped.dev/2021/04/07/when-pure-function-lie/">When pure function lie</a> <br />
+Troy Hinckley puzzles over how it is possible for pure functions to return different values in Common Lisp.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/20240522104922/https://henko.net/blog/why-write-unit-tests/">Why write unit tests?</a> <br />
+Henrik Jernevad lists some good reasons to unit test your programs.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/3/https://vfoley.xyz/reasonable-use/">Making Reasonable Use of Computer Resources</a> <br />
+Vincent Foley argues that me must think about the performance of our software at the outset, not as an afterthought.</p>
+  </li>
+  <li>
+    <p><a href="https://web.archive.org/web/20240522105655/https://yangdanny97.github.io/blog/2024/04/26/dubois-challenge">Recreating Historical Data Viz in 2024 using D3.js</a> <br />
+Danny Yang recreates W.E.B Du Bois’s famous historical data visualizations using D3.js.</p>
+  </li>
+</ul>
+
+<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/112485258469122899" class="mastodon-link">Mastodon</a>.</p>]]></summary>
+        <author>
+            <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Learning from the object-oriented mania]]></title>
         <id>https://lemire.me/blog/?p=21333</id>
@@ -81,26 +202,6 @@
         <link href="https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/"/>
         <updated>2024-04-27T00:05:24.000Z</updated>
         <summary type="html"><![CDATA[Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How do you recognize an expert?]]></title>
-        <id>https://lemire.me/blog/?p=21278</id>
-        <link href="https://lemire.me/blog/2024/04/21/how-do-you-recognize-an-expert/"/>
-        <updated>2024-04-21T17:35:28.000Z</updated>
-        <summary type="html"><![CDATA[Go back to the roots: experience. An expert is someone who has repeatedly solved the concrete problem you are encountering. If your toilet leaks, an experienced plumber is an expert. An expert has a track record and has had to face the consequences of their work. Failing is part of what makes an expert: any … Continue reading How do you recognize an expert?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How quickly can you break a long string into lines?]]></title>
-        <id>https://lemire.me/blog/?p=21272</id>
-        <link href="https://lemire.me/blog/2024/04/19/how-quickly-can-you-break-a-long-string-into-lines/"/>
-        <updated>2024-04-19T21:25:21.000Z</updated>
-        <summary type="html"><![CDATA[Suppose that you receive a long string and you need to break it down into lines. Consider the simplified problems where you need to break the string into segments of (say) 72 characters. It is a relevant problem if your string is a base64 string or a Fortran formatted statement. The problem could be a … Continue reading How quickly can you break a long string into lines?]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
