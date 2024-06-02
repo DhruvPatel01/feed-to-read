@@ -11,7 +11,7 @@
           "description": "I continue to streamline an arena-based paradigm, and stumbled\nupon a concise technique for dynamic growth — an efficient, generic\n“concatenate anything to anything” within an arena built atop a core of\n9-ish lines of code. The key insight originated from a reader suggestion\nabout dynamic arrays. The subject of concatenation can be a string,\ndynamic array, or even something else. The “system” is extensible, and\nespecially useful for path handling.\nContinuing from last time, the examples are in light, C-style C++.\nI chose it because templates and function overloading express the concepts\nsuccinctly. It uses no standard library functionality, so converting to C,\nor similar, should be straightforward. The core concatenation “operator”:\n\ntemplate<typename T>\nT concat(arena *a, T head, T tail)\n…",
           "link": "https://nullprogram.com/blog/2024/05/25/",
           "publishedOn": "2024-05-25T00:00:00.000Z",
-          "wordCount": 1666,
+          "wordCount": 1714,
           "title": "Arenas and the almighty concatenation operator",
           "imageUrl": null
         },
@@ -31,18 +31,7 @@
       "title": "Max Slater",
       "feedUrl": "https://thenumb.at/feed.xml",
       "siteUrl": "https://thenumb.at/",
-      "articles": [
-        {
-          "id": "https://thenumb.at/BBG/",
-          "author": null,
-          "description": "Brooklyn Botanical Garden, New York, NY, 2024",
-          "link": "https://thenumb.at/BBG/",
-          "publishedOn": "2024-05-01T00:00:00.000Z",
-          "wordCount": 52,
-          "title": "Brooklyn Botanical Garden",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -54,7 +43,18 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html",
+          "author": null,
+          "description": "Oolib Upgrade\nAuthor: Neo\nNew super cool features here!\nMultiple constructor\nclass Gun:\n  var\n    offence: int\n    capacity = 6\n    price: int\n\n  proc `new`(offence: int) =\n    self.offence = offence\n    self.capacity = 8\n    self.price = 300\n\n  proc `new`(capacity: int) =\n    self.offence = 14\n    self.capacity = capacity\n    self.price = 200\n\n# This `new()` is made from the type definition\nlet _ = Gun.new(offence = 5, price = 6)\n\n# 2nd one\nlet _ = Gun.new(offence = 12)\n\n# 3rd one\nlet _ = Gun.new(capacity = 10)\n\nclass Sword:\n  var\n    offence: int\n    price {.initial.} = 100\n\n# made from the type definition\nlet _ = Sword.new(8)\n\n{.construct.}\na type definition with {.construct.} are made into a class. Now that we can define a class without using class!\ntype Shield {.construct.} = ref obje…",
+          "link": "https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html",
+          "publishedOn": "2024-06-01T00:00:00.000Z",
+          "wordCount": 589,
+          "title": "This Month with Nim: October 2023 to June 2024 (It is a long month)",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        }
+      ]
     },
     {
       "title": null,
@@ -78,7 +78,18 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "https://samwho.dev/rss.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://samwho.dev/dogs/",
+          "author": null,
+          "description": ".dog-line {\n  display: flex;\n  flex-wrap: nowrap;\n  flex-direction: row;\n  width: 100%;\n  height: 10rem;\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\n.dog-line img {\n  flex-grow: 1;\n  height: auto;\n  margin: 0;\n  padding: 0;\n  object-fit: contain;\n}\n\n.dog-grid {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  grid-gap: 1rem;\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\nBack in Memory Allocation, I introduced Haskie.\nThe idea behind Haskie was to create a character that could ask questions the\nreader might have, and to \"soften\" the posts to make them feel less\nintimidating. I got some feedback from people that Haskie was a bit too\nchildish, and didn't feel like he belonged in posts about serious topics.\nThis feedback was in the minority, though, and most people liked him. So I…",
+          "link": "https://samwho.dev/dogs/",
+          "publishedOn": "2024-06-01T00:00:00.000Z",
+          "wordCount": 738,
+          "title": "A Commitment to Art and Dogs",
+          "imageUrl": "https://samwho.dev/images/dogs.png?h=763937a7e6c6de05e453"
+        }
+      ]
     },
     {
       "title": "Posts on abhinavsarkar.net",
@@ -103,12 +114,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21364",
+          "author": "Daniel Lemire",
+          "description": "In software, we often represent strings by surrounding them with quotes (\"). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (\") or the backlash character (\\) should be replaced by \\\" or \\\\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping",
+          "link": "https://lemire.me/blog/2024/05/31/quickly-checking-whether-a-string-needs-escaping/",
+          "publishedOn": "2024-05-31T03:48:21.000Z",
+          "wordCount": 4057,
+          "title": "Quickly checking whether a string needs escaping",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21360",
+          "author": "Daniel Lemire",
+          "description": "In the quest for software optimization, a trusty companion is the sampling profiler, a tool available in most programming languages. These profilers work unobtrusively, taking snapshots of the program’s state and recording the currently executing function or instruction. While profilers sound like a silver bullet for identifying performance bottlenecks, their usefulness has limitations. They excel … Continue reading Never reason from the results of a sampling profiler",
+          "link": "https://lemire.me/blog/2024/05/30/never-reason-from-the-results-of-a-sampling-profiler/",
+          "publishedOn": "2024-05-30T19:33:28.000Z",
+          "wordCount": 2857,
+          "title": "Never reason from the results of a sampling profiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21351",
+          "author": "Daniel Lemire",
+          "description": "Artificial intelligence is far more efficient at producing content than human beings, as far as carbon emissions go. Human brains got larger by over 5% between 1930 and 1970. Replacing plastics by ‘environment friendly’ alternatives typically results in greater greenhouse gas emissions. Prostate-specific antigen screening has only a small effect on men’s risk of dying … Continue reading Science and Technology links (May 25 2024)",
+          "link": "https://lemire.me/blog/2024/05/26/science-and-technology-links-may-25-2024/",
+          "publishedOn": "2024-05-26T01:09:54.000Z",
+          "wordCount": 2914,
+          "title": "Science and Technology links (May 25 2024)",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21333",
           "author": "Daniel Lemire",
           "description": "Back when I started programming professionally, every expert and every software engineering professor would swear by object-oriented programming. Resistance was futile. History had spoken: the future was object-oriented. It is hard to understate how strong the mania was. In education, we started calling textbooks and videos ‘learning objects‘. Educators would soon ‘combine learning objects and reuse them‘. A competitor … Continue reading Learning from the object-oriented mania",
           "link": "https://lemire.me/blog/2024/05/14/learning-from-the-object-oriented-mania/",
           "publishedOn": "2024-05-14T14:17:42.000Z",
-          "wordCount": 3878,
+          "wordCount": 3877,
           "title": "Learning from the object-oriented mania",
           "imageUrl": null
         },
@@ -118,7 +159,7 @@
           "description": "In C++, there are different ways to pass a value to a function. Typically, at any given time, an object in C++ ‘belongs’ to a single function. The various ways to call a function differ in who owns the object, the caller or the callee (the function being called). The simplest one is that we … Continue reading Forwarding references in C++",
           "link": "https://lemire.me/blog/2024/05/13/forwarding-references-in-c/",
           "publishedOn": "2024-05-13T15:51:51.000Z",
-          "wordCount": 2861,
+          "wordCount": 2851,
           "title": "Forwarding references in C++",
           "imageUrl": null
         },
@@ -128,7 +169,7 @@
           "description": "Peer review as we know it today was introduced very late, over a century after the scientific revolution. It happened after Einstein’s time… arguably the most productive era in science. Current scientists often equate a success with the publication in a selective peer-reviewed venue. But that was never the scientific paradigm. In fact, it is … Continue reading Peer review is not the gold standard in science",
           "link": "https://lemire.me/blog/2024/05/11/peer-review-is-not-the-gold-standard-in-science/",
           "publishedOn": "2024-05-11T22:47:16.000Z",
-          "wordCount": 4103,
+          "wordCount": 4093,
           "title": "Peer review is not the gold standard in science",
           "imageUrl": null
         },
@@ -138,38 +179,8 @@
           "description": "Python is probably the most popular programming language in the world right now. Python is easy to extend using C code. You may want to return from Python a small data structure. When crossing from C to Python, there is an overhead. Thus, if performance is a concern, you do not want to return lots … Continue reading How fast can you construct a small list of strings in C for Python?",
           "link": "https://lemire.me/blog/2024/05/09/how-fast-can-construct-small-list-of-strings-in-c-for-python/",
           "publishedOn": "2024-05-09T03:55:45.000Z",
-          "wordCount": 3485,
+          "wordCount": 3475,
           "title": "How fast can you construct a small list of strings in C for Python?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21309",
-          "author": "Daniel Lemire",
-          "description": "Under Windows, when using Visual Studio to build C++ code, there are two possible compiler strategies. The Visual Studio compiler (often referred to as MSVC) is the default compiler provided by Microsoft for Windows development. In Debug mode, the regular Visual Studio compiler produces faster compilation times and more performant code compared to ClangCL. ClangCL … Continue reading Should Node.js be built with ClangCL under Windows?",
-          "link": "https://lemire.me/blog/2024/05/02/should-node-js-be-built-with-clangcl-under-windows/",
-          "publishedOn": "2024-05-02T19:23:11.000Z",
-          "wordCount": 3413,
-          "title": "Should Node.js be built with ClangCL under Windows?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21297",
-          "author": "Daniel Lemire",
-          "description": "Egor Bogatov is an engineer working on C# compiler technology at Microsoft. He had an intriguing remark about a performance regression on Apple hardware following what appears to be an optimization. The .NET 9.0 runtime introduced the optimization where two loads (ldr) could be combined into a single load (ldp). It is a typical peephole … Continue reading Careful with Pair-of-Registers instructions on Apple Silicon",
-          "link": "https://lemire.me/blog/2024/04/29/careful-with-pair-of-registers-instructions-on-apple-silicon/",
-          "publishedOn": "2024-04-29T00:32:38.000Z",
-          "wordCount": 3151,
-          "title": "Careful with Pair-of-Registers instructions on Apple Silicon",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21288",
-          "author": "Daniel Lemire",
-          "description": "Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants",
-          "link": "https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/",
-          "publishedOn": "2024-04-27T00:05:24.000Z",
-          "wordCount": 3514,
-          "title": "Large language models (e.g., ChatGPT) as research assistants",
           "imageUrl": null
         }
       ]

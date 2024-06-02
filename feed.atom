@@ -1,10 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-26T01:00:21.847Z</id>
+    <id>urn:2024-06-02T01:00:39.306Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-26T01:00:21.847Z</updated>
+    <updated>2024-06-02T01:00:39.306Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[This Month with Nim: October 2023 to June 2024 (It is a long month)]]></title>
+        <id>https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html</id>
+        <link href="https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Oolib Upgrade
+Author: Neo
+New super cool features here!
+Multiple constructor
+class Gun:
+  var
+    offence: int
+    capacity = 6
+    price: int
+
+  proc `new`(offence: int) =
+    self.offence = offence
+    self.capacity = 8
+    self.price = 300
+
+  proc `new`(capacity: int) =
+    self.offence = 14
+    self.capacity = capacity
+    self.price = 200
+
+# This `new()` is made from the type definition
+let _ = Gun.new(offence = 5, price = 6)
+
+# 2nd one
+let _ = Gun.new(offence = 12)
+
+# 3rd one
+let _ = Gun.new(capacity = 10)
+
+class Sword:
+  var
+    offence: int
+    price {.initial.} = 100
+
+# made from the type definition
+let _ = Sword.new(8)
+
+{.construct.}
+a type definition with {.construct.} are made into a class. Now that we can define a class without using class!
+type Shield {.construct.} = ref obje…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Commitment to Art and Dogs]]></title>
+        <id>https://samwho.dev/dogs/</id>
+        <link href="https://samwho.dev/dogs/"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[.dog-line {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dog-line img {
+  flex-grow: 1;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+.dog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+Back in Memory Allocation, I introduced Haskie.
+The idea behind Haskie was to create a character that could ask questions the
+reader might have, and to "soften" the posts to make them feel less
+intimidating. I got some feedback from people that Haskie was a bit too
+childish, and didn't feel like he belonged in posts about serious topics.
+This feedback was in the minority, though, and most people liked him. So I…]]></summary>
+        <author>
+            <name>samwho.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quickly checking whether a string needs escaping]]></title>
+        <id>https://lemire.me/blog/?p=21364</id>
+        <link href="https://lemire.me/blog/2024/05/31/quickly-checking-whether-a-string-needs-escaping/"/>
+        <updated>2024-05-31T03:48:21.000Z</updated>
+        <summary type="html"><![CDATA[In software, we often represent strings by surrounding them with quotes ("). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (") or the backlash character (\) should be replaced by \" or \\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Never reason from the results of a sampling profiler]]></title>
+        <id>https://lemire.me/blog/?p=21360</id>
+        <link href="https://lemire.me/blog/2024/05/30/never-reason-from-the-results-of-a-sampling-profiler/"/>
+        <updated>2024-05-30T19:33:28.000Z</updated>
+        <summary type="html"><![CDATA[In the quest for software optimization, a trusty companion is the sampling profiler, a tool available in most programming languages. These profilers work unobtrusively, taking snapshots of the program’s state and recording the currently executing function or instruction. While profilers sound like a silver bullet for identifying performance bottlenecks, their usefulness has limitations. They excel … Continue reading Never reason from the results of a sampling profiler]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (May 25 2024)]]></title>
+        <id>https://lemire.me/blog/?p=21351</id>
+        <link href="https://lemire.me/blog/2024/05/26/science-and-technology-links-may-25-2024/"/>
+        <updated>2024-05-26T01:09:54.000Z</updated>
+        <summary type="html"><![CDATA[Artificial intelligence is far more efficient at producing content than human beings, as far as carbon emissions go. Human brains got larger by over 5% between 1930 and 1970. Replacing plastics by ‘environment friendly’ alternatives typically results in greater greenhouse gas emissions. Prostate-specific antigen screening has only a small effect on men’s risk of dying … Continue reading Science and Technology links (May 25 2024)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Arenas and the almighty concatenation operator]]></title>
         <id>https://nullprogram.com/blog/2024/05/25/</id>
@@ -162,46 +282,6 @@ Danny Yang recreates W.E.B Du Bois’s famous historical data visualizations usi
         <link href="https://lemire.me/blog/2024/05/09/how-fast-can-construct-small-list-of-strings-in-c-for-python/"/>
         <updated>2024-05-09T03:55:45.000Z</updated>
         <summary type="html"><![CDATA[Python is probably the most popular programming language in the world right now. Python is easy to extend using C code. You may want to return from Python a small data structure. When crossing from C to Python, there is an overhead. Thus, if performance is a concern, you do not want to return lots … Continue reading How fast can you construct a small list of strings in C for Python?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Should Node.js be built with ClangCL under Windows?]]></title>
-        <id>https://lemire.me/blog/?p=21309</id>
-        <link href="https://lemire.me/blog/2024/05/02/should-node-js-be-built-with-clangcl-under-windows/"/>
-        <updated>2024-05-02T19:23:11.000Z</updated>
-        <summary type="html"><![CDATA[Under Windows, when using Visual Studio to build C++ code, there are two possible compiler strategies. The Visual Studio compiler (often referred to as MSVC) is the default compiler provided by Microsoft for Windows development. In Debug mode, the regular Visual Studio compiler produces faster compilation times and more performant code compared to ClangCL. ClangCL … Continue reading Should Node.js be built with ClangCL under Windows?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brooklyn Botanical Garden]]></title>
-        <id>https://thenumb.at/BBG/</id>
-        <link href="https://thenumb.at/BBG/"/>
-        <updated>2024-05-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Brooklyn Botanical Garden, New York, NY, 2024]]></summary>
-        <author>
-            <name>Max Slater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Careful with Pair-of-Registers instructions on Apple Silicon]]></title>
-        <id>https://lemire.me/blog/?p=21297</id>
-        <link href="https://lemire.me/blog/2024/04/29/careful-with-pair-of-registers-instructions-on-apple-silicon/"/>
-        <updated>2024-04-29T00:32:38.000Z</updated>
-        <summary type="html"><![CDATA[Egor Bogatov is an engineer working on C# compiler technology at Microsoft. He had an intriguing remark about a performance regression on Apple hardware following what appears to be an optimization. The .NET 9.0 runtime introduced the optimization where two loads (ldr) could be combined into a single load (ldp). It is a typical peephole … Continue reading Careful with Pair-of-Registers instructions on Apple Silicon]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Large language models (e.g., ChatGPT) as research assistants]]></title>
-        <id>https://lemire.me/blog/?p=21288</id>
-        <link href="https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/"/>
-        <updated>2024-04-27T00:05:24.000Z</updated>
-        <summary type="html"><![CDATA[Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>

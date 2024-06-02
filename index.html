@@ -22,6 +22,299 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-01 datetime="2024-06-01T00:00:00.000Z">2024-06-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-01 datetime="2024-06-01T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Nim Programming Language</button>
+                  <a class="source-heading__link" href="https://nim-lang.org//">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html"
+                        open
+                      >
+                        <summary class="article-expander__title">This Month with Nim: October 2023 to June 2024 (It is a long month)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://nim-lang.org/assets/img/twitter_banner.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Oolib Upgrade
+Author: Neo
+New super cool features here!
+Multiple constructor
+class Gun:
+  var
+    offence: int
+    capacity &#x3D; 6
+    price: int
+
+  proc &#x60;new&#x60;(offence: int) &#x3D;
+    self.offence &#x3D; offence
+    self.capacity &#x3D; 8
+    self.price &#x3D; 300
+
+  proc &#x60;new&#x60;(capacity: int) &#x3D;
+    self.offence &#x3D; 14
+    self.capacity &#x3D; capacity
+    self.price &#x3D; 200
+
+# This &#x60;new()&#x60; is made from the type definition
+let _ &#x3D; Gun.new(offence &#x3D; 5, price &#x3D; 6)
+
+# 2nd one
+let _ &#x3D; Gun.new(offence &#x3D; 12)
+
+# 3rd one
+let _ &#x3D; Gun.new(capacity &#x3D; 10)
+
+class Sword:
+  var
+    offence: int
+    price {.initial.} &#x3D; 100
+
+# made from the type definition
+let _ &#x3D; Sword.new(8)
+
+{.construct.}
+a type definition with {.construct.} are made into a class. Now that we can define a class without using class!
+type Shield {.construct.} &#x3D; ref obje…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >samwho.dev</button>
+                  <a class="source-heading__link" href="https://samwho.dev/rss.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://samwho.dev/dogs/"
+                        open
+                      >
+                        <summary class="article-expander__title">A Commitment to Art and Dogs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://samwho.dev/dogs/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://samwho.dev/images/dogs.png?h&#x3D;763937a7e6c6de05e453" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>.dog-line {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dog-line img {
+  flex-grow: 1;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+.dog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+Back in Memory Allocation, I introduced Haskie.
+The idea behind Haskie was to create a character that could ask questions the
+reader might have, and to &quot;soften&quot; the posts to make them feel less
+intimidating. I got some feedback from people that Haskie was a bit too
+childish, and didn&#x27;t feel like he belonged in posts about serious topics.
+This feedback was in the minority, though, and most people liked him. So I…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-31 datetime="2024-05-31T03:48:21.000Z">2024-05-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-31 datetime="2024-05-31T03:48:21.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Daniel Lemire&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21364"
+                        open
+                      >
+                        <summary class="article-expander__title">Quickly checking whether a string needs escaping</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/05/31/quickly-checking-whether-a-string-needs-escaping/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In software, we often represent strings by surrounding them with quotes (&quot;). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (&quot;) or the backlash character (\) should be replaced by \&quot; or \\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-30 datetime="2024-05-30T19:33:28.000Z">2024-05-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-30 datetime="2024-05-30T19:33:28.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Daniel Lemire&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21360"
+                        open
+                      >
+                        <summary class="article-expander__title">Never reason from the results of a sampling profiler</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/05/30/never-reason-from-the-results-of-a-sampling-profiler/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In the quest for software optimization, a trusty companion is the sampling profiler, a tool available in most programming languages. These profilers work unobtrusively, taking snapshots of the program’s state and recording the currently executing function or instruction. While profilers sound like a silver bullet for identifying performance bottlenecks, their usefulness has limitations. They excel … Continue reading Never reason from the results of a sampling profiler</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-26 datetime="2024-05-26T01:09:54.000Z">2024-05-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-26 datetime="2024-05-26T01:09:54.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Daniel Lemire&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21351"
+                        open
+                      >
+                        <summary class="article-expander__title">Science and Technology links (May 25 2024)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/05/26/science-and-technology-links-may-25-2024/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Artificial intelligence is far more efficient at producing content than human beings, as far as carbon emissions go. Human brains got larger by over 5% between 1930 and 1970. Replacing plastics by ‘environment friendly’ alternatives typically results in greater greenhouse gas emissions. Prostate-specific antigen screening has only a small effect on men’s risk of dying … Continue reading Science and Technology links (May 25 2024)</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-25 datetime="2024-05-25T00:00:00.000Z">2024-05-25</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-25 datetime="2024-05-25T00:00:00.000Z"></time>
           </button>
@@ -387,196 +680,10 @@ Like, share, or comment on this post on Mastodon.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-02 datetime="2024-05-02T19:23:11.000Z">2024-05-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-02 datetime="2024-05-02T19:23:11.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21309"
-                        open
-                      >
-                        <summary class="article-expander__title">Should Node.js be built with ClangCL under Windows?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/05/02/should-node-js-be-built-with-clangcl-under-windows/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Under Windows, when using Visual Studio to build C++ code, there are two possible compiler strategies. The Visual Studio compiler (often referred to as MSVC) is the default compiler provided by Microsoft for Windows development. In Debug mode, the regular Visual Studio compiler produces faster compilation times and more performant code compared to ClangCL. ClangCL … Continue reading Should Node.js be built with ClangCL under Windows?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-01 datetime="2024-05-01T00:00:00.000Z">2024-05-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-01 datetime="2024-05-01T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Max Slater</button>
-                  <a class="source-heading__link" href="https://thenumb.at/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://thenumb.at/BBG/"
-                        open
-                      >
-                        <summary class="article-expander__title">Brooklyn Botanical Garden</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://thenumb.at/BBG/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Brooklyn Botanical Garden, New York, NY, 2024</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-29 datetime="2024-04-29T00:32:38.000Z">2024-04-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-29 datetime="2024-04-29T00:32:38.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21297"
-                        open
-                      >
-                        <summary class="article-expander__title">Careful with Pair-of-Registers instructions on Apple Silicon</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/04/29/careful-with-pair-of-registers-instructions-on-apple-silicon/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Egor Bogatov is an engineer working on C# compiler technology at Microsoft. He had an intriguing remark about a performance regression on Apple hardware following what appears to be an optimization. The .NET 9.0 runtime introduced the optimization where two loads (ldr) could be combined into a single load (ldp). It is a typical peephole … Continue reading Careful with Pair-of-Registers instructions on Apple Silicon</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-27 datetime="2024-04-27T00:05:24.000Z">2024-04-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-27 datetime="2024-04-27T00:05:24.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21288"
-                        open
-                      >
-                        <summary class="article-expander__title">Large language models (e.g., ChatGPT) as research assistants</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/04/27/large-language-models-e-g-chatgpt-as-research-assistants/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Software can beat human beings at most games… from Chess to Go, and even poker. Large language models like GPT-4 offered through services such as ChatGPT allow us to solve a new breed of problems. GPT-4 can beat 90% of human beings at the bar exam. Artificial intelligence can match math Olympians. The primary skills … Continue reading Large language models (e.g., ChatGPT) as research assistants</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9239458012">
-        <time id="build-timestamp" datetime="2024-05-26T01:00:21.829Z">2024-05-26T01:00:21.829Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9334463621">
+        <time id="build-timestamp" datetime="2024-06-02T01:00:39.289Z">2024-06-02T01:00:39.289Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
