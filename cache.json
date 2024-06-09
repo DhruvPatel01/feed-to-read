@@ -11,7 +11,7 @@
           "description": "I continue to streamline an arena-based paradigm, and stumbled\nupon a concise technique for dynamic growth — an efficient, generic\n“concatenate anything to anything” within an arena built atop a core of\n9-ish lines of code. The key insight originated from a reader suggestion\nabout dynamic arrays. The subject of concatenation can be a string,\ndynamic array, or even something else. The “system” is extensible, and\nespecially useful for path handling.\nContinuing from last time, the examples are in light, C-style C++.\nI chose it because templates and function overloading express the concepts\nsuccinctly. It uses no standard library functionality, so converting to C,\nor similar, should be straightforward. The core concatenation “operator”:\n\ntemplate<typename T>\nT concat(arena *a, T head, T tail)\n…",
           "link": "https://nullprogram.com/blog/2024/05/25/",
           "publishedOn": "2024-05-25T00:00:00.000Z",
-          "wordCount": 1714,
+          "wordCount": 1724,
           "title": "Arenas and the almighty concatenation operator",
           "imageUrl": null
         },
@@ -37,7 +37,18 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/fd78328ee0bb",
+          "author": "Netflix Technology Blog",
+          "description": "At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…",
+          "link": "https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-06T20:10:54.000Z",
+          "wordCount": 5149,
+          "title": "Round 2: A Survey of Causal Inference Applications at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:823/0*e8IMSJf7p60mk-WG"
+        }
+      ]
     },
     {
       "title": "Nim Programming Language",
@@ -66,7 +77,18 @@
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://matklad.github.io/2024/06/04/regular-recursive-restricted.html",
+          "author": null,
+          "description": "A post/question about formal grammars, wherein I search for a good formalism for describing infix\nexpressions.",
+          "link": "https://matklad.github.io/2024/06/04/regular-recursive-restricted.html",
+          "publishedOn": "2024-06-04T00:00:00.000Z",
+          "wordCount": 1292,
+          "title": "Regular, Recursive, Restricted",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Hugging Face - Blog",
@@ -114,12 +136,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21382",
+          "author": "Daniel Lemire",
+          "description": "Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes one once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition",
+          "link": "https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/",
+          "publishedOn": "2024-06-08T04:55:42.000Z",
+          "wordCount": 3638,
+          "title": "Scan HTML faster with SIMD instructions: Chrome edition",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21364",
           "author": "Daniel Lemire",
-          "description": "In software, we often represent strings by surrounding them with quotes (\"). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (\") or the backlash character (\\) should be replaced by \\\" or \\\\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping",
+          "description": "In software, we often represent strings by surrounding them with quotes (\"). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (\") or the backslash character (\\) should be replaced by \\\" or \\\\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping",
           "link": "https://lemire.me/blog/2024/05/31/quickly-checking-whether-a-string-needs-escaping/",
           "publishedOn": "2024-05-31T03:48:21.000Z",
-          "wordCount": 4057,
+          "wordCount": 4162,
           "title": "Quickly checking whether a string needs escaping",
           "imageUrl": null
         },
@@ -129,7 +161,7 @@
           "description": "In the quest for software optimization, a trusty companion is the sampling profiler, a tool available in most programming languages. These profilers work unobtrusively, taking snapshots of the program’s state and recording the currently executing function or instruction. While profilers sound like a silver bullet for identifying performance bottlenecks, their usefulness has limitations. They excel … Continue reading Never reason from the results of a sampling profiler",
           "link": "https://lemire.me/blog/2024/05/30/never-reason-from-the-results-of-a-sampling-profiler/",
           "publishedOn": "2024-05-30T19:33:28.000Z",
-          "wordCount": 2857,
+          "wordCount": 2864,
           "title": "Never reason from the results of a sampling profiler",
           "imageUrl": null
         },
@@ -139,7 +171,7 @@
           "description": "Artificial intelligence is far more efficient at producing content than human beings, as far as carbon emissions go. Human brains got larger by over 5% between 1930 and 1970. Replacing plastics by ‘environment friendly’ alternatives typically results in greater greenhouse gas emissions. Prostate-specific antigen screening has only a small effect on men’s risk of dying … Continue reading Science and Technology links (May 25 2024)",
           "link": "https://lemire.me/blog/2024/05/26/science-and-technology-links-may-25-2024/",
           "publishedOn": "2024-05-26T01:09:54.000Z",
-          "wordCount": 2914,
+          "wordCount": 2921,
           "title": "Science and Technology links (May 25 2024)",
           "imageUrl": null
         },
@@ -149,7 +181,7 @@
           "description": "Back when I started programming professionally, every expert and every software engineering professor would swear by object-oriented programming. Resistance was futile. History had spoken: the future was object-oriented. It is hard to understate how strong the mania was. In education, we started calling textbooks and videos ‘learning objects‘. Educators would soon ‘combine learning objects and reuse them‘. A competitor … Continue reading Learning from the object-oriented mania",
           "link": "https://lemire.me/blog/2024/05/14/learning-from-the-object-oriented-mania/",
           "publishedOn": "2024-05-14T14:17:42.000Z",
-          "wordCount": 3877,
+          "wordCount": 3884,
           "title": "Learning from the object-oriented mania",
           "imageUrl": null
         },
@@ -159,7 +191,7 @@
           "description": "In C++, there are different ways to pass a value to a function. Typically, at any given time, an object in C++ ‘belongs’ to a single function. The various ways to call a function differ in who owns the object, the caller or the callee (the function being called). The simplest one is that we … Continue reading Forwarding references in C++",
           "link": "https://lemire.me/blog/2024/05/13/forwarding-references-in-c/",
           "publishedOn": "2024-05-13T15:51:51.000Z",
-          "wordCount": 2851,
+          "wordCount": 2858,
           "title": "Forwarding references in C++",
           "imageUrl": null
         },
@@ -169,18 +201,8 @@
           "description": "Peer review as we know it today was introduced very late, over a century after the scientific revolution. It happened after Einstein’s time… arguably the most productive era in science. Current scientists often equate a success with the publication in a selective peer-reviewed venue. But that was never the scientific paradigm. In fact, it is … Continue reading Peer review is not the gold standard in science",
           "link": "https://lemire.me/blog/2024/05/11/peer-review-is-not-the-gold-standard-in-science/",
           "publishedOn": "2024-05-11T22:47:16.000Z",
-          "wordCount": 4093,
+          "wordCount": 4100,
           "title": "Peer review is not the gold standard in science",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21316",
-          "author": "Daniel Lemire",
-          "description": "Python is probably the most popular programming language in the world right now. Python is easy to extend using C code. You may want to return from Python a small data structure. When crossing from C to Python, there is an overhead. Thus, if performance is a concern, you do not want to return lots … Continue reading How fast can you construct a small list of strings in C for Python?",
-          "link": "https://lemire.me/blog/2024/05/09/how-fast-can-construct-small-list-of-strings-in-c-for-python/",
-          "publishedOn": "2024-05-09T03:55:45.000Z",
-          "wordCount": 3475,
-          "title": "How fast can you construct a small list of strings in C for Python?",
           "imageUrl": null
         }
       ]

@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-02T01:00:39.306Z</id>
+    <id>urn:2024-06-09T01:02:40.214Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-02T01:00:39.306Z</updated>
+    <updated>2024-06-09T01:02:40.214Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Scan HTML faster with SIMD instructions: Chrome edition]]></title>
+        <id>https://lemire.me/blog/?p=21382</id>
+        <link href="https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/"/>
+        <updated>2024-06-08T04:55:42.000Z</updated>
+        <summary type="html"><![CDATA[Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes one once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Round 2: A Survey of Causal Inference Applications at Netflix]]></title>
+        <id>https://medium.com/p/fd78328ee0bb</id>
+        <link href="https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb?source=rss----2615bd06b42e---4"/>
+        <updated>2024-06-06T20:10:54.000Z</updated>
+        <summary type="html"><![CDATA[At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Regular, Recursive, Restricted]]></title>
+        <id>https://matklad.github.io/2024/06/04/regular-recursive-restricted.html</id>
+        <link href="https://matklad.github.io/2024/06/04/regular-recursive-restricted.html"/>
+        <updated>2024-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A post/question about formal grammars, wherein I search for a good formalism for describing infix
+expressions.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[This Month with Nim: October 2023 to June 2024 (It is a long month)]]></title>
         <id>https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html</id>
@@ -100,7 +131,7 @@ This feedback was in the minority, though, and most people liked him. So I…]]>
         <id>https://lemire.me/blog/?p=21364</id>
         <link href="https://lemire.me/blog/2024/05/31/quickly-checking-whether-a-string-needs-escaping/"/>
         <updated>2024-05-31T03:48:21.000Z</updated>
-        <summary type="html"><![CDATA[In software, we often represent strings by surrounding them with quotes ("). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (") or the backlash character (\) should be replaced by \" or \\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping]]></summary>
+        <summary type="html"><![CDATA[In software, we often represent strings by surrounding them with quotes ("). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (") or the backslash character (\) should be replaced by \" or \\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
@@ -272,16 +303,6 @@ Danny Yang recreates W.E.B Du Bois’s famous historical data visualizations usi
         <link href="https://lemire.me/blog/2024/05/11/peer-review-is-not-the-gold-standard-in-science/"/>
         <updated>2024-05-11T22:47:16.000Z</updated>
         <summary type="html"><![CDATA[Peer review as we know it today was introduced very late, over a century after the scientific revolution. It happened after Einstein’s time… arguably the most productive era in science. Current scientists often equate a success with the publication in a selective peer-reviewed venue. But that was never the scientific paradigm. In fact, it is … Continue reading Peer review is not the gold standard in science]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast can you construct a small list of strings in C for Python?]]></title>
-        <id>https://lemire.me/blog/?p=21316</id>
-        <link href="https://lemire.me/blog/2024/05/09/how-fast-can-construct-small-list-of-strings-in-c-for-python/"/>
-        <updated>2024-05-09T03:55:45.000Z</updated>
-        <summary type="html"><![CDATA[Python is probably the most popular programming language in the world right now. Python is easy to extend using C code. You may want to return from Python a small data structure. When crossing from C to Python, there is an overhead. Thus, if performance is a concern, you do not want to return lots … Continue reading How fast can you construct a small list of strings in C for Python?]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
