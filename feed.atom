@@ -1,16 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-09T01:02:40.214Z</id>
+    <id>urn:2024-06-16T01:02:36.849Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-09T01:02:40.214Z</updated>
+    <updated>2024-06-16T01:02:36.849Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Interesting Links for June 2024]]></title>
+        <id>https://notes.abhinavsarkar.net/2024/links-06</id>
+        <link href="https://notes.abhinavsarkar.net/2024/links-06"/>
+        <updated>2024-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Here are some interesting things I recently read on the internet:</p>
+
+<figure>
+  <blockquote>
+    <p>“As I walk around Philadelphia I often converse with Benjamin Franklin, to see what he thinks about how things have changed since 1790.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://blog.plover.com/tech/its-an-age-of-marvels.html">It’s an Age of Marvels</a></cite><a href="https://web.archive.org/web/3/https://blog.plover.com/tech/its-an-age-of-marvels.html" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“The difficulty with music is that half of it is arbitrary and half of it is actually based on something, but you can’t tell the difference just by looking at it.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://eev.ee/blog/2016/09/15/music-theory-for-nerds/">Music Theory for Nerds</a></cite><a href="https://web.archive.org/web/3/https://eev.ee/blog/2016/09/15/music-theory-for-nerds/" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Defining the original paths for those letters was a very manual process of writing their positions into the code and then nudging the points back and forth until the letters looked right. When it came to coding cursive, I streamlined the process.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript">Coding My Handwriting</a></cite><a href="https://web.archive.org/web/3/https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Are there deeper, more fundamental aspects of software that can help us think beyond surface-level matters? I’ve come to think that a triad of interacting factors best explains what software is and, by extension, why software is difficult.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://tratt.net/laurie/blog/2024/what_factors_explain_the_nature_of_software.html">What Factors Explain the Nature of Software?</a></cite><a href="https://web.archive.org/web/3/https://tratt.net/laurie/blog/2024/what_factors_explain_the_nature_of_software.html" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Programs that manipulate other programs are powerful, interesting and fun. I’ll take you on a tour of how interpreters and compilers work, and explain a surprising computer science result which allows compilers to be generated automatically.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://tomstu.art/compilers-for-free">Compilers for Free</a></cite><a href="https://web.archive.org/web/3/https://tomstu.art/compilers-for-free" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“References are like jumps, leading wildly from one part of a data structure to another. Their introduction into high-level languages has been a step backward from which we may never recover.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://without.boats/blog/references-are-like-jumps/">References Are like Jumps</a></cite><a href="https://web.archive.org/web/3/https://without.boats/blog/references-are-like-jumps/" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Forsp kind of just appeared and then has continued to surprise me. In many ways it feels more fundamental than Lisp or Forth. It appears to be both simpler than Lisp and more powerful than Forth.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://xorvoid.com/forsp.html">Forsp: A Forth+Lisp Hybrid Lambda Calculus Language</a></cite><a href="https://web.archive.org/web/3/https://xorvoid.com/forsp.html" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“c4 is clever, tricky, fascinating, cool. It’s a compiler, it’s a VM, it’s an interpreter, it’s a parser, it’s art, it’s trickshot programming.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://registerspill.thorstenball.com/p/exploring-the-c4-compiler">Exploring the c4… Compiler?</a></cite><a href="https://web.archive.org/web/3/https://registerspill.thorstenball.com/p/exploring-the-c4-compiler" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Lately I’ve been discovering new features in Python 3.12 around typing and pattern matching. Combined with dataclasses, they provide support for a style of programming that I’ve employed in Kotlin and Typescript.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html">Statically Typed Functional Programming with Python 3.12</a></cite><a href="https://web.archive.org/web/3/https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Optics represent different relationships between types, such as ‘is a type of’, or ‘contains one or more’, similar to relationships in an old-timey UML class diagram. But unlike relationships in a UML diagram, optics can be used directly in real code.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://doscienceto.it/blog/posts/2019-12-19-optics.html">Lessons Learned Building a Van Laarhoven Lens Library</a></cite><a href="https://web.archive.org/web/3/https://doscienceto.it/blog/posts/2019-12-19-optics.html" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Please don’t do this in production.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://astrid.tech/2024/05/01/0/ansible-is-a-lisp/">Ansible Is a Lisp</a></cite><a href="https://web.archive.org/web/3/https://astrid.tech/2024/05/01/0/ansible-is-a-lisp/" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“If Bob’s offering a perfect algorithm off the top of his head, call bullshit (unless he carefully frames it as a hypothesis to test in a simulator, thank you, Bob).”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://sirupsen.com/napkin/problem-16-simulation">When to Write a Simulator</a></cite><a href="https://web.archive.org/web/3/https://sirupsen.com/napkin/problem-16-simulation" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“I just don’t think it’s useful, most of the time, to worry about anything beyond: wake me up, or don’t.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://ntietz.com/blog/the-only-two-log-levels-you-need-are-info-and-error/">The Only Two Log Levels You Need Are INFO and ERROR</a></cite><a href="https://web.archive.org/web/3/https://ntietz.com/blog/the-only-two-log-levels-you-need-are-info-and-error/" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“The internet is awash with tutorials on how to implement dark mode that will get you to a rudimentary implementation. I found that they lacked the refinements necessary to get to a great implementation.”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://brandur.org/fragments/dark-mode-notes">Notes on Implementing Dark Mode</a></cite><a href="https://web.archive.org/web/3/https://brandur.org/fragments/dark-mode-notes" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<figure>
+  <blockquote>
+    <p>“Too often have I witnessed the improvising musician sweaty-handedly attempting to pinch-zoom an A4 pdf on a tiny mobile screen at the climax of a gig. We need fluid and responsive music rendering for the web!”</p>
+  </blockquote>
+  <figcaption>
+    <p><cite><a href="https://cruncher.ch/blog/printing-music-with-css-grid/">Printing Music with CSS Grid</a></cite><a href="https://web.archive.org/web/3/https://cruncher.ch/blog/printing-music-with-css-grid/" title="Archived link">🏛️</a></p>
+  </figcaption>
+</figure>
+
+<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/112615743566573724" class="mastodon-link">Mastodon</a>.</p>]]></summary>
+        <author>
+            <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rolling your own fast matrix multiplication: loop order and vectorization]]></title>
+        <id>https://lemire.me/blog/?p=21386</id>
+        <link href="https://lemire.me/blog/2024/06/13/rolling-your-own-fast-matrix-multiplication-loop-order-and-vectorization/"/>
+        <updated>2024-06-13T21:11:26.000Z</updated>
+        <summary type="html"><![CDATA[If you must multiply matrices, you should use dedicated libraries. However, we sometimes need to roll our own code. In C++, you can quickly write your own Matrix template: template <typename T> struct Matrix { Matrix(size_t rows, size_t cols) : data(new T[rows * cols]), rows(rows), cols(cols) {} T &operator()(size_t i, size_t j) { return data.get()[i … Continue reading Rolling your own fast matrix multiplication: loop order and vectorization]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan HTML faster with SIMD instructions: Chrome edition]]></title>
         <id>https://lemire.me/blog/?p=21382</id>
         <link href="https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/"/>
         <updated>2024-06-08T04:55:42.000Z</updated>
-        <summary type="html"><![CDATA[Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes one once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition]]></summary>
+        <summary type="html"><![CDATA[Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes at once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
@@ -211,63 +368,63 @@ Never…]]></summary>
 
 <ul>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://adam.nels.onl/blog/an-oo-languge-for-the-20s/">An Object-Oriented Language for the ’20s</a> <br />
+    <p><a href="https://adam.nels.onl/blog/an-oo-languge-for-the-20s/">An Object-Oriented Language for the ’20s</a><a href="https://web.archive.org/web/3/https://adam.nels.onl/blog/an-oo-languge-for-the-20s/" title="Archived link">🏛️</a> <br />
 Adam Nelson remixes the good ideas from various modern programming languages and proposes what an object-oriented language designed for the present-time should be.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://quuxplusone.github.io/blog/2024/03/31/ed-catmurs-triliteral/">Ed Catmur’s Triliteral esolang</a> <br />
+    <p><a href="https://quuxplusone.github.io/blog/2024/03/31/ed-catmurs-triliteral/">Ed Catmur’s Triliteral esolang</a><a href="https://web.archive.org/web/3/https://quuxplusone.github.io/blog/2024/03/31/ed-catmurs-triliteral/" title="Archived link">🏛️</a> <br />
 Arthur O’Dwyer describes Triliteral, an esoteric programming language invented by prolific C++ contributor Ed Catmur, which is inspired by how words are created in Semitic languages by weaving vowels through triconsonantal roots.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/">The origin and virtues of semicolons in programming languages</a> <br />
+    <p><a href="https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/">The origin and virtues of semicolons in programming languages</a><a href="https://web.archive.org/web/3/https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/" title="Archived link">🏛️</a> <br />
 Nicole Tietz-Sokolskaya wades through computer science history trying to find the when and why of the wide use of the humble semicolon in many programming languages.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/20240517073857/https://old.reddit.com/r/ProgrammingLanguages/comments/1cm8m9o/is_there_a_minimum_viable_language_within/">Is there a minimum viable language within imperative languages like C++ or Rust from which the rest of language can be built?</a> <br />
+    <p><a href="https://old.reddit.com/r/ProgrammingLanguages/comments/1cm8m9o/is_there_a_minimum_viable_language_within/">Is there a minimum viable language within imperative languages like C++ or Rust from which the rest of language can be built?</a><a href="https://web.archive.org/web/20240517073857/https://old.reddit.com/r/ProgrammingLanguages/comments/1cm8m9o/is_there_a_minimum_viable_language_within/" title="Archived link">🏛️</a> <br />
 Some wise Redditors discuss the minimal viable programming language that can serve as a core language for bigger imperative languages like C++. Lisp and Assembly are mentioned many times.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://kubyshkin.name/posts/type-checking-as-evaluation/">Type Checking as Evaluation</a> <br />
+    <p><a href="https://kubyshkin.name/posts/type-checking-as-evaluation/">Type Checking as Evaluation</a><a href="https://web.archive.org/web/3/https://kubyshkin.name/posts/type-checking-as-evaluation/" title="Archived link">🏛️</a> <br />
 Dmitriy Kubyshkin explains are how type checking in statically typed programming languages is like evaluation of a secondary program in dynamically typed languages.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/">Unexplanations: query optimization works because sql is declarative</a> <br />
+    <p><a href="https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/">Unexplanations: query optimization works because sql is declarative</a><a href="https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/" title="Archived link">🏛️</a> <br />
 Jamie Brandon explains the true reason why SQL queries are more amenable to optimizations compared to other programming languages.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://www.lesleylai.info/en/ast-in-cpp-part-1-variant">Representing an Abstract Syntax Tree in C++: Part 1 - Variants</a> <br />
+    <p><a href="https://www.lesleylai.info/en/ast-in-cpp-part-1-variant">Representing an Abstract Syntax Tree in C++: Part 1 - Variants</a><a href="https://web.archive.org/web/3/https://www.lesleylai.info/en/ast-in-cpp-part-1-variant" title="Archived link">🏛️</a> <br />
 Lesley Lai explores the different ways of representing Abstract Syntax Trees in C++.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/">The Alternative Implementation Problem</a> <br />
+    <p><a href="https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/">The Alternative Implementation Problem</a><a href="https://web.archive.org/web/3/https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/" title="Archived link">🏛️</a> <br />
 Maxime Chevalier-Boisvert posits that most of the alternative implementations of programming languages are unsuccessful because they are incompatible with the vast amount of code written for the original implementations.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://mcyoung.xyz/2021/06/01/linker-script/">Everything You Never Wanted To Know About Linker Script</a> <br />
+    <p><a href="https://mcyoung.xyz/2021/06/01/linker-script/">Everything You Never Wanted To Know About Linker Script</a><a href="https://web.archive.org/web/3/https://mcyoung.xyz/2021/06/01/linker-script/" title="Archived link">🏛️</a> <br />
 In this comprehensive guide, Miguel Young tells us everything there is to know about the art and science of linking to create executables.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://bitbashing.io/gc-for-systems-programmers.html">Garbage Collection for Systems Programmers</a> <br />
+    <p><a href="https://bitbashing.io/gc-for-systems-programmers.html">Garbage Collection for Systems Programmers</a><a href="https://web.archive.org/web/3/https://bitbashing.io/gc-for-systems-programmers.html" title="Archived link">🏛️</a> <br />
 Matt Kline argues that it is okay to use garbage collection with system programming languages because modern garbage collectors have amazing throughput.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://vaibhavsagar.com/blog/2019/09/08/popcount/">You Won’t Believe This One Weird CPU Instruction!</a> <br />
+    <p><a href="https://vaibhavsagar.com/blog/2019/09/08/popcount/">You Won’t Believe This One Weird CPU Instruction!</a><a href="https://web.archive.org/web/3/https://vaibhavsagar.com/blog/2019/09/08/popcount/" title="Archived link">🏛️</a> <br />
 Vaibhav Sagar explored the history and use of the <code class="language-plaintext highlighter-rouge">popcount</code> CPU instruction.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://coredumped.dev/2021/04/07/when-pure-function-lie/">When pure function lie</a> <br />
+    <p><a href="https://coredumped.dev/2021/04/07/when-pure-function-lie/">When pure function lie</a><a href="https://web.archive.org/web/3/https://coredumped.dev/2021/04/07/when-pure-function-lie/" title="Archived link">🏛️</a> <br />
 Troy Hinckley puzzles over how it is possible for pure functions to return different values in Common Lisp.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/20240522104922/https://henko.net/blog/why-write-unit-tests/">Why write unit tests?</a> <br />
+    <p><a href="https://henko.net/blog/why-write-unit-tests/">Why write unit tests?</a><a href="https://web.archive.org/web/20240522104922/https://henko.net/blog/why-write-unit-tests/" title="Archived link">🏛️</a> <br />
 Henrik Jernevad lists some good reasons to unit test your programs.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/3/https://vfoley.xyz/reasonable-use/">Making Reasonable Use of Computer Resources</a> <br />
+    <p><a href="https://vfoley.xyz/reasonable-use/">Making Reasonable Use of Computer Resources</a><a href="https://web.archive.org/web/3/https://vfoley.xyz/reasonable-use/" title="Archived link">🏛️</a> <br />
 Vincent Foley argues that me must think about the performance of our software at the outset, not as an afterthought.</p>
   </li>
   <li>
-    <p><a href="https://web.archive.org/web/20240522105655/https://yangdanny97.github.io/blog/2024/04/26/dubois-challenge">Recreating Historical Data Viz in 2024 using D3.js</a> <br />
+    <p><a href="https://yangdanny97.github.io/blog/2024/04/26/dubois-challenge">Recreating Historical Data Viz in 2024 using D3.js</a><a href="https://web.archive.org/web/20240522105655/https://yangdanny97.github.io/blog/2024/04/26/dubois-challenge" title="Archived link">🏛️</a> <br />
 Danny Yang recreates W.E.B Du Bois’s famous historical data visualizations using D3.js.</p>
   </li>
 </ul>
@@ -275,36 +432,6 @@ Danny Yang recreates W.E.B Du Bois’s famous historical data visualizations usi
 <p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/112485258469122899" class="mastodon-link">Mastodon</a>.</p>]]></summary>
         <author>
             <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning from the object-oriented mania]]></title>
-        <id>https://lemire.me/blog/?p=21333</id>
-        <link href="https://lemire.me/blog/2024/05/14/learning-from-the-object-oriented-mania/"/>
-        <updated>2024-05-14T14:17:42.000Z</updated>
-        <summary type="html"><![CDATA[Back when I started programming professionally, every expert and every software engineering professor would swear by object-oriented programming. Resistance was futile. History had spoken: the future was object-oriented. It is hard to understate how strong the mania was. In education, we started calling textbooks and videos ‘learning objects‘. Educators would soon ‘combine learning objects and reuse them‘. A competitor … Continue reading Learning from the object-oriented mania]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Forwarding references in C++]]></title>
-        <id>https://lemire.me/blog/?p=21331</id>
-        <link href="https://lemire.me/blog/2024/05/13/forwarding-references-in-c/"/>
-        <updated>2024-05-13T15:51:51.000Z</updated>
-        <summary type="html"><![CDATA[In C++, there are different ways to pass a value to a function. Typically, at any given time, an object in C++ ‘belongs’ to a single function. The various ways to call a function differ in who owns the object, the caller or the callee (the function being called). The simplest one is that we … Continue reading Forwarding references in C++]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Peer review is not the gold standard in science]]></title>
-        <id>https://lemire.me/blog/?p=21322</id>
-        <link href="https://lemire.me/blog/2024/05/11/peer-review-is-not-the-gold-standard-in-science/"/>
-        <updated>2024-05-11T22:47:16.000Z</updated>
-        <summary type="html"><![CDATA[Peer review as we know it today was introduced very late, over a century after the scientific revolution. It happened after Einstein’s time… arguably the most productive era in science. Current scientists often equate a success with the publication in a selective peer-reviewed venue. But that was never the scientific paradigm. In fact, it is … Continue reading Peer review is not the gold standard in science]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
