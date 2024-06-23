@@ -21,7 +21,7 @@
           "description": "Occasionally we need to compute the size of an object that does not yet\nexist, or a subscript that may fall out of bounds. It’s easy to miss\nthe edge cases where results overflow, creating a nasty, subtle bug, even\nin the presence of type safety. Ideally such computations happen in\nspecialized code, such as inside an allocator (calloc, reallocarray)\nand not outside by the allocatee (i.e. malloc). Mitigations exist with\ndifferent trade-offs: arbitrary precision, or using a wider fixed integer\n— i.e. 128-bit integers on 64-bit hosts. In the typical case, working only\nwith fixed size-type integers, I’ve come up with a set of guidelines to\navoid overflows in the edge cases.\nRange check before computing a result. No exceptions.\nDo not cast unless you know a priori the operand is in range.\nNever…",
           "link": "https://nullprogram.com/blog/2024/05/24/",
           "publishedOn": "2024-05-24T22:25:10.000Z",
-          "wordCount": 1145,
+          "wordCount": 1143,
           "title": "Guidelines for computing sizes and subscripts",
           "imageUrl": null
         }
@@ -39,6 +39,26 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/6b4d4410b88f",
+          "author": "Netflix Technology Blog",
+          "description": "A summary of sessions at the first Data Engineering Open Forum at Netflix on April 18th, 2024",
+          "link": "https://netflixtechblog.com/a-recap-of-the-data-engineering-open-forum-at-netflix-6b4d4410b88f?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-20T15:01:27.000Z",
+          "wordCount": 2570,
+          "title": "A Recap of the Data Engineering Open Forum at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:981/0*k1mwTj0BpJuP0TDi"
+        },
+        {
+          "id": "https://medium.com/p/8ebdda0b2db4",
+          "author": "Netflix Technology Blog",
+          "description": "Harness domain expertise with Video Annotator: streamline ML annotations, cut costs, and deploy faster using a human-in-the-loop system 🚀",
+          "link": "https://netflixtechblog.com/video-annotator-building-video-classifiers-using-vision-language-models-and-active-learning-8ebdda0b2db4?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-19T15:29:29.000Z",
+          "wordCount": 3451,
+          "title": "Video annotator: building video classifiers using vision-language models and active learning",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:620/1*hqNZjvWBlREV5GIv4uEmHw.png"
+        },
+        {
           "id": "https://medium.com/p/fd78328ee0bb",
           "author": "Netflix Technology Blog",
           "description": "At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…",
@@ -55,6 +75,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2024/06/17/version-206-released.html",
+          "author": null,
+          "description": "The Nim team is happy to announce Nim version 2.0.6, our third, and the largest by far, patch release for Nim 2.0.\nVersion 2.0.6 contains (exactly!) 200 commits and brings bugfixes and improvements to Nim 2.0.4, released two months ago.\nThe reason for this many commits in this release is that this is planned as the last 2.0.x release before Nim 2.2 and we wanted to give you the best Nim 2.0 experience in case you won’t be able to switch immediately to Nim 2.2.\nNOTE: If your program uses threads (--threads:on became the default in the 2.0.x line) please also use the -d:useMalloc switch.\nThis problem will be fixed in a future release, sorry for the inconvenience.\nCheck out if the package manager of your OS already ships version 2.0.6 or\ninstall it as described here.\nExisting users\nIf you hav…",
+          "link": "https://nim-lang.org//blog/2024/06/17/version-206-released.html",
+          "publishedOn": "2024-06-17T00:00:00.000Z",
+          "wordCount": 1339,
+          "title": "Nim version 2.0.6 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html",
           "author": null,
@@ -124,18 +154,8 @@
           "description": "<p>Here are some interesting things I recently read on the internet:</p>\n\n<figure>\n  <blockquote>\n    <p>“As I walk around Philadelphia I often converse with Benjamin Franklin, to see what he thinks about how things have changed since 1790.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://blog.plover.com/tech/its-an-age-of-marvels.html\">It’s an Age of Marvels</a></cite><a href=\"https://web.archive.org/web/3/https://blog.plover.com/tech/its-an-age-of-marvels.html\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“The difficulty with music is that half of it is arbitrary and half of it is actually based on something, but you can’t tell the difference just by looking at it.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://eev.ee/blog/2016/09/15/music-theory-for-nerds/\">Music Theory for Nerds</a></cite><a href=\"https://web.archive.org/web/3/https://eev.ee/blog/2016/09/15/music-theory-for-nerds/\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Defining the original paths for those letters was a very manual process of writing their positions into the code and then nudging the points back and forth until the letters looked right. When it came to coding cursive, I streamlined the process.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript\">Coding My Handwriting</a></cite><a href=\"https://web.archive.org/web/3/https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Are there deeper, more fundamental aspects of software that can help us think beyond surface-level matters? I’ve come to think that a triad of interacting factors best explains what software is and, by extension, why software is difficult.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://tratt.net/laurie/blog/2024/what_factors_explain_the_nature_of_software.html\">What Factors Explain the Nature of Software?</a></cite><a href=\"https://web.archive.org/web/3/https://tratt.net/laurie/blog/2024/what_factors_explain_the_nature_of_software.html\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Programs that manipulate other programs are powerful, interesting and fun. I’ll take you on a tour of how interpreters and compilers work, and explain a surprising computer science result which allows compilers to be generated automatically.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://tomstu.art/compilers-for-free\">Compilers for Free</a></cite><a href=\"https://web.archive.org/web/3/https://tomstu.art/compilers-for-free\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“References are like jumps, leading wildly from one part of a data structure to another. Their introduction into high-level languages has been a step backward from which we may never recover.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://without.boats/blog/references-are-like-jumps/\">References Are like Jumps</a></cite><a href=\"https://web.archive.org/web/3/https://without.boats/blog/references-are-like-jumps/\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Forsp kind of just appeared and then has continued to surprise me. In many ways it feels more fundamental than Lisp or Forth. It appears to be both simpler than Lisp and more powerful than Forth.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://xorvoid.com/forsp.html\">Forsp: A Forth+Lisp Hybrid Lambda Calculus Language</a></cite><a href=\"https://web.archive.org/web/3/https://xorvoid.com/forsp.html\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“c4 is clever, tricky, fascinating, cool. It’s a compiler, it’s a VM, it’s an interpreter, it’s a parser, it’s art, it’s trickshot programming.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://registerspill.thorstenball.com/p/exploring-the-c4-compiler\">Exploring the c4… Compiler?</a></cite><a href=\"https://web.archive.org/web/3/https://registerspill.thorstenball.com/p/exploring-the-c4-compiler\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Lately I’ve been discovering new features in Python 3.12 around typing and pattern matching. Combined with dataclasses, they provide support for a style of programming that I’ve employed in Kotlin and Typescript.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html\">Statically Typed Functional Programming with Python 3.12</a></cite><a href=\"https://web.archive.org/web/3/https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Optics represent different relationships between types, such as ‘is a type of’, or ‘contains one or more’, similar to relationships in an old-timey UML class diagram. But unlike relationships in a UML diagram, optics can be used directly in real code.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://doscienceto.it/blog/posts/2019-12-19-optics.html\">Lessons Learned Building a Van Laarhoven Lens Library</a></cite><a href=\"https://web.archive.org/web/3/https://doscienceto.it/blog/posts/2019-12-19-optics.html\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Please don’t do this in production.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://astrid.tech/2024/05/01/0/ansible-is-a-lisp/\">Ansible Is a Lisp</a></cite><a href=\"https://web.archive.org/web/3/https://astrid.tech/2024/05/01/0/ansible-is-a-lisp/\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“If Bob’s offering a perfect algorithm off the top of his head, call bullshit (unless he carefully frames it as a hypothesis to test in a simulator, thank you, Bob).”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://sirupsen.com/napkin/problem-16-simulation\">When to Write a Simulator</a></cite><a href=\"https://web.archive.org/web/3/https://sirupsen.com/napkin/problem-16-simulation\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“I just don’t think it’s useful, most of the time, to worry about anything beyond: wake me up, or don’t.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://ntietz.com/blog/the-only-two-log-levels-you-need-are-info-and-error/\">The Only Two Log Levels You Need Are INFO and ERROR</a></cite><a href=\"https://web.archive.org/web/3/https://ntietz.com/blog/the-only-two-log-levels-you-need-are-info-and-error/\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“The internet is awash with tutorials on how to implement dark mode that will get you to a rudimentary implementation. I found that they lacked the refinements necessary to get to a great implementation.”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://brandur.org/fragments/dark-mode-notes\">Notes on Implementing Dark Mode</a></cite><a href=\"https://web.archive.org/web/3/https://brandur.org/fragments/dark-mode-notes\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<figure>\n  <blockquote>\n    <p>“Too often have I witnessed the improvising musician sweaty-handedly attempting to pinch-zoom an A4 pdf on a tiny mobile screen at the climax of a gig. We need fluid and responsive music rendering for the web!”</p>\n  </blockquote>\n  <figcaption>\n    <p><cite><a href=\"https://cruncher.ch/blog/printing-music-with-css-grid/\">Printing Music with CSS Grid</a></cite><a href=\"https://web.archive.org/web/3/https://cruncher.ch/blog/printing-music-with-css-grid/\" title=\"Archived link\">🏛️</a></p>\n  </figcaption>\n</figure>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/112615743566573724\" class=\"mastodon-link\">Mastodon</a>.</p>",
           "link": "https://notes.abhinavsarkar.net/2024/links-06",
           "publishedOn": "2024-06-14T00:00:00.000Z",
-          "wordCount": 870,
+          "wordCount": 877,
           "title": "Interesting Links for June 2024",
-          "imageUrl": null
-        },
-        {
-          "id": "https://notes.abhinavsarkar.net/2024/links-05",
-          "author": null,
-          "description": "<p>Here are some interesting things I recently read on the internet:</p>\n\n<ul>\n  <li>\n    <p><a href=\"https://adam.nels.onl/blog/an-oo-languge-for-the-20s/\">An Object-Oriented Language for the ’20s</a><a href=\"https://web.archive.org/web/3/https://adam.nels.onl/blog/an-oo-languge-for-the-20s/\" title=\"Archived link\">🏛️</a> <br />\nAdam Nelson remixes the good ideas from various modern programming languages and proposes what an object-oriented language designed for the present-time should be.</p>\n  </li>\n  <li>\n    <p><a href=\"https://quuxplusone.github.io/blog/2024/03/31/ed-catmurs-triliteral/\">Ed Catmur’s Triliteral esolang</a><a href=\"https://web.archive.org/web/3/https://quuxplusone.github.io/blog/2024/03/31/ed-catmurs-triliteral/\" title=\"Archived link\">🏛️</a> <br />\nArthur O’Dwyer describes Triliteral, an esoteric programming language invented by prolific C++ contributor Ed Catmur, which is inspired by how words are created in Semitic languages by weaving vowels through triconsonantal roots.</p>\n  </li>\n  <li>\n    <p><a href=\"https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/\">The origin and virtues of semicolons in programming languages</a><a href=\"https://web.archive.org/web/3/https://ntietz.com/blog/researching-why-we-use-semicolons-as-statement-terminators/\" title=\"Archived link\">🏛️</a> <br />\nNicole Tietz-Sokolskaya wades through computer science history trying to find the when and why of the wide use of the humble semicolon in many programming languages.</p>\n  </li>\n  <li>\n    <p><a href=\"https://old.reddit.com/r/ProgrammingLanguages/comments/1cm8m9o/is_there_a_minimum_viable_language_within/\">Is there a minimum viable language within imperative languages like C++ or Rust from which the rest of language can be built?</a><a href=\"https://web.archive.org/web/20240517073857/https://old.reddit.com/r/ProgrammingLanguages/comments/1cm8m9o/is_there_a_minimum_viable_language_within/\" title=\"Archived link\">🏛️</a> <br />\nSome wise Redditors discuss the minimal viable programming language that can serve as a core language for bigger imperative languages like C++. Lisp and Assembly are mentioned many times.</p>\n  </li>\n  <li>\n    <p><a href=\"https://kubyshkin.name/posts/type-checking-as-evaluation/\">Type Checking as Evaluation</a><a href=\"https://web.archive.org/web/3/https://kubyshkin.name/posts/type-checking-as-evaluation/\" title=\"Archived link\">🏛️</a> <br />\nDmitriy Kubyshkin explains are how type checking in statically typed programming languages is like evaluation of a secondary program in dynamically typed languages.</p>\n  </li>\n  <li>\n    <p><a href=\"https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/\">Unexplanations: query optimization works because sql is declarative</a><a href=\"https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/unexplanations-sql-declarative/\" title=\"Archived link\">🏛️</a> <br />\nJamie Brandon explains the true reason why SQL queries are more amenable to optimizations compared to other programming languages.</p>\n  </li>\n  <li>\n    <p><a href=\"https://www.lesleylai.info/en/ast-in-cpp-part-1-variant\">Representing an Abstract Syntax Tree in C++: Part 1 - Variants</a><a href=\"https://web.archive.org/web/3/https://www.lesleylai.info/en/ast-in-cpp-part-1-variant\" title=\"Archived link\">🏛️</a> <br />\nLesley Lai explores the different ways of representing Abstract Syntax Trees in C++.</p>\n  </li>\n  <li>\n    <p><a href=\"https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/\">The Alternative Implementation Problem</a><a href=\"https://web.archive.org/web/3/https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/\" title=\"Archived link\">🏛️</a> <br />\nMaxime Chevalier-Boisvert posits that most of the alternative implementations of programming languages are unsuccessful because they are incompatible with the vast amount of code written for the original implementations.</p>\n  </li>\n  <li>\n    <p><a href=\"https://mcyoung.xyz/2021/06/01/linker-script/\">Everything You Never Wanted To Know About Linker Script</a><a href=\"https://web.archive.org/web/3/https://mcyoung.xyz/2021/06/01/linker-script/\" title=\"Archived link\">🏛️</a> <br />\nIn this comprehensive guide, Miguel Young tells us everything there is to know about the art and science of linking to create executables.</p>\n  </li>\n  <li>\n    <p><a href=\"https://bitbashing.io/gc-for-systems-programmers.html\">Garbage Collection for Systems Programmers</a><a href=\"https://web.archive.org/web/3/https://bitbashing.io/gc-for-systems-programmers.html\" title=\"Archived link\">🏛️</a> <br />\nMatt Kline argues that it is okay to use garbage collection with system programming languages because modern garbage collectors have amazing throughput.</p>\n  </li>\n  <li>\n    <p><a href=\"https://vaibhavsagar.com/blog/2019/09/08/popcount/\">You Won’t Believe This One Weird CPU Instruction!</a><a href=\"https://web.archive.org/web/3/https://vaibhavsagar.com/blog/2019/09/08/popcount/\" title=\"Archived link\">🏛️</a> <br />\nVaibhav Sagar explored the history and use of the <code class=\"language-plaintext highlighter-rouge\">popcount</code> CPU instruction.</p>\n  </li>\n  <li>\n    <p><a href=\"https://coredumped.dev/2021/04/07/when-pure-function-lie/\">When pure function lie</a><a href=\"https://web.archive.org/web/3/https://coredumped.dev/2021/04/07/when-pure-function-lie/\" title=\"Archived link\">🏛️</a> <br />\nTroy Hinckley puzzles over how it is possible for pure functions to return different values in Common Lisp.</p>\n  </li>\n  <li>\n    <p><a href=\"https://henko.net/blog/why-write-unit-tests/\">Why write unit tests?</a><a href=\"https://web.archive.org/web/20240522104922/https://henko.net/blog/why-write-unit-tests/\" title=\"Archived link\">🏛️</a> <br />\nHenrik Jernevad lists some good reasons to unit test your programs.</p>\n  </li>\n  <li>\n    <p><a href=\"https://vfoley.xyz/reasonable-use/\">Making Reasonable Use of Computer Resources</a><a href=\"https://web.archive.org/web/3/https://vfoley.xyz/reasonable-use/\" title=\"Archived link\">🏛️</a> <br />\nVincent Foley argues that me must think about the performance of our software at the outset, not as an afterthought.</p>\n  </li>\n  <li>\n    <p><a href=\"https://yangdanny97.github.io/blog/2024/04/26/dubois-challenge\">Recreating Historical Data Viz in 2024 using D3.js</a><a href=\"https://web.archive.org/web/20240522105655/https://yangdanny97.github.io/blog/2024/04/26/dubois-challenge\" title=\"Archived link\">🏛️</a> <br />\nDanny Yang recreates W.E.B Du Bois’s famous historical data visualizations using D3.js.</p>\n  </li>\n</ul>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/112485258469122899\" class=\"mastodon-link\">Mastodon</a>.</p>",
-          "link": "https://notes.abhinavsarkar.net/2024/links-05",
-          "publishedOn": "2024-05-22T00:00:00.000Z",
-          "wordCount": 753,
-          "title": "Interesting Links for May 2024",
           "imageUrl": null
         }
       ]
@@ -146,12 +166,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21410",
+          "author": "Daniel Lemire",
+          "description": "Copying data in software is cheap, but it is not at all free. As you start optimizing your code, you might find that copies become a performance bottleneck. Let me be clear that copies really are cheap. It is often more performant to copy that data than to track the same memory across different threads. … Continue reading Performance tip: avoid unnecessary copies",
+          "link": "https://lemire.me/blog/2024/06/22/performance-tip-avoid-unnecessary-copies/",
+          "publishedOn": "2024-06-22T19:14:18.000Z",
+          "wordCount": 3620,
+          "title": "Performance tip: avoid unnecessary copies",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21400",
+          "author": "Daniel Lemire",
+          "description": "We have been working on a fast library to validate and transcode Unicode and other formats such as base64 in C++: simdutf. We wondered: could we achieve the same good results in C#? Microsoft’s .NET framework has made great strides in leveraging advanced instructions. For instance, if your processor supports AVX-512, you can instantiate 512-bit … Continue reading Validating gigabytes of Unicode strings per second… in C#?",
+          "link": "https://lemire.me/blog/2024/06/20/validating-gigabytes-of-unicode-strings-per-second-in-c/",
+          "publishedOn": "2024-06-20T17:25:02.000Z",
+          "wordCount": 3352,
+          "title": "Validating gigabytes of Unicode strings per second… in C#?",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21386",
           "author": "Daniel Lemire",
           "description": "If you must multiply matrices, you should use dedicated libraries. However, we sometimes need to roll our own code. In C++, you can quickly write your own Matrix template: template <typename T> struct Matrix { Matrix(size_t rows, size_t cols) : data(new T[rows * cols]), rows(rows), cols(cols) {} T &operator()(size_t i, size_t j) { return data.get()[i … Continue reading Rolling your own fast matrix multiplication: loop order and vectorization",
           "link": "https://lemire.me/blog/2024/06/13/rolling-your-own-fast-matrix-multiplication-loop-order-and-vectorization/",
           "publishedOn": "2024-06-13T21:11:26.000Z",
-          "wordCount": 3352,
+          "wordCount": 3571,
           "title": "Rolling your own fast matrix multiplication: loop order and vectorization",
           "imageUrl": null
         },
@@ -161,7 +201,7 @@
           "description": "Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes at once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition",
           "link": "https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/",
           "publishedOn": "2024-06-08T04:55:42.000Z",
-          "wordCount": 3837,
+          "wordCount": 4031,
           "title": "Scan HTML faster with SIMD instructions: Chrome edition",
           "imageUrl": null
         },
@@ -171,7 +211,7 @@
           "description": "In software, we often represent strings by surrounding them with quotes (\"). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (\") or the backslash character (\\) should be replaced by \\\" or \\\\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping",
           "link": "https://lemire.me/blog/2024/05/31/quickly-checking-whether-a-string-needs-escaping/",
           "publishedOn": "2024-05-31T03:48:21.000Z",
-          "wordCount": 4174,
+          "wordCount": 4178,
           "title": "Quickly checking whether a string needs escaping",
           "imageUrl": null
         },
@@ -181,7 +221,7 @@
           "description": "In the quest for software optimization, a trusty companion is the sampling profiler, a tool available in most programming languages. These profilers work unobtrusively, taking snapshots of the program’s state and recording the currently executing function or instruction. While profilers sound like a silver bullet for identifying performance bottlenecks, their usefulness has limitations. They excel … Continue reading Never reason from the results of a sampling profiler",
           "link": "https://lemire.me/blog/2024/05/30/never-reason-from-the-results-of-a-sampling-profiler/",
           "publishedOn": "2024-05-30T19:33:28.000Z",
-          "wordCount": 2876,
+          "wordCount": 2880,
           "title": "Never reason from the results of a sampling profiler",
           "imageUrl": null
         },
@@ -191,7 +231,7 @@
           "description": "Artificial intelligence is far more efficient at producing content than human beings, as far as carbon emissions go. Human brains got larger by over 5% between 1930 and 1970. Replacing plastics by ‘environment friendly’ alternatives typically results in greater greenhouse gas emissions. Prostate-specific antigen screening has only a small effect on men’s risk of dying … Continue reading Science and Technology links (May 25 2024)",
           "link": "https://lemire.me/blog/2024/05/26/science-and-technology-links-may-25-2024/",
           "publishedOn": "2024-05-26T01:09:54.000Z",
-          "wordCount": 2933,
+          "wordCount": 2937,
           "title": "Science and Technology links (May 25 2024)",
           "imageUrl": null
         }
