@@ -4,33 +4,6 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2024/05/25/",
-          "author": null,
-          "description": "I continue to streamline an arena-based paradigm, and stumbled\nupon a concise technique for dynamic growth — an efficient, generic\n“concatenate anything to anything” within an arena built atop a core of\n9-ish lines of code. The key insight originated from a reader suggestion\nabout dynamic arrays. The subject of concatenation can be a string,\ndynamic array, or even something else. The “system” is extensible, and\nespecially useful for path handling.\nContinuing from last time, the examples are in light, C-style C++.\nI chose it because templates and function overloading express the concepts\nsuccinctly. It uses no standard library functionality, so converting to C,\nor similar, should be straightforward. The core concatenation “operator”:\n\ntemplate<typename T>\nT concat(arena *a, T head, T tail)\n…",
-          "link": "https://nullprogram.com/blog/2024/05/25/",
-          "publishedOn": "2024-05-25T00:00:00.000Z",
-          "wordCount": 1724,
-          "title": "Arenas and the almighty concatenation operator",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2024/05/24/",
-          "author": null,
-          "description": "Occasionally we need to compute the size of an object that does not yet\nexist, or a subscript that may fall out of bounds. It’s easy to miss\nthe edge cases where results overflow, creating a nasty, subtle bug, even\nin the presence of type safety. Ideally such computations happen in\nspecialized code, such as inside an allocator (calloc, reallocarray)\nand not outside by the allocatee (i.e. malloc). Mitigations exist with\ndifferent trade-offs: arbitrary precision, or using a wider fixed integer\n— i.e. 128-bit integers on 64-bit hosts. In the typical case, working only\nwith fixed size-type integers, I’ve come up with a set of guidelines to\navoid overflows in the edge cases.\nRange check before computing a result. No exceptions.\nDo not cast unless you know a priori the operand is in range.\nNever…",
-          "link": "https://nullprogram.com/blog/2024/05/24/",
-          "publishedOn": "2024-05-24T22:25:10.000Z",
-          "wordCount": 1143,
-          "title": "Guidelines for computing sizes and subscripts",
-          "imageUrl": null
-        }
-      ]
-    },
-    {
-      "title": "Max Slater",
-      "feedUrl": "https://thenumb.at/feed.xml",
-      "siteUrl": "https://thenumb.at/",
       "articles": []
     },
     {
@@ -39,12 +12,22 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/e735e6ce8f7d",
+          "author": "Netflix Technology Blog",
+          "description": "Applying Quality of Service techniques at the application level",
+          "link": "https://netflixtechblog.com/enhancing-netflix-reliability-with-service-level-prioritized-load-shedding-e735e6ce8f7d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-25T22:58:09.000Z",
+          "wordCount": 6060,
+          "title": "Enhancing Netflix Reliability with Service-Level Prioritized Load Shedding",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*2KByIB47RWng5UNH"
+        },
+        {
           "id": "https://medium.com/p/6b4d4410b88f",
           "author": "Netflix Technology Blog",
           "description": "A summary of sessions at the first Data Engineering Open Forum at Netflix on April 18th, 2024",
           "link": "https://netflixtechblog.com/a-recap-of-the-data-engineering-open-forum-at-netflix-6b4d4410b88f?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-06-20T15:01:27.000Z",
-          "wordCount": 2570,
+          "wordCount": 2539,
           "title": "A Recap of the Data Engineering Open Forum at Netflix",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:981/0*k1mwTj0BpJuP0TDi"
         },
@@ -54,7 +37,7 @@
           "description": "Harness domain expertise with Video Annotator: streamline ML annotations, cut costs, and deploy faster using a human-in-the-loop system 🚀",
           "link": "https://netflixtechblog.com/video-annotator-building-video-classifiers-using-vision-language-models-and-active-learning-8ebdda0b2db4?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-06-19T15:29:29.000Z",
-          "wordCount": 3451,
+          "wordCount": 3420,
           "title": "Video annotator: building video classifiers using vision-language models and active learning",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:620/1*hqNZjvWBlREV5GIv4uEmHw.png"
         },
@@ -64,7 +47,7 @@
           "description": "At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…",
           "link": "https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-06-06T20:10:54.000Z",
-          "wordCount": 5149,
+          "wordCount": 5118,
           "title": "Round 2: A Survey of Causal Inference Applications at Netflix",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:823/0*e8IMSJf7p60mk-WG"
         }
@@ -114,7 +97,7 @@
           "description": "A post/question about formal grammars, wherein I search for a good formalism for describing infix\nexpressions.",
           "link": "https://matklad.github.io/2024/06/04/regular-recursive-restricted.html",
           "publishedOn": "2024-06-04T00:00:00.000Z",
-          "wordCount": 1292,
+          "wordCount": 1291,
           "title": "Regular, Recursive, Restricted",
           "imageUrl": null
         }
@@ -166,12 +149,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21423",
+          "author": "Daniel Lemire",
+          "description": "In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocates?",
+          "link": "https://lemire.me/blog/2024/06/27/how-much-memory-does-a-call-to-malloc-allocates/",
+          "publishedOn": "2024-06-27T20:41:51.000Z",
+          "wordCount": 3429,
+          "title": "How much memory does a call to ‘malloc’  allocates?",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21410",
           "author": "Daniel Lemire",
           "description": "Copying data in software is cheap, but it is not at all free. As you start optimizing your code, you might find that copies become a performance bottleneck. Let me be clear that copies really are cheap. It is often more performant to copy that data than to track the same memory across different threads. … Continue reading Performance tip: avoid unnecessary copies",
           "link": "https://lemire.me/blog/2024/06/22/performance-tip-avoid-unnecessary-copies/",
           "publishedOn": "2024-06-22T19:14:18.000Z",
-          "wordCount": 3620,
+          "wordCount": 3629,
           "title": "Performance tip: avoid unnecessary copies",
           "imageUrl": null
         },
@@ -181,7 +174,7 @@
           "description": "We have been working on a fast library to validate and transcode Unicode and other formats such as base64 in C++: simdutf. We wondered: could we achieve the same good results in C#? Microsoft’s .NET framework has made great strides in leveraging advanced instructions. For instance, if your processor supports AVX-512, you can instantiate 512-bit … Continue reading Validating gigabytes of Unicode strings per second… in C#?",
           "link": "https://lemire.me/blog/2024/06/20/validating-gigabytes-of-unicode-strings-per-second-in-c/",
           "publishedOn": "2024-06-20T17:25:02.000Z",
-          "wordCount": 3352,
+          "wordCount": 3419,
           "title": "Validating gigabytes of Unicode strings per second… in C#?",
           "imageUrl": null
         },
@@ -191,7 +184,7 @@
           "description": "If you must multiply matrices, you should use dedicated libraries. However, we sometimes need to roll our own code. In C++, you can quickly write your own Matrix template: template <typename T> struct Matrix { Matrix(size_t rows, size_t cols) : data(new T[rows * cols]), rows(rows), cols(cols) {} T &operator()(size_t i, size_t j) { return data.get()[i … Continue reading Rolling your own fast matrix multiplication: loop order and vectorization",
           "link": "https://lemire.me/blog/2024/06/13/rolling-your-own-fast-matrix-multiplication-loop-order-and-vectorization/",
           "publishedOn": "2024-06-13T21:11:26.000Z",
-          "wordCount": 3571,
+          "wordCount": 3565,
           "title": "Rolling your own fast matrix multiplication: loop order and vectorization",
           "imageUrl": null
         },
@@ -201,38 +194,8 @@
           "description": "Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes at once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition",
           "link": "https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/",
           "publishedOn": "2024-06-08T04:55:42.000Z",
-          "wordCount": 4031,
+          "wordCount": 4050,
           "title": "Scan HTML faster with SIMD instructions: Chrome edition",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21364",
-          "author": "Daniel Lemire",
-          "description": "In software, we often represent strings by surrounding them with quotes (\"). What happens if the string itself contains quotes? We then need to escape the string. For example, the quote character (\") or the backslash character (\\) should be replaced by \\\" or \\\\. Most programmers are familiar with this process. Most strings do … Continue reading Quickly checking whether a string needs escaping",
-          "link": "https://lemire.me/blog/2024/05/31/quickly-checking-whether-a-string-needs-escaping/",
-          "publishedOn": "2024-05-31T03:48:21.000Z",
-          "wordCount": 4178,
-          "title": "Quickly checking whether a string needs escaping",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21360",
-          "author": "Daniel Lemire",
-          "description": "In the quest for software optimization, a trusty companion is the sampling profiler, a tool available in most programming languages. These profilers work unobtrusively, taking snapshots of the program’s state and recording the currently executing function or instruction. While profilers sound like a silver bullet for identifying performance bottlenecks, their usefulness has limitations. They excel … Continue reading Never reason from the results of a sampling profiler",
-          "link": "https://lemire.me/blog/2024/05/30/never-reason-from-the-results-of-a-sampling-profiler/",
-          "publishedOn": "2024-05-30T19:33:28.000Z",
-          "wordCount": 2880,
-          "title": "Never reason from the results of a sampling profiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21351",
-          "author": "Daniel Lemire",
-          "description": "Artificial intelligence is far more efficient at producing content than human beings, as far as carbon emissions go. Human brains got larger by over 5% between 1930 and 1970. Replacing plastics by ‘environment friendly’ alternatives typically results in greater greenhouse gas emissions. Prostate-specific antigen screening has only a small effect on men’s risk of dying … Continue reading Science and Technology links (May 25 2024)",
-          "link": "https://lemire.me/blog/2024/05/26/science-and-technology-links-may-25-2024/",
-          "publishedOn": "2024-05-26T01:09:54.000Z",
-          "wordCount": 2937,
-          "title": "Science and Technology links (May 25 2024)",
           "imageUrl": null
         }
       ]
@@ -241,7 +204,18 @@
       "title": "devever.net/~hl",
       "feedUrl": "https://www.devever.net/~hl/index.feed",
       "siteUrl": "https://www.devever.net/~hl/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.devever.net/~hl/u/202406#23a",
+          "author": null,
+          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><a href=\"https://www.linkedin.com/in/hugo-landau/\">Hire me</a></li></ul><p xmlns=\"http://www.w3.org/1999/xhtml\">Looking for a new role. Expertise in cryptography, security, networking,\nreversing. Dev, ops, security. Amongst other things I've authored a , a\n and . I gave a talk about .\n / .<a href=\"https://github.com/openssl/openssl/pulls?q=author%3Ahlandau\">QUIC\nimplementation</a><a href=\"http://github.com/hlandau/acmetool\">Let's Encrypt client</a><a href=\"/~hl/acme-caa-live\">an\nRFC</a><a href=\"/~hl/ortega-37c3/\">reverse engineering an Ethernet\ncontroller's firmware at 37C3</a><a href=\"https://www.linkedin.com/in/hugo-landau/\">LinkedIn</a><a href=\"/~hl/contact\">contact\ndetails</a></p></div></div>",
+          "link": "https://www.devever.net/~hl/u/202406#23a",
+          "publishedOn": "2024-06-23T09:43:07.000Z",
+          "wordCount": 67,
+          "title": "[Hμblog] Hire me",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "apenwarr",
