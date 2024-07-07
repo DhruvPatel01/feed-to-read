@@ -22,6 +22,244 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-05 datetime="2024-07-05T19:44:50.000Z">2024-07-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-05 datetime="2024-07-05T19:44:50.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Daniel Lemire&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21437"
+                        open
+                      >
+                        <summary class="article-expander__title">Scan HTML faster with SIMD instructions: .NET/C# Edition</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Properly Testing Concurrent Data Structures</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>There&#x27;s a fascinating Rust library, loom, which can be used to
+thoroughly test lock-free data structures. I always wanted to learn how it works. I still do! But
+recently I accidentally implemented a small toy which, I think, contains some of the loom&#x27;s ideas,
+and it seems worthwhile to write about that. The goal here isn&#x27;t to teach you what you should be
+using in practice (if you need that, go read loom&#x27;s docs), but rather to derive a couple of neat
+ideas from first principles.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-03 datetime="2024-07-03T00:00:00.000Z">2024-07-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-03 datetime="2024-07-03T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Nim Programming Language</button>
+                  <a class="source-heading__link" href="https://nim-lang.org//">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nim-lang.org//blog/2024/07/03/version-208-released.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Nim version 2.0.8 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nim-lang.org//blog/2024/07/03/version-208-released.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://nim-lang.org/assets/img/twitter_banner.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The Nim team is happy to announce Nim version 2.0.8, our fourth patch release for Nim 2.0.
+Version 2.0.8 is a small release, containing just 20 commits, but it brings important improvements to Nim 2.0.6, released 10 days ago.
+Major improvements in this release:
+Nim’s allocator is now much more stable with --threads:on.
+Better support for gcc14.
+Optimized setLen(0) for uninitialized strings and seqs.
+Optimized move when used with --mm:refc.
+This release comes relatively quickly after our previous release because it was time-critical for our partner Status to receive these improvements as soon as possible.
+It is our way of saying “thank you” for their continued support of Nim.
+Check out if the package manager of your OS already ships version 2.0.8 or
+install it as described here.
+Existing users
+If you have installed a previous version of Nim using choosenim,
+getting Nim 2.0.8 is as easy as:
+$ choosenim 2.0.8
+
+If you are on OSX ARM, choosenim will not work for you.
+Please choose an alternative method of installing or updating.
+Alternatively, you can download Nim 2.0.8 from
+our nightlies builds.
+Donating to Nim
+We would like to encourage you to donate to Nim.
+The donated money will be used to further improve Nim by creating bounties
+for the most important bugfixes and features.
+You can donate via:
+Open Collective
+Bitcoin: 1BXfuKM2uvoD6mbx4g5xM3eQhLzkCK77tJ
+If you are a company, we also offer commercial support.
+Bugfixes
+These reported issues were fixed:
+Fixed “[Semi-regression] C code contains backtick&#x60;gensym”
+(#23711)
+Fixed “setLen(0) allocates memory causing performance regression”
+(#23742)
+Fixed “Sigsegv on std/tasks destructor”
+(#23725)
+Fixed “genericAssign does not take care of the importC variables”
+(#9940)
+Fixed “move(table) does not move the table”
+(#23759)
+Fixed “Local variables can be prematurely moved to closure, causing use-after-move”
+(#23748)
+Fixed “tvatiteropenarray test fails with c++”
+(#19977)
+The complete list of changes is available
+here.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-30 datetime="2024-06-30T21:30:19.000Z">2024-06-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-30 datetime="2024-06-30T21:30:19.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2024/06/30/"
+                        open
+                      >
+                        <summary class="article-expander__title">Symbol inspection tools for w64devkit: vc++filt and peports</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2024/06/30/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I introduced two new tools to w64devkit, vc++filt and
+peports (pronounced like purports), which aid manual symbol
+inspection and complement one another. As of this writing, the latter is
+not yet in a release, but it’s feature-complete and trivial to build if
+you wanted to try it out early. This article explains the motivation and
+purpose for each.
+vc++filt
+Binutils has c++filt, a tool to demangle C++ symbols. Its primary use
+case is operating on whole files or streams, passing through anything that
+doesn’t look like a mangled C++ symbol, and interpolating human-friendly
+names in place of mangled symbols. In, say, Vim I could run the current
+buffer through it to translate mangled symbols (:%!c++filt).
+Otherwise it’s often composed with other tools in a pipeline.
+For example, suppose I want …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-27 datetime="2024-06-27T20:41:51.000Z">2024-06-27</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-27 datetime="2024-06-27T20:41:51.000Z"></time>
           </button>
@@ -45,12 +283,12 @@
                         data-accordion-key="https://lemire.me/blog/?p&#x3D;21423"
                         open
                       >
-                        <summary class="article-expander__title">How much memory does a call to ‘malloc’  allocates?</summary>
+                        <summary class="article-expander__title">How much memory does a call to ‘malloc’  allocate?</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/06/27/how-much-memory-does-a-call-to-malloc-allocates/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocates?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                              <span>In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocate?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -568,258 +806,10 @@ Like, share, or comment on this post on Mastodon.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-06 datetime="2024-06-06T20:10:54.000Z">2024-06-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-06 datetime="2024-06-06T20:10:54.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Netflix TechBlog - Medium</button>
-                  <a class="source-heading__link" href="https://netflixtechblog.com?source&#x3D;rss----2615bd06b42e---4">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/p/fd78328ee0bb"
-                        open
-                      >
-                        <summary class="article-expander__title">Round 2: A Survey of Causal Inference Applications at Netflix</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb?source&#x3D;rss----2615bd06b42e---4">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/da:true/resize:fit:823/0*e8IMSJf7p60mk-WG" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-04 datetime="2024-06-04T00:00:00.000Z">2024-06-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-04 datetime="2024-06-04T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >matklad</button>
-                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://matklad.github.io/2024/06/04/regular-recursive-restricted.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Regular, Recursive, Restricted</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2024/06/04/regular-recursive-restricted.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A post/question about formal grammars, wherein I search for a good formalism for describing infix
-expressions.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-01 datetime="2024-06-01T00:00:00.000Z">2024-06-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-01 datetime="2024-06-01T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Nim Programming Language</button>
-                  <a class="source-heading__link" href="https://nim-lang.org//">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html"
-                        open
-                      >
-                        <summary class="article-expander__title">This Month with Nim: October 2023 to June 2024 (It is a long month)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://nim-lang.org/assets/img/twitter_banner.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Oolib Upgrade
-Author: Neo
-New super cool features here!
-Multiple constructor
-class Gun:
-  var
-    offence: int
-    capacity &#x3D; 6
-    price: int
-
-  proc &#x60;new&#x60;(offence: int) &#x3D;
-    self.offence &#x3D; offence
-    self.capacity &#x3D; 8
-    self.price &#x3D; 300
-
-  proc &#x60;new&#x60;(capacity: int) &#x3D;
-    self.offence &#x3D; 14
-    self.capacity &#x3D; capacity
-    self.price &#x3D; 200
-
-# This &#x60;new()&#x60; is made from the type definition
-let _ &#x3D; Gun.new(offence &#x3D; 5, price &#x3D; 6)
-
-# 2nd one
-let _ &#x3D; Gun.new(offence &#x3D; 12)
-
-# 3rd one
-let _ &#x3D; Gun.new(capacity &#x3D; 10)
-
-class Sword:
-  var
-    offence: int
-    price {.initial.} &#x3D; 100
-
-# made from the type definition
-let _ &#x3D; Sword.new(8)
-
-{.construct.}
-a type definition with {.construct.} are made into a class. Now that we can define a class without using class!
-type Shield {.construct.} &#x3D; ref obje…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >samwho.dev</button>
-                  <a class="source-heading__link" href="https://samwho.dev/rss.xml">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://samwho.dev/dogs/"
-                        open
-                      >
-                        <summary class="article-expander__title">A Commitment to Art and Dogs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://samwho.dev/dogs/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://samwho.dev/images/dogs.png?h&#x3D;763937a7e6c6de05e453" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>.dog-line {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  width: 100%;
-  height: 10rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.dog-line img {
-  flex-grow: 1;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  object-fit: contain;
-}
-
-.dog-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-Back in Memory Allocation, I introduced Haskie.
-The idea behind Haskie was to create a character that could ask questions the
-reader might have, and to &quot;soften&quot; the posts to make them feel less
-intimidating. I got some feedback from people that Haskie was a bit too
-childish, and didn&#x27;t feel like he belonged in posts about serious topics.
-This feedback was in the minority, though, and most people liked him. So I…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9728190003">
-        <time id="build-timestamp" datetime="2024-06-30T01:03:23.115Z">2024-06-30T01:03:23.115Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9823407773">
+        <time id="build-timestamp" datetime="2024-07-07T01:04:05.110Z">2024-07-07T01:04:05.110Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

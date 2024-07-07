@@ -4,7 +4,18 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2024/06/30/",
+          "author": null,
+          "description": "I introduced two new tools to w64devkit, vc++filt and\npeports (pronounced like purports), which aid manual symbol\ninspection and complement one another. As of this writing, the latter is\nnot yet in a release, but it’s feature-complete and trivial to build if\nyou wanted to try it out early. This article explains the motivation and\npurpose for each.\nvc++filt\nBinutils has c++filt, a tool to demangle C++ symbols. Its primary use\ncase is operating on whole files or streams, passing through anything that\ndoesn’t look like a mangled C++ symbol, and interpolating human-friendly\nnames in place of mangled symbols. In, say, Vim I could run the current\nbuffer through it to translate mangled symbols (:%!c++filt).\nOtherwise it’s often composed with other tools in a pipeline.\nFor example, suppose I want …",
+          "link": "https://nullprogram.com/blog/2024/06/30/",
+          "publishedOn": "2024-06-30T21:30:19.000Z",
+          "wordCount": 1961,
+          "title": "Symbol inspection tools for w64devkit: vc++filt and peports",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -40,16 +51,6 @@
           "wordCount": 3420,
           "title": "Video annotator: building video classifiers using vision-language models and active learning",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:620/1*hqNZjvWBlREV5GIv4uEmHw.png"
-        },
-        {
-          "id": "https://medium.com/p/fd78328ee0bb",
-          "author": "Netflix Technology Blog",
-          "description": "At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…",
-          "link": "https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-06-06T20:10:54.000Z",
-          "wordCount": 5118,
-          "title": "Round 2: A Survey of Causal Inference Applications at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:823/0*e8IMSJf7p60mk-WG"
         }
       ]
     },
@@ -59,6 +60,16 @@
       "siteUrl": "https://nim-lang.org//",
       "articles": [
         {
+          "id": "https://nim-lang.org//blog/2024/07/03/version-208-released.html",
+          "author": null,
+          "description": "The Nim team is happy to announce Nim version 2.0.8, our fourth patch release for Nim 2.0.\nVersion 2.0.8 is a small release, containing just 20 commits, but it brings important improvements to Nim 2.0.6, released 10 days ago.\nMajor improvements in this release:\nNim’s allocator is now much more stable with --threads:on.\nBetter support for gcc14.\nOptimized setLen(0) for uninitialized strings and seqs.\nOptimized move when used with --mm:refc.\nThis release comes relatively quickly after our previous release because it was time-critical for our partner Status to receive these improvements as soon as possible.\nIt is our way of saying “thank you” for their continued support of Nim.\nCheck out if the package manager of your OS already ships version 2.0.8 or\ninstall it as described here.\nExisting users\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.0.8 is as easy as:\n$ choosenim 2.0.8\n\nIf you are on OSX ARM, choosenim will not work for you.\nPlease choose an alternative method of installing or updating.\nAlternatively, you can download Nim 2.0.8 from\nour nightlies builds.\nDonating to Nim\nWe would like to encourage you to donate to Nim.\nThe donated money will be used to further improve Nim by creating bounties\nfor the most important bugfixes and features.\nYou can donate via:\nOpen Collective\nBitcoin: 1BXfuKM2uvoD6mbx4g5xM3eQhLzkCK77tJ\nIf you are a company, we also offer commercial support.\nBugfixes\nThese reported issues were fixed:\nFixed “[Semi-regression] C code contains backtick`gensym”\n(#23711)\nFixed “setLen(0) allocates memory causing performance regression”\n(#23742)\nFixed “Sigsegv on std/tasks destructor”\n(#23725)\nFixed “genericAssign does not take care of the importC variables”\n(#9940)\nFixed “move(table) does not move the table”\n(#23759)\nFixed “Local variables can be prematurely moved to closure, causing use-after-move”\n(#23748)\nFixed “tvatiteropenarray test fails with c++”\n(#19977)\nThe complete list of changes is available\nhere.",
+          "link": "https://nim-lang.org//blog/2024/07/03/version-208-released.html",
+          "publishedOn": "2024-07-03T00:00:00.000Z",
+          "wordCount": 451,
+          "title": "Nim version 2.0.8 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
+        {
           "id": "https://nim-lang.org//blog/2024/06/17/version-206-released.html",
           "author": null,
           "description": "The Nim team is happy to announce Nim version 2.0.6, our third, and the largest by far, patch release for Nim 2.0.\nVersion 2.0.6 contains (exactly!) 200 commits and brings bugfixes and improvements to Nim 2.0.4, released two months ago.\nThe reason for this many commits in this release is that this is planned as the last 2.0.x release before Nim 2.2 and we wanted to give you the best Nim 2.0 experience in case you won’t be able to switch immediately to Nim 2.2.\nNOTE: If your program uses threads (--threads:on became the default in the 2.0.x line) please also use the -d:useMalloc switch.\nThis problem will be fixed in a future release, sorry for the inconvenience.\nCheck out if the package manager of your OS already ships version 2.0.6 or\ninstall it as described here.\nExisting users\nIf you hav…",
@@ -66,16 +77,6 @@
           "publishedOn": "2024-06-17T00:00:00.000Z",
           "wordCount": 1339,
           "title": "Nim version 2.0.6 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html",
-          "author": null,
-          "description": "Oolib Upgrade\nAuthor: Neo\nNew super cool features here!\nMultiple constructor\nclass Gun:\n  var\n    offence: int\n    capacity = 6\n    price: int\n\n  proc `new`(offence: int) =\n    self.offence = offence\n    self.capacity = 8\n    self.price = 300\n\n  proc `new`(capacity: int) =\n    self.offence = 14\n    self.capacity = capacity\n    self.price = 200\n\n# This `new()` is made from the type definition\nlet _ = Gun.new(offence = 5, price = 6)\n\n# 2nd one\nlet _ = Gun.new(offence = 12)\n\n# 3rd one\nlet _ = Gun.new(capacity = 10)\n\nclass Sword:\n  var\n    offence: int\n    price {.initial.} = 100\n\n# made from the type definition\nlet _ = Sword.new(8)\n\n{.construct.}\na type definition with {.construct.} are made into a class. Now that we can define a class without using class!\ntype Shield {.construct.} = ref obje…",
-          "link": "https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html",
-          "publishedOn": "2024-06-01T00:00:00.000Z",
-          "wordCount": 589,
-          "title": "This Month with Nim: October 2023 to June 2024 (It is a long month)",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
@@ -92,13 +93,13 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
-          "id": "https://matklad.github.io/2024/06/04/regular-recursive-restricted.html",
+          "id": "https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html",
           "author": null,
-          "description": "A post/question about formal grammars, wherein I search for a good formalism for describing infix\nexpressions.",
-          "link": "https://matklad.github.io/2024/06/04/regular-recursive-restricted.html",
-          "publishedOn": "2024-06-04T00:00:00.000Z",
-          "wordCount": 1291,
-          "title": "Regular, Recursive, Restricted",
+          "description": "There's a fascinating Rust library, loom, which can be used to\nthoroughly test lock-free data structures. I always wanted to learn how it works. I still do! But\nrecently I accidentally implemented a small toy which, I think, contains some of the loom's ideas,\nand it seems worthwhile to write about that. The goal here isn't to teach you what you should be\nusing in practice (if you need that, go read loom's docs), but rather to derive a couple of neat\nideas from first principles.",
+          "link": "https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html",
+          "publishedOn": "2024-07-05T00:00:00.000Z",
+          "wordCount": 4909,
+          "title": "Properly Testing Concurrent Data Structures",
           "imageUrl": null
         }
       ]
@@ -113,18 +114,7 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "https://samwho.dev/rss.xml",
-      "articles": [
-        {
-          "id": "https://samwho.dev/dogs/",
-          "author": null,
-          "description": ".dog-line {\n  display: flex;\n  flex-wrap: nowrap;\n  flex-direction: row;\n  width: 100%;\n  height: 10rem;\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\n.dog-line img {\n  flex-grow: 1;\n  height: auto;\n  margin: 0;\n  padding: 0;\n  object-fit: contain;\n}\n\n.dog-grid {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  grid-gap: 1rem;\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\nBack in Memory Allocation, I introduced Haskie.\nThe idea behind Haskie was to create a character that could ask questions the\nreader might have, and to \"soften\" the posts to make them feel less\nintimidating. I got some feedback from people that Haskie was a bit too\nchildish, and didn't feel like he belonged in posts about serious topics.\nThis feedback was in the minority, though, and most people liked him. So I…",
-          "link": "https://samwho.dev/dogs/",
-          "publishedOn": "2024-06-01T00:00:00.000Z",
-          "wordCount": 738,
-          "title": "A Commitment to Art and Dogs",
-          "imageUrl": "https://samwho.dev/images/dogs.png?h=763937a7e6c6de05e453"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Posts on abhinavsarkar.net",
@@ -149,13 +139,23 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21437",
+          "author": "Daniel Lemire",
+          "description": "Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition",
+          "link": "https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/",
+          "publishedOn": "2024-07-05T19:44:50.000Z",
+          "wordCount": 3429,
+          "title": "Scan HTML faster with SIMD instructions: .NET/C# Edition",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21423",
           "author": "Daniel Lemire",
-          "description": "In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocates?",
+          "description": "In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocate?",
           "link": "https://lemire.me/blog/2024/06/27/how-much-memory-does-a-call-to-malloc-allocates/",
           "publishedOn": "2024-06-27T20:41:51.000Z",
-          "wordCount": 3429,
-          "title": "How much memory does a call to ‘malloc’  allocates?",
+          "wordCount": 3734,
+          "title": "How much memory does a call to ‘malloc’  allocate?",
           "imageUrl": null
         },
         {
@@ -164,7 +164,7 @@
           "description": "Copying data in software is cheap, but it is not at all free. As you start optimizing your code, you might find that copies become a performance bottleneck. Let me be clear that copies really are cheap. It is often more performant to copy that data than to track the same memory across different threads. … Continue reading Performance tip: avoid unnecessary copies",
           "link": "https://lemire.me/blog/2024/06/22/performance-tip-avoid-unnecessary-copies/",
           "publishedOn": "2024-06-22T19:14:18.000Z",
-          "wordCount": 3629,
+          "wordCount": 3653,
           "title": "Performance tip: avoid unnecessary copies",
           "imageUrl": null
         },
@@ -174,7 +174,7 @@
           "description": "We have been working on a fast library to validate and transcode Unicode and other formats such as base64 in C++: simdutf. We wondered: could we achieve the same good results in C#? Microsoft’s .NET framework has made great strides in leveraging advanced instructions. For instance, if your processor supports AVX-512, you can instantiate 512-bit … Continue reading Validating gigabytes of Unicode strings per second… in C#?",
           "link": "https://lemire.me/blog/2024/06/20/validating-gigabytes-of-unicode-strings-per-second-in-c/",
           "publishedOn": "2024-06-20T17:25:02.000Z",
-          "wordCount": 3419,
+          "wordCount": 3422,
           "title": "Validating gigabytes of Unicode strings per second… in C#?",
           "imageUrl": null
         },
@@ -184,7 +184,7 @@
           "description": "If you must multiply matrices, you should use dedicated libraries. However, we sometimes need to roll our own code. In C++, you can quickly write your own Matrix template: template <typename T> struct Matrix { Matrix(size_t rows, size_t cols) : data(new T[rows * cols]), rows(rows), cols(cols) {} T &operator()(size_t i, size_t j) { return data.get()[i … Continue reading Rolling your own fast matrix multiplication: loop order and vectorization",
           "link": "https://lemire.me/blog/2024/06/13/rolling-your-own-fast-matrix-multiplication-loop-order-and-vectorization/",
           "publishedOn": "2024-06-13T21:11:26.000Z",
-          "wordCount": 3565,
+          "wordCount": 3610,
           "title": "Rolling your own fast matrix multiplication: loop order and vectorization",
           "imageUrl": null
         },
@@ -194,7 +194,7 @@
           "description": "Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes at once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition",
           "link": "https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/",
           "publishedOn": "2024-06-08T04:55:42.000Z",
-          "wordCount": 4050,
+          "wordCount": 4229,
           "title": "Scan HTML faster with SIMD instructions: Chrome edition",
           "imageUrl": null
         }

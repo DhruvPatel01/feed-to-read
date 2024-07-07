@@ -1,16 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-30T01:03:23.132Z</id>
+    <id>urn:2024-07-07T01:04:05.128Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-30T01:03:23.132Z</updated>
+    <updated>2024-07-07T01:04:05.128Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[How much memory does a call to ‘malloc’  allocates?]]></title>
+        <title type="html"><![CDATA[Scan HTML faster with SIMD instructions: .NET/C# Edition]]></title>
+        <id>https://lemire.me/blog/?p=21437</id>
+        <link href="https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/"/>
+        <updated>2024-07-05T19:44:50.000Z</updated>
+        <summary type="html"><![CDATA[Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Properly Testing Concurrent Data Structures]]></title>
+        <id>https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html</id>
+        <link href="https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html"/>
+        <updated>2024-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There's a fascinating Rust library, loom, which can be used to
+thoroughly test lock-free data structures. I always wanted to learn how it works. I still do! But
+recently I accidentally implemented a small toy which, I think, contains some of the loom's ideas,
+and it seems worthwhile to write about that. The goal here isn't to teach you what you should be
+using in practice (if you need that, go read loom's docs), but rather to derive a couple of neat
+ideas from first principles.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nim version 2.0.8 released]]></title>
+        <id>https://nim-lang.org//blog/2024/07/03/version-208-released.html</id>
+        <link href="https://nim-lang.org//blog/2024/07/03/version-208-released.html"/>
+        <updated>2024-07-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim team is happy to announce Nim version 2.0.8, our fourth patch release for Nim 2.0.
+Version 2.0.8 is a small release, containing just 20 commits, but it brings important improvements to Nim 2.0.6, released 10 days ago.
+Major improvements in this release:
+Nim’s allocator is now much more stable with --threads:on.
+Better support for gcc14.
+Optimized setLen(0) for uninitialized strings and seqs.
+Optimized move when used with --mm:refc.
+This release comes relatively quickly after our previous release because it was time-critical for our partner Status to receive these improvements as soon as possible.
+It is our way of saying “thank you” for their continued support of Nim.
+Check out if the package manager of your OS already ships version 2.0.8 or
+install it as described here.
+Existing users
+If you have installed a previous version of Nim using choosenim,
+getting Nim 2.0.8 is as easy as:
+$ choosenim 2.0.8
+
+If you are on OSX ARM, choosenim will not work for you.
+Please choose an alternative method of installing or updating.
+Alternatively, you can download Nim 2.0.8 from
+our nightlies builds.
+Donating to Nim
+We would like to encourage you to donate to Nim.
+The donated money will be used to further improve Nim by creating bounties
+for the most important bugfixes and features.
+You can donate via:
+Open Collective
+Bitcoin: 1BXfuKM2uvoD6mbx4g5xM3eQhLzkCK77tJ
+If you are a company, we also offer commercial support.
+Bugfixes
+These reported issues were fixed:
+Fixed “[Semi-regression] C code contains backtick`gensym”
+(#23711)
+Fixed “setLen(0) allocates memory causing performance regression”
+(#23742)
+Fixed “Sigsegv on std/tasks destructor”
+(#23725)
+Fixed “genericAssign does not take care of the importC variables”
+(#9940)
+Fixed “move(table) does not move the table”
+(#23759)
+Fixed “Local variables can be prematurely moved to closure, causing use-after-move”
+(#23748)
+Fixed “tvatiteropenarray test fails with c++”
+(#19977)
+The complete list of changes is available
+here.]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Symbol inspection tools for w64devkit: vc++filt and peports]]></title>
+        <id>https://nullprogram.com/blog/2024/06/30/</id>
+        <link href="https://nullprogram.com/blog/2024/06/30/"/>
+        <updated>2024-06-30T21:30:19.000Z</updated>
+        <summary type="html"><![CDATA[I introduced two new tools to w64devkit, vc++filt and
+peports (pronounced like purports), which aid manual symbol
+inspection and complement one another. As of this writing, the latter is
+not yet in a release, but it’s feature-complete and trivial to build if
+you wanted to try it out early. This article explains the motivation and
+purpose for each.
+vc++filt
+Binutils has c++filt, a tool to demangle C++ symbols. Its primary use
+case is operating on whole files or streams, passing through anything that
+doesn’t look like a mangled C++ symbol, and interpolating human-friendly
+names in place of mangled symbols. In, say, Vim I could run the current
+buffer through it to translate mangled symbols (:%!c++filt).
+Otherwise it’s often composed with other tools in a pipeline.
+For example, suppose I want …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How much memory does a call to ‘malloc’  allocate?]]></title>
         <id>https://lemire.me/blog/?p=21423</id>
         <link href="https://lemire.me/blog/2024/06/27/how-much-memory-does-a-call-to-malloc-allocates/"/>
         <updated>2024-06-27T20:41:51.000Z</updated>
-        <summary type="html"><![CDATA[In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocates?]]></summary>
+        <summary type="html"><![CDATA[In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocate?]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
@@ -265,117 +368,6 @@ If you hav…]]></summary>
         <summary type="html"><![CDATA[Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes at once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Round 2: A Survey of Causal Inference Applications at Netflix]]></title>
-        <id>https://medium.com/p/fd78328ee0bb</id>
-        <link href="https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb?source=rss----2615bd06b42e---4"/>
-        <updated>2024-06-06T20:10:54.000Z</updated>
-        <summary type="html"><![CDATA[At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Regular, Recursive, Restricted]]></title>
-        <id>https://matklad.github.io/2024/06/04/regular-recursive-restricted.html</id>
-        <link href="https://matklad.github.io/2024/06/04/regular-recursive-restricted.html"/>
-        <updated>2024-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A post/question about formal grammars, wherein I search for a good formalism for describing infix
-expressions.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Month with Nim: October 2023 to June 2024 (It is a long month)]]></title>
-        <id>https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html</id>
-        <link href="https://nim-lang.org//blog/2024/06/01/this-month-with-nim.html"/>
-        <updated>2024-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Oolib Upgrade
-Author: Neo
-New super cool features here!
-Multiple constructor
-class Gun:
-  var
-    offence: int
-    capacity = 6
-    price: int
-
-  proc `new`(offence: int) =
-    self.offence = offence
-    self.capacity = 8
-    self.price = 300
-
-  proc `new`(capacity: int) =
-    self.offence = 14
-    self.capacity = capacity
-    self.price = 200
-
-# This `new()` is made from the type definition
-let _ = Gun.new(offence = 5, price = 6)
-
-# 2nd one
-let _ = Gun.new(offence = 12)
-
-# 3rd one
-let _ = Gun.new(capacity = 10)
-
-class Sword:
-  var
-    offence: int
-    price {.initial.} = 100
-
-# made from the type definition
-let _ = Sword.new(8)
-
-{.construct.}
-a type definition with {.construct.} are made into a class. Now that we can define a class without using class!
-type Shield {.construct.} = ref obje…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Commitment to Art and Dogs]]></title>
-        <id>https://samwho.dev/dogs/</id>
-        <link href="https://samwho.dev/dogs/"/>
-        <updated>2024-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[.dog-line {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  width: 100%;
-  height: 10rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.dog-line img {
-  flex-grow: 1;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  object-fit: contain;
-}
-
-.dog-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-Back in Memory Allocation, I introduced Haskie.
-The idea behind Haskie was to create a character that could ask questions the
-reader might have, and to "soften" the posts to make them feel less
-intimidating. I got some feedback from people that Haskie was a bit too
-childish, and didn't feel like he belonged in posts about serious topics.
-This feedback was in the minority, though, and most people liked him. So I…]]></summary>
-        <author>
-            <name>samwho.dev</name>
         </author>
     </entry>
 </feed>
