@@ -22,6 +22,53 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-10 datetime="2024-07-10T20:43:45.000Z">2024-07-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-10 datetime="2024-07-10T20:43:45.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Daniel Lemire&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21457"
+                        open
+                      >
+                        <summary class="article-expander__title">Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/07/10/benchmarking-arm-processors-graviton-4-graviton-3-and-apple-m2/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The world of commodity processor is roughly divided in two: x64 chips for servers and PCs, and ARM processors for mobile devices. However, ARM chips increasingly common on servers and laptop. My own favorite laptop is an Apple macBook with an M2 chip. Amazon has been producing its own ARM processors (Graviton) and it recently … Continue reading Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-05 datetime="2024-07-05T19:44:50.000Z">2024-07-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-05 datetime="2024-07-05T19:44:50.000Z"></time>
           </button>
@@ -50,7 +97,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -634,182 +681,10 @@ If you hav…</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-14 datetime="2024-06-14T00:00:00.000Z">2024-06-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-14 datetime="2024-06-14T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Posts on abhinavsarkar.net</button>
-                  <a class="source-heading__link" href="https://abhinavsarkar.net/feed.atom">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://notes.abhinavsarkar.net/2024/links-06"
-                        open
-                      >
-                        <summary class="article-expander__title">Interesting Links for June 2024</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://notes.abhinavsarkar.net/2024/links-06">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Here are some interesting things I recently read on the internet:
-“As I walk around Philadelphia I often converse with Benjamin Franklin, to see what he thinks about how things have changed since 1790.”
-It’s an Age of Marvels🏛️
-“The difficulty with music is that half of it is arbitrary and half of it is actually based on something, but you can’t tell the difference just by looking at it.”
-Music Theory for Nerds🏛️
-“Defining the original paths for those letters was a very manual process of writing their positions into the code and then nudging the points back and forth until the letters looked right. When it came to coding cursive, I streamlined the process.”
-Coding My Handwriting🏛️
-“Are there deeper, more fundamental aspects of software that can help us think beyond surface-level matters? I’ve come to think that a triad of interacting factors best explains what software is and, by extension, why software is difficult.”
-What Factors Explain the Nature of Software?🏛️
-“Programs that manipulate other programs are powerful, interesting and fun. I’ll take you on a tour of how interpreters and compilers work, and explain a surprising computer science result which allows compilers to be generated automatically.”
-Compilers for Free🏛️
-“References are like jumps, leading wildly from one part of a data structure to another. Their introduction into high-level languages has been a step backward from which we may never recover.”
-References Are like Jumps🏛️
-“Forsp kind of just appeared and then has continued to surprise me. In many ways it feels more fundamental than Lisp or Forth. It appears to be both simpler than Lisp and more powerful than Forth.”
-Forsp: A Forth+Lisp Hybrid Lambda Calculus Language🏛️
-“c4 is clever, tricky, fascinating, cool. It’s a compiler, it’s a VM, it’s an interpreter, it’s a parser, it’s art, it’s trickshot programming.”
-Exploring the c4… Compiler?🏛️
-“Lately I’ve been discovering new features in Python 3.12 around typing and pattern matching. Combined with dataclasses, they provide support for a style of programming that I’ve employed in Kotlin and Typescript.”
-Statically Typed Functional Programming with Python 3.12🏛️
-“Optics represent different relationships between types, such as ‘is a type of’, or ‘contains one or more’, similar to relationships in an old-timey UML class diagram. But unlike relationships in a UML diagram, optics can be used directly in real code.”
-Lessons Learned Building a Van Laarhoven Lens Library🏛️
-“Please don’t do this in production.”
-Ansible Is a Lisp🏛️
-“If Bob’s offering a perfect algorithm off the top of his head, call bullshit (unless he carefully frames it as a hypothesis to test in a simulator, thank you, Bob).”
-When to Write a Simulator🏛️
-“I just don’t think it’s useful, most of the time, to worry about anything beyond: wake me up, or don’t.”
-The Only Two Log Levels You Need Are INFO and ERROR🏛️
-“The internet is awash with tutorials on how to implement dark mode that will get you to a rudimentary implementation. I found that they lacked the refinements necessary to get to a great implementation.”
-Notes on Implementing Dark Mode🏛️
-“Too often have I witnessed the improvising musician sweaty-handedly attempting to pinch-zoom an A4 pdf on a tiny mobile screen at the climax of a gig. We need fluid and responsive music rendering for the web!”
-Printing Music with CSS Grid🏛️
-Like, share, or comment on this post on Mastodon.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-13 datetime="2024-06-13T21:11:26.000Z">2024-06-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-13 datetime="2024-06-13T21:11:26.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21386"
-                        open
-                      >
-                        <summary class="article-expander__title">Rolling your own fast matrix multiplication: loop order and vectorization</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/06/13/rolling-your-own-fast-matrix-multiplication-loop-order-and-vectorization/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>If you must multiply matrices, you should use dedicated libraries. However, we sometimes need to roll our own code. In C++, you can quickly write your own Matrix template: template  struct Matrix { Matrix(size_t rows, size_t cols) : data(new T[rows * cols]), rows(rows), cols(cols) {} T &amp;operator()(size_t i, size_t j) { return data.get()[i … Continue reading Rolling your own fast matrix multiplication: loop order and vectorization</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-08 datetime="2024-06-08T04:55:42.000Z">2024-06-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-08 datetime="2024-06-08T04:55:42.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21382"
-                        open
-                      >
-                        <summary class="article-expander__title">Scan HTML faster with SIMD instructions: Chrome edition</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes at once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9823407773">
-        <time id="build-timestamp" datetime="2024-07-07T01:04:05.110Z">2024-07-07T01:04:05.110Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/9924172022">
+        <time id="build-timestamp" datetime="2024-07-14T01:04:40.235Z">2024-07-14T01:04:40.235Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

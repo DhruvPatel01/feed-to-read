@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-07T01:04:05.128Z</id>
+    <id>urn:2024-07-14T01:04:40.260Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-07T01:04:05.128Z</updated>
+    <updated>2024-07-14T01:04:40.260Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2]]></title>
+        <id>https://lemire.me/blog/?p=21457</id>
+        <link href="https://lemire.me/blog/2024/07/10/benchmarking-arm-processors-graviton-4-graviton-3-and-apple-m2/"/>
+        <updated>2024-07-10T20:43:45.000Z</updated>
+        <summary type="html"><![CDATA[The world of commodity processor is roughly divided in two: x64 chips for servers and PCs, and ARM processors for mobile devices. However, ARM chips increasingly common on servers and laptop. My own favorite laptop is an Apple macBook with an M2 chip. Amazon has been producing its own ARM processors (Graviton) and it recently … Continue reading Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan HTML faster with SIMD instructions: .NET/C# Edition]]></title>
         <id>https://lemire.me/blog/?p=21437</id>
@@ -201,173 +211,6 @@ Existing users
 If you hav…]]></summary>
         <author>
             <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interesting Links for June 2024]]></title>
-        <id>https://notes.abhinavsarkar.net/2024/links-06</id>
-        <link href="https://notes.abhinavsarkar.net/2024/links-06"/>
-        <updated>2024-06-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Here are some interesting things I recently read on the internet:</p>
-
-<figure>
-  <blockquote>
-    <p>“As I walk around Philadelphia I often converse with Benjamin Franklin, to see what he thinks about how things have changed since 1790.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://blog.plover.com/tech/its-an-age-of-marvels.html">It’s an Age of Marvels</a></cite><a href="https://web.archive.org/web/3/https://blog.plover.com/tech/its-an-age-of-marvels.html" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“The difficulty with music is that half of it is arbitrary and half of it is actually based on something, but you can’t tell the difference just by looking at it.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://eev.ee/blog/2016/09/15/music-theory-for-nerds/">Music Theory for Nerds</a></cite><a href="https://web.archive.org/web/3/https://eev.ee/blog/2016/09/15/music-theory-for-nerds/" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Defining the original paths for those letters was a very manual process of writing their positions into the code and then nudging the points back and forth until the letters looked right. When it came to coding cursive, I streamlined the process.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript">Coding My Handwriting</a></cite><a href="https://web.archive.org/web/3/https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Are there deeper, more fundamental aspects of software that can help us think beyond surface-level matters? I’ve come to think that a triad of interacting factors best explains what software is and, by extension, why software is difficult.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://tratt.net/laurie/blog/2024/what_factors_explain_the_nature_of_software.html">What Factors Explain the Nature of Software?</a></cite><a href="https://web.archive.org/web/3/https://tratt.net/laurie/blog/2024/what_factors_explain_the_nature_of_software.html" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Programs that manipulate other programs are powerful, interesting and fun. I’ll take you on a tour of how interpreters and compilers work, and explain a surprising computer science result which allows compilers to be generated automatically.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://tomstu.art/compilers-for-free">Compilers for Free</a></cite><a href="https://web.archive.org/web/3/https://tomstu.art/compilers-for-free" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“References are like jumps, leading wildly from one part of a data structure to another. Their introduction into high-level languages has been a step backward from which we may never recover.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://without.boats/blog/references-are-like-jumps/">References Are like Jumps</a></cite><a href="https://web.archive.org/web/3/https://without.boats/blog/references-are-like-jumps/" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Forsp kind of just appeared and then has continued to surprise me. In many ways it feels more fundamental than Lisp or Forth. It appears to be both simpler than Lisp and more powerful than Forth.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://xorvoid.com/forsp.html">Forsp: A Forth+Lisp Hybrid Lambda Calculus Language</a></cite><a href="https://web.archive.org/web/3/https://xorvoid.com/forsp.html" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“c4 is clever, tricky, fascinating, cool. It’s a compiler, it’s a VM, it’s an interpreter, it’s a parser, it’s art, it’s trickshot programming.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://registerspill.thorstenball.com/p/exploring-the-c4-compiler">Exploring the c4… Compiler?</a></cite><a href="https://web.archive.org/web/3/https://registerspill.thorstenball.com/p/exploring-the-c4-compiler" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Lately I’ve been discovering new features in Python 3.12 around typing and pattern matching. Combined with dataclasses, they provide support for a style of programming that I’ve employed in Kotlin and Typescript.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html">Statically Typed Functional Programming with Python 3.12</a></cite><a href="https://web.archive.org/web/3/https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Optics represent different relationships between types, such as ‘is a type of’, or ‘contains one or more’, similar to relationships in an old-timey UML class diagram. But unlike relationships in a UML diagram, optics can be used directly in real code.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://doscienceto.it/blog/posts/2019-12-19-optics.html">Lessons Learned Building a Van Laarhoven Lens Library</a></cite><a href="https://web.archive.org/web/3/https://doscienceto.it/blog/posts/2019-12-19-optics.html" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Please don’t do this in production.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://astrid.tech/2024/05/01/0/ansible-is-a-lisp/">Ansible Is a Lisp</a></cite><a href="https://web.archive.org/web/3/https://astrid.tech/2024/05/01/0/ansible-is-a-lisp/" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“If Bob’s offering a perfect algorithm off the top of his head, call bullshit (unless he carefully frames it as a hypothesis to test in a simulator, thank you, Bob).”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://sirupsen.com/napkin/problem-16-simulation">When to Write a Simulator</a></cite><a href="https://web.archive.org/web/3/https://sirupsen.com/napkin/problem-16-simulation" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“I just don’t think it’s useful, most of the time, to worry about anything beyond: wake me up, or don’t.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://ntietz.com/blog/the-only-two-log-levels-you-need-are-info-and-error/">The Only Two Log Levels You Need Are INFO and ERROR</a></cite><a href="https://web.archive.org/web/3/https://ntietz.com/blog/the-only-two-log-levels-you-need-are-info-and-error/" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“The internet is awash with tutorials on how to implement dark mode that will get you to a rudimentary implementation. I found that they lacked the refinements necessary to get to a great implementation.”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://brandur.org/fragments/dark-mode-notes">Notes on Implementing Dark Mode</a></cite><a href="https://web.archive.org/web/3/https://brandur.org/fragments/dark-mode-notes" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<figure>
-  <blockquote>
-    <p>“Too often have I witnessed the improvising musician sweaty-handedly attempting to pinch-zoom an A4 pdf on a tiny mobile screen at the climax of a gig. We need fluid and responsive music rendering for the web!”</p>
-  </blockquote>
-  <figcaption>
-    <p><cite><a href="https://cruncher.ch/blog/printing-music-with-css-grid/">Printing Music with CSS Grid</a></cite><a href="https://web.archive.org/web/3/https://cruncher.ch/blog/printing-music-with-css-grid/" title="Archived link">🏛️</a></p>
-  </figcaption>
-</figure>
-
-<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/112615743566573724" class="mastodon-link">Mastodon</a>.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rolling your own fast matrix multiplication: loop order and vectorization]]></title>
-        <id>https://lemire.me/blog/?p=21386</id>
-        <link href="https://lemire.me/blog/2024/06/13/rolling-your-own-fast-matrix-multiplication-loop-order-and-vectorization/"/>
-        <updated>2024-06-13T21:11:26.000Z</updated>
-        <summary type="html"><![CDATA[If you must multiply matrices, you should use dedicated libraries. However, we sometimes need to roll our own code. In C++, you can quickly write your own Matrix template: template <typename T> struct Matrix { Matrix(size_t rows, size_t cols) : data(new T[rows * cols]), rows(rows), cols(cols) {} T &operator()(size_t i, size_t j) { return data.get()[i … Continue reading Rolling your own fast matrix multiplication: loop order and vectorization]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan HTML faster with SIMD instructions: Chrome edition]]></title>
-        <id>https://lemire.me/blog/?p=21382</id>
-        <link href="https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/"/>
-        <updated>2024-06-08T04:55:42.000Z</updated>
-        <summary type="html"><![CDATA[Modern processors have instructions to process several bytes at once. Effectively all processors have the capability of processing 16 bytes at once. These instructions are called SIMD, for single instruction, multiple data. It was once an open question whether these instructions could be useful to accelerate common tasks such as parsing HTML or JSON. However, … Continue reading Scan HTML faster with SIMD instructions: Chrome edition]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
