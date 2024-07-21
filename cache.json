@@ -31,26 +31,6 @@
           "wordCount": 6060,
           "title": "Enhancing Netflix Reliability with Service-Level Prioritized Load Shedding",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*2KByIB47RWng5UNH"
-        },
-        {
-          "id": "https://medium.com/p/6b4d4410b88f",
-          "author": "Netflix Technology Blog",
-          "description": "A summary of sessions at the first Data Engineering Open Forum at Netflix on April 18th, 2024",
-          "link": "https://netflixtechblog.com/a-recap-of-the-data-engineering-open-forum-at-netflix-6b4d4410b88f?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-06-20T15:01:27.000Z",
-          "wordCount": 2539,
-          "title": "A Recap of the Data Engineering Open Forum at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:981/0*k1mwTj0BpJuP0TDi"
-        },
-        {
-          "id": "https://medium.com/p/8ebdda0b2db4",
-          "author": "Netflix Technology Blog",
-          "description": "Harness domain expertise with Video Annotator: streamline ML annotations, cut costs, and deploy faster using a human-in-the-loop system 🚀",
-          "link": "https://netflixtechblog.com/video-annotator-building-video-classifiers-using-vision-language-models-and-active-learning-8ebdda0b2db4?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-06-19T15:29:29.000Z",
-          "wordCount": 3420,
-          "title": "Video annotator: building video classifiers using vision-language models and active learning",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:620/1*hqNZjvWBlREV5GIv4uEmHw.png"
         }
       ]
     },
@@ -67,16 +47,6 @@
           "publishedOn": "2024-07-03T00:00:00.000Z",
           "wordCount": 451,
           "title": "Nim version 2.0.8 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2024/06/17/version-206-released.html",
-          "author": null,
-          "description": "The Nim team is happy to announce Nim version 2.0.6, our third, and the largest by far, patch release for Nim 2.0.\nVersion 2.0.6 contains (exactly!) 200 commits and brings bugfixes and improvements to Nim 2.0.4, released two months ago.\nThe reason for this many commits in this release is that this is planned as the last 2.0.x release before Nim 2.2 and we wanted to give you the best Nim 2.0 experience in case you won’t be able to switch immediately to Nim 2.2.\nNOTE: If your program uses threads (--threads:on became the default in the 2.0.x line) please also use the -d:useMalloc switch.\nThis problem will be fixed in a future release, sorry for the inconvenience.\nCheck out if the package manager of your OS already ships version 2.0.6 or\ninstall it as described here.\nExisting users\nIf you hav…",
-          "link": "https://nim-lang.org//blog/2024/06/17/version-206-released.html",
-          "publishedOn": "2024-06-17T00:00:00.000Z",
-          "wordCount": 1339,
-          "title": "Nim version 2.0.6 released",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
@@ -128,6 +98,16 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21470",
+          "author": "Daniel Lemire",
+          "description": "Earlier this year, both major Web engines (WebKit/Safari and Chromium/Chrome/Edge/Brave) accelerated HTML parsing using SIMD instructions. These ‘SIMD’ instructions are special instructions that are present in all our processors that can process multiple bytes at once (e.g., 16 bytes). The problem that WebKit and Chromium solve is to jump to the next target character as … Continue reading Scan HTML even faster with SIMD instructions (C++ and C#)",
+          "link": "https://lemire.me/blog/2024/07/20/scan-html-even-faster-with-simd-instructions-c-and-c/",
+          "publishedOn": "2024-07-20T21:30:43.000Z",
+          "wordCount": 3649,
+          "title": "Scan HTML even faster with SIMD instructions (C++ and C#)",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21457",
           "author": "Daniel Lemire",
           "description": "The world of commodity processor is roughly divided in two: x64 chips for servers and PCs, and ARM processors for mobile devices. However, ARM chips increasingly common on servers and laptop. My own favorite laptop is an Apple macBook with an M2 chip. Amazon has been producing its own ARM processors (Graviton) and it recently … Continue reading Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2",
@@ -143,7 +123,7 @@
           "description": "Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition",
           "link": "https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/",
           "publishedOn": "2024-07-05T19:44:50.000Z",
-          "wordCount": 3977,
+          "wordCount": 3995,
           "title": "Scan HTML faster with SIMD instructions: .NET/C# Edition",
           "imageUrl": null
         },
@@ -165,16 +145,6 @@
           "publishedOn": "2024-06-22T19:14:18.000Z",
           "wordCount": 3654,
           "title": "Performance tip: avoid unnecessary copies",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21400",
-          "author": "Daniel Lemire",
-          "description": "We have been working on a fast library to validate and transcode Unicode and other formats such as base64 in C++: simdutf. We wondered: could we achieve the same good results in C#? Microsoft’s .NET framework has made great strides in leveraging advanced instructions. For instance, if your processor supports AVX-512, you can instantiate 512-bit … Continue reading Validating gigabytes of Unicode strings per second… in C#?",
-          "link": "https://lemire.me/blog/2024/06/20/validating-gigabytes-of-unicode-strings-per-second-in-c/",
-          "publishedOn": "2024-06-20T17:25:02.000Z",
-          "wordCount": 3423,
-          "title": "Validating gigabytes of Unicode strings per second… in C#?",
           "imageUrl": null
         }
       ]
