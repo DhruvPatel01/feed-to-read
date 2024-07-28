@@ -23,14 +23,14 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
-          "id": "https://medium.com/p/e735e6ce8f7d",
+          "id": "https://medium.com/p/ee13a06f9c78",
           "author": "Netflix Technology Blog",
-          "description": "Applying Quality of Service techniques at the application level",
-          "link": "https://netflixtechblog.com/enhancing-netflix-reliability-with-service-level-prioritized-load-shedding-e735e6ce8f7d?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-06-25T22:58:09.000Z",
-          "wordCount": 6060,
-          "title": "Enhancing Netflix Reliability with Service-Level Prioritized Load Shedding",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*2KByIB47RWng5UNH"
+          "description": "By Jun He, Natallia Dzenisenka, Praneeth Yenugutala, Yingyi Zhang, and Anjali Norwood",
+          "link": "https://netflixtechblog.com/maestro-netflixs-workflow-orchestrator-ee13a06f9c78?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-07-22T17:38:23.000Z",
+          "wordCount": 9086,
+          "title": "Maestro: Netflix’s Workflow Orchestrator",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*d7XTqfPjAkuCBv6C"
         }
       ]
     },
@@ -62,6 +62,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2024/07/25/git-worktrees.html",
+          "author": null,
+          "description": "There are a bunch of posts on the internet about using git worktree command. As far as I can tell,\nmost of them are primarily about using worktrees as a replacement of, or a supplement to git\nbranches. Instead of switching branches, you just change directories. This is also how I originally\nhad used worktrees, but that didn't stick, and I abandoned them. But recently worktrees grew\non me, though my new use-case is unlike branching.",
+          "link": "https://matklad.github.io/2024/07/25/git-worktrees.html",
+          "publishedOn": "2024-07-25T00:00:00.000Z",
+          "wordCount": 1488,
+          "title": "How I Use Git Worktrees",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html",
           "author": null,
@@ -98,12 +108,62 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21523",
+          "author": "Daniel Lemire",
+          "description": "Storage costs are plummeting like a skydiver in freefall—between 10 and 100 times cheaper with each passing decade. Meanwhile, the programmer population is growing at a leisurely pace, like a tortoise in a marathon, increasing by about 50% per decade. And the Linux kernel? It is maybe doubling in size every ten years. The net … Continue reading Storage costs are plummeting",
+          "link": "https://lemire.me/blog/2024/07/27/storage-costs-are-plummeting/",
+          "publishedOn": "2024-07-27T21:35:42.000Z",
+          "wordCount": 2662,
+          "title": "Storage costs are plummeting",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21520",
+          "author": "Daniel Lemire",
+          "description": "Docker is a standard to deploy software on the cloud. Developers start with an existing image and add their own code before deploying their systems. How big are typical uncompressed images? python:alpine (latest, aarch64) 58 MiB chainguard/bun (latest, aarch64) 90 MiB node:alpine (latest, aarch64) 141 MiB golang:alpine (latest, aarch64) 219 MiB Method: docker inspect -f … Continue reading How big are your docker images?",
+          "link": "https://lemire.me/blog/2024/07/27/how-big-are-your-docker-images/",
+          "publishedOn": "2024-07-27T17:31:23.000Z",
+          "wordCount": 2634,
+          "title": "How big are your docker images?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21509",
+          "author": "Daniel Lemire",
+          "description": "We sometimes use binary executable which can span megabytes. I wondered: how much text is contained in these binary files? To find out, I wrote a Python script which adds up the size of all sequences of at least 16 ASCII characters in the file. My heuristic is simple but is not quite perfect: some … Continue reading How much of your binary executable is just ASCII text?",
+          "link": "https://lemire.me/blog/2024/07/27/how-much-of-your-binary-executable-is-just-ascii-text/",
+          "publishedOn": "2024-07-27T00:10:07.000Z",
+          "wordCount": 2851,
+          "title": "How much of your binary executable is just ASCII text?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21500",
+          "author": "Daniel Lemire",
+          "description": "For better performance in software, we avoid unnecessary copies. To do so, we introduce references (or pointers). An example of this ideas in C++ is the std::string_view class. As the name suggests, a std::string_view instance is merely a ‘view’: it points at some string, but it does not own or otherwise manage the underlying memory. … Continue reading Safer code in C++ with lifetime bounds",
+          "link": "https://lemire.me/blog/2024/07/26/safer-code-in-c-with-lifetime-bounds/",
+          "publishedOn": "2024-07-26T15:25:13.000Z",
+          "wordCount": 3120,
+          "title": "Safer code in C++ with lifetime bounds",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21488",
+          "author": "Daniel Lemire",
+          "description": "Recent versions of C++ (C++20) have a new feature: concepts. A concept in C++ is a named set of requirements that a type must satisfy. E.g., ‘act like a string’ or ‘act like a number’. In C++, we have two closely related terms: traits and concepts. For example, std::is_floating_point is a type trait that checks … Continue reading Does C++ allow template specialization by concepts?",
+          "link": "https://lemire.me/blog/2024/07/22/does-c-allow-template-specialization-by-concepts/",
+          "publishedOn": "2024-07-22T15:13:24.000Z",
+          "wordCount": 3191,
+          "title": "Does C++ allow template specialization by concepts?",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21470",
           "author": "Daniel Lemire",
           "description": "Earlier this year, both major Web engines (WebKit/Safari and Chromium/Chrome/Edge/Brave) accelerated HTML parsing using SIMD instructions. These ‘SIMD’ instructions are special instructions that are present in all our processors that can process multiple bytes at once (e.g., 16 bytes). The problem that WebKit and Chromium solve is to jump to the next target character as … Continue reading Scan HTML even faster with SIMD instructions (C++ and C#)",
           "link": "https://lemire.me/blog/2024/07/20/scan-html-even-faster-with-simd-instructions-c-and-c/",
           "publishedOn": "2024-07-20T21:30:43.000Z",
-          "wordCount": 3649,
+          "wordCount": 3832,
           "title": "Scan HTML even faster with SIMD instructions (C++ and C#)",
           "imageUrl": null
         },
@@ -113,7 +173,7 @@
           "description": "The world of commodity processor is roughly divided in two: x64 chips for servers and PCs, and ARM processors for mobile devices. However, ARM chips increasingly common on servers and laptop. My own favorite laptop is an Apple macBook with an M2 chip. Amazon has been producing its own ARM processors (Graviton) and it recently … Continue reading Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2",
           "link": "https://lemire.me/blog/2024/07/10/benchmarking-arm-processors-graviton-4-graviton-3-and-apple-m2/",
           "publishedOn": "2024-07-10T20:43:45.000Z",
-          "wordCount": 3472,
+          "wordCount": 3482,
           "title": "Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2",
           "imageUrl": null
         },
@@ -123,28 +183,8 @@
           "description": "Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition",
           "link": "https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/",
           "publishedOn": "2024-07-05T19:44:50.000Z",
-          "wordCount": 3995,
+          "wordCount": 3994,
           "title": "Scan HTML faster with SIMD instructions: .NET/C# Edition",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21423",
-          "author": "Daniel Lemire",
-          "description": "In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators. In theory, you could allocate just one byte like so: … Continue reading How much memory does a call to ‘malloc’  allocate?",
-          "link": "https://lemire.me/blog/2024/06/27/how-much-memory-does-a-call-to-malloc-allocates/",
-          "publishedOn": "2024-06-27T20:41:51.000Z",
-          "wordCount": 3735,
-          "title": "How much memory does a call to ‘malloc’  allocate?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21410",
-          "author": "Daniel Lemire",
-          "description": "Copying data in software is cheap, but it is not at all free. As you start optimizing your code, you might find that copies become a performance bottleneck. Let me be clear that copies really are cheap. It is often more performant to copy that data than to track the same memory across different threads. … Continue reading Performance tip: avoid unnecessary copies",
-          "link": "https://lemire.me/blog/2024/06/22/performance-tip-avoid-unnecessary-copies/",
-          "publishedOn": "2024-06-22T19:14:18.000Z",
-          "wordCount": 3654,
-          "title": "Performance tip: avoid unnecessary copies",
           "imageUrl": null
         }
       ]
@@ -153,18 +193,7 @@
       "title": "devever.net/~hl",
       "feedUrl": "https://www.devever.net/~hl/index.feed",
       "siteUrl": "https://www.devever.net/~hl/",
-      "articles": [
-        {
-          "id": "https://www.devever.net/~hl/u/202406#23a",
-          "author": null,
-          "description": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><a href=\"https://www.linkedin.com/in/hugo-landau/\">Hire me</a></li></ul><p xmlns=\"http://www.w3.org/1999/xhtml\">Looking for a new role. Expertise in cryptography, security, networking,\nreversing. Dev, ops, security. Amongst other things I've authored a , a\n and . I gave a talk about .\n / .<a href=\"https://github.com/openssl/openssl/pulls?q=author%3Ahlandau\">QUIC\nimplementation</a><a href=\"http://github.com/hlandau/acmetool\">Let's Encrypt client</a><a href=\"/~hl/acme-caa-live\">an\nRFC</a><a href=\"/~hl/ortega-37c3/\">reverse engineering an Ethernet\ncontroller's firmware at 37C3</a><a href=\"https://www.linkedin.com/in/hugo-landau/\">LinkedIn</a><a href=\"/~hl/contact\">contact\ndetails</a></p></div></div>",
-          "link": "https://www.devever.net/~hl/u/202406#23a",
-          "publishedOn": "2024-06-23T09:43:07.000Z",
-          "wordCount": 67,
-          "title": "[Hμblog] Hire me",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "apenwarr",
