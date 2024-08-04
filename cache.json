@@ -6,13 +6,13 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
-          "id": "https://nullprogram.com/blog/2024/06/30/",
+          "id": "https://nullprogram.com/blog/2024/07/31/",
           "author": null,
-          "description": "I introduced two new tools to w64devkit, vc++filt and\npeports (pronounced like purports), which aid manual symbol\ninspection and complement one another. As of this writing, the latter is\nnot yet in a release, but it’s feature-complete and trivial to build if\nyou wanted to try it out early. This article explains the motivation and\npurpose for each.\nvc++filt\nBinutils has c++filt, a tool to demangle C++ symbols. Its primary use\ncase is operating on whole files or streams, passing through anything that\ndoesn’t look like a mangled C++ symbol, and interpolating human-friendly\nnames in place of mangled symbols. In, say, Vim I could run the current\nbuffer through it to translate mangled symbols (:%!c++filt).\nOtherwise it’s often composed with other tools in a pipeline.\nFor example, suppose I want …",
-          "link": "https://nullprogram.com/blog/2024/06/30/",
-          "publishedOn": "2024-06-30T21:30:19.000Z",
-          "wordCount": 1961,
-          "title": "Symbol inspection tools for w64devkit: vc++filt and peports",
+          "description": "I recently came across a take-home C programming test which had more depth\nand complexity than I suspect the interviewer intended. While considering\nit, I also came up with a novel, or at least unconventional, solution. The\nproblem is to deep copy a linked list where each node references a random\nlist element in addition to usual linkage — similar to LeetCode problem\n138. This reference is one of identity rather than value, which has\nmurky consequences.\n\ntypedef struct node node;\nstruct node {\n    node *next;\n    node *ref;   // arbitrary node in the list, or null\n};\n\nnode *deepcopy(node *);\n\n\nIn the copy, nodes have individual lifetimes allocated using malloc\nwhich the caller is responsible for freeing. While thickheaded, this\nis conventional, and I cannot blame the test’s designer for st…",
+          "link": "https://nullprogram.com/blog/2024/07/31/",
+          "publishedOn": "2024-07-31T18:49:57.000Z",
+          "wordCount": 981,
+          "title": "Deep list copy: More than meets the eye",
           "imageUrl": null
         }
       ]
@@ -22,6 +22,16 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/3052540e231d",
+          "author": "Netflix Technology Blog",
+          "description": "Getting real with virtual threads",
+          "link": "https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-07-29T18:04:05.000Z",
+          "wordCount": 5269,
+          "title": "Java 21 Virtual Threads - Dude, Where’s My Lock?",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*6AOJeVdbhmStpb9CRj30nw.png"
+        },
         {
           "id": "https://medium.com/p/ee13a06f9c78",
           "author": "Netflix Technology Blog",
@@ -38,18 +48,7 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2024/07/03/version-208-released.html",
-          "author": null,
-          "description": "The Nim team is happy to announce Nim version 2.0.8, our fourth patch release for Nim 2.0.\nVersion 2.0.8 is a small release, containing just 20 commits, but it brings important improvements to Nim 2.0.6, released 10 days ago.\nMajor improvements in this release:\nNim’s allocator is now much more stable with --threads:on.\nBetter support for gcc14.\nOptimized setLen(0) for uninitialized strings and seqs.\nOptimized move when used with --mm:refc.\nThis release comes relatively quickly after our previous release because it was time-critical for our partner Status to receive these improvements as soon as possible.\nIt is our way of saying “thank you” for their continued support of Nim.\nCheck out if the package manager of your OS already ships version 2.0.8 or\ninstall it as described here.\nExisting users\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.0.8 is as easy as:\n$ choosenim 2.0.8\n\nIf you are on OSX ARM, choosenim will not work for you.\nPlease choose an alternative method of installing or updating.\nAlternatively, you can download Nim 2.0.8 from\nour nightlies builds.\nDonating to Nim\nWe would like to encourage you to donate to Nim.\nThe donated money will be used to further improve Nim by creating bounties\nfor the most important bugfixes and features.\nYou can donate via:\nOpen Collective\nBitcoin: 1BXfuKM2uvoD6mbx4g5xM3eQhLzkCK77tJ\nIf you are a company, we also offer commercial support.\nBugfixes\nThese reported issues were fixed:\nFixed “[Semi-regression] C code contains backtick`gensym”\n(#23711)\nFixed “setLen(0) allocates memory causing performance regression”\n(#23742)\nFixed “Sigsegv on std/tasks destructor”\n(#23725)\nFixed “genericAssign does not take care of the importC variables”\n(#9940)\nFixed “move(table) does not move the table”\n(#23759)\nFixed “Local variables can be prematurely moved to closure, causing use-after-move”\n(#23748)\nFixed “tvatiteropenarray test fails with c++”\n(#19977)\nThe complete list of changes is available\nhere.",
-          "link": "https://nim-lang.org//blog/2024/07/03/version-208-released.html",
-          "publishedOn": "2024-07-03T00:00:00.000Z",
-          "wordCount": 451,
-          "title": "Nim version 2.0.8 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": null,
@@ -63,23 +62,23 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2024/08/01/primitive-recursive-functions.html",
+          "author": null,
+          "description": "Programmers on the internet often use Turing-completeness terminology. Typically, not being\nTuring-complete is extolled as a virtue or even a requirement in specific domains. I claim that most\nsuch discussions are misinformed --- that not being Turing complete doesn't actually mean what folks\nwant it to mean, and is instead a stand-in for a bunch of different practically useful properties,\nwhich are mostly orthogonal to actual Turing completeness.",
+          "link": "https://matklad.github.io/2024/08/01/primitive-recursive-functions.html",
+          "publishedOn": "2024-08-01T00:00:00.000Z",
+          "wordCount": 8297,
+          "title": "Primitive Recursive Functions For A Working Programmer",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2024/07/25/git-worktrees.html",
           "author": null,
-          "description": "There are a bunch of posts on the internet about using git worktree command. As far as I can tell,\nmost of them are primarily about using worktrees as a replacement of, or a supplement to git\nbranches. Instead of switching branches, you just change directories. This is also how I originally\nhad used worktrees, but that didn't stick, and I abandoned them. But recently worktrees grew\non me, though my new use-case is unlike branching.",
+          "description": "There are a bunch of posts on the internet about using git worktree command. As far as I can tell,\n1most of them are primarily about using worktrees as a replacement of, or a supplement to git\nbranches. Instead of switching branches, you just change directories. This is also how I originally\nhad used worktrees, but that didn't stick, and I abandoned them. But recently worktrees grew\non me, though my new use-case is unlike branching.",
           "link": "https://matklad.github.io/2024/07/25/git-worktrees.html",
           "publishedOn": "2024-07-25T00:00:00.000Z",
           "wordCount": 1488,
           "title": "How I Use Git Worktrees",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html",
-          "author": null,
-          "description": "There's a fascinating Rust library, loom, which can be used to\nthoroughly test lock-free data structures. I always wanted to learn how it works. I still do! But\nrecently I accidentally implemented a small toy which, I think, contains some of the loom's ideas,\nand it seems worthwhile to write about that. The goal here isn't to teach you what you should be\nusing in practice (if you need that, go read loom's docs), but rather to derive a couple of neat\nideas from first principles.",
-          "link": "https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html",
-          "publishedOn": "2024-07-05T00:00:00.000Z",
-          "wordCount": 4909,
-          "title": "Properly Testing Concurrent Data Structures",
           "imageUrl": null
         }
       ]
@@ -100,7 +99,18 @@
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://notes.abhinavsarkar.net/2024/links-07",
+          "author": null,
+          "description": "<p>Here are some interesting things I recently read on the internet:</p>\n\n<ul>\n  <li>\n    <p><a href=\"https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements\">The Unexpected Poetry of PhD Acknowledgements</a> <a href=\"https://web.archive.org/web/3/https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements\">🏛️</a> <br />\nI love it when people go out of their usual ways to express their love and gratitude towards others. And I love it even more when someone pays attention to such things and decides to compile then in a beautiful website.</p>\n  </li>\n  <li>\n    <p><a href=\"https://www.amygoodchild.com/blog/generating-the-alphabet\">Generating the Alphabet</a> <a href=\"https://web.archive.org/web/3/https://www.amygoodchild.com/blog/generating-the-alphabet\">🏛️</a> <br />\nI never really thought about programmatically generating fonts, and what all considerations one may need to have for the same. I’m glad that Amy Goodchild did, and explained it so brilliantly.</p>\n  </li>\n  <li>\n    <p><a href=\"https://blog.sbensu.com/posts/demand-for-visual-programming/\">We Need Visual Programming. No, Not like That.</a> <a href=\"https://web.archive.org/web/3/https://blog.sbensu.com/posts/demand-for-visual-programming/\">🏛️</a> <br />\nI often find myself drawing diagrams to explain my programming projects to others. This posts talks about various such diagrams that are actually useful, instead of just cosmetic.</p>\n  </li>\n  <li>\n    <p><a href=\"https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles\">From the Circle to Epicycles — an Animated Introduction to Fourier Series</a> <a href=\"https://web.archive.org/web/3/https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles\">🏛️</a> <br />\nI guess I had a vague idea that trigonometric series were related to circles somehow. This article goes into the details of how the are related exactly, all the way from simple sine and cosine to Fourier series, and with animated diagrams!</p>\n  </li>\n  <li>\n    <p><a href=\"https://rdivyanshu.github.io/posts/2021/06/crux-mathematicorum-ma122-rosette.html\">Solving a Mathematic Problem Using Rosette</a> <a href=\"https://web.archive.org/web/3/https://rdivyanshu.github.io/posts/2021/06/crux-mathematicorum-ma122-rosette.html\">🏛️</a> <br />\nLogic programming always have had a special place in my heart. It is such a pleasant feeling to declaratively define your problem and have the computer figure out how to solve it, and then solve it, like in this article that solves a puzzle.</p>\n  </li>\n  <li>\n    <p><a href=\"https://www.abubalay.com/blog/2021/12/31/lr-control-flow\">From Recursive Descent to LR Parsing</a> <a href=\"https://web.archive.org/web/3/https://www.abubalay.com/blog/2021/12/31/lr-control-flow\">🏛️</a> <br />\nLR parsing has been somewhat of a mystery to me compared to Recursive descent parsing that I find easy to implement. But this article peels the layers of mystery and builds an intuition of LR parsing starting from Recursive descent.</p>\n  </li>\n  <li>\n    <p><a href=\"https://richardstartin.github.io/posts/loop-fission\">Loop Fission</a> <a href=\"https://web.archive.org/web/3/https://richardstartin.github.io/posts/loop-fission\">🏛️</a> <br />\nCompiler optimizations are always an interesting topic to delve in. Loop fission is an interesting but less used optimization, which this article demonstrates.</p>\n  </li>\n  <li>\n    <p><a href=\"https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector\">A Simple Semi-space Collector</a> <a href=\"https://web.archive.org/web/3/https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector\">🏛️</a> <br />\nGarbage collectors can be a complex topic to write about, but this time I bring to you a simple semi-space garbage collector written from scratch, in a quick to read and easy to understand article.</p>\n  </li>\n  <li>\n    <p><a href=\"https://tristancacqueray.github.io/blog/icfpc2024\">ICFP Contest 2024 — Pure Laziness Report</a> <a href=\"https://web.archive.org/web/3/https://tristancacqueray.github.io/blog/icfpc2024\">🏛️</a> <br />\nThis year’s ICFP contest was so much fun. I couldn’t participate in it but I read all the solution reports and this one stands out.</p>\n  </li>\n  <li>\n    <p><a href=\"https://lazamar.github.io/haskell-data-compression-with-huffman-codes/\">Building a Data Compression Utility in Haskell Using Huffman Codes</a> <a href=\"https://web.archive.org/web/3/https://lazamar.github.io/haskell-data-compression-with-huffman-codes/\">🏛️</a> <br />\nI think it is <a href=\"https://abhinavsarkar.net/tags/haskell/\">quite evident</a> that Haskell is my favourite programming language. I specially love how you can get so much done in so few lines of Haskell. This article builds a data compression utility in just 150 lines of Haskell, that is also super easy to understand.</p>\n  </li>\n  <li>\n    <p><a href=\"https://doscienceto.it/blog/posts/2024-01-23-ffi.html\">Haskell FFI</a> <a href=\"https://web.archive.org/web/3/https://doscienceto.it/blog/posts/2024-01-23-ffi.html\">🏛️</a> <br />\nEven though I have never written FFI code in Haskell, I know that FFI is an important part of writing reusable, compatible and performant code. This article goes over some different ways of doing C–Haskell FFI, and notes down the good practices for the same.</p>\n  </li>\n  <li>\n    <p><a href=\"https://dthompson.us/posts/lisp-icing-or-cake.html\">Lisp: Icing or Cake?</a> <a href=\"https://web.archive.org/web/3/https://dthompson.us/posts/lisp-icing-or-cake.html\">🏛️</a> <br />\nThis article presents two patterns of using Lisp languages with languages like C or Rust: icing (embedding Lisp in C/Rust) and cake (FFI from Lisp to C/Rust). Both are tasty in my opinion.</p>\n  </li>\n  <li>\n    <p><a href=\"https://blog.codingconfessions.com/p/why-do-python-lists-multiply-oddly\">Why Do Python Lists Multiply Oddly?</a> <a href=\"https://web.archive.org/web/3/https://blog.codingconfessions.com/p/why-do-python-lists-multiply-oddly\">🏛️</a> <br />\nWell, I actually had a fair idea that lists in Python behave would behave oddly in this case, but this post goes into a lot of detail, all the way to Python’s C source code, to examine why the Python lists work the way to do.</p>\n  </li>\n  <li>\n    <p><a href=\"https://www.scattered-thoughts.net/writing/unexplanations-sql-is-syntactic-sugar-for-relational-algebra/\">Unexplanations: SQL Is Syntactic Sugar for Relational Algebra</a> <a href=\"https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/unexplanations-sql-is-syntactic-sugar-for-relational-algebra/\">🏛️</a> <br />\nSQL is the most popular and the most weird way of doing Relational Algebra. If you don’t believe me, read this post by an expert database creator to go into the details and come out mind-blown.</p>\n  </li>\n  <li>\n    <p><a href=\"https://danilafe.com/blog/blog_microfeatures/\">Microfeatures I Love in Blogs and Personal Websites</a> <a href=\"https://web.archive.org/web/3/https://danilafe.com/blog/blog_microfeatures/\">🏛️</a> <br />\nMy website actually has many of the micro-features that Daniel lists in this article, but it’s great to see them collected, with other example websites. I feel validated and inspired!</p>\n  </li>\n</ul>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/112884254314334265\" class=\"mastodon-link\">Mastodon</a>.</p>",
+          "link": "https://notes.abhinavsarkar.net/2024/links-07",
+          "publishedOn": "2024-07-31T00:00:00.000Z",
+          "wordCount": 991,
+          "title": "Interesting Links for July 2024",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Daniel Lemire's blog",
@@ -108,12 +118,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21539",
+          "author": "Daniel Lemire",
+          "description": "AMD Zen 4 and Zen 5, as well as server-side recent Intel processors, support an advanced set of instructions called AVX-512. They are powerful SIMD (Single Instruction, Multiple Data) instructions. Importantly, they allow ‘masked’ operations. That is, you can compute a mask and only do an operation on bytes indicated by the mask. Thus you … Continue reading Converting ASCII strings to lower case at crazy speeds with AVX-512",
+          "link": "https://lemire.me/blog/2024/08/03/converting-ascii-strings-to-lower-case-at-crazy-speeds-with-avx-512/",
+          "publishedOn": "2024-08-03T23:26:22.000Z",
+          "wordCount": 3928,
+          "title": "Converting ASCII strings to lower case at crazy speeds with AVX-512",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21530",
+          "author": "Daniel Lemire",
+          "description": "People who should know better often underestimate how fast our storage capacity has grown. We have been able to get 1 TB of storage on iPhones for the last three generations. 2010 iPhone 4 32 GB 2012 iPhone 5 64 GB 2014 iPhone 6 128 GB 2016 iPhone 7 256 GB 2018 iPhone XS 512 … Continue reading Evolution of iPhone storage capacity",
+          "link": "https://lemire.me/blog/2024/07/28/evolution-of-iphone-storage-capacity/",
+          "publishedOn": "2024-07-28T15:39:06.000Z",
+          "wordCount": 2651,
+          "title": "Evolution of iPhone storage capacity",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21523",
           "author": "Daniel Lemire",
           "description": "Storage costs are plummeting like a skydiver in freefall—between 10 and 100 times cheaper with each passing decade. Meanwhile, the programmer population is growing at a leisurely pace, like a tortoise in a marathon, increasing by about 50% per decade. And the Linux kernel? It is maybe doubling in size every ten years. The net … Continue reading Storage costs are plummeting",
           "link": "https://lemire.me/blog/2024/07/27/storage-costs-are-plummeting/",
           "publishedOn": "2024-07-27T21:35:42.000Z",
-          "wordCount": 2662,
+          "wordCount": 2668,
           "title": "Storage costs are plummeting",
           "imageUrl": null
         },
@@ -123,7 +153,7 @@
           "description": "Docker is a standard to deploy software on the cloud. Developers start with an existing image and add their own code before deploying their systems. How big are typical uncompressed images? python:alpine (latest, aarch64) 58 MiB chainguard/bun (latest, aarch64) 90 MiB node:alpine (latest, aarch64) 141 MiB golang:alpine (latest, aarch64) 219 MiB Method: docker inspect -f … Continue reading How big are your docker images?",
           "link": "https://lemire.me/blog/2024/07/27/how-big-are-your-docker-images/",
           "publishedOn": "2024-07-27T17:31:23.000Z",
-          "wordCount": 2634,
+          "wordCount": 2764,
           "title": "How big are your docker images?",
           "imageUrl": null
         },
@@ -133,7 +163,7 @@
           "description": "We sometimes use binary executable which can span megabytes. I wondered: how much text is contained in these binary files? To find out, I wrote a Python script which adds up the size of all sequences of at least 16 ASCII characters in the file. My heuristic is simple but is not quite perfect: some … Continue reading How much of your binary executable is just ASCII text?",
           "link": "https://lemire.me/blog/2024/07/27/how-much-of-your-binary-executable-is-just-ascii-text/",
           "publishedOn": "2024-07-27T00:10:07.000Z",
-          "wordCount": 2851,
+          "wordCount": 2834,
           "title": "How much of your binary executable is just ASCII text?",
           "imageUrl": null
         },
@@ -143,7 +173,7 @@
           "description": "For better performance in software, we avoid unnecessary copies. To do so, we introduce references (or pointers). An example of this ideas in C++ is the std::string_view class. As the name suggests, a std::string_view instance is merely a ‘view’: it points at some string, but it does not own or otherwise manage the underlying memory. … Continue reading Safer code in C++ with lifetime bounds",
           "link": "https://lemire.me/blog/2024/07/26/safer-code-in-c-with-lifetime-bounds/",
           "publishedOn": "2024-07-26T15:25:13.000Z",
-          "wordCount": 3120,
+          "wordCount": 3211,
           "title": "Safer code in C++ with lifetime bounds",
           "imageUrl": null
         },
@@ -153,7 +183,7 @@
           "description": "Recent versions of C++ (C++20) have a new feature: concepts. A concept in C++ is a named set of requirements that a type must satisfy. E.g., ‘act like a string’ or ‘act like a number’. In C++, we have two closely related terms: traits and concepts. For example, std::is_floating_point is a type trait that checks … Continue reading Does C++ allow template specialization by concepts?",
           "link": "https://lemire.me/blog/2024/07/22/does-c-allow-template-specialization-by-concepts/",
           "publishedOn": "2024-07-22T15:13:24.000Z",
-          "wordCount": 3191,
+          "wordCount": 3174,
           "title": "Does C++ allow template specialization by concepts?",
           "imageUrl": null
         },
@@ -163,7 +193,7 @@
           "description": "Earlier this year, both major Web engines (WebKit/Safari and Chromium/Chrome/Edge/Brave) accelerated HTML parsing using SIMD instructions. These ‘SIMD’ instructions are special instructions that are present in all our processors that can process multiple bytes at once (e.g., 16 bytes). The problem that WebKit and Chromium solve is to jump to the next target character as … Continue reading Scan HTML even faster with SIMD instructions (C++ and C#)",
           "link": "https://lemire.me/blog/2024/07/20/scan-html-even-faster-with-simd-instructions-c-and-c/",
           "publishedOn": "2024-07-20T21:30:43.000Z",
-          "wordCount": 3832,
+          "wordCount": 3887,
           "title": "Scan HTML even faster with SIMD instructions (C++ and C#)",
           "imageUrl": null
         },
@@ -173,7 +203,7 @@
           "description": "The world of commodity processor is roughly divided in two: x64 chips for servers and PCs, and ARM processors for mobile devices. However, ARM chips increasingly common on servers and laptop. My own favorite laptop is an Apple macBook with an M2 chip. Amazon has been producing its own ARM processors (Graviton) and it recently … Continue reading Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2",
           "link": "https://lemire.me/blog/2024/07/10/benchmarking-arm-processors-graviton-4-graviton-3-and-apple-m2/",
           "publishedOn": "2024-07-10T20:43:45.000Z",
-          "wordCount": 3482,
+          "wordCount": 3465,
           "title": "Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2",
           "imageUrl": null
         },
@@ -183,7 +213,7 @@
           "description": "Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition",
           "link": "https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/",
           "publishedOn": "2024-07-05T19:44:50.000Z",
-          "wordCount": 3994,
+          "wordCount": 3977,
           "title": "Scan HTML faster with SIMD instructions: .NET/C# Edition",
           "imageUrl": null
         }
