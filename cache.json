@@ -23,6 +23,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/422d6218fdf1",
+          "author": "Netflix Technology Blog",
+          "description": "Hechao Li, Roger Cruz",
+          "link": "https://netflixtechblog.com/investigation-of-a-cross-regional-network-performance-issue-422d6218fdf1?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-08-05T22:18:00.000Z",
+          "wordCount": 5317,
+          "title": "Investigation of a Cross-regional Network Performance Issue",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1022/0*RpHklRseVBeBJG6u"
+        },
+        {
           "id": "https://medium.com/p/3052540e231d",
           "author": "Netflix Technology Blog",
           "description": "Getting real with virtual threads",
@@ -67,7 +77,7 @@
           "description": "Programmers on the internet often use Turing-completeness terminology. Typically, not being\nTuring-complete is extolled as a virtue or even a requirement in specific domains. I claim that most\nsuch discussions are misinformed --- that not being Turing complete doesn't actually mean what folks\nwant it to mean, and is instead a stand-in for a bunch of different practically useful properties,\nwhich are mostly orthogonal to actual Turing completeness.",
           "link": "https://matklad.github.io/2024/08/01/primitive-recursive-functions.html",
           "publishedOn": "2024-08-01T00:00:00.000Z",
-          "wordCount": 8297,
+          "wordCount": 8298,
           "title": "Primitive Recursive Functions For A Working Programmer",
           "imageUrl": null
         },
@@ -123,7 +133,7 @@
           "description": "AMD Zen 4 and Zen 5, as well as server-side recent Intel processors, support an advanced set of instructions called AVX-512. They are powerful SIMD (Single Instruction, Multiple Data) instructions. Importantly, they allow ‘masked’ operations. That is, you can compute a mask and only do an operation on bytes indicated by the mask. Thus you … Continue reading Converting ASCII strings to lower case at crazy speeds with AVX-512",
           "link": "https://lemire.me/blog/2024/08/03/converting-ascii-strings-to-lower-case-at-crazy-speeds-with-avx-512/",
           "publishedOn": "2024-08-03T23:26:22.000Z",
-          "wordCount": 3928,
+          "wordCount": 4289,
           "title": "Converting ASCII strings to lower case at crazy speeds with AVX-512",
           "imageUrl": null
         },
@@ -133,7 +143,7 @@
           "description": "People who should know better often underestimate how fast our storage capacity has grown. We have been able to get 1 TB of storage on iPhones for the last three generations. 2010 iPhone 4 32 GB 2012 iPhone 5 64 GB 2014 iPhone 6 128 GB 2016 iPhone 7 256 GB 2018 iPhone XS 512 … Continue reading Evolution of iPhone storage capacity",
           "link": "https://lemire.me/blog/2024/07/28/evolution-of-iphone-storage-capacity/",
           "publishedOn": "2024-07-28T15:39:06.000Z",
-          "wordCount": 2651,
+          "wordCount": 2691,
           "title": "Evolution of iPhone storage capacity",
           "imageUrl": null
         },
@@ -143,7 +153,7 @@
           "description": "Storage costs are plummeting like a skydiver in freefall—between 10 and 100 times cheaper with each passing decade. Meanwhile, the programmer population is growing at a leisurely pace, like a tortoise in a marathon, increasing by about 50% per decade. And the Linux kernel? It is maybe doubling in size every ten years. The net … Continue reading Storage costs are plummeting",
           "link": "https://lemire.me/blog/2024/07/27/storage-costs-are-plummeting/",
           "publishedOn": "2024-07-27T21:35:42.000Z",
-          "wordCount": 2668,
+          "wordCount": 2695,
           "title": "Storage costs are plummeting",
           "imageUrl": null
         },
@@ -153,7 +163,7 @@
           "description": "Docker is a standard to deploy software on the cloud. Developers start with an existing image and add their own code before deploying their systems. How big are typical uncompressed images? python:alpine (latest, aarch64) 58 MiB chainguard/bun (latest, aarch64) 90 MiB node:alpine (latest, aarch64) 141 MiB golang:alpine (latest, aarch64) 219 MiB Method: docker inspect -f … Continue reading How big are your docker images?",
           "link": "https://lemire.me/blog/2024/07/27/how-big-are-your-docker-images/",
           "publishedOn": "2024-07-27T17:31:23.000Z",
-          "wordCount": 2764,
+          "wordCount": 2893,
           "title": "How big are your docker images?",
           "imageUrl": null
         },
@@ -163,7 +173,7 @@
           "description": "We sometimes use binary executable which can span megabytes. I wondered: how much text is contained in these binary files? To find out, I wrote a Python script which adds up the size of all sequences of at least 16 ASCII characters in the file. My heuristic is simple but is not quite perfect: some … Continue reading How much of your binary executable is just ASCII text?",
           "link": "https://lemire.me/blog/2024/07/27/how-much-of-your-binary-executable-is-just-ascii-text/",
           "publishedOn": "2024-07-27T00:10:07.000Z",
-          "wordCount": 2834,
+          "wordCount": 2861,
           "title": "How much of your binary executable is just ASCII text?",
           "imageUrl": null
         },
@@ -173,7 +183,7 @@
           "description": "For better performance in software, we avoid unnecessary copies. To do so, we introduce references (or pointers). An example of this ideas in C++ is the std::string_view class. As the name suggests, a std::string_view instance is merely a ‘view’: it points at some string, but it does not own or otherwise manage the underlying memory. … Continue reading Safer code in C++ with lifetime bounds",
           "link": "https://lemire.me/blog/2024/07/26/safer-code-in-c-with-lifetime-bounds/",
           "publishedOn": "2024-07-26T15:25:13.000Z",
-          "wordCount": 3211,
+          "wordCount": 3238,
           "title": "Safer code in C++ with lifetime bounds",
           "imageUrl": null
         },
@@ -183,7 +193,7 @@
           "description": "Recent versions of C++ (C++20) have a new feature: concepts. A concept in C++ is a named set of requirements that a type must satisfy. E.g., ‘act like a string’ or ‘act like a number’. In C++, we have two closely related terms: traits and concepts. For example, std::is_floating_point is a type trait that checks … Continue reading Does C++ allow template specialization by concepts?",
           "link": "https://lemire.me/blog/2024/07/22/does-c-allow-template-specialization-by-concepts/",
           "publishedOn": "2024-07-22T15:13:24.000Z",
-          "wordCount": 3174,
+          "wordCount": 3201,
           "title": "Does C++ allow template specialization by concepts?",
           "imageUrl": null
         },
@@ -193,28 +203,8 @@
           "description": "Earlier this year, both major Web engines (WebKit/Safari and Chromium/Chrome/Edge/Brave) accelerated HTML parsing using SIMD instructions. These ‘SIMD’ instructions are special instructions that are present in all our processors that can process multiple bytes at once (e.g., 16 bytes). The problem that WebKit and Chromium solve is to jump to the next target character as … Continue reading Scan HTML even faster with SIMD instructions (C++ and C#)",
           "link": "https://lemire.me/blog/2024/07/20/scan-html-even-faster-with-simd-instructions-c-and-c/",
           "publishedOn": "2024-07-20T21:30:43.000Z",
-          "wordCount": 3887,
+          "wordCount": 3914,
           "title": "Scan HTML even faster with SIMD instructions (C++ and C#)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21457",
-          "author": "Daniel Lemire",
-          "description": "The world of commodity processor is roughly divided in two: x64 chips for servers and PCs, and ARM processors for mobile devices. However, ARM chips increasingly common on servers and laptop. My own favorite laptop is an Apple macBook with an M2 chip. Amazon has been producing its own ARM processors (Graviton) and it recently … Continue reading Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2",
-          "link": "https://lemire.me/blog/2024/07/10/benchmarking-arm-processors-graviton-4-graviton-3-and-apple-m2/",
-          "publishedOn": "2024-07-10T20:43:45.000Z",
-          "wordCount": 3465,
-          "title": "Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21437",
-          "author": "Daniel Lemire",
-          "description": "Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition",
-          "link": "https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/",
-          "publishedOn": "2024-07-05T19:44:50.000Z",
-          "wordCount": 3977,
-          "title": "Scan HTML faster with SIMD instructions: .NET/C# Edition",
           "imageUrl": null
         }
       ]

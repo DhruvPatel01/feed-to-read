@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-04T01:05:11.772Z</id>
+    <id>urn:2024-08-11T01:06:15.512Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-04T01:05:11.772Z</updated>
+    <updated>2024-08-11T01:06:15.512Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Investigation of a Cross-regional Network Performance Issue]]></title>
+        <id>https://medium.com/p/422d6218fdf1</id>
+        <link href="https://netflixtechblog.com/investigation-of-a-cross-regional-network-performance-issue-422d6218fdf1?source=rss----2615bd06b42e---4"/>
+        <updated>2024-08-05T22:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Hechao Li, Roger Cruz]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Converting ASCII strings to lower case at crazy speeds with AVX-512]]></title>
         <id>https://lemire.me/blog/?p=21539</id>
@@ -233,26 +243,6 @@ on me, though my new use-case is unlike branching.]]></summary>
         <link href="https://lemire.me/blog/2024/07/20/scan-html-even-faster-with-simd-instructions-c-and-c/"/>
         <updated>2024-07-20T21:30:43.000Z</updated>
         <summary type="html"><![CDATA[Earlier this year, both major Web engines (WebKit/Safari and Chromium/Chrome/Edge/Brave) accelerated HTML parsing using SIMD instructions. These ‘SIMD’ instructions are special instructions that are present in all our processors that can process multiple bytes at once (e.g., 16 bytes). The problem that WebKit and Chromium solve is to jump to the next target character as … Continue reading Scan HTML even faster with SIMD instructions (C++ and C#)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2]]></title>
-        <id>https://lemire.me/blog/?p=21457</id>
-        <link href="https://lemire.me/blog/2024/07/10/benchmarking-arm-processors-graviton-4-graviton-3-and-apple-m2/"/>
-        <updated>2024-07-10T20:43:45.000Z</updated>
-        <summary type="html"><![CDATA[The world of commodity processor is roughly divided in two: x64 chips for servers and PCs, and ARM processors for mobile devices. However, ARM chips increasingly common on servers and laptop. My own favorite laptop is an Apple macBook with an M2 chip. Amazon has been producing its own ARM processors (Graviton) and it recently … Continue reading Benchmarking ARM processors: Graviton 4, Graviton 3 and Apple M2]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan HTML faster with SIMD instructions: .NET/C# Edition]]></title>
-        <id>https://lemire.me/blog/?p=21437</id>
-        <link href="https://lemire.me/blog/2024/07/05/scan-html-faster-with-simd-instructions-net-c-edition/"/>
-        <updated>2024-07-05T19:44:50.000Z</updated>
-        <summary type="html"><![CDATA[Recently, the two major Web engines (WebKit and Chromium) adopted fast SIMD routines to scan HTML content. The key insight is to use vectorized classification (Langdale and Lemire, 2019): you load blocks of characters and identify the characters you seek using a few instructions. In particular, we use ‘SIMD instructions’, special instructions that are available … Continue reading Scan HTML faster with SIMD instructions: .NET/C# Edition]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
