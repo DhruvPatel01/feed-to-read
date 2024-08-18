@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-11T01:06:15.512Z</id>
+    <id>urn:2024-08-18T01:05:07.883Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-11T01:06:15.512Z</updated>
+    <updated>2024-08-18T01:05:07.883Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Faster random integer generation with batching]]></title>
+        <id>https://lemire.me/blog/?p=21566</id>
+        <link href="https://lemire.me/blog/2024/08/17/faster-random-integer-generation-with-batching/"/>
+        <updated>2024-08-17T02:11:30.000Z</updated>
+        <summary type="html"><![CDATA[We often generate random integers. Quite often these numbers must be within an interval: e.g., an integer between 0 and 100. One application is a random shuffle. A standard algorithm for a fair random shuffle is the Knuth algorithm: void shuffle(mytype *storage, uint64_t size) { for (uint64_t i = size; i > 1; i--) { … Continue reading Faster random integer generation with batching]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflection-based JSON in C++ at Gigabytes per Second]]></title>
+        <id>https://lemire.me/blog/?p=21555</id>
+        <link href="https://lemire.me/blog/2024/08/13/reflection-based-json-in-c-at-gigabytes-per-second/"/>
+        <updated>2024-08-13T16:12:46.000Z</updated>
+        <summary type="html"><![CDATA[JSON (JavaScript Object Notation) is a popular format for storing and transmitting data. It uses human-readable text to represent structured data in the form of attribute–value pairs and arrays. E.g., {"age":5, "name":"Daniel", toys:["wooden dog", "little car"]}. Ingesting and producing JSON documents can be a performance bottleneck. Thankfully, a few JSON parsers such as simdjson have … Continue reading Reflection-based JSON in C++ at Gigabytes per Second]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[STD Doesn't Have to Abstract OS IO]]></title>
+        <id>https://matklad.github.io/2024/08/12/std-io.html</id>
+        <link href="https://matklad.github.io/2024/08/12/std-io.html"/>
+        <updated>2024-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A short note on what goes into a language's standard library, and what's left for third party
+libraries to implement!]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Investigation of a Cross-regional Network Performance Issue]]></title>
         <id>https://medium.com/p/422d6218fdf1</id>
