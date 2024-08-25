@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-18T01:05:07.883Z</id>
+    <id>urn:2024-08-25T01:07:12.800Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-18T01:05:07.883Z</updated>
+    <updated>2024-08-25T01:07:12.800Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -230,50 +230,6 @@ My website actually has many of the micro-features that Daniel lists in this art
         <link href="https://lemire.me/blog/2024/07/26/safer-code-in-c-with-lifetime-bounds/"/>
         <updated>2024-07-26T15:25:13.000Z</updated>
         <summary type="html"><![CDATA[For better performance in software, we avoid unnecessary copies. To do so, we introduce references (or pointers). An example of this ideas in C++ is the std::string_view class. As the name suggests, a std::string_view instance is merely a ‘view’: it points at some string, but it does not own or otherwise manage the underlying memory. … Continue reading Safer code in C++ with lifetime bounds]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Use Git Worktrees]]></title>
-        <id>https://matklad.github.io/2024/07/25/git-worktrees.html</id>
-        <link href="https://matklad.github.io/2024/07/25/git-worktrees.html"/>
-        <updated>2024-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There are a bunch of posts on the internet about using git worktree command. As far as I can tell,
-1most of them are primarily about using worktrees as a replacement of, or a supplement to git
-branches. Instead of switching branches, you just change directories. This is also how I originally
-had used worktrees, but that didn't stick, and I abandoned them. But recently worktrees grew
-on me, though my new use-case is unlike branching.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maestro: Netflix’s Workflow Orchestrator]]></title>
-        <id>https://medium.com/p/ee13a06f9c78</id>
-        <link href="https://netflixtechblog.com/maestro-netflixs-workflow-orchestrator-ee13a06f9c78?source=rss----2615bd06b42e---4"/>
-        <updated>2024-07-22T17:38:23.000Z</updated>
-        <summary type="html"><![CDATA[By Jun He, Natallia Dzenisenka, Praneeth Yenugutala, Yingyi Zhang, and Anjali Norwood]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Does C++ allow template specialization by concepts?]]></title>
-        <id>https://lemire.me/blog/?p=21488</id>
-        <link href="https://lemire.me/blog/2024/07/22/does-c-allow-template-specialization-by-concepts/"/>
-        <updated>2024-07-22T15:13:24.000Z</updated>
-        <summary type="html"><![CDATA[Recent versions of C++ (C++20) have a new feature: concepts. A concept in C++ is a named set of requirements that a type must satisfy. E.g., ‘act like a string’ or ‘act like a number’. In C++, we have two closely related terms: traits and concepts. For example, std::is_floating_point is a type trait that checks … Continue reading Does C++ allow template specialization by concepts?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan HTML even faster with SIMD instructions (C++ and C#)]]></title>
-        <id>https://lemire.me/blog/?p=21470</id>
-        <link href="https://lemire.me/blog/2024/07/20/scan-html-even-faster-with-simd-instructions-c-and-c/"/>
-        <updated>2024-07-20T21:30:43.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this year, both major Web engines (WebKit/Safari and Chromium/Chrome/Edge/Brave) accelerated HTML parsing using SIMD instructions. These ‘SIMD’ instructions are special instructions that are present in all our processors that can process multiple bytes at once (e.g., 16 bytes). The problem that WebKit and Chromium solve is to jump to the next target character as … Continue reading Scan HTML even faster with SIMD instructions (C++ and C#)]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
