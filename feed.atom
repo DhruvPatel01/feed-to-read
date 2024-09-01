@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-25T01:07:12.800Z</id>
+    <id>urn:2024-09-01T01:14:19.719Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-25T01:07:12.800Z</updated>
+    <updated>2024-09-01T01:14:19.719Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Recommending for Long-Term Member Satisfaction at Netflix]]></title>
+        <id>https://medium.com/p/ac15cada49ef</id>
+        <link href="https://netflixtechblog.com/recommending-for-long-term-member-satisfaction-at-netflix-ac15cada49ef?source=rss----2615bd06b42e---4"/>
+        <updated>2024-08-29T01:01:40.000Z</updated>
+        <summary type="html"><![CDATA[By Jiangwei Pan, Gary Tang, Henry Wang, and Justin Basilico]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting Started with Nix for Haskell]]></title>
+        <id>https://abhinavsarkar.net/posts/nix-for-haskell/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/nix-for-haskell/?mtm_campaign=feed"/>
+        <updated>2024-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>So, you’ve heard of the new hotness that is <a href="https://nixos.org" target="_blank" rel="noopener">Nix</a>, for creating reproducible and isolated development environments, and want to use it for your new Haskell project? But you are unclear about how to get started? Then this is the guide you are looking for.</p>]]></summary>
+        <author>
+            <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improve Your Next Experiment by Learning Better Proxy Metrics From Past Experiments]]></title>
+        <id>https://medium.com/p/64c786c2a3ac</id>
+        <link href="https://netflixtechblog.com/improve-your-next-experiment-by-learning-better-proxy-metrics-from-past-experiments-64c786c2a3ac?source=rss----2615bd06b42e---4"/>
+        <updated>2024-08-26T15:46:24.000Z</updated>
+        <summary type="html"><![CDATA[By Aurélien Bibaut, Winston Chou, Simon Ejdemyr, and Nathan Kallus]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parsing tiny and very large floating-point values: a programming-language comparison]]></title>
+        <id>https://lemire.me/blog/?p=21582</id>
+        <link href="https://lemire.me/blog/2024/08/26/parsing-tiny-and-very-large-floating-point-values-a-programming-language-comparison/"/>
+        <updated>2024-08-26T15:34:55.000Z</updated>
+        <summary type="html"><![CDATA[Most programming languages support floating-point numbers. You typically have the ability to turn a string into a floating-point number. E.g., “3.1416” could be parsed as a number close to pi. However strings typically cannot be represented exactly or at all. For example, “1e-1000” is too small and “1e1000” is too large for even 64-bit floating-point … Continue reading Parsing tiny and very large floating-point values: a programming-language comparison]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Faster random integer generation with batching]]></title>
         <id>https://lemire.me/blog/?p=21566</id>
@@ -52,184 +92,6 @@ libraries to implement!]]></summary>
         <link href="https://lemire.me/blog/2024/08/03/converting-ascii-strings-to-lower-case-at-crazy-speeds-with-avx-512/"/>
         <updated>2024-08-03T23:26:22.000Z</updated>
         <summary type="html"><![CDATA[AMD Zen 4 and Zen 5, as well as server-side recent Intel processors, support an advanced set of instructions called AVX-512. They are powerful SIMD (Single Instruction, Multiple Data) instructions. Importantly, they allow ‘masked’ operations. That is, you can compute a mask and only do an operation on bytes indicated by the mask. Thus you … Continue reading Converting ASCII strings to lower case at crazy speeds with AVX-512]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Primitive Recursive Functions For A Working Programmer]]></title>
-        <id>https://matklad.github.io/2024/08/01/primitive-recursive-functions.html</id>
-        <link href="https://matklad.github.io/2024/08/01/primitive-recursive-functions.html"/>
-        <updated>2024-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Programmers on the internet often use Turing-completeness terminology. Typically, not being
-Turing-complete is extolled as a virtue or even a requirement in specific domains. I claim that most
-such discussions are misinformed --- that not being Turing complete doesn't actually mean what folks
-want it to mean, and is instead a stand-in for a bunch of different practically useful properties,
-which are mostly orthogonal to actual Turing completeness.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deep list copy: More than meets the eye]]></title>
-        <id>https://nullprogram.com/blog/2024/07/31/</id>
-        <link href="https://nullprogram.com/blog/2024/07/31/"/>
-        <updated>2024-07-31T18:49:57.000Z</updated>
-        <summary type="html"><![CDATA[I recently came across a take-home C programming test which had more depth
-and complexity than I suspect the interviewer intended. While considering
-it, I also came up with a novel, or at least unconventional, solution. The
-problem is to deep copy a linked list where each node references a random
-list element in addition to usual linkage — similar to LeetCode problem
-138. This reference is one of identity rather than value, which has
-murky consequences.
-
-typedef struct node node;
-struct node {
-    node *next;
-    node *ref;   // arbitrary node in the list, or null
-};
-
-node *deepcopy(node *);
-
-
-In the copy, nodes have individual lifetimes allocated using malloc
-which the caller is responsible for freeing. While thickheaded, this
-is conventional, and I cannot blame the test’s designer for st…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interesting Links for July 2024]]></title>
-        <id>https://notes.abhinavsarkar.net/2024/links-07</id>
-        <link href="https://notes.abhinavsarkar.net/2024/links-07"/>
-        <updated>2024-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Here are some interesting things I recently read on the internet:</p>
-
-<ul>
-  <li>
-    <p><a href="https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements">The Unexpected Poetry of PhD Acknowledgements</a> <a href="https://web.archive.org/web/3/https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements">🏛️</a> <br />
-I love it when people go out of their usual ways to express their love and gratitude towards others. And I love it even more when someone pays attention to such things and decides to compile then in a beautiful website.</p>
-  </li>
-  <li>
-    <p><a href="https://www.amygoodchild.com/blog/generating-the-alphabet">Generating the Alphabet</a> <a href="https://web.archive.org/web/3/https://www.amygoodchild.com/blog/generating-the-alphabet">🏛️</a> <br />
-I never really thought about programmatically generating fonts, and what all considerations one may need to have for the same. I’m glad that Amy Goodchild did, and explained it so brilliantly.</p>
-  </li>
-  <li>
-    <p><a href="https://blog.sbensu.com/posts/demand-for-visual-programming/">We Need Visual Programming. No, Not like That.</a> <a href="https://web.archive.org/web/3/https://blog.sbensu.com/posts/demand-for-visual-programming/">🏛️</a> <br />
-I often find myself drawing diagrams to explain my programming projects to others. This posts talks about various such diagrams that are actually useful, instead of just cosmetic.</p>
-  </li>
-  <li>
-    <p><a href="https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles">From the Circle to Epicycles — an Animated Introduction to Fourier Series</a> <a href="https://web.archive.org/web/3/https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles">🏛️</a> <br />
-I guess I had a vague idea that trigonometric series were related to circles somehow. This article goes into the details of how the are related exactly, all the way from simple sine and cosine to Fourier series, and with animated diagrams!</p>
-  </li>
-  <li>
-    <p><a href="https://rdivyanshu.github.io/posts/2021/06/crux-mathematicorum-ma122-rosette.html">Solving a Mathematic Problem Using Rosette</a> <a href="https://web.archive.org/web/3/https://rdivyanshu.github.io/posts/2021/06/crux-mathematicorum-ma122-rosette.html">🏛️</a> <br />
-Logic programming always have had a special place in my heart. It is such a pleasant feeling to declaratively define your problem and have the computer figure out how to solve it, and then solve it, like in this article that solves a puzzle.</p>
-  </li>
-  <li>
-    <p><a href="https://www.abubalay.com/blog/2021/12/31/lr-control-flow">From Recursive Descent to LR Parsing</a> <a href="https://web.archive.org/web/3/https://www.abubalay.com/blog/2021/12/31/lr-control-flow">🏛️</a> <br />
-LR parsing has been somewhat of a mystery to me compared to Recursive descent parsing that I find easy to implement. But this article peels the layers of mystery and builds an intuition of LR parsing starting from Recursive descent.</p>
-  </li>
-  <li>
-    <p><a href="https://richardstartin.github.io/posts/loop-fission">Loop Fission</a> <a href="https://web.archive.org/web/3/https://richardstartin.github.io/posts/loop-fission">🏛️</a> <br />
-Compiler optimizations are always an interesting topic to delve in. Loop fission is an interesting but less used optimization, which this article demonstrates.</p>
-  </li>
-  <li>
-    <p><a href="https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector">A Simple Semi-space Collector</a> <a href="https://web.archive.org/web/3/https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector">🏛️</a> <br />
-Garbage collectors can be a complex topic to write about, but this time I bring to you a simple semi-space garbage collector written from scratch, in a quick to read and easy to understand article.</p>
-  </li>
-  <li>
-    <p><a href="https://tristancacqueray.github.io/blog/icfpc2024">ICFP Contest 2024 — Pure Laziness Report</a> <a href="https://web.archive.org/web/3/https://tristancacqueray.github.io/blog/icfpc2024">🏛️</a> <br />
-This year’s ICFP contest was so much fun. I couldn’t participate in it but I read all the solution reports and this one stands out.</p>
-  </li>
-  <li>
-    <p><a href="https://lazamar.github.io/haskell-data-compression-with-huffman-codes/">Building a Data Compression Utility in Haskell Using Huffman Codes</a> <a href="https://web.archive.org/web/3/https://lazamar.github.io/haskell-data-compression-with-huffman-codes/">🏛️</a> <br />
-I think it is <a href="https://abhinavsarkar.net/tags/haskell/">quite evident</a> that Haskell is my favourite programming language. I specially love how you can get so much done in so few lines of Haskell. This article builds a data compression utility in just 150 lines of Haskell, that is also super easy to understand.</p>
-  </li>
-  <li>
-    <p><a href="https://doscienceto.it/blog/posts/2024-01-23-ffi.html">Haskell FFI</a> <a href="https://web.archive.org/web/3/https://doscienceto.it/blog/posts/2024-01-23-ffi.html">🏛️</a> <br />
-Even though I have never written FFI code in Haskell, I know that FFI is an important part of writing reusable, compatible and performant code. This article goes over some different ways of doing C–Haskell FFI, and notes down the good practices for the same.</p>
-  </li>
-  <li>
-    <p><a href="https://dthompson.us/posts/lisp-icing-or-cake.html">Lisp: Icing or Cake?</a> <a href="https://web.archive.org/web/3/https://dthompson.us/posts/lisp-icing-or-cake.html">🏛️</a> <br />
-This article presents two patterns of using Lisp languages with languages like C or Rust: icing (embedding Lisp in C/Rust) and cake (FFI from Lisp to C/Rust). Both are tasty in my opinion.</p>
-  </li>
-  <li>
-    <p><a href="https://blog.codingconfessions.com/p/why-do-python-lists-multiply-oddly">Why Do Python Lists Multiply Oddly?</a> <a href="https://web.archive.org/web/3/https://blog.codingconfessions.com/p/why-do-python-lists-multiply-oddly">🏛️</a> <br />
-Well, I actually had a fair idea that lists in Python behave would behave oddly in this case, but this post goes into a lot of detail, all the way to Python’s C source code, to examine why the Python lists work the way to do.</p>
-  </li>
-  <li>
-    <p><a href="https://www.scattered-thoughts.net/writing/unexplanations-sql-is-syntactic-sugar-for-relational-algebra/">Unexplanations: SQL Is Syntactic Sugar for Relational Algebra</a> <a href="https://web.archive.org/web/3/https://www.scattered-thoughts.net/writing/unexplanations-sql-is-syntactic-sugar-for-relational-algebra/">🏛️</a> <br />
-SQL is the most popular and the most weird way of doing Relational Algebra. If you don’t believe me, read this post by an expert database creator to go into the details and come out mind-blown.</p>
-  </li>
-  <li>
-    <p><a href="https://danilafe.com/blog/blog_microfeatures/">Microfeatures I Love in Blogs and Personal Websites</a> <a href="https://web.archive.org/web/3/https://danilafe.com/blog/blog_microfeatures/">🏛️</a> <br />
-My website actually has many of the micro-features that Daniel lists in this article, but it’s great to see them collected, with other example websites. I feel validated and inspired!</p>
-  </li>
-</ul>
-
-<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/112884254314334265" class="mastodon-link">Mastodon</a>.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java 21 Virtual Threads - Dude, Where’s My Lock?]]></title>
-        <id>https://medium.com/p/3052540e231d</id>
-        <link href="https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d?source=rss----2615bd06b42e---4"/>
-        <updated>2024-07-29T18:04:05.000Z</updated>
-        <summary type="html"><![CDATA[Getting real with virtual threads]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evolution of iPhone storage capacity]]></title>
-        <id>https://lemire.me/blog/?p=21530</id>
-        <link href="https://lemire.me/blog/2024/07/28/evolution-of-iphone-storage-capacity/"/>
-        <updated>2024-07-28T15:39:06.000Z</updated>
-        <summary type="html"><![CDATA[People who should know better often underestimate how fast our storage capacity has grown. We have been able to get 1 TB of storage on iPhones for the last three generations. 2010 iPhone 4 32 GB 2012 iPhone 5 64 GB 2014 iPhone 6 128 GB 2016 iPhone 7 256 GB 2018 iPhone XS 512 … Continue reading Evolution of iPhone storage capacity]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Storage costs are plummeting]]></title>
-        <id>https://lemire.me/blog/?p=21523</id>
-        <link href="https://lemire.me/blog/2024/07/27/storage-costs-are-plummeting/"/>
-        <updated>2024-07-27T21:35:42.000Z</updated>
-        <summary type="html"><![CDATA[Storage costs are plummeting like a skydiver in freefall—between 10 and 100 times cheaper with each passing decade. Meanwhile, the programmer population is growing at a leisurely pace, like a tortoise in a marathon, increasing by about 50% per decade. And the Linux kernel? It is maybe doubling in size every ten years. The net … Continue reading Storage costs are plummeting]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How big are your docker images?]]></title>
-        <id>https://lemire.me/blog/?p=21520</id>
-        <link href="https://lemire.me/blog/2024/07/27/how-big-are-your-docker-images/"/>
-        <updated>2024-07-27T17:31:23.000Z</updated>
-        <summary type="html"><![CDATA[Docker is a standard to deploy software on the cloud. Developers start with an existing image and add their own code before deploying their systems. How big are typical uncompressed images? python:alpine (latest, aarch64) 58 MiB chainguard/bun (latest, aarch64) 90 MiB node:alpine (latest, aarch64) 141 MiB golang:alpine (latest, aarch64) 219 MiB Method: docker inspect -f … Continue reading How big are your docker images?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How much of your binary executable is just ASCII text?]]></title>
-        <id>https://lemire.me/blog/?p=21509</id>
-        <link href="https://lemire.me/blog/2024/07/27/how-much-of-your-binary-executable-is-just-ascii-text/"/>
-        <updated>2024-07-27T00:10:07.000Z</updated>
-        <summary type="html"><![CDATA[We sometimes use binary executable which can span megabytes. I wondered: how much text is contained in these binary files? To find out, I wrote a Python script which adds up the size of all sequences of at least 16 ASCII characters in the file. My heuristic is simple but is not quite perfect: some … Continue reading How much of your binary executable is just ASCII text?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Safer code in C++ with lifetime bounds]]></title>
-        <id>https://lemire.me/blog/?p=21500</id>
-        <link href="https://lemire.me/blog/2024/07/26/safer-code-in-c-with-lifetime-bounds/"/>
-        <updated>2024-07-26T15:25:13.000Z</updated>
-        <summary type="html"><![CDATA[For better performance in software, we avoid unnecessary copies. To do so, we introduce references (or pointers). An example of this ideas in C++ is the std::string_view class. As the name suggests, a std::string_view instance is merely a ‘view’: it points at some string, but it does not own or otherwise manage the underlying memory. … Continue reading Safer code in C++ with lifetime bounds]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
