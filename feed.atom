@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-01T01:14:19.719Z</id>
+    <id>urn:2024-09-08T01:09:45.418Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-01T01:14:19.719Z</updated>
+    <updated>2024-09-08T01:09:45.418Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Try to Fix It One Level Deeper]]></title>
+        <id>https://matklad.github.io/2024/09/06/fix-one-level-deeper.html</id>
+        <link href="https://matklad.github.io/2024/09/06/fix-one-level-deeper.html"/>
+        <updated>2024-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I had a productive day today! I did many different and unrelated things, but they all had the same
+unifying theme:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Giving C++ std::regex a C makeover]]></title>
+        <id>https://nullprogram.com/blog/2024/09/04/</id>
+        <link href="https://nullprogram.com/blog/2024/09/04/"/>
+        <updated>2024-09-04T17:15:07.000Z</updated>
+        <summary type="html"><![CDATA[Suppose you’re working in C using one of the major toolchains — that is,
+it’s mainly a C++ implementation — and you need regular expressions. You
+could integrate a library, but there’s a regex implementation in the C++
+standard library included with your compiler, just within reach. As a
+resourceful engineer, using an asset already in hand seems prudent. But
+it’s a C++ interface, and you’re using C instead of C++ for a reason,
+perhaps to avoid dealing with C++. Have no worries. This article is
+about wrapping std::regex in a tidy C interface which not only
+hides all the C++ machinery, but utterly tames it. It’s not so much
+practical as a potpourri of interesting techniques.
+If you’d like to skip ahead, here’s the full source up front. Tested with
+w64devkit, MSVC cl, and clang-cl: scratch/re…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Fundamental Law Of Software Dependencies]]></title>
+        <id>https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html</id>
+        <link href="https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html"/>
+        <updated>2024-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Canonical source code for software should include checksums of the content of all its
+dependencies.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compressing floating-point numbers quickly by converting them to brain floats]]></title>
+        <id>https://lemire.me/blog/?p=21588</id>
+        <link href="https://lemire.me/blog/2024/09/02/compressing-floating-point-numbers-quickly-by-converting-them-to-brain-floats/"/>
+        <updated>2024-09-02T22:52:28.000Z</updated>
+        <summary type="html"><![CDATA[We sometimes have to work a large quantity of floating-point numbers. This volume can be detrimental to performance. Thus we often want to compress these numbers. Large-language models routinely do so. A sensible approach is to convert them to brain floating point numbers. These are 16-bit numbers that are often capable of representing accurately a … Continue reading Compressing floating-point numbers quickly by converting them to brain floats]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Recommending for Long-Term Member Satisfaction at Netflix]]></title>
         <id>https://medium.com/p/ac15cada49ef</id>
@@ -74,26 +127,6 @@
 libraries to implement!]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Investigation of a Cross-regional Network Performance Issue]]></title>
-        <id>https://medium.com/p/422d6218fdf1</id>
-        <link href="https://netflixtechblog.com/investigation-of-a-cross-regional-network-performance-issue-422d6218fdf1?source=rss----2615bd06b42e---4"/>
-        <updated>2024-08-05T22:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Hechao Li, Roger Cruz]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Converting ASCII strings to lower case at crazy speeds with AVX-512]]></title>
-        <id>https://lemire.me/blog/?p=21539</id>
-        <link href="https://lemire.me/blog/2024/08/03/converting-ascii-strings-to-lower-case-at-crazy-speeds-with-avx-512/"/>
-        <updated>2024-08-03T23:26:22.000Z</updated>
-        <summary type="html"><![CDATA[AMD Zen 4 and Zen 5, as well as server-side recent Intel processors, support an advanced set of instructions called AVX-512. They are powerful SIMD (Single Instruction, Multiple Data) instructions. Importantly, they allow ‘masked’ operations. That is, you can compute a mask and only do an operation on bytes indicated by the mask. Thus you … Continue reading Converting ASCII strings to lower case at crazy speeds with AVX-512]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

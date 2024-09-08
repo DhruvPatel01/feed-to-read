@@ -4,7 +4,18 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2024/09/04/",
+          "author": null,
+          "description": "Suppose you’re working in C using one of the major toolchains — that is,\nit’s mainly a C++ implementation — and you need regular expressions. You\ncould integrate a library, but there’s a regex implementation in the C++\nstandard library included with your compiler, just within reach. As a\nresourceful engineer, using an asset already in hand seems prudent. But\nit’s a C++ interface, and you’re using C instead of C++ for a reason,\nperhaps to avoid dealing with C++. Have no worries. This article is\nabout wrapping std::regex in a tidy C interface which not only\nhides all the C++ machinery, but utterly tames it. It’s not so much\npractical as a potpourri of interesting techniques.\nIf you’d like to skip ahead, here’s the full source up front. Tested with\nw64devkit, MSVC cl, and clang-cl: scratch/re…",
+          "link": "https://nullprogram.com/blog/2024/09/04/",
+          "publishedOn": "2024-09-04T17:15:07.000Z",
+          "wordCount": 1609,
+          "title": "Giving C++ std::regex a C makeover",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -30,16 +41,6 @@
           "wordCount": 3269,
           "title": "Improve Your Next Experiment by Learning Better Proxy Metrics From Past Experiments",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*m_lKjIe460GlWr5JseoQzw.jpeg"
-        },
-        {
-          "id": "https://medium.com/p/422d6218fdf1",
-          "author": "Netflix Technology Blog",
-          "description": "Hechao Li, Roger Cruz",
-          "link": "https://netflixtechblog.com/investigation-of-a-cross-regional-network-performance-issue-422d6218fdf1?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-08-05T22:18:00.000Z",
-          "wordCount": 5317,
-          "title": "Investigation of a Cross-regional Network Performance Issue",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1022/0*RpHklRseVBeBJG6u"
         }
       ]
     },
@@ -60,6 +61,26 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2024/09/06/fix-one-level-deeper.html",
+          "author": null,
+          "description": "I had a productive day today! I did many different and unrelated things, but they all had the same\nunifying theme:",
+          "link": "https://matklad.github.io/2024/09/06/fix-one-level-deeper.html",
+          "publishedOn": "2024-09-06T00:00:00.000Z",
+          "wordCount": 766,
+          "title": "Try to Fix It One Level Deeper",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html",
+          "author": null,
+          "description": "Canonical source code for software should include checksums of the content of all its\ndependencies.",
+          "link": "https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html",
+          "publishedOn": "2024-09-03T00:00:00.000Z",
+          "wordCount": 642,
+          "title": "The Fundamental Law Of Software Dependencies",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2024/08/12/std-io.html",
           "author": null,
@@ -95,7 +116,7 @@
           "description": "<p>So, you’ve heard of the new hotness that is <a href=\"https://nixos.org\" target=\"_blank\" rel=\"noopener\">Nix</a>, for creating reproducible and isolated development environments, and want to use it for your new Haskell project? But you are unclear about how to get started? Then this is the guide you are looking for.</p>",
           "link": "https://abhinavsarkar.net/posts/nix-for-haskell/?mtm_campaign=feed",
           "publishedOn": "2024-08-29T00:00:00.000Z",
-          "wordCount": 3633,
+          "wordCount": 3816,
           "title": "Getting Started with Nix for Haskell",
           "imageUrl": "https://abhinavsarkar.net/images/nix-for-haskell/preview.png"
         }
@@ -107,12 +128,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21588",
+          "author": "Daniel Lemire",
+          "description": "We sometimes have to work a large quantity of floating-point numbers. This volume can be detrimental to performance. Thus we often want to compress these numbers. Large-language models routinely do so. A sensible approach is to convert them to brain floating point numbers. These are 16-bit numbers that are often capable of representing accurately a … Continue reading Compressing floating-point numbers quickly by converting them to brain floats",
+          "link": "https://lemire.me/blog/2024/09/02/compressing-floating-point-numbers-quickly-by-converting-them-to-brain-floats/",
+          "publishedOn": "2024-09-02T22:52:28.000Z",
+          "wordCount": 3159,
+          "title": "Compressing floating-point numbers quickly by converting them to brain floats",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21582",
           "author": "Daniel Lemire",
           "description": "Most programming languages support floating-point numbers. You typically have the ability to turn a string into a floating-point number. E.g., “3.1416” could be parsed as a number close to pi. However strings typically cannot be represented exactly or at all. For example, “1e-1000” is too small and “1e1000” is too large for even 64-bit floating-point … Continue reading Parsing tiny and very large floating-point values: a programming-language comparison",
           "link": "https://lemire.me/blog/2024/08/26/parsing-tiny-and-very-large-floating-point-values-a-programming-language-comparison/",
           "publishedOn": "2024-08-26T15:34:55.000Z",
-          "wordCount": 3230,
+          "wordCount": 3259,
           "title": "Parsing tiny and very large floating-point values: a programming-language comparison",
           "imageUrl": null
         },
@@ -122,7 +153,7 @@
           "description": "We often generate random integers. Quite often these numbers must be within an interval: e.g., an integer between 0 and 100. One application is a random shuffle. A standard algorithm for a fair random shuffle is the Knuth algorithm: void shuffle(mytype *storage, uint64_t size) { for (uint64_t i = size; i > 1; i--) { … Continue reading Faster random integer generation with batching",
           "link": "https://lemire.me/blog/2024/08/17/faster-random-integer-generation-with-batching/",
           "publishedOn": "2024-08-17T02:11:30.000Z",
-          "wordCount": 5472,
+          "wordCount": 5660,
           "title": "Faster random integer generation with batching",
           "imageUrl": null
         },
@@ -132,18 +163,8 @@
           "description": "JSON (JavaScript Object Notation) is a popular format for storing and transmitting data. It uses human-readable text to represent structured data in the form of attribute–value pairs and arrays. E.g., {\"age\":5, \"name\":\"Daniel\", toys:[\"wooden dog\", \"little car\"]}. Ingesting and producing JSON documents can be a performance bottleneck. Thankfully, a few JSON parsers such as simdjson have … Continue reading Reflection-based JSON in C++ at Gigabytes per Second",
           "link": "https://lemire.me/blog/2024/08/13/reflection-based-json-in-c-at-gigabytes-per-second/",
           "publishedOn": "2024-08-13T16:12:46.000Z",
-          "wordCount": 3923,
+          "wordCount": 3940,
           "title": "Reflection-based JSON in C++ at Gigabytes per Second",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21539",
-          "author": "Daniel Lemire",
-          "description": "AMD Zen 4 and Zen 5, as well as server-side recent Intel processors, support an advanced set of instructions called AVX-512. They are powerful SIMD (Single Instruction, Multiple Data) instructions. Importantly, they allow ‘masked’ operations. That is, you can compute a mask and only do an operation on bytes indicated by the mask. Thus you … Continue reading Converting ASCII strings to lower case at crazy speeds with AVX-512",
-          "link": "https://lemire.me/blog/2024/08/03/converting-ascii-strings-to-lower-case-at-crazy-speeds-with-avx-512/",
-          "publishedOn": "2024-08-03T23:26:22.000Z",
-          "wordCount": 4390,
-          "title": "Converting ASCII strings to lower case at crazy speeds with AVX-512",
           "imageUrl": null
         }
       ]
