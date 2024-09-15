@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-08T01:09:45.418Z</id>
+    <id>urn:2024-09-15T01:12:30.006Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-08T01:09:45.418Z</updated>
+    <updated>2024-09-15T01:12:30.006Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The PhD Paradox: A Journey into Academia’s Upside-Down World]]></title>
+        <id>https://lemire.me/blog/?p=21688</id>
+        <link href="https://lemire.me/blog/2024/09/11/the-phd-paradox-a-journey-into-academias-upside-down-world/"/>
+        <updated>2024-09-11T20:33:28.000Z</updated>
+        <summary type="html"><![CDATA[Imagine a world where becoming a doctor isn’t about years of rigorous study, but about showcasing your life’s work. That’s how doctorates used to roll. You’d write a book, make a groundbreaking discovery, and voila, a doctorate was yours. Fast forward to today, and we’ve flipped the script. Now, a PhD is less about what … Continue reading The PhD Paradox: A Journey into Academia’s Upside-Down World]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pushy to the Limit: Evolving Netflix’s WebSocket proxy for the future]]></title>
+        <id>https://medium.com/p/b468bc0ff658</id>
+        <link href="https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658?source=rss----2615bd06b42e---4"/>
+        <updated>2024-09-10T19:15:34.000Z</updated>
+        <summary type="html"><![CDATA[Pushy is Netflix’s WebSocket server that maintains persistent WebSocket connections with devices running the Netflix application. This…]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Noisy Neighbor Detection with eBPF]]></title>
+        <id>https://medium.com/p/64b1f4b3bbdd</id>
+        <link href="https://netflixtechblog.com/noisy-neighbor-detection-with-ebpf-64b1f4b3bbdd?source=rss----2615bd06b42e---4"/>
+        <updated>2024-09-10T18:00:21.000Z</updated>
+        <summary type="html"><![CDATA[By Jose Fernandez, Sebastien Dabdoub, Jason Koch, Artem Tkachuk]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Replace strings by views when you can]]></title>
+        <id>https://lemire.me/blog/?p=21677</id>
+        <link href="https://lemire.me/blog/2024/09/09/replace-stdstring-by-stdstring_view-when-you-can/"/>
+        <updated>2024-09-09T20:26:36.000Z</updated>
+        <summary type="html"><![CDATA[C++ programmers tend to represent strings using the std::string class. Though the implementation might vary, each instance of an std::string might use 32 bytes. Though it is not a large amount of memory, it can add up. In the Node.js runtime, as part of the build tools, there is a function which precomputes the string … Continue reading Replace strings by views when you can]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Try to Fix It One Level Deeper]]></title>
         <id>https://matklad.github.io/2024/09/06/fix-one-level-deeper.html</id>
@@ -106,27 +146,6 @@ dependencies.]]></summary>
         <summary type="html"><![CDATA[We often generate random integers. Quite often these numbers must be within an interval: e.g., an integer between 0 and 100. One application is a random shuffle. A standard algorithm for a fair random shuffle is the Knuth algorithm: void shuffle(mytype *storage, uint64_t size) { for (uint64_t i = size; i > 1; i--) { … Continue reading Faster random integer generation with batching]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reflection-based JSON in C++ at Gigabytes per Second]]></title>
-        <id>https://lemire.me/blog/?p=21555</id>
-        <link href="https://lemire.me/blog/2024/08/13/reflection-based-json-in-c-at-gigabytes-per-second/"/>
-        <updated>2024-08-13T16:12:46.000Z</updated>
-        <summary type="html"><![CDATA[JSON (JavaScript Object Notation) is a popular format for storing and transmitting data. It uses human-readable text to represent structured data in the form of attribute–value pairs and arrays. E.g., {"age":5, "name":"Daniel", toys:["wooden dog", "little car"]}. Ingesting and producing JSON documents can be a performance bottleneck. Thankfully, a few JSON parsers such as simdjson have … Continue reading Reflection-based JSON in C++ at Gigabytes per Second]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[STD Doesn't Have to Abstract OS IO]]></title>
-        <id>https://matklad.github.io/2024/08/12/std-io.html</id>
-        <link href="https://matklad.github.io/2024/08/12/std-io.html"/>
-        <updated>2024-08-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A short note on what goes into a language's standard library, and what's left for third party
-libraries to implement!]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>

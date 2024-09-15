@@ -23,6 +23,26 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/b468bc0ff658",
+          "author": "Netflix Technology Blog",
+          "description": "Pushy is Netflix’s WebSocket server that maintains persistent WebSocket connections with devices running the Netflix application. This…",
+          "link": "https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-09-10T19:15:34.000Z",
+          "wordCount": 8831,
+          "title": "Pushy to the Limit: Evolving Netflix’s WebSocket proxy for the future",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1048/0*WQ1W30ChfWrEmmR5"
+        },
+        {
+          "id": "https://medium.com/p/64b1f4b3bbdd",
+          "author": "Netflix Technology Blog",
+          "description": "By Jose Fernandez, Sebastien Dabdoub, Jason Koch, Artem Tkachuk",
+          "link": "https://netflixtechblog.com/noisy-neighbor-detection-with-ebpf-64b1f4b3bbdd?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-09-10T18:00:21.000Z",
+          "wordCount": 4389,
+          "title": "Noisy Neighbor Detection with eBPF",
+          "imageUrl": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.48:0.5/1*6bapyclfXZPsUIaXFM-xaQ.png"
+        },
+        {
           "id": "https://medium.com/p/ac15cada49ef",
           "author": "Netflix Technology Blog",
           "description": "By Jiangwei Pan, Gary Tang, Henry Wang, and Justin Basilico",
@@ -80,16 +100,6 @@
           "wordCount": 642,
           "title": "The Fundamental Law Of Software Dependencies",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/08/12/std-io.html",
-          "author": null,
-          "description": "A short note on what goes into a language's standard library, and what's left for third party\nlibraries to implement!",
-          "link": "https://matklad.github.io/2024/08/12/std-io.html",
-          "publishedOn": "2024-08-12T00:00:00.000Z",
-          "wordCount": 815,
-          "title": "STD Doesn't Have to Abstract OS IO",
-          "imageUrl": null
         }
       ]
     },
@@ -116,7 +126,7 @@
           "description": "<p>So, you’ve heard of the new hotness that is <a href=\"https://nixos.org\" target=\"_blank\" rel=\"noopener\">Nix</a>, for creating reproducible and isolated development environments, and want to use it for your new Haskell project? But you are unclear about how to get started? Then this is the guide you are looking for.</p>",
           "link": "https://abhinavsarkar.net/posts/nix-for-haskell/?mtm_campaign=feed",
           "publishedOn": "2024-08-29T00:00:00.000Z",
-          "wordCount": 3816,
+          "wordCount": 3872,
           "title": "Getting Started with Nix for Haskell",
           "imageUrl": "https://abhinavsarkar.net/images/nix-for-haskell/preview.png"
         }
@@ -128,12 +138,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21688",
+          "author": "Daniel Lemire",
+          "description": "Imagine a world where becoming a doctor isn’t about years of rigorous study, but about showcasing your life’s work. That’s how doctorates used to roll. You’d write a book, make a groundbreaking discovery, and voila, a doctorate was yours. Fast forward to today, and we’ve flipped the script. Now, a PhD is less about what … Continue reading The PhD Paradox: A Journey into Academia’s Upside-Down World",
+          "link": "https://lemire.me/blog/2024/09/11/the-phd-paradox-a-journey-into-academias-upside-down-world/",
+          "publishedOn": "2024-09-11T20:33:28.000Z",
+          "wordCount": 3205,
+          "title": "The PhD Paradox: A Journey into Academia’s Upside-Down World",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21677",
+          "author": "Daniel Lemire",
+          "description": "C++ programmers tend to represent strings using the std::string class. Though the implementation might vary, each instance of an std::string might use 32 bytes. Though it is not a large amount of memory, it can add up. In the Node.js runtime, as part of the build tools, there is a function which precomputes the string … Continue reading Replace strings by views when you can",
+          "link": "https://lemire.me/blog/2024/09/09/replace-stdstring-by-stdstring_view-when-you-can/",
+          "publishedOn": "2024-09-09T20:26:36.000Z",
+          "wordCount": 4074,
+          "title": "Replace strings by views when you can",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21588",
           "author": "Daniel Lemire",
           "description": "We sometimes have to work a large quantity of floating-point numbers. This volume can be detrimental to performance. Thus we often want to compress these numbers. Large-language models routinely do so. A sensible approach is to convert them to brain floating point numbers. These are 16-bit numbers that are often capable of representing accurately a … Continue reading Compressing floating-point numbers quickly by converting them to brain floats",
           "link": "https://lemire.me/blog/2024/09/02/compressing-floating-point-numbers-quickly-by-converting-them-to-brain-floats/",
           "publishedOn": "2024-09-02T22:52:28.000Z",
-          "wordCount": 3159,
+          "wordCount": 3383,
           "title": "Compressing floating-point numbers quickly by converting them to brain floats",
           "imageUrl": null
         },
@@ -143,7 +173,7 @@
           "description": "Most programming languages support floating-point numbers. You typically have the ability to turn a string into a floating-point number. E.g., “3.1416” could be parsed as a number close to pi. However strings typically cannot be represented exactly or at all. For example, “1e-1000” is too small and “1e1000” is too large for even 64-bit floating-point … Continue reading Parsing tiny and very large floating-point values: a programming-language comparison",
           "link": "https://lemire.me/blog/2024/08/26/parsing-tiny-and-very-large-floating-point-values-a-programming-language-comparison/",
           "publishedOn": "2024-08-26T15:34:55.000Z",
-          "wordCount": 3259,
+          "wordCount": 3254,
           "title": "Parsing tiny and very large floating-point values: a programming-language comparison",
           "imageUrl": null
         },
@@ -153,27 +183,11 @@
           "description": "We often generate random integers. Quite often these numbers must be within an interval: e.g., an integer between 0 and 100. One application is a random shuffle. A standard algorithm for a fair random shuffle is the Knuth algorithm: void shuffle(mytype *storage, uint64_t size) { for (uint64_t i = size; i > 1; i--) { … Continue reading Faster random integer generation with batching",
           "link": "https://lemire.me/blog/2024/08/17/faster-random-integer-generation-with-batching/",
           "publishedOn": "2024-08-17T02:11:30.000Z",
-          "wordCount": 5660,
+          "wordCount": 5655,
           "title": "Faster random integer generation with batching",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21555",
-          "author": "Daniel Lemire",
-          "description": "JSON (JavaScript Object Notation) is a popular format for storing and transmitting data. It uses human-readable text to represent structured data in the form of attribute–value pairs and arrays. E.g., {\"age\":5, \"name\":\"Daniel\", toys:[\"wooden dog\", \"little car\"]}. Ingesting and producing JSON documents can be a performance bottleneck. Thankfully, a few JSON parsers such as simdjson have … Continue reading Reflection-based JSON in C++ at Gigabytes per Second",
-          "link": "https://lemire.me/blog/2024/08/13/reflection-based-json-in-c-at-gigabytes-per-second/",
-          "publishedOn": "2024-08-13T16:12:46.000Z",
-          "wordCount": 3940,
-          "title": "Reflection-based JSON in C++ at Gigabytes per Second",
           "imageUrl": null
         }
       ]
-    },
-    {
-      "title": "devever.net/~hl",
-      "feedUrl": "https://www.devever.net/~hl/index.feed",
-      "siteUrl": "https://www.devever.net/~hl/",
-      "articles": []
     },
     {
       "title": "apenwarr",
