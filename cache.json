@@ -23,6 +23,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/1ea8a0a11b30",
+          "author": "Netflix Technology Blog",
+          "description": "Vidhya Arvind, Rajasekhar Ummadisetty, Joey Lynch, Vinay Chella",
+          "link": "https://netflixtechblog.com/introducing-netflixs-key-value-data-abstraction-layer-1ea8a0a11b30?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-09-18T22:49:04.000Z",
+          "wordCount": 6628,
+          "title": "Introducing Netflix’s Key-Value Data Abstraction Layer",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:755/0*9Ny8Uc-diSDnVGnk"
+        },
+        {
           "id": "https://medium.com/p/b468bc0ff658",
           "author": "Netflix Technology Blog",
           "description": "Pushy is Netflix’s WebSocket server that maintains persistent WebSocket connections with devices running the Netflix application. This…",
@@ -143,7 +153,7 @@
           "description": "Imagine a world where becoming a doctor isn’t about years of rigorous study, but about showcasing your life’s work. That’s how doctorates used to roll. You’d write a book, make a groundbreaking discovery, and voila, a doctorate was yours. Fast forward to today, and we’ve flipped the script. Now, a PhD is less about what … Continue reading The PhD Paradox: A Journey into Academia’s Upside-Down World",
           "link": "https://lemire.me/blog/2024/09/11/the-phd-paradox-a-journey-into-academias-upside-down-world/",
           "publishedOn": "2024-09-11T20:33:28.000Z",
-          "wordCount": 3205,
+          "wordCount": 3418,
           "title": "The PhD Paradox: A Journey into Academia’s Upside-Down World",
           "imageUrl": null
         },
@@ -153,7 +163,7 @@
           "description": "C++ programmers tend to represent strings using the std::string class. Though the implementation might vary, each instance of an std::string might use 32 bytes. Though it is not a large amount of memory, it can add up. In the Node.js runtime, as part of the build tools, there is a function which precomputes the string … Continue reading Replace strings by views when you can",
           "link": "https://lemire.me/blog/2024/09/09/replace-stdstring-by-stdstring_view-when-you-can/",
           "publishedOn": "2024-09-09T20:26:36.000Z",
-          "wordCount": 4074,
+          "wordCount": 4180,
           "title": "Replace strings by views when you can",
           "imageUrl": null
         },
@@ -163,7 +173,7 @@
           "description": "We sometimes have to work a large quantity of floating-point numbers. This volume can be detrimental to performance. Thus we often want to compress these numbers. Large-language models routinely do so. A sensible approach is to convert them to brain floating point numbers. These are 16-bit numbers that are often capable of representing accurately a … Continue reading Compressing floating-point numbers quickly by converting them to brain floats",
           "link": "https://lemire.me/blog/2024/09/02/compressing-floating-point-numbers-quickly-by-converting-them-to-brain-floats/",
           "publishedOn": "2024-09-02T22:52:28.000Z",
-          "wordCount": 3383,
+          "wordCount": 3391,
           "title": "Compressing floating-point numbers quickly by converting them to brain floats",
           "imageUrl": null
         },
@@ -173,21 +183,17 @@
           "description": "Most programming languages support floating-point numbers. You typically have the ability to turn a string into a floating-point number. E.g., “3.1416” could be parsed as a number close to pi. However strings typically cannot be represented exactly or at all. For example, “1e-1000” is too small and “1e1000” is too large for even 64-bit floating-point … Continue reading Parsing tiny and very large floating-point values: a programming-language comparison",
           "link": "https://lemire.me/blog/2024/08/26/parsing-tiny-and-very-large-floating-point-values-a-programming-language-comparison/",
           "publishedOn": "2024-08-26T15:34:55.000Z",
-          "wordCount": 3254,
+          "wordCount": 3262,
           "title": "Parsing tiny and very large floating-point values: a programming-language comparison",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21566",
-          "author": "Daniel Lemire",
-          "description": "We often generate random integers. Quite often these numbers must be within an interval: e.g., an integer between 0 and 100. One application is a random shuffle. A standard algorithm for a fair random shuffle is the Knuth algorithm: void shuffle(mytype *storage, uint64_t size) { for (uint64_t i = size; i > 1; i--) { … Continue reading Faster random integer generation with batching",
-          "link": "https://lemire.me/blog/2024/08/17/faster-random-integer-generation-with-batching/",
-          "publishedOn": "2024-08-17T02:11:30.000Z",
-          "wordCount": 5655,
-          "title": "Faster random integer generation with batching",
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "devever.net/~hl",
+      "feedUrl": "https://www.devever.net/~hl/index.feed",
+      "siteUrl": "https://www.devever.net/~hl/",
+      "articles": []
     },
     {
       "title": "apenwarr",

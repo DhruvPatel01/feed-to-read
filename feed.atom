@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-15T01:12:30.006Z</id>
+    <id>urn:2024-09-22T01:12:41.623Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-15T01:12:30.006Z</updated>
+    <updated>2024-09-22T01:12:41.623Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing Netflix’s Key-Value Data Abstraction Layer]]></title>
+        <id>https://medium.com/p/1ea8a0a11b30</id>
+        <link href="https://netflixtechblog.com/introducing-netflixs-key-value-data-abstraction-layer-1ea8a0a11b30?source=rss----2615bd06b42e---4"/>
+        <updated>2024-09-18T22:49:04.000Z</updated>
+        <summary type="html"><![CDATA[Vidhya Arvind, Rajasekhar Ummadisetty, Joey Lynch, Vinay Chella]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The PhD Paradox: A Journey into Academia’s Upside-Down World]]></title>
         <id>https://lemire.me/blog/?p=21688</id>
@@ -134,16 +144,6 @@ dependencies.]]></summary>
         <link href="https://lemire.me/blog/2024/08/26/parsing-tiny-and-very-large-floating-point-values-a-programming-language-comparison/"/>
         <updated>2024-08-26T15:34:55.000Z</updated>
         <summary type="html"><![CDATA[Most programming languages support floating-point numbers. You typically have the ability to turn a string into a floating-point number. E.g., “3.1416” could be parsed as a number close to pi. However strings typically cannot be represented exactly or at all. For example, “1e-1000” is too small and “1e1000” is too large for even 64-bit floating-point … Continue reading Parsing tiny and very large floating-point values: a programming-language comparison]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Faster random integer generation with batching]]></title>
-        <id>https://lemire.me/blog/?p=21566</id>
-        <link href="https://lemire.me/blog/2024/08/17/faster-random-integer-generation-with-batching/"/>
-        <updated>2024-08-17T02:11:30.000Z</updated>
-        <summary type="html"><![CDATA[We often generate random integers. Quite often these numbers must be within an interval: e.g., an integer between 0 and 100. One application is a random shuffle. A standard algorithm for a fair random shuffle is the Knuth algorithm: void shuffle(mytype *storage, uint64_t size) { for (uint64_t i = size; i > 1; i--) { … Continue reading Faster random integer generation with batching]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
