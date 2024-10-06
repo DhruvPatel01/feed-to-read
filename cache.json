@@ -6,13 +6,13 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
-          "id": "https://nullprogram.com/blog/2024/09/04/",
+          "id": "https://nullprogram.com/blog/2024/10/03/",
           "author": null,
-          "description": "Suppose you’re working in C using one of the major toolchains — that is,\nit’s mainly a C++ implementation — and you need regular expressions. You\ncould integrate a library, but there’s a regex implementation in the C++\nstandard library included with your compiler, just within reach. As a\nresourceful engineer, using an asset already in hand seems prudent. But\nit’s a C++ interface, and you’re using C instead of C++ for a reason,\nperhaps to avoid dealing with C++. Have no worries. This article is\nabout wrapping std::regex in a tidy C interface which not only\nhides all the C++ machinery, but utterly tames it. It’s not so much\npractical as a potpourri of interesting techniques.\nIf you’d like to skip ahead, here’s the full source up front. Tested with\nw64devkit, MSVC cl, and clang-cl: scratch/re…",
-          "link": "https://nullprogram.com/blog/2024/09/04/",
-          "publishedOn": "2024-09-04T17:15:07.000Z",
-          "wordCount": 1609,
-          "title": "Giving C++ std::regex a C makeover",
+          "description": "I’m 18 years late, but Slim Reader/Writer Locks have a fantastic\ninterface: pointer-sized (“slim”), zero-initialized, and non-allocating.\nLacking cleanup, they compose naturally with arena allocation.\nSounds like a futex? That’s because they’re built on futexes introduced at\nthe same time. They’re also complemented by condition variables\nwith the same desirable properties. My only quibble is that slim locks\ncould easily have been 32-bit objects, but it hardly matters. This\narticle, while treating Win32 as a foreign interface, discusses a\npaper-thin C++ wrapper interface around lock and condition variables, in\nmy own style.\nIf you’d like to see/try a complete, working demonstration before diving\ninto the details: demo.cpp. We’re going to build this from the\nground up, so let’s establish a f…",
+          "link": "https://nullprogram.com/blog/2024/10/03/",
+          "publishedOn": "2024-10-03T22:40:13.000Z",
+          "wordCount": 728,
+          "title": "Slim Reader/Writer Locks are neato",
           "imageUrl": null
         }
       ]
@@ -58,7 +58,18 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2024/10/02/nim-220-2010.html",
+          "author": null,
+          "description": "The Nim Team is happy to announce two releases:\nversion 2.2.0, our new stable release\nversion 2.0.10, a patch release for Nim 2.0\nNim v2.2.0 is a continuation of our efforts to improve Nim 2: it contains almost 1000 new commits, bringing improvements to the ORC memory management and to the language and the compiler overall.\nNim v2.0.10 is a patch release aimed at our enterprise users who cannot immediately switch to Nim 2.2, containing 80 commits with bugfixes.\nNim 2.2.0\nRelease highlights\nMany long-standing compiler bugs with generics, typedesc and static types have been fixed in this release, effectively making these features stable.\nIn particular, arbitrary expressions for types and values in generic types are now largely functional when they only worked in specific cases before.\nThe re…",
+          "link": "https://nim-lang.org//blog/2024/10/02/nim-220-2010.html",
+          "publishedOn": "2024-10-02T00:00:00.000Z",
+          "wordCount": 3859,
+          "title": "Nim versions 2.2.0 and 2.0.10 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        }
+      ]
     },
     {
       "title": null,
@@ -71,6 +82,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html",
+          "author": null,
+          "description": "Why are there so many programming languages? One of the driving reasons for this is that some\nlanguages tend to produce fast code, but are a bit of a pain to use (C++), while others are a breeze\nto write, but run somewhat slow (Python). Depending on the ratio of CPUs to programmers, one or the\nother might be relatively more important.",
+          "link": "https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html",
+          "publishedOn": "2024-10-06T00:00:00.000Z",
+          "wordCount": 896,
+          "title": "On Ousterhout's Dichotomy",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2024/09/24/watermelon-operator.html",
           "author": null,
@@ -89,26 +110,6 @@
           "publishedOn": "2024-09-23T00:00:00.000Z",
           "wordCount": 418,
           "title": "What is io_uring?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/09/06/fix-one-level-deeper.html",
-          "author": null,
-          "description": "I had a productive day today! I did many different and unrelated things, but they all had the same\nunifying theme:",
-          "link": "https://matklad.github.io/2024/09/06/fix-one-level-deeper.html",
-          "publishedOn": "2024-09-06T00:00:00.000Z",
-          "wordCount": 766,
-          "title": "Try to Fix It One Level Deeper",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html",
-          "author": null,
-          "description": "Canonical source code for software should include checksums of the content of all its\ndependencies.",
-          "link": "https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html",
-          "publishedOn": "2024-09-03T00:00:00.000Z",
-          "wordCount": 642,
-          "title": "The Fundamental Law Of Software Dependencies",
           "imageUrl": null
         }
       ]
@@ -142,7 +143,7 @@
           "description": "Recently, I received an email from an engineer at a prominent company who shared how he managed to save his employer tens of thousands of dollars annually by developing a custom command-line utility in C++. Without delving into specifics (which remain confidential), the company’s servers were tasked with querying a JSON file for a specific … Continue reading It is never too late to write your own C/C++ command-line utilities",
           "link": "https://lemire.me/blog/2024/09/28/it-is-never-too-later-to-write-your-own-c-c-command-line-utilities/",
           "publishedOn": "2024-09-28T04:06:18.000Z",
-          "wordCount": 3065,
+          "wordCount": 3872,
           "title": "It is never too late to write your own C/C++ command-line utilities",
           "imageUrl": null
         },
@@ -152,7 +153,7 @@
           "description": "Imagine a world where becoming a doctor isn’t about years of rigorous study, but about showcasing your life’s work. That’s how doctorates used to roll. You’d write a book, make a groundbreaking discovery, and voila, a doctorate was yours. Fast forward to today, and we’ve flipped the script. Now, a PhD is less about what … Continue reading The PhD Paradox: A Journey into Academia’s Upside-Down World",
           "link": "https://lemire.me/blog/2024/09/11/the-phd-paradox-a-journey-into-academias-upside-down-world/",
           "publishedOn": "2024-09-11T20:33:28.000Z",
-          "wordCount": 3438,
+          "wordCount": 3428,
           "title": "The PhD Paradox: A Journey into Academia’s Upside-Down World",
           "imageUrl": null
         },
@@ -162,18 +163,8 @@
           "description": "C++ programmers tend to represent strings using the std::string class. Though the implementation might vary, each instance of an std::string might use 32 bytes. Though it is not a large amount of memory, it can add up. In the Node.js runtime, as part of the build tools, there is a function which precomputes the string … Continue reading Replace strings by views when you can",
           "link": "https://lemire.me/blog/2024/09/09/replace-stdstring-by-stdstring_view-when-you-can/",
           "publishedOn": "2024-09-09T20:26:36.000Z",
-          "wordCount": 4186,
+          "wordCount": 4176,
           "title": "Replace strings by views when you can",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21588",
-          "author": "Daniel Lemire",
-          "description": "We sometimes have to work a large quantity of floating-point numbers. This volume can be detrimental to performance. Thus we often want to compress these numbers. Large-language models routinely do so. A sensible approach is to convert them to brain floating point numbers. These are 16-bit numbers that are often capable of representing accurately a … Continue reading Compressing floating-point numbers quickly by converting them to brain floats",
-          "link": "https://lemire.me/blog/2024/09/02/compressing-floating-point-numbers-quickly-by-converting-them-to-brain-floats/",
-          "publishedOn": "2024-09-02T22:52:28.000Z",
-          "wordCount": 3397,
-          "title": "Compressing floating-point numbers quickly by converting them to brain floats",
           "imageUrl": null
         }
       ]

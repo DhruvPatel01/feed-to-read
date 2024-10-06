@@ -1,10 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-29T01:13:31.746Z</id>
+    <id>urn:2024-10-06T01:13:05.738Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-29T01:13:31.746Z</updated>
+    <updated>2024-10-06T01:13:05.738Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[On Ousterhout's Dichotomy]]></title>
+        <id>https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html</id>
+        <link href="https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html"/>
+        <updated>2024-10-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Why are there so many programming languages? One of the driving reasons for this is that some
+languages tend to produce fast code, but are a bit of a pain to use (C++), while others are a breeze
+to write, but run somewhat slow (Python). Depending on the ratio of CPUs to programmers, one or the
+other might be relatively more important.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slim Reader/Writer Locks are neato]]></title>
+        <id>https://nullprogram.com/blog/2024/10/03/</id>
+        <link href="https://nullprogram.com/blog/2024/10/03/"/>
+        <updated>2024-10-03T22:40:13.000Z</updated>
+        <summary type="html"><![CDATA[I’m 18 years late, but Slim Reader/Writer Locks have a fantastic
+interface: pointer-sized (“slim”), zero-initialized, and non-allocating.
+Lacking cleanup, they compose naturally with arena allocation.
+Sounds like a futex? That’s because they’re built on futexes introduced at
+the same time. They’re also complemented by condition variables
+with the same desirable properties. My only quibble is that slim locks
+could easily have been 32-bit objects, but it hardly matters. This
+article, while treating Win32 as a foreign interface, discusses a
+paper-thin C++ wrapper interface around lock and condition variables, in
+my own style.
+If you’d like to see/try a complete, working demonstration before diving
+into the details: demo.cpp. We’re going to build this from the
+ground up, so let’s establish a f…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nim versions 2.2.0 and 2.0.10 released]]></title>
+        <id>https://nim-lang.org//blog/2024/10/02/nim-220-2010.html</id>
+        <link href="https://nim-lang.org//blog/2024/10/02/nim-220-2010.html"/>
+        <updated>2024-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim Team is happy to announce two releases:
+version 2.2.0, our new stable release
+version 2.0.10, a patch release for Nim 2.0
+Nim v2.2.0 is a continuation of our efforts to improve Nim 2: it contains almost 1000 new commits, bringing improvements to the ORC memory management and to the language and the compiler overall.
+Nim v2.0.10 is a patch release aimed at our enterprise users who cannot immediately switch to Nim 2.2, containing 80 commits with bugfixes.
+Nim 2.2.0
+Release highlights
+Many long-standing compiler bugs with generics, typedesc and static types have been fixed in this release, effectively making these features stable.
+In particular, arbitrary expressions for types and values in generic types are now largely functional when they only worked in specific cases before.
+The re…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[It is never too late to write your own C/C++ command-line utilities]]></title>
         <id>https://lemire.me/blog/?p=21694</id>
@@ -89,59 +143,6 @@ language-agnostic patterns, rather than in Rust's specific implementation of asy
         <link href="https://lemire.me/blog/2024/09/09/replace-stdstring-by-stdstring_view-when-you-can/"/>
         <updated>2024-09-09T20:26:36.000Z</updated>
         <summary type="html"><![CDATA[C++ programmers tend to represent strings using the std::string class. Though the implementation might vary, each instance of an std::string might use 32 bytes. Though it is not a large amount of memory, it can add up. In the Node.js runtime, as part of the build tools, there is a function which precomputes the string … Continue reading Replace strings by views when you can]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Try to Fix It One Level Deeper]]></title>
-        <id>https://matklad.github.io/2024/09/06/fix-one-level-deeper.html</id>
-        <link href="https://matklad.github.io/2024/09/06/fix-one-level-deeper.html"/>
-        <updated>2024-09-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I had a productive day today! I did many different and unrelated things, but they all had the same
-unifying theme:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Giving C++ std::regex a C makeover]]></title>
-        <id>https://nullprogram.com/blog/2024/09/04/</id>
-        <link href="https://nullprogram.com/blog/2024/09/04/"/>
-        <updated>2024-09-04T17:15:07.000Z</updated>
-        <summary type="html"><![CDATA[Suppose you’re working in C using one of the major toolchains — that is,
-it’s mainly a C++ implementation — and you need regular expressions. You
-could integrate a library, but there’s a regex implementation in the C++
-standard library included with your compiler, just within reach. As a
-resourceful engineer, using an asset already in hand seems prudent. But
-it’s a C++ interface, and you’re using C instead of C++ for a reason,
-perhaps to avoid dealing with C++. Have no worries. This article is
-about wrapping std::regex in a tidy C interface which not only
-hides all the C++ machinery, but utterly tames it. It’s not so much
-practical as a potpourri of interesting techniques.
-If you’d like to skip ahead, here’s the full source up front. Tested with
-w64devkit, MSVC cl, and clang-cl: scratch/re…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Fundamental Law Of Software Dependencies]]></title>
-        <id>https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html</id>
-        <link href="https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html"/>
-        <updated>2024-09-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Canonical source code for software should include checksums of the content of all its
-dependencies.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compressing floating-point numbers quickly by converting them to brain floats]]></title>
-        <id>https://lemire.me/blog/?p=21588</id>
-        <link href="https://lemire.me/blog/2024/09/02/compressing-floating-point-numbers-quickly-by-converting-them-to-brain-floats/"/>
-        <updated>2024-09-02T22:52:28.000Z</updated>
-        <summary type="html"><![CDATA[We sometimes have to work a large quantity of floating-point numbers. This volume can be detrimental to performance. Thus we often want to compress these numbers. Large-language models routinely do so. A sensible approach is to convert them to brain floating point numbers. These are 16-bit numbers that are often capable of representing accurately a … Continue reading Compressing floating-point numbers quickly by converting them to brain floats]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
