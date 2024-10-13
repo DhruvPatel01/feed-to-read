@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2024/10/07/",
+          "author": null,
+          "description": "Windows paths have been WTF-16-encoded for decades, but module names\nin the import tables of Portable Executable are octets.\nIf a name contains values beyond ASCII — technically out of spec — then\nthe dynamic linker must somehow decode those octets into Unicode in order\nto construct a lookup path. There are multiple ways this could be done,\nand the most obvious is the process’s active code page (ACP), which is\nexactly what happens. As a consequence, the specific DLL loaded by the\nlinker may depend on the system code page. In this article I’ll contrive\nsuch a situation.\nLoadLibraryA is a similar situation, and potentially applies the code\npage to a longer portion of the module path. LoadLibraryW is\nunaffected, at least for the directly-named module, because it’s Unicode\nall the way through.…",
+          "link": "https://nullprogram.com/blog/2024/10/07/",
+          "publishedOn": "2024-10-07T19:50:17.000Z",
+          "wordCount": 786,
+          "title": "Windows dynamic linking depends on the active code page",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2024/10/03/",
           "author": null,
           "description": "I’m 18 years late, but Slim Reader/Writer Locks have a fantastic\ninterface: pointer-sized (“slim”), zero-initialized, and non-allocating.\nLacking cleanup, they compose naturally with arena allocation.\nSounds like a futex? That’s because they’re built on futexes introduced at\nthe same time. They’re also complemented by condition variables\nwith the same desirable properties. My only quibble is that slim locks\ncould easily have been 32-bit objects, but it hardly matters. This\narticle, while treating Win32 as a foreign interface, discusses a\npaper-thin C++ wrapper interface around lock and condition variables, in\nmy own style.\nIf you’d like to see/try a complete, working demonstration before diving\ninto the details: demo.cpp. We’re going to build this from the\nground up, so let’s establish a f…",
           "link": "https://nullprogram.com/blog/2024/10/03/",
           "publishedOn": "2024-10-03T22:40:13.000Z",
-          "wordCount": 728,
+          "wordCount": 738,
           "title": "Slim Reader/Writer Locks are neato",
           "imageUrl": null
         }
@@ -23,6 +33,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/31552f6326f8",
+          "author": "Netflix Technology Blog",
+          "description": "By Rajiv Shringi, Vinay Chella, Kaidan Fullerton, Oleksii Tkachuk, Joey Lynch",
+          "link": "https://netflixtechblog.com/introducing-netflix-timeseries-data-abstraction-layer-31552f6326f8?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-10-08T17:05:36.000Z",
+          "wordCount": 8992,
+          "title": "Introducing Netflix’s TimeSeries Data Abstraction Layer",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*jl30Jl559Fnd29in"
+        },
+        {
           "id": "https://medium.com/p/1ea8a0a11b30",
           "author": "Netflix Technology Blog",
           "description": "Vidhya Arvind, Rajasekhar Ummadisetty, Joey Lynch, Vinay Chella",
@@ -31,26 +51,6 @@
           "wordCount": 6628,
           "title": "Introducing Netflix’s Key-Value Data Abstraction Layer",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:755/0*9Ny8Uc-diSDnVGnk"
-        },
-        {
-          "id": "https://medium.com/p/b468bc0ff658",
-          "author": "Netflix Technology Blog",
-          "description": "Pushy is Netflix’s WebSocket server that maintains persistent WebSocket connections with devices running the Netflix application. This…",
-          "link": "https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-09-10T19:15:34.000Z",
-          "wordCount": 8831,
-          "title": "Pushy to the Limit: Evolving Netflix’s WebSocket proxy for the future",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1048/0*WQ1W30ChfWrEmmR5"
-        },
-        {
-          "id": "https://medium.com/p/64b1f4b3bbdd",
-          "author": "Netflix Technology Blog",
-          "description": "By Jose Fernandez, Sebastien Dabdoub, Jason Koch, Artem Tkachuk",
-          "link": "https://netflixtechblog.com/noisy-neighbor-detection-with-ebpf-64b1f4b3bbdd?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-09-10T18:00:21.000Z",
-          "wordCount": 4389,
-          "title": "Noisy Neighbor Detection with eBPF",
-          "imageUrl": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.48:0.5/1*6bapyclfXZPsUIaXFM-xaQ.png"
         }
       ]
     },
@@ -65,7 +65,7 @@
           "description": "The Nim Team is happy to announce two releases:\nversion 2.2.0, our new stable release\nversion 2.0.10, a patch release for Nim 2.0\nNim v2.2.0 is a continuation of our efforts to improve Nim 2: it contains almost 1000 new commits, bringing improvements to the ORC memory management and to the language and the compiler overall.\nNim v2.0.10 is a patch release aimed at our enterprise users who cannot immediately switch to Nim 2.2, containing 80 commits with bugfixes.\nNim 2.2.0\nRelease highlights\nMany long-standing compiler bugs with generics, typedesc and static types have been fixed in this release, effectively making these features stable.\nIn particular, arbitrary expressions for types and values in generic types are now largely functional when they only worked in specific cases before.\nThe re…",
           "link": "https://nim-lang.org//blog/2024/10/02/nim-220-2010.html",
           "publishedOn": "2024-10-02T00:00:00.000Z",
-          "wordCount": 3859,
+          "wordCount": 3868,
           "title": "Nim versions 2.2.0 and 2.0.10 released",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
@@ -82,6 +82,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2024/10/08/two-tips.html",
+          "author": null,
+          "description": "An article about a couple of relatively recent additions to my workflow which I wish I knew about\nyears ago.",
+          "link": "https://matklad.github.io/2024/10/08/two-tips.html",
+          "publishedOn": "2024-10-08T00:00:00.000Z",
+          "wordCount": 1146,
+          "title": "Two Workflow Tips",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html",
           "author": null,
@@ -138,33 +148,43 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21713",
+          "author": "Daniel Lemire",
+          "description": "Both the Physics and Chemistry Nobel prizes were awarded to computer scientists in 2024. Computer scientists are emerging as leading figures in the natural sciences. In turn, these sciences are increasingly dominated by theorists and modelers. There has a noticeable shift in some scientific fields where theoretical models and simulations often not only precede experimental … Continue reading From software to reality?",
+          "link": "https://lemire.me/blog/2024/10/09/from-software-to-reality/",
+          "publishedOn": "2024-10-09T13:21:37.000Z",
+          "wordCount": 2991,
+          "title": "From software to reality?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21710",
+          "author": "Daniel Lemire",
+          "description": "So… in 2024, the Physics Nobel prize was awarded to a Computer Scientist. Is Physics out of ideas? The Nobel Committee just gave a Physics award to a COMPUTER SCIENTIST! What does this say about the state of modern Physics?  Though the first half of the XXth century was filled with breakthrough in Physics, it … Continue reading Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!",
+          "link": "https://lemire.me/blog/2024/10/08/geoffrey-hinton-the-godfather-of-deep-learning-wins-nobel-prize-in-physics/",
+          "publishedOn": "2024-10-08T13:29:44.000Z",
+          "wordCount": 2705,
+          "title": "Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21702",
+          "author": "Daniel Lemire",
+          "description": "Consider the following problem. You want to iterate through the characters of a strings and find only those matching some criteria. For example, you might want scan an HTML string looking for the characters ‘<‘, ‘&’, ‘\\0’, ‘\\n’. We might do it in C++ using the find_first_of function. It is a generic function that is … Continue reading Iterating through matched characters in modern C++",
+          "link": "https://lemire.me/blog/2024/10/06/iterating-through-matched-characters-in-modern-c-viewsfilter-and-coroutine/",
+          "publishedOn": "2024-10-06T21:52:13.000Z",
+          "wordCount": 3133,
+          "title": "Iterating through matched characters in modern C++",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21694",
           "author": "Daniel Lemire",
           "description": "Recently, I received an email from an engineer at a prominent company who shared how he managed to save his employer tens of thousands of dollars annually by developing a custom command-line utility in C++. Without delving into specifics (which remain confidential), the company’s servers were tasked with querying a JSON file for a specific … Continue reading It is never too late to write your own C/C++ command-line utilities",
           "link": "https://lemire.me/blog/2024/09/28/it-is-never-too-later-to-write-your-own-c-c-command-line-utilities/",
           "publishedOn": "2024-09-28T04:06:18.000Z",
-          "wordCount": 3872,
+          "wordCount": 3864,
           "title": "It is never too late to write your own C/C++ command-line utilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21688",
-          "author": "Daniel Lemire",
-          "description": "Imagine a world where becoming a doctor isn’t about years of rigorous study, but about showcasing your life’s work. That’s how doctorates used to roll. You’d write a book, make a groundbreaking discovery, and voila, a doctorate was yours. Fast forward to today, and we’ve flipped the script. Now, a PhD is less about what … Continue reading The PhD Paradox: A Journey into Academia’s Upside-Down World",
-          "link": "https://lemire.me/blog/2024/09/11/the-phd-paradox-a-journey-into-academias-upside-down-world/",
-          "publishedOn": "2024-09-11T20:33:28.000Z",
-          "wordCount": 3428,
-          "title": "The PhD Paradox: A Journey into Academia’s Upside-Down World",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21677",
-          "author": "Daniel Lemire",
-          "description": "C++ programmers tend to represent strings using the std::string class. Though the implementation might vary, each instance of an std::string might use 32 bytes. Though it is not a large amount of memory, it can add up. In the Node.js runtime, as part of the build tools, there is a function which precomputes the string … Continue reading Replace strings by views when you can",
-          "link": "https://lemire.me/blog/2024/09/09/replace-stdstring-by-stdstring_view-when-you-can/",
-          "publishedOn": "2024-09-09T20:26:36.000Z",
-          "wordCount": 4176,
-          "title": "Replace strings by views when you can",
           "imageUrl": null
         }
       ]
