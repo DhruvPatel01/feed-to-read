@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-20T01:14:57.573Z</id>
+    <id>urn:2024-10-27T01:14:05.550Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-20T01:14:57.573Z</updated>
+    <updated>2024-10-27T01:14:05.550Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[NimConf 2024 - Nim Online Conference]]></title>
+        <id>https://nim-lang.org//blog/2024/10/23/nimconf-2024.html</id>
+        <link href="https://nim-lang.org//blog/2024/10/23/nimconf-2024.html"/>
+        <updated>2024-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NimConf 2024 will take place on October 26th, starting from 11:00 UTC.
+It will have the same format as in previous incarnations, and it will be streamed for free via YouTube.
+There will be 10 talks on various subjects
+and we’re sure you’ll find something interesting for yourself.
+Participating as an audience
+All talks will be streamed and recorded for later viewing.
+Watching the talks live will allow you to ask questions and participate in the discussions.
+The timeline of the talks is published on our
+dedicated web page for NimConf 2024 and
+you can watch them via NimConf 2024 YouTube playlist.]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How fast can you parse a CSV file in C#?]]></title>
         <id>https://lemire.me/blog/?p=21726</id>
@@ -181,34 +200,6 @@ The re…]]></summary>
         <summary type="html"><![CDATA[Recently, I received an email from an engineer at a prominent company who shared how he managed to save his employer tens of thousands of dollars annually by developing a custom command-line utility in C++. Without delving into specifics (which remain confidential), the company’s servers were tasked with querying a JSON file for a specific … Continue reading It is never too late to write your own C/C++ command-line utilities]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Watermelon Operator]]></title>
-        <id>https://matklad.github.io/2024/09/24/watermelon-operator.html</id>
-        <link href="https://matklad.github.io/2024/09/24/watermelon-operator.html"/>
-        <updated>2024-09-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In these two most excellent articles,
-https://without.boats/blog/let-futures-be-futures
-and
-https://without.boats/blog/futures-unordered, 
-withoutboats introduces the concepts of multi-task and intra-task concurrency.
-I want to revisit this distinction --- while I agree that there are different classes
-of patterns of concurrency here, I am not quite satisfied with this specific partitioning of the
-design space. I will use Rust-like syntax for most of the examples, but I am more interested in the
-language-agnostic patterns, rather than in Rust's specific implementation of async.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is io_uring?]]></title>
-        <id>https://matklad.github.io/2024/09/23/what-is-io-uring.html</id>
-        <link href="https://matklad.github.io/2024/09/23/what-is-io-uring.html"/>
-        <updated>2024-09-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An attempt at concise explanation of what io_uring is.]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>

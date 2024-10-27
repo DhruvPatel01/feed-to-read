@@ -60,6 +60,16 @@
       "siteUrl": "https://nim-lang.org//",
       "articles": [
         {
+          "id": "https://nim-lang.org//blog/2024/10/23/nimconf-2024.html",
+          "author": null,
+          "description": "NimConf 2024 will take place on October 26th, starting from 11:00 UTC.\nIt will have the same format as in previous incarnations, and it will be streamed for free via YouTube.\nThere will be 10 talks on various subjects\nand we’re sure you’ll find something interesting for yourself.\nParticipating as an audience\nAll talks will be streamed and recorded for later viewing.\nWatching the talks live will allow you to ask questions and participate in the discussions.\nThe timeline of the talks is published on our\ndedicated web page for NimConf 2024 and\nyou can watch them via NimConf 2024 YouTube playlist.",
+          "link": "https://nim-lang.org//blog/2024/10/23/nimconf-2024.html",
+          "publishedOn": "2024-10-23T00:00:00.000Z",
+          "wordCount": 251,
+          "title": "NimConf 2024 - Nim Online Conference",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
+        {
           "id": "https://nim-lang.org//blog/2024/10/02/nim-220-2010.html",
           "author": null,
           "description": "The Nim Team is happy to announce two releases:\nversion 2.2.0, our new stable release\nversion 2.0.10, a patch release for Nim 2.0\nNim v2.2.0 is a continuation of our efforts to improve Nim 2: it contains almost 1000 new commits, bringing improvements to the ORC memory management and to the language and the compiler overall.\nNim v2.0.10 is a patch release aimed at our enterprise users who cannot immediately switch to Nim 2.2, containing 80 commits with bugfixes.\nNim 2.2.0\nRelease highlights\nMany long-standing compiler bugs with generics, typedesc and static types have been fixed in this release, effectively making these features stable.\nIn particular, arbitrary expressions for types and values in generic types are now largely functional when they only worked in specific cases before.\nThe re…",
@@ -111,26 +121,6 @@
           "wordCount": 896,
           "title": "On Ousterhout's Dichotomy",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/09/24/watermelon-operator.html",
-          "author": null,
-          "description": "In these two most excellent articles,\nhttps://without.boats/blog/let-futures-be-futures\nand\nhttps://without.boats/blog/futures-unordered, \nwithoutboats introduces the concepts of multi-task and intra-task concurrency.\nI want to revisit this distinction --- while I agree that there are different classes\nof patterns of concurrency here, I am not quite satisfied with this specific partitioning of the\ndesign space. I will use Rust-like syntax for most of the examples, but I am more interested in the\nlanguage-agnostic patterns, rather than in Rust's specific implementation of async.",
-          "link": "https://matklad.github.io/2024/09/24/watermelon-operator.html",
-          "publishedOn": "2024-09-24T00:00:00.000Z",
-          "wordCount": 4013,
-          "title": "The Watermelon Operator",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/09/23/what-is-io-uring.html",
-          "author": null,
-          "description": "An attempt at concise explanation of what io_uring is.",
-          "link": "https://matklad.github.io/2024/09/23/what-is-io-uring.html",
-          "publishedOn": "2024-09-23T00:00:00.000Z",
-          "wordCount": 418,
-          "title": "What is io_uring?",
-          "imageUrl": null
         }
       ]
     },
@@ -163,7 +153,7 @@
           "description": "We often store large datasets using comma-separated-value (CSV) files. The format is simple enough, each line of a text file is made of several values separated by commas, like so: \"Willett, Walter C.\",Harvard T.H. Chan School of Public Health,usa Given an excel spreadsheet, you can easily get a CSV file, and vice versa. CSV files … Continue reading How fast can you parse a CSV file in C#?",
           "link": "https://lemire.me/blog/2024/10/17/how-fast-can-you-parse-a-csv-file-in-c/",
           "publishedOn": "2024-10-17T23:03:05.000Z",
-          "wordCount": 3557,
+          "wordCount": 3753,
           "title": "How fast can you parse a CSV file in C#?",
           "imageUrl": null
         },
@@ -173,7 +163,7 @@
           "description": "When optimizing small functions, I often rely on a table lookup: I replace the actual computation with table of precomputed values. It is often surprisingly efficient. Let us consider an example. Suppose that you are given an array of characters and you want to replace all instances of the character ‘\\’ with the two-character string … Continue reading Table lookups are efficient",
           "link": "https://lemire.me/blog/2024/10/14/table-lookups-are-efficient/",
           "publishedOn": "2024-10-14T22:15:42.000Z",
-          "wordCount": 3419,
+          "wordCount": 3438,
           "title": "Table lookups are efficient",
           "imageUrl": null
         },
@@ -183,7 +173,7 @@
           "description": "Both the Physics and Chemistry Nobel prizes were awarded to computer scientists in 2024. Computer scientists are emerging as leading figures in the natural sciences. In turn, these sciences are increasingly dominated by theorists and modelers. There has a noticeable shift in some scientific fields where theoretical models and simulations often not only precede experimental … Continue reading From software to reality?",
           "link": "https://lemire.me/blog/2024/10/09/from-software-to-reality/",
           "publishedOn": "2024-10-09T13:21:37.000Z",
-          "wordCount": 3003,
+          "wordCount": 3001,
           "title": "From software to reality?",
           "imageUrl": null
         },
@@ -193,7 +183,7 @@
           "description": "So… in 2024, the Physics Nobel prize was awarded to a Computer Scientist. Is Physics out of ideas? The Nobel Committee just gave a Physics award to a COMPUTER SCIENTIST! What does this say about the state of modern Physics?  Though the first half of the XXth century was filled with breakthrough in Physics, it … Continue reading Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!",
           "link": "https://lemire.me/blog/2024/10/08/geoffrey-hinton-the-godfather-of-deep-learning-wins-nobel-prize-in-physics/",
           "publishedOn": "2024-10-08T13:29:44.000Z",
-          "wordCount": 2711,
+          "wordCount": 2709,
           "title": "Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!",
           "imageUrl": null
         },
@@ -203,7 +193,7 @@
           "description": "Consider the following problem. You want to iterate through the characters of a strings and find only those matching some criteria. For example, you might want scan an HTML string looking for the characters ‘<‘, ‘&’, ‘\\0’, ‘\\n’. We might do it in C++ using the find_first_of function. It is a generic function that is … Continue reading Iterating through matched characters in modern C++",
           "link": "https://lemire.me/blog/2024/10/06/iterating-through-matched-characters-in-modern-c-viewsfilter-and-coroutine/",
           "publishedOn": "2024-10-06T21:52:13.000Z",
-          "wordCount": 3348,
+          "wordCount": 3346,
           "title": "Iterating through matched characters in modern C++",
           "imageUrl": null
         },
@@ -213,7 +203,7 @@
           "description": "Recently, I received an email from an engineer at a prominent company who shared how he managed to save his employer tens of thousands of dollars annually by developing a custom command-line utility in C++. Without delving into specifics (which remain confidential), the company’s servers were tasked with querying a JSON file for a specific … Continue reading It is never too late to write your own C/C++ command-line utilities",
           "link": "https://lemire.me/blog/2024/09/28/it-is-never-too-later-to-write-your-own-c-c-command-line-utilities/",
           "publishedOn": "2024-09-28T04:06:18.000Z",
-          "wordCount": 3953,
+          "wordCount": 3951,
           "title": "It is never too late to write your own C/C++ command-line utilities",
           "imageUrl": null
         }
