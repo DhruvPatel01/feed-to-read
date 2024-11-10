@@ -4,18 +4,7 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2024/10/07/",
-          "author": null,
-          "description": "Windows paths have been WTF-16-encoded for decades, but module names\nin the import tables of Portable Executable are octets.\nIf a name contains values beyond ASCII — technically out of spec — then\nthe dynamic linker must somehow decode those octets into Unicode in order\nto construct a lookup path. There are multiple ways this could be done,\nand the most obvious is the process’s active code page (ACP), which is\nexactly what happens. As a consequence, the specific DLL loaded by the\nlinker may depend on the system code page. In this article I’ll contrive\nsuch a situation.\nLoadLibraryA is a similar situation, and potentially applies the code\npage to a longer portion of the module path. LoadLibraryW is\nunaffected, at least for the directly-named module, because it’s Unicode\nall the way through.…",
-          "link": "https://nullprogram.com/blog/2024/10/07/",
-          "publishedOn": "2024-10-07T19:50:17.000Z",
-          "wordCount": 786,
-          "title": "Windows dynamic linking depends on the active code page",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -28,19 +17,9 @@
           "description": "By: Hechao Li and Marcelo Mayworm",
           "link": "https://netflixtechblog.com/investigation-of-a-workbench-ui-latency-issue-faa017b4653d?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-10-14T20:02:47.000Z",
-          "wordCount": 6121,
+          "wordCount": 6151,
           "title": "Investigation of a Workbench UI Latency Issue",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ltV3CYtNjLCzolXD"
-        },
-        {
-          "id": "https://medium.com/p/31552f6326f8",
-          "author": "Netflix Technology Blog",
-          "description": "By Rajiv Shringi, Vinay Chella, Kaidan Fullerton, Oleksii Tkachuk, Joey Lynch",
-          "link": "https://netflixtechblog.com/introducing-netflix-timeseries-data-abstraction-layer-31552f6326f8?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-10-08T17:05:36.000Z",
-          "wordCount": 9042,
-          "title": "Introducing Netflix’s TimeSeries Data Abstraction Layer",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*jl30Jl559Fnd29in"
         }
       ]
     },
@@ -91,26 +70,6 @@
           "wordCount": 1341,
           "title": "A Missing IDE Feature",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/10/08/two-tips.html",
-          "author": null,
-          "description": "An article about a couple of relatively recent additions to my workflow which I wish I knew about\nyears ago.",
-          "link": "https://matklad.github.io/2024/10/08/two-tips.html",
-          "publishedOn": "2024-10-08T00:00:00.000Z",
-          "wordCount": 1146,
-          "title": "Two Workflow Tips",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html",
-          "author": null,
-          "description": "Why are there so many programming languages? One of the driving reasons for this is that some\nlanguages tend to produce fast code, but are a bit of a pain to use (C++), while others are a breeze\nto write, but run somewhat slow (Python). Depending on the ratio of CPUs to programmers, one or the\nother might be relatively more important.",
-          "link": "https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html",
-          "publishedOn": "2024-10-06T00:00:00.000Z",
-          "wordCount": 896,
-          "title": "On Ousterhout's Dichotomy",
-          "imageUrl": null
         }
       ]
     },
@@ -137,7 +96,7 @@
           "description": "<p>So you went ahead and created a new programming language, with an AST, a parser, and an interpreter. And now you hate how you have to write the programs in your new language in files to run them? You need a <a href=\"https://en.wikipedia.org/wiki/REPL\" target=\"_blank\" rel=\"noopener\">REPL</a>! In this post, we’ll create a shiny REPL with lots of nice features using the Haskeline library to go along with your new PL that you implemented in Haskell.</p>",
           "link": "https://abhinavsarkar.net/posts/repling-with-haskeline/?mtm_campaign=feed",
           "publishedOn": "2024-10-31T00:00:00.000Z",
-          "wordCount": 5795,
+          "wordCount": 5783,
           "title": "Going REPLing with Haskeline",
           "imageUrl": "https://abhinavsarkar.net/images/repling-with-haskeline/preview.png"
         }
@@ -154,7 +113,7 @@
           "description": "Recent versions of the C++ language (C++20 and C++23) may allow you to change drastically how you program in C++. I want to provide some fun examples. Thanks to the integration of the features from the popular fmt library, it is much easier to format strings elegantly in C++. In turn the fmt library was … Continue reading Having fun with modern C++",
           "link": "https://lemire.me/blog/2024/11/02/having-fun-with-modern-c/",
           "publishedOn": "2024-11-02T00:24:09.000Z",
-          "wordCount": 3228,
+          "wordCount": 3354,
           "title": "Having fun with modern C++",
           "imageUrl": null
         },
@@ -164,7 +123,7 @@
           "description": "We often store large datasets using comma-separated-value (CSV) files. The format is simple enough, each line of a text file is made of several values separated by commas, like so: \"Willett, Walter C.\",Harvard T.H. Chan School of Public Health,usa Given an excel spreadsheet, you can easily get a CSV file, and vice versa. CSV files … Continue reading How fast can you parse a CSV file in C#?",
           "link": "https://lemire.me/blog/2024/10/17/how-fast-can-you-parse-a-csv-file-in-c/",
           "publishedOn": "2024-10-17T23:03:05.000Z",
-          "wordCount": 3761,
+          "wordCount": 3769,
           "title": "How fast can you parse a CSV file in C#?",
           "imageUrl": null
         },
@@ -174,38 +133,8 @@
           "description": "When optimizing small functions, I often rely on a table lookup: I replace the actual computation with table of precomputed values. It is often surprisingly efficient. Let us consider an example. Suppose that you are given an array of characters and you want to replace all instances of the character ‘\\’ with the two-character string … Continue reading Table lookups are efficient",
           "link": "https://lemire.me/blog/2024/10/14/table-lookups-are-efficient/",
           "publishedOn": "2024-10-14T22:15:42.000Z",
-          "wordCount": 3439,
+          "wordCount": 3447,
           "title": "Table lookups are efficient",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21713",
-          "author": "Daniel Lemire",
-          "description": "Both the Physics and Chemistry Nobel prizes were awarded to computer scientists in 2024. Computer scientists are emerging as leading figures in the natural sciences. In turn, these sciences are increasingly dominated by theorists and modelers. There has a noticeable shift in some scientific fields where theoretical models and simulations often not only precede experimental … Continue reading From software to reality?",
-          "link": "https://lemire.me/blog/2024/10/09/from-software-to-reality/",
-          "publishedOn": "2024-10-09T13:21:37.000Z",
-          "wordCount": 3002,
-          "title": "From software to reality?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21710",
-          "author": "Daniel Lemire",
-          "description": "So… in 2024, the Physics Nobel prize was awarded to a Computer Scientist. Is Physics out of ideas? The Nobel Committee just gave a Physics award to a COMPUTER SCIENTIST! What does this say about the state of modern Physics?  Though the first half of the XXth century was filled with breakthrough in Physics, it … Continue reading Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!",
-          "link": "https://lemire.me/blog/2024/10/08/geoffrey-hinton-the-godfather-of-deep-learning-wins-nobel-prize-in-physics/",
-          "publishedOn": "2024-10-08T13:29:44.000Z",
-          "wordCount": 2710,
-          "title": "Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21702",
-          "author": "Daniel Lemire",
-          "description": "Consider the following problem. You want to iterate through the characters of a strings and find only those matching some criteria. For example, you might want scan an HTML string looking for the characters ‘<‘, ‘&’, ‘\\0’, ‘\\n’. We might do it in C++ using the find_first_of function. It is a generic function that is … Continue reading Iterating through matched characters in modern C++",
-          "link": "https://lemire.me/blog/2024/10/06/iterating-through-matched-characters-in-modern-c-viewsfilter-and-coroutine/",
-          "publishedOn": "2024-10-06T21:52:13.000Z",
-          "wordCount": 3347,
-          "title": "Iterating through matched characters in modern C++",
           "imageUrl": null
         }
       ]

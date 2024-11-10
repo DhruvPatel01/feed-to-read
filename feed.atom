@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-03T01:13:45.814Z</id>
+    <id>urn:2024-11-10T01:11:58.409Z</id>
     <title>osmos::feed</title>
-    <updated>2024-11-03T01:13:45.814Z</updated>
+    <updated>2024-11-10T01:11:58.409Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -128,92 +128,6 @@ you can watch them via NimConf 2024 YouTube playlist.]]></summary>
         <updated>2024-10-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Slightly unusual genre --- with this article, I want to try to enact a change in the world. I
 believe that there is a missing IDE feature which is:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From software to reality?]]></title>
-        <id>https://lemire.me/blog/?p=21713</id>
-        <link href="https://lemire.me/blog/2024/10/09/from-software-to-reality/"/>
-        <updated>2024-10-09T13:21:37.000Z</updated>
-        <summary type="html"><![CDATA[Both the Physics and Chemistry Nobel prizes were awarded to computer scientists in 2024. Computer scientists are emerging as leading figures in the natural sciences. In turn, these sciences are increasingly dominated by theorists and modelers. There has a noticeable shift in some scientific fields where theoretical models and simulations often not only precede experimental … Continue reading From software to reality?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Netflix’s TimeSeries Data Abstraction Layer]]></title>
-        <id>https://medium.com/p/31552f6326f8</id>
-        <link href="https://netflixtechblog.com/introducing-netflix-timeseries-data-abstraction-layer-31552f6326f8?source=rss----2615bd06b42e---4"/>
-        <updated>2024-10-08T17:05:36.000Z</updated>
-        <summary type="html"><![CDATA[By Rajiv Shringi, Vinay Chella, Kaidan Fullerton, Oleksii Tkachuk, Joey Lynch]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!]]></title>
-        <id>https://lemire.me/blog/?p=21710</id>
-        <link href="https://lemire.me/blog/2024/10/08/geoffrey-hinton-the-godfather-of-deep-learning-wins-nobel-prize-in-physics/"/>
-        <updated>2024-10-08T13:29:44.000Z</updated>
-        <summary type="html"><![CDATA[So… in 2024, the Physics Nobel prize was awarded to a Computer Scientist. Is Physics out of ideas? The Nobel Committee just gave a Physics award to a COMPUTER SCIENTIST! What does this say about the state of modern Physics?  Though the first half of the XXth century was filled with breakthrough in Physics, it … Continue reading Geoffrey Hinton, the Godfather of Deep Learning, wins Nobel Prize in Physics!]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two Workflow Tips]]></title>
-        <id>https://matklad.github.io/2024/10/08/two-tips.html</id>
-        <link href="https://matklad.github.io/2024/10/08/two-tips.html"/>
-        <updated>2024-10-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An article about a couple of relatively recent additions to my workflow which I wish I knew about
-years ago.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows dynamic linking depends on the active code page]]></title>
-        <id>https://nullprogram.com/blog/2024/10/07/</id>
-        <link href="https://nullprogram.com/blog/2024/10/07/"/>
-        <updated>2024-10-07T19:50:17.000Z</updated>
-        <summary type="html"><![CDATA[Windows paths have been WTF-16-encoded for decades, but module names
-in the import tables of Portable Executable are octets.
-If a name contains values beyond ASCII — technically out of spec — then
-the dynamic linker must somehow decode those octets into Unicode in order
-to construct a lookup path. There are multiple ways this could be done,
-and the most obvious is the process’s active code page (ACP), which is
-exactly what happens. As a consequence, the specific DLL loaded by the
-linker may depend on the system code page. In this article I’ll contrive
-such a situation.
-LoadLibraryA is a similar situation, and potentially applies the code
-page to a longer portion of the module path. LoadLibraryW is
-unaffected, at least for the directly-named module, because it’s Unicode
-all the way through.…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iterating through matched characters in modern C++]]></title>
-        <id>https://lemire.me/blog/?p=21702</id>
-        <link href="https://lemire.me/blog/2024/10/06/iterating-through-matched-characters-in-modern-c-viewsfilter-and-coroutine/"/>
-        <updated>2024-10-06T21:52:13.000Z</updated>
-        <summary type="html"><![CDATA[Consider the following problem. You want to iterate through the characters of a strings and find only those matching some criteria. For example, you might want scan an HTML string looking for the characters ‘<‘, ‘&’, ‘\0’, ‘\n’. We might do it in C++ using the find_first_of function. It is a generic function that is … Continue reading Iterating through matched characters in modern C++]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Ousterhout's Dichotomy]]></title>
-        <id>https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html</id>
-        <link href="https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html"/>
-        <updated>2024-10-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Why are there so many programming languages? One of the driving reasons for this is that some
-languages tend to produce fast code, but are a bit of a pain to use (C++), while others are a breeze
-to write, but run somewhat slow (Python). Depending on the ratio of CPUs to programmers, one or the
-other might be relatively more important.]]></summary>
         <author>
             <name>matklad</name>
         </author>
