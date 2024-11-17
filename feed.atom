@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-10T01:11:58.409Z</id>
+    <id>urn:2024-11-17T01:16:03.825Z</id>
     <title>osmos::feed</title>
-    <updated>2024-11-10T01:11:58.409Z</updated>
+    <updated>2024-11-17T01:16:03.825Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Netflix’s Distributed Counter Abstraction]]></title>
+        <id>https://medium.com/p/8d0c45eb66b2</id>
+        <link href="https://netflixtechblog.com/netflixs-distributed-counter-abstraction-8d0c45eb66b2?source=rss----2615bd06b42e---4"/>
+        <updated>2024-11-12T20:45:23.000Z</updated>
+        <summary type="html"><![CDATA[By: Rajiv Shringi, Oleksii Tkachuk, Kartik Sathyanarayanan]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Graduate degrees are overrated]]></title>
+        <id>https://lemire.me/blog/?p=21763</id>
+        <link href="https://lemire.me/blog/2024/11/12/graduate-degrees-are-overrated/"/>
+        <updated>2024-11-12T17:39:24.000Z</updated>
+        <summary type="html"><![CDATA[Though I have many brilliant graduate students, I love working with undergraduate students. And I am not at all sure that you should favor people with graduate degrees, given a choice. Many graduate students tend to favor abstraction over practical skills. They often have an idealized view of the world. Moreover, these students are often … Continue reading Graduate degrees are overrated]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything I've learned so far about running local LLMs]]></title>
+        <id>https://nullprogram.com/blog/2024/11/10/</id>
+        <link href="https://nullprogram.com/blog/2024/11/10/"/>
+        <updated>2024-11-10T05:05:20.000Z</updated>
+        <summary type="html"><![CDATA[This article was discussed on Hacker News.
+Over the past month I’ve been exploring the rapidly evolving world of
+Large Language Models (LLM). It’s now accessible enough to run a LLM on a
+Raspberry Pi smarter than the original ChatGPT (November 2022). A modest
+desktop or laptop supports even smarter AI. It’s also private, offline,
+unlimited, and registration-free. The technology is improving at breakneck
+speed, and information is outdated in a matter of months. This article
+snapshots my practical, hands-on knowledge and experiences — information I
+wish I had when starting. Keep in mind that I’m a LLM layman, I have no
+novel insights to share, and it’s likely I’ve misunderstood certain
+aspects. In a year this article will mostly be a historical footnote,
+which is simultaneously exciting and …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Having fun with modern C++]]></title>
         <id>https://lemire.me/blog/?p=21753</id>
@@ -89,47 +130,6 @@ dedicated web page for NimConf 2024 and
 you can watch them via NimConf 2024 YouTube playlist.]]></summary>
         <author>
             <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast can you parse a CSV file in C#?]]></title>
-        <id>https://lemire.me/blog/?p=21726</id>
-        <link href="https://lemire.me/blog/2024/10/17/how-fast-can-you-parse-a-csv-file-in-c/"/>
-        <updated>2024-10-17T23:03:05.000Z</updated>
-        <summary type="html"><![CDATA[We often store large datasets using comma-separated-value (CSV) files. The format is simple enough, each line of a text file is made of several values separated by commas, like so: "Willett, Walter C.",Harvard T.H. Chan School of Public Health,usa Given an excel spreadsheet, you can easily get a CSV file, and vice versa. CSV files … Continue reading How fast can you parse a CSV file in C#?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Table lookups are efficient]]></title>
-        <id>https://lemire.me/blog/?p=21718</id>
-        <link href="https://lemire.me/blog/2024/10/14/table-lookups-are-efficient/"/>
-        <updated>2024-10-14T22:15:42.000Z</updated>
-        <summary type="html"><![CDATA[When optimizing small functions, I often rely on a table lookup: I replace the actual computation with table of precomputed values. It is often surprisingly efficient. Let us consider an example. Suppose that you are given an array of characters and you want to replace all instances of the character ‘\’ with the two-character string … Continue reading Table lookups are efficient]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Investigation of a Workbench UI Latency Issue]]></title>
-        <id>https://medium.com/p/faa017b4653d</id>
-        <link href="https://netflixtechblog.com/investigation-of-a-workbench-ui-latency-issue-faa017b4653d?source=rss----2615bd06b42e---4"/>
-        <updated>2024-10-14T20:02:47.000Z</updated>
-        <summary type="html"><![CDATA[By: Hechao Li and Marcelo Mayworm]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Missing IDE Feature]]></title>
-        <id>https://matklad.github.io/2024/10/14/missing-ide-feature.html</id>
-        <link href="https://matklad.github.io/2024/10/14/missing-ide-feature.html"/>
-        <updated>2024-10-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Slightly unusual genre --- with this article, I want to try to enact a change in the world. I
-believe that there is a missing IDE feature which is:]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>
