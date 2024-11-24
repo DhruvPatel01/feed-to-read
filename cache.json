@@ -28,7 +28,7 @@
           "description": "By: Rajiv Shringi, Oleksii Tkachuk, Kartik Sathyanarayanan",
           "link": "https://netflixtechblog.com/netflixs-distributed-counter-abstraction-8d0c45eb66b2?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-11-12T20:45:23.000Z",
-          "wordCount": 9205,
+          "wordCount": 9218,
           "title": "Netflix’s Distributed Counter Abstraction",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Yusg6kC9Jj9ayjbi"
         }
@@ -48,16 +48,6 @@
           "wordCount": 401,
           "title": "Nim version 2.0.12 released",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2024/10/23/nimconf-2024.html",
-          "author": null,
-          "description": "NimConf 2024 will take place on October 26th, starting from 11:00 UTC.\nIt will have the same format as in previous incarnations, and it will be streamed for free via YouTube.\nThere will be 10 talks on various subjects\nand we’re sure you’ll find something interesting for yourself.\nParticipating as an audience\nAll talks will be streamed and recorded for later viewing.\nWatching the talks live will allow you to ask questions and participate in the discussions.\nThe timeline of the talks is published on our\ndedicated web page for NimConf 2024 and\nyou can watch them via NimConf 2024 YouTube playlist.",
-          "link": "https://nim-lang.org//blog/2024/10/23/nimconf-2024.html",
-          "publishedOn": "2024-10-23T00:00:00.000Z",
-          "wordCount": 251,
-          "title": "NimConf 2024 - Nim Online Conference",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
     },
@@ -71,7 +61,18 @@
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
+          "author": null,
+          "description": "A popular genre of articles for the past few year has been a SemVer Critique, pointing out various\nthings that are wrong with SemVer itself, or with the way SemVer is being applied, and, customary,\nsuggesting an alternative versioning scheme. Usually, the focus is either on how SemVer ought to be\nused, by library authors (nitpicking the definition of a breaking change), or on how SemVer is (not)\nuseful for a library consumer (nitpicking the definition of a breaking change).",
+          "link": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
+          "publishedOn": "2024-11-23T00:00:00.000Z",
+          "wordCount": 1500,
+          "title": "SemVer Is Not About You",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Hugging Face - Blog",
@@ -91,6 +92,16 @@
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
       "articles": [
         {
+          "id": "https://notes.abhinavsarkar.net/2024/links-11",
+          "author": null,
+          "description": "<p>A special <em>Programming Languages: Theory, Design and Implementation</em> edition of some interesting articles I recently read on the internet:</p>\n\n<ul>\n  <li>\n    <p>There is something amazing about making your own programming language. In <a href=\"https://ntietz.com/blog/you-should-make-a-new-terrible-programming-language/\">“You Should Make a New Programming Language”</a> Nicole Tietz-Sokolsaya puts forward some great reasons to do the same, but I do it just for the sheer excitement of witnessing a program written in my own language run.</p>\n  </li>\n  <li>\n    <p>Why aren’t there programming languages that are convenient to write but slow by default, and allow the programmer to drop to a harder to write but more performant form, if required? Alex Kladov ponders on this question in <a href=\"https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html\">“On Ousterhout’s Dichotomy”</a>, and offers a possible solution.</p>\n  </li>\n  <li>\n    <p>I am big fan of <a href=\"https://en.wikipedia.org/wiki/Algebraic_data_type\"><em>Algebraic data types</em></a>, and consider them an indispensable tool in the modern programmers’ toolbox. In <a href=\"https://blog.poisson.chat/posts/2024-07-26-adt-history.html\">“Where Does the Name ‘Algebraic Data Type’ Come From?”</a> Li-yao Xia investigates the possible sources of the name, going back to the programming languages from half a century ago.</p>\n  </li>\n  <li>\n    <p>Follow Casey Rodarmor through the rabbithole to learn where an unexpected newline character comes from in this entertaining and <a href=\"https://dl.acm.org/doi/10.1145/358198.358210\">enlightening</a> article <a href=\"https://casey.github.io/blog/whence-newline/\">“Whence ‘\\n’?”</a>.</p>\n  </li>\n  <li>\n    <p><a href=\"https://jaspervdj.be/posts/2024-08-21-turnstyle.html\">Turnstyle</a> is an esoteric, graphical functional language by Jasper Van der Jeugt. I have never seem anything like it before. It’s truly mind-blowing and I’m still trying to understand how it works.</p>\n  </li>\n  <li>\n    <p>As good programmers, we try to stay away from the dark corners of programming languages, but Justine Tunney takes a head-first dive into them and comes up with an enthralling tale in the article <a href=\"https://justine.lol/lex/\">“Weird Lexical Syntax”</a>.</p>\n  </li>\n  <li>\n    <p>I am not going to lie, I love Lisps! I must have implemented at least a dozen of them by now. If you are like me, you may have wondered <a href=\"https://eli.thegreenplace.net/2022/why-is-it-easy-to-implement-a-lisp/\">“Why Is It Easy to Implement a Lisp?”</a>. Eli Bendersky puts forward a compelling argument.</p>\n  </li>\n  <li>\n    <p>How better to implement a fast (and small) Lisp than to compile it to LLVM IR. Using Clojure this time, John Jacobsen showcases it in <a href=\"http://johnj.com/posts/to-the-metal/\">“To The Metal… Compiling Your Own Language(s)”</a>.</p>\n  </li>\n  <li>\n    <p>Phil Eaton takes an ingenious approach for <a href=\"https://notes.eatonphil.com/compiling-dynamic-programming-languages.html\">“Compiling Dynamic Programming Languages”</a>, one that has never occurred to me before, but now will be a part of my toolbox forever.</p>\n  </li>\n  <li>\n    <p>Here’s another technique that I was only vaguely familiar with: JIT compilation using macros. In <a href=\"https://cuddly-octo-palm-tree.com/posts/2021-02-14-eval-opti/\">“Runtime Optimization with Eval”</a> Gary Verhaegen demonstrates this technique using Clojure.</p>\n  </li>\n  <li>\n    <p>When compiling dynamically typed programming languages, we need to tag pointers to data with the runtime type information. In <a href=\"https://coredumped.dev/2024/09/09/what-is-the-best-pointer-tagging-method/\">“What Is the Best Pointer Tagging Method?”</a> Troy Hinckley describes some good ways of doing the same.</p>\n  </li>\n  <li>\n    <p>I relish Max Bernstein’s articles about programming language implementation techniques. In <a href=\"https://bernsteinbear.com/blog/whats-in-an-egraph/\">“What’s in an e-graph?”</a> they describe an optimization technique using e-graphs used in compilers.</p>\n  </li>\n  <li>\n    <p>I love atypical uses of Programming Language Theory. Adam Dueck explains their PLT adventure in <a href=\"https://adueck.github.io/blog/how-i-learned-pashto-grammar-through-programming-syntax-trees/\">“How I Learned Pashto Grammar Through Programming Syntax Trees”</a>.</p>\n  </li>\n  <li>\n    <p>Brainfuck, the most popular of esoteric programming languages, has been a lot on my mind recently. And who better to learn about compiling BF from than Wilfred Hughes. In <a href=\"https://www.wilfred.me.uk/blog/2015/08/29/an-optimising-bf-compiler/\">“An Optimising BF Compiler”</a> they go over the algorithms they used to write <a href=\"https://bfc.wilfred.me.uk/\">“An Industrial-Grade Brainfuck Compiler”</a>.</p>\n  </li>\n  <li>\n    <p>And lastly, from the wicked mind of Srijan Paul, comes a twist: <a href=\"https://injuly.in/blog/bfinbf/index.html\">“Compiling to Brainf#ck”</a> about their programming language Meep that, you guessed right, compiles to BF.</p>\n  </li>\n</ul>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/113516066682728028\" class=\"mastodon-link\">Mastodon</a>.</p>",
+          "link": "https://notes.abhinavsarkar.net/2024/links-11",
+          "publishedOn": "2024-11-20T00:00:00.000Z",
+          "wordCount": 869,
+          "title": "Interesting Links for November 2024",
+          "imageUrl": null
+        },
+        {
           "id": "https://abhinavsarkar.net/posts/repling-with-haskeline/?mtm_campaign=feed",
           "author": null,
           "description": "<p>So you went ahead and created a new programming language, with an AST, a parser, and an interpreter. And now you hate how you have to write the programs in your new language in files to run them? You need a <a href=\"https://en.wikipedia.org/wiki/REPL\" target=\"_blank\" rel=\"noopener\">REPL</a>! In this post, we’ll create a shiny REPL with lots of nice features using the Haskeline library to go along with your new PL that you implemented in Haskell.</p>",
@@ -108,12 +119,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21766",
+          "author": "Daniel Lemire",
+          "description": "A few years ago, we wrote csFastFloat, a C# library to parse floating-point numbers faster. Given the string “3.1416”, it computes the binary value 3.1416. The functionality of the library is equivalent to the C# function Double.Parse. except that it runs faster. We contributed much of the library to .NET, and as of .NET 7: … Continue reading Parsing floats at over a gigabyte per second in C#",
+          "link": "https://lemire.me/blog/2024/11/21/parsing-floats-at-over-a-gigabyte-per-second-in-c/",
+          "publishedOn": "2024-11-21T23:42:22.000Z",
+          "wordCount": 2809,
+          "title": "Parsing floats at over a gigabyte per second in C#",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21763",
           "author": "Daniel Lemire",
           "description": "Though I have many brilliant graduate students, I love working with undergraduate students. And I am not at all sure that you should favor people with graduate degrees, given a choice. Many graduate students tend to favor abstraction over practical skills. They often have an idealized view of the world. Moreover, these students are often … Continue reading Graduate degrees are overrated",
           "link": "https://lemire.me/blog/2024/11/12/graduate-degrees-are-overrated/",
           "publishedOn": "2024-11-12T17:39:24.000Z",
-          "wordCount": 2897,
+          "wordCount": 2921,
           "title": "Graduate degrees are overrated",
           "imageUrl": null
         },
@@ -123,7 +144,7 @@
           "description": "Recent versions of the C++ language (C++20 and C++23) may allow you to change drastically how you program in C++. I want to provide some fun examples. Thanks to the integration of the features from the popular fmt library, it is much easier to format strings elegantly in C++. In turn the fmt library was … Continue reading Having fun with modern C++",
           "link": "https://lemire.me/blog/2024/11/02/having-fun-with-modern-c/",
           "publishedOn": "2024-11-02T00:24:09.000Z",
-          "wordCount": 3353,
+          "wordCount": 3365,
           "title": "Having fun with modern C++",
           "imageUrl": null
         }
