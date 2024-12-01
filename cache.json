@@ -38,18 +38,7 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2024/11/01/nim-2012-released.html",
-          "author": null,
-          "description": "The Nim team is happy to announce Nim version 2.0.12, our sixth patch release for Nim 2.0,\nfor our users who haven’t switched yet to Nim 2.2.\nVersion 2.0.12 is a small release, containing just 24 commits, but it brings several improvements to Nim 2.0.10, released a month ago.\nInstalling Nim 2.0.12\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.0.12 is as easy as:\n$ choosenim update self\n$ choosenim 2.0.12\n\nMake sure that the version of choosenim you have installed is 0.8.5 or higher, otherwise visit choosenim’s repo and see there how to re-install it first, before updating Nim.\nAlternatively, you can download Nim 2.0.12 from\nour nightlies builds.\nDonating to Nim\nWe would like to encourage you to donate to Nim.\nThe donated money will be used to further improve Nim by creating bounties\nfor the most important bugfixes and features.\nYou can donate via:\nOpen Collective\nBitcoin: 1BXfuKM2uvoD6mbx4g5xM3eQhLzkCK77tJ\nIf you are a company, we also offer commercial support.\nBugfixes\nThese reported issues were fixed:\nFixed “dist/checksums wrong type: preventing build_all.sh”\n(#24173)\nFixed “Regression: compiler crash on static inference”\n(#23755)\nFixed “Regression: Error: fatal error: invalid kind for lastOrd(tyGenericParam)”\n(#23823)\nFixed “compiler crash on len of varargs[untyped]”\n(#24258)\nFixed “Error: VM problem: dest register is not set with const-bound proc”\n(#24359)\nFixed “Returning address of constant array emits invalid C code”\n(#22389)\nFixed “SIGSEGV with nim c -c and nim e on macro w(): untyped = result = genSym(nskType)”\n(#24379)\nThe complete list of changes is available\nhere.",
-          "link": "https://nim-lang.org//blog/2024/11/01/nim-2012-released.html",
-          "publishedOn": "2024-11-01T00:00:00.000Z",
-          "wordCount": 401,
-          "title": "Nim version 2.0.12 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": null,
@@ -65,10 +54,10 @@
         {
           "id": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
           "author": null,
-          "description": "A popular genre of articles for the past few year has been a SemVer Critique, pointing out various\nthings that are wrong with SemVer itself, or with the way SemVer is being applied, and, customary,\nsuggesting an alternative versioning scheme. Usually, the focus is either on how SemVer ought to be\nused, by library authors (nitpicking the definition of a breaking change), or on how SemVer is (not)\nuseful for a library consumer (nitpicking the definition of a breaking change).",
+          "description": "A popular genre of articles for the past few year has been a SemVer Critique, pointing out various\nthings that are wrong with SemVer itself, or with the way SemVer is being applied, and, customarily,\nsuggesting an alternative versioning scheme. Usually, the focus is either on how SemVer ought to be\nused, by library authors (nitpicking the definition of a breaking change), or on how SemVer is (not)\nuseful for a library consumer (nitpicking the definition of a breaking change).",
           "link": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
           "publishedOn": "2024-11-23T00:00:00.000Z",
-          "wordCount": 1500,
+          "wordCount": 1508,
           "title": "SemVer Is Not About You",
           "imageUrl": null
         }
@@ -100,16 +89,6 @@
           "wordCount": 869,
           "title": "Interesting Links for November 2024",
           "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/posts/repling-with-haskeline/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>So you went ahead and created a new programming language, with an AST, a parser, and an interpreter. And now you hate how you have to write the programs in your new language in files to run them? You need a <a href=\"https://en.wikipedia.org/wiki/REPL\" target=\"_blank\" rel=\"noopener\">REPL</a>! In this post, we’ll create a shiny REPL with lots of nice features using the Haskeline library to go along with your new PL that you implemented in Haskell.</p>",
-          "link": "https://abhinavsarkar.net/posts/repling-with-haskeline/?mtm_campaign=feed",
-          "publishedOn": "2024-10-31T00:00:00.000Z",
-          "wordCount": 5783,
-          "title": "Going REPLing with Haskeline",
-          "imageUrl": "https://abhinavsarkar.net/images/repling-with-haskeline/preview.png"
         }
       ]
     },
@@ -124,7 +103,7 @@
           "description": "A few years ago, we wrote csFastFloat, a C# library to parse floating-point numbers faster. Given the string “3.1416”, it computes the binary value 3.1416. The functionality of the library is equivalent to the C# function Double.Parse. except that it runs faster. We contributed much of the library to .NET, and as of .NET 7: … Continue reading Parsing floats at over a gigabyte per second in C#",
           "link": "https://lemire.me/blog/2024/11/21/parsing-floats-at-over-a-gigabyte-per-second-in-c/",
           "publishedOn": "2024-11-21T23:42:22.000Z",
-          "wordCount": 2809,
+          "wordCount": 2812,
           "title": "Parsing floats at over a gigabyte per second in C#",
           "imageUrl": null
         },
@@ -134,7 +113,7 @@
           "description": "Though I have many brilliant graduate students, I love working with undergraduate students. And I am not at all sure that you should favor people with graduate degrees, given a choice. Many graduate students tend to favor abstraction over practical skills. They often have an idealized view of the world. Moreover, these students are often … Continue reading Graduate degrees are overrated",
           "link": "https://lemire.me/blog/2024/11/12/graduate-degrees-are-overrated/",
           "publishedOn": "2024-11-12T17:39:24.000Z",
-          "wordCount": 2921,
+          "wordCount": 2924,
           "title": "Graduate degrees are overrated",
           "imageUrl": null
         },
@@ -144,7 +123,7 @@
           "description": "Recent versions of the C++ language (C++20 and C++23) may allow you to change drastically how you program in C++. I want to provide some fun examples. Thanks to the integration of the features from the popular fmt library, it is much easier to format strings elegantly in C++. In turn the fmt library was … Continue reading Having fun with modern C++",
           "link": "https://lemire.me/blog/2024/11/02/having-fun-with-modern-c/",
           "publishedOn": "2024-11-02T00:24:09.000Z",
-          "wordCount": 3365,
+          "wordCount": 3460,
           "title": "Having fun with modern C++",
           "imageUrl": null
         }
