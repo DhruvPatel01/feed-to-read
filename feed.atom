@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-01T01:25:24.342Z</id>
+    <id>urn:2024-12-08T01:20:18.905Z</id>
     <title>osmos::feed</title>
-    <updated>2024-12-01T01:25:24.342Z</updated>
+    <updated>2024-12-08T01:20:18.905Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -128,16 +128,6 @@ aspects. In a year this article will mostly be a historical footnote,
 which is simultaneously exciting and …]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Having fun with modern C++]]></title>
-        <id>https://lemire.me/blog/?p=21753</id>
-        <link href="https://lemire.me/blog/2024/11/02/having-fun-with-modern-c/"/>
-        <updated>2024-11-02T00:24:09.000Z</updated>
-        <summary type="html"><![CDATA[Recent versions of the C++ language (C++20 and C++23) may allow you to change drastically how you program in C++. I want to provide some fun examples. Thanks to the integration of the features from the popular fmt library, it is much easier to format strings elegantly in C++. In turn the fmt library was … Continue reading Having fun with modern C++]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

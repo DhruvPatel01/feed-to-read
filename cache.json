@@ -28,7 +28,7 @@
           "description": "By: Rajiv Shringi, Oleksii Tkachuk, Kartik Sathyanarayanan",
           "link": "https://netflixtechblog.com/netflixs-distributed-counter-abstraction-8d0c45eb66b2?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-11-12T20:45:23.000Z",
-          "wordCount": 9218,
+          "wordCount": 9209,
           "title": "Netflix’s Distributed Counter Abstraction",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Yusg6kC9Jj9ayjbi"
         }
@@ -115,16 +115,6 @@
           "publishedOn": "2024-11-12T17:39:24.000Z",
           "wordCount": 2924,
           "title": "Graduate degrees are overrated",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21753",
-          "author": "Daniel Lemire",
-          "description": "Recent versions of the C++ language (C++20 and C++23) may allow you to change drastically how you program in C++. I want to provide some fun examples. Thanks to the integration of the features from the popular fmt library, it is much easier to format strings elegantly in C++. In turn the fmt library was … Continue reading Having fun with modern C++",
-          "link": "https://lemire.me/blog/2024/11/02/having-fun-with-modern-c/",
-          "publishedOn": "2024-11-02T00:24:09.000Z",
-          "wordCount": 3460,
-          "title": "Having fun with modern C++",
           "imageUrl": null
         }
       ]
