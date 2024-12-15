@@ -4,41 +4,30 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2024/11/10/",
-          "author": null,
-          "description": "This article was discussed on Hacker News.\nOver the past month I’ve been exploring the rapidly evolving world of\nLarge Language Models (LLM). It’s now accessible enough to run a LLM on a\nRaspberry Pi smarter than the original ChatGPT (November 2022). A modest\ndesktop or laptop supports even smarter AI. It’s also private, offline,\nunlimited, and registration-free. The technology is improving at breakneck\nspeed, and information is outdated in a matter of months. This article\nsnapshots my practical, hands-on knowledge and experiences — information I\nwish I had when starting. Keep in mind that I’m a LLM layman, I have no\nnovel insights to share, and it’s likely I’ve misunderstood certain\naspects. In a year this article will mostly be a historical footnote,\nwhich is simultaneously exciting and …",
-          "link": "https://nullprogram.com/blog/2024/11/10/",
-          "publishedOn": "2024-11-10T05:05:20.000Z",
-          "wordCount": 4807,
-          "title": "Everything I've learned so far about running local LLMs",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/8d0c45eb66b2",
-          "author": "Netflix Technology Blog",
-          "description": "By: Rajiv Shringi, Oleksii Tkachuk, Kartik Sathyanarayanan",
-          "link": "https://netflixtechblog.com/netflixs-distributed-counter-abstraction-8d0c45eb66b2?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-11-12T20:45:23.000Z",
-          "wordCount": 9209,
-          "title": "Netflix’s Distributed Counter Abstraction",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Yusg6kC9Jj9ayjbi"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2024/12/09/community-survey-2024.html",
+          "author": null,
+          "description": "We are proud to announce the launch of the official\n2024 Nim Community Survey!\nNo matter whether you use Nim today, have used Nim previously, or never used Nim before;\nwe want to know your opinions.\nYour feedback will help the Nim project understand its strengths and\nweaknesses, and to determine development priorities for the future.\nIt shouldn’t take you much longer than 5 minutes to complete this survey.\nSubmissions will be accepted until the start of 2025, depending on the\nresponse rates.\nIf you have any questions or feedback, please don’t hesitate\nto get in touch with us via email at survey@nim-lang.org or on the\nNim Forum.\nThis is now the eight year in which this survey has been running.\nAn analysis of the results for the past years can be found at the following links:\n2016\n2017\n2018\n2019\n2020\n2021\n2023\nWe would appreciate your help in spreading the word about this survey.\nShare the Google Forms link on your social network feeds, with your colleagues\nand in other communities.\nOnce the submission period ends, the results will be shown here and publicized\nvia the Nim Forum.\nThanks for your time!",
+          "link": "https://nim-lang.org//blog/2024/12/09/community-survey-2024.html",
+          "publishedOn": "2024-12-09T00:00:00.000Z",
+          "wordCount": 346,
+          "title": "Launching the 2024 Nim Community Survey",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        }
+      ]
     },
     {
       "title": null,
@@ -51,6 +40,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2024/12/13/majjit-lsp.html",
+          "author": null,
+          "description": "An out-there suggestion for the nascent jj ecosystem!",
+          "link": "https://matklad.github.io/2024/12/13/majjit-lsp.html",
+          "publishedOn": "2024-12-13T00:00:00.000Z",
+          "wordCount": 1475,
+          "title": "Majjit LSP",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
           "author": null,
@@ -98,23 +97,23 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21773",
+          "author": "Daniel Lemire",
+          "description": "A data structure in programming is a specific way of organizing and storing data in a computer so that it can be accessed and used efficiently. In woodworking or metalworking, a jig holds a piece of work and guides the tools operating on it. It helps to produce consistent results. The simplest jig is probably … Continue reading Data structures as jigs for programmers (Go edition)",
+          "link": "https://lemire.me/blog/2024/12/08/data-structures-as-jigs-for-programmers-go-edition/",
+          "publishedOn": "2024-12-08T21:04:01.000Z",
+          "wordCount": 7011,
+          "title": "Data structures as jigs for programmers (Go edition)",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21766",
           "author": "Daniel Lemire",
           "description": "A few years ago, we wrote csFastFloat, a C# library to parse floating-point numbers faster. Given the string “3.1416”, it computes the binary value 3.1416. The functionality of the library is equivalent to the C# function Double.Parse. except that it runs faster. We contributed much of the library to .NET, and as of .NET 7: … Continue reading Parsing floats at over a gigabyte per second in C#",
           "link": "https://lemire.me/blog/2024/11/21/parsing-floats-at-over-a-gigabyte-per-second-in-c/",
           "publishedOn": "2024-11-21T23:42:22.000Z",
-          "wordCount": 2812,
+          "wordCount": 2829,
           "title": "Parsing floats at over a gigabyte per second in C#",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21763",
-          "author": "Daniel Lemire",
-          "description": "Though I have many brilliant graduate students, I love working with undergraduate students. And I am not at all sure that you should favor people with graduate degrees, given a choice. Many graduate students tend to favor abstraction over practical skills. They often have an idealized view of the world. Moreover, these students are often … Continue reading Graduate degrees are overrated",
-          "link": "https://lemire.me/blog/2024/11/12/graduate-degrees-are-overrated/",
-          "publishedOn": "2024-11-12T17:39:24.000Z",
-          "wordCount": 2924,
-          "title": "Graduate degrees are overrated",
           "imageUrl": null
         }
       ]
