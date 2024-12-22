@@ -4,13 +4,65 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2024/12/20/",
+          "author": null,
+          "description": "GCC and Clang inline assembly is an interface between high and low level\nprogramming languages. It is subtle and treacherous. Many are ensnared in\nits traps, usually unknowingly. As such, the asm keyword is essentially\nthe unsafe keyword of C and C++. Nearly every inline assembly tutorial,\nincluding the awful ibilio page at the top of search engines for\ndecades, propagate fundamental, serious mistakes, and most examples are\nincorrect. The dangerous part is that the examples usually produce the\nexpected results! The situation is dire. This article isn’t a tutorial,\nbut basic rules to avoid the most common mistakes, or to spot them in code\nreview.\nThe focus is entirely extended assembly, and not basic assembly,\nwhich has different rules. The former is any inline assembly statement\nwith const…",
+          "link": "https://nullprogram.com/blog/2024/12/20/",
+          "publishedOn": "2024-12-20T19:46:48.000Z",
+          "wordCount": 1150,
+          "title": "Rules to avoid common extended inline assembly mistakes",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/d2fb8e9ba1c6",
+          "author": "Netflix Technology Blog",
+          "description": "David J. Berg*, David Casler^, Romain Cledat*, Qian Huang*, Rui Lin*, Nissan Pow*, Nurcan Sonmez*, Shashank Srikanth*, Chaoying Wang*…",
+          "link": "https://netflixtechblog.com/introducing-configurable-metaflow-d2fb8e9ba1c6?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-12-20T07:11:37.000Z",
+          "wordCount": 6583,
+          "title": "Introducing Configurable Metaflow",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1143/1*XrOVl25ZLx8_4nHLRxNgDg.png"
+        },
+        {
+          "id": "https://medium.com/p/d761cfd551ee",
+          "author": "Netflix Technology Blog",
+          "description": "This article is the first in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…",
+          "link": "https://netflixtechblog.com/part-1-a-survey-of-analytics-engineering-work-at-netflix-d761cfd551ee?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-12-17T23:26:37.000Z",
+          "wordCount": 3797,
+          "title": "Part 1: A Survey of Analytics Engineering Work at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:625/0*gUgNHuu6yqKdfbgg"
+        },
+        {
+          "id": "https://medium.com/p/f2a142955f83",
+          "author": "Netflix Technology Blog",
+          "description": "By J Han, Pallavi Phadnis",
+          "link": "https://netflixtechblog.com/cloud-efficiency-at-netflix-f2a142955f83?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-12-17T22:17:29.000Z",
+          "wordCount": 2803,
+          "title": "Cloud Efficiency at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*vDQJiJUttlRSpVBo"
+        },
+        {
+          "id": "https://medium.com/p/c88c586629eb",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-c88c586629eb?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-12-17T21:54:37.000Z",
+          "wordCount": null,
+          "title": "Title Launch Observability at Netflix Scale",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Nim Programming Language",
@@ -72,24 +124,24 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "https://samwho.dev/rss.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://samwho.dev/turing-machines/",
+          "author": null,
+          "description": "body {\n    text-wrap: pretty;\n  }\n\n  @media (prefers-reduced-motion: reduce) {\n    * {\n      transition: none;\n      animation: none;\n    }\n  }\n\n  turing-machine {\n    width: 100%;\n    display: block;\n    position: relative;\n    padding-bottom: 1em;\n  }\n\n  turing-machine .program-container {\n    position: relative;\n    display: flex;\n    justify-content: center;\n  }\n\n  turing-machine table {\n    border: none;\n    font-family: Fira Code;\n    border-collapse: collapse;\n    border-spacing: 0;\n    margin: 1px;\n    margin-top: 0.5em;\n    width: auto;\n  }\n\n  turing-machine thead td {\n    text-align: center;\n  }\n\n  turing-machine td {\n    text-align: left;\n    padding-left: 3vw;\n    padding-right: 3vw;\n    padding-top: 0.2em;\n    padding-bottom: 0.2em;\n    border: 1px dashed #bbbbbb;\n  }\n\n  turin…",
+          "link": "https://samwho.dev/turing-machines/",
+          "publishedOn": "2024-12-20T00:00:00.000Z",
+          "wordCount": 4371,
+          "title": "Turing Machines",
+          "imageUrl": "https://samwho.dev/images/turing-machines-og.png?h=6567026e8884fb88a389"
+        }
+      ]
     },
     {
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
-      "articles": [
-        {
-          "id": "https://notes.abhinavsarkar.net/2024/links-11",
-          "author": null,
-          "description": "<p>A special <em>Programming Languages: Theory, Design and Implementation</em> edition of some interesting articles I recently read on the internet:</p>\n\n<ul>\n  <li>\n    <p>There is something amazing about making your own programming language. In <a href=\"https://ntietz.com/blog/you-should-make-a-new-terrible-programming-language/\">“You Should Make a New Programming Language”</a> Nicole Tietz-Sokolsaya puts forward some great reasons to do the same, but I do it just for the sheer excitement of witnessing a program written in my own language run.</p>\n  </li>\n  <li>\n    <p>Why aren’t there programming languages that are convenient to write but slow by default, and allow the programmer to drop to a harder to write but more performant form, if required? Alex Kladov ponders on this question in <a href=\"https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html\">“On Ousterhout’s Dichotomy”</a>, and offers a possible solution.</p>\n  </li>\n  <li>\n    <p>I am big fan of <a href=\"https://en.wikipedia.org/wiki/Algebraic_data_type\"><em>Algebraic data types</em></a>, and consider them an indispensable tool in the modern programmers’ toolbox. In <a href=\"https://blog.poisson.chat/posts/2024-07-26-adt-history.html\">“Where Does the Name ‘Algebraic Data Type’ Come From?”</a> Li-yao Xia investigates the possible sources of the name, going back to the programming languages from half a century ago.</p>\n  </li>\n  <li>\n    <p>Follow Casey Rodarmor through the rabbithole to learn where an unexpected newline character comes from in this entertaining and <a href=\"https://dl.acm.org/doi/10.1145/358198.358210\">enlightening</a> article <a href=\"https://casey.github.io/blog/whence-newline/\">“Whence ‘\\n’?”</a>.</p>\n  </li>\n  <li>\n    <p><a href=\"https://jaspervdj.be/posts/2024-08-21-turnstyle.html\">Turnstyle</a> is an esoteric, graphical functional language by Jasper Van der Jeugt. I have never seem anything like it before. It’s truly mind-blowing and I’m still trying to understand how it works.</p>\n  </li>\n  <li>\n    <p>As good programmers, we try to stay away from the dark corners of programming languages, but Justine Tunney takes a head-first dive into them and comes up with an enthralling tale in the article <a href=\"https://justine.lol/lex/\">“Weird Lexical Syntax”</a>.</p>\n  </li>\n  <li>\n    <p>I am not going to lie, I love Lisps! I must have implemented at least a dozen of them by now. If you are like me, you may have wondered <a href=\"https://eli.thegreenplace.net/2022/why-is-it-easy-to-implement-a-lisp/\">“Why Is It Easy to Implement a Lisp?”</a>. Eli Bendersky puts forward a compelling argument.</p>\n  </li>\n  <li>\n    <p>How better to implement a fast (and small) Lisp than to compile it to LLVM IR. Using Clojure this time, John Jacobsen showcases it in <a href=\"http://johnj.com/posts/to-the-metal/\">“To The Metal… Compiling Your Own Language(s)”</a>.</p>\n  </li>\n  <li>\n    <p>Phil Eaton takes an ingenious approach for <a href=\"https://notes.eatonphil.com/compiling-dynamic-programming-languages.html\">“Compiling Dynamic Programming Languages”</a>, one that has never occurred to me before, but now will be a part of my toolbox forever.</p>\n  </li>\n  <li>\n    <p>Here’s another technique that I was only vaguely familiar with: JIT compilation using macros. In <a href=\"https://cuddly-octo-palm-tree.com/posts/2021-02-14-eval-opti/\">“Runtime Optimization with Eval”</a> Gary Verhaegen demonstrates this technique using Clojure.</p>\n  </li>\n  <li>\n    <p>When compiling dynamically typed programming languages, we need to tag pointers to data with the runtime type information. In <a href=\"https://coredumped.dev/2024/09/09/what-is-the-best-pointer-tagging-method/\">“What Is the Best Pointer Tagging Method?”</a> Troy Hinckley describes some good ways of doing the same.</p>\n  </li>\n  <li>\n    <p>I relish Max Bernstein’s articles about programming language implementation techniques. In <a href=\"https://bernsteinbear.com/blog/whats-in-an-egraph/\">“What’s in an e-graph?”</a> they describe an optimization technique using e-graphs used in compilers.</p>\n  </li>\n  <li>\n    <p>I love atypical uses of Programming Language Theory. Adam Dueck explains their PLT adventure in <a href=\"https://adueck.github.io/blog/how-i-learned-pashto-grammar-through-programming-syntax-trees/\">“How I Learned Pashto Grammar Through Programming Syntax Trees”</a>.</p>\n  </li>\n  <li>\n    <p>Brainfuck, the most popular of esoteric programming languages, has been a lot on my mind recently. And who better to learn about compiling BF from than Wilfred Hughes. In <a href=\"https://www.wilfred.me.uk/blog/2015/08/29/an-optimising-bf-compiler/\">“An Optimising BF Compiler”</a> they go over the algorithms they used to write <a href=\"https://bfc.wilfred.me.uk/\">“An Industrial-Grade Brainfuck Compiler”</a>.</p>\n  </li>\n  <li>\n    <p>And lastly, from the wicked mind of Srijan Paul, comes a twist: <a href=\"https://injuly.in/blog/bfinbf/index.html\">“Compiling to Brainf#ck”</a> about their programming language Meep that, you guessed right, compiles to BF.</p>\n  </li>\n</ul>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/113516066682728028\" class=\"mastodon-link\">Mastodon</a>.</p>",
-          "link": "https://notes.abhinavsarkar.net/2024/links-11",
-          "publishedOn": "2024-11-20T00:00:00.000Z",
-          "wordCount": 869,
-          "title": "Interesting Links for November 2024",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Daniel Lemire's blog",
@@ -97,23 +149,33 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21789",
+          "author": "Daniel Lemire",
+          "description": "Parsing text files is often confusing irrespective of your programming language. It can also be surprising slow. As an example, let us consider the following problem. You have a comma-separated-value file. It is a text file made of several lines and each line is separated into fields by a comma. Excel spreadsheets are often exported … Continue reading Simpler and faster parsing code with std::views::split",
+          "link": "https://lemire.me/blog/2024/12/21/simpler-and-faster-parsing-code-with-stdviewssplit/",
+          "publishedOn": "2024-12-21T21:35:13.000Z",
+          "wordCount": 3183,
+          "title": "Simpler and faster parsing code with std::views::split",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21776",
+          "author": "Daniel Lemire",
+          "description": "In C++, it might be reasonable to represent a URL using a class or a struct made of several strings, like so: struct basic { std::string protocol; std::string username; std::string password; std::string hostname; std::string port; std::string pathname; std::string search; std::string hash; }; To associate each component with an index, we can use an enum class: … Continue reading Accessing the attributes of a struct in C++ as array elements?",
+          "link": "https://lemire.me/blog/2024/12/16/accessing-the-attributes-of-a-struct-in-c-as-array-elements/",
+          "publishedOn": "2024-12-16T00:55:17.000Z",
+          "wordCount": 3369,
+          "title": "Accessing the attributes of a struct in C++ as array elements?",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21773",
           "author": "Daniel Lemire",
           "description": "A data structure in programming is a specific way of organizing and storing data in a computer so that it can be accessed and used efficiently. In woodworking or metalworking, a jig holds a piece of work and guides the tools operating on it. It helps to produce consistent results. The simplest jig is probably … Continue reading Data structures as jigs for programmers (Go edition)",
           "link": "https://lemire.me/blog/2024/12/08/data-structures-as-jigs-for-programmers-go-edition/",
           "publishedOn": "2024-12-08T21:04:01.000Z",
-          "wordCount": 7011,
+          "wordCount": 7062,
           "title": "Data structures as jigs for programmers (Go edition)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21766",
-          "author": "Daniel Lemire",
-          "description": "A few years ago, we wrote csFastFloat, a C# library to parse floating-point numbers faster. Given the string “3.1416”, it computes the binary value 3.1416. The functionality of the library is equivalent to the C# function Double.Parse. except that it runs faster. We contributed much of the library to .NET, and as of .NET 7: … Continue reading Parsing floats at over a gigabyte per second in C#",
-          "link": "https://lemire.me/blog/2024/11/21/parsing-floats-at-over-a-gigabyte-per-second-in-c/",
-          "publishedOn": "2024-11-21T23:42:22.000Z",
-          "wordCount": 2829,
-          "title": "Parsing floats at over a gigabyte per second in C#",
           "imageUrl": null
         }
       ]
