@@ -11,7 +11,7 @@
           "description": "GCC and Clang inline assembly is an interface between high and low level\nprogramming languages. It is subtle and treacherous. Many are ensnared in\nits traps, usually unknowingly. As such, the asm keyword is essentially\nthe unsafe keyword of C and C++. Nearly every inline assembly tutorial,\nincluding the awful ibilio page at the top of search engines for\ndecades, propagate fundamental, serious mistakes, and most examples are\nincorrect. The dangerous part is that the examples usually produce the\nexpected results! The situation is dire. This article isn’t a tutorial,\nbut basic rules to avoid the most common mistakes, or to spot them in code\nreview.\nThe focus is entirely extended assembly, and not basic assembly,\nwhich has different rules. The former is any inline assembly statement\nwith const…",
           "link": "https://nullprogram.com/blog/2024/12/20/",
           "publishedOn": "2024-12-20T19:46:48.000Z",
-          "wordCount": 1150,
+          "wordCount": 1151,
           "title": "Rules to avoid common extended inline assembly mistakes",
           "imageUrl": null
         }
@@ -55,12 +55,12 @@
         {
           "id": "https://medium.com/p/c88c586629eb",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "Part 1: Understanding The Challenges",
           "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-c88c586629eb?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-12-17T21:54:37.000Z",
-          "wordCount": null,
+          "wordCount": 2936,
           "title": "Title Launch Observability at Netflix Scale",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*5F9ATQbyOp99jMwJ"
         }
       ]
     },
@@ -69,6 +69,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2024/12/24/nim-2014-released.html",
+          "author": null,
+          "description": "The Nim team is happy to announce Nim version 2.0.14, our seventh patch release for Nim 2.0,\nfor our users who haven’t switched yet to Nim 2.2.\nVersion 2.0.14 contains 40 commits, and it brings several improvements to Nim 2.0.12, released two months ago.\nInstalling Nim 2.0.14\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.0.14 is as easy as:\n$ choosenim update self\n$ choosenim 2.0.14\n\nMake sure that the version of choosenim you have installed is 0.8.5 or higher, otherwise visit choosenim’s repo and see there how to re-install it first, before updating Nim.\nAlternatively, you can download Nim 2.0.14 from\nour nightlies builds.\nNim Community Survey 2024\nWe would like to remind you about Nim Community Survey.\nIf you haven’t participated yet, now’s the time.\nIt shouldn’t take more than 5 minutes, and it helps us to make Nim better.\nBugfixes\nThese reported issues were fixed:\nFixed “ensureMove usage leading to memory leak for JsonNode !”\n(#24504)\nFixed “UB calling allocCStringArray([\"\"]) with --mm:refc”\n(#22153)\nFixed “Regression when using generic type with Table/OrderedTable”\n(#23233)\nFixed “Wrong C code generated for newSeqWith when initializing two variables”\n(#18104)\nFixed “Wrong behaviour when wrapping a constant  object variant into a sequence at runtime”\n(#23295)\nFixed “Invalid C code generated for lent array in tuple”\n(#24034)\nFixed “Seg fault when adding deque element”\n(#24319)\nFixed “C compiler error when default initializing an object field function when the default function is overloaded”\n(#23545)\nFixed “build failed for lib/pure/selectors via mingw”\n(#24371)\nFixed “Calling proc with nested ref/deref constructed object results in invalid generated code”\n(#18081)\nFixed “let symbol created by template is reused in nimvm branch “\n(#24472)\nFixed “building nimble 0.16.4 fails when running build_all.sh”\n(#24536)\nThe complete list of changes is available\nhere.",
+          "link": "https://nim-lang.org//blog/2024/12/24/nim-2014-released.html",
+          "publishedOn": "2024-12-24T00:00:00.000Z",
+          "wordCount": 442,
+          "title": "Nim version 2.0.14 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2024/12/09/community-survey-2024.html",
           "author": null,
@@ -93,6 +103,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2024/12/24/minimal-version-selection-revisited.html",
+          "author": null,
+          "description": "In this post, I want to highlight one aspect of Go-style minimal version selection that I have\nmissed completely at first. Maybe you missed it too?",
+          "link": "https://matklad.github.io/2024/12/24/minimal-version-selection-revisited.html",
+          "publishedOn": "2024-12-24T00:00:00.000Z",
+          "wordCount": 1320,
+          "title": "Minimal Version Selection Revisited",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2024/12/13/majjit-lsp.html",
           "author": null,
           "description": "An out-there suggestion for the nascent jj ecosystem!",
@@ -100,16 +120,6 @@
           "publishedOn": "2024-12-13T00:00:00.000Z",
           "wordCount": 1475,
           "title": "Majjit LSP",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
-          "author": null,
-          "description": "A popular genre of articles for the past few year has been a SemVer Critique, pointing out various\nthings that are wrong with SemVer itself, or with the way SemVer is being applied, and, customarily,\nsuggesting an alternative versioning scheme. Usually, the focus is either on how SemVer ought to be\nused, by library authors (nitpicking the definition of a breaking change), or on how SemVer is (not)\nuseful for a library consumer (nitpicking the definition of a breaking change).",
-          "link": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
-          "publishedOn": "2024-11-23T00:00:00.000Z",
-          "wordCount": 1508,
-          "title": "SemVer Is Not About You",
           "imageUrl": null
         }
       ]
@@ -142,43 +152,6 @@
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
       "articles": []
-    },
-    {
-      "title": "Daniel Lemire's blog",
-      "feedUrl": "https://lemire.me/blog/feed/",
-      "siteUrl": "https://lemire.me/blog",
-      "articles": [
-        {
-          "id": "https://lemire.me/blog/?p=21789",
-          "author": "Daniel Lemire",
-          "description": "Parsing text files is often confusing irrespective of your programming language. It can also be surprising slow. As an example, let us consider the following problem. You have a comma-separated-value file. It is a text file made of several lines and each line is separated into fields by a comma. Excel spreadsheets are often exported … Continue reading Simpler and faster parsing code with std::views::split",
-          "link": "https://lemire.me/blog/2024/12/21/simpler-and-faster-parsing-code-with-stdviewssplit/",
-          "publishedOn": "2024-12-21T21:35:13.000Z",
-          "wordCount": 3183,
-          "title": "Simpler and faster parsing code with std::views::split",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21776",
-          "author": "Daniel Lemire",
-          "description": "In C++, it might be reasonable to represent a URL using a class or a struct made of several strings, like so: struct basic { std::string protocol; std::string username; std::string password; std::string hostname; std::string port; std::string pathname; std::string search; std::string hash; }; To associate each component with an index, we can use an enum class: … Continue reading Accessing the attributes of a struct in C++ as array elements?",
-          "link": "https://lemire.me/blog/2024/12/16/accessing-the-attributes-of-a-struct-in-c-as-array-elements/",
-          "publishedOn": "2024-12-16T00:55:17.000Z",
-          "wordCount": 3369,
-          "title": "Accessing the attributes of a struct in C++ as array elements?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21773",
-          "author": "Daniel Lemire",
-          "description": "A data structure in programming is a specific way of organizing and storing data in a computer so that it can be accessed and used efficiently. In woodworking or metalworking, a jig holds a piece of work and guides the tools operating on it. It helps to produce consistent results. The simplest jig is probably … Continue reading Data structures as jigs for programmers (Go edition)",
-          "link": "https://lemire.me/blog/2024/12/08/data-structures-as-jigs-for-programmers-go-edition/",
-          "publishedOn": "2024-12-08T21:04:01.000Z",
-          "wordCount": 7062,
-          "title": "Data structures as jigs for programmers (Go edition)",
-          "imageUrl": null
-        }
-      ]
     },
     {
       "title": "devever.net/~hl",

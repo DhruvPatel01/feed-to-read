@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-21 datetime="2024-12-21T21:35:13.000Z">2024-12-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-21 datetime="2024-12-21T21:35:13.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-24 datetime="2024-12-24T00:00:00.000Z">2024-12-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-24 datetime="2024-12-24T00:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -34,23 +34,101 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                  >Nim Programming Language</button>
+                  <a class="source-heading__link" href="https://nim-lang.org//">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21789"
+                        data-accordion-key="https://nim-lang.org//blog/2024/12/24/nim-2014-released.html"
                         open
                       >
-                        <summary class="article-expander__title">Simpler and faster parsing code with std::views::split</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/12/21/simpler-and-faster-parsing-code-with-stdviewssplit/">
+                        <summary class="article-expander__title">Nim version 2.0.14 released</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nim-lang.org//blog/2024/12/24/nim-2014-released.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://nim-lang.org/assets/img/twitter_banner.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The Nim team is happy to announce Nim version 2.0.14, our seventh patch release for Nim 2.0,
+for our users who haven’t switched yet to Nim 2.2.
+Version 2.0.14 contains 40 commits, and it brings several improvements to Nim 2.0.12, released two months ago.
+Installing Nim 2.0.14
+If you have installed a previous version of Nim using choosenim,
+getting Nim 2.0.14 is as easy as:
+$ choosenim update self
+$ choosenim 2.0.14
+
+Make sure that the version of choosenim you have installed is 0.8.5 or higher, otherwise visit choosenim’s repo and see there how to re-install it first, before updating Nim.
+Alternatively, you can download Nim 2.0.14 from
+our nightlies builds.
+Nim Community Survey 2024
+We would like to remind you about Nim Community Survey.
+If you haven’t participated yet, now’s the time.
+It shouldn’t take more than 5 minutes, and it helps us to make Nim better.
+Bugfixes
+These reported issues were fixed:
+Fixed “ensureMove usage leading to memory leak for JsonNode !”
+(#24504)
+Fixed “UB calling allocCStringArray([&quot;&quot;]) with --mm:refc”
+(#22153)
+Fixed “Regression when using generic type with Table/OrderedTable”
+(#23233)
+Fixed “Wrong C code generated for newSeqWith when initializing two variables”
+(#18104)
+Fixed “Wrong behaviour when wrapping a constant  object variant into a sequence at runtime”
+(#23295)
+Fixed “Invalid C code generated for lent array in tuple”
+(#24034)
+Fixed “Seg fault when adding deque element”
+(#24319)
+Fixed “C compiler error when default initializing an object field function when the default function is overloaded”
+(#23545)
+Fixed “build failed for lib/pure/selectors via mingw”
+(#24371)
+Fixed “Calling proc with nested ref/deref constructed object results in invalid generated code”
+(#18081)
+Fixed “let symbol created by template is reused in nimvm branch “
+(#24472)
+Fixed “building nimble 0.16.4 fails when running build_all.sh”
+(#24536)
+The complete list of changes is available
+here.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2024/12/24/minimal-version-selection-revisited.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Minimal Version Selection Revisited</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2024/12/24/minimal-version-selection-revisited.html">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Parsing text files is often confusing irrespective of your programming language. It can also be surprising slow. As an example, let us consider the following problem. You have a comma-separated-value file. It is a text file made of several lines and each line is separated into fields by a comma. Excel spreadsheets are often exported … Continue reading Simpler and faster parsing code with std::views::split</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                              <span>In this post, I want to highlight one aspect of Go-style minimal version selection that I have
+missed completely at first. Maybe you missed it too?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -309,54 +387,10 @@ with const…</span>
                         <summary class="article-expander__title">Title Launch Observability at Netflix Scale</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/title-launch-observability-at-netflix-scale-c88c586629eb?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*5F9ATQbyOp99jMwJ" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-16 datetime="2024-12-16T00:55:17.000Z">2024-12-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-16 datetime="2024-12-16T00:55:17.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21776"
-                        open
-                      >
-                        <summary class="article-expander__title">Accessing the attributes of a struct in C++ as array elements?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/12/16/accessing-the-attributes-of-a-struct-in-c-as-array-elements/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In C++, it might be reasonable to represent a URL using a class or a struct made of several strings, like so: struct basic { std::string protocol; std::string username; std::string password; std::string hostname; std::string port; std::string pathname; std::string search; std::string hash; }; To associate each component with an index, we can use an enum class: … Continue reading Accessing the attributes of a struct in C++ as array elements?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                              <span>Part 1: Understanding The Challenges</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -489,108 +523,10 @@ Thanks for your time!</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-08 datetime="2024-12-08T21:04:01.000Z">2024-12-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-08 datetime="2024-12-08T21:04:01.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;21773"
-                        open
-                      >
-                        <summary class="article-expander__title">Data structures as jigs for programmers (Go edition)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2024/12/08/data-structures-as-jigs-for-programmers-go-edition/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A data structure in programming is a specific way of organizing and storing data in a computer so that it can be accessed and used efficiently. In woodworking or metalworking, a jig holds a piece of work and guides the tools operating on it. It helps to produce consistent results. The simplest jig is probably … Continue reading Data structures as jigs for programmers (Go edition)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-11-23 datetime="2024-11-23T00:00:00.000Z">2024-11-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-11-23 datetime="2024-11-23T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >matklad</button>
-                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://matklad.github.io/2024/11/23/semver-is-not-about-you.html"
-                        open
-                      >
-                        <summary class="article-expander__title">SemVer Is Not About You</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2024/11/23/semver-is-not-about-you.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A popular genre of articles for the past few year has been a SemVer Critique, pointing out various
-things that are wrong with SemVer itself, or with the way SemVer is being applied, and, customarily,
-suggesting an alternative versioning scheme. Usually, the focus is either on how SemVer ought to be
-used, by library authors (nitpicking the definition of a breaking change), or on how SemVer is (not)
-useful for a library consumer (nitpicking the definition of a breaking change).</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/12449972868">
-        <time id="build-timestamp" datetime="2024-12-22T01:14:41.008Z">2024-12-22T01:14:41.008Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/12531246360">
+        <time id="build-timestamp" datetime="2024-12-29T01:15:04.170Z">2024-12-29T01:15:04.170Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
