@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-01T18:28:44.049Z</id>
+    <id>urn:2025-01-05T01:14:26.487Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-01T18:28:44.049Z</updated>
+    <updated>2025-01-05T01:14:26.487Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI]]></title>
+        <id>https://lemire.me/blog/?p=21813</id>
+        <link href="https://lemire.me/blog/2025/01/04/artificial-intelligence-as-the-experts-lever-elevating-human-expertise-in-the-age-of-ai/"/>
+        <updated>2025-01-04T17:37:14.000Z</updated>
+        <summary type="html"><![CDATA[The more likely outcome of the rise of generative artificial intelligence is higher value for the best experts… where ‘expert’ means ‘someone with experience solving real problems’. “While one may worry that AI will simply render expertise redundant and experts superfluous, history and economic logic suggest otherwise. AI is a tool, like a calculator or … Continue reading Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Setting up traffic monitoring using GoAccess]]></title>
+        <id>https://curiouscoding.nl/posts/goaccess-setup/</id>
+        <link href="https://curiouscoding.nl/posts/goaccess-setup/"/>
+        <updated>2025-01-03T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Nginx setup
+2 GoAccess configuration
+3 Systemd setup
+4 Serving the static file
+5 Serving live statistics
+6 GeoIP database
+GoAccess (goaccess.io, github) is a tool that analyses server logs and gives real-time
+statistics on network traffic.
+It took me some time to figure out exactly how to get the real-time websocket
+server working through Nginx, so I’m just sharing my configuration here.
+Install via your package manager, e.g. sudo pacman -S goaccess on Arch.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Part 2: A Survey of Analytics Engineering Work at Netflix]]></title>
+        <id>https://medium.com/p/4f1f53b4ab0f</id>
+        <link href="https://netflixtechblog.com/part-2-a-survey-of-analytics-engineering-work-at-netflix-4f1f53b4ab0f?source=rss----2615bd06b42e---4"/>
+        <updated>2025-01-02T21:07:11.000Z</updated>
+        <summary type="html"><![CDATA[This article is the second in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How does your URL parser handle Unicode?]]></title>
+        <id>https://lemire.me/blog/?p=21809</id>
+        <link href="https://lemire.me/blog/2025/01/02/how-does-your-url-parser-handle-unicode/"/>
+        <updated>2025-01-02T16:07:31.000Z</updated>
+        <summary type="html"><![CDATA[Most strings today in software are Unicode strings. It means that you can include mathematical symbols, emojis and so forth. There are many different versions of the letter ‘M’, for example: the Roman letter M (U+004D) is semantically different from the Roman numeral Ⅿ (U+216F) while they both often have the same visual representation. John … Continue reading How does your URL parser handle Unicode?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Interesting Links for December 2024]]></title>
         <id>https://notes.abhinavsarkar.net/2024/links-12</id>
@@ -15,14 +66,14 @@ with some Haskell-in-practice articles:</p>
 
 <ul>
   <li>
-    <p>I like this new trend of making scripting dialects of full-fleged programming languages. Joining the
+    <p>I like this new trend of making scripting dialects of full-fledged programming languages. Joining the
 likes of <a href="https://babashka.org/">Babashka</a> and <a href="https://horstmann.com/unblog/2024-12-11/index.html">Small Java</a>
 is <a href="https://chrisdone.com/posts/hell/">Hell, a Shell scripting Haskell dialect</a> by Chris Done.
-I usually write my scripts in Python, but I sorely miss static typing and functional programming, so natually, I’m excited for Hell.
-It is in a nascent stage now, but hopefully, it will grow into something nice and useable.</p>
+I usually write my scripts in Python, but I sorely miss static typing and functional programming, so naturally, I’m excited for Hell.
+It is in a nascent stage now, but hopefully, it will grow into something nice and usable.</p>
   </li>
   <li>
-    <p>Haskell is notorious for being too complex. I really like this solid
+    <p>Many think that Haskell is too complex for real-world projects. I really like this solid
 advice by Patrick Thomson for putting Haskell in real-world use:
 <a href="https://blog.sumtypeofway.com/posts/fast-iteration-with-haskell.html">Towards Faster Iteration in Industrial Haskell</a>,
 where he writes about Haskell editors and tooling, GHC extensions, type system, building, and deployment.</p>
@@ -43,7 +94,7 @@ to create a custom workout plan for themselves.</p>
   <li>
     <p>For some unknown reasons, functional programming and music seem to mesh well together. Maybe it is
 because both have combinatorial and compositional natures. In <a href="https://blog.fmap.fr/posts/karplus-strong-sound-synthesis.html">Cheap Guitars and Drums in Haskell</a>,
-Alp Mestanogullari uses Haskell to do some digital audio synthesis by implementing the
+Alp Mestanogullari uses Haskell to do digital audio synthesis by implementing the
 <a href="https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis">Karplus-Strong algorithm</a>.</p>
   </li>
   <li>
@@ -51,7 +102,7 @@ Alp Mestanogullari uses Haskell to do some digital audio synthesis by implementi
 uses the Diagrams library to generate dynamic <a href="https://ogp.me/">OpenGraph</a> preview image for their website pages as detailed in
 <a href="https://thenegation.com/posts/haskell-diagrams-dynamic-og/">More Haskell Diagrams: Dynamic OpenGraph Images</a>.
 Currently I do this for my website in the crudest way possible: open the page in a browser manually
-and save a screenshot. Natually, I end up doing it only once per page and the previews are not dynamic.
+and save a screenshot. Naturally, I end up doing it only once per page and the previews are not dynamic.
 I plan to switch to using Vehbi’s technique in future.</p>
   </li>
 </ul>
@@ -61,13 +112,13 @@ I plan to switch to using Vehbi’s technique in future.</p>
 <ul>
   <li>
     <p>Water Sort is a puzzle game where you have to sort coloured water into bottles. In <a href="https://nicaudinet.github.io/2024/10/14/watersort-haskell/">Water Sort in Haskell</a>
-Nicolas Audinet de Pieuchon creates the game as a Terminal UI in Haskell using <a href="https://guide.elm-lang.org/architecture/">the Elm architecture</a>.
+Nicolas Audinet de Pieuchon creates the game as a terminal UI in Haskell using <a href="https://guide.elm-lang.org/architecture/">the Elm architecture</a>.
 I like how Haskell and functional programming make writing and understanding such software easy by
 cleanly separating the game logic and the rendering logic.</p>
   </li>
   <li>
     <p>I’ve done <a href="https://adventofcode.com">Avdent of Code</a> in Haskell for a couple of years now, and that has made me quite interested
-in efficient and convenient data structures in Haskell. Brent Yorgey has been writing about a bunch of them in
+in efficient and convenient data structures in Haskell. Brent Yorgey has written about a bunch of them in
 their <a href="https://byorgey.github.io/blog/tag/challenge.html">Competitive Programming in Haskell</a> series, and the latest article is about efficiently
 calculating a measure for sliding windows of lists: <a href="https://byorgey.github.io/blog/posts/2024/11/27/stacks-queues.html">Stacks, Queues, and Monoidal Sliding Windows</a>.</p>
   </li>
@@ -88,7 +139,7 @@ some of them may come handy some day.</p>
   <li>
     <p><code class="language-plaintext highlighter-rouge">fix</code> is one of those clever Haskell things that are very cool and terse but take a while to understand.
 In <a href="https://gilmi.me/blog/post/2021/03/11/fix-by-example"><code class="language-plaintext highlighter-rouge">fix</code> by Example</a> Gil Mizrahi explains how it
-works by providing movitating examples. But to be honest, I took me quite some tries to <strong>get</strong> it even
+works by providing motivating examples. But to be honest, I took me quite some tries to <strong>get</strong> it even
 after reading a bunch about it.</p>
   </li>
   <li>Arrows are a part of Haskell that I don’t much understand, or use. Haskell even has <a href="https://www.haskell.org/arrows/syntax.html">special syntax</a> for
@@ -109,12 +160,12 @@ resources in Haskell code.</p>
   </li>
   <li>
     <p>If you have read any Haskell code, you’d know that Haskellers love writing terse code (myself included).
-That includes using a lot of single-letter variable names, which may make code very unreable for an
-unacquainted eye. But there is a method to this madess, and Jack Kelly captures a comprehensive knowledge
-about such variables in <a href="http://jackkelly.name/blog/archives/2024/10/12/a_dictionary_of_single-letter_variable_names/index.html">A Dictionary of Single-Letter Variable Names</a>.</p>
+That includes using a lot of single-letter variable names, which may make the code very unreadable for an
+unacquainted eye. But there is a method to this madness, and Jack Kelly captures a comprehensive knowledge
+about such names in <a href="http://jackkelly.name/blog/archives/2024/10/12/a_dictionary_of_single-letter_variable_names/index.html">A Dictionary of Single-Letter Variable Names</a>.</p>
   </li>
-  <li>Stephen Diehl writes a through tutorial about how to generate X86 assembly from scratch for JIT compilation,
-and how to make is easy to use by exploiting a monadic interface
+  <li>Stephen Diehl writes a thorough tutorial about how to generate X86 assembly from scratch for <a href="https://en.wikipedia.org/wiki/Just-in-time_compilation">JIT compilation</a>,
+and how to make it easy by exploiting a monadic interface
 in <a href="https://www.stephendiehl.com/posts/monads_machine_code/">Monads to Machine Code</a>.</li>
 </ul>
 
@@ -141,6 +192,16 @@ more practical advances in the long term.</li>
         <summary type="html"><![CDATA[For whatever reason, I've been thinking about dependencies lately:]]></summary>
         <author>
             <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Efficient In-Place UTF-16 Unicode Correction with ARM NEON]]></title>
+        <id>https://lemire.me/blog/?p=21795</id>
+        <link href="https://lemire.me/blog/2024/12/29/efficient-in-place-utf-16-unicode-correction-with-arm-neon/"/>
+        <updated>2024-12-29T18:24:33.000Z</updated>
+        <summary type="html"><![CDATA[Modern-day text in software can be expected to be Unicode. Unicode is stored in two formats: UTF-8 and UTF-16. UTF-16 is an encoding system used by several platforms and applications to represent Unicode characters. Notably, Microsoft Windows employs UTF-16 for internal operations, file names, and registry keys, while Java and JavaScript use it for string … Continue reading Efficient In-Place UTF-16 Unicode Correction with ARM NEON]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -205,6 +266,16 @@ here.]]></summary>
 missed completely at first. Maybe you missed it too?]]></summary>
         <author>
             <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simpler and faster parsing code with std::views::split]]></title>
+        <id>https://lemire.me/blog/?p=21789</id>
+        <link href="https://lemire.me/blog/2024/12/21/simpler-and-faster-parsing-code-with-stdviewssplit/"/>
+        <updated>2024-12-21T21:35:13.000Z</updated>
+        <summary type="html"><![CDATA[Parsing text files is often confusing irrespective of your programming language. It can also be surprising slow. As an example, let us consider the following problem. You have a comma-separated-value file. It is a text file made of several lines and each line is separated into fields by a comma. Excel spreadsheets are often exported … Continue reading Simpler and faster parsing code with std::views::split]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -315,12 +386,13 @@ with const…]]></summary>
 1 Introduction
 
 1.1 Problem statement
-1.2 Recommended reading
-1.3 Binary search and Eytzinger layout
-1.4 Hugepages
-1.5 A note on benchmarking
-1.6 Cache lines
-1.7 S-trees and B-trees
+1.2 Motivation
+1.3 Recommended reading
+1.4 Binary search and Eytzinger layout
+1.5 Hugepages
+1.6 A note on benchmarking
+1.7 Cache lines
+1.8 S-trees and B-trees
 2 Optimizing find
 
 2.1 Linear
@@ -366,6 +438,8 @@ with const…]]></summary>
 7.1.3 Packing data smaller
 7.1.4 Returning indices in original data
 7.1.5 Range queries
+7.1.6 Sorting queries
+7.1.7 Suffix array searching
 In this post, we will implement a static search tree (S+ tree) for
 high-throughput searching of sorted data, as introduced on Algorithmica.
 We’ll mostly take the code presented there as a starting point, and optimize it
@@ -395,6 +469,16 @@ Lastly, there will be one big addition to optimize throughput: batching.]]></sum
         <summary type="html"><![CDATA[Part 1: Understanding The Challenges]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessing the attributes of a struct in C++ as array elements?]]></title>
+        <id>https://lemire.me/blog/?p=21776</id>
+        <link href="https://lemire.me/blog/2024/12/16/accessing-the-attributes-of-a-struct-in-c-as-array-elements/"/>
+        <updated>2024-12-16T00:55:17.000Z</updated>
+        <summary type="html"><![CDATA[In C++, it might be reasonable to represent a URL using a class or a struct made of several strings, like so: struct basic { std::string protocol; std::string username; std::string password; std::string hostname; std::string port; std::string pathname; std::string search; std::string hash; }; To associate each component with an index, we can use an enum class: … Continue reading Accessing the attributes of a struct in C++ as array elements?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -441,6 +525,16 @@ via the Nim Forum.
 Thanks for your time!]]></summary>
         <author>
             <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data structures as jigs for programmers (Go edition)]]></title>
+        <id>https://lemire.me/blog/?p=21773</id>
+        <link href="https://lemire.me/blog/2024/12/08/data-structures-as-jigs-for-programmers-go-edition/"/>
+        <updated>2024-12-08T21:04:01.000Z</updated>
+        <summary type="html"><![CDATA[A data structure in programming is a specific way of organizing and storing data in a computer so that it can be accessed and used efficiently. In woodworking or metalworking, a jig holds a piece of work and guides the tools operating on it. It helps to produce consistent results. The simplest jig is probably … Continue reading Data structures as jigs for programmers (Go edition)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
