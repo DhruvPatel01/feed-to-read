@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-05T01:14:26.487Z</id>
+    <id>urn:2025-01-12T01:15:35.320Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-05T01:14:26.487Z</updated>
+    <updated>2025-01-12T01:15:35.320Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[JavaScript hashing speed comparison: MD5 versus SHA-256]]></title>
+        <id>https://lemire.me/blog/?p=21825</id>
+        <link href="https://lemire.me/blog/2025/01/11/javascript-hashing-speed-comparison-md5-versus-sha-256/"/>
+        <updated>2025-01-11T16:21:18.000Z</updated>
+        <summary type="html"><![CDATA[Hashing algorithms convert input data into a fixed-size string of characters, known as a hash value or digest. These algorithms are one-way functions, meaning the original data cannot be feasibly retrieved from the hash, which makes them useful for data integrity, password storage, and digital signatures. MD5 and SHA-256 are two such hashing algorithms with … Continue reading JavaScript hashing speed comparison: MD5 versus SHA-256]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Counting the digits of 64-bit integers]]></title>
+        <id>https://lemire.me/blog/?p=21816</id>
+        <link href="https://lemire.me/blog/2025/01/07/counting-the-digits-of-64-bit-integers/"/>
+        <updated>2025-01-07T21:41:57.000Z</updated>
+        <summary type="html"><![CDATA[Given an integer in software, you may want to know how many decimal digits it needs. For example, the integer 100 requires 3 digits, the integer 9999 requires 4 digits. It would be an easy problem if we could compute the logarithm in base 10 of an integer quickly. Unfortunately, our computers work in base … Continue reading Counting the digits of 64-bit integers]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Title Launch Observability at Netflix Scale]]></title>
+        <id>https://medium.com/p/19ea916be1ed</id>
+        <link href="https://netflixtechblog.com/title-launch-observability-at-netflix-scale-19ea916be1ed?source=rss----2615bd06b42e---4"/>
+        <updated>2025-01-07T01:25:58.000Z</updated>
+        <summary type="html"><![CDATA[Part 2: Navigating Ambiguity]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Part 3: A Survey of Analytics Engineering Work at Netflix]]></title>
+        <id>https://medium.com/p/e67f0aa82183</id>
+        <link href="https://netflixtechblog.com/part-3-a-survey-of-analytics-engineering-work-at-netflix-e67f0aa82183?source=rss----2615bd06b42e---4"/>
+        <updated>2025-01-06T19:27:38.000Z</updated>
+        <summary type="html"><![CDATA[This article is the last in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving Advent of Code “Seating System” with Comonads and Stencils]]></title>
+        <id>https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed"/>
+        <updated>2025-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In this post, we solve the Advent of Code 2020 <a href="https://adventofcode.com/2020/day/11" target="_blank" rel="noopener">“Seating System”</a> challenge in Haskell using comonads and stencils.</p>]]></summary>
+        <author>
+            <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI]]></title>
         <id>https://lemire.me/blog/?p=21813</id>
@@ -477,62 +527,6 @@ Lastly, there will be one big addition to optimize throughput: batching.]]></sum
         <link href="https://lemire.me/blog/2024/12/16/accessing-the-attributes-of-a-struct-in-c-as-array-elements/"/>
         <updated>2024-12-16T00:55:17.000Z</updated>
         <summary type="html"><![CDATA[In C++, it might be reasonable to represent a URL using a class or a struct made of several strings, like so: struct basic { std::string protocol; std::string username; std::string password; std::string hostname; std::string port; std::string pathname; std::string search; std::string hash; }; To associate each component with an index, we can use an enum class: … Continue reading Accessing the attributes of a struct in C++ as array elements?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Majjit LSP]]></title>
-        <id>https://matklad.github.io/2024/12/13/majjit-lsp.html</id>
-        <link href="https://matklad.github.io/2024/12/13/majjit-lsp.html"/>
-        <updated>2024-12-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An out-there suggestion for the nascent jj ecosystem!]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launching the 2024 Nim Community Survey]]></title>
-        <id>https://nim-lang.org//blog/2024/12/09/community-survey-2024.html</id>
-        <link href="https://nim-lang.org//blog/2024/12/09/community-survey-2024.html"/>
-        <updated>2024-12-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are proud to announce the launch of the official
-2024 Nim Community Survey!
-No matter whether you use Nim today, have used Nim previously, or never used Nim before;
-we want to know your opinions.
-Your feedback will help the Nim project understand its strengths and
-weaknesses, and to determine development priorities for the future.
-It shouldn’t take you much longer than 5 minutes to complete this survey.
-Submissions will be accepted until the start of 2025, depending on the
-response rates.
-If you have any questions or feedback, please don’t hesitate
-to get in touch with us via email at survey@nim-lang.org or on the
-Nim Forum.
-This is now the eight year in which this survey has been running.
-An analysis of the results for the past years can be found at the following links:
-2016
-2017
-2018
-2019
-2020
-2021
-2023
-We would appreciate your help in spreading the word about this survey.
-Share the Google Forms link on your social network feeds, with your colleagues
-and in other communities.
-Once the submission period ends, the results will be shown here and publicized
-via the Nim Forum.
-Thanks for your time!]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data structures as jigs for programmers (Go edition)]]></title>
-        <id>https://lemire.me/blog/?p=21773</id>
-        <link href="https://lemire.me/blog/2024/12/08/data-structures-as-jigs-for-programmers-go-edition/"/>
-        <updated>2024-12-08T21:04:01.000Z</updated>
-        <summary type="html"><![CDATA[A data structure in programming is a specific way of organizing and storing data in a computer so that it can be accessed and used efficiently. In woodworking or metalworking, a jig holds a piece of work and guides the tools operating on it. It helps to produce consistent results. The simplest jig is probably … Continue reading Data structures as jigs for programmers (Go edition)]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
