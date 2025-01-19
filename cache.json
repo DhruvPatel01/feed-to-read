@@ -38,7 +38,7 @@
           "description": "This article is the last in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…",
           "link": "https://netflixtechblog.com/part-3-a-survey-of-analytics-engineering-work-at-netflix-e67f0aa82183?source=rss----2615bd06b42e---4",
           "publishedOn": "2025-01-06T19:27:38.000Z",
-          "wordCount": 4460,
+          "wordCount": 4463,
           "title": "Part 3: A Survey of Analytics Engineering Work at Netflix",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ar0t2-zF5YVuXnUe"
         },
@@ -51,46 +51,6 @@
           "wordCount": 4730,
           "title": "Part 2: A Survey of Analytics Engineering Work at Netflix",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*j2wKL4S3ywEs9mpf"
-        },
-        {
-          "id": "https://medium.com/p/d2fb8e9ba1c6",
-          "author": "Netflix Technology Blog",
-          "description": "David J. Berg*, David Casler^, Romain Cledat*, Qian Huang*, Rui Lin*, Nissan Pow*, Nurcan Sonmez*, Shashank Srikanth*, Chaoying Wang*…",
-          "link": "https://netflixtechblog.com/introducing-configurable-metaflow-d2fb8e9ba1c6?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-12-20T07:11:37.000Z",
-          "wordCount": 6583,
-          "title": "Introducing Configurable Metaflow",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1143/1*XrOVl25ZLx8_4nHLRxNgDg.png"
-        },
-        {
-          "id": "https://medium.com/p/d761cfd551ee",
-          "author": "Netflix Technology Blog",
-          "description": "This article is the first in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…",
-          "link": "https://netflixtechblog.com/part-1-a-survey-of-analytics-engineering-work-at-netflix-d761cfd551ee?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-12-17T23:26:37.000Z",
-          "wordCount": 3797,
-          "title": "Part 1: A Survey of Analytics Engineering Work at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:625/0*gUgNHuu6yqKdfbgg"
-        },
-        {
-          "id": "https://medium.com/p/f2a142955f83",
-          "author": "Netflix Technology Blog",
-          "description": "By J Han, Pallavi Phadnis",
-          "link": "https://netflixtechblog.com/cloud-efficiency-at-netflix-f2a142955f83?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-12-17T22:17:29.000Z",
-          "wordCount": 2803,
-          "title": "Cloud Efficiency at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*vDQJiJUttlRSpVBo"
-        },
-        {
-          "id": "https://medium.com/p/c88c586629eb",
-          "author": "Netflix Technology Blog",
-          "description": "Part 1: Understanding The Challenges",
-          "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-c88c586629eb?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-12-17T21:54:37.000Z",
-          "wordCount": 2942,
-          "title": "Title Launch Observability at Netflix Scale",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*5F9ATQbyOp99jMwJ"
         }
       ]
     },
@@ -154,18 +114,7 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "https://samwho.dev/rss.xml",
-      "articles": [
-        {
-          "id": "https://samwho.dev/turing-machines/",
-          "author": null,
-          "description": "body {\n    text-wrap: pretty;\n  }\n\n  @media (prefers-reduced-motion: reduce) {\n    * {\n      transition: none;\n      animation: none;\n    }\n  }\n\n  turing-machine {\n    width: 100%;\n    display: block;\n    position: relative;\n    padding-bottom: 1em;\n  }\n\n  turing-machine .program-container {\n    position: relative;\n    display: flex;\n    justify-content: center;\n  }\n\n  turing-machine table {\n    border: none;\n    font-family: Fira Code;\n    border-collapse: collapse;\n    border-spacing: 0;\n    margin: 1px;\n    margin-top: 0.5em;\n    width: auto;\n  }\n\n  turing-machine thead td {\n    text-align: center;\n  }\n\n  turing-machine td {\n    text-align: left;\n    padding-left: 3vw;\n    padding-right: 3vw;\n    padding-top: 0.2em;\n    padding-bottom: 0.2em;\n    border: 1px dashed #bbbbbb;\n  }\n\n  turin…",
-          "link": "https://samwho.dev/turing-machines/",
-          "publishedOn": "2024-12-20T00:00:00.000Z",
-          "wordCount": 4371,
-          "title": "Turing Machines",
-          "imageUrl": "https://samwho.dev/images/turing-machines-og.png?h=6567026e8884fb88a389"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Posts on abhinavsarkar.net",
@@ -200,12 +149,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21831",
+          "author": "Daniel Lemire",
+          "description": "Almost all of academic science has moved away from actual (empirical) science. It is higher status to work on theories and models. I believe that it is closely related to well documented scientific stagnation as theory is often ultimately sterile. This tendency is quite natural in academia if there is no outside pressure… And is … Continue reading The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
+          "link": "https://lemire.me/blog/2025/01/15/the-ivory-towers-drift-how-academias-preference-for-theory-over-empiricism-fuels-scientific-stagnation/",
+          "publishedOn": "2025-01-15T20:30:06.000Z",
+          "wordCount": 3344,
+          "title": "The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21825",
           "author": "Daniel Lemire",
           "description": "Hashing algorithms convert input data into a fixed-size string of characters, known as a hash value or digest. These algorithms are one-way functions, meaning the original data cannot be feasibly retrieved from the hash, which makes them useful for data integrity, password storage, and digital signatures. MD5 and SHA-256 are two such hashing algorithms with … Continue reading JavaScript hashing speed comparison: MD5 versus SHA-256",
           "link": "https://lemire.me/blog/2025/01/11/javascript-hashing-speed-comparison-md5-versus-sha-256/",
           "publishedOn": "2025-01-11T16:21:18.000Z",
-          "wordCount": 2957,
+          "wordCount": 3339,
           "title": "JavaScript hashing speed comparison: MD5 versus SHA-256",
           "imageUrl": null
         },
@@ -215,7 +174,7 @@
           "description": "Given an integer in software, you may want to know how many decimal digits it needs. For example, the integer 100 requires 3 digits, the integer 9999 requires 4 digits. It would be an easy problem if we could compute the logarithm in base 10 of an integer quickly. Unfortunately, our computers work in base … Continue reading Counting the digits of 64-bit integers",
           "link": "https://lemire.me/blog/2025/01/07/counting-the-digits-of-64-bit-integers/",
           "publishedOn": "2025-01-07T21:41:57.000Z",
-          "wordCount": 5209,
+          "wordCount": 6302,
           "title": "Counting the digits of 64-bit integers",
           "imageUrl": null
         },
@@ -225,7 +184,7 @@
           "description": "The more likely outcome of the rise of generative artificial intelligence is higher value for the best experts… where ‘expert’ means ‘someone with experience solving real problems’. “While one may worry that AI will simply render expertise redundant and experts superfluous, history and economic logic suggest otherwise. AI is a tool, like a calculator or … Continue reading Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI",
           "link": "https://lemire.me/blog/2025/01/04/artificial-intelligence-as-the-experts-lever-elevating-human-expertise-in-the-age-of-ai/",
           "publishedOn": "2025-01-04T17:37:14.000Z",
-          "wordCount": 3104,
+          "wordCount": 3123,
           "title": "Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI",
           "imageUrl": null
         },
@@ -235,7 +194,7 @@
           "description": "Most strings today in software are Unicode strings. It means that you can include mathematical symbols, emojis and so forth. There are many different versions of the letter ‘M’, for example: the Roman letter M (U+004D) is semantically different from the Roman numeral Ⅿ (U+216F) while they both often have the same visual representation. John … Continue reading How does your URL parser handle Unicode?",
           "link": "https://lemire.me/blog/2025/01/02/how-does-your-url-parser-handle-unicode/",
           "publishedOn": "2025-01-02T16:07:31.000Z",
-          "wordCount": 3218,
+          "wordCount": 3237,
           "title": "How does your URL parser handle Unicode?",
           "imageUrl": null
         },
@@ -245,7 +204,7 @@
           "description": "Modern-day text in software can be expected to be Unicode. Unicode is stored in two formats: UTF-8 and UTF-16. UTF-16 is an encoding system used by several platforms and applications to represent Unicode characters. Notably, Microsoft Windows employs UTF-16 for internal operations, file names, and registry keys, while Java and JavaScript use it for string … Continue reading Efficient In-Place UTF-16 Unicode Correction with ARM NEON",
           "link": "https://lemire.me/blog/2024/12/29/efficient-in-place-utf-16-unicode-correction-with-arm-neon/",
           "publishedOn": "2024-12-29T18:24:33.000Z",
-          "wordCount": 3984,
+          "wordCount": 4003,
           "title": "Efficient In-Place UTF-16 Unicode Correction with ARM NEON",
           "imageUrl": null
         },
@@ -255,18 +214,8 @@
           "description": "Parsing text files is often confusing irrespective of your programming language. It can also be surprising slow. As an example, let us consider the following problem. You have a comma-separated-value file. It is a text file made of several lines and each line is separated into fields by a comma. Excel spreadsheets are often exported … Continue reading Simpler and faster parsing code with std::views::split",
           "link": "https://lemire.me/blog/2024/12/21/simpler-and-faster-parsing-code-with-stdviewssplit/",
           "publishedOn": "2024-12-21T21:35:13.000Z",
-          "wordCount": 3631,
+          "wordCount": 3650,
           "title": "Simpler and faster parsing code with std::views::split",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21776",
-          "author": "Daniel Lemire",
-          "description": "In C++, it might be reasonable to represent a URL using a class or a struct made of several strings, like so: struct basic { std::string protocol; std::string username; std::string password; std::string hostname; std::string port; std::string pathname; std::string search; std::string hash; }; To associate each component with an index, we can use an enum class: … Continue reading Accessing the attributes of a struct in C++ as array elements?",
-          "link": "https://lemire.me/blog/2024/12/16/accessing-the-attributes-of-a-struct-in-c-as-array-elements/",
-          "publishedOn": "2024-12-16T00:55:17.000Z",
-          "wordCount": 3461,
-          "title": "Accessing the attributes of a struct in C++ as array elements?",
           "imageUrl": null
         }
       ]
@@ -296,16 +245,6 @@
           "publishedOn": "2025-01-03T23:00:00.000Z",
           "wordCount": 1011,
           "title": "Setting up traffic monitoring using GoAccess",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/static-search-tree/",
-          "author": null,
-          "description": "Table of Contents\n1 Introduction\n\n1.1 Problem statement\n1.2 Motivation\n1.3 Recommended reading\n1.4 Binary search and Eytzinger layout\n1.5 Hugepages\n1.6 A note on benchmarking\n1.7 Cache lines\n1.8 S-trees and B-trees\n2 Optimizing find\n\n2.1 Linear\n2.2 Auto-vectorization\n2.3 Trailing zeros\n2.4 Popcount\n2.5 Manual SIMD\n3 Optimizing the search\n\n3.1 Batching\n3.2 Prefetching\n3.3 Pointer arithmetic\n\n3.3.1 Up-front splat\n3.3.2 Byte-based pointers\n3.3.3 The final version\n3.4 Skip prefetch\n3.5 Interleave\n4 Optimizing the tree layout\n\n4.1 Left-tree\n4.2 Memory layouts\n4.3 Node size \\(B=15\\)\n\n4.3.1 Data structure size\n4.4 Summary\n5 Prefix partitioning\n\n5.1 Full layout\n5.2 Compact subtrees\n5.3 The best of both: compact first level\n5.4 Overlapping trees\n5.5 Human data\n5.6 Prefix map\n5.7 Summary\n6 Multi-threaded comparison\n7 Conclusion\n\n7.1 Future work\n\n7.1.1 Branchy search\n7.1.2 Interpolation search\n7.1.3 Packing data smaller\n7.1.4 Returning indices in original data\n7.1.5 Range queries\n7.1.6 Sorting queries\n7.1.7 Suffix array searching\nIn this post, we will implement a static search tree (S+ tree) for\nhigh-throughput searching of sorted data, as introduced on Algorithmica.\nWe’ll mostly take the code presented there as a starting point, and optimize it\nto its limits. For a large part, I’m simply taking the ‘future work’ ideas of that post\nand implementing them. And then there will be a bunch of looking at assembly\ncode to shave off all the instructions we can.\nLastly, there will be one big addition to optimize throughput: batching.",
-          "link": "https://curiouscoding.nl/posts/static-search-tree/",
-          "publishedOn": "2024-12-17T23:00:00.000Z",
-          "wordCount": 13025,
-          "title": "Static search trees: 40x faster than binary search",
           "imageUrl": null
         }
       ]

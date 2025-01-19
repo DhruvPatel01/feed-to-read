@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-12T01:15:35.320Z</id>
+    <id>urn:2025-01-19T01:12:14.375Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-12T01:15:35.320Z</updated>
+    <updated>2025-01-19T01:12:14.375Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation]]></title>
+        <id>https://lemire.me/blog/?p=21831</id>
+        <link href="https://lemire.me/blog/2025/01/15/the-ivory-towers-drift-how-academias-preference-for-theory-over-empiricism-fuels-scientific-stagnation/"/>
+        <updated>2025-01-15T20:30:06.000Z</updated>
+        <summary type="html"><![CDATA[Almost all of academic science has moved away from actual (empirical) science. It is higher status to work on theories and models. I believe that it is closely related to well documented scientific stagnation as theory is often ultimately sterile. This tendency is quite natural in academia if there is no outside pressure… And is … Continue reading The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript hashing speed comparison: MD5 versus SHA-256]]></title>
         <id>https://lemire.me/blog/?p=21825</id>
@@ -348,187 +358,6 @@ which has different rules. The former is any inline assembly statement
 with const…]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Configurable Metaflow]]></title>
-        <id>https://medium.com/p/d2fb8e9ba1c6</id>
-        <link href="https://netflixtechblog.com/introducing-configurable-metaflow-d2fb8e9ba1c6?source=rss----2615bd06b42e---4"/>
-        <updated>2024-12-20T07:11:37.000Z</updated>
-        <summary type="html"><![CDATA[David J. Berg*, David Casler^, Romain Cledat*, Qian Huang*, Rui Lin*, Nissan Pow*, Nurcan Sonmez*, Shashank Srikanth*, Chaoying Wang*…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turing Machines]]></title>
-        <id>https://samwho.dev/turing-machines/</id>
-        <link href="https://samwho.dev/turing-machines/"/>
-        <updated>2024-12-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[body {
-    text-wrap: pretty;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    * {
-      transition: none;
-      animation: none;
-    }
-  }
-
-  turing-machine {
-    width: 100%;
-    display: block;
-    position: relative;
-    padding-bottom: 1em;
-  }
-
-  turing-machine .program-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
-
-  turing-machine table {
-    border: none;
-    font-family: Fira Code;
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 1px;
-    margin-top: 0.5em;
-    width: auto;
-  }
-
-  turing-machine thead td {
-    text-align: center;
-  }
-
-  turing-machine td {
-    text-align: left;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    border: 1px dashed #bbbbbb;
-  }
-
-  turin…]]></summary>
-        <author>
-            <name>samwho.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Part 1: A Survey of Analytics Engineering Work at Netflix]]></title>
-        <id>https://medium.com/p/d761cfd551ee</id>
-        <link href="https://netflixtechblog.com/part-1-a-survey-of-analytics-engineering-work-at-netflix-d761cfd551ee?source=rss----2615bd06b42e---4"/>
-        <updated>2024-12-17T23:26:37.000Z</updated>
-        <summary type="html"><![CDATA[This article is the first in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Static search trees: 40x faster than binary search]]></title>
-        <id>https://curiouscoding.nl/posts/static-search-tree/</id>
-        <link href="https://curiouscoding.nl/posts/static-search-tree/"/>
-        <updated>2024-12-17T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Introduction
-
-1.1 Problem statement
-1.2 Motivation
-1.3 Recommended reading
-1.4 Binary search and Eytzinger layout
-1.5 Hugepages
-1.6 A note on benchmarking
-1.7 Cache lines
-1.8 S-trees and B-trees
-2 Optimizing find
-
-2.1 Linear
-2.2 Auto-vectorization
-2.3 Trailing zeros
-2.4 Popcount
-2.5 Manual SIMD
-3 Optimizing the search
-
-3.1 Batching
-3.2 Prefetching
-3.3 Pointer arithmetic
-
-3.3.1 Up-front splat
-3.3.2 Byte-based pointers
-3.3.3 The final version
-3.4 Skip prefetch
-3.5 Interleave
-4 Optimizing the tree layout
-
-4.1 Left-tree
-4.2 Memory layouts
-4.3 Node size \(B=15\)
-
-4.3.1 Data structure size
-4.4 Summary
-5 Prefix partitioning
-
-5.1 Full layout
-5.2 Compact subtrees
-5.3 The best of both: compact first level
-5.4 Overlapping trees
-5.5 Human data
-5.6 Prefix map
-5.7 Summary
-6 Multi-threaded comparison
-7 Conclusion
-
-7.1 Future work
-
-7.1.1 Branchy search
-7.1.2 Interpolation search
-7.1.3 Packing data smaller
-7.1.4 Returning indices in original data
-7.1.5 Range queries
-7.1.6 Sorting queries
-7.1.7 Suffix array searching
-In this post, we will implement a static search tree (S+ tree) for
-high-throughput searching of sorted data, as introduced on Algorithmica.
-We’ll mostly take the code presented there as a starting point, and optimize it
-to its limits. For a large part, I’m simply taking the ‘future work’ ideas of that post
-and implementing them. And then there will be a bunch of looking at assembly
-code to shave off all the instructions we can.
-Lastly, there will be one big addition to optimize throughput: batching.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Efficiency at Netflix]]></title>
-        <id>https://medium.com/p/f2a142955f83</id>
-        <link href="https://netflixtechblog.com/cloud-efficiency-at-netflix-f2a142955f83?source=rss----2615bd06b42e---4"/>
-        <updated>2024-12-17T22:17:29.000Z</updated>
-        <summary type="html"><![CDATA[By J Han, Pallavi Phadnis]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Title Launch Observability at Netflix Scale]]></title>
-        <id>https://medium.com/p/c88c586629eb</id>
-        <link href="https://netflixtechblog.com/title-launch-observability-at-netflix-scale-c88c586629eb?source=rss----2615bd06b42e---4"/>
-        <updated>2024-12-17T21:54:37.000Z</updated>
-        <summary type="html"><![CDATA[Part 1: Understanding The Challenges]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessing the attributes of a struct in C++ as array elements?]]></title>
-        <id>https://lemire.me/blog/?p=21776</id>
-        <link href="https://lemire.me/blog/2024/12/16/accessing-the-attributes-of-a-struct-in-c-as-array-elements/"/>
-        <updated>2024-12-16T00:55:17.000Z</updated>
-        <summary type="html"><![CDATA[In C++, it might be reasonable to represent a URL using a class or a struct made of several strings, like so: struct basic { std::string protocol; std::string username; std::string password; std::string hostname; std::string port; std::string pathname; std::string search; std::string hash; }; To associate each component with an index, we can use an enum class: … Continue reading Accessing the attributes of a struct in C++ as array elements?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
