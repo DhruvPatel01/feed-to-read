@@ -6,13 +6,13 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
-          "id": "https://nullprogram.com/blog/2024/12/20/",
+          "id": "https://nullprogram.com/blog/2025/01/19/",
           "author": null,
-          "description": "GCC and Clang inline assembly is an interface between high and low level\nprogramming languages. It is subtle and treacherous. Many are ensnared in\nits traps, usually unknowingly. As such, the asm keyword is essentially\nthe unsafe keyword of C and C++. Nearly every inline assembly tutorial,\nincluding the awful ibilio page at the top of search engines for\ndecades, propagate fundamental, serious mistakes, and most examples are\nincorrect. The dangerous part is that the examples usually produce the\nexpected results! The situation is dire. This article isn’t a tutorial,\nbut basic rules to avoid the most common mistakes, or to spot them in code\nreview.\nThe focus is entirely extended assembly, and not basic assembly,\nwhich has different rules. The former is any inline assembly statement\nwith const…",
-          "link": "https://nullprogram.com/blog/2024/12/20/",
-          "publishedOn": "2024-12-20T19:46:48.000Z",
-          "wordCount": 1151,
-          "title": "Rules to avoid common extended inline assembly mistakes",
+          "description": "This article durably captures my reddit comment showing techniques\nfor std::unordered_map and std::vector equivalents in C programs. The\ncore, important features of these data structures require only a dozen or\nso lines of code apiece. They compile quickly, and tend to run faster in\ndebug builds than release builds of their C++ equivalents. What they\nlack in genericity they compensate in simplicity. Nothing here will be\nnew. Everything has been covered in greater detail previously, which I\nwill reference when appropriate.\nFor a concrete goal, we will build a data structure representing an\nprocess environment, along with related functionality to make it more\ninteresting. That is, we’ll build a string-to-string map.\nAllocator\nThe foundation is our allocator, a simple bump allocator, so\nwe’ll…",
+          "link": "https://nullprogram.com/blog/2025/01/19/",
+          "publishedOn": "2025-01-19T04:10:33.000Z",
+          "wordCount": 2985,
+          "title": "Examples of quick hash tables and dynamic arrays in C",
           "imageUrl": null
         }
       ]
@@ -28,7 +28,7 @@
           "description": "Part 2: Navigating Ambiguity",
           "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-19ea916be1ed?source=rss----2615bd06b42e---4",
           "publishedOn": "2025-01-07T01:25:58.000Z",
-          "wordCount": 3246,
+          "wordCount": 3249,
           "title": "Title Launch Observability at Netflix Scale",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*YyCLwVKiGE_L6fWb"
         },
@@ -60,13 +60,13 @@
       "siteUrl": "https://nim-lang.org//",
       "articles": [
         {
-          "id": "https://nim-lang.org//blog/2024/12/24/nim-2014-released.html",
+          "id": "https://nim-lang.org//blog/2025/01/23/community-survey-results-2024.html",
           "author": null,
-          "description": "The Nim team is happy to announce Nim version 2.0.14, our seventh patch release for Nim 2.0,\nfor our users who haven’t switched yet to Nim 2.2.\nVersion 2.0.14 contains 40 commits, and it brings several improvements to Nim 2.0.12, released two months ago.\nInstalling Nim 2.0.14\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.0.14 is as easy as:\n$ choosenim update self\n$ choosenim 2.0.14\n\nMake sure that the version of choosenim you have installed is 0.8.5 or higher, otherwise visit choosenim’s repo and see there how to re-install it first, before updating Nim.\nAlternatively, you can download Nim 2.0.14 from\nour nightlies builds.\nNim Community Survey 2024\nWe would like to remind you about Nim Community Survey.\nIf you haven’t participated yet, now’s the time.\nIt shouldn’t take more than 5 minutes, and it helps us to make Nim better.\nBugfixes\nThese reported issues were fixed:\nFixed “ensureMove usage leading to memory leak for JsonNode !”\n(#24504)\nFixed “UB calling allocCStringArray([\"\"]) with --mm:refc”\n(#22153)\nFixed “Regression when using generic type with Table/OrderedTable”\n(#23233)\nFixed “Wrong C code generated for newSeqWith when initializing two variables”\n(#18104)\nFixed “Wrong behaviour when wrapping a constant  object variant into a sequence at runtime”\n(#23295)\nFixed “Invalid C code generated for lent array in tuple”\n(#24034)\nFixed “Seg fault when adding deque element”\n(#24319)\nFixed “C compiler error when default initializing an object field function when the default function is overloaded”\n(#23545)\nFixed “build failed for lib/pure/selectors via mingw”\n(#24371)\nFixed “Calling proc with nested ref/deref constructed object results in invalid generated code”\n(#18081)\nFixed “let symbol created by template is reused in nimvm branch “\n(#24472)\nFixed “building nimble 0.16.4 fails when running build_all.sh”\n(#24536)\nThe complete list of changes is available\nhere.",
-          "link": "https://nim-lang.org//blog/2024/12/24/nim-2014-released.html",
-          "publishedOn": "2024-12-24T00:00:00.000Z",
-          "wordCount": 442,
-          "title": "Nim version 2.0.14 released",
+          "description": "The Nim community survey 2024 has been open for two months, and we have received 367 responses – less than in previous years, but we’ll still try to draw conclusions about our users and their habits.\nBefore we go into details, we would like to thank all the people who took the time to respond.\nWe really appreciate the feedback!\nThe goal of this survey was primarily to determine how our community is using Nim, in order to better understand how we should be improving it.\nDo you use Nim?\nBased on the answer to this question, the respondents were divided into two groups that each received a separate set of questions.\n\nApproximately three quarters of the respondents use Nim (40% frequently, 36% occasionally), while the remaining quarter is divided between people who never used Nim (7%) and peop…",
+          "link": "https://nim-lang.org//blog/2025/01/23/community-survey-results-2024.html",
+          "publishedOn": "2025-01-23T00:00:00.000Z",
+          "wordCount": 1078,
+          "title": "Nim Community Survey 2024 Results",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
@@ -91,16 +91,6 @@
           "wordCount": 726,
           "title": "What Is a dependency?",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2024/12/24/minimal-version-selection-revisited.html",
-          "author": null,
-          "description": "In this post, I want to highlight one aspect of Go-style minimal version selection that I have\nmissed completely at first. Maybe you missed it too?",
-          "link": "https://matklad.github.io/2024/12/24/minimal-version-selection-revisited.html",
-          "publishedOn": "2024-12-24T00:00:00.000Z",
-          "wordCount": 1320,
-          "title": "Minimal Version Selection Revisited",
-          "imageUrl": null
         }
       ]
     },
@@ -122,12 +112,22 @@
       "siteUrl": "https://abhinavsarkar.net/feed.atom",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/posts/brainfuck-interpreter/?mtm_campaign=feed",
+          "author": null,
+          "description": "<p>Writing an interpreter for Brainfuck is almost a rite of passage for any programming language implementer,\nand it’s my turn now. In this post, we’ll write not one but four Brainfuck interpreters in Haskell. Let’s go!</p>",
+          "link": "https://abhinavsarkar.net/posts/brainfuck-interpreter/?mtm_campaign=feed",
+          "publishedOn": "2025-01-19T00:00:00.000Z",
+          "wordCount": 5726,
+          "title": "Interpreting Brainfuck in Haskell",
+          "imageUrl": "https://abhinavsarkar.net/images/brainfuck-interpreter/preview.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed",
           "author": null,
           "description": "<p>In this post, we solve the Advent of Code 2020 <a href=\"https://adventofcode.com/2020/day/11\" target=\"_blank\" rel=\"noopener\">“Seating System”</a> challenge in Haskell using comonads and stencils.</p>",
           "link": "https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed",
           "publishedOn": "2025-01-05T00:00:00.000Z",
-          "wordCount": 4958,
+          "wordCount": 4963,
           "title": "Solving Advent of Code “Seating System” with Comonads and Stencils",
           "imageUrl": "https://abhinavsarkar.net/images/solving-aoc20-seating-system/preview.png"
         },
@@ -149,12 +149,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21848",
+          "author": "Daniel Lemire",
+          "description": "Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching within text. For example, the expression \\d*\\.?\\d+ would match a positive number such as 1.1 or 12. If designed and tested with care, regular expressions may be used in mission-critical software. However, their power comes with a risk: it is possible to … Continue reading Regular expressions can blow up!",
+          "link": "https://lemire.me/blog/2025/01/25/regular-expressions-can-blow-up/",
+          "publishedOn": "2025-01-25T03:53:36.000Z",
+          "wordCount": 2974,
+          "title": "Regular expressions can blow up!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21836",
+          "author": "Daniel Lemire",
+          "description": "Your phone probably runs on 64-bit ARM processors. These processors are ubiquitous: they power the Nintendo Switch, they power cloud servers at both Amazon AWS and Microsoft Azure, they power fast laptops, and so forth. ARM processors have special powerful instructions called ARM NEON. They provide a specific type of parallelism called Single instruction, multiple … Continue reading Checking whether an ARM NEON register is zero",
+          "link": "https://lemire.me/blog/2025/01/20/checking-whether-an-arm-neon-register-is-zero/",
+          "publishedOn": "2025-01-20T01:05:51.000Z",
+          "wordCount": 4005,
+          "title": "Checking whether an ARM NEON register is zero",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21831",
           "author": "Daniel Lemire",
           "description": "Almost all of academic science has moved away from actual (empirical) science. It is higher status to work on theories and models. I believe that it is closely related to well documented scientific stagnation as theory is often ultimately sterile. This tendency is quite natural in academia if there is no outside pressure… And is … Continue reading The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
           "link": "https://lemire.me/blog/2025/01/15/the-ivory-towers-drift-how-academias-preference-for-theory-over-empiricism-fuels-scientific-stagnation/",
           "publishedOn": "2025-01-15T20:30:06.000Z",
-          "wordCount": 3344,
+          "wordCount": 3614,
           "title": "The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
           "imageUrl": null
         },
@@ -164,7 +184,7 @@
           "description": "Hashing algorithms convert input data into a fixed-size string of characters, known as a hash value or digest. These algorithms are one-way functions, meaning the original data cannot be feasibly retrieved from the hash, which makes them useful for data integrity, password storage, and digital signatures. MD5 and SHA-256 are two such hashing algorithms with … Continue reading JavaScript hashing speed comparison: MD5 versus SHA-256",
           "link": "https://lemire.me/blog/2025/01/11/javascript-hashing-speed-comparison-md5-versus-sha-256/",
           "publishedOn": "2025-01-11T16:21:18.000Z",
-          "wordCount": 3339,
+          "wordCount": 3319,
           "title": "JavaScript hashing speed comparison: MD5 versus SHA-256",
           "imageUrl": null
         },
@@ -174,7 +194,7 @@
           "description": "Given an integer in software, you may want to know how many decimal digits it needs. For example, the integer 100 requires 3 digits, the integer 9999 requires 4 digits. It would be an easy problem if we could compute the logarithm in base 10 of an integer quickly. Unfortunately, our computers work in base … Continue reading Counting the digits of 64-bit integers",
           "link": "https://lemire.me/blog/2025/01/07/counting-the-digits-of-64-bit-integers/",
           "publishedOn": "2025-01-07T21:41:57.000Z",
-          "wordCount": 6302,
+          "wordCount": 7286,
           "title": "Counting the digits of 64-bit integers",
           "imageUrl": null
         },
@@ -184,7 +204,7 @@
           "description": "The more likely outcome of the rise of generative artificial intelligence is higher value for the best experts… where ‘expert’ means ‘someone with experience solving real problems’. “While one may worry that AI will simply render expertise redundant and experts superfluous, history and economic logic suggest otherwise. AI is a tool, like a calculator or … Continue reading Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI",
           "link": "https://lemire.me/blog/2025/01/04/artificial-intelligence-as-the-experts-lever-elevating-human-expertise-in-the-age-of-ai/",
           "publishedOn": "2025-01-04T17:37:14.000Z",
-          "wordCount": 3123,
+          "wordCount": 3103,
           "title": "Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI",
           "imageUrl": null
         },
@@ -194,7 +214,7 @@
           "description": "Most strings today in software are Unicode strings. It means that you can include mathematical symbols, emojis and so forth. There are many different versions of the letter ‘M’, for example: the Roman letter M (U+004D) is semantically different from the Roman numeral Ⅿ (U+216F) while they both often have the same visual representation. John … Continue reading How does your URL parser handle Unicode?",
           "link": "https://lemire.me/blog/2025/01/02/how-does-your-url-parser-handle-unicode/",
           "publishedOn": "2025-01-02T16:07:31.000Z",
-          "wordCount": 3237,
+          "wordCount": 3217,
           "title": "How does your URL parser handle Unicode?",
           "imageUrl": null
         },
@@ -204,18 +224,8 @@
           "description": "Modern-day text in software can be expected to be Unicode. Unicode is stored in two formats: UTF-8 and UTF-16. UTF-16 is an encoding system used by several platforms and applications to represent Unicode characters. Notably, Microsoft Windows employs UTF-16 for internal operations, file names, and registry keys, while Java and JavaScript use it for string … Continue reading Efficient In-Place UTF-16 Unicode Correction with ARM NEON",
           "link": "https://lemire.me/blog/2024/12/29/efficient-in-place-utf-16-unicode-correction-with-arm-neon/",
           "publishedOn": "2024-12-29T18:24:33.000Z",
-          "wordCount": 4003,
+          "wordCount": 3983,
           "title": "Efficient In-Place UTF-16 Unicode Correction with ARM NEON",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21789",
-          "author": "Daniel Lemire",
-          "description": "Parsing text files is often confusing irrespective of your programming language. It can also be surprising slow. As an example, let us consider the following problem. You have a comma-separated-value file. It is a text file made of several lines and each line is separated into fields by a comma. Excel spreadsheets are often exported … Continue reading Simpler and faster parsing code with std::views::split",
-          "link": "https://lemire.me/blog/2024/12/21/simpler-and-faster-parsing-code-with-stdviewssplit/",
-          "publishedOn": "2024-12-21T21:35:13.000Z",
-          "wordCount": 3650,
-          "title": "Simpler and faster parsing code with std::views::split",
           "imageUrl": null
         }
       ]
