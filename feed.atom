@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-26T01:09:45.010Z</id>
+    <id>urn:2025-02-02T01:10:56.263Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-26T01:09:45.010Z</updated>
+    <updated>2025-02-02T01:10:56.263Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Programmer time and the pitfalls of wasteful work]]></title>
+        <id>https://lemire.me/blog/?p=21850</id>
+        <link href="https://lemire.me/blog/2025/01/30/programmer-time-and-the-pitfalls-of-false-positives/"/>
+        <updated>2025-01-30T03:02:36.000Z</updated>
+        <summary type="html"><![CDATA[Programmer time is precious. This realization should shape our approach to software development, focusing our efforts on tasks that genuinely contribute to the improvement of our code and the software ecosystem.   What does matter?   Hunting for bugs. I like to add tests, and then even more tests. The time spent building tests should … Continue reading Programmer time and the pitfalls of wasteful work]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Regular expressions can blow up!]]></title>
         <id>https://lemire.me/blog/?p=21848</id>
@@ -165,174 +175,6 @@ server working through Nginx, so I’m just sharing my configuration here.
 Install via your package manager, e.g. sudo pacman -S goaccess on Arch.]]></summary>
         <author>
             <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Part 2: A Survey of Analytics Engineering Work at Netflix]]></title>
-        <id>https://medium.com/p/4f1f53b4ab0f</id>
-        <link href="https://netflixtechblog.com/part-2-a-survey-of-analytics-engineering-work-at-netflix-4f1f53b4ab0f?source=rss----2615bd06b42e---4"/>
-        <updated>2025-01-02T21:07:11.000Z</updated>
-        <summary type="html"><![CDATA[This article is the second in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How does your URL parser handle Unicode?]]></title>
-        <id>https://lemire.me/blog/?p=21809</id>
-        <link href="https://lemire.me/blog/2025/01/02/how-does-your-url-parser-handle-unicode/"/>
-        <updated>2025-01-02T16:07:31.000Z</updated>
-        <summary type="html"><![CDATA[Most strings today in software are Unicode strings. It means that you can include mathematical symbols, emojis and so forth. There are many different versions of the letter ‘M’, for example: the Roman letter M (U+004D) is semantically different from the Roman numeral Ⅿ (U+216F) while they both often have the same visual representation. John … Continue reading How does your URL parser handle Unicode?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interesting Links for December 2024]]></title>
-        <id>https://notes.abhinavsarkar.net/2024/links-12</id>
-        <link href="https://notes.abhinavsarkar.net/2024/links-12"/>
-        <updated>2024-12-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>A special <em>Haskell</em> edition of some interesting articles I recently read on the internet, starting
-with some Haskell-in-practice articles:</p>
-
-<ul>
-  <li>
-    <p>I like this new trend of making scripting dialects of full-fledged programming languages. Joining the
-likes of <a href="https://babashka.org/">Babashka</a> and <a href="https://horstmann.com/unblog/2024-12-11/index.html">Small Java</a>
-is <a href="https://chrisdone.com/posts/hell/">Hell, a Shell scripting Haskell dialect</a> by Chris Done.
-I usually write my scripts in Python, but I sorely miss static typing and functional programming, so naturally, I’m excited for Hell.
-It is in a nascent stage now, but hopefully, it will grow into something nice and usable.</p>
-  </li>
-  <li>
-    <p>Many think that Haskell is too complex for real-world projects. I really like this solid
-advice by Patrick Thomson for putting Haskell in real-world use:
-<a href="https://blog.sumtypeofway.com/posts/fast-iteration-with-haskell.html">Towards Faster Iteration in Industrial Haskell</a>,
-where he writes about Haskell editors and tooling, GHC extensions, type system, building, and deployment.</p>
-  </li>
-  <li>
-    <p>Haskell is one of the few programming languages that are lazy by default, and often this is a source of
-a lot of headaches for programmers, causing space leaks, slow computation, or hard to debug stack traces. But
-sometimes laziness can be harnessed for writing better programs, like Jasper Van der Jeugt does
-to create an efficient and elegant layout algorithm for creating photo collages in
-<a href="https://jaspervdj.be/posts/2023-07-22-lazy-layout.html">Lazy Layout</a>.</p>
-  </li>
-  <li>
-    <p>I love it when people use advanced programming techniques to solve their day-to-day problems! In
-<a href="https://alt-romes.github.io/posts/2024-08-14-planning-a-workout-week-with-100-lines-of-haskell.html">Planning Weekly Workouts in 100 Lines of Haskell</a>,
-Rodrigo Mesquita uses <a href="https://en.wikipedia.org/wiki/Logic_programming">Logic Programming</a> in Haskell
-to create a custom workout plan for themselves.</p>
-  </li>
-  <li>
-    <p>For some unknown reasons, functional programming and music seem to mesh well together. Maybe it is
-because both have combinatorial and compositional natures. In <a href="https://blog.fmap.fr/posts/karplus-strong-sound-synthesis.html">Cheap Guitars and Drums in Haskell</a>,
-Alp Mestanogullari uses Haskell to do digital audio synthesis by implementing the
-<a href="https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis">Karplus-Strong algorithm</a>.</p>
-  </li>
-  <li>
-    <p>Another interesting use of Haskell to solve problems in clean and interesting way: Vehbi Sinan Tunalioglu
-uses the Diagrams library to generate dynamic <a href="https://ogp.me/">OpenGraph</a> preview image for their website pages as detailed in
-<a href="https://thenegation.com/posts/haskell-diagrams-dynamic-og/">More Haskell Diagrams: Dynamic OpenGraph Images</a>.
-Currently I do this for my website in the crudest way possible: open the page in a browser manually
-and save a screenshot. Naturally, I end up doing it only once per page and the previews are not dynamic.
-I plan to switch to using Vehbi’s technique in future.</p>
-  </li>
-</ul>
-
-<p>Moving on to some Haskell-for-fun articles:</p>
-
-<ul>
-  <li>
-    <p>Water Sort is a puzzle game where you have to sort coloured water into bottles. In <a href="https://nicaudinet.github.io/2024/10/14/watersort-haskell/">Water Sort in Haskell</a>
-Nicolas Audinet de Pieuchon creates the game as a terminal UI in Haskell using <a href="https://guide.elm-lang.org/architecture/">the Elm architecture</a>.
-I like how Haskell and functional programming make writing and understanding such software easy by
-cleanly separating the game logic and the rendering logic.</p>
-  </li>
-  <li>
-    <p>I’ve done <a href="https://adventofcode.com">Avdent of Code</a> in Haskell for a couple of years now, and that has made me quite interested
-in efficient and convenient data structures in Haskell. Brent Yorgey has written about a bunch of them in
-their <a href="https://byorgey.github.io/blog/tag/challenge.html">Competitive Programming in Haskell</a> series, and the latest article is about efficiently
-calculating a measure for sliding windows of lists: <a href="https://byorgey.github.io/blog/posts/2024/11/27/stacks-queues.html">Stacks, Queues, and Monoidal Sliding Windows</a>.</p>
-  </li>
-</ul>
-
-<p>Next, some Haskell concepts articles:</p>
-
-<ul>
-  <li>
-    <p>Haskell is notorious as a hard to learn language and I think some of that ill fame in deserved. Because
-of a powerful and flexible type-system, Haskell lets users solve their problems in many different ways,
-some of which could be too obtuse for many to understand.
-<a href="https://blog.jle.im/entry/levels-of-type-safety-haskell-lists.html">Seven Levels of Type Safety in Haskell: Lists</a>
-by Justin Le shows seven different ways of working with lists in Haskell, only one of which is
-what we know as List (<code class="language-plaintext highlighter-rouge">[a]</code>) in usual Haskell. It’s still fun to learn about these, and who knows,
-some of them may come handy some day.</p>
-  </li>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">fix</code> is one of those clever Haskell things that are very cool and terse but take a while to understand.
-In <a href="https://gilmi.me/blog/post/2021/03/11/fix-by-example"><code class="language-plaintext highlighter-rouge">fix</code> by Example</a> Gil Mizrahi explains how it
-works by providing motivating examples. But to be honest, I took me quite some tries to <strong>get</strong> it even
-after reading a bunch about it.</p>
-  </li>
-  <li>Arrows are a part of Haskell that I don’t much understand, or use. Haskell even has <a href="https://www.haskell.org/arrows/syntax.html">special syntax</a> for
-them. In <a href="https://langdev.stackexchange.com/revisions/2372/2">Why Arrows?</a> <a href="https://lexi-lambda.github.io/">Alexis King</a>
-explains why we need arrows at all. Instead of commenting on it, I’m gonna quote a part:
-    <blockquote>
-      <p>The key insight behind arrows comes from the following observation: it’s impossible to analyze the
-structure of a monadic function <code class="language-plaintext highlighter-rouge">a -&gt; m b</code> without applying it because functions are opaque—the only
-thing we can do with one is apply it. Instead, we need to build our computation out of “function-like values”
-that are not opaque—we must be able to do more than just apply them.</p>
-    </blockquote>
-  </li>
-  <li>
-    <p>Here is an interesting use of a rather complicated concept from Category Theory: MangoIV shows in
-<a href="https://mangoiv.com/posts/2024-11-23-codensity.html">Codensity for Resource Management</a> a way to
-use the <a href="https://en.wikipedia.org/wiki/Codensity_monad">Codensity monad</a> for conveniently managing
-resources in Haskell code.</p>
-  </li>
-  <li>
-    <p>If you have read any Haskell code, you’d know that Haskellers love writing terse code (myself included).
-That includes using a lot of single-letter variable names, which may make the code very unreadable for an
-unacquainted eye. But there is a method to this madness, and Jack Kelly captures a comprehensive knowledge
-about such names in <a href="http://jackkelly.name/blog/archives/2024/10/12/a_dictionary_of_single-letter_variable_names/index.html">A Dictionary of Single-Letter Variable Names</a>.</p>
-  </li>
-  <li>Stephen Diehl writes a thorough tutorial about how to generate X86 assembly from scratch for <a href="https://en.wikipedia.org/wiki/Just-in-time_compilation">JIT compilation</a>,
-and how to make it easy by exploiting a monadic interface
-in <a href="https://www.stephendiehl.com/posts/monads_machine_code/">Monads to Machine Code</a>.</li>
-</ul>
-
-<p>Finally, some Haskell philosophy to finish it off:</p>
-
-<ul>
-  <li>Adam Dueck muses “<a href="https://adueck.github.io/blog/on-haskell-jazz-and-pure-math/">Why Does Everyone Hate Haskell, Jazz, and Pure Math?</a>”,
-and posits that exploring interesting things that may not be immediately useful may actually cause
-more practical advances in the long term.</li>
-</ul>
-
-<p>That’s it for this year. Have a happy and prosperous 2025!</p>
-
-<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/113748806936137827" class="mastodon-link">Mastodon</a>.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Is a dependency?]]></title>
-        <id>https://matklad.github.io/2024/12/30/what-is-dependency.html</id>
-        <link href="https://matklad.github.io/2024/12/30/what-is-dependency.html"/>
-        <updated>2024-12-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For whatever reason, I've been thinking about dependencies lately:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Efficient In-Place UTF-16 Unicode Correction with ARM NEON]]></title>
-        <id>https://lemire.me/blog/?p=21795</id>
-        <link href="https://lemire.me/blog/2024/12/29/efficient-in-place-utf-16-unicode-correction-with-arm-neon/"/>
-        <updated>2024-12-29T18:24:33.000Z</updated>
-        <summary type="html"><![CDATA[Modern-day text in software can be expected to be Unicode. Unicode is stored in two formats: UTF-8 and UTF-16. UTF-16 is an encoding system used by several platforms and applications to represent Unicode characters. Notably, Microsoft Windows employs UTF-16 for internal operations, file names, and registry keys, while Java and JavaScript use it for string … Continue reading Efficient In-Place UTF-16 Unicode Correction with ARM NEON]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
