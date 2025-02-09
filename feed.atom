@@ -1,10 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-02T01:10:56.263Z</id>
+    <id>urn:2025-02-09T01:11:59.938Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-02T01:10:56.263Z</updated>
+    <updated>2025-02-09T01:11:59.938Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Thread-safe memory copy]]></title>
+        <id>https://lemire.me/blog/?p=21864</id>
+        <link href="https://lemire.me/blog/2025/02/07/thread-safe-memory-copy/"/>
+        <updated>2025-02-07T23:12:34.000Z</updated>
+        <summary type="html"><![CDATA[A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tips for more effective fuzz testing with AFL++]]></title>
+        <id>https://nullprogram.com/blog/2025/02/05/</id>
+        <link href="https://nullprogram.com/blog/2025/02/05/"/>
+        <updated>2025-02-05T18:03:55.000Z</updated>
+        <summary type="html"><![CDATA[Fuzz testing is incredibly effective for mechanically discovering software
+defects, yet remains underused and neglected. Pick any program that must
+gracefully accept complex input, written in any language, which has not
+yet been been fuzzed, and fuzz testing usually reveals at least one bug.
+At least one program currently installed on your own computer certainly
+qualifies. Perhaps even most of them. Everything is broken and
+low-hanging fruit is everywhere. After fuzz testing ~1,000 projects over
+the past six years, I’ve accumulated tips for picking that fruit.
+The checklist format has worked well in the past (1, 2), so
+I’ll use it again. This article discusses AFL++ on source-available
+C and C++ targets, running on glibc-based Linux distributions, currently
+the best fuzzing platform for C …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nim version 2.2.2 released]]></title>
+        <id>https://nim-lang.org//blog/2025/02/05/nim-222.html</id>
+        <link href="https://nim-lang.org//blog/2025/02/05/nim-222.html"/>
+        <updated>2025-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim Team is happy to announce version 2.2.2, the first patch release for our stable release, Nim 2.2.
+It comes four months after the 2.2.0 release and it contains 203 commits, bringing bugfixes and improvements.
+If you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.
+If you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.
+Installing Nim 2.2.2
+Check out if the package manager of your OS already ships version 2.2.2 or
+install it as described here.
+If you have installed a previous version of Nim using choosenim,
+getting Nim 2.2.2 is as easy as:
+$ choosenim update self
+$ choosenim update stable
+
+NOTE: Make sure that the version of choosenim you have installed is 0.8.5 or higher, ot…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PtrHash: Minimal Perfect Hashing at RAM Throughput]]></title>
+        <id>https://curiouscoding.nl/posts/ptrhash-paper/</id>
+        <link href="https://curiouscoding.nl/posts/ptrhash-paper/"/>
+        <updated>2025-02-02T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+Abstract
+1 Introduction
+2 Related work
+3 PtrHash
+
+3.1 Overview
+3.2 Construction
+3.3 Remapping using CacheLineEF
+3.4 Bucket Assignment Functions
+3.5 Parallel Queries
+3.6 Sharding
+4 Results
+
+4.1 Construction
+
+4.1.1 Bucket Functions
+4.1.2 Tuning Parameters for Construction
+4.1.3 [Appendix?] Remap
+4.1.4 Sharding
+4.2 Query Throughput
+
+4.2.1 [Appendix?] Batching and Streaming
+4.2.2 [Appendix?] Multi-threaded Throughput
+4.3 Comparison to Other Methods
+5 Conclusions and Future Work
+Acknowledgements
+Funding
+6 Appendix
+
+6.1 Rust and Assembly Code for Streaming
+7 DONE Failed Ideas
+8 Appendix
+
+8.1 TODO Choosing the Part Size
+8.2 Input Types and Hash Functions
+9 Graveyard
+\[
+\newcommand{\part}{\mathsf{part}}
+\newcommand{\bucket}{\mathsf{bucket}}
+\newcommand{\slot}{\mathsf{slot}}
+\newcommand{\reduce}{\mathsf{reduce}}
+\newcommand{\h}{\mathsf{h}}
+\newcommand{\hp}{\mathsf{h}_{\mathsf{p}}}
+\newcommand{\C}{\mathsf{C}}
+\newcommand{\select}{\mathsf{select}}
+\newcommand{\free}{F}
+\newcommand{\mphf}{\mathsf{H_{mphf}}}
+\]]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Programmer time and the pitfalls of wasteful work]]></title>
         <id>https://lemire.me/blog/?p=21850</id>
@@ -104,77 +215,6 @@ and it’s my turn now. In this post, we’ll write not one but four Brainfuck i
         <summary type="html"><![CDATA[Hashing algorithms convert input data into a fixed-size string of characters, known as a hash value or digest. These algorithms are one-way functions, meaning the original data cannot be feasibly retrieved from the hash, which makes them useful for data integrity, password storage, and digital signatures. MD5 and SHA-256 are two such hashing algorithms with … Continue reading JavaScript hashing speed comparison: MD5 versus SHA-256]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Counting the digits of 64-bit integers]]></title>
-        <id>https://lemire.me/blog/?p=21816</id>
-        <link href="https://lemire.me/blog/2025/01/07/counting-the-digits-of-64-bit-integers/"/>
-        <updated>2025-01-07T21:41:57.000Z</updated>
-        <summary type="html"><![CDATA[Given an integer in software, you may want to know how many decimal digits it needs. For example, the integer 100 requires 3 digits, the integer 9999 requires 4 digits. It would be an easy problem if we could compute the logarithm in base 10 of an integer quickly. Unfortunately, our computers work in base … Continue reading Counting the digits of 64-bit integers]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Title Launch Observability at Netflix Scale]]></title>
-        <id>https://medium.com/p/19ea916be1ed</id>
-        <link href="https://netflixtechblog.com/title-launch-observability-at-netflix-scale-19ea916be1ed?source=rss----2615bd06b42e---4"/>
-        <updated>2025-01-07T01:25:58.000Z</updated>
-        <summary type="html"><![CDATA[Part 2: Navigating Ambiguity]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Part 3: A Survey of Analytics Engineering Work at Netflix]]></title>
-        <id>https://medium.com/p/e67f0aa82183</id>
-        <link href="https://netflixtechblog.com/part-3-a-survey-of-analytics-engineering-work-at-netflix-e67f0aa82183?source=rss----2615bd06b42e---4"/>
-        <updated>2025-01-06T19:27:38.000Z</updated>
-        <summary type="html"><![CDATA[This article is the last in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solving Advent of Code “Seating System” with Comonads and Stencils]]></title>
-        <id>https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed"/>
-        <updated>2025-01-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>In this post, we solve the Advent of Code 2020 <a href="https://adventofcode.com/2020/day/11" target="_blank" rel="noopener">“Seating System”</a> challenge in Haskell using comonads and stencils.</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI]]></title>
-        <id>https://lemire.me/blog/?p=21813</id>
-        <link href="https://lemire.me/blog/2025/01/04/artificial-intelligence-as-the-experts-lever-elevating-human-expertise-in-the-age-of-ai/"/>
-        <updated>2025-01-04T17:37:14.000Z</updated>
-        <summary type="html"><![CDATA[The more likely outcome of the rise of generative artificial intelligence is higher value for the best experts… where ‘expert’ means ‘someone with experience solving real problems’. “While one may worry that AI will simply render expertise redundant and experts superfluous, history and economic logic suggest otherwise. AI is a tool, like a calculator or … Continue reading Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Setting up traffic monitoring using GoAccess]]></title>
-        <id>https://curiouscoding.nl/posts/goaccess-setup/</id>
-        <link href="https://curiouscoding.nl/posts/goaccess-setup/"/>
-        <updated>2025-01-03T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Nginx setup
-2 GoAccess configuration
-3 Systemd setup
-4 Serving the static file
-5 Serving live statistics
-6 GeoIP database
-GoAccess (goaccess.io, github) is a tool that analyses server logs and gives real-time
-statistics on network traffic.
-It took me some time to figure out exactly how to get the real-time websocket
-server working through Nginx, so I’m just sharing my configuration here.
-Install via your package manager, e.g. sudo pacman -S goaccess on Arch.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
         </author>
     </entry>
 </feed>

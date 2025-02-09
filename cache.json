@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2025/02/05/",
+          "author": null,
+          "description": "Fuzz testing is incredibly effective for mechanically discovering software\ndefects, yet remains underused and neglected. Pick any program that must\ngracefully accept complex input, written in any language, which has not\nyet been been fuzzed, and fuzz testing usually reveals at least one bug.\nAt least one program currently installed on your own computer certainly\nqualifies. Perhaps even most of them. Everything is broken and\nlow-hanging fruit is everywhere. After fuzz testing ~1,000 projects over\nthe past six years, I’ve accumulated tips for picking that fruit.\nThe checklist format has worked well in the past (1, 2), so\nI’ll use it again. This article discusses AFL++ on source-available\nC and C++ targets, running on glibc-based Linux distributions, currently\nthe best fuzzing platform for C …",
+          "link": "https://nullprogram.com/blog/2025/02/05/",
+          "publishedOn": "2025-02-05T18:03:55.000Z",
+          "wordCount": 2085,
+          "title": "Tips for more effective fuzz testing with AFL++",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2025/01/19/",
           "author": null,
           "description": "This article durably captures my reddit comment showing techniques\nfor std::unordered_map and std::vector equivalents in C programs. The\ncore, important features of these data structures require only a dozen or\nso lines of code apiece. They compile quickly, and tend to run faster in\ndebug builds than release builds of their C++ equivalents. What they\nlack in genericity they compensate in simplicity. Nothing here will be\nnew. Everything has been covered in greater detail previously, which I\nwill reference when appropriate.\nFor a concrete goal, we will build a data structure representing an\nprocess environment, along with related functionality to make it more\ninteresting. That is, we’ll build a string-to-string map.\nAllocator\nThe foundation is our allocator, a simple bump allocator, so\nwe’ll…",
           "link": "https://nullprogram.com/blog/2025/01/19/",
           "publishedOn": "2025-01-19T04:10:33.000Z",
-          "wordCount": 2985,
+          "wordCount": 2994,
           "title": "Examples of quick hash tables and dynamic arrays in C",
           "imageUrl": null
         }
@@ -21,34 +31,23 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/19ea916be1ed",
-          "author": "Netflix Technology Blog",
-          "description": "Part 2: Navigating Ambiguity",
-          "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-19ea916be1ed?source=rss----2615bd06b42e---4",
-          "publishedOn": "2025-01-07T01:25:58.000Z",
-          "wordCount": 3249,
-          "title": "Title Launch Observability at Netflix Scale",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*YyCLwVKiGE_L6fWb"
-        },
-        {
-          "id": "https://medium.com/p/e67f0aa82183",
-          "author": "Netflix Technology Blog",
-          "description": "This article is the last in a multi-part series sharing a breadth of Analytics Engineering work at Netflix, recently presented as part of…",
-          "link": "https://netflixtechblog.com/part-3-a-survey-of-analytics-engineering-work-at-netflix-e67f0aa82183?source=rss----2615bd06b42e---4",
-          "publishedOn": "2025-01-06T19:27:38.000Z",
-          "wordCount": 4463,
-          "title": "Part 3: A Survey of Analytics Engineering Work at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ar0t2-zF5YVuXnUe"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2025/02/05/nim-222.html",
+          "author": null,
+          "description": "The Nim Team is happy to announce version 2.2.2, the first patch release for our stable release, Nim 2.2.\nIt comes four months after the 2.2.0 release and it contains 203 commits, bringing bugfixes and improvements.\nIf you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.\nIf you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.\nInstalling Nim 2.2.2\nCheck out if the package manager of your OS already ships version 2.2.2 or\ninstall it as described here.\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.2.2 is as easy as:\n$ choosenim update self\n$ choosenim update stable\n\nNOTE: Make sure that the version of choosenim you have installed is 0.8.5 or higher, ot…",
+          "link": "https://nim-lang.org//blog/2025/02/05/nim-222.html",
+          "publishedOn": "2025-02-05T00:00:00.000Z",
+          "wordCount": 683,
+          "title": "Nim version 2.2.2 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2025/01/23/community-survey-results-2024.html",
           "author": null,
@@ -99,16 +98,6 @@
           "wordCount": 5739,
           "title": "Interpreting Brainfuck in Haskell",
           "imageUrl": "https://abhinavsarkar.net/images/brainfuck-interpreter/preview.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>In this post, we solve the Advent of Code 2020 <a href=\"https://adventofcode.com/2020/day/11\" target=\"_blank\" rel=\"noopener\">“Seating System”</a> challenge in Haskell using comonads and stencils.</p>",
-          "link": "https://abhinavsarkar.net/posts/solving-aoc20-seating-system/?mtm_campaign=feed",
-          "publishedOn": "2025-01-05T00:00:00.000Z",
-          "wordCount": 4976,
-          "title": "Solving Advent of Code “Seating System” with Comonads and Stencils",
-          "imageUrl": "https://abhinavsarkar.net/images/solving-aoc20-seating-system/preview.png"
         }
       ]
     },
@@ -118,12 +107,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21864",
+          "author": "Daniel Lemire",
+          "description": "A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy",
+          "link": "https://lemire.me/blog/2025/02/07/thread-safe-memory-copy/",
+          "publishedOn": "2025-02-07T23:12:34.000Z",
+          "wordCount": 3896,
+          "title": "Thread-safe memory copy",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21850",
           "author": "Daniel Lemire",
           "description": "Programmer time is precious. This realization should shape our approach to software development, focusing our efforts on tasks that genuinely contribute to the improvement of our code and the software ecosystem.   What does matter?   Hunting for bugs. I like to add tests, and then even more tests. The time spent building tests should … Continue reading Programmer time and the pitfalls of wasteful work",
           "link": "https://lemire.me/blog/2025/01/30/programmer-time-and-the-pitfalls-of-false-positives/",
           "publishedOn": "2025-01-30T03:02:36.000Z",
-          "wordCount": 3235,
+          "wordCount": 3629,
           "title": "Programmer time and the pitfalls of wasteful work",
           "imageUrl": null
         },
@@ -133,7 +132,7 @@
           "description": "Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching within text. For example, the expression \\d*\\.?\\d+ would match a positive number such as 1.1 or 12. If designed and tested with care, regular expressions may be used in mission-critical software. However, their power comes with a risk: it is possible to … Continue reading Regular expressions can blow up!",
           "link": "https://lemire.me/blog/2025/01/25/regular-expressions-can-blow-up/",
           "publishedOn": "2025-01-25T03:53:36.000Z",
-          "wordCount": 3144,
+          "wordCount": 3337,
           "title": "Regular expressions can blow up!",
           "imageUrl": null
         },
@@ -143,7 +142,7 @@
           "description": "Your phone probably runs on 64-bit ARM processors. These processors are ubiquitous: they power the Nintendo Switch, they power cloud servers at both Amazon AWS and Microsoft Azure, they power fast laptops, and so forth. ARM processors have special powerful instructions called ARM NEON. They provide a specific type of parallelism called Single instruction, multiple … Continue reading Checking whether an ARM NEON register is zero",
           "link": "https://lemire.me/blog/2025/01/20/checking-whether-an-arm-neon-register-is-zero/",
           "publishedOn": "2025-01-20T01:05:51.000Z",
-          "wordCount": 4004,
+          "wordCount": 4165,
           "title": "Checking whether an ARM NEON register is zero",
           "imageUrl": null
         },
@@ -153,7 +152,7 @@
           "description": "Almost all of academic science has moved away from actual (empirical) science. It is higher status to work on theories and models. I believe that it is closely related to well documented scientific stagnation as theory is often ultimately sterile. This tendency is quite natural in academia if there is no outside pressure… And is … Continue reading The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
           "link": "https://lemire.me/blog/2025/01/15/the-ivory-towers-drift-how-academias-preference-for-theory-over-empiricism-fuels-scientific-stagnation/",
           "publishedOn": "2025-01-15T20:30:06.000Z",
-          "wordCount": 3613,
+          "wordCount": 3804,
           "title": "The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
           "imageUrl": null
         },
@@ -163,28 +162,8 @@
           "description": "Hashing algorithms convert input data into a fixed-size string of characters, known as a hash value or digest. These algorithms are one-way functions, meaning the original data cannot be feasibly retrieved from the hash, which makes them useful for data integrity, password storage, and digital signatures. MD5 and SHA-256 are two such hashing algorithms with … Continue reading JavaScript hashing speed comparison: MD5 versus SHA-256",
           "link": "https://lemire.me/blog/2025/01/11/javascript-hashing-speed-comparison-md5-versus-sha-256/",
           "publishedOn": "2025-01-11T16:21:18.000Z",
-          "wordCount": 3318,
+          "wordCount": 3477,
           "title": "JavaScript hashing speed comparison: MD5 versus SHA-256",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21816",
-          "author": "Daniel Lemire",
-          "description": "Given an integer in software, you may want to know how many decimal digits it needs. For example, the integer 100 requires 3 digits, the integer 9999 requires 4 digits. It would be an easy problem if we could compute the logarithm in base 10 of an integer quickly. Unfortunately, our computers work in base … Continue reading Counting the digits of 64-bit integers",
-          "link": "https://lemire.me/blog/2025/01/07/counting-the-digits-of-64-bit-integers/",
-          "publishedOn": "2025-01-07T21:41:57.000Z",
-          "wordCount": 7285,
-          "title": "Counting the digits of 64-bit integers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21813",
-          "author": "Daniel Lemire",
-          "description": "The more likely outcome of the rise of generative artificial intelligence is higher value for the best experts… where ‘expert’ means ‘someone with experience solving real problems’. “While one may worry that AI will simply render expertise redundant and experts superfluous, history and economic logic suggest otherwise. AI is a tool, like a calculator or … Continue reading Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI",
-          "link": "https://lemire.me/blog/2025/01/04/artificial-intelligence-as-the-experts-lever-elevating-human-expertise-in-the-age-of-ai/",
-          "publishedOn": "2025-01-04T17:37:14.000Z",
-          "wordCount": 3102,
-          "title": "Artificial Intelligence as the Expert’s Lever: Elevating Human Expertise in the Age of AI",
           "imageUrl": null
         }
       ]
@@ -207,13 +186,13 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
-          "id": "https://curiouscoding.nl/posts/goaccess-setup/",
+          "id": "https://curiouscoding.nl/posts/ptrhash-paper/",
           "author": null,
-          "description": "Table of Contents\n1 Nginx setup\n2 GoAccess configuration\n3 Systemd setup\n4 Serving the static file\n5 Serving live statistics\n6 GeoIP database\nGoAccess (goaccess.io, github) is a tool that analyses server logs and gives real-time\nstatistics on network traffic.\nIt took me some time to figure out exactly how to get the real-time websocket\nserver working through Nginx, so I’m just sharing my configuration here.\nInstall via your package manager, e.g. sudo pacman -S goaccess on Arch.",
-          "link": "https://curiouscoding.nl/posts/goaccess-setup/",
-          "publishedOn": "2025-01-03T23:00:00.000Z",
-          "wordCount": 1011,
-          "title": "Setting up traffic monitoring using GoAccess",
+          "description": "Table of Contents\nAbstract\n1 Introduction\n2 Related work\n3 PtrHash\n\n3.1 Overview\n3.2 Construction\n3.3 Remapping using CacheLineEF\n3.4 Bucket Assignment Functions\n3.5 Parallel Queries\n3.6 Sharding\n4 Results\n\n4.1 Construction\n\n4.1.1 Bucket Functions\n4.1.2 Tuning Parameters for Construction\n4.1.3 [Appendix?] Remap\n4.1.4 Sharding\n4.2 Query Throughput\n\n4.2.1 [Appendix?] Batching and Streaming\n4.2.2 [Appendix?] Multi-threaded Throughput\n4.3 Comparison to Other Methods\n5 Conclusions and Future Work\nAcknowledgements\nFunding\n6 Appendix\n\n6.1 Rust and Assembly Code for Streaming\n7 DONE Failed Ideas\n8 Appendix\n\n8.1 TODO Choosing the Part Size\n8.2 Input Types and Hash Functions\n9 Graveyard\n\\[\n\\newcommand{\\part}{\\mathsf{part}}\n\\newcommand{\\bucket}{\\mathsf{bucket}}\n\\newcommand{\\slot}{\\mathsf{slot}}\n\\newcommand{\\reduce}{\\mathsf{reduce}}\n\\newcommand{\\h}{\\mathsf{h}}\n\\newcommand{\\hp}{\\mathsf{h}_{\\mathsf{p}}}\n\\newcommand{\\C}{\\mathsf{C}}\n\\newcommand{\\select}{\\mathsf{select}}\n\\newcommand{\\free}{F}\n\\newcommand{\\mphf}{\\mathsf{H_{mphf}}}\n\\]",
+          "link": "https://curiouscoding.nl/posts/ptrhash-paper/",
+          "publishedOn": "2025-02-02T23:00:00.000Z",
+          "wordCount": 11177,
+          "title": "PtrHash: Minimal Perfect Hashing at RAM Throughput",
           "imageUrl": null
         }
       ]
