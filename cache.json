@@ -31,7 +31,18 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/e2b67c88c9fb",
+          "author": "Netflix Technology Blog",
+          "description": "Part 1: Creating the Source of Truth for Impressions",
+          "link": "https://netflixtechblog.com/introducing-impressions-at-netflix-e2b67c88c9fb?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-02-15T01:13:20.000Z",
+          "wordCount": 3298,
+          "title": "Introducing Impressions at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*T6tQiUj-VDtyEhd1"
+        }
+      ]
     },
     {
       "title": "Nim Programming Language",
@@ -107,12 +118,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21895",
+          "author": "Daniel Lemire",
+          "description": "Convention computer instructions operate on a single piece of data at once (e.g., they can negate an integer or add two integers). For better performance, CPU vendors add support for SIMD instructions. SIMD stands for Single Instruction, Multiple Data. It is a type of parallel processing where a single operation is executed simultaneously on multiple … Continue reading AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
+          "link": "https://lemire.me/blog/2025/02/14/avx-512-gotcha-avoid-compressing-words-to-memory-with-amd-zen-4-processors/",
+          "publishedOn": "2025-02-14T21:27:29.000Z",
+          "wordCount": 3691,
+          "title": "AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21864",
           "author": "Daniel Lemire",
           "description": "A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy",
           "link": "https://lemire.me/blog/2025/02/07/thread-safe-memory-copy/",
           "publishedOn": "2025-02-07T23:12:34.000Z",
-          "wordCount": 3896,
+          "wordCount": 4683,
           "title": "Thread-safe memory copy",
           "imageUrl": null
         },
@@ -122,7 +143,7 @@
           "description": "Programmer time is precious. This realization should shape our approach to software development, focusing our efforts on tasks that genuinely contribute to the improvement of our code and the software ecosystem.   What does matter?   Hunting for bugs. I like to add tests, and then even more tests. The time spent building tests should … Continue reading Programmer time and the pitfalls of wasteful work",
           "link": "https://lemire.me/blog/2025/01/30/programmer-time-and-the-pitfalls-of-false-positives/",
           "publishedOn": "2025-01-30T03:02:36.000Z",
-          "wordCount": 3629,
+          "wordCount": 3662,
           "title": "Programmer time and the pitfalls of wasteful work",
           "imageUrl": null
         },
@@ -132,7 +153,7 @@
           "description": "Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching within text. For example, the expression \\d*\\.?\\d+ would match a positive number such as 1.1 or 12. If designed and tested with care, regular expressions may be used in mission-critical software. However, their power comes with a risk: it is possible to … Continue reading Regular expressions can blow up!",
           "link": "https://lemire.me/blog/2025/01/25/regular-expressions-can-blow-up/",
           "publishedOn": "2025-01-25T03:53:36.000Z",
-          "wordCount": 3337,
+          "wordCount": 3370,
           "title": "Regular expressions can blow up!",
           "imageUrl": null
         },
@@ -142,28 +163,8 @@
           "description": "Your phone probably runs on 64-bit ARM processors. These processors are ubiquitous: they power the Nintendo Switch, they power cloud servers at both Amazon AWS and Microsoft Azure, they power fast laptops, and so forth. ARM processors have special powerful instructions called ARM NEON. They provide a specific type of parallelism called Single instruction, multiple … Continue reading Checking whether an ARM NEON register is zero",
           "link": "https://lemire.me/blog/2025/01/20/checking-whether-an-arm-neon-register-is-zero/",
           "publishedOn": "2025-01-20T01:05:51.000Z",
-          "wordCount": 4165,
+          "wordCount": 4198,
           "title": "Checking whether an ARM NEON register is zero",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21831",
-          "author": "Daniel Lemire",
-          "description": "Almost all of academic science has moved away from actual (empirical) science. It is higher status to work on theories and models. I believe that it is closely related to well documented scientific stagnation as theory is often ultimately sterile. This tendency is quite natural in academia if there is no outside pressure… And is … Continue reading The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
-          "link": "https://lemire.me/blog/2025/01/15/the-ivory-towers-drift-how-academias-preference-for-theory-over-empiricism-fuels-scientific-stagnation/",
-          "publishedOn": "2025-01-15T20:30:06.000Z",
-          "wordCount": 3804,
-          "title": "The ivory tower’s drift: how academia’s preference for theory over empiricism fuels scientific stagnation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21825",
-          "author": "Daniel Lemire",
-          "description": "Hashing algorithms convert input data into a fixed-size string of characters, known as a hash value or digest. These algorithms are one-way functions, meaning the original data cannot be feasibly retrieved from the hash, which makes them useful for data integrity, password storage, and digital signatures. MD5 and SHA-256 are two such hashing algorithms with … Continue reading JavaScript hashing speed comparison: MD5 versus SHA-256",
-          "link": "https://lemire.me/blog/2025/01/11/javascript-hashing-speed-comparison-md5-versus-sha-256/",
-          "publishedOn": "2025-01-11T16:21:18.000Z",
-          "wordCount": 3477,
-          "title": "JavaScript hashing speed comparison: MD5 versus SHA-256",
           "imageUrl": null
         }
       ]
@@ -186,12 +187,32 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
+          "id": "https://curiouscoding.nl/posts/binsearch/",
+          "author": null,
+          "description": "Table of Contents\n1 Optimizing Binary Search And Interpolation Search\n\n1.1 Problem statement\n1.2 Inspiration and background\n1.3 Benchmarking setup\n2 Baseline\n\n2.1 A note on power-of-two array sizes\n3 Alternative memory layout\n\n3.1 Naive implementation\n3.2 Prefetching\n3.3 Branchless Eytzinger\n3.4 Batched Eytzinger\n\n3.4.1 Non-prefetched\n3.4.2 Prefetched\n4 Eytzinger or BinSearch?\n5 Memory efficiency – parallel search and comparison to B-trees\n6 Interpolation search\n7 Comparing everything on the human genome\n1 Optimizing Binary Search And Interpolation Search\n \n \n \n\nThis blogpost is a preliminary of the\npost on static\nsearch trees. We will be looking into binary search and how it can be\noptimized using different memory layouts (Eytzinger), branchless\ntechniques and careful use of prefetching. In addition, we will explore\nbatching and different implementations of it, some of them using vector\ninstructions. Our language of choice will be Rust.",
+          "link": "https://curiouscoding.nl/posts/binsearch/",
+          "publishedOn": "2025-02-11T23:00:00.000Z",
+          "wordCount": 3491,
+          "title": "[WIP] Binary search variants and the effects of batching",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/posts/consensus/",
+          "author": null,
+          "description": "Table of Contents\n1 Consensus\n\n1.1 Consensus-RecSplit\n2 IDEA: Consensus-PtrHash\n3 Tiny pointers and optimal open addressing hash tables\nThese are some thoughts on the Consensus-based MPHF presented in\nLehmann et al. (2025), and how this could be applied to PtrHash:\nLehmann, Hans-Peter, Peter Sanders, Stefan Walzer, and Jonatan Ziegler. 2025. “Combined Search and Encoding for Seeds, with an Application to Minimal Perfect Hashing.” arXiv. https://doi.org/10.48550/ARXIV.2502.05613.\nBelow are also some thoughts on the papers on tiny pointers, used to achieve\nhash tables with load factors very close to 1: Bender et al. (2021), Farach-Colton, Krapivin, and Kuszmaul (2025).",
+          "link": "https://curiouscoding.nl/posts/consensus/",
+          "publishedOn": "2025-02-11T23:00:00.000Z",
+          "wordCount": 1791,
+          "title": "Thoughts on Consensus MPHF and tiny pointers",
+          "imageUrl": null
+        },
+        {
           "id": "https://curiouscoding.nl/posts/ptrhash-paper/",
           "author": null,
           "description": "Table of Contents\nAbstract\n1 Introduction\n2 Related work\n3 PtrHash\n\n3.1 Overview\n3.2 Construction\n3.3 Remapping using CacheLineEF\n3.4 Bucket Assignment Functions\n3.5 Parallel Queries\n3.6 Sharding\n4 Results\n\n4.1 Construction\n\n4.1.1 Bucket Functions\n4.1.2 Tuning Parameters for Construction\n4.1.3 [Appendix?] Remap\n4.1.4 Sharding\n4.2 Query Throughput\n\n4.2.1 [Appendix?] Batching and Streaming\n4.2.2 [Appendix?] Multi-threaded Throughput\n4.3 Comparison to Other Methods\n5 Conclusions and Future Work\nAcknowledgements\nFunding\n6 Appendix\n\n6.1 Rust and Assembly Code for Streaming\n7 DONE Failed Ideas\n8 Appendix\n\n8.1 TODO Choosing the Part Size\n8.2 Input Types and Hash Functions\n9 Graveyard\n\\[\n\\newcommand{\\part}{\\mathsf{part}}\n\\newcommand{\\bucket}{\\mathsf{bucket}}\n\\newcommand{\\slot}{\\mathsf{slot}}\n\\newcommand{\\reduce}{\\mathsf{reduce}}\n\\newcommand{\\h}{\\mathsf{h}}\n\\newcommand{\\hp}{\\mathsf{h}_{\\mathsf{p}}}\n\\newcommand{\\C}{\\mathsf{C}}\n\\newcommand{\\select}{\\mathsf{select}}\n\\newcommand{\\free}{F}\n\\newcommand{\\mphf}{\\mathsf{H_{mphf}}}\n\\]",
           "link": "https://curiouscoding.nl/posts/ptrhash-paper/",
           "publishedOn": "2025-02-02T23:00:00.000Z",
-          "wordCount": 11177,
+          "wordCount": 11208,
           "title": "PtrHash: Minimal Perfect Hashing at RAM Throughput",
           "imageUrl": null
         }
