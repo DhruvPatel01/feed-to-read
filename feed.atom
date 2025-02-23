@@ -1,10 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-16T01:14:16.972Z</id>
+    <id>urn:2025-02-23T01:14:15.196Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-16T01:14:16.972Z</updated>
+    <updated>2025-02-23T01:14:15.196Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Pairwise alignment]]></title>
+        <id>https://curiouscoding.nl/posts/pairwise-alignment/</id>
+        <link href="https://curiouscoding.nl/posts/pairwise-alignment/"/>
+        <updated>2025-02-20T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Introduction
+
+1.1 Overview
+2 A history of pairwise alignment
+
+2.1 Problem statement
+2.2 Variations on pairwise alignment
+
+Alignment types
+Cost Models
+Minimizing Cost versus Maximizing Score
+2.3 The classic quadratic DP algorithms
+2.4 Linear Memory using Divide and Conquer
+2.5 Computational volumes
+2.6 LCS and Contours
+2.7 Diagonal transition
+2.8 graph algos
+2.9 Four russians
+2.10 parallelism & Bitpacking
+2.11 Approximate
+
+seed-chain-extend approximate
+BlockAligner
+2.12 Semi-global highlight
+2.13 Tools
+3 A*PA
+
+3.1 Summary/overview/contribs
+3.2 Methods
+3.3 Evaluation
+3.4 Discussion
+4 A*PA2
+
+4.1 Summary/overview/contribs
+4.2 Notation
+4.3 Methods
+4.4 Evaluation
+4.5 Discussion
+5 TODO
+Attribution
+ 
+This chapter is based on two papers:]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minimizers and more]]></title>
+        <id>https://curiouscoding.nl/posts/minimizers/</id>
+        <link href="https://curiouscoding.nl/posts/minimizers/"/>
+        <updated>2025-02-17T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Introduction
+
+1.1 Overview
+2 Theory of sampling schemes
+
+2.1 Types of sampling schemes
+2.2 Computing the density
+2.3 The density of random minimizers
+2.4 Universal hitting sets
+2.5 Asymptotic results
+2.6 Variants
+3 Lower bounds
+
+3.1 Schleimer et al.’s bound
+3.2 Marçais et al.’s bound
+3.3 Improving and extending Marçais et al.’s bound
+3.4 A near-tight lower bound on the density of forward sampling schemes
+3.5 Discussion
+4 Sampling schemes
+
+4.1 Variants of lexicographic minimizers
+
+Evaluation
+4.2 UHS-inspired schemes
+4.3 Syncmer-based schemes
+4.4 Open-closed minimizer
+
+Evaluation
+4.5 Mod-minimizer
+
+Theoretical density
+Evaluation
+4.6 Discussion
+5 Selection schemes
+
+5.1 Bidirectional anchors
+5.2 Sus-anchors
+
+Evaluation
+5.3 Discussion
+6 Discussion
+Attribution
+ 
+This chapter is based on three papers:]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet the new xxd for w64devkit: rexxd]]></title>
+        <id>https://nullprogram.com/blog/2025/02/17/</id>
+        <link href="https://nullprogram.com/blog/2025/02/17/"/>
+        <updated>2025-02-17T00:49:49.000Z</updated>
+        <summary type="html"><![CDATA[xxd is a versatile hexdump utility with a “reverse” feature, originally
+written between 1990–1996. The Vim project soon adopted it, and it’s lived
+there ever since. If you have Vim, you also have xxd. Its primary use
+cases are (1) the basis for a hex editor due to its -r reverse option
+that can unhexdump its previous output, and (2) a data embedding tool
+for C and C++ (-i). The former provides Vim’s rudimentary hex editor
+functionality. The second case is of special interest to w64devkit:
+xxd -i appears in many builds that embed arbitrary data. It’s
+important that w64devkit has a compatible implementation, and a freshly
+rewritten, improved xxd, rexxd, now replaces the original xxd (as
+xxd).
+For those unfamiliar with xxd, examples are in order. Its default hexdump
+output looks like this:
+
+$…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minimizer papers]]></title>
+        <id>https://curiouscoding.nl/posts/minimizer-papers/</id>
+        <link href="https://curiouscoding.nl/posts/minimizer-papers/"/>
+        <updated>2025-02-16T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Overview
+2 Introduction
+- Previous reviews
+3 Theory of sampling schemes
+
+3.1 Questions
+3.2 Types of schemes
+3.3 Parameter regimes
+3.4 Different perspectives
+3.5 UHS vs minimizer scheme
+3.6 (Asymptotic) bounds
+3.7 Lower bounds
+4 Minimizer schemes
+
+4.1 Orders
+4.2 UHS-based and search-based schemes
+4.3 Pure schemes
+4.4 Other variants
+
+Selection schemes
+Canonical minimizers
+4.5 Non-overlapping string sets
+This post is simply a list of brief comments on many papers related to
+minimizers, and forms the basis of /posts/minimizers/.
+1 Overview
+ 
+ 
+ 
+
+
+ 
+Figure 1: An overview of the papers this post discusses, showing authors and categories of each paper.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing Impressions at Netflix]]></title>
         <id>https://medium.com/p/e2b67c88c9fb</id>
@@ -36,10 +208,13 @@
 1.1 Problem statement
 1.2 Inspiration and background
 1.3 Benchmarking setup
-2 Baseline
+2 Binary search
 
-2.1 A note on power-of-two array sizes
-3 Alternative memory layout
+2.1 Branchless search
+2.2 Explicit prefetching
+2.3 Batching
+2.4 A note on power-of-two array sizes
+3 Eytzinger
 
 3.1 Naive implementation
 3.2 Prefetching
@@ -51,7 +226,7 @@
 4 Eytzinger or BinSearch?
 5 Memory efficiency – parallel search and comparison to B-trees
 6 Interpolation search
-7 Comparing everything on the human genome
+7 Conclusion and takeaways
 1 Optimizing Binary Search And Interpolation Search
  
  
@@ -114,7 +289,7 @@ the past six years, I’ve accumulated tips for picking that fruit.
 The checklist format has worked well in the past (1, 2), so
 I’ll use it again. This article discusses AFL++ on source-available
 C and C++ targets, running on glibc-based Linux distributions, currently
-the best fuzzing platform for C …]]></summary>
+the indisputable best fuzzing pl…]]></summary>
         <author>
             <name>null program</name>
         </author>
@@ -153,36 +328,30 @@ Abstract
 3 PtrHash
 
 3.1 Overview
-3.2 Construction
-3.3 Remapping using CacheLineEF
+3.2 Details
+3.3 Construction
 3.4 Bucket Assignment Functions
-3.5 Parallel Queries
-3.6 Sharding
+3.5 Remapping using CacheLineEF
 4 Results
 
 4.1 Construction
 
 4.1.1 Bucket Functions
 4.1.2 Tuning Parameters for Construction
-4.1.3 [Appendix?] Remap
-4.1.4 Sharding
-4.2 Query Throughput
-
-4.2.1 [Appendix?] Batching and Streaming
-4.2.2 [Appendix?] Multi-threaded Throughput
-4.3 Comparison to Other Methods
+4.1.3 Remap
+4.2 Comparison to Other Methods
 5 Conclusions and Future Work
 Acknowledgements
 Funding
-6 Appendix
+6 Appendix: Query throughput
 
-6.1 Rust and Assembly Code for Streaming
-7 DONE Failed Ideas
-8 Appendix
+6.1 Batching and streaming
+6.2 Evaluation
+6.3 Multi-threaded Throughput
+7 Appendix: Sharding
 
-8.1 TODO Choosing the Part Size
-8.2 Input Types and Hash Functions
-9 Graveyard
+7.1 Evaluation
+8 Appendix: Evaluating Hash Functions
 \[
 \newcommand{\part}{\mathsf{part}}
 \newcommand{\bucket}{\mathsf{bucket}}
@@ -194,7 +363,9 @@ Funding
 \newcommand{\select}{\mathsf{select}}
 \newcommand{\free}{F}
 \newcommand{\mphf}{\mathsf{H_{mphf}}}
-\]]]></summary>
+\]
+This is the work-in-progress paper on PtrHash. The original blog post on its
+development is here.]]></summary>
         <author>
             <name>home on CuriousCoding</name>
         </author>
@@ -217,67 +388,6 @@ Funding
         <summary type="html"><![CDATA[Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching within text. For example, the expression \d*\.?\d+ would match a positive number such as 1.1 or 12. If designed and tested with care, regular expressions may be used in mission-critical software. However, their power comes with a risk: it is possible to … Continue reading Regular expressions can blow up!]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nim Community Survey 2024 Results]]></title>
-        <id>https://nim-lang.org//blog/2025/01/23/community-survey-results-2024.html</id>
-        <link href="https://nim-lang.org//blog/2025/01/23/community-survey-results-2024.html"/>
-        <updated>2025-01-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim community survey 2024 has been open for two months, and we have received 367 responses – less than in previous years, but we’ll still try to draw conclusions about our users and their habits.
-Before we go into details, we would like to thank all the people who took the time to respond.
-We really appreciate the feedback!
-The goal of this survey was primarily to determine how our community is using Nim, in order to better understand how we should be improving it.
-Do you use Nim?
-Based on the answer to this question, the respondents were divided into two groups that each received a separate set of questions.
-
-Approximately three quarters of the respondents use Nim (40% frequently, 36% occasionally), while the remaining quarter is divided between people who never used Nim (7%) and peop…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Checking whether an ARM NEON register is zero]]></title>
-        <id>https://lemire.me/blog/?p=21836</id>
-        <link href="https://lemire.me/blog/2025/01/20/checking-whether-an-arm-neon-register-is-zero/"/>
-        <updated>2025-01-20T01:05:51.000Z</updated>
-        <summary type="html"><![CDATA[Your phone probably runs on 64-bit ARM processors. These processors are ubiquitous: they power the Nintendo Switch, they power cloud servers at both Amazon AWS and Microsoft Azure, they power fast laptops, and so forth. ARM processors have special powerful instructions called ARM NEON. They provide a specific type of parallelism called Single instruction, multiple … Continue reading Checking whether an ARM NEON register is zero]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Examples of quick hash tables and dynamic arrays in C]]></title>
-        <id>https://nullprogram.com/blog/2025/01/19/</id>
-        <link href="https://nullprogram.com/blog/2025/01/19/"/>
-        <updated>2025-01-19T04:10:33.000Z</updated>
-        <summary type="html"><![CDATA[This article durably captures my reddit comment showing techniques
-for std::unordered_map and std::vector equivalents in C programs. The
-core, important features of these data structures require only a dozen or
-so lines of code apiece. They compile quickly, and tend to run faster in
-debug builds than release builds of their C++ equivalents. What they
-lack in genericity they compensate in simplicity. Nothing here will be
-new. Everything has been covered in greater detail previously, which I
-will reference when appropriate.
-For a concrete goal, we will build a data structure representing an
-process environment, along with related functionality to make it more
-interesting. That is, we’ll build a string-to-string map.
-Allocator
-The foundation is our allocator, a simple bump allocator, so
-we’ll…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interpreting Brainfuck in Haskell]]></title>
-        <id>https://abhinavsarkar.net/posts/brainfuck-interpreter/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/posts/brainfuck-interpreter/?mtm_campaign=feed"/>
-        <updated>2025-01-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Writing an interpreter for Brainfuck is almost a rite of passage for any programming language implementer,
-and it’s my turn now. In this post, we’ll write not one but four Brainfuck interpreters in Haskell. Let’s go!</p>]]></summary>
-        <author>
-            <name>Posts on abhinavsarkar.net</name>
         </author>
     </entry>
 </feed>

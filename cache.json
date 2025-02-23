@@ -6,23 +6,23 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
-          "id": "https://nullprogram.com/blog/2025/02/05/",
+          "id": "https://nullprogram.com/blog/2025/02/17/",
           "author": null,
-          "description": "Fuzz testing is incredibly effective for mechanically discovering software\ndefects, yet remains underused and neglected. Pick any program that must\ngracefully accept complex input, written in any language, which has not\nyet been been fuzzed, and fuzz testing usually reveals at least one bug.\nAt least one program currently installed on your own computer certainly\nqualifies. Perhaps even most of them. Everything is broken and\nlow-hanging fruit is everywhere. After fuzz testing ~1,000 projects over\nthe past six years, I’ve accumulated tips for picking that fruit.\nThe checklist format has worked well in the past (1, 2), so\nI’ll use it again. This article discusses AFL++ on source-available\nC and C++ targets, running on glibc-based Linux distributions, currently\nthe best fuzzing platform for C …",
-          "link": "https://nullprogram.com/blog/2025/02/05/",
-          "publishedOn": "2025-02-05T18:03:55.000Z",
-          "wordCount": 2085,
-          "title": "Tips for more effective fuzz testing with AFL++",
+          "description": "xxd is a versatile hexdump utility with a “reverse” feature, originally\nwritten between 1990–1996. The Vim project soon adopted it, and it’s lived\nthere ever since. If you have Vim, you also have xxd. Its primary use\ncases are (1) the basis for a hex editor due to its -r reverse option\nthat can unhexdump its previous output, and (2) a data embedding tool\nfor C and C++ (-i). The former provides Vim’s rudimentary hex editor\nfunctionality. The second case is of special interest to w64devkit:\nxxd -i appears in many builds that embed arbitrary data. It’s\nimportant that w64devkit has a compatible implementation, and a freshly\nrewritten, improved xxd, rexxd, now replaces the original xxd (as\nxxd).\nFor those unfamiliar with xxd, examples are in order. Its default hexdump\noutput looks like this:\n\n$…",
+          "link": "https://nullprogram.com/blog/2025/02/17/",
+          "publishedOn": "2025-02-17T00:49:49.000Z",
+          "wordCount": 2717,
+          "title": "Meet the new xxd for w64devkit: rexxd",
           "imageUrl": null
         },
         {
-          "id": "https://nullprogram.com/blog/2025/01/19/",
+          "id": "https://nullprogram.com/blog/2025/02/05/",
           "author": null,
-          "description": "This article durably captures my reddit comment showing techniques\nfor std::unordered_map and std::vector equivalents in C programs. The\ncore, important features of these data structures require only a dozen or\nso lines of code apiece. They compile quickly, and tend to run faster in\ndebug builds than release builds of their C++ equivalents. What they\nlack in genericity they compensate in simplicity. Nothing here will be\nnew. Everything has been covered in greater detail previously, which I\nwill reference when appropriate.\nFor a concrete goal, we will build a data structure representing an\nprocess environment, along with related functionality to make it more\ninteresting. That is, we’ll build a string-to-string map.\nAllocator\nThe foundation is our allocator, a simple bump allocator, so\nwe’ll…",
-          "link": "https://nullprogram.com/blog/2025/01/19/",
-          "publishedOn": "2025-01-19T04:10:33.000Z",
-          "wordCount": 2994,
-          "title": "Examples of quick hash tables and dynamic arrays in C",
+          "description": "Fuzz testing is incredibly effective for mechanically discovering software\ndefects, yet remains underused and neglected. Pick any program that must\ngracefully accept complex input, written in any language, which has not\nyet been been fuzzed, and fuzz testing usually reveals at least one bug.\nAt least one program currently installed on your own computer certainly\nqualifies. Perhaps even most of them. Everything is broken and\nlow-hanging fruit is everywhere. After fuzz testing ~1,000 projects over\nthe past six years, I’ve accumulated tips for picking that fruit.\nThe checklist format has worked well in the past (1, 2), so\nI’ll use it again. This article discusses AFL++ on source-available\nC and C++ targets, running on glibc-based Linux distributions, currently\nthe indisputable best fuzzing pl…",
+          "link": "https://nullprogram.com/blog/2025/02/05/",
+          "publishedOn": "2025-02-05T18:03:55.000Z",
+          "wordCount": 2094,
+          "title": "Tips for more effective fuzz testing with AFL++",
           "imageUrl": null
         }
       ]
@@ -58,16 +58,6 @@
           "wordCount": 683,
           "title": "Nim version 2.2.2 released",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2025/01/23/community-survey-results-2024.html",
-          "author": null,
-          "description": "The Nim community survey 2024 has been open for two months, and we have received 367 responses – less than in previous years, but we’ll still try to draw conclusions about our users and their habits.\nBefore we go into details, we would like to thank all the people who took the time to respond.\nWe really appreciate the feedback!\nThe goal of this survey was primarily to determine how our community is using Nim, in order to better understand how we should be improving it.\nDo you use Nim?\nBased on the answer to this question, the respondents were divided into two groups that each received a separate set of questions.\n\nApproximately three quarters of the respondents use Nim (40% frequently, 36% occasionally), while the remaining quarter is divided between people who never used Nim (7%) and peop…",
-          "link": "https://nim-lang.org//blog/2025/01/23/community-survey-results-2024.html",
-          "publishedOn": "2025-01-23T00:00:00.000Z",
-          "wordCount": 1078,
-          "title": "Nim Community Survey 2024 Results",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
     },
@@ -99,18 +89,7 @@
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
-      "articles": [
-        {
-          "id": "https://abhinavsarkar.net/posts/brainfuck-interpreter/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>Writing an interpreter for Brainfuck is almost a rite of passage for any programming language implementer,\nand it’s my turn now. In this post, we’ll write not one but four Brainfuck interpreters in Haskell. Let’s go!</p>",
-          "link": "https://abhinavsarkar.net/posts/brainfuck-interpreter/?mtm_campaign=feed",
-          "publishedOn": "2025-01-19T00:00:00.000Z",
-          "wordCount": 5739,
-          "title": "Interpreting Brainfuck in Haskell",
-          "imageUrl": "https://abhinavsarkar.net/images/brainfuck-interpreter/preview.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Daniel Lemire's blog",
@@ -123,7 +102,7 @@
           "description": "Convention computer instructions operate on a single piece of data at once (e.g., they can negate an integer or add two integers). For better performance, CPU vendors add support for SIMD instructions. SIMD stands for Single Instruction, Multiple Data. It is a type of parallel processing where a single operation is executed simultaneously on multiple … Continue reading AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
           "link": "https://lemire.me/blog/2025/02/14/avx-512-gotcha-avoid-compressing-words-to-memory-with-amd-zen-4-processors/",
           "publishedOn": "2025-02-14T21:27:29.000Z",
-          "wordCount": 3691,
+          "wordCount": 3851,
           "title": "AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
           "imageUrl": null
         },
@@ -133,7 +112,7 @@
           "description": "A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy",
           "link": "https://lemire.me/blog/2025/02/07/thread-safe-memory-copy/",
           "publishedOn": "2025-02-07T23:12:34.000Z",
-          "wordCount": 4683,
+          "wordCount": 4678,
           "title": "Thread-safe memory copy",
           "imageUrl": null
         },
@@ -143,7 +122,7 @@
           "description": "Programmer time is precious. This realization should shape our approach to software development, focusing our efforts on tasks that genuinely contribute to the improvement of our code and the software ecosystem.   What does matter?   Hunting for bugs. I like to add tests, and then even more tests. The time spent building tests should … Continue reading Programmer time and the pitfalls of wasteful work",
           "link": "https://lemire.me/blog/2025/01/30/programmer-time-and-the-pitfalls-of-false-positives/",
           "publishedOn": "2025-01-30T03:02:36.000Z",
-          "wordCount": 3662,
+          "wordCount": 3657,
           "title": "Programmer time and the pitfalls of wasteful work",
           "imageUrl": null
         },
@@ -153,18 +132,8 @@
           "description": "Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching within text. For example, the expression \\d*\\.?\\d+ would match a positive number such as 1.1 or 12. If designed and tested with care, regular expressions may be used in mission-critical software. However, their power comes with a risk: it is possible to … Continue reading Regular expressions can blow up!",
           "link": "https://lemire.me/blog/2025/01/25/regular-expressions-can-blow-up/",
           "publishedOn": "2025-01-25T03:53:36.000Z",
-          "wordCount": 3370,
+          "wordCount": 3365,
           "title": "Regular expressions can blow up!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21836",
-          "author": "Daniel Lemire",
-          "description": "Your phone probably runs on 64-bit ARM processors. These processors are ubiquitous: they power the Nintendo Switch, they power cloud servers at both Amazon AWS and Microsoft Azure, they power fast laptops, and so forth. ARM processors have special powerful instructions called ARM NEON. They provide a specific type of parallelism called Single instruction, multiple … Continue reading Checking whether an ARM NEON register is zero",
-          "link": "https://lemire.me/blog/2025/01/20/checking-whether-an-arm-neon-register-is-zero/",
-          "publishedOn": "2025-01-20T01:05:51.000Z",
-          "wordCount": 4198,
-          "title": "Checking whether an ARM NEON register is zero",
           "imageUrl": null
         }
       ]
@@ -187,12 +156,42 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
+          "id": "https://curiouscoding.nl/posts/pairwise-alignment/",
+          "author": null,
+          "description": "Table of Contents\n1 Introduction\n\n1.1 Overview\n2 A history of pairwise alignment\n\n2.1 Problem statement\n2.2 Variations on pairwise alignment\n\nAlignment types\nCost Models\nMinimizing Cost versus Maximizing Score\n2.3 The classic quadratic DP algorithms\n2.4 Linear Memory using Divide and Conquer\n2.5 Computational volumes\n2.6 LCS and Contours\n2.7 Diagonal transition\n2.8 graph algos\n2.9 Four russians\n2.10 parallelism & Bitpacking\n2.11 Approximate\n\nseed-chain-extend approximate\nBlockAligner\n2.12 Semi-global highlight\n2.13 Tools\n3 A*PA\n\n3.1 Summary/overview/contribs\n3.2 Methods\n3.3 Evaluation\n3.4 Discussion\n4 A*PA2\n\n4.1 Summary/overview/contribs\n4.2 Notation\n4.3 Methods\n4.4 Evaluation\n4.5 Discussion\n5 TODO\nAttribution\n \nThis chapter is based on two papers:",
+          "link": "https://curiouscoding.nl/posts/pairwise-alignment/",
+          "publishedOn": "2025-02-20T23:00:00.000Z",
+          "wordCount": 4270,
+          "title": "Pairwise alignment",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/posts/minimizers/",
+          "author": null,
+          "description": "Table of Contents\n1 Introduction\n\n1.1 Overview\n2 Theory of sampling schemes\n\n2.1 Types of sampling schemes\n2.2 Computing the density\n2.3 The density of random minimizers\n2.4 Universal hitting sets\n2.5 Asymptotic results\n2.6 Variants\n3 Lower bounds\n\n3.1 Schleimer et al.’s bound\n3.2 Marçais et al.’s bound\n3.3 Improving and extending Marçais et al.’s bound\n3.4 A near-tight lower bound on the density of forward sampling schemes\n3.5 Discussion\n4 Sampling schemes\n\n4.1 Variants of lexicographic minimizers\n\nEvaluation\n4.2 UHS-inspired schemes\n4.3 Syncmer-based schemes\n4.4 Open-closed minimizer\n\nEvaluation\n4.5 Mod-minimizer\n\nTheoretical density\nEvaluation\n4.6 Discussion\n5 Selection schemes\n\n5.1 Bidirectional anchors\n5.2 Sus-anchors\n\nEvaluation\n5.3 Discussion\n6 Discussion\nAttribution\n \nThis chapter is based on three papers:",
+          "link": "https://curiouscoding.nl/posts/minimizers/",
+          "publishedOn": "2025-02-17T23:00:00.000Z",
+          "wordCount": 15119,
+          "title": "Minimizers and more",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/posts/minimizer-papers/",
+          "author": null,
+          "description": "Table of Contents\n1 Overview\n2 Introduction\n- Previous reviews\n3 Theory of sampling schemes\n\n3.1 Questions\n3.2 Types of schemes\n3.3 Parameter regimes\n3.4 Different perspectives\n3.5 UHS vs minimizer scheme\n3.6 (Asymptotic) bounds\n3.7 Lower bounds\n4 Minimizer schemes\n\n4.1 Orders\n4.2 UHS-based and search-based schemes\n4.3 Pure schemes\n4.4 Other variants\n\nSelection schemes\nCanonical minimizers\n4.5 Non-overlapping string sets\nThis post is simply a list of brief comments on many papers related to\nminimizers, and forms the basis of /posts/minimizers/.\n1 Overview\n \n \n \n\n\n \nFigure 1: An overview of the papers this post discusses, showing authors and categories of each paper.",
+          "link": "https://curiouscoding.nl/posts/minimizer-papers/",
+          "publishedOn": "2025-02-16T23:00:00.000Z",
+          "wordCount": 2534,
+          "title": "Minimizer papers",
+          "imageUrl": null
+        },
+        {
           "id": "https://curiouscoding.nl/posts/binsearch/",
           "author": null,
-          "description": "Table of Contents\n1 Optimizing Binary Search And Interpolation Search\n\n1.1 Problem statement\n1.2 Inspiration and background\n1.3 Benchmarking setup\n2 Baseline\n\n2.1 A note on power-of-two array sizes\n3 Alternative memory layout\n\n3.1 Naive implementation\n3.2 Prefetching\n3.3 Branchless Eytzinger\n3.4 Batched Eytzinger\n\n3.4.1 Non-prefetched\n3.4.2 Prefetched\n4 Eytzinger or BinSearch?\n5 Memory efficiency – parallel search and comparison to B-trees\n6 Interpolation search\n7 Comparing everything on the human genome\n1 Optimizing Binary Search And Interpolation Search\n \n \n \n\nThis blogpost is a preliminary of the\npost on static\nsearch trees. We will be looking into binary search and how it can be\noptimized using different memory layouts (Eytzinger), branchless\ntechniques and careful use of prefetching. In addition, we will explore\nbatching and different implementations of it, some of them using vector\ninstructions. Our language of choice will be Rust.",
+          "description": "Table of Contents\n1 Optimizing Binary Search And Interpolation Search\n\n1.1 Problem statement\n1.2 Inspiration and background\n1.3 Benchmarking setup\n2 Binary search\n\n2.1 Branchless search\n2.2 Explicit prefetching\n2.3 Batching\n2.4 A note on power-of-two array sizes\n3 Eytzinger\n\n3.1 Naive implementation\n3.2 Prefetching\n3.3 Branchless Eytzinger\n3.4 Batched Eytzinger\n\n3.4.1 Non-prefetched\n3.4.2 Prefetched\n4 Eytzinger or BinSearch?\n5 Memory efficiency – parallel search and comparison to B-trees\n6 Interpolation search\n7 Conclusion and takeaways\n1 Optimizing Binary Search And Interpolation Search\n \n \n \n\nThis blogpost is a preliminary of the\npost on static\nsearch trees. We will be looking into binary search and how it can be\noptimized using different memory layouts (Eytzinger), branchless\ntechniques and careful use of prefetching. In addition, we will explore\nbatching and different implementations of it, some of them using vector\ninstructions. Our language of choice will be Rust.",
           "link": "https://curiouscoding.nl/posts/binsearch/",
           "publishedOn": "2025-02-11T23:00:00.000Z",
-          "wordCount": 3491,
+          "wordCount": 5831,
           "title": "[WIP] Binary search variants and the effects of batching",
           "imageUrl": null
         },
@@ -209,10 +208,10 @@
         {
           "id": "https://curiouscoding.nl/posts/ptrhash-paper/",
           "author": null,
-          "description": "Table of Contents\nAbstract\n1 Introduction\n2 Related work\n3 PtrHash\n\n3.1 Overview\n3.2 Construction\n3.3 Remapping using CacheLineEF\n3.4 Bucket Assignment Functions\n3.5 Parallel Queries\n3.6 Sharding\n4 Results\n\n4.1 Construction\n\n4.1.1 Bucket Functions\n4.1.2 Tuning Parameters for Construction\n4.1.3 [Appendix?] Remap\n4.1.4 Sharding\n4.2 Query Throughput\n\n4.2.1 [Appendix?] Batching and Streaming\n4.2.2 [Appendix?] Multi-threaded Throughput\n4.3 Comparison to Other Methods\n5 Conclusions and Future Work\nAcknowledgements\nFunding\n6 Appendix\n\n6.1 Rust and Assembly Code for Streaming\n7 DONE Failed Ideas\n8 Appendix\n\n8.1 TODO Choosing the Part Size\n8.2 Input Types and Hash Functions\n9 Graveyard\n\\[\n\\newcommand{\\part}{\\mathsf{part}}\n\\newcommand{\\bucket}{\\mathsf{bucket}}\n\\newcommand{\\slot}{\\mathsf{slot}}\n\\newcommand{\\reduce}{\\mathsf{reduce}}\n\\newcommand{\\h}{\\mathsf{h}}\n\\newcommand{\\hp}{\\mathsf{h}_{\\mathsf{p}}}\n\\newcommand{\\C}{\\mathsf{C}}\n\\newcommand{\\select}{\\mathsf{select}}\n\\newcommand{\\free}{F}\n\\newcommand{\\mphf}{\\mathsf{H_{mphf}}}\n\\]",
+          "description": "Table of Contents\nAbstract\n1 Introduction\n2 Related work\n3 PtrHash\n\n3.1 Overview\n3.2 Details\n3.3 Construction\n3.4 Bucket Assignment Functions\n3.5 Remapping using CacheLineEF\n4 Results\n\n4.1 Construction\n\n4.1.1 Bucket Functions\n4.1.2 Tuning Parameters for Construction\n4.1.3 Remap\n4.2 Comparison to Other Methods\n5 Conclusions and Future Work\nAcknowledgements\nFunding\n6 Appendix: Query throughput\n\n6.1 Batching and streaming\n6.2 Evaluation\n6.3 Multi-threaded Throughput\n7 Appendix: Sharding\n\n7.1 Evaluation\n8 Appendix: Evaluating Hash Functions\n\\[\n\\newcommand{\\part}{\\mathsf{part}}\n\\newcommand{\\bucket}{\\mathsf{bucket}}\n\\newcommand{\\slot}{\\mathsf{slot}}\n\\newcommand{\\reduce}{\\mathsf{reduce}}\n\\newcommand{\\h}{\\mathsf{h}}\n\\newcommand{\\hp}{\\mathsf{h}_{\\mathsf{p}}}\n\\newcommand{\\C}{\\mathsf{C}}\n\\newcommand{\\select}{\\mathsf{select}}\n\\newcommand{\\free}{F}\n\\newcommand{\\mphf}{\\mathsf{H_{mphf}}}\n\\]\nThis is the work-in-progress paper on PtrHash. The original blog post on its\ndevelopment is here.",
           "link": "https://curiouscoding.nl/posts/ptrhash-paper/",
           "publishedOn": "2025-02-02T23:00:00.000Z",
-          "wordCount": 11208,
+          "wordCount": 11050,
           "title": "PtrHash: Minimal Perfect Hashing at RAM Throughput",
           "imageUrl": null
         }
