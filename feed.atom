@@ -1,55 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-23T01:14:15.196Z</id>
+    <id>urn:2025-03-02T01:14:49.207Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-23T01:14:15.196Z</updated>
+    <updated>2025-03-02T01:14:49.207Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Pairwise alignment]]></title>
+        <title type="html"><![CDATA[How fast can you open 1000 files?]]></title>
+        <id>https://lemire.me/blog/?p=21905</id>
+        <link href="https://lemire.me/blog/2025/03/01/how-fast-can-you-open-1000-files/"/>
+        <updated>2025-03-01T22:41:04.000Z</updated>
+        <summary type="html"><![CDATA[Jarred Sumner, the main author of the Bun JavaScript engine, commented a few days ago on X that opening many files on macOS could be slow due to thread contention: “your $5,000 computer is only capable of opening 1 file at a time”. I was curious and I decided to test it out. I wrote … Continue reading How fast can you open 1000 files?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Near-optimal sampling schemes]]></title>
+        <id>https://curiouscoding.nl/slides/minimizers/</id>
+        <link href="https://curiouscoding.nl/slides/minimizers/"/>
+        <updated>2025-02-26T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1 Minimizer schemes
+ 
+ 
+ 
+
+
+\[\newcommand{\order}{\mathcal{O}}\]
+Minimizer scheme: Given a window of \(w\) k-mers, pick the (leftmost) smallest one
+
+according to some order \(\order_k\)
+\(k=1\), \(w=5\):
+
+BCADF \(\to\) [B, C, A, D, F] \(\to\) A
+\(k=2\), \(w=5\):
+
+CABCAC..... \(\to\) [CA, AB, BC, CA, AC] \(\to\) AB
+.ABCACC.... \(\to\) [AB, BC, CA, AC, CC] \(\to\) AB
+..BCACCX... \(\to\) [BC, CA, AC, CC, CX] \(\to\) AC new
+...CACCXY.. \(\to\) [CA, AC, CC, CX, XY] \(\to\) AC
+....ACCXYZ. \(\to\) [AC, CC, CX, XY, YZ] \(\to\) AC
+.....CCXYZX \(\to\) [CC, CX, XY, YZ, XZ] \(\to\) CC new
+
+
+
+
+
+
+
+
+
+
+ 1.1 Minimizer density lower bound
+ 
+ 
+ 
+
+
+
+Density of minimizer scheme is \(\geq 1/\sigma^k\):]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacOS for KDE Users]]></title>
+        <id>https://matklad.github.io/2025/02/23/macos-for-kde-users.html</id>
+        <link href="https://matklad.github.io/2025/02/23/macos-for-kde-users.html"/>
+        <updated>2025-02-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I've switched to MacOS after using Linux continuously since 2012 or thereabouts (first Arch, and
+then, since 2015, NixOS). This post documents my experience.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0. Optimal Throughput Bioinformatics]]></title>
+        <id>https://curiouscoding.nl/posts/thesis/</id>
+        <link href="https://curiouscoding.nl/posts/thesis/"/>
+        <updated>2025-02-22T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Abstract
+2 Introduction
+
+2.1 Objectives
+2.2 Challenges
+2.3 List of papers
+2.4 Thesis structure and contributions
+2.5 Personal note
+3 Discussion and conclusion
+
+3.1 Overview
+3.2 Future directions
+3.3 Concluding remarks
+4 Bibliography
+1 Abstract
+ 
+ 
+ 
+
+
+ 2 Introduction
+ 
+ 
+ 
+
+Summary.
+2.1 Objectives
+ 
+ 
+ 
+
+
+ 2.2 Challenges
+ 
+ 
+ 
+
+
+ 2.3 List of papers
+ 
+ 
+ 
+
+Pairwise alignment.
+A*PA, Bioinformatics 24.
+Groot Koerkamp, Ragnar, and Pesho Ivanov. 2024. “Exact Global Alignment Using A* with Chaining Seed Heuristic and Match Pruning.” Edited by Tobias Marschall. Bioinformatics 40 (3). https://doi.org/10.1093/bioinformatics/btae032.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1. Pairwise Alignment]]></title>
         <id>https://curiouscoding.nl/posts/pairwise-alignment/</id>
         <link href="https://curiouscoding.nl/posts/pairwise-alignment/"/>
-        <updated>2025-02-20T23:00:00.000Z</updated>
+        <updated>2025-02-21T23:00:00.000Z</updated>
         <summary type="html"><![CDATA[Table of Contents
 1 Introduction
 
 1.1 Overview
 2 A history of pairwise alignment
+3 Problem statement
+4 Variations on pairwise alignment
 
-2.1 Problem statement
-2.2 Variations on pairwise alignment
+4.1 Alignment types
+4.2 Cost Models
+4.3 Minimizing Cost versus Maximizing Score
+5 The classic quadratic DP algorithms
+6 Linear Memory using Divide and Conquer
+7 Dijkstra’s algorithm and A*
+8 Computational volumes and band doubling
+9 Diagonal transition
+10 Subquadratic methods and lower bounds
+11 Parallelism
+12 LCS and Contours
+13 Some tools
+14 Summary
+15 TODO
 
-Alignment types
-Cost Models
-Minimizing Cost versus Maximizing Score
-2.3 The classic quadratic DP algorithms
-2.4 Linear Memory using Divide and Conquer
-2.5 Computational volumes
-2.6 LCS and Contours
-2.7 Diagonal transition
-2.8 graph algos
-2.9 Four russians
-2.10 parallelism & Bitpacking
-2.11 Approximate
+15.1 A*PA2
 
-seed-chain-extend approximate
-BlockAligner
-2.12 Semi-global highlight
-2.13 Tools
-3 A*PA
-
-3.1 Summary/overview/contribs
-3.2 Methods
-3.3 Evaluation
-3.4 Discussion
-4 A*PA2
-
-4.1 Summary/overview/contribs
-4.2 Notation
-4.3 Methods
-4.4 Evaluation
-4.5 Discussion
-5 TODO
+Summary/overview/contribs
+Notation
+Methods
+Evaluation
+Discussion
+15.2 Semi-global alignment
 Attribution
  
 This chapter is based on two papers:]]></summary>
@@ -58,55 +174,94 @@ This chapter is based on two papers:]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Minimizers and more]]></title>
+        <title type="html"><![CDATA[2. Minimizers and More]]></title>
         <id>https://curiouscoding.nl/posts/minimizers/</id>
         <link href="https://curiouscoding.nl/posts/minimizers/"/>
-        <updated>2025-02-17T23:00:00.000Z</updated>
+        <updated>2025-02-20T23:00:00.000Z</updated>
         <summary type="html"><![CDATA[Table of Contents
-1 Introduction
+1 Theory of sampling schemes
 
-1.1 Overview
-2 Theory of sampling schemes
+1.1 Introduction
+1.2 Overview
+1.3 Theory of sampling schemes
+1.4 Notation
+1.5 Types of sampling schemes
+1.6 Computing the density
+1.7 The density of random minimizers
+1.8 Universal hitting sets
+1.9 Asymptotic results
+1.10 Variants
+2 Lower bounds
 
-2.1 Types of sampling schemes
-2.2 Computing the density
-2.3 The density of random minimizers
-2.4 Universal hitting sets
-2.5 Asymptotic results
-2.6 Variants
-3 Lower bounds
+2.1 Schleimer et al.’s bound
+2.2 Marçais et al.’s bound
+2.3 Improving and extending Marçais et al.’s bound
+2.4 A near-tight lower bound on the density of forward sampling schemes
+2.5 Discussion
+3 Sampling schemes
 
-3.1 Schleimer et al.’s bound
-3.2 Marçais et al.’s bound
-3.3 Improving and extending Marçais et al.’s bound
-3.4 A near-tight lower bound on the density of forward sampling schemes
-3.5 Discussion
-4 Sampling schemes
-
-4.1 Variants of lexicographic minimizers
-
-Evaluation
-4.2 UHS-inspired schemes
-4.3 Syncmer-based schemes
-4.4 Open-closed minimizer
+3.1 Variants of lexicographic minimizers
 
 Evaluation
-4.5 Mod-minimizer
+3.2 UHS-inspired schemes
+3.3 Syncmer-based schemes
+3.4 Open-closed minimizer
+
+Evaluation
+3.5 Mod-minimizer
 
 Theoretical density
 Evaluation
-4.6 Discussion
-5 Selection schemes
+3.6 Discussion
+4 Selection schemes
 
-5.1 Bidirectional anchors
-5.2 Sus-anchors
+4.1 Bidirectional anchors
+4.2 Sus-anchors
 
 Evaluation
-5.3 Discussion
-6 Discussion
+4.3 Discussion
+4.4 TODO Discussion
+5 Checks
+1 Theory of sampling schemes
+ 
+ 
+ 
+
+
+ 
 Attribution
  
 This chapter is based on three papers:]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3. High Throughput Bioinformatics]]></title>
+        <id>https://curiouscoding.nl/posts/throughput/</id>
+        <link href="https://curiouscoding.nl/posts/throughput/"/>
+        <updated>2025-02-19T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Optimizing Compute Bound Code: Random Minimizers
+
+1.1 Avoiding Branch Misses
+1.2 SIMD: Processing In Parallel
+1.3 Instruction Level Parallelism
+1.4 Input Format
+2 Optimizing Memory Bound Code: Minimal Perfect Hashing
+
+2.1 Using Less Memory
+2.2 Reducing Memory Accesses
+2.3 Interleaving Memory Accesses
+2.4 Batching, Streaming, and Prefetching
+3 TODO Writing High Performance Code
+
+3.1 TODO Benchmarking
+3.2 Writing and Optimizing High Performance Code
+3.3 DROP? Performance Metrics
+Attribution
+ 
+This part is based on two preprints:]]></summary>
         <author>
             <name>home on CuriousCoding</name>
         </author>
@@ -224,7 +379,7 @@ Figure 1: An overview of the papers this post discusses, showing authors and cat
 3.4.1 Non-prefetched
 3.4.2 Prefetched
 4 Eytzinger or BinSearch?
-5 Memory efficiency – parallel search and comparison to B-trees
+5 Memory efficiency – parallel search and comparison to S-trees
 6 Interpolation search
 7 Conclusion and takeaways
 1 Optimizing Binary Search And Interpolation Search
@@ -237,8 +392,7 @@ post on static
 search trees. We will be looking into binary search and how it can be
 optimized using different memory layouts (Eytzinger), branchless
 techniques and careful use of prefetching. In addition, we will explore
-batching and different implementations of it, some of them using vector
-instructions. Our language of choice will be Rust.]]></summary>
+batching. Our language of choice will be Rust.]]></summary>
         <author>
             <name>home on CuriousCoding</name>
         </author>
@@ -318,8 +472,8 @@ NOTE: Make sure that the version of choosenim you have installed is 0.8.5 or hig
     </entry>
     <entry>
         <title type="html"><![CDATA[PtrHash: Minimal Perfect Hashing at RAM Throughput]]></title>
-        <id>https://curiouscoding.nl/posts/ptrhash-paper/</id>
-        <link href="https://curiouscoding.nl/posts/ptrhash-paper/"/>
+        <id>https://curiouscoding.nl/posts/ptrhash/</id>
+        <link href="https://curiouscoding.nl/posts/ptrhash/"/>
         <updated>2025-02-02T23:00:00.000Z</updated>
         <summary type="html"><![CDATA[Table of Contents
 Abstract
@@ -364,30 +518,10 @@ Funding
 \newcommand{\free}{F}
 \newcommand{\mphf}{\mathsf{H_{mphf}}}
 \]
-This is the work-in-progress paper on PtrHash. The original blog post on its
-development is here.]]></summary>
+This is my paper on PtrHash. The original development-log can be found here.
+This paper is also available on arXiv: DOI, PDF:]]></summary>
         <author>
             <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Programmer time and the pitfalls of wasteful work]]></title>
-        <id>https://lemire.me/blog/?p=21850</id>
-        <link href="https://lemire.me/blog/2025/01/30/programmer-time-and-the-pitfalls-of-false-positives/"/>
-        <updated>2025-01-30T03:02:36.000Z</updated>
-        <summary type="html"><![CDATA[Programmer time is precious. This realization should shape our approach to software development, focusing our efforts on tasks that genuinely contribute to the improvement of our code and the software ecosystem.   What does matter?   Hunting for bugs. I like to add tests, and then even more tests. The time spent building tests should … Continue reading Programmer time and the pitfalls of wasteful work]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Regular expressions can blow up!]]></title>
-        <id>https://lemire.me/blog/?p=21848</id>
-        <link href="https://lemire.me/blog/2025/01/25/regular-expressions-can-blow-up/"/>
-        <updated>2025-01-25T03:53:36.000Z</updated>
-        <summary type="html"><![CDATA[Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching within text. For example, the expression \d*\.?\d+ would match a positive number such as 1.1 or 12. If designed and tested with care, regular expressions may be used in mission-critical software. However, their power comes with a risk: it is possible to … Continue reading Regular expressions can blow up!]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

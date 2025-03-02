@@ -71,7 +71,18 @@
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://matklad.github.io/2025/02/23/macos-for-kde-users.html",
+          "author": null,
+          "description": "I've switched to MacOS after using Linux continuously since 2012 or thereabouts (first Arch, and\nthen, since 2015, NixOS). This post documents my experience.",
+          "link": "https://matklad.github.io/2025/02/23/macos-for-kde-users.html",
+          "publishedOn": "2025-02-23T00:00:00.000Z",
+          "wordCount": 3128,
+          "title": "MacOS for KDE Users",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Hugging Face - Blog",
@@ -97,12 +108,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21905",
+          "author": "Daniel Lemire",
+          "description": "Jarred Sumner, the main author of the Bun JavaScript engine, commented a few days ago on X that opening many files on macOS could be slow due to thread contention: “your $5,000 computer is only capable of opening 1 file at a time”. I was curious and I decided to test it out. I wrote … Continue reading How fast can you open 1000 files?",
+          "link": "https://lemire.me/blog/2025/03/01/how-fast-can-you-open-1000-files/",
+          "publishedOn": "2025-03-01T22:41:04.000Z",
+          "wordCount": 3329,
+          "title": "How fast can you open 1000 files?",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21895",
           "author": "Daniel Lemire",
           "description": "Convention computer instructions operate on a single piece of data at once (e.g., they can negate an integer or add two integers). For better performance, CPU vendors add support for SIMD instructions. SIMD stands for Single Instruction, Multiple Data. It is a type of parallel processing where a single operation is executed simultaneously on multiple … Continue reading AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
           "link": "https://lemire.me/blog/2025/02/14/avx-512-gotcha-avoid-compressing-words-to-memory-with-amd-zen-4-processors/",
           "publishedOn": "2025-02-14T21:27:29.000Z",
-          "wordCount": 3851,
+          "wordCount": 3856,
           "title": "AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
           "imageUrl": null
         },
@@ -112,28 +133,8 @@
           "description": "A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy",
           "link": "https://lemire.me/blog/2025/02/07/thread-safe-memory-copy/",
           "publishedOn": "2025-02-07T23:12:34.000Z",
-          "wordCount": 4678,
+          "wordCount": 4662,
           "title": "Thread-safe memory copy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21850",
-          "author": "Daniel Lemire",
-          "description": "Programmer time is precious. This realization should shape our approach to software development, focusing our efforts on tasks that genuinely contribute to the improvement of our code and the software ecosystem.   What does matter?   Hunting for bugs. I like to add tests, and then even more tests. The time spent building tests should … Continue reading Programmer time and the pitfalls of wasteful work",
-          "link": "https://lemire.me/blog/2025/01/30/programmer-time-and-the-pitfalls-of-false-positives/",
-          "publishedOn": "2025-01-30T03:02:36.000Z",
-          "wordCount": 3657,
-          "title": "Programmer time and the pitfalls of wasteful work",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21848",
-          "author": "Daniel Lemire",
-          "description": "Regular expressions, often abbreviated as regex, are a powerful tool for pattern matching within text. For example, the expression \\d*\\.?\\d+ would match a positive number such as 1.1 or 12. If designed and tested with care, regular expressions may be used in mission-critical software. However, their power comes with a risk: it is possible to … Continue reading Regular expressions can blow up!",
-          "link": "https://lemire.me/blog/2025/01/25/regular-expressions-can-blow-up/",
-          "publishedOn": "2025-01-25T03:53:36.000Z",
-          "wordCount": 3365,
-          "title": "Regular expressions can blow up!",
           "imageUrl": null
         }
       ]
@@ -156,23 +157,53 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
+          "id": "https://curiouscoding.nl/slides/minimizers/",
+          "author": null,
+          "description": "1 Minimizer schemes\n \n \n \n\n\n\\[\\newcommand{\\order}{\\mathcal{O}}\\]\nMinimizer scheme: Given a window of \\(w\\) k-mers, pick the (leftmost) smallest one\n\naccording to some order \\(\\order_k\\)\n\\(k=1\\), \\(w=5\\):\n\nBCADF \\(\\to\\) [B, C, A, D, F] \\(\\to\\) A\n\\(k=2\\), \\(w=5\\):\n\nCABCAC..... \\(\\to\\) [CA, AB, BC, CA, AC] \\(\\to\\) AB\n.ABCACC.... \\(\\to\\) [AB, BC, CA, AC, CC] \\(\\to\\) AB\n..BCACCX... \\(\\to\\) [BC, CA, AC, CC, CX] \\(\\to\\) AC new\n...CACCXY.. \\(\\to\\) [CA, AC, CC, CX, XY] \\(\\to\\) AC\n....ACCXYZ. \\(\\to\\) [AC, CC, CX, XY, YZ] \\(\\to\\) AC\n.....CCXYZX \\(\\to\\) [CC, CX, XY, YZ, XZ] \\(\\to\\) CC new\n\n\n\n\n\n\n\n\n\n\n 1.1 Minimizer density lower bound\n \n \n \n\n\n\nDensity of minimizer scheme is \\(\\geq 1/\\sigma^k\\):",
+          "link": "https://curiouscoding.nl/slides/minimizers/",
+          "publishedOn": "2025-02-26T23:00:00.000Z",
+          "wordCount": 515,
+          "title": "Near-optimal sampling schemes",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/posts/thesis/",
+          "author": null,
+          "description": "Table of Contents\n1 Abstract\n2 Introduction\n\n2.1 Objectives\n2.2 Challenges\n2.3 List of papers\n2.4 Thesis structure and contributions\n2.5 Personal note\n3 Discussion and conclusion\n\n3.1 Overview\n3.2 Future directions\n3.3 Concluding remarks\n4 Bibliography\n1 Abstract\n \n \n \n\n\n 2 Introduction\n \n \n \n\nSummary.\n2.1 Objectives\n \n \n \n\n\n 2.2 Challenges\n \n \n \n\n\n 2.3 List of papers\n \n \n \n\nPairwise alignment.\nA*PA, Bioinformatics 24.\nGroot Koerkamp, Ragnar, and Pesho Ivanov. 2024. “Exact Global Alignment Using A* with Chaining Seed Heuristic and Match Pruning.” Edited by Tobias Marschall. Bioinformatics 40 (3). https://doi.org/10.1093/bioinformatics/btae032.",
+          "link": "https://curiouscoding.nl/posts/thesis/",
+          "publishedOn": "2025-02-22T23:00:00.000Z",
+          "wordCount": 411,
+          "title": "0. Optimal Throughput Bioinformatics",
+          "imageUrl": null
+        },
+        {
           "id": "https://curiouscoding.nl/posts/pairwise-alignment/",
           "author": null,
-          "description": "Table of Contents\n1 Introduction\n\n1.1 Overview\n2 A history of pairwise alignment\n\n2.1 Problem statement\n2.2 Variations on pairwise alignment\n\nAlignment types\nCost Models\nMinimizing Cost versus Maximizing Score\n2.3 The classic quadratic DP algorithms\n2.4 Linear Memory using Divide and Conquer\n2.5 Computational volumes\n2.6 LCS and Contours\n2.7 Diagonal transition\n2.8 graph algos\n2.9 Four russians\n2.10 parallelism & Bitpacking\n2.11 Approximate\n\nseed-chain-extend approximate\nBlockAligner\n2.12 Semi-global highlight\n2.13 Tools\n3 A*PA\n\n3.1 Summary/overview/contribs\n3.2 Methods\n3.3 Evaluation\n3.4 Discussion\n4 A*PA2\n\n4.1 Summary/overview/contribs\n4.2 Notation\n4.3 Methods\n4.4 Evaluation\n4.5 Discussion\n5 TODO\nAttribution\n \nThis chapter is based on two papers:",
+          "description": "Table of Contents\n1 Introduction\n\n1.1 Overview\n2 A history of pairwise alignment\n3 Problem statement\n4 Variations on pairwise alignment\n\n4.1 Alignment types\n4.2 Cost Models\n4.3 Minimizing Cost versus Maximizing Score\n5 The classic quadratic DP algorithms\n6 Linear Memory using Divide and Conquer\n7 Dijkstra’s algorithm and A*\n8 Computational volumes and band doubling\n9 Diagonal transition\n10 Subquadratic methods and lower bounds\n11 Parallelism\n12 LCS and Contours\n13 Some tools\n14 Summary\n15 TODO\n\n15.1 A*PA2\n\nSummary/overview/contribs\nNotation\nMethods\nEvaluation\nDiscussion\n15.2 Semi-global alignment\nAttribution\n \nThis chapter is based on two papers:",
           "link": "https://curiouscoding.nl/posts/pairwise-alignment/",
-          "publishedOn": "2025-02-20T23:00:00.000Z",
-          "wordCount": 4270,
-          "title": "Pairwise alignment",
+          "publishedOn": "2025-02-21T23:00:00.000Z",
+          "wordCount": 9331,
+          "title": "1. Pairwise Alignment",
           "imageUrl": null
         },
         {
           "id": "https://curiouscoding.nl/posts/minimizers/",
           "author": null,
-          "description": "Table of Contents\n1 Introduction\n\n1.1 Overview\n2 Theory of sampling schemes\n\n2.1 Types of sampling schemes\n2.2 Computing the density\n2.3 The density of random minimizers\n2.4 Universal hitting sets\n2.5 Asymptotic results\n2.6 Variants\n3 Lower bounds\n\n3.1 Schleimer et al.’s bound\n3.2 Marçais et al.’s bound\n3.3 Improving and extending Marçais et al.’s bound\n3.4 A near-tight lower bound on the density of forward sampling schemes\n3.5 Discussion\n4 Sampling schemes\n\n4.1 Variants of lexicographic minimizers\n\nEvaluation\n4.2 UHS-inspired schemes\n4.3 Syncmer-based schemes\n4.4 Open-closed minimizer\n\nEvaluation\n4.5 Mod-minimizer\n\nTheoretical density\nEvaluation\n4.6 Discussion\n5 Selection schemes\n\n5.1 Bidirectional anchors\n5.2 Sus-anchors\n\nEvaluation\n5.3 Discussion\n6 Discussion\nAttribution\n \nThis chapter is based on three papers:",
+          "description": "Table of Contents\n1 Theory of sampling schemes\n\n1.1 Introduction\n1.2 Overview\n1.3 Theory of sampling schemes\n1.4 Notation\n1.5 Types of sampling schemes\n1.6 Computing the density\n1.7 The density of random minimizers\n1.8 Universal hitting sets\n1.9 Asymptotic results\n1.10 Variants\n2 Lower bounds\n\n2.1 Schleimer et al.’s bound\n2.2 Marçais et al.’s bound\n2.3 Improving and extending Marçais et al.’s bound\n2.4 A near-tight lower bound on the density of forward sampling schemes\n2.5 Discussion\n3 Sampling schemes\n\n3.1 Variants of lexicographic minimizers\n\nEvaluation\n3.2 UHS-inspired schemes\n3.3 Syncmer-based schemes\n3.4 Open-closed minimizer\n\nEvaluation\n3.5 Mod-minimizer\n\nTheoretical density\nEvaluation\n3.6 Discussion\n4 Selection schemes\n\n4.1 Bidirectional anchors\n4.2 Sus-anchors\n\nEvaluation\n4.3 Discussion\n4.4 TODO Discussion\n5 Checks\n1 Theory of sampling schemes\n \n \n \n\n\n \nAttribution\n \nThis chapter is based on three papers:",
           "link": "https://curiouscoding.nl/posts/minimizers/",
-          "publishedOn": "2025-02-17T23:00:00.000Z",
-          "wordCount": 15119,
-          "title": "Minimizers and more",
+          "publishedOn": "2025-02-20T23:00:00.000Z",
+          "wordCount": 15329,
+          "title": "2. Minimizers and More",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/posts/throughput/",
+          "author": null,
+          "description": "Table of Contents\n1 Optimizing Compute Bound Code: Random Minimizers\n\n1.1 Avoiding Branch Misses\n1.2 SIMD: Processing In Parallel\n1.3 Instruction Level Parallelism\n1.4 Input Format\n2 Optimizing Memory Bound Code: Minimal Perfect Hashing\n\n2.1 Using Less Memory\n2.2 Reducing Memory Accesses\n2.3 Interleaving Memory Accesses\n2.4 Batching, Streaming, and Prefetching\n3 TODO Writing High Performance Code\n\n3.1 TODO Benchmarking\n3.2 Writing and Optimizing High Performance Code\n3.3 DROP? Performance Metrics\nAttribution\n \nThis part is based on two preprints:",
+          "link": "https://curiouscoding.nl/posts/throughput/",
+          "publishedOn": "2025-02-19T23:00:00.000Z",
+          "wordCount": 2670,
+          "title": "3. High Throughput Bioinformatics",
           "imageUrl": null
         },
         {
@@ -188,10 +219,10 @@
         {
           "id": "https://curiouscoding.nl/posts/binsearch/",
           "author": null,
-          "description": "Table of Contents\n1 Optimizing Binary Search And Interpolation Search\n\n1.1 Problem statement\n1.2 Inspiration and background\n1.3 Benchmarking setup\n2 Binary search\n\n2.1 Branchless search\n2.2 Explicit prefetching\n2.3 Batching\n2.4 A note on power-of-two array sizes\n3 Eytzinger\n\n3.1 Naive implementation\n3.2 Prefetching\n3.3 Branchless Eytzinger\n3.4 Batched Eytzinger\n\n3.4.1 Non-prefetched\n3.4.2 Prefetched\n4 Eytzinger or BinSearch?\n5 Memory efficiency – parallel search and comparison to B-trees\n6 Interpolation search\n7 Conclusion and takeaways\n1 Optimizing Binary Search And Interpolation Search\n \n \n \n\nThis blogpost is a preliminary of the\npost on static\nsearch trees. We will be looking into binary search and how it can be\noptimized using different memory layouts (Eytzinger), branchless\ntechniques and careful use of prefetching. In addition, we will explore\nbatching and different implementations of it, some of them using vector\ninstructions. Our language of choice will be Rust.",
+          "description": "Table of Contents\n1 Optimizing Binary Search And Interpolation Search\n\n1.1 Problem statement\n1.2 Inspiration and background\n1.3 Benchmarking setup\n2 Binary search\n\n2.1 Branchless search\n2.2 Explicit prefetching\n2.3 Batching\n2.4 A note on power-of-two array sizes\n3 Eytzinger\n\n3.1 Naive implementation\n3.2 Prefetching\n3.3 Branchless Eytzinger\n3.4 Batched Eytzinger\n\n3.4.1 Non-prefetched\n3.4.2 Prefetched\n4 Eytzinger or BinSearch?\n5 Memory efficiency – parallel search and comparison to S-trees\n6 Interpolation search\n7 Conclusion and takeaways\n1 Optimizing Binary Search And Interpolation Search\n \n \n \n\nThis blogpost is a preliminary of the\npost on static\nsearch trees. We will be looking into binary search and how it can be\noptimized using different memory layouts (Eytzinger), branchless\ntechniques and careful use of prefetching. In addition, we will explore\nbatching. Our language of choice will be Rust.",
           "link": "https://curiouscoding.nl/posts/binsearch/",
           "publishedOn": "2025-02-11T23:00:00.000Z",
-          "wordCount": 5831,
+          "wordCount": 6348,
           "title": "[WIP] Binary search variants and the effects of batching",
           "imageUrl": null
         },
@@ -206,12 +237,12 @@
           "imageUrl": null
         },
         {
-          "id": "https://curiouscoding.nl/posts/ptrhash-paper/",
+          "id": "https://curiouscoding.nl/posts/ptrhash/",
           "author": null,
-          "description": "Table of Contents\nAbstract\n1 Introduction\n2 Related work\n3 PtrHash\n\n3.1 Overview\n3.2 Details\n3.3 Construction\n3.4 Bucket Assignment Functions\n3.5 Remapping using CacheLineEF\n4 Results\n\n4.1 Construction\n\n4.1.1 Bucket Functions\n4.1.2 Tuning Parameters for Construction\n4.1.3 Remap\n4.2 Comparison to Other Methods\n5 Conclusions and Future Work\nAcknowledgements\nFunding\n6 Appendix: Query throughput\n\n6.1 Batching and streaming\n6.2 Evaluation\n6.3 Multi-threaded Throughput\n7 Appendix: Sharding\n\n7.1 Evaluation\n8 Appendix: Evaluating Hash Functions\n\\[\n\\newcommand{\\part}{\\mathsf{part}}\n\\newcommand{\\bucket}{\\mathsf{bucket}}\n\\newcommand{\\slot}{\\mathsf{slot}}\n\\newcommand{\\reduce}{\\mathsf{reduce}}\n\\newcommand{\\h}{\\mathsf{h}}\n\\newcommand{\\hp}{\\mathsf{h}_{\\mathsf{p}}}\n\\newcommand{\\C}{\\mathsf{C}}\n\\newcommand{\\select}{\\mathsf{select}}\n\\newcommand{\\free}{F}\n\\newcommand{\\mphf}{\\mathsf{H_{mphf}}}\n\\]\nThis is the work-in-progress paper on PtrHash. The original blog post on its\ndevelopment is here.",
-          "link": "https://curiouscoding.nl/posts/ptrhash-paper/",
+          "description": "Table of Contents\nAbstract\n1 Introduction\n2 Related work\n3 PtrHash\n\n3.1 Overview\n3.2 Details\n3.3 Construction\n3.4 Bucket Assignment Functions\n3.5 Remapping using CacheLineEF\n4 Results\n\n4.1 Construction\n\n4.1.1 Bucket Functions\n4.1.2 Tuning Parameters for Construction\n4.1.3 Remap\n4.2 Comparison to Other Methods\n5 Conclusions and Future Work\nAcknowledgements\nFunding\n6 Appendix: Query throughput\n\n6.1 Batching and streaming\n6.2 Evaluation\n6.3 Multi-threaded Throughput\n7 Appendix: Sharding\n\n7.1 Evaluation\n8 Appendix: Evaluating Hash Functions\n\\[\n\\newcommand{\\part}{\\mathsf{part}}\n\\newcommand{\\bucket}{\\mathsf{bucket}}\n\\newcommand{\\slot}{\\mathsf{slot}}\n\\newcommand{\\reduce}{\\mathsf{reduce}}\n\\newcommand{\\h}{\\mathsf{h}}\n\\newcommand{\\hp}{\\mathsf{h}_{\\mathsf{p}}}\n\\newcommand{\\C}{\\mathsf{C}}\n\\newcommand{\\select}{\\mathsf{select}}\n\\newcommand{\\free}{F}\n\\newcommand{\\mphf}{\\mathsf{H_{mphf}}}\n\\]\nThis is my paper on PtrHash. The original development-log can be found here.\nThis paper is also available on arXiv: DOI, PDF:",
+          "link": "https://curiouscoding.nl/posts/ptrhash/",
           "publishedOn": "2025-02-02T23:00:00.000Z",
-          "wordCount": 11050,
+          "wordCount": 11080,
           "title": "PtrHash: Minimal Perfect Hashing at RAM Throughput",
           "imageUrl": null
         }
