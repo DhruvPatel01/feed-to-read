@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-03-02T01:14:49.207Z</id>
+    <id>urn:2025-03-09T01:02:43.155Z</id>
     <title>osmos::feed</title>
-    <updated>2025-03-02T01:14:49.207Z</updated>
+    <updated>2025-03-09T01:02:43.155Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A more robust raw OpenBSD syscall demo]]></title>
+        <id>https://nullprogram.com/blog/2025/03/06/</id>
+        <link href="https://nullprogram.com/blog/2025/03/06/"/>
+        <updated>2025-03-06T02:43:20.000Z</updated>
+        <summary type="html"><![CDATA[Ted Unangst published dude, where are your syscalls? on flak
+yesterday, with a neat demonstration of OpenBSD’s pinsyscall
+security feature, whereby only pre-registered addresses are allowed to
+make system calls. Whether it strengthens or weakens security is up for
+debate, but regardless it’s an interesting, low-level programming
+challenge. The original demo is fragile for multiple reasons, and requires
+manually locating and entering addresses for each build. In this article I
+show how to fix it. To prove that it’s robust, I ported an entire, real
+application to use raw system calls on OpenBSD.
+The original program uses ARM64 assembly. I’m a lot more comfortable with
+x86-64 assembly, plus that’s the hardware I have readily on hand. So the
+assembly language will be different, but all the con…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Title Launch Observability at Netflix Scale]]></title>
+        <id>https://medium.com/p/8efe69ebd653</id>
+        <link href="https://netflixtechblog.com/title-launch-observability-at-netflix-scale-8efe69ebd653?source=rss----2615bd06b42e---4"/>
+        <updated>2025-03-05T01:24:53.000Z</updated>
+        <summary type="html"><![CDATA[Part 3: System Strategies and Architecture]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Robust Wavefront OBJ model parsing in C]]></title>
+        <id>https://nullprogram.com/blog/2025/03/02/</id>
+        <link href="https://nullprogram.com/blog/2025/03/02/"/>
+        <updated>2025-03-02T23:22:58.000Z</updated>
+        <summary type="html"><![CDATA[Wavefront OBJ is a line-oriented, text format for 3D geometry. It’s
+widely supported by modeling software, easy to parse, and trivial to emit,
+much like Netpbm for 2D image data. Poke around hobby 3D graphics
+projects and you’re likely to find a bespoke OBJ parser. While typically
+only loading their own model data, so robustness doesn’t much matter, they
+usually have hard limitations and don’t stand up to fuzz testing.
+This article presents a robust, partial OBJ parser in C with no hard-coded
+limitations, written from scratch. Like similar articles, it’s not
+really about OBJ but demonstrating some techniques you’ve probably never
+seen before.
+If you’d like to see the ready-to-run full source: objrender.c.
+All images are screenshots of this program.
+First let’s establish the requirements. B…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How fast can you open 1000 files?]]></title>
         <id>https://lemire.me/blog/?p=21905</id>
@@ -20,45 +73,46 @@
         <id>https://curiouscoding.nl/slides/minimizers/</id>
         <link href="https://curiouscoding.nl/slides/minimizers/"/>
         <updated>2025-02-26T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1 Minimizer schemes
+        <summary type="html"><![CDATA[1 Warming up: A cute prolblem
  
  
  
 
 
-\[\newcommand{\order}{\mathcal{O}}\]
-Minimizer scheme: Given a window of \(w\) k-mers, pick the (leftmost) smallest one
+Given a string, choose one character.
 
-according to some order \(\order_k\)
-\(k=1\), \(w=5\):
+CABAACBD
+Given a rotation, choose one character.
 
-BCADF \(\to\) [B, C, A, D, F] \(\to\) A
-\(k=2\), \(w=5\):
+ACBDCABA
+Can we always choose the same character?
+Yes: e.g. the smallest rotation (bd-anchor):
 
-CABCAC..... \(\to\) [CA, AB, BC, CA, AC] \(\to\) AB
-.ABCACC.... \(\to\) [AB, BC, CA, AC, CC] \(\to\) AB
-..BCACCX... \(\to\) [BC, CA, AC, CC, CX] \(\to\) AC new
-...CACCXY.. \(\to\) [CA, AC, CC, CX, XY] \(\to\) AC
-....ACCXYZ. \(\to\) [AC, CC, CX, XY, YZ] \(\to\) AC
-.....CCXYZX \(\to\) [CC, CX, XY, YZ, XZ] \(\to\) CC new
-
-
-
-
-
-
-
-
-
-
- 1.1 Minimizer density lower bound
+CAB​A​ACBD
+ACBDCAB​A
+1.1 This talk: what if one character is hidden?
  
  
  
 
 
+Given a string (length \(w\)), choose one character.
 
-Density of minimizer scheme is \(\geq 1/\sigma^k\):]]></summary>
+CABAACBD​​X
+Given a rotation (of the hidden \(w+1\) string), choose one character.
+
+ACBDXCAB​A
+Can we always choose the same character?
+Maybe?
+
+CAB​A​ACBD
+ACBDXCAB 🤔
+1.2 The answer is no!
+ 
+ 
+ 
+
+C​ABAACBDX rotations:]]></summary>
         <author>
             <name>home on CuriousCoding</name>
         </author>
@@ -425,103 +479,6 @@ hash tables with load factors very close to 1: Bender et al. (2021), Farach-Colt
         <summary type="html"><![CDATA[A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tips for more effective fuzz testing with AFL++]]></title>
-        <id>https://nullprogram.com/blog/2025/02/05/</id>
-        <link href="https://nullprogram.com/blog/2025/02/05/"/>
-        <updated>2025-02-05T18:03:55.000Z</updated>
-        <summary type="html"><![CDATA[Fuzz testing is incredibly effective for mechanically discovering software
-defects, yet remains underused and neglected. Pick any program that must
-gracefully accept complex input, written in any language, which has not
-yet been been fuzzed, and fuzz testing usually reveals at least one bug.
-At least one program currently installed on your own computer certainly
-qualifies. Perhaps even most of them. Everything is broken and
-low-hanging fruit is everywhere. After fuzz testing ~1,000 projects over
-the past six years, I’ve accumulated tips for picking that fruit.
-The checklist format has worked well in the past (1, 2), so
-I’ll use it again. This article discusses AFL++ on source-available
-C and C++ targets, running on glibc-based Linux distributions, currently
-the indisputable best fuzzing pl…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nim version 2.2.2 released]]></title>
-        <id>https://nim-lang.org//blog/2025/02/05/nim-222.html</id>
-        <link href="https://nim-lang.org//blog/2025/02/05/nim-222.html"/>
-        <updated>2025-02-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim Team is happy to announce version 2.2.2, the first patch release for our stable release, Nim 2.2.
-It comes four months after the 2.2.0 release and it contains 203 commits, bringing bugfixes and improvements.
-If you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.
-If you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.
-Installing Nim 2.2.2
-Check out if the package manager of your OS already ships version 2.2.2 or
-install it as described here.
-If you have installed a previous version of Nim using choosenim,
-getting Nim 2.2.2 is as easy as:
-$ choosenim update self
-$ choosenim update stable
-
-NOTE: Make sure that the version of choosenim you have installed is 0.8.5 or higher, ot…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PtrHash: Minimal Perfect Hashing at RAM Throughput]]></title>
-        <id>https://curiouscoding.nl/posts/ptrhash/</id>
-        <link href="https://curiouscoding.nl/posts/ptrhash/"/>
-        <updated>2025-02-02T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-Abstract
-1 Introduction
-2 Related work
-3 PtrHash
-
-3.1 Overview
-3.2 Details
-3.3 Construction
-3.4 Bucket Assignment Functions
-3.5 Remapping using CacheLineEF
-4 Results
-
-4.1 Construction
-
-4.1.1 Bucket Functions
-4.1.2 Tuning Parameters for Construction
-4.1.3 Remap
-4.2 Comparison to Other Methods
-5 Conclusions and Future Work
-Acknowledgements
-Funding
-6 Appendix: Query throughput
-
-6.1 Batching and streaming
-6.2 Evaluation
-6.3 Multi-threaded Throughput
-7 Appendix: Sharding
-
-7.1 Evaluation
-8 Appendix: Evaluating Hash Functions
-\[
-\newcommand{\part}{\mathsf{part}}
-\newcommand{\bucket}{\mathsf{bucket}}
-\newcommand{\slot}{\mathsf{slot}}
-\newcommand{\reduce}{\mathsf{reduce}}
-\newcommand{\h}{\mathsf{h}}
-\newcommand{\hp}{\mathsf{h}_{\mathsf{p}}}
-\newcommand{\C}{\mathsf{C}}
-\newcommand{\select}{\mathsf{select}}
-\newcommand{\free}{F}
-\newcommand{\mphf}{\mathsf{H_{mphf}}}
-\]
-This is my paper on PtrHash. The original development-log can be found here.
-This paper is also available on arXiv: DOI, PDF:]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
         </author>
     </entry>
 </feed>

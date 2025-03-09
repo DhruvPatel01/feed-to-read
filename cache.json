@@ -6,23 +6,33 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2025/03/06/",
+          "author": null,
+          "description": "Ted Unangst published dude, where are your syscalls? on flak\nyesterday, with a neat demonstration of OpenBSD’s pinsyscall\nsecurity feature, whereby only pre-registered addresses are allowed to\nmake system calls. Whether it strengthens or weakens security is up for\ndebate, but regardless it’s an interesting, low-level programming\nchallenge. The original demo is fragile for multiple reasons, and requires\nmanually locating and entering addresses for each build. In this article I\nshow how to fix it. To prove that it’s robust, I ported an entire, real\napplication to use raw system calls on OpenBSD.\nThe original program uses ARM64 assembly. I’m a lot more comfortable with\nx86-64 assembly, plus that’s the hardware I have readily on hand. So the\nassembly language will be different, but all the con…",
+          "link": "https://nullprogram.com/blog/2025/03/06/",
+          "publishedOn": "2025-03-06T02:43:20.000Z",
+          "wordCount": 1421,
+          "title": "A more robust raw OpenBSD syscall demo",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2025/03/02/",
+          "author": null,
+          "description": "Wavefront OBJ is a line-oriented, text format for 3D geometry. It’s\nwidely supported by modeling software, easy to parse, and trivial to emit,\nmuch like Netpbm for 2D image data. Poke around hobby 3D graphics\nprojects and you’re likely to find a bespoke OBJ parser. While typically\nonly loading their own model data, so robustness doesn’t much matter, they\nusually have hard limitations and don’t stand up to fuzz testing.\nThis article presents a robust, partial OBJ parser in C with no hard-coded\nlimitations, written from scratch. Like similar articles, it’s not\nreally about OBJ but demonstrating some techniques you’ve probably never\nseen before.\nIf you’d like to see the ready-to-run full source: objrender.c.\nAll images are screenshots of this program.\nFirst let’s establish the requirements. B…",
+          "link": "https://nullprogram.com/blog/2025/03/02/",
+          "publishedOn": "2025-03-02T23:22:58.000Z",
+          "wordCount": 2889,
+          "title": "Robust Wavefront OBJ model parsing in C",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2025/02/17/",
           "author": null,
           "description": "xxd is a versatile hexdump utility with a “reverse” feature, originally\nwritten between 1990–1996. The Vim project soon adopted it, and it’s lived\nthere ever since. If you have Vim, you also have xxd. Its primary use\ncases are (1) the basis for a hex editor due to its -r reverse option\nthat can unhexdump its previous output, and (2) a data embedding tool\nfor C and C++ (-i). The former provides Vim’s rudimentary hex editor\nfunctionality. The second case is of special interest to w64devkit:\nxxd -i appears in many builds that embed arbitrary data. It’s\nimportant that w64devkit has a compatible implementation, and a freshly\nrewritten, improved xxd, rexxd, now replaces the original xxd (as\nxxd).\nFor those unfamiliar with xxd, examples are in order. Its default hexdump\noutput looks like this:\n\n$…",
           "link": "https://nullprogram.com/blog/2025/02/17/",
           "publishedOn": "2025-02-17T00:49:49.000Z",
-          "wordCount": 2717,
+          "wordCount": 2725,
           "title": "Meet the new xxd for w64devkit: rexxd",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2025/02/05/",
-          "author": null,
-          "description": "Fuzz testing is incredibly effective for mechanically discovering software\ndefects, yet remains underused and neglected. Pick any program that must\ngracefully accept complex input, written in any language, which has not\nyet been been fuzzed, and fuzz testing usually reveals at least one bug.\nAt least one program currently installed on your own computer certainly\nqualifies. Perhaps even most of them. Everything is broken and\nlow-hanging fruit is everywhere. After fuzz testing ~1,000 projects over\nthe past six years, I’ve accumulated tips for picking that fruit.\nThe checklist format has worked well in the past (1, 2), so\nI’ll use it again. This article discusses AFL++ on source-available\nC and C++ targets, running on glibc-based Linux distributions, currently\nthe indisputable best fuzzing pl…",
-          "link": "https://nullprogram.com/blog/2025/02/05/",
-          "publishedOn": "2025-02-05T18:03:55.000Z",
-          "wordCount": 2094,
-          "title": "Tips for more effective fuzz testing with AFL++",
           "imageUrl": null
         }
       ]
@@ -32,6 +42,16 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/8efe69ebd653",
+          "author": "Netflix Technology Blog",
+          "description": "Part 3: System Strategies and Architecture",
+          "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-8efe69ebd653?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-03-05T01:24:53.000Z",
+          "wordCount": 3692,
+          "title": "Title Launch Observability at Netflix Scale",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Zz2Y8yjPAsbG5WVR"
+        },
         {
           "id": "https://medium.com/p/e2b67c88c9fb",
           "author": "Netflix Technology Blog",
@@ -48,18 +68,7 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2025/02/05/nim-222.html",
-          "author": null,
-          "description": "The Nim Team is happy to announce version 2.2.2, the first patch release for our stable release, Nim 2.2.\nIt comes four months after the 2.2.0 release and it contains 203 commits, bringing bugfixes and improvements.\nIf you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.\nIf you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.\nInstalling Nim 2.2.2\nCheck out if the package manager of your OS already ships version 2.2.2 or\ninstall it as described here.\nIf you have installed a previous version of Nim using choosenim,\ngetting Nim 2.2.2 is as easy as:\n$ choosenim update self\n$ choosenim update stable\n\nNOTE: Make sure that the version of choosenim you have installed is 0.8.5 or higher, ot…",
-          "link": "https://nim-lang.org//blog/2025/02/05/nim-222.html",
-          "publishedOn": "2025-02-05T00:00:00.000Z",
-          "wordCount": 683,
-          "title": "Nim version 2.2.2 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": null,
@@ -113,7 +122,7 @@
           "description": "Jarred Sumner, the main author of the Bun JavaScript engine, commented a few days ago on X that opening many files on macOS could be slow due to thread contention: “your $5,000 computer is only capable of opening 1 file at a time”. I was curious and I decided to test it out. I wrote … Continue reading How fast can you open 1000 files?",
           "link": "https://lemire.me/blog/2025/03/01/how-fast-can-you-open-1000-files/",
           "publishedOn": "2025-03-01T22:41:04.000Z",
-          "wordCount": 3329,
+          "wordCount": 3393,
           "title": "How fast can you open 1000 files?",
           "imageUrl": null
         },
@@ -123,7 +132,7 @@
           "description": "Convention computer instructions operate on a single piece of data at once (e.g., they can negate an integer or add two integers). For better performance, CPU vendors add support for SIMD instructions. SIMD stands for Single Instruction, Multiple Data. It is a type of parallel processing where a single operation is executed simultaneously on multiple … Continue reading AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
           "link": "https://lemire.me/blog/2025/02/14/avx-512-gotcha-avoid-compressing-words-to-memory-with-amd-zen-4-processors/",
           "publishedOn": "2025-02-14T21:27:29.000Z",
-          "wordCount": 3856,
+          "wordCount": 3925,
           "title": "AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
           "imageUrl": null
         },
@@ -133,7 +142,7 @@
           "description": "A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy",
           "link": "https://lemire.me/blog/2025/02/07/thread-safe-memory-copy/",
           "publishedOn": "2025-02-07T23:12:34.000Z",
-          "wordCount": 4662,
+          "wordCount": 4680,
           "title": "Thread-safe memory copy",
           "imageUrl": null
         }
@@ -159,10 +168,10 @@
         {
           "id": "https://curiouscoding.nl/slides/minimizers/",
           "author": null,
-          "description": "1 Minimizer schemes\n \n \n \n\n\n\\[\\newcommand{\\order}{\\mathcal{O}}\\]\nMinimizer scheme: Given a window of \\(w\\) k-mers, pick the (leftmost) smallest one\n\naccording to some order \\(\\order_k\\)\n\\(k=1\\), \\(w=5\\):\n\nBCADF \\(\\to\\) [B, C, A, D, F] \\(\\to\\) A\n\\(k=2\\), \\(w=5\\):\n\nCABCAC..... \\(\\to\\) [CA, AB, BC, CA, AC] \\(\\to\\) AB\n.ABCACC.... \\(\\to\\) [AB, BC, CA, AC, CC] \\(\\to\\) AB\n..BCACCX... \\(\\to\\) [BC, CA, AC, CC, CX] \\(\\to\\) AC new\n...CACCXY.. \\(\\to\\) [CA, AC, CC, CX, XY] \\(\\to\\) AC\n....ACCXYZ. \\(\\to\\) [AC, CC, CX, XY, YZ] \\(\\to\\) AC\n.....CCXYZX \\(\\to\\) [CC, CX, XY, YZ, XZ] \\(\\to\\) CC new\n\n\n\n\n\n\n\n\n\n\n 1.1 Minimizer density lower bound\n \n \n \n\n\n\nDensity of minimizer scheme is \\(\\geq 1/\\sigma^k\\):",
+          "description": "1 Warming up: A cute prolblem\n \n \n \n\n\nGiven a string, choose one character.\n\nCABAACBD\nGiven a rotation, choose one character.\n\nACBDCABA\nCan we always choose the same character?\nYes: e.g. the smallest rotation (bd-anchor):\n\nCAB​A​ACBD\nACBDCAB​A\n1.1 This talk: what if one character is hidden?\n \n \n \n\n\nGiven a string (length \\(w\\)), choose one character.\n\nCABAACBD​​X\nGiven a rotation (of the hidden \\(w+1\\) string), choose one character.\n\nACBDXCAB​A\nCan we always choose the same character?\nMaybe?\n\nCAB​A​ACBD\nACBDXCAB 🤔\n1.2 The answer is no!\n \n \n \n\nC​ABAACBDX rotations:",
           "link": "https://curiouscoding.nl/slides/minimizers/",
           "publishedOn": "2025-02-26T23:00:00.000Z",
-          "wordCount": 515,
+          "wordCount": 407,
           "title": "Near-optimal sampling schemes",
           "imageUrl": null
         },
@@ -222,7 +231,7 @@
           "description": "Table of Contents\n1 Optimizing Binary Search And Interpolation Search\n\n1.1 Problem statement\n1.2 Inspiration and background\n1.3 Benchmarking setup\n2 Binary search\n\n2.1 Branchless search\n2.2 Explicit prefetching\n2.3 Batching\n2.4 A note on power-of-two array sizes\n3 Eytzinger\n\n3.1 Naive implementation\n3.2 Prefetching\n3.3 Branchless Eytzinger\n3.4 Batched Eytzinger\n\n3.4.1 Non-prefetched\n3.4.2 Prefetched\n4 Eytzinger or BinSearch?\n5 Memory efficiency – parallel search and comparison to S-trees\n6 Interpolation search\n7 Conclusion and takeaways\n1 Optimizing Binary Search And Interpolation Search\n \n \n \n\nThis blogpost is a preliminary of the\npost on static\nsearch trees. We will be looking into binary search and how it can be\noptimized using different memory layouts (Eytzinger), branchless\ntechniques and careful use of prefetching. In addition, we will explore\nbatching. Our language of choice will be Rust.",
           "link": "https://curiouscoding.nl/posts/binsearch/",
           "publishedOn": "2025-02-11T23:00:00.000Z",
-          "wordCount": 6348,
+          "wordCount": 6555,
           "title": "[WIP] Binary search variants and the effects of batching",
           "imageUrl": null
         },
@@ -234,16 +243,6 @@
           "publishedOn": "2025-02-11T23:00:00.000Z",
           "wordCount": 1791,
           "title": "Thoughts on Consensus MPHF and tiny pointers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/ptrhash/",
-          "author": null,
-          "description": "Table of Contents\nAbstract\n1 Introduction\n2 Related work\n3 PtrHash\n\n3.1 Overview\n3.2 Details\n3.3 Construction\n3.4 Bucket Assignment Functions\n3.5 Remapping using CacheLineEF\n4 Results\n\n4.1 Construction\n\n4.1.1 Bucket Functions\n4.1.2 Tuning Parameters for Construction\n4.1.3 Remap\n4.2 Comparison to Other Methods\n5 Conclusions and Future Work\nAcknowledgements\nFunding\n6 Appendix: Query throughput\n\n6.1 Batching and streaming\n6.2 Evaluation\n6.3 Multi-threaded Throughput\n7 Appendix: Sharding\n\n7.1 Evaluation\n8 Appendix: Evaluating Hash Functions\n\\[\n\\newcommand{\\part}{\\mathsf{part}}\n\\newcommand{\\bucket}{\\mathsf{bucket}}\n\\newcommand{\\slot}{\\mathsf{slot}}\n\\newcommand{\\reduce}{\\mathsf{reduce}}\n\\newcommand{\\h}{\\mathsf{h}}\n\\newcommand{\\hp}{\\mathsf{h}_{\\mathsf{p}}}\n\\newcommand{\\C}{\\mathsf{C}}\n\\newcommand{\\select}{\\mathsf{select}}\n\\newcommand{\\free}{F}\n\\newcommand{\\mphf}{\\mathsf{H_{mphf}}}\n\\]\nThis is my paper on PtrHash. The original development-log can be found here.\nThis paper is also available on arXiv: DOI, PDF:",
-          "link": "https://curiouscoding.nl/posts/ptrhash/",
-          "publishedOn": "2025-02-02T23:00:00.000Z",
-          "wordCount": 11080,
-          "title": "PtrHash: Minimal Perfect Hashing at RAM Throughput",
           "imageUrl": null
         }
       ]
