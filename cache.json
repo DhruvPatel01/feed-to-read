@@ -11,7 +11,7 @@
           "description": "Ted Unangst published dude, where are your syscalls? on flak\nyesterday, with a neat demonstration of OpenBSD’s pinsyscall\nsecurity feature, whereby only pre-registered addresses are allowed to\nmake system calls. Whether it strengthens or weakens security is up for\ndebate, but regardless it’s an interesting, low-level programming\nchallenge. The original demo is fragile for multiple reasons, and requires\nmanually locating and entering addresses for each build. In this article I\nshow how to fix it. To prove that it’s robust, I ported an entire, real\napplication to use raw system calls on OpenBSD.\nThe original program uses ARM64 assembly. I’m a lot more comfortable with\nx86-64 assembly, plus that’s the hardware I have readily on hand. So the\nassembly language will be different, but all the con…",
           "link": "https://nullprogram.com/blog/2025/03/06/",
           "publishedOn": "2025-03-06T02:43:20.000Z",
-          "wordCount": 1421,
+          "wordCount": 1438,
           "title": "A more robust raw OpenBSD syscall demo",
           "imageUrl": null
         },
@@ -45,22 +45,22 @@
         {
           "id": "https://medium.com/p/8efe69ebd653",
           "author": "Netflix Technology Blog",
-          "description": "Part 3: System Strategies and Architecture",
+          "description": "",
           "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-8efe69ebd653?source=rss----2615bd06b42e---4",
           "publishedOn": "2025-03-05T01:24:53.000Z",
-          "wordCount": 3692,
+          "wordCount": null,
           "title": "Title Launch Observability at Netflix Scale",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Zz2Y8yjPAsbG5WVR"
+          "imageUrl": null
         },
         {
           "id": "https://medium.com/p/e2b67c88c9fb",
           "author": "Netflix Technology Blog",
-          "description": "Part 1: Creating the Source of Truth for Impressions",
+          "description": "",
           "link": "https://netflixtechblog.com/introducing-impressions-at-netflix-e2b67c88c9fb?source=rss----2615bd06b42e---4",
           "publishedOn": "2025-02-15T01:13:20.000Z",
-          "wordCount": 3298,
+          "wordCount": null,
           "title": "Introducing Impressions at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*T6tQiUj-VDtyEhd1"
+          "imageUrl": null
         }
       ]
     },
@@ -117,12 +117,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21917",
+          "author": "Daniel Lemire",
+          "description": "Let us consider a simple C++ function which divides all values in a range of integers: void divide(std::span<int> i, int d) { for (auto& value : i) { value /= d; } } If the divisor d is known at compile-time, this function can be much faster. E.g., if d is 2, the compiler might … Continue reading Speeding up C++ code with template lambdas",
+          "link": "https://lemire.me/blog/2025/03/15/speeding-up-c-code-with-template-lambdas/",
+          "publishedOn": "2025-03-15T17:29:50.000Z",
+          "wordCount": 3318,
+          "title": "Speeding up C++ code with template lambdas",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21910",
+          "author": "Daniel Lemire",
+          "description": "In practice, the software we write runs on several processors. Unfortunately, much of what we take for granted on a single processor becomes false when there are more than one processor. For example, if two processors modify the same piece of memory, what is the state of the memory after the modifications? It is difficult … Continue reading An overview of parallel programming (Go edition)",
+          "link": "https://lemire.me/blog/2025/03/09/an-overview-of-parallel-programming-go-edition/",
+          "publishedOn": "2025-03-09T21:35:41.000Z",
+          "wordCount": 7816,
+          "title": "An overview of parallel programming (Go edition)",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21905",
           "author": "Daniel Lemire",
           "description": "Jarred Sumner, the main author of the Bun JavaScript engine, commented a few days ago on X that opening many files on macOS could be slow due to thread contention: “your $5,000 computer is only capable of opening 1 file at a time”. I was curious and I decided to test it out. I wrote … Continue reading How fast can you open 1000 files?",
           "link": "https://lemire.me/blog/2025/03/01/how-fast-can-you-open-1000-files/",
           "publishedOn": "2025-03-01T22:41:04.000Z",
-          "wordCount": 3393,
+          "wordCount": 3552,
           "title": "How fast can you open 1000 files?",
           "imageUrl": null
         },
@@ -132,18 +152,8 @@
           "description": "Convention computer instructions operate on a single piece of data at once (e.g., they can negate an integer or add two integers). For better performance, CPU vendors add support for SIMD instructions. SIMD stands for Single Instruction, Multiple Data. It is a type of parallel processing where a single operation is executed simultaneously on multiple … Continue reading AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
           "link": "https://lemire.me/blog/2025/02/14/avx-512-gotcha-avoid-compressing-words-to-memory-with-amd-zen-4-processors/",
           "publishedOn": "2025-02-14T21:27:29.000Z",
-          "wordCount": 3925,
+          "wordCount": 3910,
           "title": "AVX-512 gotcha: avoid compressing words to memory with AMD Zen 4 processors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21864",
-          "author": "Daniel Lemire",
-          "description": "A common operation in software is the copy of a block of memory. In C/C++, we often call the function memcpy for this purpose. But what happens if, while you are copying the data, another thread is modifying either the source or the destination? The result is fundamentally unpredictable and almost surely a programming error. … Continue reading Thread-safe memory copy",
-          "link": "https://lemire.me/blog/2025/02/07/thread-safe-memory-copy/",
-          "publishedOn": "2025-02-07T23:12:34.000Z",
-          "wordCount": 4680,
-          "title": "Thread-safe memory copy",
           "imageUrl": null
         }
       ]
@@ -165,6 +175,26 @@
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
+        {
+          "id": "https://curiouscoding.nl/posts/simd-sketch/",
+          "author": null,
+          "description": "\\[\n\\newcommand{\\sketch}{\\mathsf{sketch}}\n\\]\nThis is a small survey on MinHash-based sketching methods, to go along with my\nsimd-sketch crate (github, crates.io, docs.rs). See also Cohen (2014) for a previous\nsmall survey.\nGoal. SimdSketch should be fast. It is and should remain a conceptually\nsimple tool, that prefers fast implementations of simple ideas over complex ideas.\nFor now, it works well for the simple case of relatively high identity\nsequences. I may implement more algorithmic variants, but also the API should\nremain concise.",
+          "link": "https://curiouscoding.nl/posts/simd-sketch/",
+          "publishedOn": "2025-03-08T23:00:00.000Z",
+          "wordCount": 5500,
+          "title": "SimdSketch: a fast bucket sketch",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/posts/tigs/",
+          "author": null,
+          "description": "1 De Bruijn graph\n \n \n \n\nConsider an edge-centric De Bruijn graph, where each edge corresponds to a\nk-mer, and nodes are the \\(k-1\\) overlaps between adjacent k-mers. In the figures,\nall edges are directed towards the right.\n\n\n\n\n 2 k-mers\n \n \n \n\nThe goal is now to store all edges / k-mers of the graph efficiently.\nA spectrum preserving string set (SPSS) is a set of strings whose k-mers are\nthe k-mers of the input graph, that does not contain duplicate k-mers (Rahman and Medvedev 2020).",
+          "link": "https://curiouscoding.nl/posts/tigs/",
+          "publishedOn": "2025-03-08T23:00:00.000Z",
+          "wordCount": 409,
+          "title": "Types of tigs",
+          "imageUrl": null
+        },
         {
           "id": "https://curiouscoding.nl/slides/minimizers/",
           "author": null,
@@ -223,26 +253,6 @@
           "publishedOn": "2025-02-16T23:00:00.000Z",
           "wordCount": 2534,
           "title": "Minimizer papers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/binsearch/",
-          "author": null,
-          "description": "Table of Contents\n1 Optimizing Binary Search And Interpolation Search\n\n1.1 Problem statement\n1.2 Inspiration and background\n1.3 Benchmarking setup\n2 Binary search\n\n2.1 Branchless search\n2.2 Explicit prefetching\n2.3 Batching\n2.4 A note on power-of-two array sizes\n3 Eytzinger\n\n3.1 Naive implementation\n3.2 Prefetching\n3.3 Branchless Eytzinger\n3.4 Batched Eytzinger\n\n3.4.1 Non-prefetched\n3.4.2 Prefetched\n4 Eytzinger or BinSearch?\n5 Memory efficiency – parallel search and comparison to S-trees\n6 Interpolation search\n7 Conclusion and takeaways\n1 Optimizing Binary Search And Interpolation Search\n \n \n \n\nThis blogpost is a preliminary of the\npost on static\nsearch trees. We will be looking into binary search and how it can be\noptimized using different memory layouts (Eytzinger), branchless\ntechniques and careful use of prefetching. In addition, we will explore\nbatching. Our language of choice will be Rust.",
-          "link": "https://curiouscoding.nl/posts/binsearch/",
-          "publishedOn": "2025-02-11T23:00:00.000Z",
-          "wordCount": 6555,
-          "title": "[WIP] Binary search variants and the effects of batching",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/consensus/",
-          "author": null,
-          "description": "Table of Contents\n1 Consensus\n\n1.1 Consensus-RecSplit\n2 IDEA: Consensus-PtrHash\n3 Tiny pointers and optimal open addressing hash tables\nThese are some thoughts on the Consensus-based MPHF presented in\nLehmann et al. (2025), and how this could be applied to PtrHash:\nLehmann, Hans-Peter, Peter Sanders, Stefan Walzer, and Jonatan Ziegler. 2025. “Combined Search and Encoding for Seeds, with an Application to Minimal Perfect Hashing.” arXiv. https://doi.org/10.48550/ARXIV.2502.05613.\nBelow are also some thoughts on the papers on tiny pointers, used to achieve\nhash tables with load factors very close to 1: Bender et al. (2021), Farach-Colton, Krapivin, and Kuszmaul (2025).",
-          "link": "https://curiouscoding.nl/posts/consensus/",
-          "publishedOn": "2025-02-11T23:00:00.000Z",
-          "wordCount": 1791,
-          "title": "Thoughts on Consensus MPHF and tiny pointers",
           "imageUrl": null
         }
       ]
