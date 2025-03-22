@@ -19,6 +19,7 @@ sources:
   
   ## Rust
   - href: https://matklad.github.io/feed.xml
+  - href: https://jdrouet.github.io/atom.xml
 
   # Learning
   - href: https://huggingface.co/blog/feed.xml
