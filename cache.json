@@ -99,13 +99,23 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "https://jdrouet.github.io/posts/202503170800-search-engine-part-1/",
+          "author": null,
+          "description": "In the previous article, I introduced what project we're going to address in the following weeks: how to build a cross-platform search engine with encryption capabilities. Today, we'll have a look at the first technical challenge: how to store things on disk.\nYou might be thinking that we start with a simple topic, to warm up and get ready for the serious parts. That's both right and wrong at the same time. Writing on the filesystem from a mobile application or a desktop application is an easy task, but doing so in the browser while using the same interface is not as easy as it seems.\nAnd on top of that, we want our storage layer to read and write encrypted files, without compromising too much on performance.\nThe Storage Challenge\nBefore diving into search algorithms and indexing, we need …",
+          "link": "https://jdrouet.github.io/posts/202503170800-search-engine-part-1/",
+          "publishedOn": "2025-03-22T00:00:00.000Z",
+          "wordCount": 2436,
+          "title": "Building a search engine from scratch, in Rust: part 1",
+          "imageUrl": "/images/logo.png"
+        },
+        {
           "id": "https://jdrouet.github.io/posts/202503161800-search-engine-intro/",
           "author": null,
           "description": "Have you ever wondered how search engines work under the hood? I'm not talking about vector search or anything fancy, but just the good old search engines that could really find what we would look for.\nEven though we can already find some articles about how search engine work from a high level, it could be interesting to implement our own and add some constraints to make it fun (and maybe simpler).\nThe Challenge\nMost search engine implementations you'll find online target the server-side. They're great for large-scale applications but don't address the unique challenges of building a search engine that runs directly in your browser, your mobile app or in a desktop app. That's exactly what we're going to tackle: creating a client-side search engine that works seamlessly across platforms. An…",
           "link": "https://jdrouet.github.io/posts/202503161800-search-engine-intro/",
           "publishedOn": "2025-03-16T00:00:00.000Z",
-          "wordCount": 944,
-          "title": "Building a search engine from scratch, in Rust",
+          "wordCount": 947,
+          "title": "Building a search engine from scratch, in Rust: introduction",
           "imageUrl": "/images/logo.png"
         }
       ]
