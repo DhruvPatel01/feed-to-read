@@ -33,6 +33,26 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/1a0bd8e02d39",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-03-29T00:51:25.000Z",
+          "wordCount": null,
+          "title": "Foundation Model for Personalized Recommendation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/c9ab1f4bd72b",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/hdr10-now-streaming-on-netflix-c9ab1f4bd72b?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-03-24T18:39:15.000Z",
+          "wordCount": null,
+          "title": "HDR10+ Now Streaming on Netflix",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/8efe69ebd653",
           "author": "Netflix Technology Blog",
           "description": "",
@@ -62,12 +82,22 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2025/03/25/debugger-is-repl-is-debugger.html",
+          "author": null,
+          "description": "I love debuggers! The last time I used a debugger seriously was in 2017 or so, when I was still\ncoding in Kotlin. I've since switched to working with native code, and, sadly gdb and lldb are of\nalmost no help for me. This is because they are mere debuggers, but what I need is a REPL, and a\ndebugger, all in one. In this article I show a more productive way to use debuggers as REPLS.",
+          "link": "https://matklad.github.io/2025/03/25/debugger-is-repl-is-debugger.html",
+          "publishedOn": "2025-03-25T00:00:00.000Z",
+          "wordCount": 501,
+          "title": "A Debugger is a REPL is a Debugger",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2025/03/21/use-long-options-in-scripts.html",
           "author": null,
           "description": "Many command line utilities support short form options (-f) and long form options (--force).\nShort form is for interactive usage. In scripts, use the long form.",
           "link": "https://matklad.github.io/2025/03/21/use-long-options-in-scripts.html",
           "publishedOn": "2025-03-21T00:00:00.000Z",
-          "wordCount": 305,
+          "wordCount": 189,
           "title": "Use Long Options in Scripts",
           "imageUrl": null
         },
@@ -77,34 +107,34 @@
           "description": "This post can be considered an advanced Zig tutorial. I will be covering some of the more unique\naspects of the language, but won't be explaining the easy part. If you haven't read the Zig\nLanguage Reference, you might start there. Additionally,\nwe will also learn the foundational trick for implementing relational model.",
           "link": "https://matklad.github.io/2025/03/19/comptime-zig-orm.html",
           "publishedOn": "2025-03-19T00:00:00.000Z",
-          "wordCount": 7834,
+          "wordCount": 7718,
           "title": "Comptime Zig ORM",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/02/23/macos-for-kde-users.html",
-          "author": null,
-          "description": "I've switched to MacOS after using Linux continuously since 2012 or thereabouts (first Arch, and\nthen, since 2015, NixOS). This post documents my experience.",
-          "link": "https://matklad.github.io/2025/02/23/macos-for-kde-users.html",
-          "publishedOn": "2025-02-23T00:00:00.000Z",
-          "wordCount": 3128,
-          "title": "MacOS for KDE Users",
           "imageUrl": null
         }
       ]
     },
     {
-      "title": "Hello",
+      "title": "jdrouet",
       "feedUrl": "https://jdrouet.github.io/atom.xml",
       "siteUrl": "/",
       "articles": [
+        {
+          "id": "https://jdrouet.github.io/posts/202503191700-search-engine-part-2/",
+          "author": null,
+          "description": "In the previous article, I explained how we'll write on disk and how we'll implement an abstraction so that it works on any device as well as in the browser. Now, it's time to start thinking about what we'll be storing and in what shape.\nDefining A Document\nIn the majority of time, the use of a search engine is coupled with a database, because it's rarely the search-engine responsibility to store the document. The database stores the things and the search-engine indexes the important attributes that need to be searched on. Indexing content is memory intensive so better not abuse it.\nThe consequence of this it that the document that are being indexed, most of the time, have a defined structure, a schema that they follow.\nIf we look at an example of search engine like Tantivy, indexing a doc…",
+          "link": "https://jdrouet.github.io/posts/202503191700-search-engine-part-2/",
+          "publishedOn": "2025-03-28T00:00:00.000Z",
+          "wordCount": 3758,
+          "title": "Building a search engine from scratch, in Rust: part 2",
+          "imageUrl": "/images/logo.png"
+        },
         {
           "id": "https://jdrouet.github.io/posts/202503170800-search-engine-part-1/",
           "author": null,
           "description": "In the previous article, I introduced what project we're going to address in the following weeks: how to build a cross-platform search engine with encryption capabilities. Today, we'll have a look at the first technical challenge: how to store things on disk.\nYou might be thinking that we start with a simple topic, to warm up and get ready for the serious parts. That's both right and wrong at the same time. Writing on the filesystem from a mobile application or a desktop application is an easy task, but doing so in the browser while using the same interface is not as easy as it seems.\nAnd on top of that, we want our storage layer to read and write encrypted files, without compromising too much on performance.\nThe Storage Challenge\nBefore diving into search algorithms and indexing, we need …",
           "link": "https://jdrouet.github.io/posts/202503170800-search-engine-part-1/",
           "publishedOn": "2025-03-22T00:00:00.000Z",
-          "wordCount": 2436,
+          "wordCount": 2434,
           "title": "Building a search engine from scratch, in Rust: part 1",
           "imageUrl": "/images/logo.png"
         },
@@ -114,7 +144,7 @@
           "description": "Have you ever wondered how search engines work under the hood? I'm not talking about vector search or anything fancy, but just the good old search engines that could really find what we would look for.\nEven though we can already find some articles about how search engine work from a high level, it could be interesting to implement our own and add some constraints to make it fun (and maybe simpler).\nThe Challenge\nMost search engine implementations you'll find online target the server-side. They're great for large-scale applications but don't address the unique challenges of building a search engine that runs directly in your browser, your mobile app or in a desktop app. That's exactly what we're going to tackle: creating a client-side search engine that works seamlessly across platforms. An…",
           "link": "https://jdrouet.github.io/posts/202503161800-search-engine-intro/",
           "publishedOn": "2025-03-16T00:00:00.000Z",
-          "wordCount": 947,
+          "wordCount": 951,
           "title": "Building a search engine from scratch, in Rust: introduction",
           "imageUrl": "/images/logo.png"
         }
@@ -144,12 +174,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21947",
+          "author": "Daniel Lemire",
+          "description": "Most mobile devices use 64-bit ARM processors. A growing number of servers (Amazon, Microsoft) also use 64-bit ARM processors. These processors  have special instructions called ARM NEON providing parallelism called Single instruction, multiple data (SIMD). For example, you can compare sixteen values with sixteen other values using one instruction. Some of the most recent ARM … Continue reading Mixing ARM NEON with SVE code for fun and profit",
+          "link": "https://lemire.me/blog/2025/03/29/mixing-arm-neon-with-sve-code-for-fun-and-profit/",
+          "publishedOn": "2025-03-29T01:44:47.000Z",
+          "wordCount": 3356,
+          "title": "Mixing ARM NEON with SVE code for fun and profit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=21930",
+          "author": "Daniel Lemire",
+          "description": "There are two main types of fixed-precision integers in modern software: unsigned and signed. In C++20 and above, the signed integers must use the two’s complement convention. Other programming languages typically specify two’s complement as well. Two’s complement is a method for representing signed integers in binary, where the leftmost bit serves as the sign … Continue reading Unsigned comparisons using signed types",
+          "link": "https://lemire.me/blog/2025/03/24/unsigned-comparisons-using-signed-types/",
+          "publishedOn": "2025-03-24T23:24:50.000Z",
+          "wordCount": 3209,
+          "title": "Unsigned comparisons using signed types",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21917",
           "author": "Daniel Lemire",
           "description": "Let us consider a simple C++ function which divides all values in a range of integers: void divide(std::span<int> i, int d) { for (auto& value : i) { value /= d; } } A division between two integers is one of the most expensive operations you can do over integers: it is much slower than … Continue reading Speeding up C++ code with template lambdas",
           "link": "https://lemire.me/blog/2025/03/15/speeding-up-c-code-with-template-lambdas/",
           "publishedOn": "2025-03-15T17:29:50.000Z",
-          "wordCount": 4523,
+          "wordCount": 4584,
           "title": "Speeding up C++ code with template lambdas",
           "imageUrl": null
         },
@@ -159,7 +209,7 @@
           "description": "In practice, the software we write runs on several processors. Unfortunately, much of what we take for granted on a single processor becomes false when there are more than one processor. For example, if two processors modify the same piece of memory, what is the state of the memory after the modifications? It is difficult … Continue reading An overview of parallel programming (Go edition)",
           "link": "https://lemire.me/blog/2025/03/09/an-overview-of-parallel-programming-go-edition/",
           "publishedOn": "2025-03-09T21:35:41.000Z",
-          "wordCount": 7821,
+          "wordCount": 7843,
           "title": "An overview of parallel programming (Go edition)",
           "imageUrl": null
         },
@@ -169,7 +219,7 @@
           "description": "Jarred Sumner, the main author of the Bun JavaScript engine, commented a few days ago on X that opening many files on macOS could be slow due to thread contention: “your $5,000 computer is only capable of opening 1 file at a time”. I was curious and I decided to test it out. I wrote … Continue reading How fast can you open 1000 files?",
           "link": "https://lemire.me/blog/2025/03/01/how-fast-can-you-open-1000-files/",
           "publishedOn": "2025-03-01T22:41:04.000Z",
-          "wordCount": 3629,
+          "wordCount": 3651,
           "title": "How fast can you open 1000 files?",
           "imageUrl": null
         }
@@ -193,53 +243,33 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
+          "id": "https://curiouscoding.nl/posts/mapping/",
+          "author": null,
+          "description": "Table of Contents\n1 Alignment types, revisited\n\n1.1 Semi-global alignment\n1.2 Text searching\n1.3 Mapping\n2 Semi-global alignment\n3 Text searching\n4 Mapping\n\n4.1 The cost of chaining\n\n4.1.1 max: Anchored edit distance\n4.1.2 diff: gap-cost\n4.1.3 dist: seed heuristic\n4.1.4 minimap\n4.1.5 GCSH: gap-chaining seed heuristic\n5 New: A*Map\n\n5.1 Text searching\n5.2 Mapping\n6 Early idea: Bottom-up match-merging (aka BUMMer?)\n\n6.1 Some previous ideas\n6.2 Divide & conquer\n6.3 Bottom-up match merging (BUMMer)\n7 TODO Benchmarks of simple methods\nThis is Chapter 5 of my thesis.",
+          "link": "https://curiouscoding.nl/posts/mapping/",
+          "publishedOn": "2025-03-23T23:00:00.000Z",
+          "wordCount": 1849,
+          "title": "[WIP] Beyond Global Alignment",
+          "imageUrl": null
+        },
+        {
           "id": "https://curiouscoding.nl/posts/simd-sketch/",
           "author": null,
-          "description": "\\[\n\\newcommand{\\sketch}{\\mathsf{sketch}}\n\\]\nThis is a small survey on MinHash-based sketching methods, to go along with my\nsimd-sketch crate (github, crates.io, docs.rs). See also Cohen (2014) for a previous\nsmall survey.\nGoal. SimdSketch should be fast. It is and should remain a conceptually\nsimple tool, that prefers fast implementations of simple ideas over complex ideas.\nFor now, it works well for the simple case of relatively high identity\nsequences. I may implement more algorithmic variants, but also the API should\nremain concise.",
+          "description": "Table of Contents\n1 Jaccard similarity\n2 Hash schemes\n\n2.1 MinHash\n2.2 $s$-mins sketch\n2.3 Bottom-\\(s\\) sketch\n2.4 FracMinHash\n2.5 Bucket sketch\n2.6 Mod-bucket hash (new?)\n2.7 Variants\n3 Compressing sketches\n\n3.1 $b$-bit hashing\n\n3.1.1 Accounting for collisions\n3.2 HyperMinHash\n4 Densification strategies\n5 SimdSketch\n6 Evaluation\n\n6.1 Setup\n\n6.1.1 Tools\n6.1.2 Inputs\n6.1.3 Parameters\n6.1.4 Metrics\n6.2 Raw results\n6.3 Correlation\n6.4 Comparison speed\n6.5 Low-similarity data\n7 Discussion\n8 TODO / Future work\n\\[\n\\newcommand{\\sketch}{\\mathsf{sketch}}\n\\]",
           "link": "https://curiouscoding.nl/posts/simd-sketch/",
           "publishedOn": "2025-03-08T23:00:00.000Z",
-          "wordCount": 5500,
+          "wordCount": 5607,
           "title": "SimdSketch: a fast bucket sketch",
           "imageUrl": null
         },
         {
           "id": "https://curiouscoding.nl/posts/tigs/",
           "author": null,
-          "description": "1 De Bruijn graph\n \n \n \n\nConsider an edge-centric De Bruijn graph, where each edge corresponds to a\nk-mer, and nodes are the \\(k-1\\) overlaps between adjacent k-mers. In the figures,\nall edges are directed towards the right.\n\n\n\n\n 2 k-mers\n \n \n \n\nThe goal is now to store all edges / k-mers of the graph efficiently.\nA spectrum preserving string set (SPSS) is a set of strings whose k-mers are\nthe k-mers of the input graph, that does not contain duplicate k-mers (Rahman and Medvedev 2020).",
+          "description": "1 De Bruijn graph\n \n \n Link to heading\n \n\nConsider an edge-centric De Bruijn graph, where each edge corresponds to a\nk-mer, and nodes are the \\(k-1\\) overlaps between adjacent k-mers. In the figures,\nall edges are directed towards the right.\n\n\n\n\n 2 k-mers\n \n \n Link to heading\n \n\nThe goal is now to store all edges / k-mers of the graph efficiently.\nA spectrum preserving string set (SPSS) is a set of strings whose k-mers are\nthe k-mers of the input graph, that does not contain duplicate k-mers (Rahman and Medvedev 2020).",
           "link": "https://curiouscoding.nl/posts/tigs/",
           "publishedOn": "2025-03-08T23:00:00.000Z",
-          "wordCount": 409,
+          "wordCount": 426,
           "title": "Types of tigs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/slides/minimizers/",
-          "author": null,
-          "description": "1 Warming up: A cute prolblem\n \n \n \n\n\nGiven a string, choose one character.\n\nCABAACBD\nGiven a rotation, choose one character.\n\nACBDCABA\nCan we always choose the same character?\nYes: e.g. the smallest rotation (bd-anchor):\n\nCAB​A​ACBD\nACBDCAB​A\n1.1 This talk: what if one character is hidden?\n \n \n \n\n\nGiven a string (length \\(w\\)), choose one character.\n\nCABAACBD​​X\nGiven a rotation (of the hidden \\(w+1\\) string), choose one character.\n\nACBDXCAB​A\nCan we always choose the same character?\nMaybe?\n\nCAB​A​ACBD\nACBDXCAB 🤔\n1.2 The answer is no!\n \n \n \n\nC​ABAACBDX rotations:",
-          "link": "https://curiouscoding.nl/slides/minimizers/",
-          "publishedOn": "2025-02-26T23:00:00.000Z",
-          "wordCount": 407,
-          "title": "Near-optimal sampling schemes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/thesis/",
-          "author": null,
-          "description": "Table of Contents\n1 Abstract\n2 Introduction\n\n2.1 Objectives\n2.2 Challenges\n2.3 List of papers\n2.4 Thesis structure and contributions\n2.5 Personal note\n3 Discussion and conclusion\n\n3.1 Overview\n3.2 Future directions\n3.3 Concluding remarks\n4 Bibliography\n1 Abstract\n \n \n \n\n\n 2 Introduction\n \n \n \n\nSummary.\n2.1 Objectives\n \n \n \n\n\n 2.2 Challenges\n \n \n \n\n\n 2.3 List of papers\n \n \n \n\nPairwise alignment.\nA*PA, Bioinformatics 24.\nGroot Koerkamp, Ragnar, and Pesho Ivanov. 2024. “Exact Global Alignment Using A* with Chaining Seed Heuristic and Match Pruning.” Edited by Tobias Marschall. Bioinformatics 40 (3). https://doi.org/10.1093/bioinformatics/btae032.",
-          "link": "https://curiouscoding.nl/posts/thesis/",
-          "publishedOn": "2025-02-22T23:00:00.000Z",
-          "wordCount": 415,
-          "title": "0. Optimal Throughput Bioinformatics",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/pairwise-alignment/",
-          "author": null,
-          "description": "Table of Contents\n1 Introduction\n\n1.1 Overview\n2 A history of pairwise alignment\n3 Problem statement\n4 Variations on pairwise alignment\n\n4.1 Alignment types\n4.2 Cost Models\n4.3 Minimizing Cost versus Maximizing Score\n5 The classic quadratic DP algorithms\n6 Linear Memory using Divide and Conquer\n7 Dijkstra’s algorithm and A*\n8 Computational volumes and band doubling\n9 Diagonal transition\n10 Subquadratic methods and lower bounds\n11 Parallelism\n12 LCS and Contours\n13 Some tools\n14 Summary\n15 TODO\n\n15.1 A*PA2\n\nSummary/overview/contribs\nNotation\nMethods\nEvaluation\nDiscussion\n15.2 Semi-global alignment\nAttribution\n \nThis chapter is based on two papers:",
-          "link": "https://curiouscoding.nl/posts/pairwise-alignment/",
-          "publishedOn": "2025-02-21T23:00:00.000Z",
-          "wordCount": 9331,
-          "title": "1. Pairwise Alignment",
           "imageUrl": null
         }
       ]
