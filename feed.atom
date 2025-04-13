@@ -1,10 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-06T01:18:53.218Z</id>
+    <id>urn:2025-04-13T02:42:56.484Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-06T01:18:53.218Z</updated>
+    <updated>2025-04-13T02:42:56.484Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Building a search engine from scratch, in Rust: part 4]]></title>
+        <id>https://jdrouet.github.io/posts/202503311500-search-engine-part-4/</id>
+        <link href="https://jdrouet.github.io/posts/202503311500-search-engine-part-4/"/>
+        <updated>2025-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the part 2 and part 3, we implemented the way to store the indexed data and to split them in small enough pieces for the search engine to remain efficient, due to the encryption bottleneck. Now, it's time to implement read access and search functionality for our indexed entries.
+Query Definition
+In order to execute a search, the user first needs to define its query. Considering the indexes we have, we'll have to define, for each index, a set of filters that could be executed, but we'll define them later in that article.
+These filters can be applied to specific attributes, though this isn't always necessary. For example, we might want to search for text across all attributes, like filtering all articles having "Hello" in them, in the title or the content, with a single condition. On the …]]></summary>
+        <author>
+            <name>jdrouet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How can really smart people appear totally incompetent?]]></title>
+        <id>https://lemire.me/blog/?p=21970</id>
+        <link href="https://lemire.me/blog/2025/04/11/how-can-really-smart-people-appear-totally-incompetent/"/>
+        <updated>2025-04-11T18:56:26.000Z</updated>
+        <summary type="html"><![CDATA[It is often puzzling to encounter organizations run by highly capable and ambitious people… appear dysfunctional. An example that I like are colleges that claim to provide great learning experience… while providing their students with recycled lectures given by contract lecturers… I like to tell the tale of this math class I took at the … Continue reading How can really smart people appear totally incompetent?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimal Throughput Bioinformatics]]></title>
+        <id>https://curiouscoding.nl/slides/</id>
+        <link href="https://curiouscoding.nl/slides/"/>
+        <updated>2025-04-09T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What is bio​informatics?
+ 
+ 
+ Link to heading
+ 
+
+
+ For today: DNA
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+Zephyris, CC BY-SA 3.0 Wikipedia
+
+ Link to heading
+ 
+
+
+
+
+
+Human chromosomes
+
+ Link to heading
+ 
+
+
+A C G T
+00 01 10 11
+
+ Link to heading
+ 
+
+
+
+
+
+A virus: SARS-CoV-2, aka COVID-19]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Netflix Accurately Attributes eBPF Flow Logs]]></title>
+        <id>https://medium.com/p/afe6d644a3bc</id>
+        <link href="https://netflixtechblog.com/how-netflix-accurately-attributes-ebpf-flow-logs-afe6d644a3bc?source=rss----2615bd06b42e---4"/>
+        <updated>2025-04-08T17:50:58.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How helpful is AI?]]></title>
+        <id>https://lemire.me/blog/?p=21965</id>
+        <link href="https://lemire.me/blog/2025/04/07/how-helpful-is-ai/"/>
+        <updated>2025-04-07T19:41:27.000Z</updated>
+        <summary type="html"><![CDATA[Do large language models (AI) make you 3x faster or only 3% faster? The answer depends on the quality of the work you are producing. If you need something like a stock photo but not much beyond that, AI can make you 10x faster. If you need a picture taken at the right time of … Continue reading How helpful is AI?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Faster shuffling in Go with batching]]></title>
+        <id>https://lemire.me/blog/?p=21962</id>
+        <link href="https://lemire.me/blog/2025/04/06/faster-shuffling-in-go-with-batching/"/>
+        <updated>2025-04-06T20:26:56.000Z</updated>
+        <summary type="html"><![CDATA[Random integer generation is a fundamental operation in programming, often used in tasks like shuffling arrays. Go’s standard library provides convenient tools like rand.Shuffle for such purposes. You may be able to beat the standard library by a generous margin. Let us see why. Go’s rand.Shuffle implements the Fisher-Yates (or Knuth) shuffle algorithm, a standard … Continue reading Faster shuffling in Go with batching]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building a search engine from scratch, in Rust: part 3]]></title>
         <id>https://jdrouet.github.io/posts/202503231000-search-engine-part-3/</id>
@@ -282,92 +386,6 @@ Most search engine implementations you'll find online target the server-side. Th
         <summary type="html"><![CDATA[Let us consider a simple C++ function which divides all values in a range of integers: void divide(std::span<int> i, int d) { for (auto& value : i) { value /= d; } } A division between two integers is one of the most expensive operations you can do over integers: it is much slower than … Continue reading Speeding up C++ code with template lambdas]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An overview of parallel programming (Go edition)]]></title>
-        <id>https://lemire.me/blog/?p=21910</id>
-        <link href="https://lemire.me/blog/2025/03/09/an-overview-of-parallel-programming-go-edition/"/>
-        <updated>2025-03-09T21:35:41.000Z</updated>
-        <summary type="html"><![CDATA[In practice, the software we write runs on several processors. Unfortunately, much of what we take for granted on a single processor becomes false when there are more than one processor. For example, if two processors modify the same piece of memory, what is the state of the memory after the modifications? It is difficult … Continue reading An overview of parallel programming (Go edition)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SimdSketch: a fast bucket sketch]]></title>
-        <id>https://curiouscoding.nl/posts/simd-sketch/</id>
-        <link href="https://curiouscoding.nl/posts/simd-sketch/"/>
-        <updated>2025-03-08T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Jaccard similarity
-2 Hash schemes
-
-2.1 MinHash
-2.2 $s$-mins sketch
-2.3 Bottom-\(s\) sketch
-2.4 FracMinHash
-2.5 Bucket sketch
-2.6 Mod-bucket hash (new?)
-2.7 Variants
-3 Compressing sketches
-
-3.1 $b$-bit hashing
-
-3.1.1 Accounting for collisions
-3.2 HyperMinHash
-4 Densification strategies
-5 SimdSketch
-6 Evaluation
-
-6.1 Setup
-
-6.1.1 Tools
-6.1.2 Inputs
-6.1.3 Parameters
-6.1.4 Metrics
-6.2 Raw results
-6.3 Correlation
-6.4 Comparison speed
-6.5 Low-similarity data
-7 Discussion
-8 TODO / Future work
-\[
-\newcommand{\sketch}{\mathsf{sketch}}
-\]]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Types of tigs]]></title>
-        <id>https://curiouscoding.nl/posts/tigs/</id>
-        <link href="https://curiouscoding.nl/posts/tigs/"/>
-        <updated>2025-03-08T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1 De Bruijn graph
- 
- 
- Link to heading
- 
-
-Consider an edge-centric De Bruijn graph, where each edge corresponds to a
-k-mer, and nodes are the \(k-1\) overlaps between adjacent k-mers. In the figures,
-all edges are directed towards the right.
-
-
-
-
- 2 k-mers
- 
- 
- Link to heading
- 
-
-The goal is now to store all edges / k-mers of the graph efficiently.
-A spectrum preserving string set (SPSS) is a set of strings whose k-mers are
-the k-mers of the input graph, that does not contain duplicate k-mers (Rahman and Medvedev 2020).]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
         </author>
     </entry>
 </feed>
