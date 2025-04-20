@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-13T02:42:56.484Z</id>
+    <id>urn:2025-04-20T01:20:39.056Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-13T02:42:56.484Z</updated>
+    <updated>2025-04-20T01:20:39.056Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[WebAssembly: How to allocate your allocator]]></title>
+        <id>https://nullprogram.com/blog/2025/04/19/</id>
+        <link href="https://nullprogram.com/blog/2025/04/19/"/>
+        <updated>2025-04-19T03:18:20.000Z</updated>
+        <summary type="html"><![CDATA[An early, small hurdle diving into WebAssembly was allocating my
+allocator. On a server or desktop with virtual memory, the allocator asks
+the operating system to map fresh pages into its address space (sbrk,
+anonymous mmap, VirtualAlloc), which it then dynamically allocates to
+different purposes. In an embedded context, dynamic allocation memory is
+typically a fixed, static region chosen at link time. The WASM execution
+environment more resembles an embedded system, but both kinds of obtaining
+raw memory are viable and useful in different situations.
+For the purposes of this discussion, the actual allocator isn’t important.
+It could be a simple arena allocator, or a more general purpose
+buddy allocator. It could even be garbage collected with Boehm
+GC. Though WebAssembly’s linear memory i…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Things Zig comptime Won't Do]]></title>
+        <id>https://matklad.github.io/2025/04/19/things-zig-comptime-wont-do.html</id>
+        <link href="https://matklad.github.io/2025/04/19/things-zig-comptime-wont-do.html"/>
+        <updated>2025-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Es el disco de Odín. Tiene un solo lado. En la tierra no hay otra cosa que tenga un solo lado.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Underusing Snapshot Testing]]></title>
+        <id>https://matklad.github.io/2025/04/15/underusing-snapshot-testing.html</id>
+        <link href="https://matklad.github.io/2025/04/15/underusing-snapshot-testing.html"/>
+        <updated>2025-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I love snapshot testing. I often say something
+along the lines of]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detect control characters, quotes and backslashes efficiently using ‘SWAR’]]></title>
+        <id>https://lemire.me/blog/?p=21976</id>
+        <link href="https://lemire.me/blog/2025/04/13/detect-control-characters-quotes-and-backslashes-efficiently-using-swar/"/>
+        <updated>2025-04-13T22:36:41.000Z</updated>
+        <summary type="html"><![CDATA[When trying to write fast functions operating over many bytes, we sometimes use ‘SWAR’. SWAR stands for SIMD Within A Register, and it is a technique to perform parallel computations on multiple data elements packed into a single word. It treats a register (e.g., 64-bit) as a vector of smaller units (e.g., 8-bit bytes) and … Continue reading Detect control characters, quotes and backslashes efficiently using ‘SWAR’]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building a search engine from scratch, in Rust: part 4]]></title>
         <id>https://jdrouet.github.io/posts/202503311500-search-engine-part-4/</id>
@@ -339,53 +391,6 @@ The Storage Challenge
 Before diving into search algorithms and indexing, we need …]]></summary>
         <author>
             <name>jdrouet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use Long Options in Scripts]]></title>
-        <id>https://matklad.github.io/2025/03/21/use-long-options-in-scripts.html</id>
-        <link href="https://matklad.github.io/2025/03/21/use-long-options-in-scripts.html"/>
-        <updated>2025-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Many command line utilities support short form options (-f) and long form options (--force).
-Short form is for interactive usage. In scripts, use the long form.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comptime Zig ORM]]></title>
-        <id>https://matklad.github.io/2025/03/19/comptime-zig-orm.html</id>
-        <link href="https://matklad.github.io/2025/03/19/comptime-zig-orm.html"/>
-        <updated>2025-03-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post can be considered an advanced Zig tutorial. I will be covering some of the more unique
-aspects of the language, but won't be explaining the easy part. If you haven't read the Zig
-Language Reference, you might start there. Additionally,
-we will also learn the foundational trick for implementing relational model.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a search engine from scratch, in Rust: introduction]]></title>
-        <id>https://jdrouet.github.io/posts/202503161800-search-engine-intro/</id>
-        <link href="https://jdrouet.github.io/posts/202503161800-search-engine-intro/"/>
-        <updated>2025-03-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever wondered how search engines work under the hood? I'm not talking about vector search or anything fancy, but just the good old search engines that could really find what we would look for.
-Even though we can already find some articles about how search engine work from a high level, it could be interesting to implement our own and add some constraints to make it fun (and maybe simpler).
-The Challenge
-Most search engine implementations you'll find online target the server-side. They're great for large-scale applications but don't address the unique challenges of building a search engine that runs directly in your browser, your mobile app or in a desktop app. That's exactly what we're going to tackle: creating a client-side search engine that works seamlessly across platforms. An…]]></summary>
-        <author>
-            <name>jdrouet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Speeding up C++ code with template lambdas]]></title>
-        <id>https://lemire.me/blog/?p=21917</id>
-        <link href="https://lemire.me/blog/2025/03/15/speeding-up-c-code-with-template-lambdas/"/>
-        <updated>2025-03-15T17:29:50.000Z</updated>
-        <summary type="html"><![CDATA[Let us consider a simple C++ function which divides all values in a range of integers: void divide(std::span<int> i, int d) { for (auto& value : i) { value /= d; } } A division between two integers is one of the most expensive operations you can do over integers: it is much slower than … Continue reading Speeding up C++ code with template lambdas]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>

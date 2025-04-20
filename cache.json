@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2025/04/19/",
+          "author": null,
+          "description": "An early, small hurdle diving into WebAssembly was allocating my\nallocator. On a server or desktop with virtual memory, the allocator asks\nthe operating system to map fresh pages into its address space (sbrk,\nanonymous mmap, VirtualAlloc), which it then dynamically allocates to\ndifferent purposes. In an embedded context, dynamic allocation memory is\ntypically a fixed, static region chosen at link time. The WASM execution\nenvironment more resembles an embedded system, but both kinds of obtaining\nraw memory are viable and useful in different situations.\nFor the purposes of this discussion, the actual allocator isn’t important.\nIt could be a simple arena allocator, or a more general purpose\nbuddy allocator. It could even be garbage collected with Boehm\nGC. Though WebAssembly’s linear memory i…",
+          "link": "https://nullprogram.com/blog/2025/04/19/",
+          "publishedOn": "2025-04-19T03:18:20.000Z",
+          "wordCount": 1607,
+          "title": "WebAssembly: How to allocate your allocator",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2025/04/04/",
           "author": null,
           "description": "It began as a water sort puzzle solver, constructed similarly to\nmy British Square solver. It was nearly playable, so I added a user\ninterface with SDL2. My wife enjoyed it on her desktop, but wished\nto play on her phone. So then I needed to either rewrite it in JavaScript\nand hope the solver was still fast enough for real-time use, or figure out\nWebAssembly (WASM). I succeeded, and now my game runs in browsers\n(source). Like before, next I ported my pkg-config clone\nto the WASM System Interface (WASI), whipped up a proof-of-concept UI,\nand it too runs in browsers. Neither use a language runtime,\nresulting in little 8kB and 28kB WASM binaries respectively. In this\narticle I share my experiences and techniques.\nWASM is a specification defining an abstract stack machine with a\nHarvard archit…",
           "link": "https://nullprogram.com/blog/2025/04/04/",
           "publishedOn": "2025-04-04T04:01:20.000Z",
-          "wordCount": 3408,
+          "wordCount": 3230,
           "title": "Lessons learned from my first dive into WebAssembly",
           "imageUrl": null
         }
@@ -76,6 +86,26 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2025/04/19/things-zig-comptime-wont-do.html",
+          "author": null,
+          "description": "Es el disco de Odín. Tiene un solo lado. En la tierra no hay otra cosa que tenga un solo lado.",
+          "link": "https://matklad.github.io/2025/04/19/things-zig-comptime-wont-do.html",
+          "publishedOn": "2025-04-19T00:00:00.000Z",
+          "wordCount": 2135,
+          "title": "Things Zig comptime Won't Do",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2025/04/15/underusing-snapshot-testing.html",
+          "author": null,
+          "description": "I love snapshot testing. I often say something\nalong the lines of",
+          "link": "https://matklad.github.io/2025/04/15/underusing-snapshot-testing.html",
+          "publishedOn": "2025-04-15T00:00:00.000Z",
+          "wordCount": 1210,
+          "title": "Underusing Snapshot Testing",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2025/03/31/random-numbers-included.html",
           "author": null,
           "description": "I've recently worked on a\nPRNG API for TigerBeetle, and made a\nsurprising discovery! While most APIs work best with half-open intervals,\nfor(int i = 0; i < n; i++),\nit seems that random numbers really work best with closed intervals, ≤n.",
@@ -113,26 +143,6 @@
           "publishedOn": "2025-03-25T00:00:00.000Z",
           "wordCount": 501,
           "title": "A Debugger is a REPL is a Debugger",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/03/21/use-long-options-in-scripts.html",
-          "author": null,
-          "description": "Many command line utilities support short form options (-f) and long form options (--force).\nShort form is for interactive usage. In scripts, use the long form.",
-          "link": "https://matklad.github.io/2025/03/21/use-long-options-in-scripts.html",
-          "publishedOn": "2025-03-21T00:00:00.000Z",
-          "wordCount": 189,
-          "title": "Use Long Options in Scripts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/03/19/comptime-zig-orm.html",
-          "author": null,
-          "description": "This post can be considered an advanced Zig tutorial. I will be covering some of the more unique\naspects of the language, but won't be explaining the easy part. If you haven't read the Zig\nLanguage Reference, you might start there. Additionally,\nwe will also learn the foundational trick for implementing relational model.",
-          "link": "https://matklad.github.io/2025/03/19/comptime-zig-orm.html",
-          "publishedOn": "2025-03-19T00:00:00.000Z",
-          "wordCount": 7718,
-          "title": "Comptime Zig ORM",
           "imageUrl": null
         }
       ]
@@ -181,16 +191,6 @@
           "wordCount": 2434,
           "title": "Building a search engine from scratch, in Rust: part 1",
           "imageUrl": "/images/logo.png"
-        },
-        {
-          "id": "https://jdrouet.github.io/posts/202503161800-search-engine-intro/",
-          "author": null,
-          "description": "Have you ever wondered how search engines work under the hood? I'm not talking about vector search or anything fancy, but just the good old search engines that could really find what we would look for.\nEven though we can already find some articles about how search engine work from a high level, it could be interesting to implement our own and add some constraints to make it fun (and maybe simpler).\nThe Challenge\nMost search engine implementations you'll find online target the server-side. They're great for large-scale applications but don't address the unique challenges of building a search engine that runs directly in your browser, your mobile app or in a desktop app. That's exactly what we're going to tackle: creating a client-side search engine that works seamlessly across platforms. An…",
-          "link": "https://jdrouet.github.io/posts/202503161800-search-engine-intro/",
-          "publishedOn": "2025-03-16T00:00:00.000Z",
-          "wordCount": 951,
-          "title": "Building a search engine from scratch, in Rust: introduction",
-          "imageUrl": "/images/logo.png"
         }
       ]
     },
@@ -218,12 +218,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=21976",
+          "author": "Daniel Lemire",
+          "description": "When trying to write fast functions operating over many bytes, we sometimes use ‘SWAR’. SWAR stands for SIMD Within A Register, and it is a technique to perform parallel computations on multiple data elements packed into a single word. It treats a register (e.g., 64-bit) as a vector of smaller units (e.g., 8-bit bytes) and … Continue reading Detect control characters, quotes and backslashes efficiently using ‘SWAR’",
+          "link": "https://lemire.me/blog/2025/04/13/detect-control-characters-quotes-and-backslashes-efficiently-using-swar/",
+          "publishedOn": "2025-04-13T22:36:41.000Z",
+          "wordCount": 3384,
+          "title": "Detect control characters, quotes and backslashes efficiently using ‘SWAR’",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=21970",
           "author": "Daniel Lemire",
           "description": "It is often puzzling to encounter organizations run by highly capable and ambitious people… appear dysfunctional. An example that I like are colleges that claim to provide great learning experience… while providing their students with recycled lectures given by contract lecturers… I like to tell the tale of this math class I took at the … Continue reading How can really smart people appear totally incompetent?",
           "link": "https://lemire.me/blog/2025/04/11/how-can-really-smart-people-appear-totally-incompetent/",
           "publishedOn": "2025-04-11T18:56:26.000Z",
-          "wordCount": 3564,
+          "wordCount": 3806,
           "title": "How can really smart people appear totally incompetent?",
           "imageUrl": null
         },
@@ -233,7 +243,7 @@
           "description": "Do large language models (AI) make you 3x faster or only 3% faster? The answer depends on the quality of the work you are producing. If you need something like a stock photo but not much beyond that, AI can make you 10x faster. If you need a picture taken at the right time of … Continue reading How helpful is AI?",
           "link": "https://lemire.me/blog/2025/04/07/how-helpful-is-ai/",
           "publishedOn": "2025-04-07T19:41:27.000Z",
-          "wordCount": 3115,
+          "wordCount": 3138,
           "title": "How helpful is AI?",
           "imageUrl": null
         },
@@ -243,7 +253,7 @@
           "description": "Random integer generation is a fundamental operation in programming, often used in tasks like shuffling arrays. Go’s standard library provides convenient tools like rand.Shuffle for such purposes. You may be able to beat the standard library by a generous margin. Let us see why. Go’s rand.Shuffle implements the Fisher-Yates (or Knuth) shuffle algorithm, a standard … Continue reading Faster shuffling in Go with batching",
           "link": "https://lemire.me/blog/2025/04/06/faster-shuffling-in-go-with-batching/",
           "publishedOn": "2025-04-06T20:26:56.000Z",
-          "wordCount": 4176,
+          "wordCount": 4314,
           "title": "Faster shuffling in Go with batching",
           "imageUrl": null
         },
@@ -253,7 +263,7 @@
           "description": "Most mobile devices use 64-bit ARM processors. A growing number of servers (Amazon, Microsoft) also use 64-bit ARM processors. These processors  have special instructions called ARM NEON providing parallelism called Single instruction, multiple data (SIMD). For example, you can compare sixteen values with sixteen other values using one instruction. Some of the most recent ARM … Continue reading Mixing ARM NEON with SVE code for fun and profit",
           "link": "https://lemire.me/blog/2025/03/29/mixing-arm-neon-with-sve-code-for-fun-and-profit/",
           "publishedOn": "2025-03-29T01:44:47.000Z",
-          "wordCount": 3388,
+          "wordCount": 3411,
           "title": "Mixing ARM NEON with SVE code for fun and profit",
           "imageUrl": null
         },
@@ -263,18 +273,8 @@
           "description": "There are two main types of fixed-precision integers in modern software: unsigned and signed. In C++20 and above, the signed integers must use the two’s complement convention. Other programming languages typically specify two’s complement as well. Two’s complement is a method for representing signed integers in binary, where the leftmost bit serves as the sign … Continue reading Unsigned comparisons using signed types",
           "link": "https://lemire.me/blog/2025/03/24/unsigned-comparisons-using-signed-types/",
           "publishedOn": "2025-03-24T23:24:50.000Z",
-          "wordCount": 3358,
+          "wordCount": 3381,
           "title": "Unsigned comparisons using signed types",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21917",
-          "author": "Daniel Lemire",
-          "description": "Let us consider a simple C++ function which divides all values in a range of integers: void divide(std::span<int> i, int d) { for (auto& value : i) { value /= d; } } A division between two integers is one of the most expensive operations you can do over integers: it is much slower than … Continue reading Speeding up C++ code with template lambdas",
-          "link": "https://lemire.me/blog/2025/03/15/speeding-up-c-code-with-template-lambdas/",
-          "publishedOn": "2025-03-15T17:29:50.000Z",
-          "wordCount": 4631,
-          "title": "Speeding up C++ code with template lambdas",
           "imageUrl": null
         }
       ]
