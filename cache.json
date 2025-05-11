@@ -23,13 +23,23 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
-          "id": "https://medium.com/p/afe6d644a3bc",
+          "id": "https://medium.com/p/e4e86caf9249",
           "author": "Netflix Technology Blog",
           "description": "",
-          "link": "https://netflixtechblog.com/how-netflix-accurately-attributes-ebpf-flow-logs-afe6d644a3bc?source=rss----2615bd06b42e---4",
-          "publishedOn": "2025-04-08T17:50:58.000Z",
+          "link": "https://netflixtechblog.com/behind-the-scenes-building-a-robust-ads-event-processing-pipeline-e4e86caf9249?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-05-09T19:44:04.000Z",
           "wordCount": null,
-          "title": "How Netflix Accurately Attributes eBPF Flow Logs",
+          "title": "Behind the Scenes: Building a Robust Ads Event Processing Pipeline",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/58c13d2a6f6e",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/measuring-dialogue-intelligibility-for-netflix-content-58c13d2a6f6e?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-05-08T00:40:17.000Z",
+          "wordCount": null,
+          "title": "Measuring Dialogue Intelligibility for Netflix Content",
           "imageUrl": null
         }
       ]
@@ -56,6 +66,16 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2025/05/06/performance-profile-visualization-challenge.html",
+          "author": null,
+          "description": "I love profiling! There's a whole lot of different profiling tools available, and they provide a\ntreasure trove of information. If you roughly know the slow area of the code, it's usually not a\nproblem to understand why it is slow. What I have trouble with though, is quickly identifying\nthe rough point of interest. Today I am pretty good at trisecting performance issues, and, if\nI make it a mission to identify the bottleneck, I usually manage to do it in a couple of hours.\nHowever, I don't know a tool which can reliably identify bottlenecks automatically, in minutes. My\nproblem is not that profilers don't give enough information to me. My problem is that profilers give\ntoo much information, and its on the human to figure out what's signal and what's noise.",
+          "link": "https://matklad.github.io/2025/05/06/performance-profile-visualization-challenge.html",
+          "publishedOn": "2025-05-06T00:00:00.000Z",
+          "wordCount": 566,
+          "title": "Performance Profile Visualization Challenge",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2025/04/22/horizontal-scroll.html",
           "author": null,
@@ -112,16 +132,6 @@
           "wordCount": 2819,
           "title": "Building a search engine from scratch, in Rust: part 4",
           "imageUrl": "/images/logo.png"
-        },
-        {
-          "id": "https://jdrouet.github.io/posts/202503231000-search-engine-part-3/",
-          "author": null,
-          "description": "In the previous article, we implemented the core document structure and indexes for our search engine. Now, let's tackle how we'll make our search engine scalable through sharding and reliable through transactions.\nShard Definition\nHere's how our sharding architecture organizes data across multiple shards:\n                 Manifest\n                +--------+\n                | shards |\n                +--------+\n                     |\n          +----------+-----------+\n          v          v           v\n    +---------+ +---------+ +---------+\n    | Shard 0 | | Shard 1 | | Shard 2 |\n    |---------| |---------| |---------|\n    | 0 - 100 | | 101-200 | | 201-300 |\n    +---------+ +---------+ +---------+\n        |           |           |\n    Collection  Collection  Collection\n     Indexes     In…",
-          "link": "https://jdrouet.github.io/posts/202503231000-search-engine-part-3/",
-          "publishedOn": "2025-04-05T00:00:00.000Z",
-          "wordCount": 1854,
-          "title": "Building a search engine from scratch, in Rust: part 3",
-          "imageUrl": "/images/logo.png"
         }
       ]
     },
@@ -135,7 +145,18 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "https://samwho.dev/rss.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://samwho.dev/reservoir-sampling/",
+          "author": null,
+          "description": "header h1 {\n    padding: 0;\n    margin-top: 0.2rem;\n    margin-bottom: 1rem;\n  }\n\n  button {\n    margin: 0.5rem;\n    padding: 0.5rem 1rem;\n    background-color: #444444;\n    color: white;\n    border: none;\n    border-radius: 8px;\n    cursor: pointer;\n    touch-action: manipulation;\n    user-select: none;\n  }\n\n  button:hover:not(:disabled) {\n    background-color: #555555;\n    touch-action: manipulation;\n    user-select: none;\n  }\n\n  button:disabled {\n    filter: opacity(0.5);\n    cursor: not-allowed;\n    touch-action: manipulation;\n    user-select: none;\n  }\n\n  input[type=\"range\"] {\n    width: 100%;\n    margin: 1rem 0;\n  }\n\n  .control {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem 0;\n  }\n\n  .control label {\n    margin-right: 1rem;\n    white-space…",
+          "link": "https://samwho.dev/reservoir-sampling/",
+          "publishedOn": "2025-05-07T00:00:00.000Z",
+          "wordCount": 2954,
+          "title": "Reservoir Sampling",
+          "imageUrl": "https://samwho.dev/images/reservoir-sampling.png?h=20e2b9fc3ace12a8f346"
+        }
+      ]
     },
     {
       "title": "Posts on abhinavsarkar.net",
@@ -160,12 +181,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22008",
+          "author": "Daniel Lemire",
+          "description": "A few weeks ago, I attended a software engineering seminar focused on the role of large language models in programming. The distinguished software engineering professors in attendance were notably skeptical, frequently dismissing the technology’s potential. During a break, I turned to a senior professor, a longtime colleague, and playfully remarked, “ChatGPT writes better C++ than … Continue reading Producing useful commands on the go using C++ and AI",
+          "link": "https://lemire.me/blog/2025/05/10/producing-useful-commands-on-the-go-using-c-and-ai/",
+          "publishedOn": "2025-05-10T20:54:46.000Z",
+          "wordCount": 3438,
+          "title": "Producing useful commands on the go using C++ and AI",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22003",
           "author": "Daniel Lemire",
           "description": "In C++, templates enable generic programming by allowing functions and classes to operate on different data types without sacrificing type safety. Defined using the template keyword, they let developers write reusable, type-agnostic code, such as functions (e.g., template <typename T> max(T a, T b)) or classes (e.g., std::vector), where the type T is specified at … Continue reading C++20 concepts for nicer compiler errors",
           "link": "https://lemire.me/blog/2025/05/03/c20-concepts-for-nicer-compiler-errors/",
           "publishedOn": "2025-05-03T19:44:26.000Z",
-          "wordCount": 3649,
+          "wordCount": 4137,
           "title": "C++20 concepts for nicer compiler errors",
           "imageUrl": null
         },
@@ -175,7 +206,7 @@
           "description": "In software, we often use key-value data structures, where each key is unique and maps to a specific value. Common examples include dictionaries in Python, hash maps in Java, and objects in JavaScript. If you combine arrays with key-value data structures, you can represent most data. In C++, we have two standard key-value data structures: … Continue reading Streamlined iteration: exploring keys and values in C++20",
           "link": "https://lemire.me/blog/2025/04/20/iterating-through-keys-and-values-in-c-with-c20-code/",
           "publishedOn": "2025-04-20T20:40:40.000Z",
-          "wordCount": 4044,
+          "wordCount": 4088,
           "title": "Streamlined iteration: exploring keys and values in C++20",
           "imageUrl": null
         },
@@ -185,7 +216,7 @@
           "description": "When trying to write fast functions operating over many bytes, we sometimes use ‘SWAR’. SWAR stands for SIMD Within A Register, and it is a technique to perform parallel computations on multiple data elements packed into a single word. It treats a register (e.g., 64-bit) as a vector of smaller units (e.g., 8-bit bytes) and … Continue reading Detect control characters, quotes and backslashes efficiently using ‘SWAR’",
           "link": "https://lemire.me/blog/2025/04/13/detect-control-characters-quotes-and-backslashes-efficiently-using-swar/",
           "publishedOn": "2025-04-13T22:36:41.000Z",
-          "wordCount": 3499,
+          "wordCount": 3503,
           "title": "Detect control characters, quotes and backslashes efficiently using ‘SWAR’",
           "imageUrl": null
         },
@@ -195,28 +226,8 @@
           "description": "It is often puzzling to encounter organizations run by highly capable and ambitious people… appear dysfunctional. An example that I like are colleges that claim to provide great learning experience… while providing their students with recycled lectures given by contract lecturers… I like to tell the tale of this math class I took at the … Continue reading How can really smart people appear totally incompetent?",
           "link": "https://lemire.me/blog/2025/04/11/how-can-really-smart-people-appear-totally-incompetent/",
           "publishedOn": "2025-04-11T18:56:26.000Z",
-          "wordCount": 3799,
+          "wordCount": 3803,
           "title": "How can really smart people appear totally incompetent?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21965",
-          "author": "Daniel Lemire",
-          "description": "Do large language models (AI) make you 3x faster or only 3% faster? The answer depends on the quality of the work you are producing. If you need something like a stock photo but not much beyond that, AI can make you 10x faster. If you need a picture taken at the right time of … Continue reading How helpful is AI?",
-          "link": "https://lemire.me/blog/2025/04/07/how-helpful-is-ai/",
-          "publishedOn": "2025-04-07T19:41:27.000Z",
-          "wordCount": 3131,
-          "title": "How helpful is AI?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21962",
-          "author": "Daniel Lemire",
-          "description": "Random integer generation is a fundamental operation in programming, often used in tasks like shuffling arrays. Go’s standard library provides convenient tools like rand.Shuffle for such purposes. You may be able to beat the standard library by a generous margin. Let us see why. Go’s rand.Shuffle implements the Fisher-Yates (or Knuth) shuffle algorithm, a standard … Continue reading Faster shuffling in Go with batching",
-          "link": "https://lemire.me/blog/2025/04/06/faster-shuffling-in-go-with-batching/",
-          "publishedOn": "2025-04-06T20:26:56.000Z",
-          "wordCount": 4307,
-          "title": "Faster shuffling in Go with batching",
           "imageUrl": null
         }
       ]

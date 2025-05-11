@@ -1,10 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-05-04T01:24:50.896Z</id>
+    <id>urn:2025-05-11T01:23:10.027Z</id>
     <title>osmos::feed</title>
-    <updated>2025-05-04T01:24:50.896Z</updated>
+    <updated>2025-05-11T01:23:10.027Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Producing useful commands on the go using C++ and AI]]></title>
+        <id>https://lemire.me/blog/?p=22008</id>
+        <link href="https://lemire.me/blog/2025/05/10/producing-useful-commands-on-the-go-using-c-and-ai/"/>
+        <updated>2025-05-10T20:54:46.000Z</updated>
+        <summary type="html"><![CDATA[A few weeks ago, I attended a software engineering seminar focused on the role of large language models in programming. The distinguished software engineering professors in attendance were notably skeptical, frequently dismissing the technology’s potential. During a break, I turned to a senior professor, a longtime colleague, and playfully remarked, “ChatGPT writes better C++ than … Continue reading Producing useful commands on the go using C++ and AI]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Behind the Scenes: Building a Robust Ads Event Processing Pipeline]]></title>
+        <id>https://medium.com/p/e4e86caf9249</id>
+        <link href="https://netflixtechblog.com/behind-the-scenes-building-a-robust-ads-event-processing-pipeline-e4e86caf9249?source=rss----2615bd06b42e---4"/>
+        <updated>2025-05-09T19:44:04.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Measuring Dialogue Intelligibility for Netflix Content]]></title>
+        <id>https://medium.com/p/58c13d2a6f6e</id>
+        <link href="https://netflixtechblog.com/measuring-dialogue-intelligibility-for-netflix-content-58c13d2a6f6e?source=rss----2615bd06b42e---4"/>
+        <updated>2025-05-08T00:40:17.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reservoir Sampling]]></title>
+        <id>https://samwho.dev/reservoir-sampling/</id>
+        <link href="https://samwho.dev/reservoir-sampling/"/>
+        <updated>2025-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[header h1 {
+    padding: 0;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #444444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    touch-action: manipulation;
+    user-select: none;
+  }
+
+  button:hover:not(:disabled) {
+    background-color: #555555;
+    touch-action: manipulation;
+    user-select: none;
+  }
+
+  button:disabled {
+    filter: opacity(0.5);
+    cursor: not-allowed;
+    touch-action: manipulation;
+    user-select: none;
+  }
+
+  input[type="range"] {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .control label {
+    margin-right: 1rem;
+    white-space…]]></summary>
+        <author>
+            <name>samwho.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Performance Profile Visualization Challenge]]></title>
+        <id>https://matklad.github.io/2025/05/06/performance-profile-visualization-challenge.html</id>
+        <link href="https://matklad.github.io/2025/05/06/performance-profile-visualization-challenge.html"/>
+        <updated>2025-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I love profiling! There's a whole lot of different profiling tools available, and they provide a
+treasure trove of information. If you roughly know the slow area of the code, it's usually not a
+problem to understand why it is slow. What I have trouble with though, is quickly identifying
+the rough point of interest. Today I am pretty good at trisecting performance issues, and, if
+I make it a mission to identify the bottleneck, I usually manage to do it in a couple of hours.
+However, I don't know a tool which can reliably identify bottlenecks automatically, in minutes. My
+problem is not that profilers don't give enough information to me. My problem is that profilers give
+too much information, and its on the human to figure out what's signal and what's noise.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C++20 concepts for nicer compiler errors]]></title>
         <id>https://lemire.me/blog/?p=22003</id>
@@ -468,62 +568,6 @@ These filters can be applied to specific attributes, though this isn't always ne
         <summary type="html"><![CDATA[It is often puzzling to encounter organizations run by highly capable and ambitious people… appear dysfunctional. An example that I like are colleges that claim to provide great learning experience… while providing their students with recycled lectures given by contract lecturers… I like to tell the tale of this math class I took at the … Continue reading How can really smart people appear totally incompetent?]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Netflix Accurately Attributes eBPF Flow Logs]]></title>
-        <id>https://medium.com/p/afe6d644a3bc</id>
-        <link href="https://netflixtechblog.com/how-netflix-accurately-attributes-ebpf-flow-logs-afe6d644a3bc?source=rss----2615bd06b42e---4"/>
-        <updated>2025-04-08T17:50:58.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How helpful is AI?]]></title>
-        <id>https://lemire.me/blog/?p=21965</id>
-        <link href="https://lemire.me/blog/2025/04/07/how-helpful-is-ai/"/>
-        <updated>2025-04-07T19:41:27.000Z</updated>
-        <summary type="html"><![CDATA[Do large language models (AI) make you 3x faster or only 3% faster? The answer depends on the quality of the work you are producing. If you need something like a stock photo but not much beyond that, AI can make you 10x faster. If you need a picture taken at the right time of … Continue reading How helpful is AI?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Faster shuffling in Go with batching]]></title>
-        <id>https://lemire.me/blog/?p=21962</id>
-        <link href="https://lemire.me/blog/2025/04/06/faster-shuffling-in-go-with-batching/"/>
-        <updated>2025-04-06T20:26:56.000Z</updated>
-        <summary type="html"><![CDATA[Random integer generation is a fundamental operation in programming, often used in tasks like shuffling arrays. Go’s standard library provides convenient tools like rand.Shuffle for such purposes. You may be able to beat the standard library by a generous margin. Let us see why. Go’s rand.Shuffle implements the Fisher-Yates (or Knuth) shuffle algorithm, a standard … Continue reading Faster shuffling in Go with batching]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a search engine from scratch, in Rust: part 3]]></title>
-        <id>https://jdrouet.github.io/posts/202503231000-search-engine-part-3/</id>
-        <link href="https://jdrouet.github.io/posts/202503231000-search-engine-part-3/"/>
-        <updated>2025-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the previous article, we implemented the core document structure and indexes for our search engine. Now, let's tackle how we'll make our search engine scalable through sharding and reliable through transactions.
-Shard Definition
-Here's how our sharding architecture organizes data across multiple shards:
-                 Manifest
-                +--------+
-                | shards |
-                +--------+
-                     |
-          +----------+-----------+
-          v          v           v
-    +---------+ +---------+ +---------+
-    | Shard 0 | | Shard 1 | | Shard 2 |
-    |---------| |---------| |---------|
-    | 0 - 100 | | 101-200 | | 201-300 |
-    +---------+ +---------+ +---------+
-        |           |           |
-    Collection  Collection  Collection
-     Indexes     In…]]></summary>
-        <author>
-            <name>jdrouet</name>
         </author>
     </entry>
 </feed>
