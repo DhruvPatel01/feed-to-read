@@ -1,10 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-05-11T01:23:10.027Z</id>
+    <id>urn:2025-05-18T01:24:32.509Z</id>
     <title>osmos::feed</title>
-    <updated>2025-05-11T01:23:10.027Z</updated>
+    <updated>2025-05-18T01:24:32.509Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Transformers Library: standardizing model definitions]]></title>
+        <id>https://huggingface.co/blog/transformers-model-definition</id>
+        <link href="https://huggingface.co/blog/transformers-model-definition"/>
+        <updated>2025-05-15T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scalar Select Anti-Pattern]]></title>
+        <id>https://matklad.github.io/2025/05/14/scalar-select-aniti-pattern.html</id>
+        <link href="https://matklad.github.io/2025/05/14/scalar-select-aniti-pattern.html"/>
+        <updated>2025-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I've written a number of stateful services starting with an event loop at the core:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Hugging Face Model Access for Kaggle Users]]></title>
+        <id>https://huggingface.co/blog/kaggle-integration</id>
+        <link href="https://huggingface.co/blog/kaggle-integration"/>
+        <updated>2025-05-14T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blazingly fast whisper transcriptions with Inference Endpoints]]></title>
+        <id>https://huggingface.co/blog/fast-whisper-endpoints</id>
+        <link href="https://huggingface.co/blog/fast-whisper-endpoints"/>
+        <updated>2025-05-13T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reading Time Estimates for Pandoc Based Blog Generators]]></title>
+        <id>https://notes.abhinavsarkar.net/2025/pandoc-reading-time</id>
+        <link href="https://notes.abhinavsarkar.net/2025/pandoc-reading-time"/>
+        <updated>2025-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>If you, like me, are one of those who have written their own static-site generators based on Pandoc using Haskell, or use a framework made on top of it<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, this post provides a little code snippet to compute the reading time estimate for your blog posts. You can stick this in your setup at the right place, and get pretty accurate estimates<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">module</span> <span class="nn">Pandoc.ReadingTimeEstimate</span> <span class="p">(</span><span class="nf">readingTimeEstimateMinutes</span><span class="p">)</span> <span class="kr">where</span>
+
+<span class="kr">import</span> <span class="nn">Data.Char</span> <span class="p">(</span><span class="nf">isAlphaNum</span><span class="p">)</span>
+<span class="kr">import</span> <span class="nn">Data.Monoid</span> <span class="p">(</span><span class="kt">Sum</span> <span class="p">(</span><span class="o">..</span><span class="p">))</span>
+<span class="kr">import</span> <span class="nn">Data.Text</span> <span class="n">qualified</span> <span class="n">as</span> <span class="kt">Text</span>
+<span class="kr">import</span> <span class="nn">Text.HTML.TagSoup</span> <span class="p">(</span><span class="nf">innerText</span><span class="p">,</span> <span class="nf">parseTags</span><span class="p">)</span>
+<span class="kr">import</span> <span class="nn">Text.Pandoc.Definition</span>
+
+<span class="n">readingTimeEstimateMinutes</span> <span class="o">::</span> <span class="kt">Pandoc</span> <span class="o">-&gt;</span> <span class="kt">Int</span>
+<span class="n">readingTimeEstimateMinutes</span> <span class="o">=</span> <span class="n">round</span> <span class="o">.</span> <span class="p">(</span><span class="o">/</span> <span class="n">wpm</span><span class="p">)</span> <span class="o">.</span> <span class="n">fromIntegral</span> <span class="o">.</span> <span class="n">wordCount</span>
+  <span class="kr">where</span>
+    <span class="n">wpm</span> <span class="o">=</span> <span class="mi">220</span>
+
+<span class="n">wordCount</span> <span class="o">::</span> <span class="kt">Pandoc</span> <span class="o">-&gt;</span> <span class="kt">Int</span>
+<span class="n">wordCount</span> <span class="p">(</span><span class="kt">Pandoc</span> <span class="kr">_</span> <span class="n">blocks</span><span class="p">)</span> <span class="o">=</span> <span class="n">getSum</span> <span class="o">$</span> <span class="n">foldMap</span> <span class="n">blockWCount</span> <span class="n">blocks</span>
+  <span class="kr">where</span>
+    <span class="n">blockWCount</span> <span class="o">=</span> <span class="nf">\</span><span class="kr">case</span>
+      <span class="kt">Plain</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Para</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">CodeBlock</span> <span class="kr">_</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="n">s</span>
+      <span class="kt">RawBlock</span> <span class="p">(</span><span class="kt">Format</span> <span class="s">"html"</span><span class="p">)</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="o">.</span> <span class="n">innerText</span> <span class="o">$</span> <span class="n">parseTags</span> <span class="n">s</span>
+      <span class="kt">RawBlock</span> <span class="kr">_</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="n">s</span>
+      <span class="kt">LineBlock</span> <span class="n">iss</span> <span class="o">-&gt;</span> <span class="n">inlinesListWCount</span> <span class="n">iss</span>
+      <span class="kt">BlockQuote</span> <span class="n">bs</span> <span class="o">-&gt;</span> <span class="n">blocksWCount</span> <span class="n">bs</span>
+      <span class="kt">OrderedList</span> <span class="kr">_</span> <span class="n">bss</span> <span class="o">-&gt;</span> <span class="n">blocksListWCount</span> <span class="n">bss</span>
+      <span class="kt">BulletList</span> <span class="n">bss</span> <span class="o">-&gt;</span> <span class="n">blocksListWCount</span> <span class="n">bss</span>
+      <span class="kt">DefinitionList</span> <span class="n">ls</span> <span class="o">-&gt;</span>
+        <span class="n">foldMap</span> <span class="p">(</span><span class="nf">\</span><span class="p">(</span><span class="n">is</span><span class="p">,</span> <span class="n">bss</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span> <span class="o">+</span> <span class="n">blocksListWCount</span> <span class="n">bss</span><span class="p">)</span> <span class="n">ls</span>
+      <span class="kt">Header</span> <span class="kr">_</span> <span class="kr">_</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">HorizontalRule</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+      <span class="kt">Table</span> <span class="kr">_</span> <span class="n">cap</span><span class="o">@</span><span class="p">(</span><span class="kt">Caption</span> <span class="kr">_</span> <span class="kr">_</span><span class="p">)</span> <span class="kr">_</span> <span class="p">(</span><span class="kt">TableHead</span> <span class="kr">_</span> <span class="n">thrs</span><span class="p">)</span> <span class="n">tbs</span> <span class="p">(</span><span class="kt">TableFoot</span> <span class="kr">_</span> <span class="n">tfrs</span><span class="p">)</span> <span class="o">-&gt;</span>
+        <span class="n">captionWCount</span> <span class="n">cap</span>
+          <span class="o">+</span> <span class="n">rowsWCount</span> <span class="n">thrs</span>
+          <span class="o">+</span> <span class="n">rowsWCount</span> <span class="n">tfrs</span>
+          <span class="o">+</span> <span class="n">foldMap</span> <span class="n">tableBodyWCount</span> <span class="n">tbs</span>
+      <span class="kt">Div</span> <span class="p">(</span><span class="n">id'</span><span class="p">,</span> <span class="n">classes</span><span class="p">,</span> <span class="kr">_</span><span class="p">)</span> <span class="n">bs'</span>
+        <span class="o">|</span> <span class="n">id'</span> <span class="o">==</span> <span class="s">"refs"</span> <span class="o">&amp;&amp;</span> <span class="s">"references"</span> <span class="p">`</span><span class="n">elem</span><span class="p">`</span> <span class="n">classes</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+        <span class="o">|</span> <span class="n">otherwise</span> <span class="o">-&gt;</span> <span class="n">blocksWCount</span> <span class="n">bs'</span>
+      <span class="kt">Figure</span> <span class="kr">_</span> <span class="n">cap</span><span class="o">@</span><span class="p">(</span><span class="kt">Caption</span> <span class="kr">_</span> <span class="kr">_</span><span class="p">)</span> <span class="n">bs'</span> <span class="o">-&gt;</span>
+        <span class="n">captionWCount</span> <span class="n">cap</span> <span class="o">+</span> <span class="n">blocksWCount</span> <span class="n">bs'</span>
+
+    <span class="n">blocksWCount</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">blockWCount</span>
+    <span class="n">blocksListWCount</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">blocksWCount</span>
+
+    <span class="n">captionWCount</span> <span class="p">(</span><span class="kt">Caption</span> <span class="n">msc</span> <span class="n">bs</span><span class="p">)</span> <span class="o">=</span>
+      <span class="n">maybe</span> <span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="n">inlinesWCount</span> <span class="n">msc</span> <span class="o">+</span> <span class="n">blocksWCount</span> <span class="n">bs</span>
+
+    <span class="n">rowsWCount</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">rowWCount</span>
+    <span class="n">rowWCount</span> <span class="p">(</span><span class="kt">Row</span> <span class="kr">_</span> <span class="n">cells</span><span class="p">)</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">cellWCount</span> <span class="n">cells</span>
+    <span class="n">cellWCount</span> <span class="p">(</span><span class="kt">Cell</span> <span class="kr">_</span> <span class="kr">_</span> <span class="kr">_</span> <span class="kr">_</span> <span class="n">bs</span><span class="p">)</span> <span class="o">=</span> <span class="n">blocksWCount</span> <span class="n">bs</span>
+    <span class="n">tableBodyWCount</span> <span class="p">(</span><span class="kt">TableBody</span> <span class="kr">_</span> <span class="kr">_</span> <span class="n">hr</span> <span class="n">br</span><span class="p">)</span> <span class="o">=</span> <span class="n">rowsWCount</span> <span class="n">hr</span> <span class="o">+</span> <span class="n">rowsWCount</span> <span class="n">br</span>
+
+    <span class="n">inlineWCount</span> <span class="o">=</span> <span class="nf">\</span><span class="kr">case</span>
+      <span class="kt">Str</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="n">s</span>
+      <span class="kt">Emph</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Strong</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Strikeout</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Underline</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Superscript</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Subscript</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">SmallCaps</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Quoted</span> <span class="kr">_</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Cite</span> <span class="kr">_</span> <span class="n">is</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Code</span> <span class="kr">_</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="n">s</span>
+      <span class="kt">Span</span> <span class="kr">_</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">s</span>
+      <span class="kt">Space</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+      <span class="kt">SoftBreak</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+      <span class="kt">LineBreak</span> <span class="o">-&gt;</span> <span class="mi">0</span>
+      <span class="kt">Math</span> <span class="kr">_</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="n">s</span>
+      <span class="kt">RawInline</span> <span class="p">(</span><span class="kt">Format</span> <span class="s">"html"</span><span class="p">)</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="o">.</span> <span class="n">innerText</span> <span class="o">$</span> <span class="n">parseTags</span> <span class="n">s</span>
+      <span class="kt">RawInline</span> <span class="kr">_</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="n">tWordCount</span> <span class="n">s</span>
+      <span class="kt">Link</span> <span class="kr">_</span> <span class="n">is</span> <span class="kr">_</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Image</span> <span class="kr">_</span> <span class="n">is</span> <span class="kr">_</span> <span class="o">-&gt;</span> <span class="n">inlinesWCount</span> <span class="n">is</span>
+      <span class="kt">Note</span> <span class="n">bs</span> <span class="o">-&gt;</span> <span class="n">blocksWCount</span> <span class="n">bs</span>
+
+    <span class="n">inlinesWCount</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">inlineWCount</span>
+    <span class="n">inlinesListWCount</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">inlinesWCount</span>
+
+    <span class="n">tWordCount</span> <span class="o">=</span>
+      <span class="kt">Sum</span>
+        <span class="o">.</span> <span class="n">length</span>
+        <span class="o">.</span> <span class="n">filter</span> <span class="p">(</span><span class="n">not</span> <span class="o">.</span> <span class="kt">Text</span><span class="o">.</span><span class="n">all</span> <span class="p">(</span><span class="n">not</span> <span class="o">.</span> <span class="n">isAlphaNum</span><span class="p">))</span>
+        <span class="o">.</span> <span class="kt">Text</span><span class="o">.</span><span class="n">words</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">wordCount</code> function takes a <a href="https://hackage.haskell.org/package/pandoc-types/docs/Text-Pandoc-Definition.html#t:Pandoc"><code class="language-plaintext highlighter-rouge">Pandoc</code></a> tree data structure, and recursively traverses it to get the count of textual words. For raw HTML code embedded in the tree, it parses the HTML code using the <a href="https://github.com/ndmitchell/tagsoup">tagsoup</a> library, and extracts the inner text after removing the tags. The words are counted after removing words that are composed of only punctuation.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">readingTimeEstimateMinutes</code> function then divides the word count by a words-per-minute (<code class="language-plaintext highlighter-rouge">wpm</code>) parameter — that I’ve set here to 220, close to the average reading speed of literate adult humans — to return the reading time estimate in minutes. You can change the <code class="language-plaintext highlighter-rouge">wpm</code> parameter as per your liking.</p>
+
+<p>That’s it. I hope this is helpful to you.</p>
+
+<p>Like, share, or comment on this post on <a href="https://fantastic.earth/@abnv/114501531258312548" class="mastodon-link">Mastodon</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Like <a href="https://jaspervdj.be/hakyll/">Hakyll</a>, <a href="https://github.com/ChrisPenner/slick">Slick</a> or <a href="https://ema.srid.ca/">Ema</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>I cross-checked the estimates with those provided by the <a href="https://miniflux.app/">Miniflux</a> feed reader, and they are quite close. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></summary>
+        <author>
+            <name>Posts on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vision Language Models (Better, Faster, Stronger)]]></title>
+        <id>https://huggingface.co/blog/vlms-2025</id>
+        <link href="https://huggingface.co/blog/vlms-2025"/>
+        <updated>2025-05-12T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?]]></title>
+        <id>https://huggingface.co/blog/lerobot-datasets</id>
+        <link href="https://huggingface.co/blog/lerobot-datasets"/>
+        <updated>2025-05-11T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Producing useful commands on the go using C++ and AI]]></title>
         <id>https://lemire.me/blog/?p=22008</id>
@@ -116,6 +284,24 @@ too much information, and its on the human to figure out what's signal and what'
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How to Build an MCP Server with Gradio]]></title>
+        <id>https://huggingface.co/blog/gradio-mcp</id>
+        <link href="https://huggingface.co/blog/gradio-mcp"/>
+        <updated>2025-04-30T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 4 Things Qwen-3's Chat Template Teaches Us]]></title>
+        <id>https://huggingface.co/blog/qwen-3-chat-template-deep-dive</id>
+        <link href="https://huggingface.co/blog/qwen-3-chat-template-deep-dive"/>
+        <updated>2025-04-30T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Software]]></title>
         <id>https://curiouscoding.nl/pages/software/</id>
         <link href="https://curiouscoding.nl/pages/software/"/>
@@ -134,6 +320,25 @@ cacheline_ef: Elias-Fano encoding, one cacheline at a time.
 Libraries & Tools:]]></summary>
         <author>
             <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcoming Llama Guard 4 on Hugging Face Hub]]></title>
+        <id>https://huggingface.co/blog/llama-guard-4</id>
+        <link href="https://huggingface.co/blog/llama-guard-4"/>
+        <updated>2025-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs]]></title>
+        <id>https://huggingface.co/blog/autoround</id>
+        <link href="https://huggingface.co/blog/autoround"/>
+        <updated>2025-04-29T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -171,6 +376,15 @@ In this post, we will look at the minimizer schemes generated by the greedy
 minimizer (Golan et al. 2024).]]></summary>
         <author>
             <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tiny Agents: a MCP-powered agent in 50 lines of code]]></title>
+        <id>https://huggingface.co/blog/tiny-agents</id>
+        <link href="https://huggingface.co/blog/tiny-agents"/>
+        <updated>2025-04-25T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -524,50 +738,6 @@ GC. Though WebAssembly’s linear memory i…]]></summary>
         <summary type="html"><![CDATA[Es el disco de Odín. Tiene un solo lado. En la tierra no hay otra cosa que tenga un solo lado.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Underusing Snapshot Testing]]></title>
-        <id>https://matklad.github.io/2025/04/15/underusing-snapshot-testing.html</id>
-        <link href="https://matklad.github.io/2025/04/15/underusing-snapshot-testing.html"/>
-        <updated>2025-04-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I love snapshot testing. I often say something
-along the lines of]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detect control characters, quotes and backslashes efficiently using ‘SWAR’]]></title>
-        <id>https://lemire.me/blog/?p=21976</id>
-        <link href="https://lemire.me/blog/2025/04/13/detect-control-characters-quotes-and-backslashes-efficiently-using-swar/"/>
-        <updated>2025-04-13T22:36:41.000Z</updated>
-        <summary type="html"><![CDATA[When trying to write fast functions operating over many bytes, we sometimes use ‘SWAR’. SWAR stands for SIMD Within A Register, and it is a technique to perform parallel computations on multiple data elements packed into a single word. It treats a register (e.g., 64-bit) as a vector of smaller units (e.g., 8-bit bytes) and … Continue reading Detect control characters, quotes and backslashes efficiently using ‘SWAR’]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a search engine from scratch, in Rust: part 4]]></title>
-        <id>https://jdrouet.github.io/posts/202503311500-search-engine-part-4/</id>
-        <link href="https://jdrouet.github.io/posts/202503311500-search-engine-part-4/"/>
-        <updated>2025-04-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the part 2 and part 3, we implemented the way to store the indexed data and to split them in small enough pieces for the search engine to remain efficient, due to the encryption bottleneck. Now, it's time to implement read access and search functionality for our indexed entries.
-Query Definition
-In order to execute a search, the user first needs to define its query. Considering the indexes we have, we'll have to define, for each index, a set of filters that could be executed, but we'll define them later in that article.
-These filters can be applied to specific attributes, though this isn't always necessary. For example, we might want to search for text across all attributes, like filtering all articles having "Hello" in them, in the title or the content, with a single condition. On the …]]></summary>
-        <author>
-            <name>jdrouet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How can really smart people appear totally incompetent?]]></title>
-        <id>https://lemire.me/blog/?p=21970</id>
-        <link href="https://lemire.me/blog/2025/04/11/how-can-really-smart-people-appear-totally-incompetent/"/>
-        <updated>2025-04-11T18:56:26.000Z</updated>
-        <summary type="html"><![CDATA[It is often puzzling to encounter organizations run by highly capable and ambitious people… appear dysfunctional. An example that I like are colleges that claim to provide great learning experience… while providing their students with recycled lectures given by contract lecturers… I like to tell the tale of this math class I took at the … Continue reading How can really smart people appear totally incompetent?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
