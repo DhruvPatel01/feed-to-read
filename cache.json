@@ -4,24 +4,23 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2025/04/19/",
-          "author": null,
-          "description": "An early, small hurdle diving into WebAssembly was allocating my\nallocator. On a server or desktop with virtual memory, the allocator asks\nthe operating system to map fresh pages into its address space (sbrk,\nanonymous mmap, VirtualAlloc), which it then dynamically allocates to\ndifferent purposes. In an embedded context, dynamic allocation memory is\ntypically a fixed, static region chosen at link time. The WASM execution\nenvironment more resembles an embedded system, but both kinds of obtaining\nraw memory are viable and useful in different situations.\nFor the purposes of this discussion, the actual allocator isn’t important.\nIt could be a simple arena allocator, or a more general purpose\nbuddy allocator. It could even be garbage collected with Boehm\nGC. Though WebAssembly’s linear memory i…",
-          "link": "https://nullprogram.com/blog/2025/04/19/",
-          "publishedOn": "2025-04-19T03:18:20.000Z",
-          "wordCount": 1634,
-          "title": "WebAssembly: How to allocate your allocator",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/94c75e18f4b8",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/fm-intent-predicting-user-session-intent-with-hierarchical-multi-task-learning-94c75e18f4b8?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-05-21T16:28:07.000Z",
+          "wordCount": null,
+          "title": "FM-Intent: Predicting User Session Intent with Hierarchical Multi-Task Learning",
+          "imageUrl": null
+        },
         {
           "id": "https://medium.com/p/e4e86caf9249",
           "author": "Netflix Technology Blog",
@@ -48,24 +47,33 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": [
-        {
-          "id": "https://nim-lang.org//blog/2025/04/22/nim-224-2016.html",
-          "author": null,
-          "description": "The Nim Team is happy to announce two releases:\nversion 2.2.4, a second patch release for the latest stable version\nversion 2.0.16, an eight patch release for Nim 2.0\nNim v2.2.4 comes two and a half months after the v2.2.2 release and it contains 108 commits bringing bugfixes and improvements.\nIf you’re still using Nim v2.0, the v2.0.16 release brings 31 commits with bugfixes.\nBut we would encourage you to switch to Nim v2.2, as it brings significant improvements to the ORC memory management and to the language and the compiler overall.\nversion 2.2 release article, showing the improvements available in Nim 2.2.\nThe Nim 2.2.4 changelog is available here.\nInstalling Nim 2.2.4\nCheck out if the package manager of your OS already ships version 2.2.4 or\ninstall it as described here.\nIf you have …",
-          "link": "https://nim-lang.org//blog/2025/04/22/nim-224-2016.html",
-          "publishedOn": "2025-04-22T00:00:00.000Z",
-          "wordCount": 658,
-          "title": "Nim versions 2.2.4 and 2.0.16 released",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2025/05/20/open-source-cant-coordinate.html",
+          "author": null,
+          "description": "I was taking a shower this morning, and was pondering yesterday's\nproblem, where I suspect\nthat I have an outdated version of hotspot Linux profiler, but I\ncan't just go and download a fresh release from GitHub, because hotspot is a KDE app, and I use\nNixOS. And NixOS isn't a problem --- it's a solution.",
+          "link": "https://matklad.github.io/2025/05/20/open-source-cant-coordinate.html",
+          "publishedOn": "2025-05-20T00:00:00.000Z",
+          "wordCount": 642,
+          "title": "Open Source Can't Coordinate",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2025/05/19/profiling-challenge-results.html",
+          "author": null,
+          "description": "A few days ago, I posted a",
+          "link": "https://matklad.github.io/2025/05/19/profiling-challenge-results.html",
+          "publishedOn": "2025-05-19T00:00:00.000Z",
+          "wordCount": 881,
+          "title": "Profiling Challenge Results",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2025/05/14/scalar-select-aniti-pattern.html",
           "author": null,
@@ -85,36 +93,6 @@
           "wordCount": 566,
           "title": "Performance Profile Visualization Challenge",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/04/22/horizontal-scroll.html",
-          "author": null,
-          "description": "What's in common between these two blog posts (pardon me, my fellow crustaceans of lobster variety)?",
-          "link": "https://matklad.github.io/2025/04/22/horizontal-scroll.html",
-          "publishedOn": "2025-04-22T00:00:00.000Z",
-          "wordCount": 779,
-          "title": "Against Horizontal Scroll",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/04/21/fun-zig-program.html",
-          "author": null,
-          "description": "This short example is worth pondering a bit if you are learning Zig:",
-          "link": "https://matklad.github.io/2025/04/21/fun-zig-program.html",
-          "publishedOn": "2025-04-21T00:00:00.000Z",
-          "wordCount": 235,
-          "title": "A Fun Zig Program",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/04/19/things-zig-comptime-wont-do.html",
-          "author": null,
-          "description": "Es el disco de Odín. Tiene un solo lado. En la tierra no hay otra cosa que tenga un solo lado.",
-          "link": "https://matklad.github.io/2025/04/19/things-zig-comptime-wont-do.html",
-          "publishedOn": "2025-04-19T00:00:00.000Z",
-          "wordCount": 2139,
-          "title": "Things Zig comptime Won't Do",
-          "imageUrl": null
         }
       ]
     },
@@ -129,6 +107,56 @@
       "feedUrl": "https://huggingface.co/blog/feed.xml",
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
+        {
+          "id": "https://huggingface.co/blog/dell-ai-applications",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/dell-ai-applications",
+          "publishedOn": "2025-05-23T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Dell Enterprise Hub is all you need to build AI on premises",
+          "imageUrl": null
+        },
+        {
+          "id": "https://huggingface.co/blog/python-tiny-agents",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/python-tiny-agents",
+          "publishedOn": "2025-05-23T00:00:00.000Z",
+          "wordCount": 2340,
+          "title": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code",
+          "imageUrl": "https://huggingface.co/blog/assets/python-tiny-agents/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/diffusers-quantization",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/diffusers-quantization",
+          "publishedOn": "2025-05-21T00:00:00.000Z",
+          "wordCount": 2307,
+          "title": "Exploring Quantization Backends in Diffusers",
+          "imageUrl": "https://huggingface.co/blog/assets/diffusers-quantization/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/nanovlm",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/nanovlm",
+          "publishedOn": "2025-05-21T00:00:00.000Z",
+          "wordCount": null,
+          "title": "nanoVLM: The simplest repository to train your VLM in pure PyTorch",
+          "imageUrl": null
+        },
+        {
+          "id": "https://huggingface.co/blog/azure-ai-foundry",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/azure-ai-foundry",
+          "publishedOn": "2025-05-19T00:00:00.000Z",
+          "wordCount": 955,
+          "title": "Microsoft and Hugging Face expand collaboration",
+          "imageUrl": "https://huggingface.co/blog/assets/azure-ai-foundry/satya-hf-build-compressed.png"
+        },
         {
           "id": "https://huggingface.co/blog/transformers-model-definition",
           "author": null,
@@ -205,7 +233,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/llama-guard-4",
           "publishedOn": "2025-04-29T00:00:00.000Z",
-          "wordCount": 1262,
+          "wordCount": 1267,
           "title": "Welcoming Llama Guard 4 on Hugging Face Hub",
           "imageUrl": "https://huggingface.co/blog/assets/llama-guard-4/thumbnail.png"
         },
@@ -217,16 +245,6 @@
           "publishedOn": "2025-04-29T00:00:00.000Z",
           "wordCount": null,
           "title": "Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/tiny-agents",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/tiny-agents",
-          "publishedOn": "2025-04-25T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Tiny Agents: a MCP-powered agent in 50 lines of code",
           "imageUrl": null
         }
       ]
@@ -262,16 +280,6 @@
           "wordCount": 925,
           "title": "Reading Time Estimates for Pandoc Based Blog Generators",
           "imageUrl": null
-        },
-        {
-          "id": "https://notes.abhinavsarkar.net/2025/goaccess-server-on-nixos",
-          "author": null,
-          "description": "<p><a href=\"https://goaccess.io/\">Goaccess</a> is an open source real-time web log analyzer. We can use it to parse a server access log file, such as of <a href=\"https://nginx.org/\">Nginx</a>, and see the analysis report in a terminal in real-time. However, Goaccess also comes with an HTTP server built into it that can serve the same real-time report over HTTP (<a href=\"https://rt.goaccess.io/\">demo</a>).</p>\n\n<details>\n  <summary>So I wrote a NixOS service module for Goaccess server.</summary>\n\n  <div class=\"language-nix highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"p\">{</span> <span class=\"nv\">config</span><span class=\"p\">,</span> <span class=\"nv\">lib</span><span class=\"p\">,</span> <span class=\"nv\">pkgs</span><span class=\"p\">,</span> <span class=\"o\">...</span> <span class=\"p\">}:</span>\n<span class=\"kd\">let</span>\n  <span class=\"nv\">serviceName</span> <span class=\"o\">=</span> <span class=\"s2\">\"goaccess\"</span><span class=\"p\">;</span>\n  <span class=\"nv\">cfg</span> <span class=\"o\">=</span> <span class=\"nv\">config</span><span class=\"o\">.</span><span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">serviceName</span><span class=\"si\">}</span><span class=\"s2\">\"</span><span class=\"p\">;</span>\n  <span class=\"nv\">nginxCfg</span> <span class=\"o\">=</span> <span class=\"nv\">config</span><span class=\"o\">.</span><span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"nv\">nginx</span><span class=\"p\">;</span>\n  <span class=\"nv\">userName</span> <span class=\"o\">=</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">userName</span><span class=\"p\">;</span>\n  <span class=\"nv\">types</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">types</span><span class=\"p\">;</span>\n<span class=\"kn\">in</span>\n<span class=\"p\">{</span>\n  <span class=\"nv\">options</span><span class=\"o\">.</span><span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">serviceName</span><span class=\"si\">}</span><span class=\"s2\">\"</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n    <span class=\"nv\">enable</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkEnableOption</span> <span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">serviceName</span><span class=\"si\">}</span><span class=\"s2\"> service\"</span><span class=\"p\">;</span>\n\n    <span class=\"nv\">package</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">package</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"nv\">pkgs</span><span class=\"o\">.</span><span class=\"nv\">goaccess</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The Goaccess package.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">userName</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">nonEmptyStr</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"nv\">serviceName</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The username to use for running the Goaccess service.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">dataDir</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">path</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"s2\">\"/var/lib/</span><span class=\"si\">${</span><span class=\"nv\">userName</span><span class=\"si\">}</span><span class=\"s2\">\"</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The directory in which the Goaccess data is saved.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">dataRetentionDays</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">int</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"mi\">7</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The number of days for which the Goaccess server retains the report data.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">reportDir</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">path</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"s2\">\"/var/www/</span><span class=\"si\">${</span><span class=\"nv\">userName</span><span class=\"si\">}</span><span class=\"s2\">\"</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The directory in which the Goaccess report file is saved.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">host</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">nonEmptyStr</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"s2\">\"127.0.0.1\"</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The host to run the Goaccess server on.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">port</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">port</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"mi\">7890</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The port to run the Goaccess server on.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">logFilePath</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">path</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The full path to the log file to analyze.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">logFileFormat</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">enum</span> <span class=\"p\">[</span>\n        <span class=\"s2\">\"COMBINED\"</span>\n        <span class=\"s2\">\"VCOMBINED\"</span>\n        <span class=\"s2\">\"COMMON\"</span>\n        <span class=\"s2\">\"VCOMMON\"</span>\n        <span class=\"s2\">\"W3C\"</span>\n        <span class=\"s2\">\"SQUID\"</span>\n        <span class=\"s2\">\"CLOUDFRONT\"</span>\n        <span class=\"s2\">\"CLOUDSTORAGE\"</span>\n        <span class=\"s2\">\"AWSELB\"</span>\n        <span class=\"s2\">\"AWSS3\"</span>\n        <span class=\"s2\">\"AWSALB\"</span>\n        <span class=\"s2\">\"CADDY\"</span>\n        <span class=\"s2\">\"TRAEFIKCLF\"</span>\n      <span class=\"p\">];</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The format of the log file to analyze.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">reportTitle</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"kc\">null</span><span class=\"nv\">Or</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">nonEmptyStr</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"kc\">null</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The title of the report webpage.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">enableNginx</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkEnableOption</span> <span class=\"s2\">''</span><span class=\"err\">\n</span><span class=\"s2\">      Nginx as the reverse proxy for the Goaccess server. If enabled, an Nginx virtual host will</span><span class=\"err\">\n</span><span class=\"s2\">      be created for access to the Goaccess server''</span><span class=\"p\">;</span>\n\n    <span class=\"nv\">nginxEnableSSL</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkEnableOption</span> <span class=\"s2\">\"SSL for the Nginx reverse proxy\"</span><span class=\"p\">;</span>\n\n    <span class=\"nv\">serverHost</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">nonEmptyStr</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The full public domain of the Goaccess server.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">serverPath</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkOption</span> <span class=\"p\">{</span>\n      <span class=\"nv\">type</span> <span class=\"o\">=</span> <span class=\"nv\">types</span><span class=\"o\">.</span><span class=\"nv\">nonEmptyStr</span><span class=\"p\">;</span>\n      <span class=\"nv\">default</span> <span class=\"o\">=</span> <span class=\"s2\">\"\"</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"The path component URL of the Goaccess server. Must be an empty string or end with '/'.\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n  <span class=\"p\">};</span>\n\n  <span class=\"nv\">config</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkIf</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">enable</span> <span class=\"p\">{</span>\n    <span class=\"nv\">assertions</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n      <span class=\"p\">{</span>\n        <span class=\"nv\">assertion</span> <span class=\"o\">=</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverPath</span> <span class=\"o\">==</span> <span class=\"s2\">\"\"</span> <span class=\"o\">||</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">strings</span><span class=\"o\">.</span><span class=\"nv\">hasSuffix</span> <span class=\"s2\">\"/\"</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverPath</span><span class=\"p\">;</span>\n        <span class=\"nv\">message</span> <span class=\"o\">=</span> <span class=\"s2\">\"The serverPath option is neither an empty string, nor ends with '/'.\"</span><span class=\"p\">;</span>\n      <span class=\"p\">}</span>\n    <span class=\"p\">];</span>\n\n    <span class=\"nv\">users</span><span class=\"o\">.</span><span class=\"nv\">users</span><span class=\"o\">.</span><span class=\"p\">${</span><span class=\"nv\">userName</span><span class=\"p\">}</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n      <span class=\"nv\">isSystemUser</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"nv\">group</span> <span class=\"o\">=</span> <span class=\"nv\">userName</span><span class=\"p\">;</span>\n      <span class=\"nv\">home</span> <span class=\"o\">=</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">dataDir</span><span class=\"p\">;</span>\n      <span class=\"nv\">createHome</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n    <span class=\"nv\">users</span><span class=\"o\">.</span><span class=\"nv\">groups</span><span class=\"o\">.</span><span class=\"p\">${</span><span class=\"nv\">userName</span><span class=\"p\">}</span> <span class=\"o\">=</span> <span class=\"p\">{</span> <span class=\"p\">};</span>\n    <span class=\"nv\">users</span><span class=\"o\">.</span><span class=\"nv\">users</span><span class=\"o\">.</span><span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">nginxCfg</span><span class=\"o\">.</span><span class=\"nv\">user</span><span class=\"si\">}</span><span class=\"s2\">\"</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkIf</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">enableNginx</span> <span class=\"p\">{</span>\n      <span class=\"nv\">extraGroups</span> <span class=\"o\">=</span> <span class=\"p\">[</span> <span class=\"nv\">userName</span> <span class=\"p\">];</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">systemd</span><span class=\"o\">.</span><span class=\"nv\">tmpfiles</span><span class=\"o\">.</span><span class=\"nv\">rules</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n      <span class=\"s2\">\"d </span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">reportDir</span><span class=\"si\">}</span><span class=\"s2\">/ 750 </span><span class=\"si\">${</span><span class=\"nv\">userName</span><span class=\"si\">}</span><span class=\"s2\"> </span><span class=\"si\">${</span><span class=\"nv\">userName</span><span class=\"si\">}</span><span class=\"s2\">\"</span>\n      <span class=\"s2\">\"Z </span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">reportDir</span><span class=\"si\">}</span><span class=\"s2\"> 750 </span><span class=\"si\">${</span><span class=\"nv\">userName</span><span class=\"si\">}</span><span class=\"s2\"> </span><span class=\"si\">${</span><span class=\"nv\">userName</span><span class=\"si\">}</span><span class=\"s2\">\"</span>\n    <span class=\"p\">];</span>\n\n    <span class=\"nv\">systemd</span><span class=\"o\">.</span><span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">serviceName</span><span class=\"si\">}</span><span class=\"s2\">\"</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n      <span class=\"nv\">enable</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"nv\">description</span> <span class=\"o\">=</span> <span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">serviceName</span><span class=\"si\">}</span><span class=\"s2\"> real-time dashboard service\"</span><span class=\"p\">;</span>\n      <span class=\"nv\">restartIfChanged</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"nv\">restartTriggers</span> <span class=\"o\">=</span> <span class=\"p\">[</span> <span class=\"nv\">pkgs</span><span class=\"o\">.</span><span class=\"nv\">goaccess</span> <span class=\"p\">];</span>\n      <span class=\"nv\">after</span> <span class=\"o\">=</span> <span class=\"p\">[</span> <span class=\"s2\">\"network.target\"</span> <span class=\"p\">];</span>\n      <span class=\"nv\">wantedBy</span> <span class=\"o\">=</span> <span class=\"p\">[</span> <span class=\"s2\">\"multi-user.target\"</span> <span class=\"p\">];</span>\n      <span class=\"nv\">serviceConfig</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n        <span class=\"nv\">Restart</span> <span class=\"o\">=</span> <span class=\"s2\">\"on-failure\"</span><span class=\"p\">;</span>\n        <span class=\"nv\">RestartSec</span> <span class=\"o\">=</span> <span class=\"s2\">\"5s\"</span><span class=\"p\">;</span>\n        <span class=\"nv\">User</span> <span class=\"o\">=</span> <span class=\"nv\">userName</span><span class=\"p\">;</span>\n        <span class=\"nv\">Group</span> <span class=\"o\">=</span> <span class=\"nv\">userName</span><span class=\"p\">;</span>\n        <span class=\"nv\">WorkingDirectory</span> <span class=\"o\">=</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">dataDir</span><span class=\"p\">;</span>\n        <span class=\"nv\">Type</span> <span class=\"o\">=</span> <span class=\"s2\">\"simple\"</span><span class=\"p\">;</span>\n        <span class=\"nv\">ExecStart</span> <span class=\"o\">=</span> <span class=\"s2\">''</span><span class=\"err\">\n</span><span class=\"s2\">          </span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">package</span><span class=\"si\">}</span><span class=\"s2\">/bin/goaccess --log-file=</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">logFilePath</span><span class=\"si\">}</span><span class=\"s2\"> --log-format=</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">logFileFormat</span><span class=\"si\">}</span><span class=\"s2\"> \\</span><span class=\"err\">\n</span><span class=\"s2\">            --anonymize-ip --persist --restore --db-path=</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">dataDir</span><span class=\"si\">}</span><span class=\"s2\"> --keep-last=</span><span class=\"si\">${</span><span class=\"kr\">toString</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">dataRetentionDays</span><span class=\"si\">}</span><span class=\"s2\"> \\</span><span class=\"err\">\n</span><span class=\"s2\">            --all-static-files --real-time-html \\</span><span class=\"err\">\n</span><span class=\"s2\">            </span><span class=\"si\">${</span><span class=\"k\">if</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">reportTitle</span> <span class=\"o\">!=</span> <span class=\"kc\">null</span> <span class=\"k\">then</span> <span class=\"s2\">\"--html-report-title=</span><span class=\"se\">\\\"</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">reportTitle</span><span class=\"si\">}</span><span class=\"se\">\\\"</span><span class=\"s2\">\"</span> <span class=\"k\">else</span> <span class=\"s2\">\"\"</span><span class=\"si\">}</span><span class=\"s2\"> \\</span><span class=\"err\">\n</span><span class=\"s2\">            --output=</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">reportDir</span><span class=\"si\">}</span><span class=\"s2\">/index.html --addr=127.0.0.1 --port=</span><span class=\"si\">${</span><span class=\"kr\">toString</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">port</span><span class=\"si\">}</span><span class=\"s2\"> \\</span><span class=\"err\">\n</span><span class=\"s2\">            --ws-url=wss://</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverHost</span><span class=\"si\">}</span><span class=\"s2\">:443/</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverPath</span><span class=\"si\">}</span><span class=\"s2\">ws --origin=https://</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverHost</span><span class=\"si\">}</span><span class=\"s2\">''</span><span class=\"p\">;</span>\n\n        <span class=\"nv\">AmbientCapabilities</span> <span class=\"o\">=</span> <span class=\"p\">[</span> <span class=\"p\">];</span>\n        <span class=\"nv\">CapabilityBoundingSet</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n          <span class=\"s2\">\"~CAP_RAWIO\"</span>\n          <span class=\"s2\">\"~CAP_MKNOD\"</span>\n          <span class=\"s2\">\"~CAP_AUDIT_CONTROL\"</span>\n          <span class=\"s2\">\"~CAP_AUDIT_READ\"</span>\n          <span class=\"s2\">\"~CAP_AUDIT_WRITE\"</span>\n          <span class=\"s2\">\"~CAP_SYS_BOOT\"</span>\n          <span class=\"s2\">\"~CAP_SYS_TIME\"</span>\n          <span class=\"s2\">\"~CAP_SYS_MODULE\"</span>\n          <span class=\"s2\">\"~CAP_SYS_PACCT\"</span>\n          <span class=\"s2\">\"~CAP_LEASE\"</span>\n          <span class=\"s2\">\"~CAP_LINUX_IMMUTABLE\"</span>\n          <span class=\"s2\">\"~CAP_IPC_LOCK\"</span>\n          <span class=\"s2\">\"~CAP_BLOCK_SUSPEND\"</span>\n          <span class=\"s2\">\"~CAP_WAKE_ALARM\"</span>\n          <span class=\"s2\">\"~CAP_SYS_TTY_CONFIG\"</span>\n          <span class=\"s2\">\"~CAP_MAC_ADMIN\"</span>\n          <span class=\"s2\">\"~CAP_MAC_OVERRIDE\"</span>\n          <span class=\"s2\">\"~CAP_NET_ADMIN\"</span>\n          <span class=\"s2\">\"~CAP_NET_BROADCAST\"</span>\n          <span class=\"s2\">\"~CAP_NET_RAW\"</span>\n          <span class=\"s2\">\"~CAP_SYS_ADMIN\"</span>\n          <span class=\"s2\">\"~CAP_SYS_PTRACE\"</span>\n          <span class=\"s2\">\"~CAP_SYSLOG\"</span>\n        <span class=\"p\">];</span>\n        <span class=\"nv\">DevicePolicy</span> <span class=\"o\">=</span> <span class=\"s2\">\"closed\"</span><span class=\"p\">;</span>\n        <span class=\"nv\">KeyringMode</span> <span class=\"o\">=</span> <span class=\"s2\">\"private\"</span><span class=\"p\">;</span>\n        <span class=\"nv\">LockPersonality</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">NoNewPrivileges</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">PrivateDevices</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">PrivateMounts</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">PrivateTmp</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectClock</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectControlGroups</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectHome</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectHostname</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectKernelLogs</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectKernelModules</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectKernelTunables</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">ProtectSystem</span> <span class=\"o\">=</span> <span class=\"s2\">\"full\"</span><span class=\"p\">;</span>\n        <span class=\"nv\">RemoveIPC</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">RestrictAddressFamilies</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n          <span class=\"s2\">\"AF_UNIX\"</span>\n          <span class=\"s2\">\"AF_INET\"</span>\n          <span class=\"s2\">\"AF_INET6\"</span>\n        <span class=\"p\">];</span>\n        <span class=\"nv\">RestrictNamespaces</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n        <span class=\"nv\">RestrictRealtime</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"p\">};</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"nv\">nginx</span> <span class=\"o\">=</span> <span class=\"nv\">lib</span><span class=\"o\">.</span><span class=\"nv\">mkIf</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">enableNginx</span> <span class=\"p\">{</span>\n      <span class=\"nv\">enable</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"nv\">virtualHosts</span><span class=\"o\">.</span><span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverHost</span><span class=\"si\">}</span><span class=\"s2\">\"</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n        <span class=\"nv\">forceSSL</span> <span class=\"o\">=</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">nginxEnableSSL</span><span class=\"p\">;</span>\n        <span class=\"nv\">enableACME</span> <span class=\"o\">=</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">nginxEnableSSL</span><span class=\"p\">;</span>\n        <span class=\"nv\">locations</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n          <span class=\"s2\">\"/</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverPath</span><span class=\"si\">}</span><span class=\"s2\">\"</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n            <span class=\"nv\">alias</span> <span class=\"o\">=</span> <span class=\"s2\">\"</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">reportDir</span><span class=\"si\">}</span><span class=\"s2\">/\"</span><span class=\"p\">;</span>\n            <span class=\"nv\">extraConfig</span> <span class=\"o\">=</span> <span class=\"s2\">''</span><span class=\"err\">\n</span><span class=\"s2\">              add_header Cache-Control 'private no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';</span><span class=\"err\">\n</span><span class=\"s2\">              if_modified_since off;</span><span class=\"err\">\n</span><span class=\"s2\">              expires off;</span><span class=\"err\">\n</span><span class=\"s2\">              etag off;</span><span class=\"err\">\n</span><span class=\"s2\">            ''</span><span class=\"p\">;</span>\n          <span class=\"p\">};</span>\n          <span class=\"s2\">\"/</span><span class=\"si\">${</span><span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">serverPath</span><span class=\"si\">}</span><span class=\"s2\">ws\"</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n            <span class=\"nv\">proxyPass</span> <span class=\"o\">=</span> <span class=\"s2\">\"http://127.0.0.1:</span><span class=\"si\">${</span><span class=\"kr\">toString</span> <span class=\"nv\">cfg</span><span class=\"o\">.</span><span class=\"nv\">port</span><span class=\"si\">}</span><span class=\"s2\">\"</span><span class=\"p\">;</span>\n            <span class=\"nv\">proxyWebsockets</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n          <span class=\"p\">};</span>\n        <span class=\"p\">};</span>\n      <span class=\"p\">};</span>\n    <span class=\"p\">};</span>\n  <span class=\"p\">};</span>\n<span class=\"p\">}</span>\n</code></pre></div>  </div>\n\n  <center><em>goaccess.nix</em></center>\n\n</details>\n\n<p>This is how you can use it to set up a Goaccess service that analyzes an Nginx server access log, and exposes the Goaccess server over Nginx acting as a reverse proxy.</p>\n\n<div class=\"language-nix highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"p\">{</span> <span class=\"nv\">config</span> <span class=\"p\">}:</span>\n<span class=\"p\">{</span>\n  <span class=\"nv\">imports</span> <span class=\"o\">=</span> <span class=\"p\">[</span> <span class=\"sx\">./goaccess.nix</span> <span class=\"p\">];</span>\n\n  <span class=\"nv\">config</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n    <span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"nv\">goaccess</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n      <span class=\"nv\">enable</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"nv\">logFilePath</span> <span class=\"o\">=</span> <span class=\"s2\">\"/var/log/nginx/access.log\"</span><span class=\"p\">;</span>\n      <span class=\"nv\">logFileFormat</span> <span class=\"o\">=</span> <span class=\"s2\">\"COMBINED\"</span><span class=\"p\">;</span>\n      <span class=\"nv\">enableNginx</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"nv\">nginxEnableSSL</span> <span class=\"o\">=</span> <span class=\"kc\">true</span><span class=\"p\">;</span>\n      <span class=\"nv\">serverHost</span> <span class=\"o\">=</span> <span class=\"s2\">\"goaccess.example.net\"</span><span class=\"p\">;</span>\n    <span class=\"p\">};</span>\n\n    <span class=\"c\"># Add goaccess user to nginx group so that goaccess server can access nginx logs.</span>\n    <span class=\"nv\">users</span><span class=\"o\">.</span><span class=\"nv\">users</span><span class=\"o\">.</span><span class=\"p\">${</span><span class=\"nv\">config</span><span class=\"o\">.</span><span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"nv\">goaccess</span><span class=\"o\">.</span><span class=\"nv\">userName</span><span class=\"p\">}</span><span class=\"o\">.</span><span class=\"nv\">extraGroups</span> <span class=\"o\">=</span> <span class=\"p\">[</span> <span class=\"nv\">config</span><span class=\"o\">.</span><span class=\"nv\">services</span><span class=\"o\">.</span><span class=\"nv\">nginx</span><span class=\"o\">.</span><span class=\"nv\">group</span> <span class=\"p\">];</span>\n  <span class=\"p\">};</span>\n<span class=\"p\">}</span>\n</code></pre></div></div>\n\n<p>After deploying this, the Goaccess report will be available at <a href=\"https://goaccess.example.net\">https://goaccess.example.net</a>.</p>\n\n<p>That’s all for setting up a Goaccess server on NixOS. I hope this helps someone. If you have any questions or suggestions, please feel free to leave a comment. Thanks for reading!</p>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/114371114365696704\" class=\"mastodon-link\">Mastodon</a>.</p>",
-          "link": "https://notes.abhinavsarkar.net/2025/goaccess-server-on-nixos",
-          "publishedOn": "2025-04-20T00:00:00.000Z",
-          "wordCount": 1184,
-          "title": "Running a Goaccess Server on NixOS",
-          "imageUrl": null
         }
       ]
     },
@@ -281,12 +289,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22036",
+          "author": "Daniel Lemire",
+          "description": "The ancient Greeks crafted extraordinary models that continue to resonate. For instance, Ptolemy’s geocentric model, with Earth at the core and planets tracing intricate epicycles, elegantly accounted for celestial motion, much like the ancient ambition behind the Tower of Babel sought to bridge humanity and the heavens through a grand, unifying structure. Ptolemy’s framework dominated … Continue reading Models and science",
+          "link": "https://lemire.me/blog/2025/05/23/models-and-science/",
+          "publishedOn": "2025-05-23T23:38:12.000Z",
+          "wordCount": 3041,
+          "title": "Models and science",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22025",
+          "author": "Daniel Lemire",
+          "description": "Suppose that you have an array of N elements and you want to divide it into M chunks. It is a common task when trying to spread N units of work over M threads, for example. You want chunks to be all the same size, plus or minus one element (fair sized). It might be … Continue reading Dividing an array into fair sized chunks",
+          "link": "https://lemire.me/blog/2025/05/22/dividing-an-array-into-fair-sized-chunks/",
+          "publishedOn": "2025-05-22T17:40:02.000Z",
+          "wordCount": 3835,
+          "title": "Dividing an array into fair sized chunks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22020",
+          "author": "Daniel Lemire",
+          "description": "Many programming languages such as the Go programming language are designed to make it easy to return several values at once from a function. In Go, it is often used to return an optional error code. The C++ programming language does not have a built-in support for returning several values. However, several standard types can … Continue reading Returning several values from a function in C++ (C++23 edition)",
+          "link": "https://lemire.me/blog/2025/05/18/returning-several-values-from-a-function-in-c-c23-edition/",
+          "publishedOn": "2025-05-18T20:22:16.000Z",
+          "wordCount": 4005,
+          "title": "Returning several values from a function in C++ (C++23 edition)",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22008",
           "author": "Daniel Lemire",
           "description": "A few weeks ago, I attended a software engineering seminar focused on the role of large language models in programming. The distinguished software engineering professors in attendance were notably skeptical, frequently dismissing the technology’s potential. During a break, I turned to a senior professor, a longtime colleague, and playfully remarked, “ChatGPT writes better C++ than … Continue reading Producing useful commands on the go using C++ and AI",
           "link": "https://lemire.me/blog/2025/05/10/producing-useful-commands-on-the-go-using-c-and-ai/",
           "publishedOn": "2025-05-10T20:54:46.000Z",
-          "wordCount": 3618,
+          "wordCount": 3743,
           "title": "Producing useful commands on the go using C++ and AI",
           "imageUrl": null
         },
@@ -296,18 +334,8 @@
           "description": "In C++, templates enable generic programming by allowing functions and classes to operate on different data types without sacrificing type safety. Defined using the template keyword, they let developers write reusable, type-agnostic code, such as functions (e.g., template <typename T> max(T a, T b)) or classes (e.g., std::vector), where the type T is specified at … Continue reading C++20 concepts for nicer compiler errors",
           "link": "https://lemire.me/blog/2025/05/03/c20-concepts-for-nicer-compiler-errors/",
           "publishedOn": "2025-05-03T19:44:26.000Z",
-          "wordCount": 4184,
+          "wordCount": 4185,
           "title": "C++20 concepts for nicer compiler errors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=21989",
-          "author": "Daniel Lemire",
-          "description": "In software, we often use key-value data structures, where each key is unique and maps to a specific value. Common examples include dictionaries in Python, hash maps in Java, and objects in JavaScript. If you combine arrays with key-value data structures, you can represent most data. In C++, we have two standard key-value data structures: … Continue reading Streamlined iteration: exploring keys and values in C++20",
-          "link": "https://lemire.me/blog/2025/04/20/iterating-through-keys-and-values-in-c-with-c20-code/",
-          "publishedOn": "2025-04-20T20:40:40.000Z",
-          "wordCount": 4091,
-          "title": "Streamlined iteration: exploring keys and values in C++20",
           "imageUrl": null
         }
       ]
