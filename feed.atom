@@ -1,10 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-06-01T01:42:55.736Z</id>
+    <id>urn:2025-06-08T01:27:45.519Z</id>
     <title>osmos::feed</title>
-    <updated>2025-06-01T01:42:55.736Z</updated>
+    <updated>2025-06-08T01:27:45.519Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[ScreenSuite - The most comprehensive evaluation suite for GUI Agents!]]></title>
+        <id>https://huggingface.co/blog/screensuite</id>
+        <link href="https://huggingface.co/blog/screensuite"/>
+        <updated>2025-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KV Cache from scratch in nanoVLM]]></title>
+        <id>https://huggingface.co/blog/kv-cache</id>
+        <link href="https://huggingface.co/blog/kv-cache"/>
+        <updated>2025-06-04T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data]]></title>
+        <id>https://huggingface.co/blog/smolvla</id>
+        <link href="https://huggingface.co/blog/smolvla"/>
+        <updated>2025-06-03T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL]]></title>
+        <id>https://huggingface.co/blog/vllm-colocate</id>
+        <link href="https://huggingface.co/blog/vllm-colocate"/>
+        <updated>2025-06-03T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast character classification with z3]]></title>
+        <id>https://lemire.me/blog/?p=22049</id>
+        <link href="https://lemire.me/blog/2025/06/01/easy-vectorized-classification-with-z3/"/>
+        <updated>2025-06-01T03:32:28.000Z</updated>
+        <summary type="html"><![CDATA[We often need to quickly classify characters. For example, consider how the binary data that you send by email is converted to an ASCII string made of 64 distinct characters (A-Z, a-z, 0-9, +, /). ASCII characters are stored as 7-bit integer values (from 0 to 128) using on byte per character. During the decoding … Continue reading Fast character classification with z3]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodeAgents + Structure: A Better Way to Execute Actions]]></title>
+        <id>https://huggingface.co/blog/structured-codeagent</id>
+        <link href="https://huggingface.co/blog/structured-codeagent"/>
+        <updated>2025-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Is the job market for software developers collapsing?]]></title>
         <id>https://lemire.me/blog/?p=22040</id>
@@ -39,7 +96,6 @@
         <id>https://huggingface.co/blog/dell-ai-applications</id>
         <link href="https://huggingface.co/blog/dell-ai-applications"/>
         <updated>2025-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -321,97 +377,6 @@ NixOS. And NixOS isn't a problem --- it's a solution.]]></summary>
         <updated>2025-05-09T19:44:04.000Z</updated>
         <author>
             <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring Dialogue Intelligibility for Netflix Content]]></title>
-        <id>https://medium.com/p/58c13d2a6f6e</id>
-        <link href="https://netflixtechblog.com/measuring-dialogue-intelligibility-for-netflix-content-58c13d2a6f6e?source=rss----2615bd06b42e---4"/>
-        <updated>2025-05-08T00:40:17.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reservoir Sampling]]></title>
-        <id>https://samwho.dev/reservoir-sampling/</id>
-        <link href="https://samwho.dev/reservoir-sampling/"/>
-        <updated>2025-05-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[header h1 {
-    padding: 0;
-    margin-top: 0.2rem;
-    margin-bottom: 1rem;
-  }
-
-  button {
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: #444444;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    touch-action: manipulation;
-    user-select: none;
-  }
-
-  button:hover:not(:disabled) {
-    background-color: #555555;
-    touch-action: manipulation;
-    user-select: none;
-  }
-
-  button:disabled {
-    filter: opacity(0.5);
-    cursor: not-allowed;
-    touch-action: manipulation;
-    user-select: none;
-  }
-
-  input[type="range"] {
-    width: 100%;
-    margin: 1rem 0;
-  }
-
-  .control {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0;
-  }
-
-  .control label {
-    margin-right: 1rem;
-    white-space…]]></summary>
-        <author>
-            <name>samwho.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Performance Profile Visualization Challenge]]></title>
-        <id>https://matklad.github.io/2025/05/06/performance-profile-visualization-challenge.html</id>
-        <link href="https://matklad.github.io/2025/05/06/performance-profile-visualization-challenge.html"/>
-        <updated>2025-05-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I love profiling! There's a whole lot of different profiling tools available, and they provide a
-treasure trove of information. If you roughly know the slow area of the code, it's usually not a
-problem to understand why it is slow. What I have trouble with though, is quickly identifying
-the rough point of interest. Today I am pretty good at trisecting performance issues, and, if
-I make it a mission to identify the bottleneck, I usually manage to do it in a couple of hours.
-However, I don't know a tool which can reliably identify bottlenecks automatically, in minutes. My
-problem is not that profilers don't give enough information to me. My problem is that profilers give
-too much information, and its on the human to figure out what's signal and what's noise.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++20 concepts for nicer compiler errors]]></title>
-        <id>https://lemire.me/blog/?p=22003</id>
-        <link href="https://lemire.me/blog/2025/05/03/c20-concepts-for-nicer-compiler-errors/"/>
-        <updated>2025-05-03T19:44:26.000Z</updated>
-        <summary type="html"><![CDATA[In C++, templates enable generic programming by allowing functions and classes to operate on different data types without sacrificing type safety. Defined using the template keyword, they let developers write reusable, type-agnostic code, such as functions (e.g., template <typename T> max(T a, T b)) or classes (e.g., std::vector), where the type T is specified at … Continue reading C++20 concepts for nicer compiler errors]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
