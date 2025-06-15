@@ -12,6 +12,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/6a6aee261d8d",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/uda-unified-data-architecture-6a6aee261d8d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-06-12T14:56:32.000Z",
+          "wordCount": null,
+          "title": "Model Once, Represent Everywhere: UDA (Unified Data Architecture) at Netflix",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/94c75e18f4b8",
           "author": "Netflix Technology Blog",
           "description": "",
@@ -19,16 +29,6 @@
           "publishedOn": "2025-05-21T16:28:07.000Z",
           "wordCount": null,
           "title": "FM-Intent: Predicting User Session Intent with Hierarchical Multi-Task Learning",
-          "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/e4e86caf9249",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/behind-the-scenes-building-a-robust-ads-event-processing-pipeline-e4e86caf9249?source=rss----2615bd06b42e---4",
-          "publishedOn": "2025-05-09T19:44:04.000Z",
-          "wordCount": null,
-          "title": "Behind the Scenes: Building a Robust Ads Event Processing Pipeline",
           "imageUrl": null
         }
       ]
@@ -63,16 +63,6 @@
           "wordCount": 881,
           "title": "Profiling Challenge Results",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/05/14/scalar-select-aniti-pattern.html",
-          "author": null,
-          "description": "I've written a number of stateful services starting with an event loop at the core:",
-          "link": "https://matklad.github.io/2025/05/14/scalar-select-aniti-pattern.html",
-          "publishedOn": "2025-05-14T00:00:00.000Z",
-          "wordCount": 758,
-          "title": "Scalar Select Anti-Pattern",
-          "imageUrl": null
         }
       ]
     },
@@ -87,6 +77,36 @@
       "feedUrl": "https://huggingface.co/blog/feed.xml",
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
+        {
+          "id": "https://huggingface.co/blog/hello-hf-kernels",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/hello-hf-kernels",
+          "publishedOn": "2025-06-12T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Enhance Your Models in 5 Minutes with the Hugging Face Kernel Hub",
+          "imageUrl": null
+        },
+        {
+          "id": "https://huggingface.co/blog/inference-providers-featherless",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/inference-providers-featherless",
+          "publishedOn": "2025-06-12T00:00:00.000Z",
+          "wordCount": 883,
+          "title": "Featherless AI on Hugging Face Inference Providers 🔥",
+          "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-featherless.jpg"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia-training-cluster",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/nvidia-training-cluster",
+          "publishedOn": "2025-06-11T00:00:00.000Z",
+          "wordCount": 1091,
+          "title": "Introducing Training Cluster as a Service - a new collaboration with NVIDIA",
+          "imageUrl": "https://huggingface.co/blog/assets/nvidia-training-cluster/nvidia-training-cluster-thumbnail-compressed.png"
+        },
         {
           "id": "https://huggingface.co/blog/screensuite",
           "author": null,
@@ -130,12 +150,12 @@
         {
           "id": "https://huggingface.co/blog/structured-codeagent",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/structured-codeagent",
           "publishedOn": "2025-05-28T00:00:00.000Z",
-          "wordCount": 1750,
+          "wordCount": null,
           "title": "CodeAgents + Structure: A Better Way to Execute Actions",
-          "imageUrl": "https://huggingface.co/blog/assets/structured-codeagent/thumbnail-codeagent.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/liger-grpo",
@@ -150,12 +170,12 @@
         {
           "id": "https://huggingface.co/blog/dell-ai-applications",
           "author": null,
-          "description": "",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/dell-ai-applications",
           "publishedOn": "2025-05-23T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 1039,
           "title": "Dell Enterprise Hub is all you need to build AI on premises",
-          "imageUrl": null
+          "imageUrl": "https://huggingface.co/blog/assets/dell-ai-applications/dell-post-thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/python-tiny-agents",
@@ -173,19 +193,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/diffusers-quantization",
           "publishedOn": "2025-05-21T00:00:00.000Z",
-          "wordCount": 2310,
+          "wordCount": 2312,
           "title": "Exploring Quantization Backends in Diffusers",
           "imageUrl": "https://huggingface.co/blog/assets/diffusers-quantization/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/nanovlm",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/nanovlm",
           "publishedOn": "2025-05-21T00:00:00.000Z",
-          "wordCount": 1859,
+          "wordCount": null,
           "title": "nanoVLM: The simplest repository to train your VLM in pure PyTorch",
-          "imageUrl": "https://huggingface.co/blog/assets/nanovlm/thumbnail.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/azure-ai-foundry",
@@ -196,56 +216,6 @@
           "wordCount": 958,
           "title": "Microsoft and Hugging Face expand collaboration",
           "imageUrl": "https://huggingface.co/blog/assets/azure-ai-foundry/satya-hf-build-compressed.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/transformers-model-definition",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/transformers-model-definition",
-          "publishedOn": "2025-05-15T00:00:00.000Z",
-          "wordCount": null,
-          "title": "The Transformers Library: standardizing model definitions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/kaggle-integration",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/kaggle-integration",
-          "publishedOn": "2025-05-14T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Improving Hugging Face Model Access for Kaggle Users",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/fast-whisper-endpoints",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/fast-whisper-endpoints",
-          "publishedOn": "2025-05-13T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Blazingly fast whisper transcriptions with Inference Endpoints",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/vlms-2025",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/vlms-2025",
-          "publishedOn": "2025-05-12T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Vision Language Models (Better, Faster, Stronger)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/lerobot-datasets",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/lerobot-datasets",
-          "publishedOn": "2025-05-11T00:00:00.000Z",
-          "wordCount": null,
-          "title": "LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?",
-          "imageUrl": null
         }
       ]
     },
@@ -259,18 +229,7 @@
       "title": "Posts on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
-      "articles": [
-        {
-          "id": "https://notes.abhinavsarkar.net/2025/pandoc-reading-time",
-          "author": null,
-          "description": "<p>If you, like me, are one of those who have written their own static-site generators based on Pandoc using Haskell, or use a framework made on top of it<sup id=\"fnref:1\" role=\"doc-noteref\"><a href=\"#fn:1\" class=\"footnote\" rel=\"footnote\">1</a></sup>, this post provides a little code snippet to compute the reading time estimate for your blog posts. You can stick this in your setup at the right place, and get pretty accurate estimates<sup id=\"fnref:2\" role=\"doc-noteref\"><a href=\"#fn:2\" class=\"footnote\" rel=\"footnote\">2</a></sup>.</p>\n\n<div class=\"language-haskell highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"kr\">module</span> <span class=\"nn\">Pandoc.ReadingTimeEstimate</span> <span class=\"p\">(</span><span class=\"nf\">readingTimeEstimateMinutes</span><span class=\"p\">)</span> <span class=\"kr\">where</span>\n\n<span class=\"kr\">import</span> <span class=\"nn\">Data.Char</span> <span class=\"p\">(</span><span class=\"nf\">isAlphaNum</span><span class=\"p\">)</span>\n<span class=\"kr\">import</span> <span class=\"nn\">Data.Monoid</span> <span class=\"p\">(</span><span class=\"kt\">Sum</span> <span class=\"p\">(</span><span class=\"o\">..</span><span class=\"p\">))</span>\n<span class=\"kr\">import</span> <span class=\"nn\">Data.Text</span> <span class=\"n\">qualified</span> <span class=\"n\">as</span> <span class=\"kt\">Text</span>\n<span class=\"kr\">import</span> <span class=\"nn\">Text.HTML.TagSoup</span> <span class=\"p\">(</span><span class=\"nf\">innerText</span><span class=\"p\">,</span> <span class=\"nf\">parseTags</span><span class=\"p\">)</span>\n<span class=\"kr\">import</span> <span class=\"nn\">Text.Pandoc.Definition</span>\n\n<span class=\"n\">readingTimeEstimateMinutes</span> <span class=\"o\">::</span> <span class=\"kt\">Pandoc</span> <span class=\"o\">-&gt;</span> <span class=\"kt\">Int</span>\n<span class=\"n\">readingTimeEstimateMinutes</span> <span class=\"o\">=</span> <span class=\"n\">round</span> <span class=\"o\">.</span> <span class=\"p\">(</span><span class=\"o\">/</span> <span class=\"n\">wpm</span><span class=\"p\">)</span> <span class=\"o\">.</span> <span class=\"n\">fromIntegral</span> <span class=\"o\">.</span> <span class=\"n\">wordCount</span>\n  <span class=\"kr\">where</span>\n    <span class=\"n\">wpm</span> <span class=\"o\">=</span> <span class=\"mi\">220</span>\n\n<span class=\"n\">wordCount</span> <span class=\"o\">::</span> <span class=\"kt\">Pandoc</span> <span class=\"o\">-&gt;</span> <span class=\"kt\">Int</span>\n<span class=\"n\">wordCount</span> <span class=\"p\">(</span><span class=\"kt\">Pandoc</span> <span class=\"kr\">_</span> <span class=\"n\">blocks</span><span class=\"p\">)</span> <span class=\"o\">=</span> <span class=\"n\">getSum</span> <span class=\"o\">$</span> <span class=\"n\">foldMap</span> <span class=\"n\">blockWCount</span> <span class=\"n\">blocks</span>\n  <span class=\"kr\">where</span>\n    <span class=\"n\">blockWCount</span> <span class=\"o\">=</span> <span class=\"nf\">\\</span><span class=\"kr\">case</span>\n      <span class=\"kt\">Plain</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Para</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">CodeBlock</span> <span class=\"kr\">_</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"n\">s</span>\n      <span class=\"kt\">RawBlock</span> <span class=\"p\">(</span><span class=\"kt\">Format</span> <span class=\"s\">\"html\"</span><span class=\"p\">)</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"o\">.</span> <span class=\"n\">innerText</span> <span class=\"o\">$</span> <span class=\"n\">parseTags</span> <span class=\"n\">s</span>\n      <span class=\"kt\">RawBlock</span> <span class=\"kr\">_</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"n\">s</span>\n      <span class=\"kt\">LineBlock</span> <span class=\"n\">iss</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesListWCount</span> <span class=\"n\">iss</span>\n      <span class=\"kt\">BlockQuote</span> <span class=\"n\">bs</span> <span class=\"o\">-&gt;</span> <span class=\"n\">blocksWCount</span> <span class=\"n\">bs</span>\n      <span class=\"kt\">OrderedList</span> <span class=\"kr\">_</span> <span class=\"n\">bss</span> <span class=\"o\">-&gt;</span> <span class=\"n\">blocksListWCount</span> <span class=\"n\">bss</span>\n      <span class=\"kt\">BulletList</span> <span class=\"n\">bss</span> <span class=\"o\">-&gt;</span> <span class=\"n\">blocksListWCount</span> <span class=\"n\">bss</span>\n      <span class=\"kt\">DefinitionList</span> <span class=\"n\">ls</span> <span class=\"o\">-&gt;</span>\n        <span class=\"n\">foldMap</span> <span class=\"p\">(</span><span class=\"nf\">\\</span><span class=\"p\">(</span><span class=\"n\">is</span><span class=\"p\">,</span> <span class=\"n\">bss</span><span class=\"p\">)</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span> <span class=\"o\">+</span> <span class=\"n\">blocksListWCount</span> <span class=\"n\">bss</span><span class=\"p\">)</span> <span class=\"n\">ls</span>\n      <span class=\"kt\">Header</span> <span class=\"kr\">_</span> <span class=\"kr\">_</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">HorizontalRule</span> <span class=\"o\">-&gt;</span> <span class=\"mi\">0</span>\n      <span class=\"kt\">Table</span> <span class=\"kr\">_</span> <span class=\"n\">cap</span><span class=\"o\">@</span><span class=\"p\">(</span><span class=\"kt\">Caption</span> <span class=\"kr\">_</span> <span class=\"kr\">_</span><span class=\"p\">)</span> <span class=\"kr\">_</span> <span class=\"p\">(</span><span class=\"kt\">TableHead</span> <span class=\"kr\">_</span> <span class=\"n\">thrs</span><span class=\"p\">)</span> <span class=\"n\">tbs</span> <span class=\"p\">(</span><span class=\"kt\">TableFoot</span> <span class=\"kr\">_</span> <span class=\"n\">tfrs</span><span class=\"p\">)</span> <span class=\"o\">-&gt;</span>\n        <span class=\"n\">captionWCount</span> <span class=\"n\">cap</span>\n          <span class=\"o\">+</span> <span class=\"n\">rowsWCount</span> <span class=\"n\">thrs</span>\n          <span class=\"o\">+</span> <span class=\"n\">rowsWCount</span> <span class=\"n\">tfrs</span>\n          <span class=\"o\">+</span> <span class=\"n\">foldMap</span> <span class=\"n\">tableBodyWCount</span> <span class=\"n\">tbs</span>\n      <span class=\"kt\">Div</span> <span class=\"p\">(</span><span class=\"n\">id'</span><span class=\"p\">,</span> <span class=\"n\">classes</span><span class=\"p\">,</span> <span class=\"kr\">_</span><span class=\"p\">)</span> <span class=\"n\">bs'</span>\n        <span class=\"o\">|</span> <span class=\"n\">id'</span> <span class=\"o\">==</span> <span class=\"s\">\"refs\"</span> <span class=\"o\">&amp;&amp;</span> <span class=\"s\">\"references\"</span> <span class=\"p\">`</span><span class=\"n\">elem</span><span class=\"p\">`</span> <span class=\"n\">classes</span> <span class=\"o\">-&gt;</span> <span class=\"mi\">0</span>\n        <span class=\"o\">|</span> <span class=\"n\">otherwise</span> <span class=\"o\">-&gt;</span> <span class=\"n\">blocksWCount</span> <span class=\"n\">bs'</span>\n      <span class=\"kt\">Figure</span> <span class=\"kr\">_</span> <span class=\"n\">cap</span><span class=\"o\">@</span><span class=\"p\">(</span><span class=\"kt\">Caption</span> <span class=\"kr\">_</span> <span class=\"kr\">_</span><span class=\"p\">)</span> <span class=\"n\">bs'</span> <span class=\"o\">-&gt;</span>\n        <span class=\"n\">captionWCount</span> <span class=\"n\">cap</span> <span class=\"o\">+</span> <span class=\"n\">blocksWCount</span> <span class=\"n\">bs'</span>\n\n    <span class=\"n\">blocksWCount</span> <span class=\"o\">=</span> <span class=\"n\">foldMap</span> <span class=\"n\">blockWCount</span>\n    <span class=\"n\">blocksListWCount</span> <span class=\"o\">=</span> <span class=\"n\">foldMap</span> <span class=\"n\">blocksWCount</span>\n\n    <span class=\"n\">captionWCount</span> <span class=\"p\">(</span><span class=\"kt\">Caption</span> <span class=\"n\">msc</span> <span class=\"n\">bs</span><span class=\"p\">)</span> <span class=\"o\">=</span>\n      <span class=\"n\">maybe</span> <span class=\"p\">(</span><span class=\"mi\">0</span><span class=\"p\">)</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">msc</span> <span class=\"o\">+</span> <span class=\"n\">blocksWCount</span> <span class=\"n\">bs</span>\n\n    <span class=\"n\">rowsWCount</span> <span class=\"o\">=</span> <span class=\"n\">foldMap</span> <span class=\"n\">rowWCount</span>\n    <span class=\"n\">rowWCount</span> <span class=\"p\">(</span><span class=\"kt\">Row</span> <span class=\"kr\">_</span> <span class=\"n\">cells</span><span class=\"p\">)</span> <span class=\"o\">=</span> <span class=\"n\">foldMap</span> <span class=\"n\">cellWCount</span> <span class=\"n\">cells</span>\n    <span class=\"n\">cellWCount</span> <span class=\"p\">(</span><span class=\"kt\">Cell</span> <span class=\"kr\">_</span> <span class=\"kr\">_</span> <span class=\"kr\">_</span> <span class=\"kr\">_</span> <span class=\"n\">bs</span><span class=\"p\">)</span> <span class=\"o\">=</span> <span class=\"n\">blocksWCount</span> <span class=\"n\">bs</span>\n    <span class=\"n\">tableBodyWCount</span> <span class=\"p\">(</span><span class=\"kt\">TableBody</span> <span class=\"kr\">_</span> <span class=\"kr\">_</span> <span class=\"n\">hr</span> <span class=\"n\">br</span><span class=\"p\">)</span> <span class=\"o\">=</span> <span class=\"n\">rowsWCount</span> <span class=\"n\">hr</span> <span class=\"o\">+</span> <span class=\"n\">rowsWCount</span> <span class=\"n\">br</span>\n\n    <span class=\"n\">inlineWCount</span> <span class=\"o\">=</span> <span class=\"nf\">\\</span><span class=\"kr\">case</span>\n      <span class=\"kt\">Str</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"n\">s</span>\n      <span class=\"kt\">Emph</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Strong</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Strikeout</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Underline</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Superscript</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Subscript</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">SmallCaps</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Quoted</span> <span class=\"kr\">_</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Cite</span> <span class=\"kr\">_</span> <span class=\"n\">is</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Code</span> <span class=\"kr\">_</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"n\">s</span>\n      <span class=\"kt\">Span</span> <span class=\"kr\">_</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">s</span>\n      <span class=\"kt\">Space</span> <span class=\"o\">-&gt;</span> <span class=\"mi\">0</span>\n      <span class=\"kt\">SoftBreak</span> <span class=\"o\">-&gt;</span> <span class=\"mi\">0</span>\n      <span class=\"kt\">LineBreak</span> <span class=\"o\">-&gt;</span> <span class=\"mi\">0</span>\n      <span class=\"kt\">Math</span> <span class=\"kr\">_</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"n\">s</span>\n      <span class=\"kt\">RawInline</span> <span class=\"p\">(</span><span class=\"kt\">Format</span> <span class=\"s\">\"html\"</span><span class=\"p\">)</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"o\">.</span> <span class=\"n\">innerText</span> <span class=\"o\">$</span> <span class=\"n\">parseTags</span> <span class=\"n\">s</span>\n      <span class=\"kt\">RawInline</span> <span class=\"kr\">_</span> <span class=\"n\">s</span> <span class=\"o\">-&gt;</span> <span class=\"n\">tWordCount</span> <span class=\"n\">s</span>\n      <span class=\"kt\">Link</span> <span class=\"kr\">_</span> <span class=\"n\">is</span> <span class=\"kr\">_</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Image</span> <span class=\"kr\">_</span> <span class=\"n\">is</span> <span class=\"kr\">_</span> <span class=\"o\">-&gt;</span> <span class=\"n\">inlinesWCount</span> <span class=\"n\">is</span>\n      <span class=\"kt\">Note</span> <span class=\"n\">bs</span> <span class=\"o\">-&gt;</span> <span class=\"n\">blocksWCount</span> <span class=\"n\">bs</span>\n\n    <span class=\"n\">inlinesWCount</span> <span class=\"o\">=</span> <span class=\"n\">foldMap</span> <span class=\"n\">inlineWCount</span>\n    <span class=\"n\">inlinesListWCount</span> <span class=\"o\">=</span> <span class=\"n\">foldMap</span> <span class=\"n\">inlinesWCount</span>\n\n    <span class=\"n\">tWordCount</span> <span class=\"o\">=</span>\n      <span class=\"kt\">Sum</span>\n        <span class=\"o\">.</span> <span class=\"n\">length</span>\n        <span class=\"o\">.</span> <span class=\"n\">filter</span> <span class=\"p\">(</span><span class=\"n\">not</span> <span class=\"o\">.</span> <span class=\"kt\">Text</span><span class=\"o\">.</span><span class=\"n\">all</span> <span class=\"p\">(</span><span class=\"n\">not</span> <span class=\"o\">.</span> <span class=\"n\">isAlphaNum</span><span class=\"p\">))</span>\n        <span class=\"o\">.</span> <span class=\"kt\">Text</span><span class=\"o\">.</span><span class=\"n\">words</span>\n</code></pre></div></div>\n\n<p>The <code class=\"language-plaintext highlighter-rouge\">wordCount</code> function takes a <a href=\"https://hackage.haskell.org/package/pandoc-types/docs/Text-Pandoc-Definition.html#t:Pandoc\"><code class=\"language-plaintext highlighter-rouge\">Pandoc</code></a> tree data structure, and recursively traverses it to get the count of textual words. For raw HTML code embedded in the tree, it parses the HTML code using the <a href=\"https://github.com/ndmitchell/tagsoup\">tagsoup</a> library, and extracts the inner text after removing the tags. The words are counted after removing words that are composed of only punctuation.</p>\n\n<p>The <code class=\"language-plaintext highlighter-rouge\">readingTimeEstimateMinutes</code> function then divides the word count by a words-per-minute (<code class=\"language-plaintext highlighter-rouge\">wpm</code>) parameter — that I’ve set here to 220, close to the average reading speed of literate adult humans — to return the reading time estimate in minutes. You can change the <code class=\"language-plaintext highlighter-rouge\">wpm</code> parameter as per your liking.</p>\n\n<p>That’s it. I hope this is helpful to you.</p>\n\n<p>Like, share, or comment on this post on <a href=\"https://fantastic.earth/@abnv/114501531258312548\" class=\"mastodon-link\">Mastodon</a>.</p>\n<div class=\"footnotes\" role=\"doc-endnotes\">\n  <ol>\n    <li id=\"fn:1\" role=\"doc-endnote\">\n      <p>Like <a href=\"https://jaspervdj.be/hakyll/\">Hakyll</a>, <a href=\"https://github.com/ChrisPenner/slick\">Slick</a> or <a href=\"https://ema.srid.ca/\">Ema</a>. <a href=\"#fnref:1\" class=\"reversefootnote\" role=\"doc-backlink\">&#8617;</a></p>\n    </li>\n    <li id=\"fn:2\" role=\"doc-endnote\">\n      <p>I cross-checked the estimates with those provided by the <a href=\"https://miniflux.app/\">Miniflux</a> feed reader, and they are quite close. <a href=\"#fnref:2\" class=\"reversefootnote\" role=\"doc-backlink\">&#8617;</a></p>\n    </li>\n  </ol>\n</div>",
-          "link": "https://notes.abhinavsarkar.net/2025/pandoc-reading-time",
-          "publishedOn": "2025-05-13T00:00:00.000Z",
-          "wordCount": 925,
-          "title": "Reading Time Estimates for Pandoc Based Blog Generators",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Daniel Lemire's blog",
@@ -278,12 +237,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22056",
+          "author": "Daniel Lemire",
+          "description": "There is an extremely naive model of science and innovation called the linear model: The model postulated that innovation starts with basic research, is followed by applied research and development, and ends with production and diffusion. According to Godin (2006), the model has been falsely attributed to Bush and its dominance is derived rather from … Continue reading Let us bury the linear model of innovation",
+          "link": "https://lemire.me/blog/2025/06/12/let-us-bury-the-linear-model-of-innovation/",
+          "publishedOn": "2025-06-12T14:33:00.000Z",
+          "wordCount": 3947,
+          "title": "Let us bury the linear model of innovation",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22049",
           "author": "Daniel Lemire",
           "description": "We often need to quickly classify characters. For example, consider how the binary data that you send by email is converted to an ASCII string made of 64 distinct characters (A-Z, a-z, 0-9, +, /). ASCII characters are stored as 7-bit integer values (from 0 to 128) using on byte per character. During the decoding … Continue reading Fast character classification with z3",
           "link": "https://lemire.me/blog/2025/06/01/easy-vectorized-classification-with-z3/",
           "publishedOn": "2025-06-01T03:32:28.000Z",
-          "wordCount": 3594,
+          "wordCount": 3639,
           "title": "Fast character classification with z3",
           "imageUrl": null
         },
@@ -293,7 +262,7 @@
           "description": "Concerns persist that artificial intelligence (AI) could render software developers obsolete, particularly with tools like GitHub Copilot and Cursor streamlining certain programming tasks. While these tools undoubtedly boost efficiency—Microsoft’s CEO has estimated that AI could write 30% of all code—the precise impact on productivity remains challenging to quantify. Moreover, productivity gains do not automatically lead … Continue reading Is the job market for software developers collapsing?",
           "link": "https://lemire.me/blog/2025/05/27/is-the-job-market-for-software-developers-collapsing/",
           "publishedOn": "2025-05-27T21:34:49.000Z",
-          "wordCount": 4367,
+          "wordCount": 4370,
           "title": "Is the job market for software developers collapsing?",
           "imageUrl": null
         },
@@ -303,7 +272,7 @@
           "description": "The ancient Greeks crafted extraordinary models that continue to resonate. For instance, Ptolemy’s geocentric model, with Earth at the core and planets tracing intricate epicycles, elegantly accounted for celestial motion, much like the ancient ambition behind the Tower of Babel sought to bridge humanity and the heavens through a grand, unifying structure. Ptolemy’s framework dominated … Continue reading Models and science",
           "link": "https://lemire.me/blog/2025/05/23/models-and-science/",
           "publishedOn": "2025-05-23T23:38:12.000Z",
-          "wordCount": 3269,
+          "wordCount": 3272,
           "title": "Models and science",
           "imageUrl": null
         },
@@ -313,7 +282,7 @@
           "description": "Suppose that you have an array of N elements and you want to divide it into M chunks. It is a common task when trying to spread N units of work over M threads, for example. You want chunks to be all the same size, plus or minus one element (fair sized). It might be … Continue reading Dividing an array into fair sized chunks",
           "link": "https://lemire.me/blog/2025/05/22/dividing-an-array-into-fair-sized-chunks/",
           "publishedOn": "2025-05-22T17:40:02.000Z",
-          "wordCount": 3977,
+          "wordCount": 3980,
           "title": "Dividing an array into fair sized chunks",
           "imageUrl": null
         },
@@ -323,18 +292,8 @@
           "description": "Many programming languages such as the Go programming language are designed to make it easy to return several values at once from a function. In Go, it is often used to return an optional error code. The C++ programming language does not have a built-in support for returning several values. However, several standard types can … Continue reading Returning several values from a function in C++ (C++23 edition)",
           "link": "https://lemire.me/blog/2025/05/18/returning-several-values-from-a-function-in-c-c23-edition/",
           "publishedOn": "2025-05-18T20:22:16.000Z",
-          "wordCount": 4077,
+          "wordCount": 4080,
           "title": "Returning several values from a function in C++ (C++23 edition)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22008",
-          "author": "Daniel Lemire",
-          "description": "A few weeks ago, I attended a software engineering seminar focused on the role of large language models in programming. The distinguished software engineering professors in attendance were notably skeptical, frequently dismissing the technology’s potential. During a break, I turned to a senior professor, a longtime colleague, and playfully remarked, “ChatGPT writes better C++ than … Continue reading Producing useful commands on the go using C++ and AI",
-          "link": "https://lemire.me/blog/2025/05/10/producing-useful-commands-on-the-go-using-c-and-ai/",
-          "publishedOn": "2025-05-10T20:54:46.000Z",
-          "wordCount": 3970,
-          "title": "Producing useful commands on the go using C++ and AI",
           "imageUrl": null
         }
       ]
@@ -349,7 +308,18 @@
       "title": "apenwarr",
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://apenwarr.ca/log/20250530",
+          "author": null,
+          "description": "Our company recently announced a fundraise.  We were grateful for all\nthe community support, but the Internet also raised a few of its collective\neyebrows, wondering whether this meant the dreaded “enshittification” was\ncoming next.\nThat word describes a very real pattern we’ve all seen before: products\nstart great, grow fast, and then slowly become worse as the people running\nthem trade user love for short-term revenue.\nIt’s a topic I find genuinely fascinating, and I've seen the downward spiral\nfirsthand at companies I once admired. So I want to talk about why this\nhappens, and more importantly, why it won't happen to us. That's big talk, I\nknow. But it's a promise I'm happy for people to hold us to.\nWhat is enshittification?\nThe term \"enshittification\" was first popularized in a blog po…",
+          "link": "https://apenwarr.ca/log/20250530",
+          "publishedOn": "2025-06-09T19:46:52.000Z",
+          "wordCount": 2702,
+          "title": "The evasive evitability of enshittification",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "home on CuriousCoding",
