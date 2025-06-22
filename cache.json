@@ -20,16 +20,6 @@
           "wordCount": null,
           "title": "Model Once, Represent Everywhere: UDA (Unified Data Architecture) at Netflix",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/94c75e18f4b8",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/fm-intent-predicting-user-session-intent-with-hierarchical-multi-task-learning-94c75e18f4b8?source=rss----2615bd06b42e---4",
-          "publishedOn": "2025-05-21T16:28:07.000Z",
-          "wordCount": null,
-          "title": "FM-Intent: Predicting User Session Intent with Hierarchical Multi-Task Learning",
-          "imageUrl": null
         }
       ]
     },
@@ -43,28 +33,7 @@
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
-      "articles": [
-        {
-          "id": "https://matklad.github.io/2025/05/20/open-source-cant-coordinate.html",
-          "author": null,
-          "description": "I was taking a shower this morning, and was pondering yesterday's\nproblem, where I suspect\nthat I have an outdated version of hotspot Linux profiler, but I\ncan't just go and download a fresh release from GitHub, because hotspot is a KDE app, and I use\nNixOS. And NixOS isn't a problem --- it's a solution.",
-          "link": "https://matklad.github.io/2025/05/20/open-source-cant-coordinate.html",
-          "publishedOn": "2025-05-20T00:00:00.000Z",
-          "wordCount": 642,
-          "title": "Open Source Can't Coordinate",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/05/19/profiling-challenge-results.html",
-          "author": null,
-          "description": "A few days ago, I posted a",
-          "link": "https://matklad.github.io/2025/05/19/profiling-challenge-results.html",
-          "publishedOn": "2025-05-19T00:00:00.000Z",
-          "wordCount": 881,
-          "title": "Profiling Challenge Results",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "jdrouet",
@@ -77,6 +46,26 @@
       "feedUrl": "https://huggingface.co/blog/feed.xml",
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
+        {
+          "id": "https://huggingface.co/blog/flux-qlora",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/flux-qlora",
+          "publishedOn": "2025-06-19T00:00:00.000Z",
+          "wordCount": null,
+          "title": "(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware",
+          "imageUrl": null
+        },
+        {
+          "id": "https://huggingface.co/blog/inference-providers-groq",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/inference-providers-groq",
+          "publishedOn": "2025-06-16T00:00:00.000Z",
+          "wordCount": 899,
+          "title": "Groq on Hugging Face Inference Providers 🔥",
+          "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-groq.jpg"
+        },
         {
           "id": "https://huggingface.co/blog/hello-hf-kernels",
           "author": null,
@@ -93,7 +82,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/inference-providers-featherless",
           "publishedOn": "2025-06-12T00:00:00.000Z",
-          "wordCount": 883,
+          "wordCount": 882,
           "title": "Featherless AI on Hugging Face Inference Providers 🔥",
           "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-featherless.jpg"
         },
@@ -166,56 +155,6 @@
           "wordCount": null,
           "title": "🐯 Liger GRPO meets TRL",
           "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/dell-ai-applications",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/dell-ai-applications",
-          "publishedOn": "2025-05-23T00:00:00.000Z",
-          "wordCount": 1039,
-          "title": "Dell Enterprise Hub is all you need to build AI on premises",
-          "imageUrl": "https://huggingface.co/blog/assets/dell-ai-applications/dell-post-thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/python-tiny-agents",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/python-tiny-agents",
-          "publishedOn": "2025-05-23T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/diffusers-quantization",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/diffusers-quantization",
-          "publishedOn": "2025-05-21T00:00:00.000Z",
-          "wordCount": 2312,
-          "title": "Exploring Quantization Backends in Diffusers",
-          "imageUrl": "https://huggingface.co/blog/assets/diffusers-quantization/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/nanovlm",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/nanovlm",
-          "publishedOn": "2025-05-21T00:00:00.000Z",
-          "wordCount": null,
-          "title": "nanoVLM: The simplest repository to train your VLM in pure PyTorch",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/azure-ai-foundry",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/azure-ai-foundry",
-          "publishedOn": "2025-05-19T00:00:00.000Z",
-          "wordCount": 958,
-          "title": "Microsoft and Hugging Face expand collaboration",
-          "imageUrl": "https://huggingface.co/blog/assets/azure-ai-foundry/satya-hf-build-compressed.png"
         }
       ]
     },
@@ -237,12 +176,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22067",
+          "author": "Daniel Lemire",
+          "description": "In North America, my home province of Quebec has a slightly higher life expectancy than the rest of the country. It is also a poorer-than-average province, so that is maybe surprising. For 2023, the life expectancy at birth in Ontario was 82.33 years, whereas it was 82.55 years for Quebec. However, if drill down in … Continue reading Life expectancy of men in Canadian provinces",
+          "link": "https://lemire.me/blog/2025/06/21/life-expectancy-of-men-in-canadian-provinces/",
+          "publishedOn": "2025-06-21T00:32:39.000Z",
+          "wordCount": 3083,
+          "title": "Life expectancy of men in Canadian provinces",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22064",
+          "author": "Daniel Lemire",
+          "description": "Prescientific and preindustrial thought tied truth to authority and tradition. “We’ve always done it this way.” “The king decrees it.” “We know this is how it’s done.” The scientific and industrial revolutions shattered this mindset. Suddenly, outsiders could challenge entrenched norms. Two brothers in a rundown workshop could build empires to rival the wealthiest lords. … Continue reading Don’t argue: build",
+          "link": "https://lemire.me/blog/2025/06/16/dont-argue-build/",
+          "publishedOn": "2025-06-16T14:42:38.000Z",
+          "wordCount": 3032,
+          "title": "Don’t argue: build",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22061",
+          "author": "Daniel Lemire",
+          "description": "Guido van Rossum, Python’s creator, recently said: “We have a huge community, but relatively few people, relatively speaking, are contributing meaningfully.” This highlights a paradox. Software thrives on the network effect, or Metcalfe’s Law, where a system’s value scales with the square of its users. Linux excels because its vast user base fuels adoption, documentation, … Continue reading Metcalfe’s Law against Brooks’ Law",
+          "link": "https://lemire.me/blog/2025/06/15/metcalfes-law-against-brooks-law/",
+          "publishedOn": "2025-06-15T14:32:49.000Z",
+          "wordCount": 3090,
+          "title": "Metcalfe’s Law against Brooks’ Law",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22056",
           "author": "Daniel Lemire",
           "description": "There is an extremely naive model of science and innovation called the linear model: The model postulated that innovation starts with basic research, is followed by applied research and development, and ends with production and diffusion. According to Godin (2006), the model has been falsely attributed to Bush and its dominance is derived rather from … Continue reading Let us bury the linear model of innovation",
           "link": "https://lemire.me/blog/2025/06/12/let-us-bury-the-linear-model-of-innovation/",
           "publishedOn": "2025-06-12T14:33:00.000Z",
-          "wordCount": 3947,
+          "wordCount": 4555,
           "title": "Let us bury the linear model of innovation",
           "imageUrl": null
         },
@@ -252,7 +221,7 @@
           "description": "We often need to quickly classify characters. For example, consider how the binary data that you send by email is converted to an ASCII string made of 64 distinct characters (A-Z, a-z, 0-9, +, /). ASCII characters are stored as 7-bit integer values (from 0 to 128) using on byte per character. During the decoding … Continue reading Fast character classification with z3",
           "link": "https://lemire.me/blog/2025/06/01/easy-vectorized-classification-with-z3/",
           "publishedOn": "2025-06-01T03:32:28.000Z",
-          "wordCount": 3639,
+          "wordCount": 3632,
           "title": "Fast character classification with z3",
           "imageUrl": null
         },
@@ -262,7 +231,7 @@
           "description": "Concerns persist that artificial intelligence (AI) could render software developers obsolete, particularly with tools like GitHub Copilot and Cursor streamlining certain programming tasks. While these tools undoubtedly boost efficiency—Microsoft’s CEO has estimated that AI could write 30% of all code—the precise impact on productivity remains challenging to quantify. Moreover, productivity gains do not automatically lead … Continue reading Is the job market for software developers collapsing?",
           "link": "https://lemire.me/blog/2025/05/27/is-the-job-market-for-software-developers-collapsing/",
           "publishedOn": "2025-05-27T21:34:49.000Z",
-          "wordCount": 4370,
+          "wordCount": 4363,
           "title": "Is the job market for software developers collapsing?",
           "imageUrl": null
         },
@@ -272,28 +241,8 @@
           "description": "The ancient Greeks crafted extraordinary models that continue to resonate. For instance, Ptolemy’s geocentric model, with Earth at the core and planets tracing intricate epicycles, elegantly accounted for celestial motion, much like the ancient ambition behind the Tower of Babel sought to bridge humanity and the heavens through a grand, unifying structure. Ptolemy’s framework dominated … Continue reading Models and science",
           "link": "https://lemire.me/blog/2025/05/23/models-and-science/",
           "publishedOn": "2025-05-23T23:38:12.000Z",
-          "wordCount": 3272,
+          "wordCount": 3265,
           "title": "Models and science",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22025",
-          "author": "Daniel Lemire",
-          "description": "Suppose that you have an array of N elements and you want to divide it into M chunks. It is a common task when trying to spread N units of work over M threads, for example. You want chunks to be all the same size, plus or minus one element (fair sized). It might be … Continue reading Dividing an array into fair sized chunks",
-          "link": "https://lemire.me/blog/2025/05/22/dividing-an-array-into-fair-sized-chunks/",
-          "publishedOn": "2025-05-22T17:40:02.000Z",
-          "wordCount": 3980,
-          "title": "Dividing an array into fair sized chunks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22020",
-          "author": "Daniel Lemire",
-          "description": "Many programming languages such as the Go programming language are designed to make it easy to return several values at once from a function. In Go, it is often used to return an optional error code. The C++ programming language does not have a built-in support for returning several values. However, several standard types can … Continue reading Returning several values from a function in C++ (C++23 edition)",
-          "link": "https://lemire.me/blog/2025/05/18/returning-several-values-from-a-function-in-c-c23-edition/",
-          "publishedOn": "2025-05-18T20:22:16.000Z",
-          "wordCount": 4080,
-          "title": "Returning several values from a function in C++ (C++23 edition)",
           "imageUrl": null
         }
       ]
@@ -314,8 +263,8 @@
           "author": null,
           "description": "Our company recently announced a fundraise.  We were grateful for all\nthe community support, but the Internet also raised a few of its collective\neyebrows, wondering whether this meant the dreaded “enshittification” was\ncoming next.\nThat word describes a very real pattern we’ve all seen before: products\nstart great, grow fast, and then slowly become worse as the people running\nthem trade user love for short-term revenue.\nIt’s a topic I find genuinely fascinating, and I've seen the downward spiral\nfirsthand at companies I once admired. So I want to talk about why this\nhappens, and more importantly, why it won't happen to us. That's big talk, I\nknow. But it's a promise I'm happy for people to hold us to.\nWhat is enshittification?\nThe term \"enshittification\" was first popularized in a blog po…",
           "link": "https://apenwarr.ca/log/20250530",
-          "publishedOn": "2025-06-09T19:46:52.000Z",
-          "wordCount": 2702,
+          "publishedOn": "2025-06-15T02:52:58.000Z",
+          "wordCount": 2765,
           "title": "The evasive evitability of enshittification",
           "imageUrl": null
         }
