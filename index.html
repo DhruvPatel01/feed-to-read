@@ -22,6 +22,280 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-27 datetime="2025-06-27T13:33:12.000Z">2025-06-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-27 datetime="2025-06-27T13:33:12.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Daniel Lemire&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lemire.me/blog/?p&#x3D;22087"
+                        open
+                      >
+                        <summary class="article-expander__title">From code reuse to the impact of generative AI</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2025/06/27/from-code-reuse-to-the-impact-of-generative-ai/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Back when I started programming, project teams were large. Organizations had dozens of programmers on sprawling projects. Reusing code was not trivial. Sharing code required real effort. Sometimes you had to hand over a disk or recopy code from a printout. Better networking eased code reuse. Open source took over. We no longer have someone … Continue reading From code reuse to the impact of generative AI</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-26 datetime="2025-06-26T23:49:53.000Z">2025-06-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-26 datetime="2025-06-26T23:49:53.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2025/06/26/"
+                        open
+                      >
+                        <summary class="article-expander__title">Parameterized types in C using the new tag compatibility rule</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2025/06/26/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>C23 has a new rule for struct, union, and enum compatibility
+finally appearing in compilers starting with GCC 15, released this past
+April, and Clang later this year. The same struct defined in different
+translation units (TU) has always been compatible — essential to how they
+work. Until this rule change, each such definition within a TU was a
+distinct, incompatible type. The new rule says that, ackshually, they
+are compatible! This unlocks some type parameterization using macros.
+How can a TU have multiple definitions of a struct? Scope. Prior to C23
+this wouldn’t compile because the compound literal type and the return
+type were distinct types:
+
+struct Example { int x, y, z; };
+
+struct Example example(void)
+{
+    struct Example { int x, y, z; };
+    return (struct Example){1, 2, 3};
+}
+
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >matklad</button>
+                  <a class="source-heading__link" href="https://matklad.github.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://matklad.github.io/2025/06/26/rssssr.html"
+                        open
+                      >
+                        <summary class="article-expander__title">RSS Server Side Reader</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://matklad.github.io/2025/06/26/rssssr.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I like the idea of RSS, but none of the RSS readers stuck with me, until I implemented one of my
+own, using a somewhat unusual technique. There&#x27;s at least one other person using this approach now,
+so let&#x27;s write this down.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hugging Face - Blog</button>
+                  <a class="source-heading__link" href="https://huggingface.co/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://huggingface.co/blog/gemma3n"
+                        open
+                      >
+                        <summary class="article-expander__title">Gemma 3n fully available in the open-source ecosystem!</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://huggingface.co/blog/gemma3n">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-23 datetime="2025-06-23T00:00:00.000Z">2025-06-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-23 datetime="2025-06-23T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hugging Face - Blog</button>
+                  <a class="source-heading__link" href="https://huggingface.co/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://huggingface.co/blog/transformers-backend-sglang"
+                        open
+                      >
+                        <summary class="article-expander__title">Transformers backend integration in SGLang</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://huggingface.co/blog/transformers-backend-sglang">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://huggingface.co/blog/assets/196_transformers_backend_sglang/thumbnail.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We’re on a journey to advance and democratize artificial intelligence through open source and open science.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-22 datetime="2025-06-22T01:55:37.000Z">2025-06-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-22 datetime="2025-06-22T01:55:37.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Daniel Lemire&#x27;s blog</button>
+                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lemire.me/blog/?p&#x3D;22078"
+                        open
+                      >
+                        <summary class="article-expander__title">Discover C++26’s compile-time reflection</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2025/06/22/c26-will-include-compile-time-reflection-why-should-you-care/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Herb Sutter just announced that the verdict is in: C++26, the next version of C++, will include compile-time reflection. Reflection in programming languages means that you have access the code’s own structure. For example, you can take a class, and enumerate its methods. For example, you could receive a class, check whether it contains a … Continue reading Discover C++26’s compile-time reflection</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-06-21 datetime="2025-06-21T00:32:39.000Z">2025-06-21</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-06-21 datetime="2025-06-21T00:32:39.000Z"></time>
           </button>
@@ -50,7 +324,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>In North America, my home province of Quebec has a slightly higher life expectancy than the rest of the country. It is also a poorer-than-average province, so that is maybe surprising. For 2023, the life expectancy at birth in Ontario was 82.33 years, whereas it was 82.55 years for Quebec. However, if drill down in … Continue reading Life expectancy of men in Canadian provinces</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                &ensp;<span class="article-reading-time">(&hairsp;11
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -659,194 +933,10 @@ The term &quot;enshittification&quot; was first popularized in a blog po…</spa
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-28 datetime="2025-05-28T00:00:00.000Z">2025-05-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-28 datetime="2025-05-28T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hugging Face - Blog</button>
-                  <a class="source-heading__link" href="https://huggingface.co/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://huggingface.co/blog/structured-codeagent"
-                        open
-                      >
-                        <summary class="article-expander__title">CodeAgents + Structure: A Better Way to Execute Actions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://huggingface.co/blog/structured-codeagent">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-27 datetime="2025-05-27T21:34:49.000Z">2025-05-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-27 datetime="2025-05-27T21:34:49.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;22040"
-                        open
-                      >
-                        <summary class="article-expander__title">Is the job market for software developers collapsing?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2025/05/27/is-the-job-market-for-software-developers-collapsing/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Concerns persist that artificial intelligence (AI) could render software developers obsolete, particularly with tools like GitHub Copilot and Cursor streamlining certain programming tasks. While these tools undoubtedly boost efficiency—Microsoft’s CEO has estimated that AI could write 30% of all code—the precise impact on productivity remains challenging to quantify. Moreover, productivity gains do not automatically lead … Continue reading Is the job market for software developers collapsing?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-25 datetime="2025-05-25T00:00:00.000Z">2025-05-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-25 datetime="2025-05-25T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hugging Face - Blog</button>
-                  <a class="source-heading__link" href="https://huggingface.co/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://huggingface.co/blog/liger-grpo"
-                        open
-                      >
-                        <summary class="article-expander__title">🐯 Liger GRPO meets TRL</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://huggingface.co/blog/liger-grpo">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-23 datetime="2025-05-23T23:38:12.000Z">2025-05-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-23 datetime="2025-05-23T23:38:12.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Daniel Lemire&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://lemire.me/blog">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lemire.me/blog/?p&#x3D;22036"
-                        open
-                      >
-                        <summary class="article-expander__title">Models and science</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2025/05/23/models-and-science/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The ancient Greeks crafted extraordinary models that continue to resonate. For instance, Ptolemy’s geocentric model, with Earth at the core and planets tracing intricate epicycles, elegantly accounted for celestial motion, much like the ancient ambition behind the Tower of Babel sought to bridge humanity and the heavens through a grand, unifying structure. Ptolemy’s framework dominated … Continue reading Models and science</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/15801629567">
-        <time id="build-timestamp" datetime="2025-06-22T01:37:22.269Z">2025-06-22T01:37:22.269Z</time>
+      <a class="footer-link" href="https://github.com/DhruvPatel01/feed-to-read/actions/runs/15950228443">
+        <time id="build-timestamp" datetime="2025-06-29T01:38:42.870Z">2025-06-29T01:38:42.870Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

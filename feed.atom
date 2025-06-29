@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-06-22T01:37:22.288Z</id>
+    <id>urn:2025-06-29T01:38:42.889Z</id>
     <title>osmos::feed</title>
-    <updated>2025-06-22T01:37:22.288Z</updated>
+    <updated>2025-06-29T01:38:42.889Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[From code reuse to the impact of generative AI]]></title>
+        <id>https://lemire.me/blog/?p=22087</id>
+        <link href="https://lemire.me/blog/2025/06/27/from-code-reuse-to-the-impact-of-generative-ai/"/>
+        <updated>2025-06-27T13:33:12.000Z</updated>
+        <summary type="html"><![CDATA[Back when I started programming, project teams were large. Organizations had dozens of programmers on sprawling projects. Reusing code was not trivial. Sharing code required real effort. Sometimes you had to hand over a disk or recopy code from a printout. Better networking eased code reuse. Open source took over. We no longer have someone … Continue reading From code reuse to the impact of generative AI]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parameterized types in C using the new tag compatibility rule]]></title>
+        <id>https://nullprogram.com/blog/2025/06/26/</id>
+        <link href="https://nullprogram.com/blog/2025/06/26/"/>
+        <updated>2025-06-26T23:49:53.000Z</updated>
+        <summary type="html"><![CDATA[C23 has a new rule for struct, union, and enum compatibility
+finally appearing in compilers starting with GCC 15, released this past
+April, and Clang later this year. The same struct defined in different
+translation units (TU) has always been compatible — essential to how they
+work. Until this rule change, each such definition within a TU was a
+distinct, incompatible type. The new rule says that, ackshually, they
+are compatible! This unlocks some type parameterization using macros.
+How can a TU have multiple definitions of a struct? Scope. Prior to C23
+this wouldn’t compile because the compound literal type and the return
+type were distinct types:
+
+struct Example { int x, y, z; };
+
+struct Example example(void)
+{
+    struct Example { int x, y, z; };
+    return (struct Example){1, 2, 3};
+}
+
+…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RSS Server Side Reader]]></title>
+        <id>https://matklad.github.io/2025/06/26/rssssr.html</id>
+        <link href="https://matklad.github.io/2025/06/26/rssssr.html"/>
+        <updated>2025-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I like the idea of RSS, but none of the RSS readers stuck with me, until I implemented one of my
+own, using a somewhat unusual technique. There's at least one other person using this approach now,
+so let's write this down.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemma 3n fully available in the open-source ecosystem!]]></title>
+        <id>https://huggingface.co/blog/gemma3n</id>
+        <link href="https://huggingface.co/blog/gemma3n"/>
+        <updated>2025-06-26T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transformers backend integration in SGLang]]></title>
+        <id>https://huggingface.co/blog/transformers-backend-sglang</id>
+        <link href="https://huggingface.co/blog/transformers-backend-sglang"/>
+        <updated>2025-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Discover C++26’s compile-time reflection]]></title>
+        <id>https://lemire.me/blog/?p=22078</id>
+        <link href="https://lemire.me/blog/2025/06/22/c26-will-include-compile-time-reflection-why-should-you-care/"/>
+        <updated>2025-06-22T01:55:37.000Z</updated>
+        <summary type="html"><![CDATA[Herb Sutter just announced that the verdict is in: C++26, the next version of C++, will include compile-time reflection. Reflection in programming languages means that you have access the code’s own structure. For example, you can take a class, and enumerate its methods. For example, you could receive a class, check whether it contains a … Continue reading Discover C++26’s compile-time reflection]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Life expectancy of men in Canadian provinces]]></title>
         <id>https://lemire.me/blog/?p=22067</id>
@@ -167,44 +247,6 @@ The term "enshittification" was first popularized in a blog po…]]></summary>
         <link href="https://lemire.me/blog/2025/06/01/easy-vectorized-classification-with-z3/"/>
         <updated>2025-06-01T03:32:28.000Z</updated>
         <summary type="html"><![CDATA[We often need to quickly classify characters. For example, consider how the binary data that you send by email is converted to an ASCII string made of 64 distinct characters (A-Z, a-z, 0-9, +, /). ASCII characters are stored as 7-bit integer values (from 0 to 128) using on byte per character. During the decoding … Continue reading Fast character classification with z3]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CodeAgents + Structure: A Better Way to Execute Actions]]></title>
-        <id>https://huggingface.co/blog/structured-codeagent</id>
-        <link href="https://huggingface.co/blog/structured-codeagent"/>
-        <updated>2025-05-28T00:00:00.000Z</updated>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is the job market for software developers collapsing?]]></title>
-        <id>https://lemire.me/blog/?p=22040</id>
-        <link href="https://lemire.me/blog/2025/05/27/is-the-job-market-for-software-developers-collapsing/"/>
-        <updated>2025-05-27T21:34:49.000Z</updated>
-        <summary type="html"><![CDATA[Concerns persist that artificial intelligence (AI) could render software developers obsolete, particularly with tools like GitHub Copilot and Cursor streamlining certain programming tasks. While these tools undoubtedly boost efficiency—Microsoft’s CEO has estimated that AI could write 30% of all code—the precise impact on productivity remains challenging to quantify. Moreover, productivity gains do not automatically lead … Continue reading Is the job market for software developers collapsing?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🐯 Liger GRPO meets TRL]]></title>
-        <id>https://huggingface.co/blog/liger-grpo</id>
-        <link href="https://huggingface.co/blog/liger-grpo"/>
-        <updated>2025-05-25T00:00:00.000Z</updated>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Models and science]]></title>
-        <id>https://lemire.me/blog/?p=22036</id>
-        <link href="https://lemire.me/blog/2025/05/23/models-and-science/"/>
-        <updated>2025-05-23T23:38:12.000Z</updated>
-        <summary type="html"><![CDATA[The ancient Greeks crafted extraordinary models that continue to resonate. For instance, Ptolemy’s geocentric model, with Earth at the core and planets tracing intricate epicycles, elegantly accounted for celestial motion, much like the ancient ambition behind the Tower of Babel sought to bridge humanity and the heavens through a grand, unifying structure. Ptolemy’s framework dominated … Continue reading Models and science]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>

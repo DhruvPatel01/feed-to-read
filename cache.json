@@ -4,7 +4,18 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2025/06/26/",
+          "author": null,
+          "description": "C23 has a new rule for struct, union, and enum compatibility\nfinally appearing in compilers starting with GCC 15, released this past\nApril, and Clang later this year. The same struct defined in different\ntranslation units (TU) has always been compatible — essential to how they\nwork. Until this rule change, each such definition within a TU was a\ndistinct, incompatible type. The new rule says that, ackshually, they\nare compatible! This unlocks some type parameterization using macros.\nHow can a TU have multiple definitions of a struct? Scope. Prior to C23\nthis wouldn’t compile because the compound literal type and the return\ntype were distinct types:\n\nstruct Example { int x, y, z; };\n\nstruct Example example(void)\n{\n    struct Example { int x, y, z; };\n    return (struct Example){1, 2, 3};\n}\n\n…",
+          "link": "https://nullprogram.com/blog/2025/06/26/",
+          "publishedOn": "2025-06-26T23:49:53.000Z",
+          "wordCount": 887,
+          "title": "Parameterized types in C using the new tag compatibility rule",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -30,10 +41,27 @@
       "articles": []
     },
     {
+      "title": null,
+      "feedUrl": "https://ayazhafiz.com/feed-rss2.xml",
+      "siteUrl": "https://ayazhafiz.com",
+      "articles": []
+    },
+    {
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://matklad.github.io/2025/06/26/rssssr.html",
+          "author": null,
+          "description": "I like the idea of RSS, but none of the RSS readers stuck with me, until I implemented one of my\nown, using a somewhat unusual technique. There's at least one other person using this approach now,\nso let's write this down.",
+          "link": "https://matklad.github.io/2025/06/26/rssssr.html",
+          "publishedOn": "2025-06-26T00:00:00.000Z",
+          "wordCount": 1010,
+          "title": "RSS Server Side Reader",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "jdrouet",
@@ -46,6 +74,26 @@
       "feedUrl": "https://huggingface.co/blog/feed.xml",
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
+        {
+          "id": "https://huggingface.co/blog/gemma3n",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/gemma3n",
+          "publishedOn": "2025-06-26T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Gemma 3n fully available in the open-source ecosystem!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://huggingface.co/blog/transformers-backend-sglang",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/transformers-backend-sglang",
+          "publishedOn": "2025-06-23T00:00:00.000Z",
+          "wordCount": 843,
+          "title": "Transformers backend integration in SGLang",
+          "imageUrl": "https://huggingface.co/blog/assets/196_transformers_backend_sglang/thumbnail.jpg"
+        },
         {
           "id": "https://huggingface.co/blog/flux-qlora",
           "author": null,
@@ -135,26 +183,6 @@
           "wordCount": null,
           "title": "No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL",
           "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/structured-codeagent",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/structured-codeagent",
-          "publishedOn": "2025-05-28T00:00:00.000Z",
-          "wordCount": null,
-          "title": "CodeAgents + Structure: A Better Way to Execute Actions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/liger-grpo",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/liger-grpo",
-          "publishedOn": "2025-05-25T00:00:00.000Z",
-          "wordCount": null,
-          "title": "🐯 Liger GRPO meets TRL",
-          "imageUrl": null
         }
       ]
     },
@@ -165,7 +193,7 @@
       "articles": []
     },
     {
-      "title": "Posts on abhinavsarkar.net",
+      "title": "Posts & Notes on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
       "articles": []
@@ -176,12 +204,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22087",
+          "author": "Daniel Lemire",
+          "description": "Back when I started programming, project teams were large. Organizations had dozens of programmers on sprawling projects. Reusing code was not trivial. Sharing code required real effort. Sometimes you had to hand over a disk or recopy code from a printout. Better networking eased code reuse. Open source took over. We no longer have someone … Continue reading From code reuse to the impact of generative AI",
+          "link": "https://lemire.me/blog/2025/06/27/from-code-reuse-to-the-impact-of-generative-ai/",
+          "publishedOn": "2025-06-27T13:33:12.000Z",
+          "wordCount": 3408,
+          "title": "From code reuse to the impact of generative AI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22078",
+          "author": "Daniel Lemire",
+          "description": "Herb Sutter just announced that the verdict is in: C++26, the next version of C++, will include compile-time reflection. Reflection in programming languages means that you have access the code’s own structure. For example, you can take a class, and enumerate its methods. For example, you could receive a class, check whether it contains a … Continue reading Discover C++26’s compile-time reflection",
+          "link": "https://lemire.me/blog/2025/06/22/c26-will-include-compile-time-reflection-why-should-you-care/",
+          "publishedOn": "2025-06-22T01:55:37.000Z",
+          "wordCount": 3684,
+          "title": "Discover C++26’s compile-time reflection",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22067",
           "author": "Daniel Lemire",
           "description": "In North America, my home province of Quebec has a slightly higher life expectancy than the rest of the country. It is also a poorer-than-average province, so that is maybe surprising. For 2023, the life expectancy at birth in Ontario was 82.33 years, whereas it was 82.55 years for Quebec. However, if drill down in … Continue reading Life expectancy of men in Canadian provinces",
           "link": "https://lemire.me/blog/2025/06/21/life-expectancy-of-men-in-canadian-provinces/",
           "publishedOn": "2025-06-21T00:32:39.000Z",
-          "wordCount": 3083,
+          "wordCount": 3202,
           "title": "Life expectancy of men in Canadian provinces",
           "imageUrl": null
         },
@@ -191,7 +239,7 @@
           "description": "Prescientific and preindustrial thought tied truth to authority and tradition. “We’ve always done it this way.” “The king decrees it.” “We know this is how it’s done.” The scientific and industrial revolutions shattered this mindset. Suddenly, outsiders could challenge entrenched norms. Two brothers in a rundown workshop could build empires to rival the wealthiest lords. … Continue reading Don’t argue: build",
           "link": "https://lemire.me/blog/2025/06/16/dont-argue-build/",
           "publishedOn": "2025-06-16T14:42:38.000Z",
-          "wordCount": 3032,
+          "wordCount": 3024,
           "title": "Don’t argue: build",
           "imageUrl": null
         },
@@ -201,7 +249,7 @@
           "description": "Guido van Rossum, Python’s creator, recently said: “We have a huge community, but relatively few people, relatively speaking, are contributing meaningfully.” This highlights a paradox. Software thrives on the network effect, or Metcalfe’s Law, where a system’s value scales with the square of its users. Linux excels because its vast user base fuels adoption, documentation, … Continue reading Metcalfe’s Law against Brooks’ Law",
           "link": "https://lemire.me/blog/2025/06/15/metcalfes-law-against-brooks-law/",
           "publishedOn": "2025-06-15T14:32:49.000Z",
-          "wordCount": 3090,
+          "wordCount": 3082,
           "title": "Metcalfe’s Law against Brooks’ Law",
           "imageUrl": null
         },
@@ -211,7 +259,7 @@
           "description": "There is an extremely naive model of science and innovation called the linear model: The model postulated that innovation starts with basic research, is followed by applied research and development, and ends with production and diffusion. According to Godin (2006), the model has been falsely attributed to Bush and its dominance is derived rather from … Continue reading Let us bury the linear model of innovation",
           "link": "https://lemire.me/blog/2025/06/12/let-us-bury-the-linear-model-of-innovation/",
           "publishedOn": "2025-06-12T14:33:00.000Z",
-          "wordCount": 4555,
+          "wordCount": 4547,
           "title": "Let us bury the linear model of innovation",
           "imageUrl": null
         },
@@ -221,28 +269,8 @@
           "description": "We often need to quickly classify characters. For example, consider how the binary data that you send by email is converted to an ASCII string made of 64 distinct characters (A-Z, a-z, 0-9, +, /). ASCII characters are stored as 7-bit integer values (from 0 to 128) using on byte per character. During the decoding … Continue reading Fast character classification with z3",
           "link": "https://lemire.me/blog/2025/06/01/easy-vectorized-classification-with-z3/",
           "publishedOn": "2025-06-01T03:32:28.000Z",
-          "wordCount": 3632,
+          "wordCount": 3624,
           "title": "Fast character classification with z3",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22040",
-          "author": "Daniel Lemire",
-          "description": "Concerns persist that artificial intelligence (AI) could render software developers obsolete, particularly with tools like GitHub Copilot and Cursor streamlining certain programming tasks. While these tools undoubtedly boost efficiency—Microsoft’s CEO has estimated that AI could write 30% of all code—the precise impact on productivity remains challenging to quantify. Moreover, productivity gains do not automatically lead … Continue reading Is the job market for software developers collapsing?",
-          "link": "https://lemire.me/blog/2025/05/27/is-the-job-market-for-software-developers-collapsing/",
-          "publishedOn": "2025-05-27T21:34:49.000Z",
-          "wordCount": 4363,
-          "title": "Is the job market for software developers collapsing?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22036",
-          "author": "Daniel Lemire",
-          "description": "The ancient Greeks crafted extraordinary models that continue to resonate. For instance, Ptolemy’s geocentric model, with Earth at the core and planets tracing intricate epicycles, elegantly accounted for celestial motion, much like the ancient ambition behind the Tower of Babel sought to bridge humanity and the heavens through a grand, unifying structure. Ptolemy’s framework dominated … Continue reading Models and science",
-          "link": "https://lemire.me/blog/2025/05/23/models-and-science/",
-          "publishedOn": "2025-05-23T23:38:12.000Z",
-          "wordCount": 3265,
-          "title": "Models and science",
           "imageUrl": null
         }
       ]
@@ -264,7 +292,7 @@
           "description": "Our company recently announced a fundraise.  We were grateful for all\nthe community support, but the Internet also raised a few of its collective\neyebrows, wondering whether this meant the dreaded “enshittification” was\ncoming next.\nThat word describes a very real pattern we’ve all seen before: products\nstart great, grow fast, and then slowly become worse as the people running\nthem trade user love for short-term revenue.\nIt’s a topic I find genuinely fascinating, and I've seen the downward spiral\nfirsthand at companies I once admired. So I want to talk about why this\nhappens, and more importantly, why it won't happen to us. That's big talk, I\nknow. But it's a promise I'm happy for people to hold us to.\nWhat is enshittification?\nThe term \"enshittification\" was first popularized in a blog po…",
           "link": "https://apenwarr.ca/log/20250530",
           "publishedOn": "2025-06-15T02:52:58.000Z",
-          "wordCount": 2765,
+          "wordCount": 2769,
           "title": "The evasive evitability of enshittification",
           "imageUrl": null
         }
