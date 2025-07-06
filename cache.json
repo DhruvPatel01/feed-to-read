@@ -23,6 +23,26 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/ffcf08026b6c",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/driving-content-delivery-efficiency-through-classifying-cache-misses-ffcf08026b6c?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-07-02T15:20:23.000Z",
+          "wordCount": null,
+          "title": "Driving Content Delivery Efficiency Through Classifying Cache Misses",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/ee09cfdff40b",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/av1-scale-film-grain-synthesis-the-awakening-ee09cfdff40b?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-07-02T14:21:44.000Z",
+          "wordCount": null,
+          "title": "AV1 @ Scale: Film Grain Synthesis, The Awakening",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/6a6aee261d8d",
           "author": "Netflix Technology Blog",
           "description": "",
@@ -75,6 +95,16 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/train-sparse-encoder",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/train-sparse-encoder",
+          "publishedOn": "2025-07-01T00:00:00.000Z",
+          "wordCount": 5737,
+          "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers v5",
+          "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/gemma3n",
           "author": null,
           "description": "",
@@ -97,12 +127,12 @@
         {
           "id": "https://huggingface.co/blog/flux-qlora",
           "author": null,
-          "description": "",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/flux-qlora",
           "publishedOn": "2025-06-19T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3179,
           "title": "(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware",
-          "imageUrl": null
+          "imageUrl": "https://huggingface.co/blog/assets/flux-qlora/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/inference-providers-groq",
@@ -143,46 +173,6 @@
           "wordCount": 1091,
           "title": "Introducing Training Cluster as a Service - a new collaboration with NVIDIA",
           "imageUrl": "https://huggingface.co/blog/assets/nvidia-training-cluster/nvidia-training-cluster-thumbnail-compressed.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/screensuite",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/screensuite",
-          "publishedOn": "2025-06-06T00:00:00.000Z",
-          "wordCount": 1216,
-          "title": "ScreenSuite - The most comprehensive evaluation suite for GUI Agents!",
-          "imageUrl": "https://huggingface.co/blog/assets/screensuite/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/kv-cache",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/kv-cache",
-          "publishedOn": "2025-06-04T00:00:00.000Z",
-          "wordCount": null,
-          "title": "KV Cache from scratch in nanoVLM",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/smolvla",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/smolvla",
-          "publishedOn": "2025-06-03T00:00:00.000Z",
-          "wordCount": null,
-          "title": "SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/vllm-colocate",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/vllm-colocate",
-          "publishedOn": "2025-06-03T00:00:00.000Z",
-          "wordCount": null,
-          "title": "No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL",
-          "imageUrl": null
         }
       ]
     },
@@ -204,12 +194,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22097",
+          "author": "Daniel Lemire",
+          "description": "JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is widely used for transmitting data between a server and a web application, due to its simplicity and compatibility with many programming languages. The JSON format has a simple syntax with a fixed number of data types such as strings, numbers, Booleans, null, objects, … Continue reading Just say no to broken JSON",
+          "link": "https://lemire.me/blog/2025/07/04/just-say-no-to-broken-json/",
+          "publishedOn": "2025-07-04T13:49:03.000Z",
+          "wordCount": 3483,
+          "title": "Just say no to broken JSON",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22093",
+          "author": "Daniel Lemire",
+          "description": "C and C++ compilers like GCC first take your code and produce assembly, typically a pure ASCII output (so just basic English characters). This assembly code is a low-level representation of the program, using mnemonic instructions specific to the target processor architecture. The compiler then passes this assembly code to an assembler, which translates it … Continue reading Base64 for compression",
+          "link": "https://lemire.me/blog/2025/07/03/base64-for-compression/",
+          "publishedOn": "2025-07-03T13:38:07.000Z",
+          "wordCount": 3152,
+          "title": "Base64 for compression",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22087",
           "author": "Daniel Lemire",
           "description": "Back when I started programming, project teams were large. Organizations had dozens of programmers on sprawling projects. Reusing code was not trivial. Sharing code required real effort. Sometimes you had to hand over a disk or recopy code from a printout. Better networking eased code reuse. Open source took over. We no longer have someone … Continue reading From code reuse to the impact of generative AI",
           "link": "https://lemire.me/blog/2025/06/27/from-code-reuse-to-the-impact-of-generative-ai/",
           "publishedOn": "2025-06-27T13:33:12.000Z",
-          "wordCount": 3408,
+          "wordCount": 4329,
           "title": "From code reuse to the impact of generative AI",
           "imageUrl": null
         },
@@ -219,7 +229,7 @@
           "description": "Herb Sutter just announced that the verdict is in: C++26, the next version of C++, will include compile-time reflection. Reflection in programming languages means that you have access the code’s own structure. For example, you can take a class, and enumerate its methods. For example, you could receive a class, check whether it contains a … Continue reading Discover C++26’s compile-time reflection",
           "link": "https://lemire.me/blog/2025/06/22/c26-will-include-compile-time-reflection-why-should-you-care/",
           "publishedOn": "2025-06-22T01:55:37.000Z",
-          "wordCount": 3684,
+          "wordCount": 3701,
           "title": "Discover C++26’s compile-time reflection",
           "imageUrl": null
         },
@@ -229,7 +239,7 @@
           "description": "In North America, my home province of Quebec has a slightly higher life expectancy than the rest of the country. It is also a poorer-than-average province, so that is maybe surprising. For 2023, the life expectancy at birth in Ontario was 82.33 years, whereas it was 82.55 years for Quebec. However, if drill down in … Continue reading Life expectancy of men in Canadian provinces",
           "link": "https://lemire.me/blog/2025/06/21/life-expectancy-of-men-in-canadian-provinces/",
           "publishedOn": "2025-06-21T00:32:39.000Z",
-          "wordCount": 3202,
+          "wordCount": 3237,
           "title": "Life expectancy of men in Canadian provinces",
           "imageUrl": null
         },
@@ -239,7 +249,7 @@
           "description": "Prescientific and preindustrial thought tied truth to authority and tradition. “We’ve always done it this way.” “The king decrees it.” “We know this is how it’s done.” The scientific and industrial revolutions shattered this mindset. Suddenly, outsiders could challenge entrenched norms. Two brothers in a rundown workshop could build empires to rival the wealthiest lords. … Continue reading Don’t argue: build",
           "link": "https://lemire.me/blog/2025/06/16/dont-argue-build/",
           "publishedOn": "2025-06-16T14:42:38.000Z",
-          "wordCount": 3024,
+          "wordCount": 3041,
           "title": "Don’t argue: build",
           "imageUrl": null
         },
@@ -249,7 +259,7 @@
           "description": "Guido van Rossum, Python’s creator, recently said: “We have a huge community, but relatively few people, relatively speaking, are contributing meaningfully.” This highlights a paradox. Software thrives on the network effect, or Metcalfe’s Law, where a system’s value scales with the square of its users. Linux excels because its vast user base fuels adoption, documentation, … Continue reading Metcalfe’s Law against Brooks’ Law",
           "link": "https://lemire.me/blog/2025/06/15/metcalfes-law-against-brooks-law/",
           "publishedOn": "2025-06-15T14:32:49.000Z",
-          "wordCount": 3082,
+          "wordCount": 3099,
           "title": "Metcalfe’s Law against Brooks’ Law",
           "imageUrl": null
         },
@@ -259,18 +269,8 @@
           "description": "There is an extremely naive model of science and innovation called the linear model: The model postulated that innovation starts with basic research, is followed by applied research and development, and ends with production and diffusion. According to Godin (2006), the model has been falsely attributed to Bush and its dominance is derived rather from … Continue reading Let us bury the linear model of innovation",
           "link": "https://lemire.me/blog/2025/06/12/let-us-bury-the-linear-model-of-innovation/",
           "publishedOn": "2025-06-12T14:33:00.000Z",
-          "wordCount": 4547,
+          "wordCount": 4564,
           "title": "Let us bury the linear model of innovation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22049",
-          "author": "Daniel Lemire",
-          "description": "We often need to quickly classify characters. For example, consider how the binary data that you send by email is converted to an ASCII string made of 64 distinct characters (A-Z, a-z, 0-9, +, /). ASCII characters are stored as 7-bit integer values (from 0 to 128) using on byte per character. During the decoding … Continue reading Fast character classification with z3",
-          "link": "https://lemire.me/blog/2025/06/01/easy-vectorized-classification-with-z3/",
-          "publishedOn": "2025-06-01T03:32:28.000Z",
-          "wordCount": 3624,
-          "title": "Fast character classification with z3",
           "imageUrl": null
         }
       ]
@@ -292,7 +292,7 @@
           "description": "Our company recently announced a fundraise.  We were grateful for all\nthe community support, but the Internet also raised a few of its collective\neyebrows, wondering whether this meant the dreaded “enshittification” was\ncoming next.\nThat word describes a very real pattern we’ve all seen before: products\nstart great, grow fast, and then slowly become worse as the people running\nthem trade user love for short-term revenue.\nIt’s a topic I find genuinely fascinating, and I've seen the downward spiral\nfirsthand at companies I once admired. So I want to talk about why this\nhappens, and more importantly, why it won't happen to us. That's big talk, I\nknow. But it's a promise I'm happy for people to hold us to.\nWhat is enshittification?\nThe term \"enshittification\" was first popularized in a blog po…",
           "link": "https://apenwarr.ca/log/20250530",
           "publishedOn": "2025-06-15T02:52:58.000Z",
-          "wordCount": 2769,
+          "wordCount": 2765,
           "title": "The evasive evitability of enshittification",
           "imageUrl": null
         }

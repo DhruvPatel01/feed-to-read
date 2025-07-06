@@ -1,10 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-06-29T01:38:42.889Z</id>
+    <id>urn:2025-07-06T01:37:43.160Z</id>
     <title>osmos::feed</title>
-    <updated>2025-06-29T01:38:42.889Z</updated>
+    <updated>2025-07-06T01:37:43.160Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Just say no to broken JSON]]></title>
+        <id>https://lemire.me/blog/?p=22097</id>
+        <link href="https://lemire.me/blog/2025/07/04/just-say-no-to-broken-json/"/>
+        <updated>2025-07-04T13:49:03.000Z</updated>
+        <summary type="html"><![CDATA[JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is widely used for transmitting data between a server and a web application, due to its simplicity and compatibility with many programming languages. The JSON format has a simple syntax with a fixed number of data types such as strings, numbers, Booleans, null, objects, … Continue reading Just say no to broken JSON]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Base64 for compression]]></title>
+        <id>https://lemire.me/blog/?p=22093</id>
+        <link href="https://lemire.me/blog/2025/07/03/base64-for-compression/"/>
+        <updated>2025-07-03T13:38:07.000Z</updated>
+        <summary type="html"><![CDATA[C and C++ compilers like GCC first take your code and produce assembly, typically a pure ASCII output (so just basic English characters). This assembly code is a low-level representation of the program, using mnemonic instructions specific to the target processor architecture. The compiler then passes this assembly code to an assembler, which translates it … Continue reading Base64 for compression]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Driving Content Delivery Efficiency Through Classifying Cache Misses]]></title>
+        <id>https://medium.com/p/ffcf08026b6c</id>
+        <link href="https://netflixtechblog.com/driving-content-delivery-efficiency-through-classifying-cache-misses-ffcf08026b6c?source=rss----2615bd06b42e---4"/>
+        <updated>2025-07-02T15:20:23.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AV1 @ Scale: Film Grain Synthesis, The Awakening]]></title>
+        <id>https://medium.com/p/ee09cfdff40b</id>
+        <link href="https://netflixtechblog.com/av1-scale-film-grain-synthesis-the-awakening-ee09cfdff40b?source=rss----2615bd06b42e---4"/>
+        <updated>2025-07-02T14:21:44.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Training and Finetuning Sparse Embedding Models with Sentence Transformers v5]]></title>
+        <id>https://huggingface.co/blog/train-sparse-encoder</id>
+        <link href="https://huggingface.co/blog/train-sparse-encoder"/>
+        <updated>2025-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[From code reuse to the impact of generative AI]]></title>
         <id>https://lemire.me/blog/?p=22087</id>
@@ -100,6 +148,7 @@ so let's write this down.]]></summary>
         <id>https://huggingface.co/blog/flux-qlora</id>
         <link href="https://huggingface.co/blog/flux-qlora"/>
         <updated>2025-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -202,53 +251,6 @@ The term "enshittification" was first popularized in a blog po…]]></summary>
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ScreenSuite - The most comprehensive evaluation suite for GUI Agents!]]></title>
-        <id>https://huggingface.co/blog/screensuite</id>
-        <link href="https://huggingface.co/blog/screensuite"/>
-        <updated>2025-06-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KV Cache from scratch in nanoVLM]]></title>
-        <id>https://huggingface.co/blog/kv-cache</id>
-        <link href="https://huggingface.co/blog/kv-cache"/>
-        <updated>2025-06-04T00:00:00.000Z</updated>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data]]></title>
-        <id>https://huggingface.co/blog/smolvla</id>
-        <link href="https://huggingface.co/blog/smolvla"/>
-        <updated>2025-06-03T00:00:00.000Z</updated>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL]]></title>
-        <id>https://huggingface.co/blog/vllm-colocate</id>
-        <link href="https://huggingface.co/blog/vllm-colocate"/>
-        <updated>2025-06-03T00:00:00.000Z</updated>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast character classification with z3]]></title>
-        <id>https://lemire.me/blog/?p=22049</id>
-        <link href="https://lemire.me/blog/2025/06/01/easy-vectorized-classification-with-z3/"/>
-        <updated>2025-06-01T03:32:28.000Z</updated>
-        <summary type="html"><![CDATA[We often need to quickly classify characters. For example, consider how the binary data that you send by email is converted to an ASCII string made of 64 distinct characters (A-Z, a-z, 0-9, +, /). ASCII characters are stored as 7-bit integer values (from 0 to 128) using on byte per character. During the decoding … Continue reading Fast character classification with z3]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
