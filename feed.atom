@@ -1,10 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-07-06T01:37:43.160Z</id>
+    <id>urn:2025-07-13T01:41:13.959Z</id>
     <title>osmos::feed</title>
-    <updated>2025-07-06T01:37:43.160Z</updated>
+    <updated>2025-07-13T01:41:13.959Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Why measuring productivity is hard]]></title>
+        <id>https://lemire.me/blog/?p=22118</id>
+        <link href="https://lemire.me/blog/2025/07/12/why-measuring-productivity-is-hard/"/>
+        <updated>2025-07-12T17:19:16.000Z</updated>
+        <summary type="html"><![CDATA[Studying productivity is challenging. About 15-20 years ago, I was obsessed over my own productivity. I created a spying agent to monitor my activities and time spent. It would look at which window is opened, and so forth. I would also monitor which web sites were loaded, and so forth. I discovered that I spent … Continue reading Why measuring productivity is hard]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Billionaire math]]></title>
+        <id>https://apenwarr.ca/log/20250711</id>
+        <link href="https://apenwarr.ca/log/20250711"/>
+        <updated>2025-07-11T16:18:52.000Z</updated>
+        <summary type="html"><![CDATA[I have a friend who exited his startup a few years ago and is now rich. How
+rich is unclear. One day, we were discussing ways to expedite the delivery
+of his superyacht and I suggested paying extra. His response, as to so
+many of my suggestions, was, “Avery, I’m not that rich.”
+Everyone has their limit.
+I, too, am not that rich. I have shares in a startup that has not exited,
+and they seem to be gracefully ticking up in value as the years pass. But I
+have to come to work each day, and if I make a few wrong medium-quality
+choices (not even bad ones!), it could all be vaporized in an instant.
+Meanwhile, I can’t spend it. So what I have is my accumulated savings from a
+long career of writing software and modest tastes (I like hot dogs).
+Those accumulated savings and modest tastes are enough t…]]></summary>
+        <author>
+            <name>apenwarr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix Tudum Architecture: from CQRS with Kafka to CQRS with RAW Hollow]]></title>
+        <id>https://medium.com/p/86d141b72e52</id>
+        <link href="https://netflixtechblog.com/netflix-tudum-architecture-from-cqrs-with-kafka-to-cqrs-with-raw-hollow-86d141b72e52?source=rss----2615bd06b42e---4"/>
+        <updated>2025-07-10T19:31:06.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Asynchronous Robot Inference: Decoupling Action Prediction and Execution]]></title>
+        <id>https://huggingface.co/blog/async-robot-inference</id>
+        <link href="https://huggingface.co/blog/async-robot-inference"/>
+        <updated>2025-07-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ScreenEnv: Deploy your full stack Desktop Agent]]></title>
+        <id>https://huggingface.co/blog/screenenv</id>
+        <link href="https://huggingface.co/blog/screenenv"/>
+        <updated>2025-07-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building the Hugging Face MCP Server]]></title>
+        <id>https://huggingface.co/blog/building-hf-mcp</id>
+        <link href="https://huggingface.co/blog/building-hf-mcp"/>
+        <updated>2025-07-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Memory-level parallelism :: Apple M2 vs Apple M4]]></title>
+        <id>https://lemire.me/blog/?p=22112</id>
+        <link href="https://lemire.me/blog/2025/07/09/memory-level-parallelism-apple-m2-vs-apple-m4/"/>
+        <updated>2025-07-09T20:33:11.000Z</updated>
+        <summary type="html"><![CDATA[The Apple M2, introduced in 2022, and the Apple M4, launched in 2024, are both ARM-based system-on-chip (SoC) designs featuring unified memory architecture. That is, they use the same memory for both graphics (GPU) and main computations (CPU). The M2 processor relies on LPDDR5 memory whereas the M4 relies on LPDDR5X which should provide slightly … Continue reading Memory-level parallelism :: Apple M2 vs Apple M4]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders]]></title>
+        <id>https://huggingface.co/blog/reachy-mini</id>
+        <link href="https://huggingface.co/blog/reachy-mini"/>
+        <updated>2025-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating custom kernels for the AMD MI300]]></title>
+        <id>https://huggingface.co/blog/mi300kernels</id>
+        <link href="https://huggingface.co/blog/mi300kernels"/>
+        <updated>2025-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Upskill your LLMs with Gradio MCP Servers]]></title>
+        <id>https://huggingface.co/blog/gradio-mcp-servers</id>
+        <link href="https://huggingface.co/blog/gradio-mcp-servers"/>
+        <updated>2025-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SmolLM3: smol, multilingual, long-context reasoner]]></title>
+        <id>https://huggingface.co/blog/smollm3</id>
+        <link href="https://huggingface.co/blog/smollm3"/>
+        <updated>2025-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure]]></title>
+        <id>https://huggingface.co/blog/infrastructure-alerting</id>
+        <link href="https://huggingface.co/blog/infrastructure-alerting"/>
+        <updated>2025-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Efficient MultiModal Data Pipeline]]></title>
+        <id>https://huggingface.co/blog/mmdp</id>
+        <link href="https://huggingface.co/blog/mmdp"/>
+        <updated>2025-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inverse Triangle Inequality]]></title>
+        <id>https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html</id>
+        <link href="https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html"/>
+        <updated>2025-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<math> <mrow> <mo>|</mo><mi>A</mi><mi>C</mi><mo>|</mo> <mo>&lt;</mo> <mo>|</mo><mi>A</mi> <mi>B</mi><mo>|</mo> <mo>+</mo> <mo>|</mo><mi>B</mi><mi>C</mi><mo>|</mo> </mrow> </math>
+is one of the most hardworking inequalities in mathematics. It illustrates an obvious fact --- the fastest way to go from point A to point C is to go directly, without detours:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Just say no to broken JSON]]></title>
         <id>https://lemire.me/blog/?p=22097</id>
@@ -109,6 +260,7 @@ so let's write this down.]]></summary>
         <id>https://huggingface.co/blog/gemma3n</id>
         <link href="https://huggingface.co/blog/gemma3n"/>
         <updated>2025-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -203,54 +355,6 @@ What is enshittification?
 The term "enshittification" was first popularized in a blog po…]]></summary>
         <author>
             <name>apenwarr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Model Once, Represent Everywhere: UDA (Unified Data Architecture) at Netflix]]></title>
-        <id>https://medium.com/p/6a6aee261d8d</id>
-        <link href="https://netflixtechblog.com/uda-unified-data-architecture-6a6aee261d8d?source=rss----2615bd06b42e---4"/>
-        <updated>2025-06-12T14:56:32.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let us bury the linear model of innovation]]></title>
-        <id>https://lemire.me/blog/?p=22056</id>
-        <link href="https://lemire.me/blog/2025/06/12/let-us-bury-the-linear-model-of-innovation/"/>
-        <updated>2025-06-12T14:33:00.000Z</updated>
-        <summary type="html"><![CDATA[There is an extremely naive model of science and innovation called the linear model: The model postulated that innovation starts with basic research, is followed by applied research and development, and ends with production and diffusion. According to Godin (2006), the model has been falsely attributed to Bush and its dominance is derived rather from … Continue reading Let us bury the linear model of innovation]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enhance Your Models in 5 Minutes with the Hugging Face Kernel Hub]]></title>
-        <id>https://huggingface.co/blog/hello-hf-kernels</id>
-        <link href="https://huggingface.co/blog/hello-hf-kernels"/>
-        <updated>2025-06-12T00:00:00.000Z</updated>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Featherless AI on Hugging Face Inference Providers 🔥]]></title>
-        <id>https://huggingface.co/blog/inference-providers-featherless</id>
-        <link href="https://huggingface.co/blog/inference-providers-featherless"/>
-        <updated>2025-06-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Training Cluster as a Service - a new collaboration with NVIDIA]]></title>
-        <id>https://huggingface.co/blog/nvidia-training-cluster</id>
-        <link href="https://huggingface.co/blog/nvidia-training-cluster"/>
-        <updated>2025-06-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
 </feed>
