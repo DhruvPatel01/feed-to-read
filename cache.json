@@ -23,6 +23,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/d23f917c2f40",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/behind-the-streams-live-at-netflix-part-1-d23f917c2f40?source=rss----2615bd06b42e---4",
+          "publishedOn": "2025-07-15T16:04:08.000Z",
+          "wordCount": null,
+          "title": "Behind the Streams: Live at Netflix. Part 1",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/86d141b72e52",
           "author": "Netflix Technology Blog",
           "description": "",
@@ -66,6 +76,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2025/07/16/font-size-adjust.html",
+          "author": null,
+          "description": "In this article, I will describe a recent addition to CSS, the font-size-adjust property. I am also\nmaking a bold claim that everyone in the world misunderstands the usefulness of this property,\nincluding Google,\nMDN, and\nCSS Specification itself.\n(Just to clarify, no, I am not a web designer and I have no idea what I am talking about).",
+          "link": "https://matklad.github.io/2025/07/16/font-size-adjust.html",
+          "publishedOn": "2025-07-16T00:00:00.000Z",
+          "wordCount": 590,
+          "title": "font-size-adjust Is Useful",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html",
           "author": null,
           "description": "<math> <mrow> <mo>|</mo><mi>A</mi><mi>C</mi><mo>|</mo> <mo>&lt;</mo> <mo>|</mo><mi>A</mi> <mi>B</mi><mo>|</mo> <mo>+</mo> <mo>|</mo><mi>B</mi><mi>C</mi><mo>|</mo> </mrow> </math>\nis one of the most hardworking inequalities in mathematics. It illustrates an obvious fact --- the fastest way to go from point A to point C is to go directly, without detours:",
@@ -99,6 +119,66 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/virtual-cell-challenge",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/virtual-cell-challenge",
+          "publishedOn": "2025-07-18T00:00:00.000Z",
+          "wordCount": 2009,
+          "title": "Arc Virtual Cell Challenge: A Primer",
+          "imageUrl": "https://huggingface.co/blog/assets/virtual-cell-challenge/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/consilium-multi-llm",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/consilium-multi-llm",
+          "publishedOn": "2025-07-17T00:00:00.000Z",
+          "wordCount": 1693,
+          "title": "Consilium: When Multiple LLMs Collaborate",
+          "imageUrl": "https://huggingface.co/blog/assets/consilium-multi-llm/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/futurebench",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/futurebench",
+          "publishedOn": "2025-07-17T00:00:00.000Z",
+          "wordCount": 2195,
+          "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
+          "imageUrl": "https://huggingface.co/blog/assets/futurebench/leaderboard.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/gradio-mcp-updates",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/gradio-mcp-updates",
+          "publishedOn": "2025-07-17T00:00:00.000Z",
+          "wordCount": 978,
+          "title": "Five Big Improvements to Gradio MCP Servers",
+          "imageUrl": "https://huggingface.co/blog/assets/gradio-mcp-updates/5_mcp_improvements.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ettin",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/ettin",
+          "publishedOn": "2025-07-16T00:00:00.000Z",
+          "wordCount": 3346,
+          "title": "Seq vs Seq: the Ettin Suite of Paired Encoders and Decoders",
+          "imageUrl": "https://huggingface.co/blog/assets/ettin/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/migrating-the-hub-to-xet",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/migrating-the-hub-to-xet",
+          "publishedOn": "2025-07-15T00:00:00.000Z",
+          "wordCount": 2048,
+          "title": "Migrating the Hub from Git LFS to Xet",
+          "imageUrl": "https://huggingface.co/blog/assets/migrating-the-hub-to-xet/thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/async-robot-inference",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -114,7 +194,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/screenenv",
           "publishedOn": "2025-07-10T00:00:00.000Z",
-          "wordCount": 1555,
+          "wordCount": 1644,
           "title": "ScreenEnv: Deploy your full stack Desktop Agent",
           "imageUrl": "https://huggingface.co/blog/assets/screenenv/screenenv.png"
         },
@@ -124,7 +204,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/building-hf-mcp",
           "publishedOn": "2025-07-10T00:00:00.000Z",
-          "wordCount": 1914,
+          "wordCount": 1915,
           "title": "Building the Hugging Face MCP Server",
           "imageUrl": "https://huggingface.co/blog/assets/building-hf-mcp/building-hf-mcp.png"
         },
@@ -134,7 +214,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/reachy-mini",
           "publishedOn": "2025-07-09T00:00:00.000Z",
-          "wordCount": 1733,
+          "wordCount": 2014,
           "title": "Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders",
           "imageUrl": "https://huggingface.co/blog/assets/reachy-mini/thumbnail.jpg"
         },
@@ -144,7 +224,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/mi300kernels",
           "publishedOn": "2025-07-09T00:00:00.000Z",
-          "wordCount": 6901,
+          "wordCount": 6970,
           "title": "Creating custom kernels for the AMD MI300",
           "imageUrl": "https://huggingface.co/blog/assets/mi300kernels/thumbnail.png"
         },
@@ -154,7 +234,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/gradio-mcp-servers",
           "publishedOn": "2025-07-09T00:00:00.000Z",
-          "wordCount": 988,
+          "wordCount": 987,
           "title": "Upskill your LLMs with Gradio MCP Servers",
           "imageUrl": "https://huggingface.co/blog/assets/upskill-llms-with-gradio-mcp/UpskillThumbnail.png"
         },
@@ -164,7 +244,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/smollm3",
           "publishedOn": "2025-07-08T00:00:00.000Z",
-          "wordCount": 4162,
+          "wordCount": 4515,
           "title": "SmolLM3: smol, multilingual, long-context reasoner",
           "imageUrl": "https://huggingface.co/blog/assets/smollm3/image.png"
         },
@@ -174,7 +254,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/infrastructure-alerting",
           "publishedOn": "2025-07-08T00:00:00.000Z",
-          "wordCount": 3442,
+          "wordCount": 3443,
           "title": "Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure",
           "imageUrl": "https://huggingface.co/blog/assets/infrastructure-alerting/thumbnail.jpg"
         },
@@ -184,7 +264,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/mmdp",
           "publishedOn": "2025-07-08T00:00:00.000Z",
-          "wordCount": 1768,
+          "wordCount": 1978,
           "title": "Efficient MultiModal Data Pipeline",
           "imageUrl": "https://huggingface.co/blog/assets/mmdp/thumbnail.png"
         },
@@ -217,26 +297,6 @@
           "wordCount": 843,
           "title": "Transformers backend integration in SGLang",
           "imageUrl": "https://huggingface.co/blog/assets/196_transformers_backend_sglang/thumbnail.jpg"
-        },
-        {
-          "id": "https://huggingface.co/blog/flux-qlora",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/flux-qlora",
-          "publishedOn": "2025-06-19T00:00:00.000Z",
-          "wordCount": 3167,
-          "title": "(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware",
-          "imageUrl": "https://huggingface.co/blog/assets/flux-qlora/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/inference-providers-groq",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/inference-providers-groq",
-          "publishedOn": "2025-06-16T00:00:00.000Z",
-          "wordCount": 933,
-          "title": "Groq on Hugging Face Inference Providers 🔥",
-          "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-groq.jpg"
         }
       ]
     },
@@ -258,12 +318,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22141",
+          "author": "Daniel Lemire",
+          "description": "“All innovation comes from industry is just wrong, universities invented many useful things.” But that’s not the argument. Nobody thinks that Knuth contributed nothing to software programming. Rather the point is that the direction of the arrow is almost entirely wrong. It is not academia → industry → consumers This is almost entirely wrong. I … Continue reading Innovation starts with consumers, not academia",
+          "link": "https://lemire.me/blog/2025/07/16/innovation/",
+          "publishedOn": "2025-07-16T15:58:54.000Z",
+          "wordCount": 3598,
+          "title": "Innovation starts with consumers, not academia",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22134",
+          "author": "Daniel Lemire",
+          "description": "« Normal science, the activity in which most scientists inevitably spend most all their time, is predicated on the assumption that the scientific community knows what the world is like. Normal science often suppresses fundamental novelties because they are necessarily subversive of its basic commitments. As a puzzle-solving activity, normal science does not aim at … Continue reading Rebels on campus",
+          "link": "https://lemire.me/blog/2025/07/15/rebels-on-campus/",
+          "publishedOn": "2025-07-15T15:49:23.000Z",
+          "wordCount": 3491,
+          "title": "Rebels on campus",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22124",
+          "author": "Daniel Lemire",
+          "description": "0One of my most popular blog posts of all times is  Data alignment for speed: myth or reality? According to my dashboard, hundreds of people a week still load the old blog post. A few times a year, I get an email from someone who disagrees. The blog post makes a simple point. Programmers are … Continue reading Dot product on misaligned data",
+          "link": "https://lemire.me/blog/2025/07/14/dot-product-on-misaligned-data/",
+          "publishedOn": "2025-07-14T23:12:29.000Z",
+          "wordCount": 3785,
+          "title": "Dot product on misaligned data",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22118",
           "author": "Daniel Lemire",
           "description": "Studying productivity is challenging. About 15-20 years ago, I was obsessed over my own productivity. I created a spying agent to monitor my activities and time spent. It would look at which window is opened, and so forth. I would also monitor which web sites were loaded, and so forth. I discovered that I spent … Continue reading Why measuring productivity is hard",
           "link": "https://lemire.me/blog/2025/07/12/why-measuring-productivity-is-hard/",
           "publishedOn": "2025-07-12T17:19:16.000Z",
-          "wordCount": 3144,
+          "wordCount": 3176,
           "title": "Why measuring productivity is hard",
           "imageUrl": null
         },
@@ -273,7 +363,7 @@
           "description": "The Apple M2, introduced in 2022, and the Apple M4, launched in 2024, are both ARM-based system-on-chip (SoC) designs featuring unified memory architecture. That is, they use the same memory for both graphics (GPU) and main computations (CPU). The M2 processor relies on LPDDR5 memory whereas the M4 relies on LPDDR5X which should provide slightly … Continue reading Memory-level parallelism :: Apple M2 vs Apple M4",
           "link": "https://lemire.me/blog/2025/07/09/memory-level-parallelism-apple-m2-vs-apple-m4/",
           "publishedOn": "2025-07-09T20:33:11.000Z",
-          "wordCount": 3467,
+          "wordCount": 3641,
           "title": "Memory-level parallelism :: Apple M2 vs Apple M4",
           "imageUrl": null
         },
@@ -283,7 +373,7 @@
           "description": "JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is widely used for transmitting data between a server and a web application, due to its simplicity and compatibility with many programming languages. The JSON format has a simple syntax with a fixed number of data types such as strings, numbers, Booleans, null, objects, … Continue reading Just say no to broken JSON",
           "link": "https://lemire.me/blog/2025/07/04/just-say-no-to-broken-json/",
           "publishedOn": "2025-07-04T13:49:03.000Z",
-          "wordCount": 3982,
+          "wordCount": 3975,
           "title": "Just say no to broken JSON",
           "imageUrl": null
         },
@@ -293,7 +383,7 @@
           "description": "C and C++ compilers like GCC first take your code and produce assembly, typically a pure ASCII output (so just basic English characters). This assembly code is a low-level representation of the program, using mnemonic instructions specific to the target processor architecture. The compiler then passes this assembly code to an assembler, which translates it … Continue reading Base64 for compression",
           "link": "https://lemire.me/blog/2025/07/03/base64-for-compression/",
           "publishedOn": "2025-07-03T13:38:07.000Z",
-          "wordCount": 3227,
+          "wordCount": 3220,
           "title": "Base64 for compression",
           "imageUrl": null
         },
@@ -303,7 +393,7 @@
           "description": "Back when I started programming, project teams were large. Organizations had dozens of programmers on sprawling projects. Reusing code was not trivial. Sharing code required real effort. Sometimes you had to hand over a disk or recopy code from a printout. Better networking eased code reuse. Open source took over. We no longer have someone … Continue reading From code reuse to the impact of generative AI",
           "link": "https://lemire.me/blog/2025/06/27/from-code-reuse-to-the-impact-of-generative-ai/",
           "publishedOn": "2025-06-27T13:33:12.000Z",
-          "wordCount": 4325,
+          "wordCount": 4318,
           "title": "From code reuse to the impact of generative AI",
           "imageUrl": null
         },
@@ -313,7 +403,7 @@
           "description": "Herb Sutter just announced that the verdict is in: C++26, the next version of C++, will include compile-time reflection. Reflection in programming languages means that you have access the code’s own structure. For example, you can take a class, and enumerate its methods. For example, you could receive a class, check whether it contains a … Continue reading Discover C++26’s compile-time reflection",
           "link": "https://lemire.me/blog/2025/06/22/c26-will-include-compile-time-reflection-why-should-you-care/",
           "publishedOn": "2025-06-22T01:55:37.000Z",
-          "wordCount": 3697,
+          "wordCount": 3690,
           "title": "Discover C++26’s compile-time reflection",
           "imageUrl": null
         },
@@ -323,28 +413,8 @@
           "description": "In North America, my home province of Quebec has a slightly higher life expectancy than the rest of the country. It is also a poorer-than-average province, so that is maybe surprising. For 2023, the life expectancy at birth in Ontario was 82.33 years, whereas it was 82.55 years for Quebec. However, if drill down in … Continue reading Life expectancy of men in Canadian provinces",
           "link": "https://lemire.me/blog/2025/06/21/life-expectancy-of-men-in-canadian-provinces/",
           "publishedOn": "2025-06-21T00:32:39.000Z",
-          "wordCount": 3233,
+          "wordCount": 3226,
           "title": "Life expectancy of men in Canadian provinces",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22064",
-          "author": "Daniel Lemire",
-          "description": "Prescientific and preindustrial thought tied truth to authority and tradition. “We’ve always done it this way.” “The king decrees it.” “We know this is how it’s done.” The scientific and industrial revolutions shattered this mindset. Suddenly, outsiders could challenge entrenched norms. Two brothers in a rundown workshop could build empires to rival the wealthiest lords. … Continue reading Don’t argue: build",
-          "link": "https://lemire.me/blog/2025/06/16/dont-argue-build/",
-          "publishedOn": "2025-06-16T14:42:38.000Z",
-          "wordCount": 3037,
-          "title": "Don’t argue: build",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22061",
-          "author": "Daniel Lemire",
-          "description": "Guido van Rossum, Python’s creator, recently said: “We have a huge community, but relatively few people, relatively speaking, are contributing meaningfully.” This highlights a paradox. Software thrives on the network effect, or Metcalfe’s Law, where a system’s value scales with the square of its users. Linux excels because its vast user base fuels adoption, documentation, … Continue reading Metcalfe’s Law against Brooks’ Law",
-          "link": "https://lemire.me/blog/2025/06/15/metcalfes-law-against-brooks-law/",
-          "publishedOn": "2025-06-15T14:32:49.000Z",
-          "wordCount": 3095,
-          "title": "Metcalfe’s Law against Brooks’ Law",
           "imageUrl": null
         }
       ]
@@ -366,18 +436,8 @@
           "description": "I have a friend who exited his startup a few years ago and is now rich. How\nrich is unclear. One day, we were discussing ways to expedite the delivery\nof his superyacht and I suggested paying extra. His response, as to so\nmany of my suggestions, was, “Avery, I’m not that rich.”\nEveryone has their limit.\nI, too, am not that rich. I have shares in a startup that has not exited,\nand they seem to be gracefully ticking up in value as the years pass. But I\nhave to come to work each day, and if I make a few wrong medium-quality\nchoices (not even bad ones!), it could all be vaporized in an instant.\nMeanwhile, I can’t spend it. So what I have is my accumulated savings from a\nlong career of writing software and modest tastes (I like hot dogs).\nThose accumulated savings and modest tastes are enough t…",
           "link": "https://apenwarr.ca/log/20250711",
           "publishedOn": "2025-07-11T16:18:52.000Z",
-          "wordCount": 2188,
+          "wordCount": 2186,
           "title": "Billionaire math",
-          "imageUrl": null
-        },
-        {
-          "id": "https://apenwarr.ca/log/20250530",
-          "author": null,
-          "description": "Our company recently announced a fundraise.  We were grateful for all\nthe community support, but the Internet also raised a few of its collective\neyebrows, wondering whether this meant the dreaded “enshittification” was\ncoming next.\nThat word describes a very real pattern we’ve all seen before: products\nstart great, grow fast, and then slowly become worse as the people running\nthem trade user love for short-term revenue.\nIt’s a topic I find genuinely fascinating, and I've seen the downward spiral\nfirsthand at companies I once admired. So I want to talk about why this\nhappens, and more importantly, why it won't happen to us. That's big talk, I\nknow. But it's a promise I'm happy for people to hold us to.\nWhat is enshittification?\nThe term \"enshittification\" was first popularized in a blog po…",
-          "link": "https://apenwarr.ca/log/20250530",
-          "publishedOn": "2025-06-15T02:52:58.000Z",
-          "wordCount": 2784,
-          "title": "The evasive evitability of enshittification",
           "imageUrl": null
         }
       ]

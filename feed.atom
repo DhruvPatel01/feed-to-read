@@ -1,10 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-07-13T01:41:13.959Z</id>
+    <id>urn:2025-07-20T01:42:35.326Z</id>
     <title>osmos::feed</title>
-    <updated>2025-07-13T01:41:13.959Z</updated>
+    <updated>2025-07-20T01:42:35.326Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Arc Virtual Cell Challenge: A Primer]]></title>
+        <id>https://huggingface.co/blog/virtual-cell-challenge</id>
+        <link href="https://huggingface.co/blog/virtual-cell-challenge"/>
+        <updated>2025-07-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Consilium: When Multiple LLMs Collaborate]]></title>
+        <id>https://huggingface.co/blog/consilium-multi-llm</id>
+        <link href="https://huggingface.co/blog/consilium-multi-llm"/>
+        <updated>2025-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Back to The Future: Evaluating AI Agents on Predicting Future Events]]></title>
+        <id>https://huggingface.co/blog/futurebench</id>
+        <link href="https://huggingface.co/blog/futurebench"/>
+        <updated>2025-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five Big Improvements to Gradio MCP Servers]]></title>
+        <id>https://huggingface.co/blog/gradio-mcp-updates</id>
+        <link href="https://huggingface.co/blog/gradio-mcp-updates"/>
+        <updated>2025-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Innovation starts with consumers, not academia]]></title>
+        <id>https://lemire.me/blog/?p=22141</id>
+        <link href="https://lemire.me/blog/2025/07/16/innovation/"/>
+        <updated>2025-07-16T15:58:54.000Z</updated>
+        <summary type="html"><![CDATA[“All innovation comes from industry is just wrong, universities invented many useful things.” But that’s not the argument. Nobody thinks that Knuth contributed nothing to software programming. Rather the point is that the direction of the arrow is almost entirely wrong. It is not academia → industry → consumers This is almost entirely wrong. I … Continue reading Innovation starts with consumers, not academia]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[font-size-adjust Is Useful]]></title>
+        <id>https://matklad.github.io/2025/07/16/font-size-adjust.html</id>
+        <link href="https://matklad.github.io/2025/07/16/font-size-adjust.html"/>
+        <updated>2025-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I will describe a recent addition to CSS, the font-size-adjust property. I am also
+making a bold claim that everyone in the world misunderstands the usefulness of this property,
+including Google,
+MDN, and
+CSS Specification itself.
+(Just to clarify, no, I am not a web designer and I have no idea what I am talking about).]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seq vs Seq: the Ettin Suite of Paired Encoders and Decoders]]></title>
+        <id>https://huggingface.co/blog/ettin</id>
+        <link href="https://huggingface.co/blog/ettin"/>
+        <updated>2025-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Behind the Streams: Live at Netflix. Part 1]]></title>
+        <id>https://medium.com/p/d23f917c2f40</id>
+        <link href="https://netflixtechblog.com/behind-the-streams-live-at-netflix-part-1-d23f917c2f40?source=rss----2615bd06b42e---4"/>
+        <updated>2025-07-15T16:04:08.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rebels on campus]]></title>
+        <id>https://lemire.me/blog/?p=22134</id>
+        <link href="https://lemire.me/blog/2025/07/15/rebels-on-campus/"/>
+        <updated>2025-07-15T15:49:23.000Z</updated>
+        <summary type="html"><![CDATA[« Normal science, the activity in which most scientists inevitably spend most all their time, is predicated on the assumption that the scientific community knows what the world is like. Normal science often suppresses fundamental novelties because they are necessarily subversive of its basic commitments. As a puzzle-solving activity, normal science does not aim at … Continue reading Rebels on campus]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrating the Hub from Git LFS to Xet]]></title>
+        <id>https://huggingface.co/blog/migrating-the-hub-to-xet</id>
+        <link href="https://huggingface.co/blog/migrating-the-hub-to-xet"/>
+        <updated>2025-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dot product on misaligned data]]></title>
+        <id>https://lemire.me/blog/?p=22124</id>
+        <link href="https://lemire.me/blog/2025/07/14/dot-product-on-misaligned-data/"/>
+        <updated>2025-07-14T23:12:29.000Z</updated>
+        <summary type="html"><![CDATA[0One of my most popular blog posts of all times is  Data alignment for speed: myth or reality? According to my dashboard, hundreds of people a week still load the old blog post. A few times a year, I get an email from someone who disagrees. The blog post makes a simple point. Programmers are … Continue reading Dot product on misaligned data]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why measuring productivity is hard]]></title>
         <id>https://lemire.me/blog/?p=22118</id>
@@ -293,68 +407,6 @@ so let's write this down.]]></summary>
         <summary type="html"><![CDATA[In North America, my home province of Quebec has a slightly higher life expectancy than the rest of the country. It is also a poorer-than-average province, so that is maybe surprising. For 2023, the life expectancy at birth in Ontario was 82.33 years, whereas it was 82.55 years for Quebec. However, if drill down in … Continue reading Life expectancy of men in Canadian provinces]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware]]></title>
-        <id>https://huggingface.co/blog/flux-qlora</id>
-        <link href="https://huggingface.co/blog/flux-qlora"/>
-        <updated>2025-06-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don’t argue: build]]></title>
-        <id>https://lemire.me/blog/?p=22064</id>
-        <link href="https://lemire.me/blog/2025/06/16/dont-argue-build/"/>
-        <updated>2025-06-16T14:42:38.000Z</updated>
-        <summary type="html"><![CDATA[Prescientific and preindustrial thought tied truth to authority and tradition. “We’ve always done it this way.” “The king decrees it.” “We know this is how it’s done.” The scientific and industrial revolutions shattered this mindset. Suddenly, outsiders could challenge entrenched norms. Two brothers in a rundown workshop could build empires to rival the wealthiest lords. … Continue reading Don’t argue: build]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Groq on Hugging Face Inference Providers 🔥]]></title>
-        <id>https://huggingface.co/blog/inference-providers-groq</id>
-        <link href="https://huggingface.co/blog/inference-providers-groq"/>
-        <updated>2025-06-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Metcalfe’s Law against Brooks’ Law]]></title>
-        <id>https://lemire.me/blog/?p=22061</id>
-        <link href="https://lemire.me/blog/2025/06/15/metcalfes-law-against-brooks-law/"/>
-        <updated>2025-06-15T14:32:49.000Z</updated>
-        <summary type="html"><![CDATA[Guido van Rossum, Python’s creator, recently said: “We have a huge community, but relatively few people, relatively speaking, are contributing meaningfully.” This highlights a paradox. Software thrives on the network effect, or Metcalfe’s Law, where a system’s value scales with the square of its users. Linux excels because its vast user base fuels adoption, documentation, … Continue reading Metcalfe’s Law against Brooks’ Law]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The evasive evitability of enshittification]]></title>
-        <id>https://apenwarr.ca/log/20250530</id>
-        <link href="https://apenwarr.ca/log/20250530"/>
-        <updated>2025-06-15T02:52:58.000Z</updated>
-        <summary type="html"><![CDATA[Our company recently announced a fundraise.  We were grateful for all
-the community support, but the Internet also raised a few of its collective
-eyebrows, wondering whether this meant the dreaded “enshittification” was
-coming next.
-That word describes a very real pattern we’ve all seen before: products
-start great, grow fast, and then slowly become worse as the people running
-them trade user love for short-term revenue.
-It’s a topic I find genuinely fascinating, and I've seen the downward spiral
-firsthand at companies I once admired. So I want to talk about why this
-happens, and more importantly, why it won't happen to us. That's big talk, I
-know. But it's a promise I'm happy for people to hold us to.
-What is enshittification?
-The term "enshittification" was first popularized in a blog po…]]></summary>
-        <author>
-            <name>apenwarr</name>
         </author>
     </entry>
 </feed>
