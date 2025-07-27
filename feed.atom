@@ -1,10 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-07-20T01:42:35.326Z</id>
+    <id>urn:2025-07-27T01:43:12.487Z</id>
     <title>osmos::feed</title>
-    <updated>2025-07-20T01:42:35.326Z</updated>
+    <updated>2025-07-27T01:43:12.487Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨]]></title>
+        <id>https://huggingface.co/blog/hf-cli</id>
+        <link href="https://huggingface.co/blog/hf-cli"/>
+        <updated>2025-07-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parquet Content-Defined Chunking]]></title>
+        <id>https://huggingface.co/blog/parquet-cdc</id>
+        <link href="https://huggingface.co/blog/parquet-cdc"/>
+        <updated>2025-07-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TimeScope: How Long Can Your Video Large Multimodal Model Go?]]></title>
+        <id>https://huggingface.co/blog/timescope-video-lmm-benchmark</id>
+        <link href="https://huggingface.co/blog/timescope-video-lmm-benchmark"/>
+        <updated>2025-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast LoRA inference for Flux with Diffusers and PEFT]]></title>
+        <id>https://huggingface.co/blog/lora-fast</id>
+        <link href="https://huggingface.co/blog/lora-fast"/>
+        <updated>2025-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PtrHash]]></title>
+        <id>https://curiouscoding.nl/slides/</id>
+        <link href="https://curiouscoding.nl/slides/"/>
+        <updated>2025-07-19T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Minimal Perfect Hash Functions
+ 
+ 
+ Link to heading
+ 
+
+
+ A set of \(n\) keys
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ A hash function
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ A hash function: collisions!
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ A hash function: injective / perfect
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ A hash function: bijective / minimal & perfect
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ Problem statement
+ 
+ 
+ Link to heading
+ 
+
+Given a set of \(n\) keys \(K\subseteq \mathbb K\), build a function \(h\) satisfying]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Arc Virtual Cell Challenge: A Primer]]></title>
         <id>https://huggingface.co/blog/virtual-cell-challenge</id>
@@ -81,15 +194,6 @@ CSS Specification itself.
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Behind the Streams: Live at Netflix. Part 1]]></title>
-        <id>https://medium.com/p/d23f917c2f40</id>
-        <link href="https://netflixtechblog.com/behind-the-streams-live-at-netflix-part-1-d23f917c2f40?source=rss----2615bd06b42e---4"/>
-        <updated>2025-07-15T16:04:08.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Rebels on campus]]></title>
         <id>https://lemire.me/blog/?p=22134</id>
         <link href="https://lemire.me/blog/2025/07/15/rebels-on-campus/"/>
@@ -148,15 +252,6 @@ long career of writing software and modest tastes (I like hot dogs).
 Those accumulated savings and modest tastes are enough t…]]></summary>
         <author>
             <name>apenwarr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netflix Tudum Architecture: from CQRS with Kafka to CQRS with RAW Hollow]]></title>
-        <id>https://medium.com/p/86d141b72e52</id>
-        <link href="https://netflixtechblog.com/netflix-tudum-architecture-from-cqrs-with-kafka-to-cqrs-with-raw-hollow-86d141b72e52?source=rss----2615bd06b42e---4"/>
-        <updated>2025-07-10T19:31:06.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
         </author>
     </entry>
     <entry>
@@ -291,24 +386,6 @@ is one of the most hardworking inequalities in mathematics. It illustrates an ob
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Driving Content Delivery Efficiency Through Classifying Cache Misses]]></title>
-        <id>https://medium.com/p/ffcf08026b6c</id>
-        <link href="https://netflixtechblog.com/driving-content-delivery-efficiency-through-classifying-cache-misses-ffcf08026b6c?source=rss----2615bd06b42e---4"/>
-        <updated>2025-07-02T15:20:23.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AV1 @ Scale: Film Grain Synthesis, The Awakening]]></title>
-        <id>https://medium.com/p/ee09cfdff40b</id>
-        <link href="https://netflixtechblog.com/av1-scale-film-grain-synthesis-the-awakening-ee09cfdff40b?source=rss----2615bd06b42e---4"/>
-        <updated>2025-07-02T14:21:44.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Training and Finetuning Sparse Embedding Models with Sentence Transformers v5]]></title>
         <id>https://huggingface.co/blog/train-sparse-encoder</id>
         <link href="https://huggingface.co/blog/train-sparse-encoder"/>
@@ -316,97 +393,6 @@ is one of the most hardworking inequalities in mathematics. It illustrates an ob
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From code reuse to the impact of generative AI]]></title>
-        <id>https://lemire.me/blog/?p=22087</id>
-        <link href="https://lemire.me/blog/2025/06/27/from-code-reuse-to-the-impact-of-generative-ai/"/>
-        <updated>2025-06-27T13:33:12.000Z</updated>
-        <summary type="html"><![CDATA[Back when I started programming, project teams were large. Organizations had dozens of programmers on sprawling projects. Reusing code was not trivial. Sharing code required real effort. Sometimes you had to hand over a disk or recopy code from a printout. Better networking eased code reuse. Open source took over. We no longer have someone … Continue reading From code reuse to the impact of generative AI]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parameterized types in C using the new tag compatibility rule]]></title>
-        <id>https://nullprogram.com/blog/2025/06/26/</id>
-        <link href="https://nullprogram.com/blog/2025/06/26/"/>
-        <updated>2025-06-26T23:49:53.000Z</updated>
-        <summary type="html"><![CDATA[C23 has a new rule for struct, union, and enum compatibility
-finally appearing in compilers starting with GCC 15, released this past
-April, and Clang later this year. The same struct defined in different
-translation units (TU) has always been compatible — essential to how they
-work. Until this rule change, each such definition within a TU was a
-distinct, incompatible type. The new rule says that, ackshually, they
-are compatible! This unlocks some type parameterization using macros.
-How can a TU have multiple definitions of a struct? Scope. Prior to C23
-this wouldn’t compile because the compound literal type and the return
-type were distinct types:
-
-struct Example { int x, y, z; };
-
-struct Example example(void)
-{
-    struct Example { int x, y, z; };
-    return (struct Example){1, 2, 3};
-}
-
-…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RSS Server Side Reader]]></title>
-        <id>https://matklad.github.io/2025/06/26/rssssr.html</id>
-        <link href="https://matklad.github.io/2025/06/26/rssssr.html"/>
-        <updated>2025-06-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I like the idea of RSS, but none of the RSS readers stuck with me, until I implemented one of my
-own, using a somewhat unusual technique. There's at least one other person using this approach now,
-so let's write this down.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemma 3n fully available in the open-source ecosystem!]]></title>
-        <id>https://huggingface.co/blog/gemma3n</id>
-        <link href="https://huggingface.co/blog/gemma3n"/>
-        <updated>2025-06-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transformers backend integration in SGLang]]></title>
-        <id>https://huggingface.co/blog/transformers-backend-sglang</id>
-        <link href="https://huggingface.co/blog/transformers-backend-sglang"/>
-        <updated>2025-06-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discover C++26’s compile-time reflection]]></title>
-        <id>https://lemire.me/blog/?p=22078</id>
-        <link href="https://lemire.me/blog/2025/06/22/c26-will-include-compile-time-reflection-why-should-you-care/"/>
-        <updated>2025-06-22T01:55:37.000Z</updated>
-        <summary type="html"><![CDATA[Herb Sutter just announced that the verdict is in: C++26, the next version of C++, will include compile-time reflection. Reflection in programming languages means that you have access the code’s own structure. For example, you can take a class, and enumerate its methods. For example, you could receive a class, check whether it contains a … Continue reading Discover C++26’s compile-time reflection]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Life expectancy of men in Canadian provinces]]></title>
-        <id>https://lemire.me/blog/?p=22067</id>
-        <link href="https://lemire.me/blog/2025/06/21/life-expectancy-of-men-in-canadian-provinces/"/>
-        <updated>2025-06-21T00:32:39.000Z</updated>
-        <summary type="html"><![CDATA[In North America, my home province of Quebec has a slightly higher life expectancy than the rest of the country. It is also a poorer-than-average province, so that is maybe surprising. For 2023, the life expectancy at birth in Ontario was 82.33 years, whereas it was 82.55 years for Quebec. However, if drill down in … Continue reading Life expectancy of men in Canadian provinces]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
