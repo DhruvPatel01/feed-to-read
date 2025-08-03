@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-07-27T01:43:12.487Z</id>
+    <id>urn:2025-08-03T01:44:46.038Z</id>
     <title>osmos::feed</title>
-    <updated>2025-07-27T01:43:12.487Z</updated>
+    <updated>2025-08-03T01:44:46.038Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A Bytecode VM for Arithmetic: The Parser]]></title>
+        <id>https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/?mtm_campaign=feed"/>
+        <updated>2025-08-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In this series of posts, we write a bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>
+<ul>
+<li>Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</li>
+<li>Compiling <abbr title="Abstract Syntax Tree">AST</abbr>s to bytecode.</li>
+<li>Interpreting <abbr title="Abstract Syntax Tree">AST</abbr>s.</li>
+<li>Efficiently executing bytecode in a virtual machine (VM).</li>
+<li>Disassembling bytecode and decompiling opcodes for debugging and testing.</li>
+<li>Unit testing and property-based testing for our compiler and <abbr title="Virtual Machine">VM</abbr>.</li>
+<li>Benchmarking our code to see how the different passes perform.</li>
+<li>All the while keeping an eye on performance.</li>
+</ul>]]></summary>
+        <author>
+            <name>Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build an AI Shopping Assistant with Gradio MCP Servers]]></title>
+        <id>https://huggingface.co/blog/gradio-vton-mcp</id>
+        <link href="https://huggingface.co/blog/gradio-vton-mcp"/>
+        <updated>2025-07-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face]]></title>
+        <id>https://huggingface.co/blog/trackio</id>
+        <link href="https://huggingface.co/blog/trackio"/>
+        <updated>2025-07-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨]]></title>
         <id>https://huggingface.co/blog/hf-cli</id>
@@ -218,7 +258,7 @@ CSS Specification itself.
         <id>https://lemire.me/blog/?p=22124</id>
         <link href="https://lemire.me/blog/2025/07/14/dot-product-on-misaligned-data/"/>
         <updated>2025-07-14T23:12:29.000Z</updated>
-        <summary type="html"><![CDATA[0One of my most popular blog posts of all times is  Data alignment for speed: myth or reality? According to my dashboard, hundreds of people a week still load the old blog post. A few times a year, I get an email from someone who disagrees. The blog post makes a simple point. Programmers are … Continue reading Dot product on misaligned data]]></summary>
+        <summary type="html"><![CDATA[One of my most popular blog posts of all times is  Data alignment for speed: myth or reality? According to my dashboard, hundreds of people a week still load the old blog post. A few times a year, I get an email from someone who disagrees. The blog post makes a simple point. Programmers are … Continue reading Dot product on misaligned data]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
@@ -373,26 +413,6 @@ is one of the most hardworking inequalities in mathematics. It illustrates an ob
         <summary type="html"><![CDATA[JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is widely used for transmitting data between a server and a web application, due to its simplicity and compatibility with many programming languages. The JSON format has a simple syntax with a fixed number of data types such as strings, numbers, Booleans, null, objects, … Continue reading Just say no to broken JSON]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Base64 for compression]]></title>
-        <id>https://lemire.me/blog/?p=22093</id>
-        <link href="https://lemire.me/blog/2025/07/03/base64-for-compression/"/>
-        <updated>2025-07-03T13:38:07.000Z</updated>
-        <summary type="html"><![CDATA[C and C++ compilers like GCC first take your code and produce assembly, typically a pure ASCII output (so just basic English characters). This assembly code is a low-level representation of the program, using mnemonic instructions specific to the target processor architecture. The compiler then passes this assembly code to an assembler, which translates it … Continue reading Base64 for compression]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Training and Finetuning Sparse Embedding Models with Sentence Transformers v5]]></title>
-        <id>https://huggingface.co/blog/train-sparse-encoder</id>
-        <link href="https://huggingface.co/blog/train-sparse-encoder"/>
-        <updated>2025-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
 </feed>
