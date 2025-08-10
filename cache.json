@@ -18,6 +18,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2025/08/08/partially-matching-zig-enums.html",
+          "author": null,
+          "description": "A short post about a neat little Zig idiom. Consider your average {sum type, variant, tagged union,\nenum, alt}:",
+          "link": "https://matklad.github.io/2025/08/08/partially-matching-zig-enums.html",
+          "publishedOn": "2025-08-08T00:00:00.000Z",
+          "wordCount": 599,
+          "title": "Partially Matching Zig Enums",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2025/07/16/font-size-adjust.html",
           "author": null,
           "description": "In this article, I will describe a recent addition to CSS, the font-size-adjust property. I am also\nmaking a bold claim that everyone in the world misunderstands the usefulness of this property,\nincluding Google,\nMDN, and\nCSS Specification itself.\n(Just to clarify, no, I am not a web designer and I have no idea what I am talking about).",
@@ -25,16 +35,6 @@
           "publishedOn": "2025-07-16T00:00:00.000Z",
           "wordCount": 590,
           "title": "font-size-adjust Is Useful",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html",
-          "author": null,
-          "description": "<math> <mrow> <mo>|</mo><mi>A</mi><mi>C</mi><mo>|</mo> <mo>&lt;</mo> <mo>|</mo><mi>A</mi> <mi>B</mi><mo>|</mo> <mo>+</mo> <mo>|</mo><mi>B</mi><mi>C</mi><mo>|</mo> </mrow> </math>\nis one of the most hardworking inequalities in mathematics. It illustrates an obvious fact --- the fastest way to go from point A to point C is to go directly, without detours:",
-          "link": "https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html",
-          "publishedOn": "2025-07-07T00:00:00.000Z",
-          "wordCount": 1535,
-          "title": "Inverse Triangle Inequality",
           "imageUrl": null
         }
       ]
@@ -51,6 +51,46 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/aisheets",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/aisheets",
+          "publishedOn": "2025-08-08T00:00:00.000Z",
+          "wordCount": 2763,
+          "title": "Introducing AI Sheets: a tool to work with datasets using open AI models!",
+          "imageUrl": "https://huggingface.co/blog/assets/aisheets/aisheets-thumb.gif"
+        },
+        {
+          "id": "https://huggingface.co/blog/accelerate-nd-parallel",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/accelerate-nd-parallel",
+          "publishedOn": "2025-08-08T00:00:00.000Z",
+          "wordCount": 3999,
+          "title": "Accelerate ND-Parallel: A Guide to Efficient Multi-GPU Training",
+          "imageUrl": "https://huggingface.co/blog/assets/accelerate-nd-parallel/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/trl-vlm-alignment",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/trl-vlm-alignment",
+          "publishedOn": "2025-08-07T00:00:00.000Z",
+          "wordCount": 2433,
+          "title": "Vision Language Model Alignment in TRL ⚡️",
+          "imageUrl": "https://huggingface.co/blog/assets/trl_vlm/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/welcome-openai-gpt-oss",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/welcome-openai-gpt-oss",
+          "publishedOn": "2025-08-05T00:00:00.000Z",
+          "wordCount": 4282,
+          "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
+          "imageUrl": "https://huggingface.co/blog/assets/openai/openai-hf-thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/gradio-vton-mcp",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -66,7 +106,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/trackio",
           "publishedOn": "2025-07-29T00:00:00.000Z",
-          "wordCount": 1356,
+          "wordCount": 1368,
           "title": "Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face",
           "imageUrl": "https://huggingface.co/blog/assets/trackio/thumbnail.gif"
         },
@@ -76,7 +116,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/hf-cli",
           "publishedOn": "2025-07-25T00:00:00.000Z",
-          "wordCount": 884,
+          "wordCount": 890,
           "title": "Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨",
           "imageUrl": "https://huggingface.co/blog/assets/hf-cli-thumbnail.png"
         },
@@ -86,7 +126,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/parquet-cdc",
           "publishedOn": "2025-07-25T00:00:00.000Z",
-          "wordCount": 3417,
+          "wordCount": 3441,
           "title": "Parquet Content-Defined Chunking",
           "imageUrl": "https://huggingface.co/blog/assets/parquet-cdc/thumbnail.png"
         },
@@ -156,7 +196,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/ettin",
           "publishedOn": "2025-07-16T00:00:00.000Z",
-          "wordCount": 3410,
+          "wordCount": 3504,
           "title": "Seq vs Seq: the Ettin Suite of Paired Encoders and Decoders",
           "imageUrl": "https://huggingface.co/blog/assets/ettin/thumbnail.png"
         },
@@ -169,96 +209,6 @@
           "wordCount": 2048,
           "title": "Migrating the Hub from Git LFS to Xet",
           "imageUrl": "https://huggingface.co/blog/assets/migrating-the-hub-to-xet/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/async-robot-inference",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/async-robot-inference",
-          "publishedOn": "2025-07-10T00:00:00.000Z",
-          "wordCount": 2440,
-          "title": "Asynchronous Robot Inference: Decoupling Action Prediction and Execution",
-          "imageUrl": "https://huggingface.co/blog/assets/async_inference/thumbnail_async_blog.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/screenenv",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/screenenv",
-          "publishedOn": "2025-07-10T00:00:00.000Z",
-          "wordCount": 1655,
-          "title": "ScreenEnv: Deploy your full stack Desktop Agent",
-          "imageUrl": "https://huggingface.co/blog/assets/screenenv/screenenv.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/building-hf-mcp",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/building-hf-mcp",
-          "publishedOn": "2025-07-10T00:00:00.000Z",
-          "wordCount": 1917,
-          "title": "Building the Hugging Face MCP Server",
-          "imageUrl": "https://huggingface.co/blog/assets/building-hf-mcp/building-hf-mcp.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/reachy-mini",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/reachy-mini",
-          "publishedOn": "2025-07-09T00:00:00.000Z",
-          "wordCount": 2345,
-          "title": "Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders",
-          "imageUrl": "https://huggingface.co/blog/assets/reachy-mini/thumbnail.jpg"
-        },
-        {
-          "id": "https://huggingface.co/blog/mi300kernels",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/mi300kernels",
-          "publishedOn": "2025-07-09T00:00:00.000Z",
-          "wordCount": 6973,
-          "title": "Creating custom kernels for the AMD MI300",
-          "imageUrl": "https://huggingface.co/blog/assets/mi300kernels/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/gradio-mcp-servers",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/gradio-mcp-servers",
-          "publishedOn": "2025-07-09T00:00:00.000Z",
-          "wordCount": 991,
-          "title": "Upskill your LLMs with Gradio MCP Servers",
-          "imageUrl": "https://huggingface.co/blog/assets/upskill-llms-with-gradio-mcp/UpskillThumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/smollm3",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/smollm3",
-          "publishedOn": "2025-07-08T00:00:00.000Z",
-          "wordCount": 4852,
-          "title": "SmolLM3: smol, multilingual, long-context reasoner",
-          "imageUrl": "https://huggingface.co/blog/assets/smollm3/image.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/infrastructure-alerting",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/infrastructure-alerting",
-          "publishedOn": "2025-07-08T00:00:00.000Z",
-          "wordCount": 3443,
-          "title": "Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure",
-          "imageUrl": "https://huggingface.co/blog/assets/infrastructure-alerting/thumbnail.jpg"
-        },
-        {
-          "id": "https://huggingface.co/blog/mmdp",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/mmdp",
-          "publishedOn": "2025-07-08T00:00:00.000Z",
-          "wordCount": 1978,
-          "title": "Efficient MultiModal Data Pipeline",
-          "imageUrl": "https://huggingface.co/blog/assets/mmdp/thumbnail.png"
         }
       ]
     },
@@ -279,7 +229,7 @@
           "description": "<p>In this series of posts, we write a bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>\n<ul>\n<li>Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</li>\n<li>Compiling <abbr title=\"Abstract Syntax Tree\">AST</abbr>s to bytecode.</li>\n<li>Interpreting <abbr title=\"Abstract Syntax Tree\">AST</abbr>s.</li>\n<li>Efficiently executing bytecode in a virtual machine (VM).</li>\n<li>Disassembling bytecode and decompiling opcodes for debugging and testing.</li>\n<li>Unit testing and property-based testing for our compiler and <abbr title=\"Virtual Machine\">VM</abbr>.</li>\n<li>Benchmarking our code to see how the different passes perform.</li>\n<li>All the while keeping an eye on performance.</li>\n</ul>",
           "link": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/?mtm_campaign=feed",
           "publishedOn": "2025-08-02T00:00:00.000Z",
-          "wordCount": 5347,
+          "wordCount": 5378,
           "title": "A Bytecode VM for Arithmetic: The Parser",
           "imageUrl": "https://abhinavsarkar.net/images/arithmetic-bytecode-vm-parser/preview.png"
         }
@@ -291,12 +241,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22152",
+          "author": "Daniel Lemire",
+          "description": "Last week, I was chatting with a student and I was explaining what SIMD instructions were. I was making the point that, in practice, all modern processors have SIMD instructions or the equivalent. Admittedly, some small embedded processors do not, but they lack many other standard features as well. SIMD stands for Single Instruction, Multiple … Continue reading Why do we even need SIMD instructions ?",
+          "link": "https://lemire.me/blog/2025/08/09/why-do-we-even-need-simd-instructions/",
+          "publishedOn": "2025-08-09T21:49:16.000Z",
+          "wordCount": 3517,
+          "title": "Why do we even need SIMD instructions ?",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22141",
           "author": "Daniel Lemire",
           "description": "“All innovation comes from industry is just wrong, universities invented many useful things.” But that’s not the argument. Nobody thinks that Knuth contributed nothing to software programming. Rather the point is that the direction of the arrow is almost entirely wrong. It is not academia → industry → consumers This is almost entirely wrong. I … Continue reading Innovation starts with consumers, not academia",
           "link": "https://lemire.me/blog/2025/07/16/innovation/",
           "publishedOn": "2025-07-16T15:58:54.000Z",
-          "wordCount": 3678,
+          "wordCount": 3598,
           "title": "Innovation starts with consumers, not academia",
           "imageUrl": null
         },
@@ -306,7 +266,7 @@
           "description": "« Normal science, the activity in which most scientists inevitably spend most all their time, is predicated on the assumption that the scientific community knows what the world is like. Normal science often suppresses fundamental novelties because they are necessarily subversive of its basic commitments. As a puzzle-solving activity, normal science does not aim at … Continue reading Rebels on campus",
           "link": "https://lemire.me/blog/2025/07/15/rebels-on-campus/",
           "publishedOn": "2025-07-15T15:49:23.000Z",
-          "wordCount": 3496,
+          "wordCount": 3374,
           "title": "Rebels on campus",
           "imageUrl": null
         },
@@ -316,7 +276,7 @@
           "description": "One of my most popular blog posts of all times is  Data alignment for speed: myth or reality? According to my dashboard, hundreds of people a week still load the old blog post. A few times a year, I get an email from someone who disagrees. The blog post makes a simple point. Programmers are … Continue reading Dot product on misaligned data",
           "link": "https://lemire.me/blog/2025/07/14/dot-product-on-misaligned-data/",
           "publishedOn": "2025-07-14T23:12:29.000Z",
-          "wordCount": 3790,
+          "wordCount": 3668,
           "title": "Dot product on misaligned data",
           "imageUrl": null
         },
@@ -326,28 +286,8 @@
           "description": "Studying productivity is challenging. About 15-20 years ago, I was obsessed over my own productivity. I created a spying agent to monitor my activities and time spent. It would look at which window is opened, and so forth. I would also monitor which web sites were loaded, and so forth. I discovered that I spent … Continue reading Why measuring productivity is hard",
           "link": "https://lemire.me/blog/2025/07/12/why-measuring-productivity-is-hard/",
           "publishedOn": "2025-07-12T17:19:16.000Z",
-          "wordCount": 3181,
+          "wordCount": 3059,
           "title": "Why measuring productivity is hard",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22112",
-          "author": "Daniel Lemire",
-          "description": "The Apple M2, introduced in 2022, and the Apple M4, launched in 2024, are both ARM-based system-on-chip (SoC) designs featuring unified memory architecture. That is, they use the same memory for both graphics (GPU) and main computations (CPU). The M2 processor relies on LPDDR5 memory whereas the M4 relies on LPDDR5X which should provide slightly … Continue reading Memory-level parallelism :: Apple M2 vs Apple M4",
-          "link": "https://lemire.me/blog/2025/07/09/memory-level-parallelism-apple-m2-vs-apple-m4/",
-          "publishedOn": "2025-07-09T20:33:11.000Z",
-          "wordCount": 3646,
-          "title": "Memory-level parallelism :: Apple M2 vs Apple M4",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22097",
-          "author": "Daniel Lemire",
-          "description": "JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is widely used for transmitting data between a server and a web application, due to its simplicity and compatibility with many programming languages. The JSON format has a simple syntax with a fixed number of data types such as strings, numbers, Booleans, null, objects, … Continue reading Just say no to broken JSON",
-          "link": "https://lemire.me/blog/2025/07/04/just-say-no-to-broken-json/",
-          "publishedOn": "2025-07-04T13:49:03.000Z",
-          "wordCount": 3980,
-          "title": "Just say no to broken JSON",
           "imageUrl": null
         }
       ]
@@ -369,7 +309,7 @@
           "description": "I have a friend who exited his startup a few years ago and is now rich. How\nrich is unclear. One day, we were discussing ways to expedite the delivery\nof his superyacht and I suggested paying extra. His response, as to so\nmany of my suggestions, was, “Avery, I’m not that rich.”\nEveryone has their limit.\nI, too, am not that rich. I have shares in a startup that has not exited,\nand they seem to be gracefully ticking up in value as the years pass. But I\nhave to come to work each day, and if I make a few wrong medium-quality\nchoices (not even bad ones!), it could all be vaporized in an instant.\nMeanwhile, I can’t spend it. So what I have is my accumulated savings from a\nlong career of writing software and modest tastes (I like hot dogs).\nThose accumulated savings and modest tastes are enough t…",
           "link": "https://apenwarr.ca/log/20250711",
           "publishedOn": "2025-07-11T16:18:52.000Z",
-          "wordCount": 2181,
+          "wordCount": 2185,
           "title": "Billionaire math",
           "imageUrl": null
         }
@@ -380,6 +320,16 @@
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
+        {
+          "id": "https://curiouscoding.nl/posts/fasta-parsing/",
+          "author": null,
+          "description": "Table of Contents\n1 Minimizing critical sections\n2 RabbitFx: chunking\n3 Different chunking\n4 Experiments\n5 Outlook\nThis is a quick note on some thoughts & experiments on fasta parsing, alongside github:RagnarGrootKoerkamp/fasta-parsing-playground.\nIt’s a common complaint these days that Fasta parsing is slow.\nA common parser is Needletail (github), which builds on seq_io (github).\nAnother recent one is paraseq (github).\nParaseq helps the user by providing an interface for parallel processing of\nreads, see eg this example.\nUnfortunately, this still has a bottleneck: while the users processing of reads\nis multi threaded, the parsing itself is still single threaded.",
+          "link": "https://curiouscoding.nl/posts/fasta-parsing/",
+          "publishedOn": "2025-08-05T22:00:00.000Z",
+          "wordCount": 1092,
+          "title": "Chunking for Fasta Parsing",
+          "imageUrl": null
+        },
         {
           "id": "https://curiouscoding.nl/slides/",
           "author": null,
