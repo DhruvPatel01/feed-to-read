@@ -1,10 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-08-10T01:41:53.794Z</id>
+    <id>urn:2025-08-17T01:28:22.887Z</id>
     <title>osmos::feed</title>
-    <updated>2025-08-10T01:41:53.794Z</updated>
+    <updated>2025-08-17T01:28:22.887Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Reserve First]]></title>
+        <id>https://matklad.github.io/2025/08/16/reserve-first.html</id>
+        <link href="https://matklad.github.io/2025/08/16/reserve-first.html"/>
+        <updated>2025-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A short post about a coding pattern that is relevant for people who use the heap liberally and
+manage memory with their own hands.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Predictable memory accesses are much faster]]></title>
+        <id>https://lemire.me/blog/?p=22158</id>
+        <link href="https://lemire.me/blog/2025/08/15/predictable-memory-accesses-are-much-faster/"/>
+        <updated>2025-08-15T21:42:56.000Z</updated>
+        <summary type="html"><![CDATA[Loading data from memory often takes several nanoseconds. While the processor waits for the data, it may be forced to wait without performing useful work. Hardware prefetchers in modern processors anticipate memory accesses by loading data into the cache before it is requested, thereby optimizing performance. Their effectiveness varies depending on the access pattern: sequential … Continue reading Predictable memory accesses are much faster]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TextQuests: How Good are LLMs at Text-Based Video Games?]]></title>
+        <id>https://huggingface.co/blog/textquests</id>
+        <link href="https://huggingface.co/blog/textquests"/>
+        <updated>2025-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🇵🇭 FilBench - Can LLMs Understand and Generate Filipino?]]></title>
+        <id>https://huggingface.co/blog/filbench</id>
+        <link href="https://huggingface.co/blog/filbench"/>
+        <updated>2025-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three log scientist]]></title>
+        <id>https://curiouscoding.nl/posts/three-log-scientist/</id>
+        <link href="https://curiouscoding.nl/posts/three-log-scientist/"/>
+        <updated>2025-08-11T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A rating system for theoretical computer scientists.
+The more logarithms there are (i.e. the more “\(\log\)” before your variables),
+the higher your reputation will be.
+No-log theoretical computer scientists are virtually non-existent, as virtually
+all non-trivial algorithms require use of logarithms.
+Most are one-log scientists.
+In the old times (well, I’m young, so these look like old times to me at least), one would occasionally find a piece of code done by a three-log scientist and shiver with awe.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Assemblers in w64devkit, and other updates]]></title>
+        <id>https://nullprogram.com/blog/2025/08/10/</id>
+        <link href="https://nullprogram.com/blog/2025/08/10/"/>
+        <updated>2025-08-10T15:42:50.000Z</updated>
+        <summary type="html"><![CDATA[Today I’m releasing w64devkit 2.4.0, mostly for GCC 15.2. As
+usual, it includes the continuous background improvements, and ideally
+each release is the best so far. The first release included the
+Netwide Assembler, NASM, but it’s now been a year since I removed NASM
+from the distribution (2.0.0). I’m asked on occasion why, or how to get it
+back. Because I value thorough source control logs, my justifications for
+this, and all changes, are captured in these logs, so git log is a kind
+of miniature, project blog. I understand this is neither discoverable nor
+obvious, especially because the GitHub UI (ugh) lacks anything like git
+log in the terminal. So let’s talk about it here, along with other recent
+changes.
+NASM is nice assembler, and I still in general prefer its x86 syntax to
+the GNU Ass…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why do we even need SIMD instructions ?]]></title>
         <id>https://lemire.me/blog/?p=22152</id>
@@ -13,6 +92,18 @@
         <summary type="html"><![CDATA[Last week, I was chatting with a student and I was explaining what SIMD instructions were. I was making the point that, in practice, all modern processors have SIMD instructions or the equivalent. Admittedly, some small embedded processors do not, but they lack many other standard features as well. SIMD stands for Single Instruction, Multiple … Continue reading Why do we even need SIMD instructions ?]]></summary>
         <author>
             <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zig's Lovely Syntax]]></title>
+        <id>https://matklad.github.io/2025/08/09/zigs-lovely-syntax.html</id>
+        <link href="https://matklad.github.io/2025/08/09/zigs-lovely-syntax.html"/>
+        <updated>2025-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's a bit of a silly post, because syntax is the least interesting detail about the language, but,
+still, I can't stop thinking how Zig gets this detail just right for the class of curly-braced
+languages, and, well, now you'll have to think about that too.]]></summary>
+        <author>
+            <name>matklad</name>
         </author>
     </entry>
     <entry>
@@ -95,15 +186,17 @@ is multi threaded, the parsing itself is still single threaded.]]></summary>
         <link href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/?mtm_campaign=feed"/>
         <updated>2025-08-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>In this series of posts, we write a bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>
-<ul>
-<li>Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</li>
-<li>Compiling <abbr title="Abstract Syntax Tree">AST</abbr>s to bytecode.</li>
-<li>Interpreting <abbr title="Abstract Syntax Tree">AST</abbr>s.</li>
-<li>Efficiently executing bytecode in a virtual machine (VM).</li>
-<li>Disassembling bytecode and decompiling opcodes for debugging and testing.</li>
-<li>Unit testing and property-based testing for our compiler and <abbr title="Virtual Machine">VM</abbr>.</li>
-<li>Benchmarking our code to see how the different passes perform.</li>
-<li>All the while keeping an eye on performance.</li>
+<ul class="task-list">
+<li><label><input type="checkbox" />Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</label></li>
+<li><label><input type="checkbox" />Unit testing for our parser.</label></li>
+<li><label><input type="checkbox" />Interpreting ASTs.</label></li>
+<li><label><input type="checkbox" />Compiling ASTs to bytecode.</label></li>
+<li><label><input type="checkbox" />Disassembling bytecode and decompiling opcodes for debugging and testing.</label></li>
+<li><label><input type="checkbox" />Unit testing and property-based testing for our compiler.</label></li>
+<li><label><input type="checkbox" />Efficiently executing bytecode in a virtual machine (VM).</label></li>
+<li><label><input type="checkbox" />Unit testing and property-based testing for our <abbr title="Virtual Machine">VM</abbr>.</label></li>
+<li><label><input type="checkbox" />Benchmarking our code to see how the different passes perform.</label></li>
+<li><label><input type="checkbox" />All the while keeping an eye on performance.</label></li>
 </ul>]]></summary>
         <author>
             <name>Posts &amp; Notes on abhinavsarkar.net</name>
@@ -240,142 +333,6 @@ is multi threaded, the parsing itself is still single threaded.]]></summary>
 Given a set of \(n\) keys \(K\subseteq \mathbb K\), build a function \(h\) satisfying]]></summary>
         <author>
             <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arc Virtual Cell Challenge: A Primer]]></title>
-        <id>https://huggingface.co/blog/virtual-cell-challenge</id>
-        <link href="https://huggingface.co/blog/virtual-cell-challenge"/>
-        <updated>2025-07-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consilium: When Multiple LLMs Collaborate]]></title>
-        <id>https://huggingface.co/blog/consilium-multi-llm</id>
-        <link href="https://huggingface.co/blog/consilium-multi-llm"/>
-        <updated>2025-07-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Back to The Future: Evaluating AI Agents on Predicting Future Events]]></title>
-        <id>https://huggingface.co/blog/futurebench</id>
-        <link href="https://huggingface.co/blog/futurebench"/>
-        <updated>2025-07-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Five Big Improvements to Gradio MCP Servers]]></title>
-        <id>https://huggingface.co/blog/gradio-mcp-updates</id>
-        <link href="https://huggingface.co/blog/gradio-mcp-updates"/>
-        <updated>2025-07-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Innovation starts with consumers, not academia]]></title>
-        <id>https://lemire.me/blog/?p=22141</id>
-        <link href="https://lemire.me/blog/2025/07/16/innovation/"/>
-        <updated>2025-07-16T15:58:54.000Z</updated>
-        <summary type="html"><![CDATA[“All innovation comes from industry is just wrong, universities invented many useful things.” But that’s not the argument. Nobody thinks that Knuth contributed nothing to software programming. Rather the point is that the direction of the arrow is almost entirely wrong. It is not academia → industry → consumers This is almost entirely wrong. I … Continue reading Innovation starts with consumers, not academia]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[font-size-adjust Is Useful]]></title>
-        <id>https://matklad.github.io/2025/07/16/font-size-adjust.html</id>
-        <link href="https://matklad.github.io/2025/07/16/font-size-adjust.html"/>
-        <updated>2025-07-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, I will describe a recent addition to CSS, the font-size-adjust property. I am also
-making a bold claim that everyone in the world misunderstands the usefulness of this property,
-including Google,
-MDN, and
-CSS Specification itself.
-(Just to clarify, no, I am not a web designer and I have no idea what I am talking about).]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seq vs Seq: the Ettin Suite of Paired Encoders and Decoders]]></title>
-        <id>https://huggingface.co/blog/ettin</id>
-        <link href="https://huggingface.co/blog/ettin"/>
-        <updated>2025-07-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rebels on campus]]></title>
-        <id>https://lemire.me/blog/?p=22134</id>
-        <link href="https://lemire.me/blog/2025/07/15/rebels-on-campus/"/>
-        <updated>2025-07-15T15:49:23.000Z</updated>
-        <summary type="html"><![CDATA[« Normal science, the activity in which most scientists inevitably spend most all their time, is predicated on the assumption that the scientific community knows what the world is like. Normal science often suppresses fundamental novelties because they are necessarily subversive of its basic commitments. As a puzzle-solving activity, normal science does not aim at … Continue reading Rebels on campus]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating the Hub from Git LFS to Xet]]></title>
-        <id>https://huggingface.co/blog/migrating-the-hub-to-xet</id>
-        <link href="https://huggingface.co/blog/migrating-the-hub-to-xet"/>
-        <updated>2025-07-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dot product on misaligned data]]></title>
-        <id>https://lemire.me/blog/?p=22124</id>
-        <link href="https://lemire.me/blog/2025/07/14/dot-product-on-misaligned-data/"/>
-        <updated>2025-07-14T23:12:29.000Z</updated>
-        <summary type="html"><![CDATA[One of my most popular blog posts of all times is  Data alignment for speed: myth or reality? According to my dashboard, hundreds of people a week still load the old blog post. A few times a year, I get an email from someone who disagrees. The blog post makes a simple point. Programmers are … Continue reading Dot product on misaligned data]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why measuring productivity is hard]]></title>
-        <id>https://lemire.me/blog/?p=22118</id>
-        <link href="https://lemire.me/blog/2025/07/12/why-measuring-productivity-is-hard/"/>
-        <updated>2025-07-12T17:19:16.000Z</updated>
-        <summary type="html"><![CDATA[Studying productivity is challenging. About 15-20 years ago, I was obsessed over my own productivity. I created a spying agent to monitor my activities and time spent. It would look at which window is opened, and so forth. I would also monitor which web sites were loaded, and so forth. I discovered that I spent … Continue reading Why measuring productivity is hard]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Billionaire math]]></title>
-        <id>https://apenwarr.ca/log/20250711</id>
-        <link href="https://apenwarr.ca/log/20250711"/>
-        <updated>2025-07-11T16:18:52.000Z</updated>
-        <summary type="html"><![CDATA[I have a friend who exited his startup a few years ago and is now rich. How
-rich is unclear. One day, we were discussing ways to expedite the delivery
-of his superyacht and I suggested paying extra. His response, as to so
-many of my suggestions, was, “Avery, I’m not that rich.”
-Everyone has their limit.
-I, too, am not that rich. I have shares in a startup that has not exited,
-and they seem to be gracefully ticking up in value as the years pass. But I
-have to come to work each day, and if I make a few wrong medium-quality
-choices (not even bad ones!), it could all be vaporized in an instant.
-Meanwhile, I can’t spend it. So what I have is my accumulated savings from a
-long career of writing software and modest tastes (I like hot dogs).
-Those accumulated savings and modest tastes are enough t…]]></summary>
-        <author>
-            <name>apenwarr</name>
         </author>
     </entry>
 </feed>
