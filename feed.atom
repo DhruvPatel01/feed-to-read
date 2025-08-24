@@ -1,10 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-08-17T01:28:22.887Z</id>
+    <id>urn:2025-08-24T01:25:27.557Z</id>
     <title>osmos::feed</title>
-    <updated>2025-08-17T01:28:22.887Z</updated>
+    <updated>2025-08-24T01:25:27.557Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Retry Loop Retry]]></title>
+        <id>https://matklad.github.io/2025/08/23/retry-loop-retry.html</id>
+        <link href="https://matklad.github.io/2025/08/23/retry-loop-retry.html"/>
+        <updated>2025-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some time ago I lamented that I don't know how to write a retry loop such that:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links]]></title>
+        <id>https://matklad.github.io/2025/08/23/links.html</id>
+        <link href="https://matklad.github.io/2025/08/23/links.html"/>
+        <updated>2025-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you have a blog, consider adding a links page to it, which references resources that you find
+notable:
+https://matklad.github.io/links.html]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Big O]]></title>
+        <id>https://samwho.dev/big-o/</id>
+        <link href="https://samwho.dev/big-o/"/>
+        <updated>2025-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Big O notation is a way of describing the performance of a function without
+using time. Rather than timing a function from start to finish, big O describes
+how the time grows as the input size increases. It is used to help understand
+how programs will perform across a range of inputs.
+In this post I'm going to cover 4 frequently-used categories of big O notation:
+constant, logarithmic, linear, and quadratic. Don't worry if
+these words mean nothing to you right now. I'm going to talk about them in
+detail, as well as visualise them, throughout this post.
+ittybit, and their API for working
+  with videos, images, and audio. If you need to store, encode, or get
+  intelligence from the media files in your app, check them out!
+
+#
+Iterating
+Consider this JavaScript function that calculates the sum…]]></summary>
+        <author>
+            <name>samwho.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Generate Images with Claude and Hugging Face]]></title>
+        <id>https://huggingface.co/blog/claude-and-mcp</id>
+        <link href="https://huggingface.co/blog/claude-and-mcp"/>
+        <updated>2025-08-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels]]></title>
+        <id>https://huggingface.co/blog/kernel-builder</id>
+        <link href="https://huggingface.co/blog/kernel-builder"/>
+        <updated>2025-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MCP for Research: How to Connect AI to Research Tools]]></title>
+        <id>https://huggingface.co/blog/mcp-for-research</id>
+        <link href="https://huggingface.co/blog/mcp-for-research"/>
+        <updated>2025-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reserve First]]></title>
         <id>https://matklad.github.io/2025/08/16/reserve-first.html</id>
@@ -187,9 +263,9 @@ is multi threaded, the parsing itself is still single threaded.]]></summary>
         <updated>2025-08-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>In this series of posts, we write a bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>
 <ul class="task-list">
-<li><label><input type="checkbox" />Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</label></li>
-<li><label><input type="checkbox" />Unit testing for our parser.</label></li>
-<li><label><input type="checkbox" />Interpreting ASTs.</label></li>
+<li><label><input type="checkbox" /><span class="todo">Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</span></label></li>
+<li><label><input type="checkbox" /><span class="todo">Unit testing for our parser.</span></label></li>
+<li><label><input type="checkbox" /><span class="todo">Interpreting ASTs.</span></label></li>
 <li><label><input type="checkbox" />Compiling ASTs to bytecode.</label></li>
 <li><label><input type="checkbox" />Disassembling bytecode and decompiling opcodes for debugging and testing.</label></li>
 <li><label><input type="checkbox" />Unit testing and property-based testing for our compiler.</label></li>
@@ -220,119 +296,6 @@ is multi threaded, the parsing itself is still single threaded.]]></summary>
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨]]></title>
-        <id>https://huggingface.co/blog/hf-cli</id>
-        <link href="https://huggingface.co/blog/hf-cli"/>
-        <updated>2025-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parquet Content-Defined Chunking]]></title>
-        <id>https://huggingface.co/blog/parquet-cdc</id>
-        <link href="https://huggingface.co/blog/parquet-cdc"/>
-        <updated>2025-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TimeScope: How Long Can Your Video Large Multimodal Model Go?]]></title>
-        <id>https://huggingface.co/blog/timescope-video-lmm-benchmark</id>
-        <link href="https://huggingface.co/blog/timescope-video-lmm-benchmark"/>
-        <updated>2025-07-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast LoRA inference for Flux with Diffusers and PEFT]]></title>
-        <id>https://huggingface.co/blog/lora-fast</id>
-        <link href="https://huggingface.co/blog/lora-fast"/>
-        <updated>2025-07-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PtrHash]]></title>
-        <id>https://curiouscoding.nl/slides/</id>
-        <link href="https://curiouscoding.nl/slides/"/>
-        <updated>2025-07-19T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Minimal Perfect Hash Functions
- 
- 
- Link to heading
- 
-
-
- A set of \(n\) keys
- 
- 
- Link to heading
- 
-
-
-
-
-
- A hash function
- 
- 
- Link to heading
- 
-
-
-
-
-
- A hash function: collisions!
- 
- 
- Link to heading
- 
-
-
-
-
-
- A hash function: injective / perfect
- 
- 
- Link to heading
- 
-
-
-
-
-
- A hash function: bijective / minimal & perfect
- 
- 
- Link to heading
- 
-
-
-
-
-
- Problem statement
- 
- 
- Link to heading
- 
-
-Given a set of \(n\) keys \(K\subseteq \mathbb K\), build a function \(h\) satisfying]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
         </author>
     </entry>
 </feed>
