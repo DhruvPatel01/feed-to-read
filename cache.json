@@ -29,6 +29,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html",
+          "author": null,
+          "description": "Non-technical armchair economics post, where I explain my pet theory for why everything on and outside\nof the internet is absolutely infested with ads.",
+          "link": "https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html",
+          "publishedOn": "2025-08-30T00:00:00.000Z",
+          "wordCount": 698,
+          "title": "Ads Are a Positional Good",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2025/08/23/retry-loop-retry.html",
           "author": null,
           "description": "Some time ago I lamented that I don't know how to write a retry loop such that:",
@@ -97,7 +107,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/claude-and-mcp",
           "publishedOn": "2025-08-19T00:00:00.000Z",
-          "wordCount": 971,
+          "wordCount": 986,
           "title": "Generate Images with Claude and Hugging Face",
           "imageUrl": "https://huggingface.co/blog/assets/claude-and-mcp/thumbnail.png"
         },
@@ -167,7 +177,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/trl-vlm-alignment",
           "publishedOn": "2025-08-07T00:00:00.000Z",
-          "wordCount": 2606,
+          "wordCount": 2602,
           "title": "Vision Language Model Alignment in TRL ⚡️",
           "imageUrl": "https://huggingface.co/blog/assets/trl_vlm/thumbnail.png"
         },
@@ -180,26 +190,6 @@
           "wordCount": 4286,
           "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
           "imageUrl": "https://huggingface.co/blog/assets/openai/openai-hf-thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/gradio-vton-mcp",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/gradio-vton-mcp",
-          "publishedOn": "2025-07-31T00:00:00.000Z",
-          "wordCount": 1079,
-          "title": "Build an AI Shopping Assistant with Gradio MCP Servers",
-          "imageUrl": "https://huggingface.co/blog/assets/gradio-vton-mcp/AiAssistantTitle.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/trackio",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/trackio",
-          "publishedOn": "2025-07-29T00:00:00.000Z",
-          "wordCount": 1400,
-          "title": "Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face",
-          "imageUrl": "https://huggingface.co/blog/assets/trackio/thumbnail.gif"
         }
       ]
     },
@@ -214,7 +204,7 @@
           "description": "Big O notation is a way of describing the performance of a function without\nusing time. Rather than timing a function from start to finish, big O describes\nhow the time grows as the input size increases. It is used to help understand\nhow programs will perform across a range of inputs.\nIn this post I'm going to cover 4 frequently-used categories of big O notation:\nconstant, logarithmic, linear, and quadratic. Don't worry if\nthese words mean nothing to you right now. I'm going to talk about them in\ndetail, as well as visualise them, throughout this post.\nittybit, and their API for working\n  with videos, images, and audio. If you need to store, encode, or get\n  intelligence from the media files in your app, check them out!\n\n#\nIterating\nConsider this JavaScript function that calculates the sum…",
           "link": "https://samwho.dev/big-o/",
           "publishedOn": "2025-08-23T00:00:00.000Z",
-          "wordCount": 2675,
+          "wordCount": 2610,
           "title": "Big O",
           "imageUrl": "https://samwho.dev/images/big-o.png?h=360758a0c2f7997bbed5"
         }
@@ -226,13 +216,23 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/?mtm_campaign=feed",
+          "author": null,
+          "description": "<p>In this series of posts, we write a fast bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>\n<ul class=\"task-list\">\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#parsing-expressions\">Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</a></label></li>\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#testing-the-parser\">Unit testing for our parser.</a></label></li>\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#the-ast-interpreter\">Interpreting ASTs.</a></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Compiling ASTs to bytecode.</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Disassembling and decompiling bytecode.</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Unit testing for our compiler.</span></label></li>\n<li><label><input type=\"checkbox\" />Property-based testing for our compiler.</label></li>\n<li><label><input type=\"checkbox\" />Efficiently executing bytecode in a virtual machine (VM).</label></li>\n<li><label><input type=\"checkbox\" />Unit testing and property-based testing for our <abbr title=\"Virtual Machine\">VM</abbr>.</label></li>\n<li><label><input type=\"checkbox\" />Benchmarking our code to see how the different passes perform.</label></li>\n<li><label><input type=\"checkbox\" />All the while keeping an eye on performance.</label></li>\n</ul>\n<p>In this post, we write the compiler for our <abbr title=\"Abstract Syntax Tree\">AST</abbr> to bytecode, and a decompiler for the bytecode.</p>",
+          "link": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/?mtm_campaign=feed",
+          "publishedOn": "2025-08-24T00:00:00.000Z",
+          "wordCount": 6655,
+          "title": "A Fast Bytecode VM for Arithmetic: The Compiler",
+          "imageUrl": "https://abhinavsarkar.net/images/arithmetic-bytecode-vm-compiler/preview.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/?mtm_campaign=feed",
           "author": null,
-          "description": "<p>In this series of posts, we write a bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>\n<ul class=\"task-list\">\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Unit testing for our parser.</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Interpreting ASTs.</span></label></li>\n<li><label><input type=\"checkbox\" />Compiling ASTs to bytecode.</label></li>\n<li><label><input type=\"checkbox\" />Disassembling bytecode and decompiling opcodes for debugging and testing.</label></li>\n<li><label><input type=\"checkbox\" />Unit testing and property-based testing for our compiler.</label></li>\n<li><label><input type=\"checkbox\" />Efficiently executing bytecode in a virtual machine (VM).</label></li>\n<li><label><input type=\"checkbox\" />Unit testing and property-based testing for our <abbr title=\"Virtual Machine\">VM</abbr>.</label></li>\n<li><label><input type=\"checkbox\" />Benchmarking our code to see how the different passes perform.</label></li>\n<li><label><input type=\"checkbox\" />All the while keeping an eye on performance.</label></li>\n</ul>",
+          "description": "<p>In this series of posts, we write a fast bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>\n<ul class=\"task-list\">\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Unit testing for our parser.</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Interpreting ASTs.</span></label></li>\n<li><label><input type=\"checkbox\" />Compiling ASTs to bytecode.</label></li>\n<li><label><input type=\"checkbox\" />Disassembling and decompiling bytecode.</label></li>\n<li><label><input type=\"checkbox\" />Unit testing for our compiler.</label></li>\n<li><label><input type=\"checkbox\" />Property-based testing for our compiler.</label></li>\n<li><label><input type=\"checkbox\" />Efficiently executing bytecode in a virtual machine (VM).</label></li>\n<li><label><input type=\"checkbox\" />Unit testing and property-based testing for our <abbr title=\"Virtual Machine\">VM</abbr>.</label></li>\n<li><label><input type=\"checkbox\" />Benchmarking our code to see how the different passes perform.</label></li>\n<li><label><input type=\"checkbox\" />All the while keeping an eye on performance.</label></li>\n</ul>\n<p>In this post, we write the parser for our expression language to an <abbr title=\"Abstract Syntax Tree\">AST</abbr>, and an <abbr title=\"Abstract Syntax Tree\">AST</abbr> interpreter.</p>",
           "link": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/?mtm_campaign=feed",
           "publishedOn": "2025-08-02T00:00:00.000Z",
-          "wordCount": 5584,
-          "title": "A Bytecode VM for Arithmetic: The Parser",
+          "wordCount": 5607,
+          "title": "A Fast Bytecode VM for Arithmetic: The Parser",
           "imageUrl": "https://abhinavsarkar.net/images/arithmetic-bytecode-vm-parser/preview.png"
         }
       ]
@@ -243,12 +243,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22175",
+          "author": "Daniel Lemire",
+          "description": "My favorite text editor is Visual Studio Code. I estimate that it is likely the most popular software development environment. Many major software corporations have adopted Visual Studio Code. The naming is a bit strange because Visual Studio Code has almost nothing to do with Visual Studio, except for the fact that it comes from … Continue reading Debugging C++ with Visual Studio Code under macOS",
+          "link": "https://lemire.me/blog/2025/08/24/debugging-c-with-visual-studio-code-under-macos/",
+          "publishedOn": "2025-08-24T19:51:49.000Z",
+          "wordCount": 3633,
+          "title": "Debugging C++ with Visual Studio Code under macOS",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22158",
           "author": "Daniel Lemire",
           "description": "Loading data from memory often takes several nanoseconds. While the processor waits for the data, it may be forced to wait without performing useful work. Hardware prefetchers in modern processors anticipate memory accesses by loading data into the cache before it is requested, thereby optimizing performance. Their effectiveness varies depending on the access pattern: sequential … Continue reading Predictable memory accesses are much faster",
           "link": "https://lemire.me/blog/2025/08/15/predictable-memory-accesses-are-much-faster/",
           "publishedOn": "2025-08-15T21:42:56.000Z",
-          "wordCount": 3327,
+          "wordCount": 3373,
           "title": "Predictable memory accesses are much faster",
           "imageUrl": null
         },
@@ -258,7 +268,7 @@
           "description": "Last week, I was chatting with a student and I was explaining what SIMD instructions were. I was making the point that, in practice, all modern processors have SIMD instructions or the equivalent. Admittedly, some small embedded processors do not, but they lack many other standard features as well. SIMD stands for Single Instruction, Multiple … Continue reading Why do we even need SIMD instructions ?",
           "link": "https://lemire.me/blog/2025/08/09/why-do-we-even-need-simd-instructions/",
           "publishedOn": "2025-08-09T21:49:16.000Z",
-          "wordCount": 5158,
+          "wordCount": 5162,
           "title": "Why do we even need SIMD instructions ?",
           "imageUrl": null
         }
@@ -281,6 +291,16 @@
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
+        {
+          "id": "https://curiouscoding.nl/pages/cv/",
+          "author": null,
+          "description": "Name: Groot Koerkamp, Ragnar\n\n Link to heading\n \n\n\n01/10/2021 - 01/05/2025\nPhD at the Biomedical Informatics Lab at ETH Zurich.\nOptimal Throughput Bioinformatics\n01/01/2021 - 01/09/2021\nInternship at the Biomedical Informatics Lab at ETH Zurich.\n01/10/2017 - 01/05/2020\nSoftware Engineer III at Google Zurich\n01/10/2016 - 01/10/2017\nMSc. Mathematics and the Foundations of Computer Science at University of Oxford (distinction)\nOn rainbow free colourings of uniform hypergraphs\n01/09/2013 - 01/08/2016\nBSc. Mathematics at Utrecht University (cum laude)\nUtrecht University (cum laude)\nUtrecht University\nCalculating the stable gonality of finite graphs (grade 9.5/10)\n\n Link to heading\n \n\nIncludes papers, preprints, and blog posts.",
+          "link": "https://curiouscoding.nl/pages/cv/",
+          "publishedOn": "2025-08-29T22:00:00.000Z",
+          "wordCount": 861,
+          "title": "CV",
+          "imageUrl": null
+        },
         {
           "id": "https://curiouscoding.nl/posts/three-log-scientist/",
           "author": null,
