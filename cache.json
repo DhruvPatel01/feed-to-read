@@ -4,18 +4,7 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2025/08/10/",
-          "author": null,
-          "description": "Today I’m releasing w64devkit 2.4.0, mostly for GCC 15.2. As\nusual, it includes the continuous background improvements, and ideally\neach release is the best so far. The first release included the\nNetwide Assembler, NASM, but it’s now been a year since I removed NASM\nfrom the distribution (2.0.0). I’m asked on occasion why, or how to get it\nback. Because I value thorough source control logs, my justifications for\nthis, and all changes, are captured in these logs, so git log is a kind\nof miniature, project blog. I understand this is neither discoverable nor\nobvious, especially because the GitHub UI (ugh) lacks anything like git\nlog in the terminal. So let’s talk about it here, along with other recent\nchanges.\nNASM is nice assembler, and I still in general prefer its x86 syntax to\nthe GNU Ass…",
-          "link": "https://nullprogram.com/blog/2025/08/10/",
-          "publishedOn": "2025-08-10T15:42:50.000Z",
-          "wordCount": 1150,
-          "title": "Assemblers in w64devkit, and other updates",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Nim Programming Language",
@@ -87,16 +76,6 @@
           "wordCount": 1014,
           "title": "Reserve First",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/08/09/zigs-lovely-syntax.html",
-          "author": null,
-          "description": "It's a bit of a silly post, because syntax is the least interesting detail about the language, but,\nstill, I can't stop thinking how Zig gets this detail just right for the class of curly-braced\nlanguages, and, well, now you'll have to think about that too.",
-          "link": "https://matklad.github.io/2025/08/09/zigs-lovely-syntax.html",
-          "publishedOn": "2025-08-09T00:00:00.000Z",
-          "wordCount": 4157,
-          "title": "Zig's Lovely Syntax",
-          "imageUrl": null
         }
       ]
     },
@@ -112,12 +91,42 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/faster-transformers",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/faster-transformers",
+          "publishedOn": "2025-09-11T00:00:00.000Z",
+          "wordCount": 3579,
+          "title": "Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers",
+          "imageUrl": "https://huggingface.co/blog/assets/faster-transformers/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/jupyter-agent-2",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/jupyter-agent-2",
+          "publishedOn": "2025-09-10T00:00:00.000Z",
+          "wordCount": 3144,
+          "title": "Jupyter Agents: training LLMs to reason with notebooks",
+          "imageUrl": "https://huggingface.co/blog/assets/jupyter-agent-2/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/mmbert",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/mmbert",
+          "publishedOn": "2025-09-09T00:00:00.000Z",
+          "wordCount": 3236,
+          "title": "mmBERT: ModernBERT goes Multilingual",
+          "imageUrl": "https://huggingface.co/blog/assets/mmbert/thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/embeddinggemma",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/embeddinggemma",
           "publishedOn": "2025-09-04T00:00:00.000Z",
-          "wordCount": 5750,
+          "wordCount": 5954,
           "title": "Welcome EmbeddingGemma, Google's new efficient embedding model",
           "imageUrl": "https://huggingface.co/blog/assets/embeddinggemma/thumbnail.png"
         },
@@ -127,7 +136,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/zerogpu-aoti",
           "publishedOn": "2025-09-02T00:00:00.000Z",
-          "wordCount": 2622,
+          "wordCount": 2936,
           "title": "Make your ZeroGPU Spaces go brrr with PyTorch ahead-of-time compilation",
           "imageUrl": "https://huggingface.co/blog/assets/zerogpu-aoti/thumbnail.png"
         },
@@ -137,7 +146,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/claude-and-mcp",
           "publishedOn": "2025-08-19T00:00:00.000Z",
-          "wordCount": 2107,
+          "wordCount": 1007,
           "title": "Generate Images with Claude and Hugging Face",
           "imageUrl": "https://huggingface.co/blog/assets/claude-and-mcp/thumbnail.png"
         },
@@ -147,7 +156,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/kernel-builder",
           "publishedOn": "2025-08-18T00:00:00.000Z",
-          "wordCount": 3682,
+          "wordCount": 3676,
           "title": "From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels",
           "imageUrl": "https://huggingface.co/blog/assets/kernel-builder/kernel-builder.png"
         },
@@ -160,26 +169,6 @@
           "wordCount": 841,
           "title": "MCP for Research: How to Connect AI to Research Tools",
           "imageUrl": "https://huggingface.co/blog/assets/mcp-for-research/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/textquests",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/textquests",
-          "publishedOn": "2025-08-12T00:00:00.000Z",
-          "wordCount": 1319,
-          "title": "TextQuests: How Good are LLMs at Text-Based Video Games?",
-          "imageUrl": "https://huggingface.co/blog/assets/textquests/thumbnail.gif"
-        },
-        {
-          "id": "https://huggingface.co/blog/filbench",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/filbench",
-          "publishedOn": "2025-08-12T00:00:00.000Z",
-          "wordCount": 1401,
-          "title": "🇵🇭 FilBench - Can LLMs Understand and Generate Filipino?",
-          "imageUrl": "https://huggingface.co/blog/assets/filbench/thumbnail.png"
         }
       ]
     },
@@ -223,12 +212,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22190",
+          "author": "Daniel Lemire",
+          "description": "Suppose that you have a long string and you want to insert line breaks every 72 characters. You might need to do this if you need to write a public cryptographic key to a text file. A simple C function ought to suffice. I use the letter K to indicate the length of the lines. … Continue reading Splitting a long string in lines efficiently",
+          "link": "https://lemire.me/blog/2025/09/07/splitting-a-long-string-in-lines-efficiently/",
+          "publishedOn": "2025-09-07T19:44:56.000Z",
+          "wordCount": 3490,
+          "title": "Splitting a long string in lines efficiently",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22187",
           "author": "Daniel Lemire",
           "description": "Our processors execute instructions based on a clock. Thus, a 4 GHz processor has 4 billion cycles per second. It is difficult to increase the clock frequency of our processors. If you go much beyond 5 GHz, your processor is likely to overheat or otherwise fail. So, how do we go faster? Modern processors can … Continue reading Processors are getting wider",
           "link": "https://lemire.me/blog/2025/09/01/processors-are-getting-wider/",
           "publishedOn": "2025-09-01T14:26:18.000Z",
-          "wordCount": 3499,
+          "wordCount": 3743,
           "title": "Processors are getting wider",
           "imageUrl": null
         },
@@ -238,7 +237,7 @@
           "description": "My favorite text editor is Visual Studio Code. I estimate that it is likely the most popular software development environment. Many major software corporations have adopted Visual Studio Code. The naming is a bit strange because Visual Studio Code has almost nothing to do with Visual Studio, except for the fact that it comes from … Continue reading Debugging C++ with Visual Studio Code under macOS",
           "link": "https://lemire.me/blog/2025/08/24/debugging-c-with-visual-studio-code-under-macos/",
           "publishedOn": "2025-08-24T19:51:49.000Z",
-          "wordCount": 3663,
+          "wordCount": 3667,
           "title": "Debugging C++ with Visual Studio Code under macOS",
           "imageUrl": null
         },
@@ -248,18 +247,8 @@
           "description": "Loading data from memory often takes several nanoseconds. While the processor waits for the data, it may be forced to wait without performing useful work. Hardware prefetchers in modern processors anticipate memory accesses by loading data into the cache before it is requested, thereby optimizing performance. Their effectiveness varies depending on the access pattern: sequential … Continue reading Predictable memory accesses are much faster",
           "link": "https://lemire.me/blog/2025/08/15/predictable-memory-accesses-are-much-faster/",
           "publishedOn": "2025-08-15T21:42:56.000Z",
-          "wordCount": 3365,
+          "wordCount": 3369,
           "title": "Predictable memory accesses are much faster",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22152",
-          "author": "Daniel Lemire",
-          "description": "Last week, I was chatting with a student and I was explaining what SIMD instructions were. I was making the point that, in practice, all modern processors have SIMD instructions or the equivalent. Admittedly, some small embedded processors do not, but they lack many other standard features as well. SIMD stands for Single Instruction, Multiple … Continue reading Why do we even need SIMD instructions ?",
-          "link": "https://lemire.me/blog/2025/08/09/why-do-we-even-need-simd-instructions/",
-          "publishedOn": "2025-08-09T21:49:16.000Z",
-          "wordCount": 5154,
-          "title": "Why do we even need SIMD instructions ?",
           "imageUrl": null
         }
       ]
@@ -289,16 +278,6 @@
           "publishedOn": "2025-08-29T22:00:00.000Z",
           "wordCount": 861,
           "title": "CV",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/three-log-scientist/",
-          "author": null,
-          "description": "A rating system for theoretical computer scientists.\nThe more logarithms there are (i.e. the more “\\(\\log\\)” before your variables),\nthe higher your reputation will be.\nNo-log theoretical computer scientists are virtually non-existent, as virtually\nall non-trivial algorithms require use of logarithms.\nMost are one-log scientists.\nIn the old times (well, I’m young, so these look like old times to me at least), one would occasionally find a piece of code done by a three-log scientist and shiver with awe.",
-          "link": "https://curiouscoding.nl/posts/three-log-scientist/",
-          "publishedOn": "2025-08-11T22:00:00.000Z",
-          "wordCount": 169,
-          "title": "Three log scientist",
           "imageUrl": null
         }
       ]
