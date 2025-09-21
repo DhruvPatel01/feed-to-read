@@ -23,7 +23,7 @@
           "description": "One of my biggest mid-career shifts in how I write code was internalizing the idea from this post:\nDon't Write Bugs",
           "link": "https://matklad.github.io/2025/09/04/look-for-bugs.html",
           "publishedOn": "2025-09-04T00:00:00.000Z",
-          "wordCount": 894,
+          "wordCount": 893,
           "title": "Look Out For Bugs",
           "imageUrl": null
         },
@@ -66,16 +66,6 @@
           "wordCount": 202,
           "title": "Links",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2025/08/16/reserve-first.html",
-          "author": null,
-          "description": "A short post about a coding pattern that is relevant for people who use the heap liberally and\nmanage memory with their own hands.",
-          "link": "https://matklad.github.io/2025/08/16/reserve-first.html",
-          "publishedOn": "2025-08-16T00:00:00.000Z",
-          "wordCount": 1014,
-          "title": "Reserve First",
-          "imageUrl": null
         }
       ]
     },
@@ -90,6 +80,56 @@
       "feedUrl": "https://huggingface.co/blog/feed.xml",
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
+        {
+          "id": "https://huggingface.co/blog/inference-providers-scaleway",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/inference-providers-scaleway",
+          "publishedOn": "2025-09-19T00:00:00.000Z",
+          "wordCount": 928,
+          "title": "Scaleway on Hugging Face Inference Providers 🔥",
+          "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-scaleway.jpg"
+        },
+        {
+          "id": "https://huggingface.co/blog/riskrubric",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/riskrubric",
+          "publishedOn": "2025-09-18T00:00:00.000Z",
+          "wordCount": 947,
+          "title": "Democratizing AI Safety with RiskRubric.ai",
+          "imageUrl": "https://huggingface.co/blog/assets/riskrubric/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/inference-providers-publicai",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/inference-providers-publicai",
+          "publishedOn": "2025-09-17T00:00:00.000Z",
+          "wordCount": 1005,
+          "title": "Public AI on Hugging Face Inference Providers 🔥",
+          "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-publicai.jpg"
+        },
+        {
+          "id": "https://huggingface.co/blog/lerobot-datasets-v3",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/lerobot-datasets-v3",
+          "publishedOn": "2025-09-16T00:00:00.000Z",
+          "wordCount": 2337,
+          "title": "`LeRobotDataset`: Bringing large-scale datasets to lerobot",
+          "imageUrl": "https://huggingface.co/blog/assets/lerobot-dataset-v3/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/watermarking-with-gradio",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/watermarking-with-gradio",
+          "publishedOn": "2025-09-15T00:00:00.000Z",
+          "wordCount": 502,
+          "title": "Visible Watermarking with Gradio",
+          "imageUrl": "https://huggingface.co/blog/assets/watermarking_with_gradio/thumbnail.png"
+        },
         {
           "id": "https://huggingface.co/blog/faster-transformers",
           "author": null,
@@ -116,7 +156,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/mmbert",
           "publishedOn": "2025-09-09T00:00:00.000Z",
-          "wordCount": 3236,
+          "wordCount": 3295,
           "title": "mmBERT: ModernBERT goes Multilingual",
           "imageUrl": "https://huggingface.co/blog/assets/mmbert/thumbnail.png"
         },
@@ -126,7 +166,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/embeddinggemma",
           "publishedOn": "2025-09-04T00:00:00.000Z",
-          "wordCount": 5954,
+          "wordCount": 6100,
           "title": "Welcome EmbeddingGemma, Google's new efficient embedding model",
           "imageUrl": "https://huggingface.co/blog/assets/embeddinggemma/thumbnail.png"
         },
@@ -136,39 +176,9 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/zerogpu-aoti",
           "publishedOn": "2025-09-02T00:00:00.000Z",
-          "wordCount": 2936,
+          "wordCount": 2927,
           "title": "Make your ZeroGPU Spaces go brrr with PyTorch ahead-of-time compilation",
           "imageUrl": "https://huggingface.co/blog/assets/zerogpu-aoti/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/claude-and-mcp",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/claude-and-mcp",
-          "publishedOn": "2025-08-19T00:00:00.000Z",
-          "wordCount": 1007,
-          "title": "Generate Images with Claude and Hugging Face",
-          "imageUrl": "https://huggingface.co/blog/assets/claude-and-mcp/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/kernel-builder",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/kernel-builder",
-          "publishedOn": "2025-08-18T00:00:00.000Z",
-          "wordCount": 3676,
-          "title": "From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels",
-          "imageUrl": "https://huggingface.co/blog/assets/kernel-builder/kernel-builder.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/mcp-for-research",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/mcp-for-research",
-          "publishedOn": "2025-08-18T00:00:00.000Z",
-          "wordCount": 841,
-          "title": "MCP for Research: How to Connect AI to Research Tools",
-          "imageUrl": "https://huggingface.co/blog/assets/mcp-for-research/thumbnail.png"
         }
       ]
     },
@@ -239,16 +249,6 @@
           "publishedOn": "2025-08-24T19:51:49.000Z",
           "wordCount": 3667,
           "title": "Debugging C++ with Visual Studio Code under macOS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22158",
-          "author": "Daniel Lemire",
-          "description": "Loading data from memory often takes several nanoseconds. While the processor waits for the data, it may be forced to wait without performing useful work. Hardware prefetchers in modern processors anticipate memory accesses by loading data into the cache before it is requested, thereby optimizing performance. Their effectiveness varies depending on the access pattern: sequential … Continue reading Predictable memory accesses are much faster",
-          "link": "https://lemire.me/blog/2025/08/15/predictable-memory-accesses-are-much-faster/",
-          "publishedOn": "2025-08-15T21:42:56.000Z",
-          "wordCount": 3369,
-          "title": "Predictable memory accesses are much faster",
           "imageUrl": null
         }
       ]
