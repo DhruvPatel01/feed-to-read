@@ -1,16 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-09-28T01:20:42.969Z</id>
+    <id>urn:2025-10-05T01:20:12.987Z</id>
     <title>osmos::feed</title>
-    <updated>2025-09-28T01:20:42.969Z</updated>
+    <updated>2025-10-05T01:20:12.987Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-04/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-04/?mtm_campaign=feed"/>
+        <updated>2025-10-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Inspired by a session at my local IndieWebClub meeting, I’m restarting my practice of writing weeknotes. Let’s see how it goes. This note covers the week of 28th Sep–4th Oct, and a few days before.
+
+
+This week I was on vacation. We initially decided to drive to Pondicherry but changed the plans after realizing how much trouble it would be with a toddler.
+I have been mostly resting. I’m still not recovered enough to do heavy physical activities, so I’ve been taking small walks only.
+A lot of time was spent in the bed, just resting. My wife recommended me to read the book Rest
+by Alex Soojung-Kim Pang.
+Last weekend we went to a good friend’s birthday party in the Cubbon park. It was a park picnic party and people joined and left all through the day. I found being in the park really relaxing,…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond papers: rethinking science in the era of artificial intelligence]]></title>
+        <id>https://lemire.me/blog/?p=22209</id>
+        <link href="https://lemire.me/blog/2025/10/03/beyond-papers-rethinking-science-in-the-era-of-artificial-intelligence/"/>
+        <updated>2025-10-03T19:18:13.000Z</updated>
+        <summary type="html"><![CDATA[For the last few decades, we have defined science by the publication of peer-reviewed research. That is, a scientist is someone who can write a paper and have it reviewed by two or four other scientists who conclude that the work is credible. Notice how this is a circular definition: it defines a scientist as, … Continue reading Beyond papers: rethinking science in the era of artificial intelligence]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SOTA OCR on-device with Core ML and dots.ocr]]></title>
+        <id>https://huggingface.co/blog/dots-ocr-ne</id>
+        <link href="https://huggingface.co/blog/dots-ocr-ne"/>
+        <updated>2025-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing RTEB: A New Standard for Retrieval Evaluation]]></title>
+        <id>https://huggingface.co/blog/rteb</id>
+        <link href="https://huggingface.co/blog/rteb"/>
+        <updated>2025-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More speculations on arenas in C++]]></title>
+        <id>https://nullprogram.com/blog/2025/09/30/</id>
+        <link href="https://nullprogram.com/blog/2025/09/30/"/>
+        <updated>2025-09-30T11:46:16.000Z</updated>
+        <summary type="html"><![CDATA[Patrice Roy’s new book, C++ Memory Management, has made me more
+conscious of object lifetimes. C++ is stricter than C about lifetimes, and
+common, textbook memory management that’s sound in C is less so in C++ —
+more than I realized. The book also presents a form of arena allocation
+so watered down as to enjoy none of the benefits. (Despite its precision
+otherwise, the second half is also littered with integer overflows
+lacking the appropriate checks, and near the end has some pointer
+overflows invalidating the check.) However, I’m grateful for the new
+insights, and it’s made me revisit my own C++ arena allocation. In
+this new light I see I got it subtly wrong myself!
+Surprising to most C++ programmers, but not language lawyers, idiomatic C
+memory allocation was ill-formed in C++ until rec…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sorting by Similarity in Miniflux]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-miniflux-similar-sorting/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-miniflux-similar-sorting/?mtm_campaign=feed"/>
+        <updated>2025-09-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>As mentioned by in <a href="https://abhinavsarkar.net/notes/2025-customizing-miniflux/">a previous note</a>, I have customized <a href="https://miniflux.app/" target="_blank" rel="noopener">Miniflux</a>, my preferred feed reader, to add custom sorting for the articles. Recently, I added another sorting option: sorting by similarity. I kept finding myself wanting to read articles grouped by their topics, instead of hopping from topic to topic while going through my feed. So I build it:</p>
+<figure>
+<img src="" class="lazyload ascii-art nolink w-80pct"
+data-src="https://fantastic.earth/system/media_attachments/files/115/282/065/166/451/598/original/13587c60f959bdf4.png"
+alt="Screenshot of the Miniflux reader showing articles sorted by similarity" />
+<noscript><img
+src="https://fantastic.earth/system/media_attachments/files/115/282/065/166/451/598/original/13587c60f959bdf4.png"
+class="ascii-art nolink w-80pct"
+alt="Screenshot of the Miniflux reader showing articles sorted by similarity" /></noscript>
+<figcaption>Screenshot of the Miniflux reader showing articles sorted by similarity</figcaption>
+</figure>]]></summary>
+        <author>
+            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sorting by Similarity in Miniflux]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-miniflux-similar-sorting/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-miniflux-similar-sorting/?mtm_campaign=feed"/>
+        <updated>2025-09-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>As mentioned by in <a href="https://abhinavsarkar.net/notes/2025-customizing-miniflux/">a previous note</a>, I have customized <a href="https://miniflux.app/" target="_blank" rel="noopener">Miniflux</a>, my preferred feed reader, to add custom sorting for the articles. Recently, I added another sorting option: sorting by similarity. I kept finding myself wanting to read articles grouped by their topics, instead of hopping from topic to topic while going through my feed. So I build it:</p>
+<figure>
+<img src="" class="lazyload ascii-art nolink w-80pct"
+data-src="https://fantastic.earth/system/media_attachments/files/115/282/065/166/451/598/original/13587c60f959bdf4.png"
+alt="Screenshot of the Miniflux reader showing articles sorted by similarity" />
+<noscript><img
+src="https://fantastic.earth/system/media_attachments/files/115/282/065/166/451/598/original/13587c60f959bdf4.png"
+class="ascii-art nolink w-80pct"
+alt="Screenshot of the Miniflux reader showing articles sorted by similarity" /></noscript>
+<figcaption>Screenshot of the Miniflux reader showing articles sorted by similarity</figcaption>
+</figure>]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The smallest number that is infinite]]></title>
+        <id>https://lemire.me/blog/?p=22202</id>
+        <link href="https://lemire.me/blog/2025/09/29/smallest-number-string-that-is-infinite/"/>
+        <updated>2025-09-29T21:28:33.000Z</updated>
+        <summary type="html"><![CDATA[In software, we represent real numbers as binary floating-point numbers. Effectively, we represent real numbers as a fixed-precision integer (the significand) multiplied by a power of two. Thus we do not represent exactly the number ‘pi’, but we get a very close approximation: 3.141592653589793115997963468544185161590576171875.  The first 16 digits are exact. You can represent the approximation … Continue reading The smallest number that is infinite]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models]]></title>
+        <id>https://huggingface.co/blog/intel-qwen3-agent</id>
+        <link href="https://huggingface.co/blog/intel-qwen3-agent"/>
+        <updated>2025-09-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VibeGame: Exploring Vibe Coding Games]]></title>
+        <id>https://huggingface.co/blog/vibegame</id>
+        <link href="https://huggingface.co/blog/vibegame"/>
+        <updated>2025-09-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Swift Transformers Reaches 1.0 — and Looks to the Future]]></title>
         <id>https://huggingface.co/blog/swift-transformers</id>
         <link href="https://huggingface.co/blog/swift-transformers"/>
         <updated>2025-09-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -41,6 +178,7 @@ The above description is probably confusing on its own, and an example is…]]><
         <id>https://huggingface.co/blog/smol2operator</id>
         <link href="https://huggingface.co/blog/smol2operator"/>
         <updated>2025-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -89,6 +227,7 @@ The above description is probably confusing on its own, and an example is…]]><
         <id>https://huggingface.co/blog/inference-providers-publicai</id>
         <link href="https://huggingface.co/blog/inference-providers-publicai"/>
         <updated>2025-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -138,7 +277,6 @@ The above description is probably confusing on its own, and an example is…]]><
         <id>https://huggingface.co/blog/mmbert</id>
         <link href="https://huggingface.co/blog/mmbert"/>
         <updated>2025-09-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -161,118 +299,6 @@ The above description is probably confusing on its own, and an example is…]]><
         <summary type="html"><![CDATA[Suppose that you have a long string and you want to insert line breaks every 72 characters. You might need to do this if you need to write a public cryptographic key to a text file. A simple C function ought to suffice. I use the letter K to indicate the length of the lines. … Continue reading Splitting a long string in lines efficiently]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Look Out For Bugs]]></title>
-        <id>https://matklad.github.io/2025/09/04/look-for-bugs.html</id>
-        <link href="https://matklad.github.io/2025/09/04/look-for-bugs.html"/>
-        <updated>2025-09-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[One of my biggest mid-career shifts in how I write code was internalizing the idea from this post:
-Don't Write Bugs]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome EmbeddingGemma, Google's new efficient embedding model]]></title>
-        <id>https://huggingface.co/blog/embeddinggemma</id>
-        <link href="https://huggingface.co/blog/embeddinggemma"/>
-        <updated>2025-09-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make your ZeroGPU Spaces go brrr with PyTorch ahead-of-time compilation]]></title>
-        <id>https://huggingface.co/blog/zerogpu-aoti</id>
-        <link href="https://huggingface.co/blog/zerogpu-aoti"/>
-        <updated>2025-09-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Processors are getting wider]]></title>
-        <id>https://lemire.me/blog/?p=22187</id>
-        <link href="https://lemire.me/blog/2025/09/01/processors-are-getting-wider/"/>
-        <updated>2025-09-01T14:26:18.000Z</updated>
-        <summary type="html"><![CDATA[Our processors execute instructions based on a clock. Thus, a 4 GHz processor has 4 billion cycles per second. It is difficult to increase the clock frequency of our processors. If you go much beyond 5 GHz, your processor is likely to overheat or otherwise fail. So, how do we go faster? Modern processors can … Continue reading Processors are getting wider]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vibe Coding Terminal Editor]]></title>
-        <id>https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html</id>
-        <link href="https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html"/>
-        <updated>2025-08-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I wrote a small tool for myself as my biannual
-routine check of where llms are currently at. I think I've learned a bunch from this exercise. This
-is frustrating! I don't want to learn by trial and error, I'd rather read someone's blog post with
-lessons learned. Sadly, most of the writing on the topic that percolates to me tends to be
-high-level --- easy to nod along while reading, but hard to extract actionable lessons. So this is
-what I want to do here, list specific tricks learned.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Got into Programming]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-into-programming/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-into-programming/?mtm_campaign=feed"/>
-        <updated>2025-08-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I grew up in a small town in India in the early 90s where I literally had no idea what a computer was till I was ten years old. Only a few rich and/or specialized people in the whole country probably had access to personal computers. All the work in offices was done on paper, and most public schools (I went to one) didn’t have funds to have functioning toilets, let alone computers.</p>]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ads Are a Positional Good]]></title>
-        <id>https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html</id>
-        <link href="https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html"/>
-        <updated>2025-08-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Non-technical armchair economics post, where I explain my pet theory for why everything on and outside
-of the internet is absolutely infested with ads.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CV]]></title>
-        <id>https://curiouscoding.nl/pages/cv/</id>
-        <link href="https://curiouscoding.nl/pages/cv/"/>
-        <updated>2025-08-29T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Name: Groot Koerkamp, Ragnar
-
- Link to heading
- 
-
-
-01/10/2021 - 01/05/2025
-PhD at the Biomedical Informatics Lab at ETH Zurich.
-Optimal Throughput Bioinformatics
-01/01/2021 - 01/09/2021
-Internship at the Biomedical Informatics Lab at ETH Zurich.
-01/10/2017 - 01/05/2020
-Software Engineer III at Google Zurich
-01/10/2016 - 01/10/2017
-MSc. Mathematics and the Foundations of Computer Science at University of Oxford (distinction)
-On rainbow free colourings of uniform hypergraphs
-01/09/2013 - 01/08/2016
-BSc. Mathematics at Utrecht University (cum laude)
-Utrecht University (cum laude)
-Utrecht University
-Calculating the stable gonality of finite graphs (grade 9.5/10)
-
- Link to heading
- 
-
-Includes papers, preprints, and blog posts.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
         </author>
     </entry>
 </feed>
