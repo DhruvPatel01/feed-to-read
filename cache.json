@@ -11,7 +11,7 @@
           "description": "Patrice Roy’s new book, C++ Memory Management, has made me more\nconscious of object lifetimes. C++ is stricter than C about lifetimes, and\ncommon, textbook memory management that’s sound in C is less so in C++ —\nmore than I realized. The book also presents a form of arena allocation\nso watered down as to enjoy none of the benefits. (Despite its precision\notherwise, the second half is also littered with integer overflows\nlacking the appropriate checks, and near the end has some pointer\noverflows invalidating the check.) However, I’m grateful for the new\ninsights, and it’s made me revisit my own C++ arena allocation. In\nthis new light I see I got it subtly wrong myself!\nSurprising to most C++ programmers, but not language lawyers, idiomatic C\nmemory allocation was ill-formed in C++ until rec…",
           "link": "https://nullprogram.com/blog/2025/09/30/",
           "publishedOn": "2025-09-30T11:46:16.000Z",
-          "wordCount": 834,
+          "wordCount": 907,
           "title": "More speculations on arenas in C++",
           "imageUrl": null
         },
@@ -66,7 +66,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/rteb",
           "publishedOn": "2025-10-01T00:00:00.000Z",
-          "wordCount": 2825,
+          "wordCount": 2936,
           "title": "Introducing RTEB: A New Standard for Retrieval Evaluation",
           "imageUrl": "https://huggingface.co/blog/assets/rteb/thumbnail.png"
         },
@@ -76,7 +76,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/intel-qwen3-agent",
           "publishedOn": "2025-09-29T00:00:00.000Z",
-          "wordCount": 1177,
+          "wordCount": 1186,
           "title": "Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models",
           "imageUrl": "https://huggingface.co/blog/assets/intel-qwen3-agent/smolagents-1300-650.png"
         },
@@ -86,19 +86,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/vibegame",
           "publishedOn": "2025-09-29T00:00:00.000Z",
-          "wordCount": 1839,
+          "wordCount": 1840,
           "title": "VibeGame: Exploring Vibe Coding Games",
           "imageUrl": "https://huggingface.co/blog/assets/vibegame/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/swift-transformers",
           "author": null,
-          "description": "",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/swift-transformers",
           "publishedOn": "2025-09-26T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 1353,
           "title": "Swift Transformers Reaches 1.0 — and Looks to the Future",
-          "imageUrl": null
+          "imageUrl": "https://huggingface.co/blog/assets/swift-transformers/swift-transformers-thumb.png"
         },
         {
           "id": "https://huggingface.co/blog/smol2operator",
@@ -113,12 +113,12 @@
         {
           "id": "https://huggingface.co/blog/gaia2",
           "author": null,
-          "description": "",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/gaia2",
           "publishedOn": "2025-09-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2086,
           "title": "Gaia2 and ARE: Empowering the community to study agents",
-          "imageUrl": null
+          "imageUrl": "https://huggingface.co/blog/assets/leaderboards-on-the-hub/thumbnail_mare_gaia2.png"
         },
         {
           "id": "https://huggingface.co/blog/inference-providers-scaleway",
@@ -169,36 +169,6 @@
           "wordCount": 517,
           "title": "Visible Watermarking with Gradio",
           "imageUrl": "https://huggingface.co/blog/assets/watermarking_with_gradio/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/faster-transformers",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/faster-transformers",
-          "publishedOn": "2025-09-11T00:00:00.000Z",
-          "wordCount": 3579,
-          "title": "Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers",
-          "imageUrl": "https://huggingface.co/blog/assets/faster-transformers/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/jupyter-agent-2",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/jupyter-agent-2",
-          "publishedOn": "2025-09-10T00:00:00.000Z",
-          "wordCount": 3144,
-          "title": "Jupyter Agents: training LLMs to reason with notebooks",
-          "imageUrl": "https://huggingface.co/blog/assets/jupyter-agent-2/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/mmbert",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/mmbert",
-          "publishedOn": "2025-09-09T00:00:00.000Z",
-          "wordCount": null,
-          "title": "mmBERT: ModernBERT goes Multilingual",
-          "imageUrl": null
         }
       ]
     },
@@ -236,7 +206,7 @@
           "description": "Inspired by a session at my local IndieWebClub meeting, I’m restarting my practice of writing weeknotes. Let’s see how it goes. This note covers the week of 28th Sep–4th Oct, and a few days before.\n\n\nThis week I was on vacation. We initially decided to drive to Pondicherry but changed the plans after realizing how much trouble it would be with a toddler.\nI have been mostly resting. I’m still not recovered enough to do heavy physical activities, so I’ve been taking small walks only.\nA lot of time was spent in the bed, just resting. My wife recommended me to read the book Rest\nby Alex Soojung-Kim Pang.\nLast weekend we went to a good friend’s birthday party in the Cubbon park. It was a park picnic party and people joined and left all through the day. I found being in the park really relaxing,…",
           "link": "https://abhinavsarkar.net/notes/2025-weeknotes-10-04/?mtm_campaign=feed",
           "publishedOn": "2025-10-04T00:00:00.000Z",
-          "wordCount": 946,
+          "wordCount": 1021,
           "title": "Notes for the Week",
           "imageUrl": "https://abhinavsarkar.net/images/2025-weeknotes-10-04/preview.png"
         },
@@ -249,16 +219,6 @@
           "wordCount": 1321,
           "title": "Sorting by Similarity in Miniflux",
           "imageUrl": "https://abhinavsarkar.net/images/2025-miniflux-similar-sorting/preview.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2025-broken-feeds/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>RSS/Atom feeds are central to my <a href=\"https://abhinavsarkar.net/notes/2023-reading-process\">reading process</a>. I subscribe to over 700 feeds that I have curated over years. Most of them work fine most of the time, but a few are always broken in various different ways (different ones at different times). As a big proponent of <a href=\"https://indieweb.org/\" target=\"_blank\" rel=\"noopener\">Indieweb</a> and <a href=\"https://aboutfeeds.com/\" target=\"_blank\" rel=\"noopener\">feeds</a>, I’m writing this note to categorize the ways feeds break, and offer some solutions.</p>",
-          "link": "https://abhinavsarkar.net/notes/2025-broken-feeds/?mtm_campaign=feed",
-          "publishedOn": "2025-09-09T00:00:00.000Z",
-          "wordCount": 3262,
-          "title": "The Many Broken Feeds",
-          "imageUrl": "https://abhinavsarkar.net/images/2025-broken-feeds/preview.png"
         }
       ]
     },
@@ -268,12 +228,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22217",
+          "author": "Daniel Lemire",
+          "description": "I gave a talk last week at a software shop. Two hundred engineers were present. I wore a tie. The man who invited me wore a tie. Can you guess how the 200 engineers were dressed? Yeah. You guessed it. They all picked up a t-shirt that they found under their bed.   I attended … Continue reading Aesthetics matter",
+          "link": "https://lemire.me/blog/2025/10/08/aesthetics-matter/",
+          "publishedOn": "2025-10-08T14:16:55.000Z",
+          "wordCount": 4097,
+          "title": "Aesthetics matter",
+          "imageUrl": null
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22212",
+          "author": "Daniel Lemire",
+          "description": "Good engineers seek software code that is ‘simple’ in the sense that we can read and understand it quickly. But they they also look for highly performant code. For the last 20 years, we have been offering programmers the possibility to replace conventional for loops with a more functional approach. To illustrate, suppose that you … Continue reading std::ranges may not deliver the performance that you expect",
+          "link": "https://lemire.me/blog/2025/10/05/stdranges-may-not-deliver-the-performance-that-you-expect/",
+          "publishedOn": "2025-10-05T21:35:07.000Z",
+          "wordCount": 3623,
+          "title": "std::ranges may not deliver the performance that you expect",
+          "imageUrl": null
+        },
+        {
           "id": "https://lemire.me/blog/?p=22209",
           "author": "Daniel Lemire",
           "description": "For the last few decades, we have defined science by the publication of peer-reviewed research. That is, a scientist is someone who can write a paper and have it reviewed by two or four other scientists who conclude that the work is credible. Notice how this is a circular definition: it defines a scientist as, … Continue reading Beyond papers: rethinking science in the era of artificial intelligence",
           "link": "https://lemire.me/blog/2025/10/03/beyond-papers-rethinking-science-in-the-era-of-artificial-intelligence/",
           "publishedOn": "2025-10-03T19:18:13.000Z",
-          "wordCount": 3158,
+          "wordCount": 3253,
           "title": "Beyond papers: rethinking science in the era of artificial intelligence",
           "imageUrl": null
         },
@@ -283,7 +263,7 @@
           "description": "In software, we represent real numbers as binary floating-point numbers. Effectively, we represent real numbers as a fixed-precision integer (the significand) multiplied by a power of two. Thus we do not represent exactly the number ‘pi’, but we get a very close approximation: 3.141592653589793115997963468544185161590576171875.  The first 16 digits are exact. You can represent the approximation … Continue reading The smallest number that is infinite",
           "link": "https://lemire.me/blog/2025/09/29/smallest-number-string-that-is-infinite/",
           "publishedOn": "2025-09-29T21:28:33.000Z",
-          "wordCount": 3336,
+          "wordCount": 3323,
           "title": "The smallest number that is infinite",
           "imageUrl": null
         },
@@ -293,18 +273,8 @@
           "description": "When I was an undergraduate student, I discovered symbolic algebra. It was great! Instead of solving for a variable by hand, I could just put all the equations in the machine and get the result. I soon found that symbolic algebra did not turn me into a genius mathematician. It could do the boring work, … Continue reading Hard work is a virtue",
           "link": "https://lemire.me/blog/2025/09/21/hard-work-is-a-virtue/",
           "publishedOn": "2025-09-21T19:10:18.000Z",
-          "wordCount": 3199,
+          "wordCount": 3233,
           "title": "Hard work is a virtue",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22190",
-          "author": "Daniel Lemire",
-          "description": "Suppose that you have a long string and you want to insert line breaks every 72 characters. You might need to do this if you need to write a public cryptographic key to a text file. A simple C function ought to suffice. I use the letter K to indicate the length of the lines. … Continue reading Splitting a long string in lines efficiently",
-          "link": "https://lemire.me/blog/2025/09/07/splitting-a-long-string-in-lines-efficiently/",
-          "publishedOn": "2025-09-07T19:44:56.000Z",
-          "wordCount": 3564,
-          "title": "Splitting a long string in lines efficiently",
           "imageUrl": null
         }
       ]
@@ -325,7 +295,18 @@
       "title": "home on CuriousCoding",
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://curiouscoding.nl/wip/",
+          "author": null,
+          "description": "Table of Contents\nIn progress (October 2025)\nDormant\nDone\nLong term plans\nAbandoned\nReading list\nHere I list projects that I am working/have worked on. Outdated almost always.\nMostly as a note-to-self to keep things a bit organised.\n\n Link to heading\n \n\nAlgorithm engineering (with Peter Sanders’ group @ KIT):\nQuickHeap (blog): a fast SIMD-based heap\nk-perfect hashing: quickly map keys to bins of size of \\(k\\in \\{8,16\\}\\),\nmostly extending PtrHash.\nStatic hash sets (StaticHashSet<u32>) with single-cache-miss lookups\nFast 2-bit rank for use in bwa-mem, with Heng Li.\nTool/library development (with Igor Martayan & Bede Constantinides):",
+          "link": "https://curiouscoding.nl/wip/",
+          "publishedOn": "2025-10-05T22:00:00.000Z",
+          "wordCount": 739,
+          "title": "Past, ongoing, and future research plans",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
