@@ -1,10 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-10-12T01:17:16.119Z</id>
+    <id>urn:2025-10-19T01:23:31.540Z</id>
     <title>osmos::feed</title>
-    <updated>2025-10-12T01:17:16.119Z</updated>
+    <updated>2025-10-19T01:23:31.540Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Advice]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-self-advice/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-self-advice/?mtm_campaign=feed"/>
+        <updated>2025-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some advice I have for my present/future self:
+Go for a walk at 8 PM.
+Buy a bed.
+Set more alarms.
+Write down your daily plans on your palms.
+Buy expensive shoes.
+Put on shoes.
+Stop talking.
+Get many online subscriptions.
+Talk to your phone.
+Fill your backpack with books.
+Ask for advice.
+Use pointers.
+Do what people tell you to do.
+Go to parties uninvited.
+Spend more money.
+Learn Assembly.
+Pick a fight.
+Go for a walk at 6 AM.
+Keep your water bottle in sight.
+Make Lego towers.
+Abandon Git.
+Buy more domain names.
+Jump on the bed (gently).
+Don’t get bitten by mosquitoes.
+Eat greasy food.
+Buy flowers.
+Throw away your cloths.
+Don’t drive.
+Use OverloadedRecordDot.
+Love.
+Don’t overdo any of the above.
+I wrote this post for a prompt given during our local Indieweb club meeting.
+This post was originally published on abhinavsarkar.net.
+If you liked this post, please leave a comment.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research results are cultural artifacts, not public goods]]></title>
+        <id>https://lemire.me/blog/?p=22232</id>
+        <link href="https://lemire.me/blog/2025/10/17/research-results-are-cultural-artifacts-not-public-goods/"/>
+        <updated>2025-10-17T18:50:53.000Z</updated>
+        <summary type="html"><![CDATA[Many view scientific research as a public good. I consider this naive and indefensible. Scientific progress hinges on people and culture, not on research results as public goods. What do they mean by a public good? A public good is non-excludable: Once a scientific discovery is made anyone can access it at low cost. If … Continue reading Research results are cultural artifacts, not public goods]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Speculations on arenas and non-trivial destructors]]></title>
+        <id>https://nullprogram.com/blog/2025/10/16/</id>
+        <link href="https://nullprogram.com/blog/2025/10/16/"/>
+        <updated>2025-10-16T20:11:22.000Z</updated>
+        <summary type="html"><![CDATA[As I continue to reflect on arenas and lifetimes in C++, I realized
+that dealing with destructors is not so onerous. In fact, it does not even
+impact my established arena usage! That is, implicit RAII-style
+deallocation at scope termination, which works even in plain old C. With a
+small change we can safely place resource-managing objects in arenas, such
+as those owning file handles, sockets, threads, etc. (Though the ideal
+remains [resource management avoidance][swr] when possible.) We can also
+place traditional, memory-managing C++ objects in arenas, too. Their own
+allocations won’t come from the arena — either because they lack the
+interfaces to do so, or they’re simply ineffective at it (pmr) —
+but they will reliably clean up after themselves. It’s all exception-safe,
+too. In this arti…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud C4 Brings a 70% TCO improvement on GPT OSS with Intel and Hugging Face]]></title>
+        <id>https://huggingface.co/blog/gpt-oss-on-intel-xeon</id>
+        <link href="https://huggingface.co/blog/gpt-oss-on-intel-xeon"/>
+        <updated>2025-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Speed of random number generators in Go]]></title>
+        <id>https://lemire.me/blog/?p=22225</id>
+        <link href="https://lemire.me/blog/2025/10/15/speed-of-random-number-generators-in-go/"/>
+        <updated>2025-10-15T22:18:33.000Z</updated>
+        <summary type="html"><![CDATA[We often need to generate random numbers in software. We need them for games, simulations, testing, and so forth. In many of these cases, we would like to use the fastest generator we can find, as long as it is reasonably random-looking. In some instances, we need them for cryptography: we may need to generate … Continue reading Speed of random number generators in Go]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get your VLM running in 3 simple steps on Intel CPUs]]></title>
+        <id>https://huggingface.co/blog/openvino-vlm</id>
+        <link href="https://huggingface.co/blog/openvino-vlm"/>
+        <updated>2025-10-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #41]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-12/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-12/?mtm_campaign=feed"/>
+        <updated>2025-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 5th-12th Oct.
+
+
+A graveyard of chairs
+
+
+This is my 100th post/note! I’ve been writing on this website for eight years now. In these years, I’ve learned a lot of things about building a website, writing, and about myself as well.
+I worked with my friend Ankur to create the IndieWebClub Bangalore website1. It lists the upcoming and previous events, and recent blog posts by the club members. Attending the club events have rekindled the spirit of writing in me. Join us in future events if you can.
+On Monday, I returned to my office life after a short vacation. It is always strange to go back to work after vacations. I don’t know if I like it or hate it. Probably both.
+The Bangalore famous pizza place “Brick Oven” opened a restaurant really close to my home (th…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Aesthetics matter]]></title>
         <id>https://lemire.me/blog/?p=22217</id>
@@ -55,7 +179,7 @@ Tool/library development (with Igor Martayan & Bede Constantinides):]]></summary
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Notes for the Week]]></title>
+        <title type="html"><![CDATA[Notes for the Week #40]]></title>
         <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-04/?mtm_campaign=feed</id>
         <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-04/?mtm_campaign=feed"/>
         <updated>2025-10-04T00:00:00.000Z</updated>
@@ -106,7 +230,8 @@ Last weekend we went to a good friend’s birthday party in the Cubbon park. It 
         <id>https://nullprogram.com/blog/2025/09/30/</id>
         <link href="https://nullprogram.com/blog/2025/09/30/"/>
         <updated>2025-09-30T11:46:16.000Z</updated>
-        <summary type="html"><![CDATA[Patrice Roy’s new book, C++ Memory Management, has made me more
+        <summary type="html"><![CDATA[Update October 2025: further enhancements.
+Patrice Roy’s new book, C++ Memory Management, has made me more
 conscious of object lifetimes. C++ is stricter than C about lifetimes, and
 common, textbook memory management that’s sound in C is less so in C++ —
 more than I realized. The book also presents a form of arena allocation
@@ -117,7 +242,7 @@ overflows invalidating the check.) However, I’m grateful for the new
 insights, and it’s made me revisit my own C++ arena allocation. In
 this new light I see I got it subtly wrong myself!
 Surprising to most C++ programmers, but not language lawyers, idiomatic C
-memory allocation was ill-formed in C++ until rec…]]></summary>
+memory…]]></summary>
         <author>
             <name>null program</name>
         </author>
@@ -177,7 +302,6 @@ alt="Screenshot of the Miniflux reader showing articles sorted by similarity" />
         <id>https://huggingface.co/blog/intel-qwen3-agent</id>
         <link href="https://huggingface.co/blog/intel-qwen3-agent"/>
         <updated>2025-09-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -251,56 +375,6 @@ The above description is probably confusing on its own, and an example is…]]><
         <summary type="html"><![CDATA[When I was an undergraduate student, I discovered symbolic algebra. It was great! Instead of solving for a variable by hand, I could just put all the equations in the machine and get the result. I soon found that symbolic algebra did not turn me into a genius mathematician. It could do the boring work, … Continue reading Hard work is a virtue]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaleway on Hugging Face Inference Providers 🔥]]></title>
-        <id>https://huggingface.co/blog/inference-providers-scaleway</id>
-        <link href="https://huggingface.co/blog/inference-providers-scaleway"/>
-        <updated>2025-09-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Democratizing AI Safety with RiskRubric.ai]]></title>
-        <id>https://huggingface.co/blog/riskrubric</id>
-        <link href="https://huggingface.co/blog/riskrubric"/>
-        <updated>2025-09-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Public AI on Hugging Face Inference Providers 🔥]]></title>
-        <id>https://huggingface.co/blog/inference-providers-publicai</id>
-        <link href="https://huggingface.co/blog/inference-providers-publicai"/>
-        <updated>2025-09-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[`LeRobotDataset`: Bringing large-scale datasets to lerobot]]></title>
-        <id>https://huggingface.co/blog/lerobot-datasets-v3</id>
-        <link href="https://huggingface.co/blog/lerobot-datasets-v3"/>
-        <updated>2025-09-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Visible Watermarking with Gradio]]></title>
-        <id>https://huggingface.co/blog/watermarking-with-gradio</id>
-        <link href="https://huggingface.co/blog/watermarking-with-gradio"/>
-        <updated>2025-09-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
 </feed>
