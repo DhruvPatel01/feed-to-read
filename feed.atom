@@ -1,10 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-10-19T01:23:31.540Z</id>
+    <id>urn:2025-10-26T01:21:29.533Z</id>
     <title>osmos::feed</title>
-    <updated>2025-10-19T01:23:31.540Z</updated>
+    <updated>2025-10-26T01:21:29.533Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[LeRobot v0.4.0: Super Charging OSS Robotics Learning]]></title>
+        <id>https://huggingface.co/blog/lerobot-release-v040</id>
+        <link href="https://huggingface.co/blog/lerobot-release-v040"/>
+        <updated>2025-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building the Open Agent Ecosystem Together: Introducing OpenEnv]]></title>
+        <id>https://huggingface.co/blog/openenv</id>
+        <link href="https://huggingface.co/blog/openenv"/>
+        <updated>2025-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face and VirusTotal collaborate to strengthen AI security]]></title>
+        <id>https://huggingface.co/blog/virustotal</id>
+        <link href="https://huggingface.co/blog/virustotal"/>
+        <updated>2025-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sentence Transformers is joining Hugging Face!]]></title>
+        <id>https://huggingface.co/blog/sentence-transformers-joins-hf</id>
+        <link href="https://huggingface.co/blog/sentence-transformers-joins-hf"/>
+        <updated>2025-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supercharge your OCR Pipelines with Open Models]]></title>
+        <id>https://huggingface.co/blog/ocr-open-models</id>
+        <link href="https://huggingface.co/blog/ocr-open-models"/>
+        <updated>2025-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlock the power of images with AI Sheets]]></title>
+        <id>https://huggingface.co/blog/aisheets-unlock-images</id>
+        <link href="https://huggingface.co/blog/aisheets-unlock-images"/>
+        <updated>2025-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Fast Bytecode VM for Arithmetic: The Virtual Machine]]></title>
+        <id>https://abhinavsarkar.net/posts/arithmetic-bytecode-vm/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm/?mtm_campaign=feed"/>
+        <updated>2025-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In this series of posts, we write a fast bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#parsing-expressions">Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</a></label></li>
+<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#testing-the-parser">Unit testing for our parser.</a></label></li>
+<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#the-ast-interpreter">Interpreting ASTs.</a></label></li>
+<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#the-compiler">Compiling ASTs to bytecode.</a></label></li>
+<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#the-decompiler">Disassembling and decompiling bytecode.</a></label></li>
+<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#testing-the-compiler">Unit testing for our compiler.</a></label></li>
+<li><label><input type="checkbox" /><span class="todo">Property-based testing for our compiler.</span></label></li>
+<li><label><input type="checkbox" /><span class="todo">Efficiently executing bytecode in a virtual machine (VM).</span></label></li>
+<li><label><input type="checkbox" /><span class="todo">Unit testing and property-based testing for our <abbr title="Virtual Machine">VM</abbr>.</span></label></li>
+<li><label><input type="checkbox" /><span class="todo">Benchmarking our code to see how the different passes perform.</span></label></li>
+<li><label><input type="checkbox" /><span class="todo">All the while keeping an eye on performance.</span></label></li>
+</ul>
+<p>In this final post, we write the virtual machine that executes our bytecode, and benchmark it.</p>]]></summary>
+        <author>
+            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Speeding up C++ functions with a thread_local cache]]></title>
+        <id>https://lemire.me/blog/?p=22238</id>
+        <link href="https://lemire.me/blog/2025/10/19/speeding-up-c-functions-with-a-thread_local-cache/"/>
+        <updated>2025-10-19T21:28:24.000Z</updated>
+        <summary type="html"><![CDATA[In large code bases, we are often stuck with unpleasant designs that are harming our performance. We might be looking for a non-intrusive method to improve the performance. For example, you may not want to change the function signatures. Let us consider a concrete example. Maybe someone designed the programming interface so that you have … Continue reading Speeding up C++ functions with a thread_local cache]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #42]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-19/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-19/?mtm_campaign=feed"/>
+        <updated>2025-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 13th-19th Oct.
+
+
+A Desert Orchard
+
+
+Bangalore—the city I live in—is notorious for its bad traffic. I had a confirmation of it just this week, when I was stuck in a cab for three entire hours. The traffic jam made the news, like many such before it, but experiencing it first-hand was a crazy thing. As I sat there in the cab for three whole hours, hungry, thirsty, sleepy but unable to sleep, I became so distraught that it made me challenge my belief that Bangalore is a good city to live in. Something will have to change.
+As they say, you are not stuck in traffic, you are traffic. So better learn how to drive in Bangalore by reading this great guide by my friend Kiran. I’ve been thinking of writing such a piece for years now, but Kiran did it better than I co…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Advice]]></title>
         <id>https://abhinavsarkar.net/notes/2025-self-advice/?mtm_campaign=feed</id>
@@ -302,6 +413,7 @@ alt="Screenshot of the Miniflux reader showing articles sorted by similarity" />
         <id>https://huggingface.co/blog/intel-qwen3-agent</id>
         <link href="https://huggingface.co/blog/intel-qwen3-agent"/>
         <updated>2025-09-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -314,67 +426,6 @@ alt="Screenshot of the Miniflux reader showing articles sorted by similarity" />
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Swift Transformers Reaches 1.0 — and Looks to the Future]]></title>
-        <id>https://huggingface.co/blog/swift-transformers</id>
-        <link href="https://huggingface.co/blog/swift-transformers"/>
-        <updated>2025-09-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hierarchical field sort with string interning]]></title>
-        <id>https://nullprogram.com/blog/2025/09/24/</id>
-        <link href="https://nullprogram.com/blog/2025/09/24/"/>
-        <updated>2025-09-24T17:11:32.000Z</updated>
-        <summary type="html"><![CDATA[In a recent, real world problem I needed to load a heterogeneous sequence
-of records from a buffer. Record layout is defined in a header before the
-sequence. Each field is numeric, with a unique name composed of non-empty
-alphanumeric period-delimited segments, where segments signify nested
-structure. Field names are a comma-delimited list, in order of the record
-layout. The catch motivating this article is that nested structures are
-not necessarily contiguous. In my transformed representation I needed
-nested structures to be contiguous. For illustrative purposes here, it
-will be for JSON output. I came up with what I think is an interesting
-solution, which I’ve implemented in C using techniques previously
-discussed.
-The above description is probably confusing on its own, and an example is…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smol2Operator: Post-Training GUI Agents for Computer Use]]></title>
-        <id>https://huggingface.co/blog/smol2operator</id>
-        <link href="https://huggingface.co/blog/smol2operator"/>
-        <updated>2025-09-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gaia2 and ARE: Empowering the community to study agents]]></title>
-        <id>https://huggingface.co/blog/gaia2</id>
-        <link href="https://huggingface.co/blog/gaia2"/>
-        <updated>2025-09-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hard work is a virtue]]></title>
-        <id>https://lemire.me/blog/?p=22199</id>
-        <link href="https://lemire.me/blog/2025/09/21/hard-work-is-a-virtue/"/>
-        <updated>2025-09-21T19:10:18.000Z</updated>
-        <summary type="html"><![CDATA[When I was an undergraduate student, I discovered symbolic algebra. It was great! Instead of solving for a variable by hand, I could just put all the equations in the machine and get the result. I soon found that symbolic algebra did not turn me into a genius mathematician. It could do the boring work, … Continue reading Hard work is a virtue]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
