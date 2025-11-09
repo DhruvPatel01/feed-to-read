@@ -1,10 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-11-02T01:22:33.148Z</id>
+    <id>urn:2025-11-09T01:22:19.791Z</id>
     <title>osmos::feed</title>
-    <updated>2025-11-02T01:22:33.148Z</updated>
+    <updated>2025-11-09T01:22:19.791Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Error Codes for Control Flow]]></title>
+        <id>https://matklad.github.io/2025/11/06/error-codes-for-control-flow.html</id>
+        <link href="https://matklad.github.io/2025/11/06/error-codes-for-control-flow.html"/>
+        <updated>2025-11-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Two ideas today:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Short Survey of Compiler Targets]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed"/>
+        <updated>2025-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As an amateur compiler developer, one of the decisions I struggle with is choosing the right compiler target. Unlike the 80s when people had to target various machine architectures directly, now there are many mature options available. This is a short and very incomplete survey of some of the popular and interesting options.
+Contents
+
+Machine Code / Assembly
+Intermediate Representations
+Other High-level Languages
+Virtual Machines / Bytecode
+WebAssembly
+Meta-tracing and Metacompilation Frameworks
+Unconventional Targets
+Conclusion
+
+Machine Code / Assembly
+A compiler can always directly output machine code or assembly targeted for one or more architectures. A well-known example is the Tiny C Compiler. It’s known for its speed and small size, and it can compile and run C code on the fly. Anoth…]]></summary>
+        <author>
+            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Short Survey of Compiler Targets]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed"/>
+        <updated>2025-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As an amateur compiler developer, one of the decisions I struggle with is choosing the right compiler target. Unlike the 80s when people had to target various machine architectures directly, now there are many mature options available. This is a short and very incomplete survey of some of the popular and interesting options.
+Contents
+
+Machine Code / Assembly
+Intermediate Representations
+Other High-level Languages
+Virtual Machines / Bytecode
+WebAssembly
+Meta-tracing and Metacompilation Frameworks
+Unconventional Targets
+Conclusion
+
+Machine Code / Assembly
+A compiler can always directly output machine code or assembly targeted for one or more architectures. A well-known example is the Tiny C Compiler. It’s known for its speed and small size, and it can compile and run C code on the fly. Anoth…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Async Mutexes]]></title>
+        <id>https://matklad.github.io/2025/11/04/on-async-mutexes.html</id>
+        <link href="https://matklad.github.io/2025/11/04/on-async-mutexes.html"/>
+        <updated>2025-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A short note on contradiction or confusion in my language design beliefs I noticed today.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thoughts on "Static Retrival Revisited"]]></title>
+        <id>https://curiouscoding.nl/posts/static-retrieval-revisited/</id>
+        <link href="https://curiouscoding.nl/posts/static-retrieval-revisited/"/>
+        <updated>2025-11-03T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Problem definitions
+2 Optimal solutions
+3 Why an overhead is necessary
+4 Augmented Retrieval
+These are some summarizing notes and thoughts on
+“Static Retrieval Revisited: To Optimality and beyond” by Hu, Kuszmaul, Liang, Yu, Zhang, and Zhou.
+1 Problem definitions
+ 
+ 
+ Link to heading
+ 
+
+Static Retrieval. Given \(n\) keys \(X\subseteq U\) and \(n\) $v$-bit values
+\(f(X) \in [2^v]\), encode \(f: X\to [2^v]\).
+The goal is use a minimal number of bits on top of the trivial
+\(nv\) lower bound, while allowing efficient queries.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thoughts on Singletrack]]></title>
+        <id>https://curiouscoding.nl/posts/singletrack/</id>
+        <link href="https://curiouscoding.nl/posts/singletrack/"/>
+        <updated>2025-11-03T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a quick post summarizing the idea of
+“Singletrack: An Algorithm for Improving Memory Consumption and Performance of Gap-Affine Sequence Alignment” by López-Villellas, Iñiguez, Jiménez-Blanco, Aguado-Puig, Moretó, Alastruey-Benedé, Ibáñez, and Marco-Sola to reduce memory
+usage of affine-cost alignment by removing the need to store the affine layers
+of the DP matrix.
+Affine-cost alignment uses a gap-open
+cost \(o>0\), so that a gap of length \(\ell\) has cost \(o + \ell \cdot e\). The
+classic DP solution for this is Gotoh’s method (Gotoh 1982) that uses two
+additional DP matrices \(I\) and \(D\) (alongside the main \(M\) matrix):
+one to store the best cost to get to state
+\((i,j)\) while ending in an insertion, and one that ends with a deletion.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #44]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed"/>
+        <updated>2025-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 27th Oct-2nd Nov.
+
+
+Blue Heights
+
+
+This week has been rather uneventful. I suppose that is a good thing.
+I’ve been busy at work, something to do with parsing and analyzing SQL.
+I wrote a new note in response to the latest blogging challenge.
+I wrote first drafts of three blog posts (!), but it’ll probably be a long time before they are ready to be published.
+I am running a poll about compiler backends on Mastodon. The results as of the time of publishing this note:
+If someone were to write a new compiler book today, what would you prefer the backend to emit? Learning about which backend would help the readers most these days?
+LLVM (38)
+WASM (19)
+Arm assembly (14)
+X86 assembly (6)
+C (12)
+JavaScript (4)
+Lua (5)
+JVM bytecode (3)
+CIL (2)
+QBE (1)
+I watched a co…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nim version 2.2.6 released]]></title>
         <id>https://nim-lang.org//blog/2025/10/31/nim-226.html</id>
@@ -184,6 +327,7 @@ I finally got the count …]]></summary>
         <id>https://huggingface.co/blog/ocr-open-models</id>
         <link href="https://huggingface.co/blog/ocr-open-models"/>
         <updated>2025-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -314,12 +458,12 @@ impact my established arena usage! That is, implicit RAII-style
 deallocation at scope termination, which works even in plain old C. With a
 small change we can safely place resource-managing objects in arenas, such
 as those owning file handles, sockets, threads, etc. (Though the ideal
-remains [resource management avoidance][swr] when possible.) We can also
+remains resource management avoidance when possible.) We can also
 place traditional, memory-managing C++ objects in arenas, too. Their own
 allocations won’t come from the arena — either because they lack the
 interfaces to do so, or they’re simply ineffective at it (pmr) —
 but they will reliably clean up after themselves. It’s all exception-safe,
-too. In this arti…]]></summary>
+too. In this article I’l…]]></summary>
         <author>
             <name>null program</name>
         </author>
@@ -371,77 +515,6 @@ On Monday, I returned to my office life after a short vacation. It is always str
 The Bangalore famous pizza place “Brick Oven” opened a restaurant really close to my home (th…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aesthetics matter]]></title>
-        <id>https://lemire.me/blog/?p=22217</id>
-        <link href="https://lemire.me/blog/2025/10/08/aesthetics-matter/"/>
-        <updated>2025-10-08T14:16:55.000Z</updated>
-        <summary type="html"><![CDATA[Surrounding yourself with beautiful things that give you joy and pleasure in life is right up there: bread, water and aesthetics (David Heinemeier Hansson) I gave a talk last week at a software shop. Two hundred engineers were present. I wore a tie. The man who invited me wore a tie. Can you guess how … Continue reading Aesthetics matter]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Past, ongoing, and future research plans]]></title>
-        <id>https://curiouscoding.nl/wip/</id>
-        <link href="https://curiouscoding.nl/wip/"/>
-        <updated>2025-10-05T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-In progress (October 2025)
-Upcoming conference dates & deadlines
-Dormant
-Done
-Long term plans
-Abandoned
-Reading list
-Here I list projects that I am working/have worked on. Outdated almost always.
-Mostly as a note-to-self to keep things a bit organised.
-
- Link to heading
- 
-
-Algorithm engineering (with Peter Sanders’ group @ KIT):]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[std::ranges may not deliver the performance that you expect]]></title>
-        <id>https://lemire.me/blog/?p=22212</id>
-        <link href="https://lemire.me/blog/2025/10/05/stdranges-may-not-deliver-the-performance-that-you-expect/"/>
-        <updated>2025-10-05T21:35:07.000Z</updated>
-        <summary type="html"><![CDATA[Good engineers seek software code that is ‘simple’ in the sense that we can read and understand it quickly. But they they also look for highly performant code. For the last 20 years, we have been offering programmers the possibility to replace conventional for loops with a more functional approach. To illustrate, suppose that you … Continue reading std::ranges may not deliver the performance that you expect]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #40]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-04/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-04/?mtm_campaign=feed"/>
-        <updated>2025-10-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Inspired by a session at my local IndieWebClub meeting, I’m restarting my practice of writing weeknotes. Let’s see how it goes. This note covers the week of 28th Sep–4th Oct, and a few days before.
-
-
-This week I was on vacation. We initially decided to drive to Pondicherry but changed the plans after realizing how much trouble it would be with a toddler.
-I have been mostly resting. I’m still not recovered enough to do heavy physical activities, so I’ve been taking small walks only.
-A lot of time was spent in the bed, just resting. My wife recommended me to read the book Rest
-by Alex Soojung-Kim Pang.
-Last weekend we went to a good friend’s birthday party in the Cubbon park. It was a park picnic party and people joined and left all through the day. I found being in the park really relaxing,…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond papers: rethinking science in the era of artificial intelligence]]></title>
-        <id>https://lemire.me/blog/?p=22209</id>
-        <link href="https://lemire.me/blog/2025/10/03/beyond-papers-rethinking-science-in-the-era-of-artificial-intelligence/"/>
-        <updated>2025-10-03T19:18:13.000Z</updated>
-        <summary type="html"><![CDATA[For the last few decades, we have defined science by the publication of peer-reviewed research. That is, a scientist is someone who can write a paper and have it reviewed by two or four other scientists who conclude that the work is credible. Notice how this is a circular definition: it defines a scientist as, … Continue reading Beyond papers: rethinking science in the era of artificial intelligence]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
