@@ -29,6 +29,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2025/11/22/tigerbeetle-blog.html",
+          "author": null,
+          "description": "Continuing the tradition, I've been\nalso blogging somewhat regularly on TigerBeetle's blog, so you might want to check those articles\nout or even subscribe (my favorite RSS reader is RSSSSR):",
+          "link": "https://matklad.github.io/2025/11/22/tigerbeetle-blog.html",
+          "publishedOn": "2025-11-22T00:00:00.000Z",
+          "wordCount": 147,
+          "title": "TigerBeetle Blog",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2025/11/10/readonly-characters.html",
           "author": null,
           "description": "I like Emacs UX as exemplified by Magit. I consider it to be a user interface\nparadigm on the same footing as UNIX pipes:\nAn Engine for an Editor",
@@ -82,24 +92,64 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/rapidfireai",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/rapidfireai",
+          "publishedOn": "2025-11-21T00:00:00.000Z",
+          "wordCount": 1247,
+          "title": "20x Faster TRL Fine-tuning with RapidFire AI",
+          "imageUrl": "https://huggingface.co/blog/assets/rapidfireai/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/open-asr-leaderboard",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/open-asr-leaderboard",
+          "publishedOn": "2025-11-21T00:00:00.000Z",
+          "wordCount": 1085,
+          "title": "Open ASR Leaderboard: Trends and Insights with New Multilingual & Long-Form Tracks",
+          "imageUrl": "https://huggingface.co/blog/assets/open-asr-leaderboard/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/anylanguagemodel",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/anylanguagemodel",
+          "publishedOn": "2025-11-20T00:00:00.000Z",
+          "wordCount": 1371,
+          "title": "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms",
+          "imageUrl": "https://huggingface.co/blog/assets/anylanguagemodel/banner.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/build-rocm-kernels",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/build-rocm-kernels",
+          "publishedOn": "2025-11-17T00:00:00.000Z",
+          "wordCount": 3129,
+          "title": "Easily Build and Share ROCm Kernels with Hugging Face",
+          "imageUrl": "https://huggingface.co/blog/assets/build-rocm-kernels/thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/google-cloud",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/google-cloud",
           "publishedOn": "2025-11-13T00:00:00.000Z",
-          "wordCount": 1098,
+          "wordCount": 1073,
           "title": "Building for an Open Future - our new partnership with Google Cloud",
           "imageUrl": "https://huggingface.co/blog/assets/google-cloud/google-cloud-thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/lerobotxnvidia-healthcare",
           "author": null,
-          "description": "",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/lerobotxnvidia-healthcare",
           "publishedOn": "2025-10-29T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 1565,
           "title": "Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac",
-          "imageUrl": null
+          "imageUrl": "https://huggingface.co/blog/assets/lerobotxnvidia-healthcare/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/voice-consent-gate",
@@ -107,7 +157,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/voice-consent-gate",
           "publishedOn": "2025-10-28T00:00:00.000Z",
-          "wordCount": 2015,
+          "wordCount": 2019,
           "title": "Voice Cloning with Consent",
           "imageUrl": "https://huggingface.co/blog/assets/voice-consent-gate/thumbnail.png"
         },
@@ -117,7 +167,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/streaming-datasets",
           "publishedOn": "2025-10-27T00:00:00.000Z",
-          "wordCount": 1624,
+          "wordCount": 1652,
           "title": "Streaming datasets: 100x More Efficient",
           "imageUrl": "https://huggingface.co/blog/assets/streaming_datasets/streaming_datasets.png"
         },
@@ -130,66 +180,6 @@
           "wordCount": 2298,
           "title": "huggingface_hub v1.0: Five Years of Building the Foundation of Open Machine Learning",
           "imageUrl": "https://huggingface.co/blog/assets/huggingface-hub-v1/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/lerobot-release-v040",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/lerobot-release-v040",
-          "publishedOn": "2025-10-24T00:00:00.000Z",
-          "wordCount": 2167,
-          "title": "LeRobot v0.4.0: Supercharging OSS Robot Learning",
-          "imageUrl": "https://huggingface.co/blog/assets/lerobot-release-v040/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/openenv",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/openenv",
-          "publishedOn": "2025-10-23T00:00:00.000Z",
-          "wordCount": 1226,
-          "title": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
-          "imageUrl": "https://huggingface.co/blog/assets/openenv/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/virustotal",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/virustotal",
-          "publishedOn": "2025-10-22T00:00:00.000Z",
-          "wordCount": 646,
-          "title": "Hugging Face and VirusTotal collaborate to strengthen AI security",
-          "imageUrl": "https://huggingface.co/blog/assets/virustotal/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/sentence-transformers-joins-hf",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/sentence-transformers-joins-hf",
-          "publishedOn": "2025-10-22T00:00:00.000Z",
-          "wordCount": 1123,
-          "title": "Sentence Transformers is joining Hugging Face!",
-          "imageUrl": "https://huggingface.co/blog/assets/sentence-transformers-joins-hf/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ocr-open-models",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/ocr-open-models",
-          "publishedOn": "2025-10-21T00:00:00.000Z",
-          "wordCount": 3719,
-          "title": "Supercharge your OCR Pipelines with Open Models",
-          "imageUrl": "https://huggingface.co/blog/assets/ocr-open-models/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/aisheets-unlock-images",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/aisheets-unlock-images",
-          "publishedOn": "2025-10-21T00:00:00.000Z",
-          "wordCount": 1740,
-          "title": "Unlock the power of images with AI Sheets",
-          "imageUrl": "https://huggingface.co/blog/assets/aisheets/aisheets-image.png"
         }
       ]
     },
@@ -210,19 +200,9 @@
           "description": "As an amateur compiler developer, one of the decisions I struggle with is choosing the right compiler target. Unlike the 80s when people had to target various machine architectures directly, now there are many mature options available. This is a short and very incomplete survey of some of the popular and interesting options.\nContents\n\nMachine Code / Assembly\nIntermediate Representations\nOther High-level Languages\nVirtual Machines / Bytecode\nWebAssembly\nMeta-tracing and Metacompilation Frameworks\nUnconventional Targets\nConclusion\n\nMachine Code / Assembly\nA compiler can always directly output machine code or assembly targeted for one or more architectures. A well-known example is the Tiny C Compiler. It’s known for its speed and small size, and it can compile and run C code on the fly. Anoth…",
           "link": "https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed",
           "publishedOn": "2025-11-05T00:00:00.000Z",
-          "wordCount": 3297,
+          "wordCount": 3661,
           "title": "A Short Survey of Compiler Targets",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-compiler-backend-survey.svg"
-        },
-        {
-          "id": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>In this series of posts, we write a fast bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>\n<ul class=\"task-list\">\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#parsing-expressions\">Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</a></label></li>\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#testing-the-parser\">Unit testing for our parser.</a></label></li>\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#the-ast-interpreter\">Interpreting ASTs.</a></label></li>\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#the-compiler\">Compiling ASTs to bytecode.</a></label></li>\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#the-decompiler\">Disassembling and decompiling bytecode.</a></label></li>\n<li><label><input type=\"checkbox\" checked=\"\" /><a href=\"https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#testing-the-compiler\">Unit testing for our compiler.</a></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Property-based testing for our compiler.</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Efficiently executing bytecode in a virtual machine (VM).</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Unit testing and property-based testing for our <abbr title=\"Virtual Machine\">VM</abbr>.</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">Benchmarking our code to see how the different passes perform.</span></label></li>\n<li><label><input type=\"checkbox\" /><span class=\"todo\">All the while keeping an eye on performance.</span></label></li>\n</ul>\n<p>In this final post, we write the virtual machine that executes our bytecode, and benchmark it.</p>",
-          "link": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm/?mtm_campaign=feed",
-          "publishedOn": "2025-10-21T00:00:00.000Z",
-          "wordCount": 7814,
-          "title": "A Fast Bytecode VM for Arithmetic: The Virtual Machine",
-          "imageUrl": "https://abhinavsarkar.net/previews/posts/arithmetic-bytecode-vm.svg"
         }
       ]
     },
@@ -232,19 +212,29 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2025-weeknotes-11-16/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 10th–16th November.\n\n\nGreen, White and Black\n\n\nThis week has been … different. Early this week while having a conversation with my wife, I had a sudden realization that I was having a productive burnout. Unlike the last time when I had a burnout six years ago, this time I was getting a lot done. Just look at how many posts and notes I’ve written this year! Add to that the half-dozen personal projects I’m working on, my office work, my personal commitments, attending IndiewebClub every fortnight. It’s crazy! I’ve also been feeling very mentally tired and uninterested in almost everything.\nMy overall health has slowly improved to the level it was six months ago. This week I walked over 8000 steps every day. Brain fog and fatigue is also down by a lot.\nI attended the IndiewebClub Bangalore meetup yesterday. This week we focused on creating and improving our websites. I worked on adding support for spoilers in my website, but I could not get it done well enough within the allotted time. I also wrote a note about changing my mind.\nI read quite a bit this week. I am 20% through the Writing a C compiler book, and 60% through This is How You Lose the Time War.\nI finished watching the latest season of Only Murders in the Building. I liked it more the previous couple seasons, mostly because this time it focused on the murder mystery and investigation instead of celebrity gimmicks. I also watched few more episodes of Black Mirror, and liked it as always.\nSome interesting posts I read on the internet this week:\n\nThe Overly Humble Programmer\nFolk Interfaces\nWaiting for the Dehradun\n\n\nThat’s all for this week. Talk to me in the comments.\nThis post was originally published on abhinavsarkar.net.\nIf you liked this post, please leave a comment.",
+          "link": "https://abhinavsarkar.net/notes/2025-weeknotes-11-16/?mtm_campaign=feed",
+          "publishedOn": "2025-11-16T00:00:00.000Z",
+          "wordCount": 1014,
+          "title": "Notes for the Week #46",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-11-16.svg"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2025-change-of-mind/?mtm_campaign=feed",
           "author": null,
           "description": "I wrote this post for a prompt given during our local Indieweb club meeting: “What did you recently change your mind about?”\nI’ve always wanted to write a book—some book—since I can remember, for reasons I’ll not go into in this post. Initially, I had no clue what I wanted to write about. Over years (decades really), I slowly zeroed it down to writing a book about compilers in Haskell.\nI got interested in Functional Programming while I was a wee J2EE developer back in the aughts. The first language that caught my fascination was Clojure, the excellent Lisp on JVM. But soon enough, the dark side of static typing seduced me and I fell in love with Haskell. Over a decade or so, I’ve read and written enough Haskell code that I can call myself proficient in it. Haskell is now the first language…",
           "link": "https://abhinavsarkar.net/notes/2025-change-of-mind/?mtm_campaign=feed",
           "publishedOn": "2025-11-15T00:00:00.000Z",
-          "wordCount": 1080,
+          "wordCount": 1097,
           "title": "Change of Mind",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-change-of-mind.svg"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2025-weeknotes-11-09/?mtm_campaign=feed",
           "author": null,
-          "description": "This week note covers the week of 3rd–9th Nov.\n\n\nPerspective\n\n\nThis week has been a downer. Both my child (A) and I have been sick with some stomach bug. While we are doing better now, full recovery is yet to be made.\nWe bought a new bed for A! But the paint on the bed smelled so much, we had to move to the guestroom to sleep. And it’s always a pain for me to sleep in a new room. Therefore, I’ve not slept well in days now 😢.\nI wrote a new note about compiler targets. It unexpectedly reached and stayed at the top of lobste.rs for hours! No likes at Hacker News though.\nI added dynamic OpenGraph preview images for my posts, such as this one, but learned later that SVG previews are not supported by most platforms. So now I need to rewrite it to produce PNGs.\nI started reading the Writing a C compiler book, and I’m already through 8/20 chapters. I’ve been looking for a modern compiler book, and I think this one comes quite close. It works with a real-world language (C), compiles all the way to assembly, and deals with optimizations and register allocations. It is a bit light on theory and code, but it complements the older compiler books well.\nI’ve been researching the AST typing problem, specifically its solutions in Haskell. Send me pointers if you know any.\nI’m excited about the Advent of Code this year, more that usual because now it will run for only 12 days. I always found myself running out of steam around the 15th day. I want to do this year in Zig, but I may fall back to Haskell if it’s too difficult.\nSome interesting things I read on internet this week:\n\nWriting a C Compiler, in Zig\nLongford Marathon\n\n\n\nIf you have any questions or comments, please leave a comment below. If you liked this post, please share it. Thanks for reading!\n\nThis post was originally published on abhinavsarkar.net.\nIf you liked this post, please leave a comment.",
+          "description": "This week note covers the week of 3rd–9th November.\n\n\nPerspective\n\n\nThis week has been a downer. Both my child (A) and I have been sick with some stomach bug. While we are doing better now, full recovery is yet to be made.\nWe bought a new bed for A! But the paint on the bed smelled so much, we had to move to the guestroom to sleep. And it’s always a pain for me to sleep in a new room. Therefore, I’ve not slept well in days now 😢.\nI wrote a new note about compiler targets. It unexpectedly reached and stayed at the top of lobste.rs for hours! No likes at Hacker News though.\nI added dynamic OpenGraph preview images for my posts, such as this one, but learned later that SVG previews are not supported by most platforms. So now I need to rewrite it to produce PNGs.\nI started reading the Writing a C compiler book, and I’m already through 8/20 chapters. I’ve been looking for a modern compiler book, and I think this one comes quite close. It works with a real-world language (C), compiles all the way to assembly, and deals with optimizations and register allocations. It is a bit light on theory and code, but it complements the older compiler books well.\nI’ve been researching the AST typing problem, specifically its solutions in Haskell. Send me pointers if you know any.\nI’m excited about the Advent of Code this year, more that usual because now it will run for only 12 days. I always found myself running out of steam around the 15th day. I want to do this year in Zig, but I may fall back to Haskell if it’s too difficult.\nSome interesting things I read on internet this week:\n\nWriting a C Compiler, in Zig\nLongford Marathon\n\n\n\nIf you have any questions or comments, please leave a comment below. If you liked this post, please share it. Thanks for reading!\n\nThis post was originally published on abhinavsarkar.net.\nIf you liked this post, please leave a comment.",
           "link": "https://abhinavsarkar.net/notes/2025-weeknotes-11-09/?mtm_campaign=feed",
           "publishedOn": "2025-11-09T00:00:00.000Z",
           "wordCount": 806,
@@ -257,14 +247,14 @@
           "description": "As an amateur compiler developer, one of the decisions I struggle with is choosing the right compiler target. Unlike the 80s when people had to target various machine architectures directly, now there are many mature options available. This is a short and very incomplete survey of some of the popular and interesting options.\nContents\n\nMachine Code / Assembly\nIntermediate Representations\nOther High-level Languages\nVirtual Machines / Bytecode\nWebAssembly\nMeta-tracing and Metacompilation Frameworks\nUnconventional Targets\nConclusion\n\nMachine Code / Assembly\nA compiler can always directly output machine code or assembly targeted for one or more architectures. A well-known example is the Tiny C Compiler. It’s known for its speed and small size, and it can compile and run C code on the fly. Anoth…",
           "link": "https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed",
           "publishedOn": "2025-11-05T00:00:00.000Z",
-          "wordCount": 3297,
+          "wordCount": 3661,
           "title": "A Short Survey of Compiler Targets",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-compiler-backend-survey.svg"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed",
           "author": null,
-          "description": "This week note covers the week of 27th Oct-2nd Nov.\n\n\nBlue Heights\n\n\nThis week has been rather uneventful. I suppose that is a good thing.\nI’ve been busy at work, something to do with parsing and analyzing SQL.\nI wrote a new note in response to the latest blogging challenge.\nI wrote first drafts of three blog posts (!), but it’ll probably be a long time before they are ready to be published.\nI am running a poll about compiler backends on Mastodon. The results as of the time of publishing this note:\nIf someone were to write a new compiler book today, what would you prefer the backend to emit? Learning about which backend would help the readers most these days?\nLLVM (38)\nWASM (19)\nArm assembly (14)\nX86 assembly (6)\nC (12)\nJavaScript (4)\nLua (5)\nJVM bytecode (3)\nCIL (2)\nQBE (1)\nI watched a co…",
+          "description": "This week note covers the week of 27th Oct–2nd November.\n\n\nBlue Heights\n\n\nThis week has been rather uneventful. I suppose that is a good thing.\nI’ve been busy at work, something to do with parsing and analyzing SQL.\nI wrote a new note in response to the latest blogging challenge.\nI wrote first drafts of three blog posts (!), but it’ll probably be a long time before they are ready to be published.\nI am running a poll about compiler backends on Mastodon. The results as of the time of publishing this note:\nIf someone were to write a new compiler book today, what would you prefer the backend to emit? Learning about which backend would help the readers most these days?\nLLVM (38)\nWASM (19)\nArm assembly (14)\nX86 assembly (6)\nC (12)\nJavaScript (4)\nLua (5)\nJVM bytecode (3)\nCIL (2)\nQBE (1)\nI watched…",
           "link": "https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed",
           "publishedOn": "2025-11-02T00:00:00.000Z",
           "wordCount": 876,
@@ -284,32 +274,12 @@
         {
           "id": "https://abhinavsarkar.net/notes/2025-weeknotes-10-26/?mtm_campaign=feed",
           "author": null,
-          "description": "This week note covers the week of 20th-26th Oct.\n\n\nThe Loovre\n\n\nThe week started with Diwali. We made a rangoli, lit lamps and decorated with lights. We had great food for breakfast and lunch. The sky was filled with fireworks. It was a lot of fun, especially for my little one.\nI wrote a new blog post, concluding my “A Fast Bytecode VM for Arithmetic” series. Some friends have asked me how long it takes me to write these posts, so this time I paid attention. The idea came to me on 28th January 2025, and the series ended on 21st October 2025. So it took me about nine months from conception to end. I did about 70 revisions (commits) of the code, and about 50 revisions of the post text over the months. The end result was over 8300 words of text and 1700 lines of code.\nI finally got the count …",
+          "description": "This week note covers the week of 20th–26th October.\n\n\nThe Loovre\n\n\nThe week started with Diwali. We made a rangoli, lit lamps and decorated with lights. We had great food for breakfast and lunch. The sky was filled with fireworks. It was a lot of fun, especially for my little one.\nI wrote a new blog post, concluding my “A Fast Bytecode VM for Arithmetic” series. Some friends have asked me how long it takes me to write these posts, so this time I paid attention. The idea came to me on 28th January 2025, and the series ended on 21st October 2025. So it took me about nine months from conception to end. I did about 70 revisions (commits) of the code, and about 50 revisions of the post text over the months. The end result was over 8300 words of text and 1700 lines of code.\nI finally got the co…",
           "link": "https://abhinavsarkar.net/notes/2025-weeknotes-10-26/?mtm_campaign=feed",
           "publishedOn": "2025-10-26T00:00:00.000Z",
           "wordCount": 933,
           "title": "Notes for the Week #43",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-10-26.svg"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2025-weeknotes-10-19/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 13th-19th Oct.\n\n\nA Desert Orchard\n\n\nBangalore—the city I live in—is notorious for its bad traffic. I had a confirmation of it just this week, when I was stuck in a cab for three entire hours. The traffic jam made the news, like many such before it, but experiencing it first-hand was a crazy thing. As I sat there in the cab for three whole hours, hungry, thirsty, sleepy but unable to sleep, I became so distraught that it made me challenge my belief that Bangalore is a good city to live in. Something will have to change.\nAs they say, you are not stuck in traffic, you are traffic. So better learn how to drive in Bangalore by reading this great guide by my friend Kiran. I’ve been thinking of writing such a piece for years now, but Kiran did it better than I co…",
-          "link": "https://abhinavsarkar.net/notes/2025-weeknotes-10-19/?mtm_campaign=feed",
-          "publishedOn": "2025-10-19T00:00:00.000Z",
-          "wordCount": 1261,
-          "title": "Notes for the Week #42",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-10-19.svg"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2025-self-advice/?mtm_campaign=feed",
-          "author": null,
-          "description": "Some advice I have for my present/future self:\nGo for a walk at 8 PM.\nBuy a bed.\nSet more alarms.\nWrite down your daily plans on your palms.\nBuy expensive shoes.\nPut on shoes.\nStop talking.\nGet many online subscriptions.\nTalk to your phone.\nFill your backpack with books.\nAsk for advice.\nUse pointers.\nDo what people tell you to do.\nGo to parties uninvited.\nSpend more money.\nLearn Assembly.\nPick a fight.\nGo for a walk at 6 AM.\nKeep your water bottle in sight.\nMake Lego towers.\nAbandon Git.\nBuy more domain names.\nJump on the bed (gently).\nDon’t get bitten by mosquitoes.\nEat greasy food.\nBuy flowers.\nThrow away your cloths.\nDon’t drive.\nUse OverloadedRecordDot.\nLove.\nDon’t overdo any of the above.\nI wrote this post for a prompt given during our local Indieweb club meeting.\nThis post was originally published on abhinavsarkar.net.\nIf you liked this post, please leave a comment.",
-          "link": "https://abhinavsarkar.net/notes/2025-self-advice/?mtm_campaign=feed",
-          "publishedOn": "2025-10-18T00:00:00.000Z",
-          "wordCount": 674,
-          "title": "Advice",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-self-advice.svg"
         }
       ]
     },
@@ -319,12 +289,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22309",
+          "author": "Daniel Lemire",
+          "description": "Roughly speaking, our processors come in two types, the ARM processors found in your phone and the x64 processors made by Intel and AMD. The best server processors used to be made by Intel. Increasingly, Intel is struggling to keep up. Recently, Amazon has made available the latest AMD microarchitecture (Zen 5). Specifically, if you … Continue reading AMD vs. Intel: a Unicode benchmark",
+          "link": "https://lemire.me/blog/2025/11/16/amd-vs-intel-a-unicode-benchmark/",
+          "publishedOn": "2025-11-16T01:04:16.000Z",
+          "wordCount": 3777,
+          "title": "AMD vs. Intel: a Unicode benchmark",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/11/Capture-decran-le-2025-11-15-a-20.08.20-1024x610.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22300",
           "author": "Daniel Lemire",
           "description": "In C++, comparing two objects for equality is straightforward when they are simple types like integers or strings. But what about complex, nested structures? You may have to implement the comparison (operator==) manually for each class, which is error-prone and tedious. Consider a person class. class person { public: person(std::string n, int a) : name(n), … Continue reading Automated Equality Checks in C++ with Reflection (C++26)",
           "link": "https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/",
           "publishedOn": "2025-11-09T22:36:55.000Z",
-          "wordCount": 3614,
+          "wordCount": 3776,
           "title": "Automated Equality Checks in C++ with Reflection (C++26)",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/11/Capture-decran-le-2025-11-09-a-17.32.57-1024x972.png"
         },
@@ -334,7 +314,7 @@
           "description": "There is sometimes confusion about what a PhD is. The main signal that you should derive from the fact that someone has a PhD is that they are well suited to the university campus environment. Maybe people who complete a PhD are especially thorough and finish their work to perfection? In computer science, academic projects … Continue reading As smart as a PhD",
           "link": "https://lemire.me/blog/2025/10/30/as-smart-as-a-phd/",
           "publishedOn": "2025-10-30T22:54:44.000Z",
-          "wordCount": 3237,
+          "wordCount": 3268,
           "title": "As smart as a PhD",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/10/G4gzGEFX0AA9hJO-1024x546.jpeg"
         },
@@ -344,7 +324,7 @@
           "description": "The hardest problem in software performance is often to understand your code and why it might be slow. One approach to this problem is called profiling. Profiling tries to count the time spent in the various functions of your program. It can be difficult to understand the result of profiling. Furthermore, it is more complicated … Continue reading Flame Graphs in Go",
           "link": "https://lemire.me/blog/2025/10/26/flame-graphs-in-go/",
           "publishedOn": "2025-10-26T20:13:34.000Z",
-          "wordCount": 3697,
+          "wordCount": 3696,
           "title": "Flame Graphs in Go",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/10/Capture-decran-le-2025-10-26-a-16.14.04-1024x480.png"
         },
@@ -354,29 +334,9 @@
           "description": "If you have ever met me in person, you know that when you share an idea with me, I simplify it to its core and reflect it back to you, focusing on its essential parts. I dissect each statement for precision. “What do you mean by this word?” I have two decades of experience working … Continue reading Thinking Clearly",
           "link": "https://lemire.me/blog/2025/10/26/thinking-clearly/",
           "publishedOn": "2025-10-26T14:59:29.000Z",
-          "wordCount": 3336,
+          "wordCount": 3335,
           "title": "Thinking Clearly",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/10/0e2e1703-f9c7-4d54-8124-0863262d108d-687x1024.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22238",
-          "author": "Daniel Lemire",
-          "description": "In large code bases, we are often stuck with unpleasant designs that are harming our performance. We might be looking for a non-intrusive method to improve the performance. For example, you may not want to change the function signatures. Let us consider a concrete example. Maybe someone designed the programming interface so that you have … Continue reading Speeding up C++ functions with a thread_local cache",
-          "link": "https://lemire.me/blog/2025/10/19/speeding-up-c-functions-with-a-thread_local-cache/",
-          "publishedOn": "2025-10-19T21:28:24.000Z",
-          "wordCount": 3679,
-          "title": "Speeding up C++ functions with a thread_local cache",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/10/9af1530f-1aca-4fbc-8796-ff74a1a8b544-687x1024.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22232",
-          "author": "Daniel Lemire",
-          "description": "Many view scientific research as a public good. I consider this naive and indefensible. Scientific progress hinges on people and culture, not on research results as public goods. What do they mean by a public good? A public good is non-excludable: Once a scientific discovery is made anyone can access it at low cost. If … Continue reading Research results are cultural artifacts, not public goods",
-          "link": "https://lemire.me/blog/2025/10/17/research-results-are-cultural-artifacts-not-public-goods/",
-          "publishedOn": "2025-10-17T18:50:53.000Z",
-          "wordCount": 5789,
-          "title": "Research results are cultural artifacts, not public goods",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/10/Capture-decran-le-2025-10-17-a-14.50.30-942x1024.png"
         }
       ]
     },
@@ -390,13 +350,34 @@
       "title": "apenwarr",
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://apenwarr.ca/log/20251120",
+          "author": null,
+          "description": "Long ago in the 1990s when I was in high school, my chemistry+physics\nteacher pulled me aside. \"Avery, you know how the Internet works, right? I\nhave a question.\"\nI now know the correct response to that was, \"Does anyone really know how\nthe Internet works?\" But as a naive young high schooler I did not have that\nlevel of self-awareness. (Decades later, as a CEO, that's my answer to\nalmost everything.)\nAnyway, he asked his question, and it was simple but deep. How do they make\nall the computers connect?\nWe can't even get the world to agree on 60 Hz vs 50 Hz, 120V vs 240V, or\nwhich kind of physical power plug to use. Communications equipment uses way\nmore frequencies, way more voltages, way more plug types. Phone companies\nmanaged to federate with each other, eventually, barely, but the ring …",
+          "link": "https://apenwarr.ca/log/20251120",
+          "publishedOn": "2025-11-20T14:19:14.000Z",
+          "wordCount": 4503,
+          "title": "Systems design 3: LLMs and the semantic revolution",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "home on CuriousCoding",
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
+        {
+          "id": "https://curiouscoding.nl/posts/distributing-rust-simd-binaries/",
+          "author": null,
+          "description": "Table of Contents\n1 What’s inside\n2 Compile-time feature detection\n\n2.1 Other solutions\n3 Rust’s default target-cpu\n\n3.1 cargo build vs cargo install\n4 Hardware support\n5 Distributing binaries\n\n5.1 GitHub Releases\n5.2 Bioconda\n5.3 Pypi\n6 Open questions\nMany of my rust crates and binaries building on them use SIMD instructions. Notably:\npacked-seq, a library for 2-bit encoding DNA (gh, docs.rs),\nsimd-minimizers, a library for fast computation of minimizers (gh, docs.rs, paper),\ndeacon, a tool for fast decontamination of reads (gh, preprint),\nsassy, a SIMD-based approximate string searching library and binary (gh, docs.rs, preprint),\nbarbell, a tool for demultiplexer based on sassy (gh, preprint)\nall support fast algorithms based on both x86-64 (x64, henceforth) AVX2 and\naarch64 NEON instructions. The question of this post is: how to effectively\ndistribute binaries using these libraries?",
+          "link": "https://curiouscoding.nl/posts/distributing-rust-simd-binaries/",
+          "publishedOn": "2025-11-19T23:00:00.000Z",
+          "wordCount": 1469,
+          "title": "Distributing Rust SIMD Binaries",
+          "imageUrl": null
+        },
         {
           "id": "https://curiouscoding.nl/posts/static-retrieval-revisited/",
           "author": null,

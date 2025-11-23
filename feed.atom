@@ -1,10 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-11-16T01:24:06.663Z</id>
+    <id>urn:2025-11-23T01:37:38.955Z</id>
     <title>osmos::feed</title>
-    <updated>2025-11-16T01:24:06.663Z</updated>
+    <updated>2025-11-23T01:37:38.955Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[TigerBeetle Blog]]></title>
+        <id>https://matklad.github.io/2025/11/22/tigerbeetle-blog.html</id>
+        <link href="https://matklad.github.io/2025/11/22/tigerbeetle-blog.html"/>
+        <updated>2025-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Continuing the tradition, I've been
+also blogging somewhat regularly on TigerBeetle's blog, so you might want to check those articles
+out or even subscribe (my favorite RSS reader is RSSSSR):]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20x Faster TRL Fine-tuning with RapidFire AI]]></title>
+        <id>https://huggingface.co/blog/rapidfireai</id>
+        <link href="https://huggingface.co/blog/rapidfireai"/>
+        <updated>2025-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open ASR Leaderboard: Trends and Insights with New Multilingual & Long-Form Tracks]]></title>
+        <id>https://huggingface.co/blog/open-asr-leaderboard</id>
+        <link href="https://huggingface.co/blog/open-asr-leaderboard"/>
+        <updated>2025-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Systems design 3: LLMs and the semantic revolution]]></title>
+        <id>https://apenwarr.ca/log/20251120</id>
+        <link href="https://apenwarr.ca/log/20251120"/>
+        <updated>2025-11-20T14:19:14.000Z</updated>
+        <summary type="html"><![CDATA[Long ago in the 1990s when I was in high school, my chemistry+physics
+teacher pulled me aside. "Avery, you know how the Internet works, right? I
+have a question."
+I now know the correct response to that was, "Does anyone really know how
+the Internet works?" But as a naive young high schooler I did not have that
+level of self-awareness. (Decades later, as a CEO, that's my answer to
+almost everything.)
+Anyway, he asked his question, and it was simple but deep. How do they make
+all the computers connect?
+We can't even get the world to agree on 60 Hz vs 50 Hz, 120V vs 240V, or
+which kind of physical power plug to use. Communications equipment uses way
+more frequencies, way more voltages, way more plug types. Phone companies
+managed to federate with each other, eventually, barely, but the ring …]]></summary>
+        <author>
+            <name>apenwarr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms]]></title>
+        <id>https://huggingface.co/blog/anylanguagemodel</id>
+        <link href="https://huggingface.co/blog/anylanguagemodel"/>
+        <updated>2025-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Distributing Rust SIMD Binaries]]></title>
+        <id>https://curiouscoding.nl/posts/distributing-rust-simd-binaries/</id>
+        <link href="https://curiouscoding.nl/posts/distributing-rust-simd-binaries/"/>
+        <updated>2025-11-19T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 What’s inside
+2 Compile-time feature detection
+
+2.1 Other solutions
+3 Rust’s default target-cpu
+
+3.1 cargo build vs cargo install
+4 Hardware support
+5 Distributing binaries
+
+5.1 GitHub Releases
+5.2 Bioconda
+5.3 Pypi
+6 Open questions
+Many of my rust crates and binaries building on them use SIMD instructions. Notably:
+packed-seq, a library for 2-bit encoding DNA (gh, docs.rs),
+simd-minimizers, a library for fast computation of minimizers (gh, docs.rs, paper),
+deacon, a tool for fast decontamination of reads (gh, preprint),
+sassy, a SIMD-based approximate string searching library and binary (gh, docs.rs, preprint),
+barbell, a tool for demultiplexer based on sassy (gh, preprint)
+all support fast algorithms based on both x86-64 (x64, henceforth) AVX2 and
+aarch64 NEON instructions. The question of this post is: how to effectively
+distribute binaries using these libraries?]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Easily Build and Share ROCm Kernels with Hugging Face]]></title>
+        <id>https://huggingface.co/blog/build-rocm-kernels</id>
+        <link href="https://huggingface.co/blog/build-rocm-kernels"/>
+        <updated>2025-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD vs. Intel: a Unicode benchmark]]></title>
+        <id>https://lemire.me/blog/?p=22309</id>
+        <link href="https://lemire.me/blog/2025/11/16/amd-vs-intel-a-unicode-benchmark/"/>
+        <updated>2025-11-16T01:04:16.000Z</updated>
+        <summary type="html"><![CDATA[Roughly speaking, our processors come in two types, the ARM processors found in your phone and the x64 processors made by Intel and AMD. The best server processors used to be made by Intel. Increasingly, Intel is struggling to keep up. Recently, Amazon has made available the latest AMD microarchitecture (Zen 5). Specifically, if you … Continue reading AMD vs. Intel: a Unicode benchmark]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #46]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-16/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-16/?mtm_campaign=feed"/>
+        <updated>2025-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 10th–16th November.
+
+
+Green, White and Black
+
+
+This week has been … different. Early this week while having a conversation with my wife, I had a sudden realization that I was having a productive burnout. Unlike the last time when I had a burnout six years ago, this time I was getting a lot done. Just look at how many posts and notes I’ve written this year! Add to that the half-dozen personal projects I’m working on, my office work, my personal commitments, attending IndiewebClub every fortnight. It’s crazy! I’ve also been feeling very mentally tired and uninterested in almost everything.
+My overall health has slowly improved to the level it was six months ago. This week I walked over 8000 steps every day. Brain fog and fatigue is also down by a lot.
+I attended the IndiewebClub Bangalore meetup yesterday. This week we focused on creating and improving our websites. I worked on adding support for spoilers in my website, but I could not get it done well enough within the allotted time. I also wrote a note about changing my mind.
+I read quite a bit this week. I am 20% through the Writing a C compiler book, and 60% through This is How You Lose the Time War.
+I finished watching the latest season of Only Murders in the Building. I liked it more the previous couple seasons, mostly because this time it focused on the murder mystery and investigation instead of celebrity gimmicks. I also watched few more episodes of Black Mirror, and liked it as always.
+Some interesting posts I read on the internet this week:
+
+The Overly Humble Programmer
+Folk Interfaces
+Waiting for the Dehradun
+
+
+That’s all for this week. Talk to me in the comments.
+This post was originally published on abhinavsarkar.net.
+If you liked this post, please leave a comment.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Change of Mind]]></title>
         <id>https://abhinavsarkar.net/notes/2025-change-of-mind/?mtm_campaign=feed</id>
@@ -66,7 +213,7 @@ article.]]></summary>
         <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-09/?mtm_campaign=feed</id>
         <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-09/?mtm_campaign=feed"/>
         <updated>2025-11-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 3rd–9th Nov.
+        <summary type="html"><![CDATA[This week note covers the week of 3rd–9th November.
 
 
 Perspective
@@ -210,7 +357,7 @@ one to store the best cost to get to state
         <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed</id>
         <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed"/>
         <updated>2025-11-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 27th Oct-2nd Nov.
+        <summary type="html"><![CDATA[This week note covers the week of 27th Oct–2nd November.
 
 
 Blue Heights
@@ -232,7 +379,7 @@ Lua (5)
 JVM bytecode (3)
 CIL (2)
 QBE (1)
-I watched a co…]]></summary>
+I watched…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
@@ -298,6 +445,7 @@ Yes, I do floss my teeth, about 80% of days, which is more than what most Indian
         <id>https://huggingface.co/blog/lerobotxnvidia-healthcare</id>
         <link href="https://huggingface.co/blog/lerobotxnvidia-healthcare"/>
         <updated>2025-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -357,7 +505,7 @@ Yes, I do floss my teeth, about 80% of days, which is more than what most Indian
         <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-26/?mtm_campaign=feed</id>
         <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-26/?mtm_campaign=feed"/>
         <updated>2025-10-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 20th-26th Oct.
+        <summary type="html"><![CDATA[This week note covers the week of 20th–26th October.
 
 
 The Loovre
@@ -365,174 +513,9 @@ The Loovre
 
 The week started with Diwali. We made a rangoli, lit lamps and decorated with lights. We had great food for breakfast and lunch. The sky was filled with fireworks. It was a lot of fun, especially for my little one.
 I wrote a new blog post, concluding my “A Fast Bytecode VM for Arithmetic” series. Some friends have asked me how long it takes me to write these posts, so this time I paid attention. The idea came to me on 28th January 2025, and the series ended on 21st October 2025. So it took me about nine months from conception to end. I did about 70 revisions (commits) of the code, and about 50 revisions of the post text over the months. The end result was over 8300 words of text and 1700 lines of code.
-I finally got the count …]]></summary>
+I finally got the co…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LeRobot v0.4.0: Supercharging OSS Robot Learning]]></title>
-        <id>https://huggingface.co/blog/lerobot-release-v040</id>
-        <link href="https://huggingface.co/blog/lerobot-release-v040"/>
-        <updated>2025-10-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building the Open Agent Ecosystem Together: Introducing OpenEnv]]></title>
-        <id>https://huggingface.co/blog/openenv</id>
-        <link href="https://huggingface.co/blog/openenv"/>
-        <updated>2025-10-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hugging Face and VirusTotal collaborate to strengthen AI security]]></title>
-        <id>https://huggingface.co/blog/virustotal</id>
-        <link href="https://huggingface.co/blog/virustotal"/>
-        <updated>2025-10-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sentence Transformers is joining Hugging Face!]]></title>
-        <id>https://huggingface.co/blog/sentence-transformers-joins-hf</id>
-        <link href="https://huggingface.co/blog/sentence-transformers-joins-hf"/>
-        <updated>2025-10-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supercharge your OCR Pipelines with Open Models]]></title>
-        <id>https://huggingface.co/blog/ocr-open-models</id>
-        <link href="https://huggingface.co/blog/ocr-open-models"/>
-        <updated>2025-10-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unlock the power of images with AI Sheets]]></title>
-        <id>https://huggingface.co/blog/aisheets-unlock-images</id>
-        <link href="https://huggingface.co/blog/aisheets-unlock-images"/>
-        <updated>2025-10-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Fast Bytecode VM for Arithmetic: The Virtual Machine]]></title>
-        <id>https://abhinavsarkar.net/posts/arithmetic-bytecode-vm/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm/?mtm_campaign=feed"/>
-        <updated>2025-10-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>In this series of posts, we write a fast bytecode compiler and a virtual machine for arithmetic in Haskell. We explore the following topics:</p>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#parsing-expressions">Parsing arithmetic expressions to Abstract Syntax Trees (ASTs).</a></label></li>
-<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#testing-the-parser">Unit testing for our parser.</a></label></li>
-<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/#the-ast-interpreter">Interpreting ASTs.</a></label></li>
-<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#the-compiler">Compiling ASTs to bytecode.</a></label></li>
-<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#the-decompiler">Disassembling and decompiling bytecode.</a></label></li>
-<li><label><input type="checkbox" checked="" /><a href="https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/#testing-the-compiler">Unit testing for our compiler.</a></label></li>
-<li><label><input type="checkbox" /><span class="todo">Property-based testing for our compiler.</span></label></li>
-<li><label><input type="checkbox" /><span class="todo">Efficiently executing bytecode in a virtual machine (VM).</span></label></li>
-<li><label><input type="checkbox" /><span class="todo">Unit testing and property-based testing for our <abbr title="Virtual Machine">VM</abbr>.</span></label></li>
-<li><label><input type="checkbox" /><span class="todo">Benchmarking our code to see how the different passes perform.</span></label></li>
-<li><label><input type="checkbox" /><span class="todo">All the while keeping an eye on performance.</span></label></li>
-</ul>
-<p>In this final post, we write the virtual machine that executes our bytecode, and benchmark it.</p>]]></summary>
-        <author>
-            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Speeding up C++ functions with a thread_local cache]]></title>
-        <id>https://lemire.me/blog/?p=22238</id>
-        <link href="https://lemire.me/blog/2025/10/19/speeding-up-c-functions-with-a-thread_local-cache/"/>
-        <updated>2025-10-19T21:28:24.000Z</updated>
-        <summary type="html"><![CDATA[In large code bases, we are often stuck with unpleasant designs that are harming our performance. We might be looking for a non-intrusive method to improve the performance. For example, you may not want to change the function signatures. Let us consider a concrete example. Maybe someone designed the programming interface so that you have … Continue reading Speeding up C++ functions with a thread_local cache]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #42]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-19/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-19/?mtm_campaign=feed"/>
-        <updated>2025-10-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 13th-19th Oct.
-
-
-A Desert Orchard
-
-
-Bangalore—the city I live in—is notorious for its bad traffic. I had a confirmation of it just this week, when I was stuck in a cab for three entire hours. The traffic jam made the news, like many such before it, but experiencing it first-hand was a crazy thing. As I sat there in the cab for three whole hours, hungry, thirsty, sleepy but unable to sleep, I became so distraught that it made me challenge my belief that Bangalore is a good city to live in. Something will have to change.
-As they say, you are not stuck in traffic, you are traffic. So better learn how to drive in Bangalore by reading this great guide by my friend Kiran. I’ve been thinking of writing such a piece for years now, but Kiran did it better than I co…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advice]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-self-advice/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-self-advice/?mtm_campaign=feed"/>
-        <updated>2025-10-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Some advice I have for my present/future self:
-Go for a walk at 8 PM.
-Buy a bed.
-Set more alarms.
-Write down your daily plans on your palms.
-Buy expensive shoes.
-Put on shoes.
-Stop talking.
-Get many online subscriptions.
-Talk to your phone.
-Fill your backpack with books.
-Ask for advice.
-Use pointers.
-Do what people tell you to do.
-Go to parties uninvited.
-Spend more money.
-Learn Assembly.
-Pick a fight.
-Go for a walk at 6 AM.
-Keep your water bottle in sight.
-Make Lego towers.
-Abandon Git.
-Buy more domain names.
-Jump on the bed (gently).
-Don’t get bitten by mosquitoes.
-Eat greasy food.
-Buy flowers.
-Throw away your cloths.
-Don’t drive.
-Use OverloadedRecordDot.
-Love.
-Don’t overdo any of the above.
-I wrote this post for a prompt given during our local Indieweb club meeting.
-This post was originally published on abhinavsarkar.net.
-If you liked this post, please leave a comment.]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research results are cultural artifacts, not public goods]]></title>
-        <id>https://lemire.me/blog/?p=22232</id>
-        <link href="https://lemire.me/blog/2025/10/17/research-results-are-cultural-artifacts-not-public-goods/"/>
-        <updated>2025-10-17T18:50:53.000Z</updated>
-        <summary type="html"><![CDATA[Many view scientific research as a public good. I consider this naive and indefensible. Scientific progress hinges on people and culture, not on research results as public goods. What do they mean by a public good? A public good is non-excludable: Once a scientific discovery is made anyone can access it at low cost. If … Continue reading Research results are cultural artifacts, not public goods]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
