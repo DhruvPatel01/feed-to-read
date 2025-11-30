@@ -1,10 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-11-23T01:37:38.955Z</id>
+    <id>urn:2025-11-30T01:28:34.155Z</id>
     <title>osmos::feed</title>
-    <updated>2025-11-23T01:37:38.955Z</updated>
+    <updated>2025-11-30T01:28:34.155Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[How fast can browsers process base64 data?]]></title>
+        <id>https://lemire.me/blog/?p=22340</id>
+        <link href="https://lemire.me/blog/2025/11/29/how-fast-can-browsers-process-base64-data/"/>
+        <updated>2025-11-29T05:00:03.000Z</updated>
+        <summary type="html"><![CDATA[Base64 is a binary-to-text encoding scheme that converts arbitrary binary data (like images, files, or any sequence of bytes) into a safe, printable ASCII string using a 64-character alphabet (A–Z, a–z, 0–9, +, /). Browsers use it in JavaScript to embedding binary data directly in code or HTML or to transmitting binary data as text. … Continue reading How fast can browsers process base64 data?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Antifragile Programming and Why AI Won’t Steal Your Job]]></title>
+        <id>https://lemire.me/blog/?p=22337</id>
+        <link href="https://lemire.me/blog/2025/11/29/antifragile-programming-and-why-ai-wont-steal-your-job/"/>
+        <updated>2025-11-29T02:39:56.000Z</updated>
+        <summary type="html"><![CDATA[Whenever I say I dislike debugging and organize my programming habits around avoiding it, there is always pushback: “You must not use a good debugger.” To summarize my view: I want my software to be antifragile (credit to Nassim Taleb for the concept). The longer I work on a codebase, the easier it should become … Continue reading Antifragile Programming and Why AI Won’t Steal Your Job]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Size Matters]]></title>
+        <id>https://matklad.github.io/2025/11/28/size-matters.html</id>
+        <link href="https://matklad.github.io/2025/11/28/size-matters.html"/>
+        <updated>2025-11-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TigerStyle is pretty
+strict about some arbitrary limits:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diffusers welcomes FLUX-2]]></title>
+        <id>https://huggingface.co/blog/flux-2</id>
+        <link href="https://huggingface.co/blog/flux-2"/>
+        <updated>2025-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Continuous batching from first principles]]></title>
+        <id>https://huggingface.co/blog/continuous_batching</id>
+        <link href="https://huggingface.co/blog/continuous_batching"/>
+        <updated>2025-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How good are Chinese CPUs? Benchmarking the Loongson 3A6000]]></title>
+        <id>https://lemire.me/blog/?p=22328</id>
+        <link href="https://lemire.me/blog/2025/11/23/how-good-are-chinese-cpus-benchmarking-the-loongson-3a6000/"/>
+        <updated>2025-11-23T23:09:59.000Z</updated>
+        <summary type="html"><![CDATA[I maintain a few widely used libraries that have optimized code paths based on the specific processor being used. We started supporting Loongson processors in recent years, but I did not have access to a Loongson processor until now. To my knowledge, they are not widely distributed in North America. This made it difficult for … Continue reading How good are Chinese CPUs? Benchmarking the Loongson 3A6000]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #47]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-23/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-23/?mtm_campaign=feed"/>
+        <updated>2025-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 17th–23rd October.
+
+
+Halfpipe
+
+
+Starting with health, this week was again fraught with infections. They say toddlers are walking Petri dishes, and it’s not far from truth. My wife and I had a minor viral infection this week but thankfully the toddler was fine. Still, I didn’t feel at 100% and could not get a lot done.
+I finished reading This is How You Lose the Time War! This is the first fiction book that I’ve read since 2021. Early parenthood is difficult, and sadly, reading fiction was the first thing I gave up. I tried, but it just didn’t hold my (scattered) attention. Thankfully, it’s coming back to me. The book itself was a fascinating read. I’m not much into romances but this one was very different. I’m yet to take the full feeling in, and I will ce…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TigerBeetle Blog]]></title>
         <id>https://matklad.github.io/2025/11/22/tigerbeetle-blog.html</id>
@@ -380,140 +458,6 @@ JVM bytecode (3)
 CIL (2)
 QBE (1)
 I watched…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nim version 2.2.6 released]]></title>
-        <id>https://nim-lang.org//blog/2025/10/31/nim-226.html</id>
-        <link href="https://nim-lang.org//blog/2025/10/31/nim-226.html"/>
-        <updated>2025-10-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim Team is happy to announce version 2.2.6, the third patch release for our stable release, Nim 2.2.
-It comes six months after the 2.2.4 release and it contains 141 commits, bringing bugfixes and improvements.
-If you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.
-If you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.
-The Nim 2.2.6 changelog is available here.
-Highlights
-Exception handling combined with Nim’s async is more stable than ever before
-as the underlying closure iterator transformation has been rewritten.
-The compiler is now smart enough to produce a move operation for return obj.field.
-Previously it performed a copy.
-Expect your code to run slightly faster due to …]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[As smart as a PhD]]></title>
-        <id>https://lemire.me/blog/?p=22293</id>
-        <link href="https://lemire.me/blog/2025/10/30/as-smart-as-a-phd/"/>
-        <updated>2025-10-30T22:54:44.000Z</updated>
-        <summary type="html"><![CDATA[There is sometimes confusion about what a PhD is. The main signal that you should derive from the fact that someone has a PhD is that they are well suited to the university campus environment. Maybe people who complete a PhD are especially thorough and finish their work to perfection? In computer science, academic projects … Continue reading As smart as a PhD]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ten Pointless Facts About Me]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-ten-pointless-facts/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-ten-pointless-facts/?mtm_campaign=feed"/>
-        <updated>2025-10-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I love participating in blogging challenges because they give me ready-made prompts to write about. So here is a new one that is doing the rounds.
-Contents
-
-1. Do you floss your teeth?
-2. Tea, coffee, or water?
-3. Footwear preference?
-4. Favourite dessert?
-5. The first thing you do when you wake up?
-6. Age you’d like to stick at?
-7. How many hats do you own?
-8. Describe the last photo you took?
-9. Worst TV show?
-10. As a child, what was your aspiration for adulthood?
-
-1. Do you floss your teeth?
-Yes, I do floss my teeth, about 80% of days, which is more than what most Indians can say. Flossing is not big in India, and I didn’t do it most of my life either. But ever since I had a series of painful appointments with my dentist, I’ve been trying to do it as regularly as I can.
-2. Tea, coffee,…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac]]></title>
-        <id>https://huggingface.co/blog/lerobotxnvidia-healthcare</id>
-        <link href="https://huggingface.co/blog/lerobotxnvidia-healthcare"/>
-        <updated>2025-10-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Voice Cloning with Consent]]></title>
-        <id>https://huggingface.co/blog/voice-consent-gate</id>
-        <link href="https://huggingface.co/blog/voice-consent-gate"/>
-        <updated>2025-10-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Streaming datasets: 100x More Efficient]]></title>
-        <id>https://huggingface.co/blog/streaming-datasets</id>
-        <link href="https://huggingface.co/blog/streaming-datasets"/>
-        <updated>2025-10-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[huggingface_hub v1.0: Five Years of Building the Foundation of Open Machine Learning]]></title>
-        <id>https://huggingface.co/blog/huggingface-hub-v1</id>
-        <link href="https://huggingface.co/blog/huggingface-hub-v1"/>
-        <updated>2025-10-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flame Graphs in Go]]></title>
-        <id>https://lemire.me/blog/?p=22281</id>
-        <link href="https://lemire.me/blog/2025/10/26/flame-graphs-in-go/"/>
-        <updated>2025-10-26T20:13:34.000Z</updated>
-        <summary type="html"><![CDATA[The hardest problem in software performance is often to understand your code and why it might be slow. One approach to this problem is called profiling. Profiling tries to count the time spent in the various functions of your program. It can be difficult to understand the result of profiling. Furthermore, it is more complicated … Continue reading Flame Graphs in Go]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thinking Clearly]]></title>
-        <id>https://lemire.me/blog/?p=22278</id>
-        <link href="https://lemire.me/blog/2025/10/26/thinking-clearly/"/>
-        <updated>2025-10-26T14:59:29.000Z</updated>
-        <summary type="html"><![CDATA[If you have ever met me in person, you know that when you share an idea with me, I simplify it to its core and reflect it back to you, focusing on its essential parts. I dissect each statement for precision. “What do you mean by this word?” I have two decades of experience working … Continue reading Thinking Clearly]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #43]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-weeknotes-10-26/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-10-26/?mtm_campaign=feed"/>
-        <updated>2025-10-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 20th–26th October.
-
-
-The Loovre
-
-
-The week started with Diwali. We made a rangoli, lit lamps and decorated with lights. We had great food for breakfast and lunch. The sky was filled with fireworks. It was a lot of fun, especially for my little one.
-I wrote a new blog post, concluding my “A Fast Bytecode VM for Arithmetic” series. Some friends have asked me how long it takes me to write these posts, so this time I paid attention. The idea came to me on 28th January 2025, and the series ended on 21st October 2025. So it took me about nine months from conception to end. I did about 70 revisions (commits) of the code, and about 50 revisions of the post text over the months. The end result was over 8300 words of text and 1700 lines of code.
-I finally got the co…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
