@@ -1,10 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-11-30T01:28:34.155Z</id>
+    <id>urn:2025-12-07T01:37:13.106Z</id>
     <title>osmos::feed</title>
-    <updated>2025-11-30T01:28:34.155Z</updated>
+    <updated>2025-12-07T01:37:13.106Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Mechanical Habits]]></title>
+        <id>https://matklad.github.io/2025/12/06/mechanical-habits.html</id>
+        <link href="https://matklad.github.io/2025/12/06/mechanical-habits.html"/>
+        <updated>2025-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My schtick as a software engineer is establishing automated processes --- mechanically enforced
+patterns of behavior. I have collected a Santa Claus bag of specific tricks I've learned from
+different people, and want to share them in turn.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why speed matters]]></title>
+        <id>https://lemire.me/blog/?p=22361</id>
+        <link href="https://lemire.me/blog/2025/12/05/why-speed-matters/"/>
+        <updated>2025-12-05T19:24:50.000Z</updated>
+        <summary type="html"><![CDATA[The one constant that I have observed in my professional life is that people underestimate the need to move fast. Of course, doing good work takes time. I once spent six months writing a URL parser. But the fact that it took so long is not a feature, it is not a positive, it is … Continue reading Why speed matters]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing swift-huggingface: The Complete Swift Client for Hugging Face]]></title>
+        <id>https://huggingface.co/blog/swift-huggingface</id>
+        <link href="https://huggingface.co/blog/swift-huggingface"/>
+        <updated>2025-12-05T00:00:00.000Z</updated>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving Advent of Code 2025 in Janet: Day 1–4]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed"/>
+        <updated>2025-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>I’m solving the <a href="https://web.archive.org/web/20251205/https://adventofcode.com/2025/" target="_blank" rel="noopener">Advent of Code 2025</a> in <a href="https://janet-lang.org/" target="_blank" rel="noopener">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>
+<p>Janet is a <a href="http://clojure.org/" target="_blank" rel="noopener">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href="https://python.org" target="_blank" rel="noopener">Python</a> with Janet as my scripting language.</p>
+<p>Here are my solutions for Dec 1–4.</p>]]></summary>
+        <author>
+            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving Advent of Code 2025 in Janet: Day 1–4]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed"/>
+        <updated>2025-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>I’m solving the <a href="https://web.archive.org/web/20251205/https://adventofcode.com/2025/" target="_blank" rel="noopener">Advent of Code 2025</a> in <a href="https://janet-lang.org/" target="_blank" rel="noopener">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>
+<p>Janet is a <a href="http://clojure.org/" target="_blank" rel="noopener">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href="https://python.org" target="_blank" rel="noopener">Python</a> with Janet as my scripting language.</p>
+<p>Here are my solutions for Dec 1–4.</p>]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We see something that works, and then we understand it]]></title>
+        <id>https://lemire.me/blog/?p=22357</id>
+        <link href="https://lemire.me/blog/2025/12/04/we-see-something-that-works-and-then-we-understand-it/"/>
+        <updated>2025-12-04T15:40:59.000Z</updated>
+        <summary type="html"><![CDATA[“We see something that works, and then we understand it.” (Thomas Dullien) It is a deeper insight than it seems. Young people spend years in school learning the reverse: understanding happens before progress. That is the linear theory of innovation. So Isaac Newton comes up with his three laws of mechanics, and we get a … Continue reading We see something that works, and then we understand it]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We Got Claude to Fine-Tune an Open Source LLM]]></title>
+        <id>https://huggingface.co/blog/hf-skills-training</id>
+        <link href="https://huggingface.co/blog/hf-skills-training"/>
+        <updated>2025-12-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why don’t we get more scientific breakthroughs?]]></title>
+        <id>https://lemire.me/blog/?p=22354</id>
+        <link href="https://lemire.me/blog/2025/12/03/why-dont-we-get-more-scientific-breakthroughs/"/>
+        <updated>2025-12-03T20:41:26.000Z</updated>
+        <summary type="html"><![CDATA[It is absolutely clear to me that large language models represent the most significant scientific breakthrough of the past fifty years. The nature of that breakthrough has far reaching implications for what is happening in science today. And I believe that the entire scientific establishment is refusing to acknowledge it. We often excuse our slow … Continue reading Why don’t we get more scientific breakthroughs?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Custom Policy Enforcement with Reasoning: Faster, Safer AI Applications]]></title>
+        <id>https://huggingface.co/blog/nvidia/custom-policy-reasoning-nemotron-content-safety</id>
+        <link href="https://huggingface.co/blog/nvidia/custom-policy-reasoning-nemotron-content-safety"/>
+        <updated>2025-12-02T18:50:28.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transformers v5: Simple model definitions powering the AI ecosystem]]></title>
+        <id>https://huggingface.co/blog/transformers-v5</id>
+        <link href="https://huggingface.co/blog/transformers-v5"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feed Popularity]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-feed-popularity/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-feed-popularity/?mtm_campaign=feed"/>
+        <updated>2025-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My website provides hundred of feeds for almost everything on it. I was curious about how popular these feeds are so I dug into my server’s access logs, and with a little command line scripting produced this chart:
+
+
+Download count per feed
+
+The chart shows the download counts for the top twenty feeds over the period of last six months. Notice the logarithmic scale of the y-axis. The numbers seem to roughly follow the Power law of distribution. The top ten feeds are:
+Programming posts and notes
+Posts
+Notes
+Posts and notes
+Posts tagged Haskell
+Now
+Linkblog
+Blogroll
+Changelog
+Everything
+It probably does not make sense to provide tag-wise feeds for the Microblog and the Linkblog. I may consider removing them in future.
+This post was originally published on abhinavsarkar.net.
+If you liked this post, please leave a comment.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #48]]></title>
+        <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-30/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-30/?mtm_campaign=feed"/>
+        <updated>2025-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 24th–30th November.
+
+
+A Lonely Walk
+
+
+Today is an unusually cold day in Bengaluru, caused by the Cyclone Ditwah. I have not seen such a foggy and misty day here in over a decade. Wife and I got all wrapped up in thick jackets and went for a walk in the fog. It was wonderful!
+I wanted to have some hot chocolate after the walk but recently I’ve grown intolerant to dairy 😭. I suppose I’ll try out a plant-based milk.
+I had an eye infection this week, don’t know how I got it. To prevent my family from catching it, I wore sunglasses through the day. It was uncomfortable, but I was told I looked pretty cool in the video calls I had with my colleagues. 😎
+Wife and I took out our 3yo 𝒜 to the Ink and Oak bookstore/café one evening. It is a newly opened store that…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How fast can browsers process base64 data?]]></title>
         <id>https://lemire.me/blog/?p=22340</id>
@@ -57,6 +209,26 @@ strict about some arbitrary limits:]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Building Deep Research: How we Achieved State of the Art]]></title>
+        <id>https://huggingface.co/blog/Tavily/tavily-deep-research</id>
+        <link href="https://huggingface.co/blog/Tavily/tavily-deep-research"/>
+        <updated>2025-11-24T17:40:14.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Tavily on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OVHcloud on Hugging Face Inference Providers 🔥]]></title>
+        <id>https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud</id>
+        <link href="https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud"/>
+        <updated>2025-11-24T16:08:47.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by OVHcloud on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How good are Chinese CPUs? Benchmarking the Loongson 3A6000]]></title>
         <id>https://lemire.me/blog/?p=22328</id>
         <link href="https://lemire.me/blog/2025/11/23/how-good-are-chinese-cpus-benchmarking-the-loongson-3a6000/"/>
@@ -71,14 +243,14 @@ strict about some arbitrary limits:]]></summary>
         <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-23/?mtm_campaign=feed</id>
         <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-23/?mtm_campaign=feed"/>
         <updated>2025-11-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 17th–23rd October.
+        <summary type="html"><![CDATA[This week note covers the week of 17th–23rd November.
 
 
 Halfpipe
 
 
 Starting with health, this week was again fraught with infections. They say toddlers are walking Petri dishes, and it’s not far from truth. My wife and I had a minor viral infection this week but thankfully the toddler was fine. Still, I didn’t feel at 100% and could not get a lot done.
-I finished reading This is How You Lose the Time War! This is the first fiction book that I’ve read since 2021. Early parenthood is difficult, and sadly, reading fiction was the first thing I gave up. I tried, but it just didn’t hold my (scattered) attention. Thankfully, it’s coming back to me. The book itself was a fascinating read. I’m not much into romances but this one was very different. I’m yet to take the full feeling in, and I will ce…]]></summary>
+I finished reading This is How You Lose the Time War! This is the first fiction book that I’ve read since 2021. Early parenthood is difficult, and sadly, reading fiction was the first thing I gave up. I tried, but it just didn’t hold my (scattered) attention. Thankfully, it’s coming back to me. The book itself was a fascinating read. I’m not much into romances but this one was very different. I’m yet to take the full feeling in, and I will c…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
@@ -181,6 +353,16 @@ distribute binaries using these libraries?]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Apriel-H1: The Surprising Key to Distilling Efficient Reasoning Models]]></title>
+        <id>https://huggingface.co/blog/ServiceNow-AI/apriel-h1</id>
+        <link href="https://huggingface.co/blog/ServiceNow-AI/apriel-h1"/>
+        <updated>2025-11-19T05:19:07.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by ServiceNow-AI on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Easily Build and Share ROCm Kernels with Hugging Face]]></title>
         <id>https://huggingface.co/blog/build-rocm-kernels</id>
         <link href="https://huggingface.co/blog/build-rocm-kernels"/>
@@ -243,11 +425,20 @@ I got interested in Functional Programming while I was a wee J2EE developer back
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Join the AMD Open Robotics Hackathon]]></title>
+        <id>https://huggingface.co/blog/amd/openroboticshackathon</id>
+        <link href="https://huggingface.co/blog/amd/openroboticshackathon"/>
+        <updated>2025-11-13T21:37:26.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by AMD on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Building for an Open Future - our new partnership with Google Cloud]]></title>
         <id>https://huggingface.co/blog/google-cloud</id>
         <link href="https://huggingface.co/blog/google-cloud"/>
         <updated>2025-11-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -297,8 +488,8 @@ article.]]></summary>
 Perspective
 
 
-This week has been a downer. Both my child (A) and I have been sick with some stomach bug. While we are doing better now, full recovery is yet to be made.
-We bought a new bed for A! But the paint on the bed smelled so much, we had to move to the guestroom to sleep. And it’s always a pain for me to sleep in a new room. Therefore, I’ve not slept well in days now 😢.
+This week has been a downer. Both my child 𝒜 and I have been sick with some stomach bug. While we are doing better now, full recovery is yet to be made.
+We bought a new bed for 𝒜! But the paint on the bed smelled so much, we had to move to the guestroom to sleep. And it’s always a pain for me to sleep in a new room. Therefore, I’ve not slept well in days now 😢.
 I wrote a new note about compiler targets. It unexpectedly reached and stayed at the top of lobste.rs for hours! No likes at Hacker News though.
 I added dynamic OpenGraph preview images for my posts, such as this one, but learned later that SVG previews are not supported by most platforms. So now I need to rewrite it to produce PNGs.
 I started reading the Writing a C compiler book, and I’m already through 8/20 chapters. I’ve been looking for a modern compiler book, and I think this one comes quite close. It works with a real-world language (C), compiles all the way to assembly, and deals with optimizations and register allocations. It is a bit light on theory and code, but it complements the older compiler books well.
@@ -315,149 +506,6 @@ If you have any questions or comments, please leave a comment below. If you like
 
 This post was originally published on abhinavsarkar.net.
 If you liked this post, please leave a comment.]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Error Codes for Control Flow]]></title>
-        <id>https://matklad.github.io/2025/11/06/error-codes-for-control-flow.html</id>
-        <link href="https://matklad.github.io/2025/11/06/error-codes-for-control-flow.html"/>
-        <updated>2025-11-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Two ideas today:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Short Survey of Compiler Targets]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed"/>
-        <updated>2025-11-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As an amateur compiler developer, one of the decisions I struggle with is choosing the right compiler target. Unlike the 80s when people had to target various machine architectures directly, now there are many mature options available. This is a short and very incomplete survey of some of the popular and interesting options.
-Contents
-
-Machine Code / Assembly
-Intermediate Representations
-Other High-level Languages
-Virtual Machines / Bytecode
-WebAssembly
-Meta-tracing and Metacompilation Frameworks
-Unconventional Targets
-Conclusion
-
-Machine Code / Assembly
-A compiler can always directly output machine code or assembly targeted for one or more architectures. A well-known example is the Tiny C Compiler. It’s known for its speed and small size, and it can compile and run C code on the fly. Anoth…]]></summary>
-        <author>
-            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Short Survey of Compiler Targets]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-compiler-backend-survey/?mtm_campaign=feed"/>
-        <updated>2025-11-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As an amateur compiler developer, one of the decisions I struggle with is choosing the right compiler target. Unlike the 80s when people had to target various machine architectures directly, now there are many mature options available. This is a short and very incomplete survey of some of the popular and interesting options.
-Contents
-
-Machine Code / Assembly
-Intermediate Representations
-Other High-level Languages
-Virtual Machines / Bytecode
-WebAssembly
-Meta-tracing and Metacompilation Frameworks
-Unconventional Targets
-Conclusion
-
-Machine Code / Assembly
-A compiler can always directly output machine code or assembly targeted for one or more architectures. A well-known example is the Tiny C Compiler. It’s known for its speed and small size, and it can compile and run C code on the fly. Anoth…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Async Mutexes]]></title>
-        <id>https://matklad.github.io/2025/11/04/on-async-mutexes.html</id>
-        <link href="https://matklad.github.io/2025/11/04/on-async-mutexes.html"/>
-        <updated>2025-11-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A short note on contradiction or confusion in my language design beliefs I noticed today.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thoughts on "Static Retrival Revisited"]]></title>
-        <id>https://curiouscoding.nl/posts/static-retrieval-revisited/</id>
-        <link href="https://curiouscoding.nl/posts/static-retrieval-revisited/"/>
-        <updated>2025-11-03T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Problem definitions
-2 Optimal solutions
-3 Why an overhead is necessary
-4 Augmented Retrieval
-These are some summarizing notes and thoughts on
-“Static Retrieval Revisited: To Optimality and beyond” by Hu, Kuszmaul, Liang, Yu, Zhang, and Zhou.
-1 Problem definitions
- 
- 
- Link to heading
- 
-
-Static Retrieval. Given \(n\) keys \(X\subseteq U\) and \(n\) $v$-bit values
-\(f(X) \in [2^v]\), encode \(f: X\to [2^v]\).
-The goal is use a minimal number of bits on top of the trivial
-\(nv\) lower bound, while allowing efficient queries.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thoughts on Singletrack]]></title>
-        <id>https://curiouscoding.nl/posts/singletrack/</id>
-        <link href="https://curiouscoding.nl/posts/singletrack/"/>
-        <updated>2025-11-03T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a quick post summarizing the idea of
-“Singletrack: An Algorithm for Improving Memory Consumption and Performance of Gap-Affine Sequence Alignment” by López-Villellas, Iñiguez, Jiménez-Blanco, Aguado-Puig, Moretó, Alastruey-Benedé, Ibáñez, and Marco-Sola to reduce memory
-usage of affine-cost alignment by removing the need to store the affine layers
-of the DP matrix.
-Affine-cost alignment uses a gap-open
-cost \(o>0\), so that a gap of length \(\ell\) has cost \(o + \ell \cdot e\). The
-classic DP solution for this is Gotoh’s method (Gotoh 1982) that uses two
-additional DP matrices \(I\) and \(D\) (alongside the main \(M\) matrix):
-one to store the best cost to get to state
-\((i,j)\) while ending in an insertion, and one that ends with a deletion.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #44]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-11-02/?mtm_campaign=feed"/>
-        <updated>2025-11-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 27th Oct–2nd November.
-
-
-Blue Heights
-
-
-This week has been rather uneventful. I suppose that is a good thing.
-I’ve been busy at work, something to do with parsing and analyzing SQL.
-I wrote a new note in response to the latest blogging challenge.
-I wrote first drafts of three blog posts (!), but it’ll probably be a long time before they are ready to be published.
-I am running a poll about compiler backends on Mastodon. The results as of the time of publishing this note:
-If someone were to write a new compiler book today, what would you prefer the backend to emit? Learning about which backend would help the readers most these days?
-LLVM (38)
-WASM (19)
-Arm assembly (14)
-X86 assembly (6)
-C (12)
-JavaScript (4)
-Lua (5)
-JVM bytecode (3)
-CIL (2)
-QBE (1)
-I watched…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
