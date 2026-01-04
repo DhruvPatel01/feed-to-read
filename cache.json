@@ -6,12 +6,32 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2026/01/01/",
+          "author": null,
+          "description": "Software above some complexity level tends to sport an extension language,\nbecoming a kind of software platform itself. Lua fills this role well, and\nof course there’s JavaScript for web technologies. WebAssembly\ngeneralizes this, and any Wasm-targeting programming language can extend a\nWasm-hosting application. It has more friction than supplying a script in\na text file, but extension authors can write in their language of choice,\nand use more polished development tools — debugging, testing, etc.\n— than typically available for a typical extension language. Python is\ntraditionally extended through native code behind a C interface, but it’s\nrecently become practical to extend Python with Wasm. That is we can ship\nan architecture-independent Wasm blob inside a Python library, and use it\nwith…",
+          "link": "https://nullprogram.com/blog/2026/01/01/",
+          "publishedOn": "2026-01-01T21:21:19.000Z",
+          "wordCount": 2652,
+          "title": "WebAssembly as a Python extension platform",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2025/12/31/",
+          "author": null,
+          "description": "Linked lists are a data structure basic building block, with especially\nflexible allocation behavior. They’re not just a useful starting point,\nbut sometimes a sound foundation for future growth. I’m going to start\nwith the beginner stuff, then without disrupting the original linked\nlist, enhance it with new capabilities.\nLinked list basics\nFor the sake of an interesting example, I’m will demonstrate with the same\nconcept as last time I talked about data structures: a collection\nof key/value strings, in the form of an environment variables. This time\nin linked list form:\n\ntypedef struct {\n    char     *data;\n    ptrdiff_t len;\n} Str;\n\nuint64_t hash64(Str);\nbool     equals(Str, Str);\n\ntypedef struct Env Env;\nstruct Env {\n    Env *next;\n    Str  key;\n    Str  value;\n};\n\n\nIt will be sourced f…",
+          "link": "https://nullprogram.com/blog/2025/12/31/",
+          "publishedOn": "2025-12-31T11:59:59.000Z",
+          "wordCount": 1623,
+          "title": "Freestyle linked lists tricks",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2025/12/23/",
           "author": null,
           "description": "In preparation for a future project, I was thinking about at the unix\nfind utility. It operates a file system hierarchies, with basic\noperations selected and filtered using a specialized expression language.\nUsers compose operations using unary and binary operators, grouping with\nparentheses for precedence. find may apply the expression to a great\nmany files, so compiling it into a bytecode, resolving as much as possible\nahead of time, and minimizing the per-element work, seems like a prudent\nimplementation strategy. With some thought, I worked out a technique to do\nso, which was simpler than I expected, and I’m pleased with the results. I\nwas later surprised all the real world find implementations I examined\nuse tree-walk interpreters instead. This article describes how my\ncompiler works,…",
           "link": "https://nullprogram.com/blog/2025/12/23/",
           "publishedOn": "2025-12-23T04:20:22.000Z",
-          "wordCount": 1812,
+          "wordCount": 1817,
           "title": "Unix \"find\" expressions compiled to bytecode",
           "imageUrl": null
         },
@@ -38,6 +58,36 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2025/12/30/memory-safety-is.html",
+          "author": null,
+          "description": "Memory safety is one of those elusive concepts like intelligence, consciousness, or\nporn, that resist attempts to be put to\nwords. Thus, I am not going to attempt to define it. Instead, I want to poke holes in definitions of\nothers.",
+          "link": "https://matklad.github.io/2025/12/30/memory-safety-is.html",
+          "publishedOn": "2025-12-30T00:00:00.000Z",
+          "wordCount": 1243,
+          "title": "Memory Safety Is ...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
+          "author": null,
+          "description": "I feel like this has been said before, more than once, but I want to take a moment to note that\nmost modern languages converged to the error management approach described in Joe Duffy's\nThe Error Model,\nwhich is a generational shift from the previous consensus on exception handling.",
+          "link": "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
+          "publishedOn": "2025-12-29T00:00:00.000Z",
+          "wordCount": 1249,
+          "title": "The Second Great Error Model Convergence",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2025/12/28/parsing-advances.html",
+          "author": null,
+          "description": "I find myself writing yet another toy parser, as one does during a Christmas break. It roughly follows\nResilient LL Parsing Tutorial.\nNot because I need resilience, but mostly because I find producing a syntax tree and a collection of\ndiagnostics a more natural fit for the problem than bailing out on the first error.",
+          "link": "https://matklad.github.io/2025/12/28/parsing-advances.html",
+          "publishedOn": "2025-12-28T00:00:00.000Z",
+          "wordCount": 980,
+          "title": "Parsing Advances",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2025/12/23/zig-newtype-index-pattern.html",
           "author": null,
@@ -117,7 +167,7 @@
           "description": "A Blog post by NVIDIA on Hugging Face",
           "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe",
           "publishedOn": "2025-12-17T13:22:18.000Z",
-          "wordCount": 2434,
+          "wordCount": 2449,
           "title": "The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/688cf7e6026af0cf8ac969dd/6RiFGxMzn9Fmgml83fK8G.jpeg"
         },
@@ -137,7 +187,7 @@
           "description": "A Blog post by ggml.ai on Hugging Face",
           "link": "https://huggingface.co/blog/ggml-org/model-management-in-llamacpp",
           "publishedOn": "2025-12-11T15:47:44.000Z",
-          "wordCount": 1117,
+          "wordCount": 1135,
           "title": "New in llama.cpp: Model Management",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/wGWbyTyYFKKGDMaAnTz7M.png"
         },
@@ -150,46 +200,6 @@
           "wordCount": 2637,
           "title": "Codex is Open Sourcing AI models",
           "imageUrl": "https://huggingface.co/blog/assets/hf-skills-training/thumbnail-codex.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/swift-huggingface",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/swift-huggingface",
-          "publishedOn": "2025-12-05T00:00:00.000Z",
-          "wordCount": 1570,
-          "title": "Introducing swift-huggingface: The Complete Swift Client for Hugging Face",
-          "imageUrl": "https://huggingface.co/blog/assets/swift-huggingface/banner.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/intel-deepmath",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/intel-deepmath",
-          "publishedOn": "2025-12-04T00:00:00.000Z",
-          "wordCount": 1241,
-          "title": "DeepMath: A lightweight math reasoning Agent with smolagents",
-          "imageUrl": "https://huggingface.co/blog/assets/intel-deepmath/banner.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/hf-skills-training",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/hf-skills-training",
-          "publishedOn": "2025-12-04T00:00:00.000Z",
-          "wordCount": 2711,
-          "title": "We Got Claude to Fine-Tune an Open Source LLM",
-          "imageUrl": "https://huggingface.co/blog/assets/hf-skills-training/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/transformers-v5",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/transformers-v5",
-          "publishedOn": "2025-12-01T00:00:00.000Z",
-          "wordCount": 2422,
-          "title": "Transformers v5: Simple model definitions powering the AI ecosystem",
-          "imageUrl": "https://huggingface.co/blog/assets/transformers_v5/transformers-thumbnail.png"
         }
       ]
     },
@@ -197,7 +207,18 @@
       "title": "samwho.dev",
       "feedUrl": "https://samwho.dev/rss.xml",
       "siteUrl": "/rss.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://samwho.dev/2025/",
+          "author": null,
+          "description": ".highlight {\n    width: 100%;\n    color: var(--text-color);\n    font-family: var(--heading-font);\n    text-align: center;\n    font-style: italic;\n    font-size: 1.5rem;\n    padding-top: 2rem;\n    padding-bottom: 3rem;\n    text-decoration-line: underline;\n    text-decoration-style: wavy;\n    text-decoration-skip-ink: none;\n    text-underline-offset: 0.3em;\n  }\n\n  .pink {\n    text-decoration-color: var(--palette-pink);\n  }\n\n  .red {\n    text-decoration-color: var(--palette-red);\n  }\n\n  .blue {\n    text-decoration-color: var(--palette-blue);\n  }\n\n  .green {\n    text-decoration-color: var(--palette-green);\n  }\n\n  .orange {\n    text-decoration-color: var(--palette-orange);\n  }\n\n  .dark-blue {\n    text-decoration-color: var(--palette-dark-blue);\n  }\n\nThis last year marked a fundamental shift in …",
+          "link": "https://samwho.dev/2025/",
+          "publishedOn": "2025-12-23T00:00:00.000Z",
+          "wordCount": 1494,
+          "title": "2025",
+          "imageUrl": "/images/2025-og.jpg?h=25a57f10c0457fd9d271"
+        }
+      ]
     },
     {
       "title": "Programming Posts & Notes on abhinavsarkar.net",
@@ -205,24 +226,24 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2025-mastodon-polls/?mtm_campaign=feed",
+          "author": null,
+          "description": "In 2025, I ran ten polls on Mastodon exploring various topics, mostly to outsource my research to the hivemind. Here are the poll results organized by topic, with commentary.\nContents\n\nGeneral Programming\nJSON Pronunciation\n\nCompilers\nCompiler Backend Targets\nHaskell Parsing Libraries\nCompiler in Haskell with Lenses\n\nBlogging & Web\nBlog Post Length Preferences\nBlog Post Print Support\nRésumés on Personal Website\n“Writing a C Compiler” Blog Series\n\nSelf-hosting\nService Packaging Preferences\nHetzner Backup Strategy\n\n\nGeneral Programming\nJSON Pronunciation\nHow do you pronounce JSON? January 15, 2025\n\n\n\n\n\n\nSee as table\n\n\n\n\n\nOption\nVotes\n\n\n\n\nJay-Son, O as in Otter\n66\n\n\nJay-Son, O as in Utter\n27\n\n\nJay-Son, O as in Oh\n5\n\n\nsomething else, comment\n5\n\n\nJay-Ess-On\n1\n\n\nTotal\n104\n\n\n\n\n\nI’m in the “Jay-So…",
+          "link": "https://abhinavsarkar.net/notes/2025-mastodon-polls/?mtm_campaign=feed",
+          "publishedOn": "2025-12-31T00:00:00.000Z",
+          "wordCount": 1460,
+          "title": "Polls I Ran on Mastodon in 2025",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-mastodon-polls.svg"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed",
           "author": null,
           "description": "<p>I’m solving the <a href=\"https://adventofcode.com/2025/\" target=\"_blank\" rel=\"noopener\">Advent of Code 2025</a> in <a href=\"https://janet-lang.org/\" target=\"_blank\" rel=\"noopener\">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href=\"#fn1\" class=\"footnote-ref\" id=\"fnref1\" role=\"doc-noteref\"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>\n<p>Janet is a <a href=\"http://clojure.org/\" target=\"_blank\" rel=\"noopener\">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href=\"https://python.org\" target=\"_blank\" rel=\"noopener\">Python</a> with Janet as my scripting language.</p>\n<p>Here are my solutions for December 5–8.</p>",
           "link": "https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed",
           "publishedOn": "2025-12-13T00:00:00.000Z",
-          "wordCount": 2708,
+          "wordCount": 2715,
           "title": "Solving Advent of Code 2025 in Janet: Days 5–8",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-aoc-2.svg"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>I’m solving the <a href=\"https://adventofcode.com/2025/\" target=\"_blank\" rel=\"noopener\">Advent of Code 2025</a> in <a href=\"https://janet-lang.org/\" target=\"_blank\" rel=\"noopener\">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href=\"#fn1\" class=\"footnote-ref\" id=\"fnref1\" role=\"doc-noteref\"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>\n<p>Janet is a <a href=\"http://clojure.org/\" target=\"_blank\" rel=\"noopener\">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href=\"https://python.org\" target=\"_blank\" rel=\"noopener\">Python</a> with Janet as my scripting language.</p>\n<p>Here are my solutions for December 1–4.</p>",
-          "link": "https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed",
-          "publishedOn": "2025-12-05T00:00:00.000Z",
-          "wordCount": 2042,
-          "title": "Solving Advent of Code 2025 in Janet: Days 1–4",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-aoc-1.svg"
         }
       ]
     },
@@ -232,24 +253,44 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2025-mastodon-polls/?mtm_campaign=feed",
+          "author": null,
+          "description": "In 2025, I ran ten polls on Mastodon exploring various topics, mostly to outsource my research to the hivemind. Here are the poll results organized by topic, with commentary.\nContents\n\nGeneral Programming\nJSON Pronunciation\n\nCompilers\nCompiler Backend Targets\nHaskell Parsing Libraries\nCompiler in Haskell with Lenses\n\nBlogging & Web\nBlog Post Length Preferences\nBlog Post Print Support\nRésumés on Personal Website\n“Writing a C Compiler” Blog Series\n\nSelf-hosting\nService Packaging Preferences\nHetzner Backup Strategy\n\n\nGeneral Programming\nJSON Pronunciation\nHow do you pronounce JSON? January 15, 2025\n\n\n\n\n\n\nSee as table\n\n\n\n\n\nOption\nVotes\n\n\n\n\nJay-Son, O as in Otter\n66\n\n\nJay-Son, O as in Utter\n27\n\n\nJay-Son, O as in Oh\n5\n\n\nsomething else, comment\n5\n\n\nJay-Ess-On\n1\n\n\nTotal\n104\n\n\n\n\n\nI’m in the “Jay-So…",
+          "link": "https://abhinavsarkar.net/notes/2025-mastodon-polls/?mtm_campaign=feed",
+          "publishedOn": "2025-12-31T00:00:00.000Z",
+          "wordCount": 1460,
+          "title": "Polls I Ran on Mastodon in 2025",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-mastodon-polls.svg"
+        },
+        {
+          "id": "https://abhinavsarkar.net/notes/2025-weeknotes-12-28/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 22nd–28th December.\n\n\nThe Heading\n\n\nIt is the week of Christmas holidays. Though majority of Indians are not christian, a lot of us still take vacations during this period. The stores and malls in Bengaluru put on decorations and play Christmas music. The weather has also been great. I took half of the week off just to cool down at home.\nThe big event of this week for me was Tanvi’s Christmas party. It must have been a decade since I went to a party this big. It was a bit awkward being the oldest person in the room, but I had a lot of fun. We talked about many random topics and had delicious food brought by everyone. I’m looking forward to more parties in future.\nMy walking pace has improved to almost pre-burnout times. I’m making it a point to walk two km…",
+          "link": "https://abhinavsarkar.net/notes/2025-weeknotes-12-28/?mtm_campaign=feed",
+          "publishedOn": "2025-12-28T00:00:00.000Z",
+          "wordCount": 1229,
+          "title": "Notes for the Week #52 (2025)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-12-28.svg"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2025-website-work/?mtm_campaign=feed",
           "author": null,
           "description": "<p>Looking back at 2025, I spent a lot of time working on my website. I did nearly 500 commits focused on content diversification, feature expansion, and performance optimization. Let me walk through what I did chronologically by months.</p>",
           "link": "https://abhinavsarkar.net/notes/2025-website-work/?mtm_campaign=feed",
           "publishedOn": "2025-12-26T00:00:00.000Z",
-          "wordCount": 1323,
+          "wordCount": 1344,
           "title": "Working on My Website in 2025",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-website-work.svg"
         },
         {
-          "id": "https://abhinavsarkar.net/notes/2025-weeknotes-12-20/?mtm_campaign=feed",
+          "id": "https://abhinavsarkar.net/notes/2025-weeknotes-12-21/?mtm_campaign=feed",
           "author": null,
           "description": "This week note covers the weeks of 8th–21st December.\n\n\nHalf ’n Half\n\n\nAfter a 10 week long streak of writing week notes, I missed writing one last weekend. But that’s okay because …\nIt was my birthday last week! I’m pretty much middle-aged now, so it’s one less thing to worry about anymore.\n\nMy wife organized a day-long birthday food festival for our family. We had all delectable things to eat that we usually don’t. I cut three cakes and all of them were delicious. Afterward, we went to Naturals to get some icecream with our 3yo 𝒜.\nThe next day we went shopping, and I got myself some funky Purple sneakers. Then we headed to the much-talked-about Lavonne Ice Cream Kitchen by the Lavonne café folks. Unfortunately, the hype is not justified, and I found the icecream pretty okayish.\nAfterwar…",
-          "link": "https://abhinavsarkar.net/notes/2025-weeknotes-12-20/?mtm_campaign=feed",
+          "link": "https://abhinavsarkar.net/notes/2025-weeknotes-12-21/?mtm_campaign=feed",
           "publishedOn": "2025-12-21T00:00:00.000Z",
-          "wordCount": 1099,
-          "title": "Notes for the Week #50–51 (2025)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-12-20.svg"
+          "wordCount": 1098,
+          "title": "Notes for the Weeks #50–51 (2025)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-12-21.svg"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed",
@@ -257,7 +298,7 @@
           "description": "<p>I’m solving the <a href=\"https://adventofcode.com/2025/\" target=\"_blank\" rel=\"noopener\">Advent of Code 2025</a> in <a href=\"https://janet-lang.org/\" target=\"_blank\" rel=\"noopener\">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href=\"#fn1\" class=\"footnote-ref\" id=\"fnref1\" role=\"doc-noteref\"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>\n<p>Janet is a <a href=\"http://clojure.org/\" target=\"_blank\" rel=\"noopener\">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href=\"https://python.org\" target=\"_blank\" rel=\"noopener\">Python</a> with Janet as my scripting language.</p>\n<p>Here are my solutions for December 5–8.</p>",
           "link": "https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed",
           "publishedOn": "2025-12-13T00:00:00.000Z",
-          "wordCount": 2708,
+          "wordCount": 2715,
           "title": "Solving Advent of Code 2025 in Janet: Days 5–8",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-aoc-2.svg"
         },
@@ -267,7 +308,7 @@
           "description": "<p>Last year I posted the list of <a href=\"https://abhinavsarkar.net/notes/2024-default-apps/\">my default apps</a>. It’s time to update it for 2025!</p>",
           "link": "https://abhinavsarkar.net/notes/2025-default-apps/?mtm_campaign=feed",
           "publishedOn": "2025-12-08T00:00:00.000Z",
-          "wordCount": 763,
+          "wordCount": 768,
           "title": "Apps I Use (2025)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-default-apps.svg"
         },
@@ -277,39 +318,9 @@
           "description": "This week note covers the week of 24th November–7th December.\n\n\nTrue Blue\n\n\nThis is my tenth consecutive week of writing week notes! I’m happy that I’m able to keep up this habit.\nWinter is here and I’m loving it! Bengaluru generally does not get much cold in winters but this year seem like an exception. I’ve been wearing sweatshirts and jackets every day, sometimes even to sleep. I’m planning to do some winter wear shopping soon. We got our 3yo 𝒜 some cute sweaters.\nAs my health improves, I’m starting to adopt a move active lifestyle. For now, I’m walking 2–3 kms every day, and I plan to start doing Yoga from January.\nLast week I switched from dairy milk to Oat milk after discovering that I’m now allergic to dairy. I’m starting to like the taste after trying it for a week.\nLast week I sp…",
           "link": "https://abhinavsarkar.net/notes/2025-weeknotes-12-07/?mtm_campaign=feed",
           "publishedOn": "2025-12-07T00:00:00.000Z",
-          "wordCount": 973,
+          "wordCount": 974,
           "title": "Notes for the Week #49 (2025)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-12-07.svg"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>I’m solving the <a href=\"https://adventofcode.com/2025/\" target=\"_blank\" rel=\"noopener\">Advent of Code 2025</a> in <a href=\"https://janet-lang.org/\" target=\"_blank\" rel=\"noopener\">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href=\"#fn1\" class=\"footnote-ref\" id=\"fnref1\" role=\"doc-noteref\"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>\n<p>Janet is a <a href=\"http://clojure.org/\" target=\"_blank\" rel=\"noopener\">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href=\"https://python.org\" target=\"_blank\" rel=\"noopener\">Python</a> with Janet as my scripting language.</p>\n<p>Here are my solutions for December 1–4.</p>",
-          "link": "https://abhinavsarkar.net/notes/2025-aoc-1/?mtm_campaign=feed",
-          "publishedOn": "2025-12-05T00:00:00.000Z",
-          "wordCount": 2042,
-          "title": "Solving Advent of Code 2025 in Janet: Days 1–4",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-aoc-1.svg"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2025-feed-popularity/?mtm_campaign=feed",
-          "author": null,
-          "description": "My website provides hundred of feeds for almost everything on it. I was curious about how popular these feeds are so I dug into my server’s access logs, and with a little command line scripting produced this chart:\n\n\nDownload count per feed\n\nThe chart shows the download counts for the top twenty feeds over the period of last six months. Notice the logarithmic scale of the y-axis. The numbers seem to roughly follow the Power law of distribution. The top ten feeds are:\nProgramming posts and notes\nPosts\nNotes\nPosts and notes\nPosts tagged Haskell\nNow\nLinkblog\nBlogroll\nChangelog\nEverything\nIt probably does not make sense to provide tag-wise feeds for the Microblog and the Linkblog. I may consider removing them in future.\nThis post was originally published on abhinavsarkar.net.\nIf you liked this post, please leave a comment.",
-          "link": "https://abhinavsarkar.net/notes/2025-feed-popularity/?mtm_campaign=feed",
-          "publishedOn": "2025-11-30T00:00:00.000Z",
-          "wordCount": 673,
-          "title": "Feed Popularity",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-feed-popularity.svg"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2025-weeknotes-11-30/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 24th–30th November.\n\n\nA Lonely Walk\n\n\nToday is an unusually cold day in Bengaluru, caused by the Cyclone Ditwah. I have not seen such a foggy and misty day here in over a decade. Wife and I got all wrapped up in thick jackets and went for a walk in the fog. It was wonderful!\nI wanted to have some hot chocolate after the walk but recently I’ve grown intolerant to dairy 😭. I suppose I’ll try out a plant-based milk.\nI had an eye infection this week, don’t know how I got it. To prevent my family from catching it, I wore sunglasses through the day. It was uncomfortable, but I was told I looked pretty cool in the video calls I had with my colleagues. 😎\nWife and I took out our 3yo 𝒜 to the Ink and Oak bookstore/café one evening. It is a newly opened store that…",
-          "link": "https://abhinavsarkar.net/notes/2025-weeknotes-11-30/?mtm_campaign=feed",
-          "publishedOn": "2025-11-30T00:00:00.000Z",
-          "wordCount": 1109,
-          "title": "Notes for the Week #48 (2025)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2025-weeknotes-11-30.svg"
         }
       ]
     },
@@ -319,12 +330,72 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22425",
+          "author": "Daniel Lemire",
+          "description": "We are experiencing one of the most significant technological breakthroughs of the last few decades. Call it what you will: AI, generative AI, large language models… But where does it come from? Academics will tell you that it stems from decades of mathematical efforts on campus. But think about it: if this were the best … Continue reading Technology is culture",
+          "link": "https://lemire.me/blog/2026/01/01/technology-is-culture/",
+          "publishedOn": "2026-01-01T14:03:25.000Z",
+          "wordCount": 3528,
+          "title": "Technology is culture",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/01/IMG_1492-1024x671.jpeg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22419",
+          "author": "Daniel Lemire",
+          "description": "Culture wars are real. They occur when a dominant culture faces a serious challenge. But unless you pay close attention, you might miss them entirely. As a kid, I was a “nerd.” I read a lot and spent hours on my computer. I devoured science and technology magazines. I taught myself programming. “Great!” you might … Continue reading The culture war that we won",
+          "link": "https://lemire.me/blog/2025/12/31/the-culture-war-that-we-won/",
+          "publishedOn": "2025-12-31T15:26:25.000Z",
+          "wordCount": 3592,
+          "title": "The culture war that we won",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/G9gXfT1XgAEsoUQ-1024x768.jpeg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22414",
+          "author": "Daniel Lemire",
+          "description": "How much virtual memory does the following C++ expression allocate on the heap? new char[4096] The answer is at least 4 kibibytes but surely more. Firstly, each heap memory allocation requires some memory to keep track of what has been allocated. You are likely using 8 bytes or so of overhead that your program cannot … Continue reading By how much does your memory allocator overallocate?",
+          "link": "https://lemire.me/blog/2025/12/30/by-how-much-does-your-memory-allocator-overallocates/",
+          "publishedOn": "2025-12-30T19:15:55.000Z",
+          "wordCount": 3383,
+          "title": "By how much does your memory allocator overallocate?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/plot.png"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22411",
+          "author": "Daniel Lemire",
+          "description": "Many people say that they crave more freedom. But what do we mean by “freedom”? Being free from constraints? Is that what we mean? Would you feel “freer” if you could walk outside in your underwear? It is almost surely not what you mean by “freedom.” I submit to you that it is almost always … Continue reading Freedom from incompetence",
+          "link": "https://lemire.me/blog/2025/12/29/freedom-from-incompetence/",
+          "publishedOn": "2025-12-29T14:41:00.000Z",
+          "wordCount": 3655,
+          "title": "Freedom from incompetence",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/G9RgcZXW8AASe2S-1024x576.jpeg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22399",
+          "author": "Daniel Lemire",
+          "description": "I used to always want to rewrite my code. Maybe even use another programming language. « If only I could rewrite my code, it would be so much better now. » If you maintain software projects, you see it all the time. Someone new comes along and they want to start rewriting everything. They always … Continue reading Don’t be so eager to rewrite your code",
+          "link": "https://lemire.me/blog/2025/12/28/dont-be-so-eager-to-rewrite-your-code/",
+          "publishedOn": "2025-12-28T03:02:44.000Z",
+          "wordCount": 3806,
+          "title": "Don’t be so eager to rewrite your code",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/Capture-decran-le-2025-12-27-a-22.02.19-1024x560.png"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22393",
+          "author": "Daniel Lemire",
+          "description": "Most programmers are familiar with IP addresses. They take the form of four numbers between 0 and 255 separated by dots: 192.168.0.1. In some sense, it is a convoluted way to represent a 32-bit integer. The modern version of an IP address is IPv6 which is usually surrounded by square brackets. It is less common … Continue reading Parsing IP addresses quickly (portably, without SIMD magic)",
+          "link": "https://lemire.me/blog/2025/12/27/parsing-ip-addresses-quickly-portably-without-simd-magic/",
+          "publishedOn": "2025-12-27T23:39:57.000Z",
+          "wordCount": 4804,
+          "title": "Parsing IP addresses quickly (portably, without SIMD magic)",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/Capture-decran-le-2025-12-27-a-18.33.45-1024x558.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22386",
           "author": "Daniel Lemire",
           "description": "Strings in programming are often represented as arrays of 8-bit words. The string is ASCII if and only if all 8-bit words have their most significant bit unset. In other words, the byte values must be no larger than 127 (or 0x7F in hexadecimal). A decent C function to check that the string is ASCII … Continue reading Performance trick : optimistic vs pessimistic checks",
           "link": "https://lemire.me/blog/2025/12/20/performance-trick-optimistic-vs-pessimistic-checks/",
           "publishedOn": "2025-12-20T23:26:09.000Z",
-          "wordCount": 3862,
+          "wordCount": 3933,
           "title": "Performance trick : optimistic vs pessimistic checks",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/Capture-decran-le-2025-12-20-a-18.25.46-1024x620.png"
         },
@@ -334,7 +405,7 @@
           "description": "Much of the data on the Internet is shared using a simple format called JSON. JSON is made of two composite types (arrays and key-value maps) and a small number of primitive types (64-bit floating-point numbers, strings, null, Booleans). That JSON became ubiquitous despite its simplicity is telling. { \"name\": \"Nova Starlight\", \"age\": 28, \"powers\": … Continue reading JSON-complete data formats and programming languages",
           "link": "https://lemire.me/blog/2025/12/20/json-complete-data-format-and-programming-languages/",
           "publishedOn": "2025-12-20T21:24:33.000Z",
-          "wordCount": 3581,
+          "wordCount": 3610,
           "title": "JSON-complete data formats and programming languages",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/Capture-decran-le-2025-12-20-a-16.24.01-1024x463.png"
         },
@@ -344,7 +415,7 @@
           "description": "Programmers often want to randomly shuffle arrays. Evidently, we want to do so as efficiently as possible. Maybe surprisingly, I found that the performance of random shuffling was not limited by memory bandwidth or latency, but rather by computation. Specifically, it is the computation of the random indexes itself that is slow. Earlier in 2025, … Continue reading Multiplying the Shuffle Speed in Go with Batched Shuffling",
           "link": "https://lemire.me/blog/2025/12/15/multiplying-the-shuffle-speed-in-go-with-batched-shuffling/",
           "publishedOn": "2025-12-15T01:42:10.000Z",
-          "wordCount": 3473,
+          "wordCount": 3502,
           "title": "Multiplying the Shuffle Speed in Go with Batched Shuffling",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/pcgshuffle_benchmark.png"
         },
@@ -354,49 +425,9 @@
           "description": "The one constant that I have observed in my professional life is that people underestimate the need to move fast. Of course, doing good work takes time. I once spent six months writing a URL parser. But the fact that it took so long is not a feature, it is not a positive, it is … Continue reading Why speed matters",
           "link": "https://lemire.me/blog/2025/12/05/why-speed-matters/",
           "publishedOn": "2025-12-05T19:24:50.000Z",
-          "wordCount": 4025,
+          "wordCount": 4094,
           "title": "Why speed matters",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/Capture-decran-le-2025-12-06-a-14.08.31-1024x607.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22357",
-          "author": "Daniel Lemire",
-          "description": "“We see something that works, and then we understand it.” (Thomas Dullien) It is a deeper insight than it seems. Young people spend years in school learning the reverse: understanding happens before progress. That is the linear theory of innovation. So Isaac Newton comes up with his three laws of mechanics, and we get a … Continue reading We see something that works, and then we understand it",
-          "link": "https://lemire.me/blog/2025/12/04/we-see-something-that-works-and-then-we-understand-it/",
-          "publishedOn": "2025-12-04T15:40:59.000Z",
-          "wordCount": 3804,
-          "title": "We see something that works, and then we understand it",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/Capture-decran-le-2025-12-04-a-10.40.38-999x1024.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22354",
-          "author": "Daniel Lemire",
-          "description": "It is absolutely clear to me that large language models represent the most significant scientific breakthrough of the past fifty years. The nature of that breakthrough has far reaching implications for what is happening in science today. And I believe that the entire scientific establishment is refusing to acknowledge it. We often excuse our slow … Continue reading Why don’t we get more scientific breakthroughs?",
-          "link": "https://lemire.me/blog/2025/12/03/why-dont-we-get-more-scientific-breakthroughs/",
-          "publishedOn": "2025-12-03T20:41:26.000Z",
-          "wordCount": 4410,
-          "title": "Why don’t we get more scientific breakthroughs?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/12/Capture-decran-le-2025-12-03-a-15.40.56-927x1024.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22340",
-          "author": "Daniel Lemire",
-          "description": "Base64 is a binary-to-text encoding scheme that converts arbitrary binary data (like images, files, or any sequence of bytes) into a safe, printable ASCII string using a 64-character alphabet (A–Z, a–z, 0–9, +, /). Browsers use it in JavaScript to embedding binary data directly in code or HTML or to transmitting binary data as text. … Continue reading How fast can browsers process base64 data?",
-          "link": "https://lemire.me/blog/2025/11/29/how-fast-can-browsers-process-base64-data/",
-          "publishedOn": "2025-11-29T05:00:03.000Z",
-          "wordCount": 3781,
-          "title": "How fast can browsers process base64 data?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/11/Capture-decran-le-2025-11-28-a-23.50.58-1024x769.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22337",
-          "author": "Daniel Lemire",
-          "description": "Whenever I say I dislike debugging and organize my programming habits around avoiding it, there is always pushback: “You must not use a good debugger.” To summarize my view: I want my software to be antifragile (credit to Nassim Taleb for the concept). The longer I work on a codebase, the easier it should become … Continue reading Antifragile Programming and Why AI Won’t Steal Your Job",
-          "link": "https://lemire.me/blog/2025/11/29/antifragile-programming-and-why-ai-wont-steal-your-job/",
-          "publishedOn": "2025-11-29T02:39:56.000Z",
-          "wordCount": 4364,
-          "title": "Antifragile Programming and Why AI Won’t Steal Your Job",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2025/11/G6dHib4XsAEyBYe-1024x573.jpeg"
         }
       ]
     },
@@ -440,10 +471,10 @@
         {
           "id": "https://curiouscoding.nl/posts/typst-in-emacs/",
           "author": null,
-          "description": "This is a short note on setting up Doom emacs for very fast typst previews.\ntypst-ts-mode provides typst-ts-watch-mode via C-c C-w, which runs typst watch in the background, as well as typst-ts-preview via C-c C-p which\nopens the current pdf file. Using zathura as pdf viewer provides live updates.\n\n\n\n1\n2\n3\n\n\n\n;; doom/packages.el\n;; typst: https://codeberg.org/meow_king/typst-ts-mode/wiki/Installation.md\n(package! typst-ts-mode :recipe (:host codeberg :repo \"meow_king/typst-ts-mode\"))\n\n\n\n\n\nSince typst is so fast to compile, and near-live previews are nice, we’d like to\nsave the file often. Since space f s is somewhat annoying to type all the\ntime, we’ll add some auto-saving. (I wonder if/when there will be a typst LSP\nthat works live without having to save the file, similar to the https://typst.app live preview.)",
+          "description": "This is a short note on setting up Doom emacs for very fast typst previews.\ntypst-ts-mode provides typst-ts-watch-mode via C-c C-w, which runs typst watch in the background, as well as typst-ts-preview via C-c C-p which\nopens the current pdf file. Using zathura as pdf viewer provides live updates.\n\n\n\n1\n2\n3\n\n\n\n;; doom/packages.el\n;; typst: https://codeberg.org/meow_king/typst-ts-mode/wiki/Installation.md\n(package! typst-ts-mode :recipe (:host codeberg :repo \"meow_king/typst-ts-mode\"))\n\n\n\n\n\nSince typst is so fast to compile, and near-live previews are nice, we’d like to\nsave the file often. Since space f s is somewhat annoying to type all the\ntime, we’ll add some auto-saving.",
           "link": "https://curiouscoding.nl/posts/typst-in-emacs/",
           "publishedOn": "2025-12-11T23:00:00.000Z",
-          "wordCount": 360,
+          "wordCount": 351,
           "title": "Writing typst in emacs",
           "imageUrl": null
         }
