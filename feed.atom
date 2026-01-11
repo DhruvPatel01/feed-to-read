@@ -1,10 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-01-04T01:43:11.651Z</id>
+    <id>urn:2026-01-11T01:43:05.454Z</id>
     <title>osmos::feed</title>
-    <updated>2026-01-04T01:43:11.651Z</updated>
+    <updated>2026-01-11T01:43:05.454Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[How I use Jujutsu]]></title>
+        <id>https://abhinavsarkar.net/posts/jj-usage/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/jj-usage/?mtm_campaign=feed"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>About three months ago I started using <a href="https://jj-vcs.dev/" target="_blank" rel="noopener">Jujutsu</a> (JJ), a new <em><a href="https://en.wikipedia.org/wiki/Version_Control_System" target="_blank" rel="noopener">Version Control System</a></em>, for my personal projects. It took me a while to get used to it after more than a decade of using <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>, but now I’m quite comfortable with it. Working with Jujutsu requires a shift from the mental model of Git. However, it is not as daunting as it may seem on the first day.</p>]]></summary>
+        <author>
+            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What I Got Wrong About “Hard Work” in My 20s]]></title>
+        <id>https://lemire.me/blog/?p=22447</id>
+        <link href="https://lemire.me/blog/2026/01/08/what-i-got-wrong-about-hard-work-in-my-20s/"/>
+        <updated>2026-01-08T00:39:36.000Z</updated>
+        <summary type="html"><![CDATA[When I was younger, in my 20s, I assumed that everyone was working “hard,” meaning a solid 35 hours of work a week. Especially, say, university professors and professional engineers. I’d feel terribly guilty when I would be messing around, playing video games on a workday. Today I realize that most people become very adept … Continue reading What I Got Wrong About “Hard Work” in My 20s]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A bit of glass and freedom is all you need]]></title>
+        <id>https://lemire.me/blog/?p=22437</id>
+        <link href="https://lemire.me/blog/2026/01/07/a-bit-of-glass-and-freedom-is-all-you-need/"/>
+        <updated>2026-01-07T00:47:23.000Z</updated>
+        <summary type="html"><![CDATA[Galileo Galilei was the OpenAI of his time. He helped establish modern science by emphasizing experimentation as the primary means to uncover natural truths. To this end, he built his own telescopes. He revealed to the world the moons of Jupiter, thereby changing forever how we viewed the cosmos.   How was Galileo able to … Continue reading A bit of glass and freedom is all you need]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI]]></title>
+        <id>https://huggingface.co/blog/nvidia/nvidia-cosmos-reason-2-brings-advanced-reasoning</id>
+        <link href="https://huggingface.co/blog/nvidia/nvidia-cosmos-reason-2-brings-advanced-reasoning"/>
+        <updated>2026-01-05T22:56:51.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture]]></title>
+        <id>https://huggingface.co/blog/tiiuae/falcon-h1-arabic</id>
+        <link href="https://huggingface.co/blog/tiiuae/falcon-h1-arabic"/>
+        <updated>2026-01-05T09:16:51.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Technology Innovation Institute on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA brings agents to life with DGX Spark and Reachy Mini]]></title>
+        <id>https://huggingface.co/blog/nvidia-reachy-mini</id>
+        <link href="https://huggingface.co/blog/nvidia-reachy-mini"/>
+        <updated>2026-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #1 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-01-04/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-01-04/?mtm_campaign=feed"/>
+        <updated>2026-01-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 29th December 2025–4th January 2026.
+
+
+Ramp walk
+
+This was a week of resting and having fun with family and friends. I was on vacation for most of the week.
+Life
+We had another well-fed day on the 31st, starting with home-made biryani for lunch, and ordered pizza for dinner. We didn’t do much else, just chilled at home. On 1st January, all of us went to the Namma Bengaluru Aquarium in the Cubbon Park. It was a lot of fun for our 3yo 𝒜. Afterward, we walked around in the park and 𝒜 gathered a lot of cool sticks. What’s with kids liking sticks so much?
+On the Saturday, we went to The Bangalore Berry Company farm to pick strawberries. The four hour drive (both ways) was a pain, but picking was fun. We also got some fresh vegies. My wife made a strawberry ja…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WebAssembly as a Python extension platform]]></title>
         <id>https://nullprogram.com/blog/2026/01/01/</id>
@@ -367,6 +445,7 @@ Table 1:
  
 dataset
  copies
+ rc?
  length (Gbp)
  avg run-len
  runs (G)
@@ -375,6 +454,7 @@ dataset
  
 random
  
+ no
  3.2
  1.33
  2.40
@@ -383,6 +463,7 @@ random
  
 CHM13v2.0
  1
+ no
  3.2
  1.85
  1.72
@@ -391,7 +472,8 @@ CHM13v2.0
  
 HPRCv1
  94
- 301
+ yes
+ 2x 301
  134
  2.25
  33M
@@ -399,14 +481,15 @@ HPRCv1
  
 HPRCv2
  466
- 1500
+ yes
+ 2x 1500
  535
  2.80
  68M
  1/22000
  
-We see that going from 1 to 94 copies increases the number of runs by only
-31%, and then going to 466 copies adds an additional 25% of runs.]]></summary>
+TODO: Update for the fact that HPRC run-lengths are for the version with rc!
+(Include single human genome with rc)]]></summary>
         <author>
             <name>home on CuriousCoding</name>
         </author>
@@ -672,120 +755,6 @@ context. I’m using w64devkit on x64, but the everything here should
 work out-of-the-box with any x64 toolchain that…]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Writing typst in emacs]]></title>
-        <id>https://curiouscoding.nl/posts/typst-in-emacs/</id>
-        <link href="https://curiouscoding.nl/posts/typst-in-emacs/"/>
-        <updated>2025-12-11T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a short note on setting up Doom emacs for very fast typst previews.
-typst-ts-mode provides typst-ts-watch-mode via C-c C-w, which runs typst watch in the background, as well as typst-ts-preview via C-c C-p which
-opens the current pdf file. Using zathura as pdf viewer provides live updates.
-
-
-
-1
-2
-3
-
-
-
-;; doom/packages.el
-;; typst: https://codeberg.org/meow_king/typst-ts-mode/wiki/Installation.md
-(package! typst-ts-mode :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))
-
-
-
-
-
-Since typst is so fast to compile, and near-live previews are nice, we’d like to
-save the file often. Since space f s is somewhat annoying to type all the
-time, we’ll add some auto-saving.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New in llama.cpp: Model Management]]></title>
-        <id>https://huggingface.co/blog/ggml-org/model-management-in-llamacpp</id>
-        <link href="https://huggingface.co/blog/ggml-org/model-management-in-llamacpp"/>
-        <updated>2025-12-11T15:47:44.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by ggml.ai on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Codex is Open Sourcing AI models]]></title>
-        <id>https://huggingface.co/blog/hf-skills-training-codex</id>
-        <link href="https://huggingface.co/blog/hf-skills-training-codex"/>
-        <updated>2025-12-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do Not Optimize Away]]></title>
-        <id>https://matklad.github.io/2025/12/09/do-not-optimize-away.html</id>
-        <link href="https://matklad.github.io/2025/12/09/do-not-optimize-away.html"/>
-        <updated>2025-12-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Compilers are sneaky beasts. If you time code like this:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apps I Use (2025)]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-default-apps/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-default-apps/?mtm_campaign=feed"/>
-        <updated>2025-12-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Last year I posted the list of <a href="https://abhinavsarkar.net/notes/2024-default-apps/">my default apps</a>. It’s time to update it for 2025!</p>]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #49 (2025)]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-weeknotes-12-07/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-weeknotes-12-07/?mtm_campaign=feed"/>
-        <updated>2025-12-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 24th November–7th December.
-
-
-True Blue
-
-
-This is my tenth consecutive week of writing week notes! I’m happy that I’m able to keep up this habit.
-Winter is here and I’m loving it! Bengaluru generally does not get much cold in winters but this year seem like an exception. I’ve been wearing sweatshirts and jackets every day, sometimes even to sleep. I’m planning to do some winter wear shopping soon. We got our 3yo 𝒜 some cute sweaters.
-As my health improves, I’m starting to adopt a move active lifestyle. For now, I’m walking 2–3 kms every day, and I plan to start doing Yoga from January.
-Last week I switched from dairy milk to Oat milk after discovering that I’m now allergic to dairy. I’m starting to like the taste after trying it for a week.
-Last week I sp…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mechanical Habits]]></title>
-        <id>https://matklad.github.io/2025/12/06/mechanical-habits.html</id>
-        <link href="https://matklad.github.io/2025/12/06/mechanical-habits.html"/>
-        <updated>2025-12-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[My schtick as a software engineer is establishing automated processes --- mechanically enforced
-patterns of behavior. I have collected a Santa Claus bag of specific tricks I've learned from
-different people, and want to share them in turn.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why speed matters]]></title>
-        <id>https://lemire.me/blog/?p=22361</id>
-        <link href="https://lemire.me/blog/2025/12/05/why-speed-matters/"/>
-        <updated>2025-12-05T19:24:50.000Z</updated>
-        <summary type="html"><![CDATA[The one constant that I have observed in my professional life is that people underestimate the need to move fast. Of course, doing good work takes time. I once spent six months writing a URL parser. But the fact that it took so long is not a feature, it is not a positive, it is … Continue reading Why speed matters]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
