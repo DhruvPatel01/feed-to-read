@@ -1,10 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-01-11T01:43:05.454Z</id>
+    <id>urn:2026-01-18T01:42:28.009Z</id>
     <title>osmos::feed</title>
-    <updated>2026-01-11T01:43:05.454Z</updated>
+    <updated>2026-01-18T01:42:28.009Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A new way to call C from Java: how fast is it?]]></title>
+        <id>https://lemire.me/blog/?p=22445</id>
+        <link href="https://lemire.me/blog/2026/01/17/a-new-way-to-call-c-from-java-how-fast-is-it/"/>
+        <updated>2026-01-17T23:44:38.000Z</updated>
+        <summary type="html"><![CDATA[Irrespective of your programming language of choice, calling C functions is often a necessity. For the longest time, the only standard way to call C was the Java Native Interface (JNI). But it was so painful that few dared to do it. I have heard it said that it was deliberately painful so that people … Continue reading A new way to call C from Java: how fast is it?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implementing Co, a Small Language With Coroutines #5: Adding Sleep]]></title>
+        <id>https://abhinavsarkar.net/posts/implementing-co-5/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/posts/implementing-co-5/?mtm_campaign=feed"/>
+        <updated>2026-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In the <a href="https://abhinavsarkar.net/posts/implementing-co-4/">previous post</a>, we added channels to <span class="fancy">Co</span>, the small language we are implementing in this series of posts. In this post, we add the <code>sleep</code> primitive to it, enabling time-based coroutine scheduling. We then use sleep to build a simulation of digital logic circuits.</p>]]></summary>
+        <author>
+            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing OptiMind, a research model designed for optimization]]></title>
+        <id>https://huggingface.co/blog/microsoft/optimind</id>
+        <link href="https://huggingface.co/blog/microsoft/optimind"/>
+        <updated>2026-01-15T18:49:16.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Microsoft on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Responses: What you need to know]]></title>
+        <id>https://huggingface.co/blog/open-responses</id>
+        <link href="https://huggingface.co/blog/open-responses"/>
+        <updated>2026-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How stagnant is CPU technology?]]></title>
+        <id>https://lemire.me/blog/?p=22451</id>
+        <link href="https://lemire.me/blog/2026/01/14/how-stagnant-is-cpu-technology/"/>
+        <updated>2026-01-14T14:52:39.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes, people tell me that there is no more progress in CPU performance. Consider these three processors which had comparable prices at release time. The AMD Ryzen 7 9800X3D (Zen 5, with up to 5.3 GHz boost) was released in 2024. The AMD Ryzen 7 7800X3D (Zen 4, with up to 5.1 GHz boost) was … Continue reading How stagnant is CPU technology?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #2 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-01-11/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-01-11/?mtm_campaign=feed"/>
+        <updated>2026-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 5th–11th January.
+
+
+All That Remains
+
+Life
+This week has been quite uneventful. I’m back to work after a break. The infamous Bangalore traffic is back and worse than before. The weather has become cold again, but this time we are better prepared. We stayed home all the week, sipping on hot beverages and occasionally eating fried stuff.
+Health
+I decided to walk 10000 steps every day starting this week. And I did it!
+
+
+I actually did better than the goal—I walked over 11000 steps every day. I felt less bloated and more energetic. The downside was the continuous soreness and tiredness. I had to take naps to recover from the fatigue. Thankfully, now my body is getting used to it and I feel less exhausted. I’ve also started stretching daily, which I feel helps …]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How I use Jujutsu]]></title>
         <id>https://abhinavsarkar.net/posts/jj-usage/?mtm_campaign=feed</id>
@@ -670,91 +741,6 @@ Afterwar…]]></summary>
         <summary type="html"><![CDATA[Much of the data on the Internet is shared using a simple format called JSON. JSON is made of two composite types (arrays and key-value maps) and a small number of primitive types (64-bit floating-point numbers, strings, null, Booleans). That JSON became ubiquitous despite its simplicity is telling. { "name": "Nova Starlight", "age": 28, "powers": … Continue reading JSON-complete data formats and programming languages]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tokenization in Transformers v5: Simpler, Clearer, and More Modular]]></title>
-        <id>https://huggingface.co/blog/tokenizers</id>
-        <link href="https://huggingface.co/blog/tokenizers"/>
-        <updated>2025-12-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator]]></title>
-        <id>https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe</id>
-        <link href="https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe"/>
-        <updated>2025-12-17T13:22:18.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CUGA on Hugging Face: Democratizing Configurable AI Agents]]></title>
-        <id>https://huggingface.co/blog/ibm-research/cuga-on-hugging-face</id>
-        <link href="https://huggingface.co/blog/ibm-research/cuga-on-hugging-face"/>
-        <updated>2025-12-15T16:01:04.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multiplying the Shuffle Speed in Go with Batched Shuffling]]></title>
-        <id>https://lemire.me/blog/?p=22369</id>
-        <link href="https://lemire.me/blog/2025/12/15/multiplying-the-shuffle-speed-in-go-with-batched-shuffling/"/>
-        <updated>2025-12-15T01:42:10.000Z</updated>
-        <summary type="html"><![CDATA[Programmers often want to randomly shuffle arrays. Evidently, we want to do so as efficiently as possible. Maybe surprisingly, I found that the performance of random shuffling was not limited by memory bandwidth or latency, but rather by computation. Specifically, it is the computation of the random indexes itself that is slow. Earlier in 2025, … Continue reading Multiplying the Shuffle Speed in Go with Batched Shuffling]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solving Advent of Code 2025 in Janet: Days 5–8]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed"/>
-        <updated>2025-12-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I’m solving the <a href="https://adventofcode.com/2025/" target="_blank" rel="noopener">Advent of Code 2025</a> in <a href="https://janet-lang.org/" target="_blank" rel="noopener">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>
-<p>Janet is a <a href="http://clojure.org/" target="_blank" rel="noopener">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href="https://python.org" target="_blank" rel="noopener">Python</a> with Janet as my scripting language.</p>
-<p>Here are my solutions for December 5–8.</p>]]></summary>
-        <author>
-            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solving Advent of Code 2025 in Janet: Days 5–8]]></title>
-        <id>https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2025-aoc-2/?mtm_campaign=feed"/>
-        <updated>2025-12-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I’m solving the <a href="https://adventofcode.com/2025/" target="_blank" rel="noopener">Advent of Code 2025</a> in <a href="https://janet-lang.org/" target="_blank" rel="noopener">Janet</a>. After doing the last five years in Haskell, I wanted to learn a new language this year. I’ve been eyeing the “New Lisps”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> for a while now, and I decided to learn Janet.</p>
-<p>Janet is a <a href="http://clojure.org/" target="_blank" rel="noopener">Clojure</a> like Lisp that can be interpreted, embedded and compiled, and comes with a large standard library with concurrency, HTTP and PEG parser support. I want to replace <a href="https://python.org" target="_blank" rel="noopener">Python</a> with Janet as my scripting language.</p>
-<p>Here are my solutions for December 5–8.</p>]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Closures as Win32 window procedures]]></title>
-        <id>https://nullprogram.com/blog/2025/12/12/</id>
-        <link href="https://nullprogram.com/blog/2025/12/12/"/>
-        <updated>2025-12-12T19:52:10.000Z</updated>
-        <summary type="html"><![CDATA[Back in 2017 I wrote about a technique for creating closures in C
-using JIT-compiled wrapper. It’s neat, though rarely necessary in
-real programs, so I don’t think about it often. I applied it to qsort,
-which sadly accepts no context pointer. More practical would be
-working around insufficient custom allocator interfaces, to
-create allocation functions at run-time bound to a particular allocation
-region. I’ve learned a lot since I last wrote about this subject, and a
-recent article had me thinking about it again, and how I could do
-better than before. In this article I will enhance Win32 window procedure
-callbacks with a fifth argument, allowing us to more directly pass extra
-context. I’m using w64devkit on x64, but the everything here should
-work out-of-the-box with any x64 toolchain that…]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>
