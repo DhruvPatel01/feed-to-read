@@ -1,10 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-02-22T01:56:57.117Z</id>
+    <id>urn:2026-03-01T02:03:59.538Z</id>
     <title>osmos::feed</title>
-    <updated>2026-02-22T01:56:57.117Z</updated>
+    <updated>2026-03-01T02:03:59.538Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[You can use newline characters in URLs]]></title>
+        <id>https://lemire.me/blog/?p=22517</id>
+        <link href="https://lemire.me/blog/2026/02/28/you-can-use-newline-characters-in-urls/"/>
+        <updated>2026-02-28T19:21:39.000Z</updated>
+        <summary type="html"><![CDATA[We locate web content using special addresses called URLs. We are all familiar with addresses like https://google.com. Sometimes, URLs can get long and they can become difficult to read. Thus, we might be tempted to format them like so in HTML using newline and tab characters, like so: <a href="https://lemire.me/blog/2026/02/21/ how-fast-do-browsers-correct-utf-16-strings/">my blog post</a> It will … Continue reading You can use newline characters in URLs]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mixture of Experts (MoEs) in Transformers]]></title>
+        <id>https://huggingface.co/blog/moe-transformers</id>
+        <link href="https://huggingface.co/blog/moe-transformers"/>
+        <updated>2026-02-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Against Query Based Compilers]]></title>
+        <id>https://matklad.github.io/2026/02/25/against-query-based-compilers.html</id>
+        <link href="https://matklad.github.io/2026/02/25/against-query-based-compilers.html"/>
+        <updated>2026-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Query based compilers are all the rage these days, so it feels only appropriate to chart some treacherous shoals in those waters.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploying Open Source Vision Language Models (VLM) on Jetson]]></title>
+        <id>https://huggingface.co/blog/nvidia/cosmos-on-jetson</id>
+        <link href="https://huggingface.co/blog/nvidia/cosmos-on-jetson"/>
+        <updated>2026-02-24T00:00:21.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nim version 2.2.8 released]]></title>
+        <id>https://nim-lang.org//blog/2026/02/23/nim-228.html</id>
+        <link href="https://nim-lang.org//blog/2026/02/23/nim-228.html"/>
+        <updated>2026-02-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim Team is happy to announce version 2.2.8, the fourth patch release for our stable release, Nim 2.2.
+It comes four months after the 2.2.6 release and it contains 89 commits, bringing bugfixes and improvements.
+If you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.
+If you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.
+The Nim 2.2.8 changelog is available here.
+Highlights
+We think that for everyday users the most impactful bugfix is that for heavily multi-threaded code the default allocator is now much more stable. 
+The days where the workaround -d:useMalloc is required might be beyond us. 
+Please give us feedback!
+Installing Nim 2.2.8
+Check out if the package manager of you…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #8 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-02-22/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-02-22/?mtm_campaign=feed"/>
+        <updated>2026-02-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 16th–22nd February.
+
+Lake After Rain
+
+Life#
+Back-from-vacation week is never a great one. This week we struggled to settle back in our daily routines. Our sleep schedules were out of whack. I, in particular, slept pretty badly till Friday. Only yesterday I was able to sleep well.
+Being sleep deprived most days caused me to be working in a low-energy state, just getting the minimum done. I had to resort to take auto-rickshaws to pick up A from school as I didn’t feel like driving. I forced myself to go on walks to complete my steps. Somehow we all made it through the week.
+Current average steps per month: 10162
+Writing#
+I’ve not written anything in the last one month except these week notes. Some ideas have been brewing in my head, but I’ve been too out of …]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How fast do browsers correct UTF-16 strings?]]></title>
         <id>https://lemire.me/blog/?p=22443</id>
@@ -46,16 +125,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「データ不足」の壁を越える：合成ペルソナが日本のAI開発を加速]]></title>
-        <id>https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata-ja</id>
-        <link href="https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata-ja"/>
-        <updated>2026-02-19T15:32:38.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST]]></title>
         <id>https://huggingface.co/blog/ibm-research/itbenchandmast</id>
         <link href="https://huggingface.co/blog/ibm-research/itbenchandmast"/>
@@ -76,9 +145,9 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[QuadRank: Engineering a high-throughput rank]]></title>
-        <id>https://curiouscoding.nl/slides/</id>
-        <link href="https://curiouscoding.nl/slides/"/>
+        <title type="html"><![CDATA[QuadRank: Engineering a High-Throughput Rank]]></title>
+        <id>https://curiouscoding.nl/posts/quadrank-slides/</id>
+        <link href="https://curiouscoding.nl/posts/quadrank-slides/"/>
         <updated>2026-02-17T23:00:00.000Z</updated>
         <summary type="html"><![CDATA[Binary Rank: Problem statement
  
@@ -224,7 +293,7 @@ Latency: 80 ns/q]]></summary>
         <id>https://matklad.github.io/2026/02/16/diagnostics-factory.html</id>
         <link href="https://matklad.github.io/2026/02/16/diagnostics-factory.html"/>
         <updated>2026-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[InError Codes For Control Flow,I explained that Zig's strongly-typed error codes solve the handling half of error management,leaving reporting to the users. Today, I want to describe my personal default approach tothe reporting problem, that is, showing the user a useful error message.]]></summary>
+        <summary type="html"><![CDATA[In Error Codes For Control Flow, I explained that Zig's strongly-typed error codes solve the handling half of error management, leaving reporting to the users. Today, I want to describe my personal default approach to the reporting problem, that is, showing the user a useful error message.]]></summary>
         <author>
             <name>matklad</name>
         </author>
@@ -271,7 +340,7 @@ My wife is healthy again, though she has some leftover weakness from the antibio
         <id>https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html</id>
         <link href="https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html"/>
         <updated>2026-02-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Something truly monumental happened in the world of software development in 2025. Safari shipped areasonable implementation of text-wrap: pretty:https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/. We are gettingcloser and closer to the cutting-edge XV-century technology. Beautiful paragraphs!]]></summary>
+        <summary type="html"><![CDATA[Something truly monumental happened in the world of software development in 2025. Safari shipped a reasonable implementation of text-wrap: pretty: https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/. We are getting closer and closer to the cutting-edge XV-century technology. Beautiful paragraphs!]]></summary>
         <author>
             <name>matklad</name>
         </author>
@@ -301,7 +370,7 @@ My wife is healthy again, though she has some leftover weakness from the antibio
         <id>https://matklad.github.io/2026/02/11/programming-aphorisms.html</id>
         <link href="https://matklad.github.io/2026/02/11/programming-aphorisms.html"/>
         <updated>2026-02-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A meta programming post --- looking at my thought process when coding and trying to pin down what isprogramming knowledge. Turns out, a significant fraction of that is just reducing new problems toa vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.]]></summary>
+        <summary type="html"><![CDATA[A meta programming post --- looking at my thought process when coding and trying to pin down what is programming knowledge. Turns out, a significant fraction of that is just reducing new problems to a vocabulary of known tricks. This is a personal, descriptive post, not a prescriptive post for you.]]></summary>
         <author>
             <name>matklad</name>
         </author>
@@ -414,7 +483,7 @@ The weather has been somewhat treacherous of late, with days reaching 30°C and 
         <id>https://matklad.github.io/2026/02/06/ci-in-a-box.html</id>
         <link href="https://matklad.github.io/2026/02/06/ci-in-a-box.html"/>
         <updated>2026-02-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I wrote box, a thin wrapper around sshfor running commands on remote machines. I want a box-shaped interface for CI:]]></summary>
+        <summary type="html"><![CDATA[I wrote box, a thin wrapper around ssh for running commands on remote machines. I want a box-shaped interface for CI:]]></summary>
         <author>
             <name>matklad</name>
         </author>
@@ -506,220 +575,6 @@ Personal Projects#
 Not much work on the website this week, I think I…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Daggr: Chain apps programmatically, inspect visually]]></title>
-        <id>https://huggingface.co/blog/daggr</id>
-        <link href="https://huggingface.co/blog/daggr"/>
-        <updated>2026-01-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Got Claude to Build CUDA Kernels and teach open models!]]></title>
-        <id>https://huggingface.co/blog/upskill</id>
-        <link href="https://huggingface.co/blog/upskill"/>
-        <updated>2026-01-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recent results on hash tables]]></title>
-        <id>https://curiouscoding.nl/posts/hash-table-bounds/</id>
-        <link href="https://curiouscoding.nl/posts/hash-table-bounds/"/>
-        <updated>2026-01-27T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Types of hash tables
-2 Metrics
-3 Lower bounds
-4 Iceberg hashing (2023)
-5 IcebergHT (2023)
-6 Tight Bounds for Classical Open Addressing (2024)
-7 Optimal Non-oblivious Open Addressing (2025)
-8 Optimal Bounds for Open Addressing Without Reordering
-
-8.1 Funnel hashing
-8.2 Elastic hashing
-\[
-\newcommand{\inv}{^{-1}}
-\newcommand{\di}{\delta\inv}
-\newcommand{\poly}{\mathrm{poly}}
-\]
-This post summarizes some recent results and idea on various types hash tables.
-Collected together with Stefan Walzer.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek]]></title>
-        <id>https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2</id>
-        <link href="https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2"/>
-        <updated>2026-01-27T15:01:45.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Hugging Face on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alyah ⭐️: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs]]></title>
-        <id>https://huggingface.co/blog/tiiuae/emirati-benchmarks</id>
-        <link href="https://huggingface.co/blog/tiiuae/emirati-benchmarks"/>
-        <updated>2026-01-27T10:26:42.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Technology Innovation Institute on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective]]></title>
-        <id>https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl</id>
-        <link href="https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl"/>
-        <updated>2026-01-27T01:53:15.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by LinkedIn on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[make.ts]]></title>
-        <id>https://matklad.github.io/2026/01/27/make-ts.html</id>
-        <link href="https://matklad.github.io/2026/01/27/make-ts.html"/>
-        <updated>2026-01-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Up Enter Up Up Enter Up Up Up Enter]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimizing Python scripts with AI]]></title>
-        <id>https://lemire.me/blog/?p=22466</id>
-        <link href="https://lemire.me/blog/2026/01/25/optimizing-python-scripts-with-ai/"/>
-        <updated>2026-01-25T23:19:12.000Z</updated>
-        <summary type="html"><![CDATA[One of the first steps we take when we want to optimize software is to look at profiling data. Software profilers are tools that try to identify where your software spends its time. Though the exact approach can vary, a typical profiler samples your software (steps it at regular intervals) and collects statistics. If your … Continue reading Optimizing Python scripts with AI]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #4 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-01-25/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-01-25/?mtm_campaign=feed"/>
-        <updated>2026-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 19th–25th January.
-
-Blue As Sky
-
-Life & Travel#
-I was on vacation this week. This was my first proper vacation after 6½ years. My wife, I, and our 3yo A took a train to Kodaikanal on last Sunday. This was A’s first train journey of life. There was much excitement, followed by much boredom waiting for the train. We took the overnight train from Bangalore and slept through the journey. I had the upper berth, which was right next to the AC vent, leading to a slight cold that I nursed for the rest of the vacation.
-In our unpreparedness caused by the aforementioned lack of vacations for years, we made many mistakes. We forgot to check how far our hotel was from the train station, and it turned out to be a 3 hour car drive away. We didn’t pack enough warm clothe…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CI for Rust testing and releasing]]></title>
-        <id>https://curiouscoding.nl/posts/release-flow/</id>
-        <link href="https://curiouscoding.nl/posts/release-flow/"/>
-        <updated>2026-01-24T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Testing
-2 Releasing libraries
-
-2.1 Changelog
-2.2 cargo release
-2.3 crates.io
-3 Releasing binaries
-
-3.1 Crates.io
-3.2 The pain of AVX2
-
-3.2.1 ensure_simd
-3.3 Profile selection
-3.4 GitHub
-3.5 cargo binstall
-3.6 PyPI
-3.7 Bioconda
-4 Conclusion
-This post will collect template files for setting up
-GitHub CI for testing and releasing Rust libraries and binaries to:
-crates.io (libraries, binaries)
-GitHub releases
-cargo binstall
-PyPI
-Bioconda
-We also have some workarounds for dealing with AVX2 SIMD instructions.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elias-Fano]]></title>
-        <id>https://curiouscoding.nl/teaching/elias-fano/</id>
-        <link href="https://curiouscoding.nl/teaching/elias-fano/"/>
-        <updated>2026-01-24T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[References
- 
- 
- Link to heading
- 
-
-.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Range-minimum queries]]></title>
-        <id>https://curiouscoding.nl/teaching/rmq/</id>
-        <link href="https://curiouscoding.nl/teaching/rmq/"/>
-        <updated>2026-01-24T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[References
- 
- 
- Link to heading
- 
-
-.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rank]]></title>
-        <id>https://curiouscoding.nl/teaching/rank/</id>
-        <link href="https://curiouscoding.nl/teaching/rank/"/>
-        <updated>2026-01-24T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[References
- 
- 
- Link to heading
- 
-
-.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Select]]></title>
-        <id>https://curiouscoding.nl/teaching/select/</id>
-        <link href="https://curiouscoding.nl/teaching/select/"/>
-        <updated>2026-01-24T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[References
- 
- 
- Link to heading
- 
-
-.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
         </author>
     </entry>
 </feed>
