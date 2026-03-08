@@ -1,10 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-03-01T02:03:59.538Z</id>
+    <id>urn:2026-03-08T01:55:15.183Z</id>
     <title>osmos::feed</title>
-    <updated>2026-03-01T02:03:59.538Z</updated>
+    <updated>2026-03-08T01:55:15.183Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Text formats are everywhere. Why?]]></title>
+        <id>https://lemire.me/blog/?p=22526</id>
+        <link href="https://lemire.me/blog/2026/03/05/text-formats-are-everywhere-why/"/>
+        <updated>2026-03-05T14:40:58.000Z</updated>
+        <summary type="html"><![CDATA[The Internet relies on text formats. Thus, we spend a lot of time producing and consuming data encoded in text. Your web pages are HTML. The code running in them is JavaScript, sent as text (JavaScript source), not as already-parsed code. Your emails, including their attachments, are sent as text (your binary files are sent … Continue reading Text formats are everywhere. Why?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations]]></title>
+        <id>https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms</id>
+        <link href="https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms"/>
+        <updated>2026-03-05T14:16:49.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NXP on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JJ LSP Follow Up]]></title>
+        <id>https://matklad.github.io/2026/03/05/jj-lsp-followup.html</id>
+        <link href="https://matklad.github.io/2026/03/05/jj-lsp-followup.html"/>
+        <updated>2026-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol. I've learned today that the upcoming 3.18 version of LSP has a feature to make this massively less hacky: Text Document Content Request]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines]]></title>
+        <id>https://huggingface.co/blog/modular-diffusers</id>
+        <link href="https://huggingface.co/blog/modular-diffusers"/>
+        <updated>2026-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PRX Part 3 — Training a Text-to-Image Model in 24h!]]></title>
+        <id>https://huggingface.co/blog/Photoroom/prx-part3</id>
+        <link href="https://huggingface.co/blog/Photoroom/prx-part3"/>
+        <updated>2026-03-03T16:50:49.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Photoroom on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NordVPN refund dark patterns]]></title>
+        <id>https://curiouscoding.nl/posts/nordvpn-refund/</id>
+        <link href="https://curiouscoding.nl/posts/nordvpn-refund/"/>
+        <updated>2026-03-02T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tl;dr: if you want to refund your NordVPN payment, go to
+my.nordaccount.com/billing/billing-history?intent_rf=true. The last part,
+?intent_rf=true, is the important bit. (If that doesn’t work, you’ll probably
+have to go through the full chat-bot flow first, see below. Or maybe they
+changed the magic bit.)
+I have a NordVPN subscription since many years.
+Recently I have been getting mails that my card is expired and that I
+should update it to keep the service:]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Route Planning using Customizable Contraction Hierarchies]]></title>
+        <id>https://curiouscoding.nl/posts/cch/</id>
+        <link href="https://curiouscoding.nl/posts/cch/"/>
+        <updated>2026-03-01T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Problem Statement: Customizable Route Planning (CRP)
+2 Contraction Hierarchies (CH)
+
+2.1 Classic Contraction Hierarchies
+2.2 Customizable Contraction Hierarchies (CCH)
+3 Analogy with trees
+4 Shortest Paths in CHs
+5 Parents: Faster Shortest Paths in CCHs
+6 Input Graph
+7 Initial Algorithm
+
+7.1 Permute input
+7.2 Chordal Completion and Parents
+7.3 Customize
+7.4 Query
+8 Optimizing things
+
+8.1 Binary searching in find_edge
+8.2 HashMap of edges
+8.3 Ranges of neighbours
+8.4 Linear scan
+8.5 Proper query algorithm
+8.6 Pruning edges
+8.7 Pruning
+8.8 Unconditional edge relaxing
+8.9 Early edge break
+8.10 DFS-ordering the nodes
+8.11 Not inclining queries
+9 Some stats
+10 Serializing the final structure
+11 Merging adjacent edges
+
+11.1 Perf stat
+11.2 All ranges are multiples of 8
+11.3 All ranges have size 8
+11.4 Finding the bottleneck
+12 Bugfixing
+13 Further ideas
+
+13.1 Failed: Doubling the graph
+13.2 Edge pruning
+13.3 Failed: Expanding a node and its parent in parallel
+14 Current best results
+
+14.1 Bottleneck
+15 TODO 
+These are some notes on customizable contraction hierarchies, based on talks
+with Michael Zündorf and the survey paper by Bläsius, Buchhold, Wagner, Zeitz, and Zündorf (2025).]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #9 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-03-01/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-03-01/?mtm_campaign=feed"/>
+        <updated>2026-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 23rd February–1st March.
+
+
+Life#
+This week has been a slow one. Not much to update on this time. Life is moving at usual pace; home-work-walk-build-watch-read.
+My sleep has improved but I’m still not waking up fully refreshed; at least I am able to drive now. I kept sneaking in walks here and there, even spent some time on a treadmill because the summer is here in Bangalore. I finished February with 10225 daily average steps, which is a tad bit better than January. With the heat increasing, I’ll have to spend more time on the treadmill.
+We got all the ACs serviced just in time. A and my wife made popsicles twice this week with fruit juices, which turned out absolutely delectable. Looking forward to more of those this summer. Holi is around the corner, and …]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[You can use newline characters in URLs]]></title>
         <id>https://lemire.me/blog/?p=22517</id>
@@ -26,6 +167,35 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Wheeler graphs]]></title>
+        <id>https://curiouscoding.nl/posts/wheeler-graphs/</id>
+        <link href="https://curiouscoding.nl/posts/wheeler-graphs/"/>
+        <updated>2026-02-25T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Deterministic Finite Automaton (DFA)
+2 Wheeler-DFA
+3 Linear graphs: Prefix array
+4 De Bruijn graphs are Wheeler
+5 Not all DFAs are Wheeler
+6 Locating patterns via binary search
+7 Locating patterns via the BOSS table
+These are some notes on Wheeler DFAs after chatting with Nicola
+Prezza1 and others
+from the RAVEN lab at DSB 2026 in Venice.
+1 Deterministic Finite Automaton (DFA)
+ 
+ 
+ Link to heading
+ 
+
+A DFA is a graph where edges are labelled by characters.
+Each node can have at most one outgoing edge with each label. (Otherwise it
+would be non-deterministic.)]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Against Query Based Compilers]]></title>
         <id>https://matklad.github.io/2026/02/25/against-query-based-compilers.html</id>
         <link href="https://matklad.github.io/2026/02/25/against-query-based-compilers.html"/>
@@ -33,16 +203,6 @@
         <summary type="html"><![CDATA[Query based compilers are all the rage these days, so it feels only appropriate to chart some treacherous shoals in those waters.]]></summary>
         <author>
             <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deploying Open Source Vision Language Models (VLM) on Jetson]]></title>
-        <id>https://huggingface.co/blog/nvidia/cosmos-on-jetson</id>
-        <link href="https://huggingface.co/blog/nvidia/cosmos-on-jetson"/>
-        <updated>2026-02-24T00:00:21.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -77,9 +237,9 @@ Lake After Rain
 Life#
 Back-from-vacation week is never a great one. This week we struggled to settle back in our daily routines. Our sleep schedules were out of whack. I, in particular, slept pretty badly till Friday. Only yesterday I was able to sleep well.
 Being sleep deprived most days caused me to be working in a low-energy state, just getting the minimum done. I had to resort to take auto-rickshaws to pick up A from school as I didn’t feel like driving. I forced myself to go on walks to complete my steps. Somehow we all made it through the week.
-Current average steps per month: 10162
+Current daily average steps per month: 10162
 Writing#
-I’ve not written anything in the last one month except these week notes. Some ideas have been brewing in my head, but I’ve been too out of …]]></summary>
+I’ve not written anything in the last one month except these week notes. Some ideas have been brewing in my head, but I’ve been too o…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
@@ -474,105 +634,6 @@ Life#
 My wife’s sickness continued into this week. The doctor did not prescribe antibiotics on the first visit last week, so we visited again this week and finally got prescribed some. I’m so thankful to scientists and medical professionals for inventing antibiotics. She is recovering well.
 The fatigue of illness kept us mostly doing bare minimum, no outings or events this week. I missed walking 10k steps a few days, and I had to walk 13–14k on few other days to compensate. My body has adjusted to this routine of exercise now. I’m hoping to move it up a notch in the upcoming weeks.
 The weather has been somewhat treacherous of late, with days reaching 30°C and nights at 15°C. The large variation has been the cause of the spreading v…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CI In a Box]]></title>
-        <id>https://matklad.github.io/2026/02/06/ci-in-a-box.html</id>
-        <link href="https://matklad.github.io/2026/02/06/ci-in-a-box.html"/>
-        <updated>2026-02-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I wrote box, a thin wrapper around ssh for running commands on remote machines. I want a box-shaped interface for CI:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing SyGra Studio]]></title>
-        <id>https://huggingface.co/blog/ServiceNow-AI/sygra-studio</id>
-        <link href="https://huggingface.co/blog/ServiceNow-AI/sygra-studio"/>
-        <updated>2026-02-05T16:52:28.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by ServiceNow-AI on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Community Evals: Because we're done trusting black-box leaderboards over the community]]></title>
-        <id>https://huggingface.co/blog/community-evals</id>
-        <link href="https://huggingface.co/blog/community-evals"/>
-        <updated>2026-02-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[H Company's new Holo2 model takes the lead in UI Localization]]></title>
-        <id>https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b</id>
-        <link href="https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b"/>
-        <updated>2026-02-03T17:40:14.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by H company on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Future of the Global Open-Source AI Ecosystem: From DeepSeek to AI+]]></title>
-        <id>https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3</id>
-        <link href="https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3"/>
-        <updated>2026-02-03T15:03:19.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Hugging Face on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Training Design for Text-to-Image Models: Lessons from Ablations]]></title>
-        <id>https://huggingface.co/blog/Photoroom/prx-part2</id>
-        <link href="https://huggingface.co/blog/Photoroom/prx-part2"/>
-        <updated>2026-02-03T11:25:53.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Photoroom on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Converting data to hexadecimal outputs quickly]]></title>
-        <id>https://lemire.me/blog/?p=22476</id>
-        <link href="https://lemire.me/blog/2026/02/02/converting-data-to-hexadecimal-outputs-quickly/"/>
-        <updated>2026-02-02T15:52:27.000Z</updated>
-        <summary type="html"><![CDATA[Given any string of bytes, you can convert it to an hexadecimal string by mapping the least significant and the most significant 4 bits of byte to characters in 01...9A...F. There are more efficient techniques like base64, that map 3 bytes to 4 characters. However, hexadecimal outputs are easier to understand and often sufficiently concise. … Continue reading Converting data to hexadecimal outputs quickly]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Converting floats to strings quickly]]></title>
-        <id>https://lemire.me/blog/?p=22472</id>
-        <link href="https://lemire.me/blog/2026/02/01/converting-floats-to-strings-quickly/"/>
-        <updated>2026-02-01T15:23:25.000Z</updated>
-        <summary type="html"><![CDATA[When serializing data to JSON, CSV or when logging, we convert numbers to strings. Floating-point numbers are stored in binary, but we need them as decimal strings. The first formally published algorithm is Steele and White’s Dragon schemes (specifically Dragin2) in 1990. Since then, faster methods have emerged: Grisu3, Ryū, Schubfach, Grisu-Exact, and Dragonbox. In … Continue reading Converting floats to strings quickly]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #5 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-02-01/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-02-01/?mtm_campaign=feed"/>
-        <updated>2026-02-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 26th January–1st February.
-
-Supernova!
-
-Life#
-I returned to work last Monday after a ten day vacation. It was hard; my mind kept going back to the relaxing days. I felt very refreshed. It lasted only a day.
-My whole family caught a cold on Tuesday. My wife had it worst. While A and I have recovered, my wife is still not well enough. We made through the week somehow fighting the weariness.
-Despite the bouts of sickness, I’m happy to tell you that I was able to walk 316727 steps in January, that is 10217 steps every day on average. I missed hitting the mark 6 days out of 31, but because of walking extra steps on other days, I maintained the average. I’m going to continue this habit for now.
-Personal Projects#
-Not much work on the website this week, I think I…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
