@@ -29,6 +29,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
+          "author": null,
+          "description": "I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to draw a series of pictures which could be helpful. You can see this post as a set of missing illustrations for Notes on Paxos, or, alternatively, you can view that post as a more formal narrative counter-part for the present one.",
+          "link": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
+          "publishedOn": "2026-03-19T00:00:00.000Z",
+          "wordCount": 1317,
+          "title": "Consensus Board Game",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2026/03/05/jj-lsp-followup.html",
           "author": null,
           "description": "In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol. I've learned today that the upcoming 3.18 version of LSP has a feature to make this massively less hacky: Text Document Content Request",
@@ -57,26 +67,6 @@
           "wordCount": 465,
           "title": "Wrapping Code Comments",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
-          "author": null,
-          "description": "In Error Codes For Control Flow, I explained that Zig's strongly-typed error codes solve the handling half of error management, leaving reporting to the users. Today, I want to describe my personal default approach to the reporting problem, that is, showing the user a useful error message.",
-          "link": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
-          "publishedOn": "2026-02-16T00:00:00.000Z",
-          "wordCount": 874,
-          "title": "Diagnostics Factory",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
-          "author": null,
-          "description": "Something truly monumental happened in the world of software development in 2025. Safari shipped a reasonable implementation of text-wrap: pretty: https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/. We are getting closer and closer to the cutting-edge XV-century technology. Beautiful paragraphs!",
-          "link": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
-          "publishedOn": "2026-02-14T00:00:00.000Z",
-          "wordCount": 732,
-          "title": "Justifying text-wrap: pretty",
-          "imageUrl": null
         }
       ]
     },
@@ -92,14 +82,44 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
-          "id": "https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval",
+          "id": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
           "author": null,
           "description": "A Blog post by NVIDIA on Hugging Face",
-          "link": "https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval",
-          "publishedOn": "2026-03-13T20:00:00.000Z",
-          "wordCount": 1874,
-          "title": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6172d79a6c2ff4e51d0ea593/Qflw9K3iqWZf269xwE-CP.png"
+          "link": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+          "publishedOn": "2026-03-20T19:38:16.000Z",
+          "wordCount": 3025,
+          "title": "Build a Domain-Specific Embedding Model in Under a Day",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/domain-specific-embedding-finetune.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+          "author": null,
+          "description": "A Blog post by IBM Granite on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+          "publishedOn": "2026-03-20T14:14:46.000Z",
+          "wordCount": 683,
+          "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-libraries.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+          "author": null,
+          "description": "A Blog post by Hugging Face on Hugging Face",
+          "link": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+          "publishedOn": "2026-03-17T16:37:55.000Z",
+          "wordCount": 3164,
+          "title": "State of Open Source on Hugging Face: Spring 2026",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/62543749b777cd32720675c2/6SncRLSzbOb4IubAj2qyN.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/Hcompany/holotron-12b",
+          "author": null,
+          "description": "A Blog post by H company on Hugging Face",
+          "link": "https://huggingface.co/blog/Hcompany/holotron-12b",
+          "publishedOn": "2026-03-17T12:33:39.000Z",
+          "wordCount": 1250,
+          "title": "Holotron-12B - High Throughput Computer Use Agent",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/682c3e22650f6bbe33bb9d94/ZrDLn6Wer5-TM_okKVmZ2.png"
         },
         {
           "id": "https://huggingface.co/blog/storage-buckets",
@@ -107,7 +127,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/storage-buckets",
           "publishedOn": "2026-03-10T00:00:00.000Z",
-          "wordCount": 1984,
+          "wordCount": 2039,
           "title": "Introducing Storage Buckets on the Hugging Face Hub",
           "imageUrl": "https://huggingface.co/blog/assets/storage-buckets/buckets-annoucement.png"
         },
@@ -117,19 +137,9 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/async-rl-training-landscape",
           "publishedOn": "2026-03-10T00:00:00.000Z",
-          "wordCount": 9706,
+          "wordCount": 9739,
           "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
           "imageUrl": "https://huggingface.co/blog/assets/async-rl-landscape/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-granite/granite-4-speech",
-          "author": null,
-          "description": "A Blog post by IBM Granite on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-granite/granite-4-speech",
-          "publishedOn": "2026-03-09T18:36:33.000Z",
-          "wordCount": 613,
-          "title": "Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-4-speech.png"
         },
         {
           "id": "https://huggingface.co/blog/ulysses-sp",
@@ -190,46 +200,6 @@
           "wordCount": 2393,
           "title": "Mixture of Experts (MoEs) in Transformers",
           "imageUrl": "https://huggingface.co/blog/assets/moe-transformers/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ggml-joins-hf",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/ggml-joins-hf",
-          "publishedOn": "2026-02-20T00:00:00.000Z",
-          "wordCount": 1860,
-          "title": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI",
-          "imageUrl": "https://huggingface.co/blog/assets/ggml-joins-hf/ggml-joins-hf.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/unsloth-jobs",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/unsloth-jobs",
-          "publishedOn": "2026-02-20T00:00:00.000Z",
-          "wordCount": 1237,
-          "title": "Train AI models with Unsloth and Hugging Face Jobs for FREE",
-          "imageUrl": "https://huggingface.co/blog/assets/unsloth-jobs/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-research/itbenchandmast",
-          "author": null,
-          "description": "A Blog post by IBM Research on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-research/itbenchandmast",
-          "publishedOn": "2026-02-18T16:15:45.000Z",
-          "wordCount": 2582,
-          "title": "IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/pcP8QgkPqNpcygSbT6p60.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/gradio-html-one-shot-apps",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/gradio-html-one-shot-apps",
-          "publishedOn": "2026-02-18T00:00:00.000Z",
-          "wordCount": 1051,
-          "title": "One-Shot Any Web App with Gradio's gr.HTML",
-          "imageUrl": "https://huggingface.co/blog/assets/gradio-html-one-shot-apps/thumbnail.png"
         }
       ]
     },
@@ -279,16 +249,6 @@
           "wordCount": 1014,
           "title": "Notes for the Week #8 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-02-22.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-02-16/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 9th–15th February.\n\nOUTSIDE\n\nLife#\nI was on vacation this week. We had been vacation-starved for last many years, so, now that we can, we are trying to fill the gap with consecutive vacations. However, I think there will be a while till I take the next vacation.\nA and I spent a lot of time in parks running around chasing squirrels, and just idly walking on grass. As a child I used to spend a lot of time on grass that grew pretty much everywhere not road or buildings, but we don’t see much of it anymore. Only parks in our neighbourhood have large grassy patches, but most of them prohibit walking on them. It’s a bit sad for me to see A preferring to sit on benches than grass.\nMy wife is healthy again, though she has some leftover weakness from the antibiotic…",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-02-16/?mtm_campaign=feed",
-          "publishedOn": "2026-02-16T00:00:00.000Z",
-          "wordCount": 1620,
-          "title": "Notes for the Week #7 (2026)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-02-16.png"
         }
       ]
     },
@@ -298,12 +258,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22543",
+          "author": "Daniel Lemire",
+          "description": "Modern processors have the ability to execute many instructions per cycle, on a single core. To be able to execute many instructions per cycle in practice, processors predict branches. I have made the point over the years that modern CPUs have an incredible ability to predict branches. It makes benchmarking difficult because if you test … Continue reading How many branches can your CPU predict?",
+          "link": "https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/",
+          "publishedOn": "2026-03-18T21:52:53.000Z",
+          "wordCount": 4215,
+          "title": "How many branches can your CPU predict?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/Capture-decran-le-2026-03-18-a-17.52.22.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22530",
           "author": "Daniel Lemire",
           "description": "Suppose that you have a record of your sales per day. You might want to get a running record where, for each day, you are told how many sales you have made since the start of the year. day sales per day running sales 1 10$ 10 $ 2 15$ 25 $ 3 5$ 30 … Continue reading Prefix sums at tens of gigabytes per second with ARM NEON",
           "link": "https://lemire.me/blog/2026/03/08/prefix-sums-at-tens-of-gigabytes-per-second-with-arm-neon/",
           "publishedOn": "2026-03-08T20:09:48.000Z",
-          "wordCount": 4499,
+          "wordCount": 4534,
           "title": "Prefix sums at tens of gigabytes per second with ARM NEON",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/Capture-decran-le-2026-03-08-a-16.07.29-1024x798.png"
         },
@@ -313,7 +283,7 @@
           "description": "The Internet relies on text formats. Thus, we spend a lot of time producing and consuming data encoded in text. Your web pages are HTML. The code running in them is JavaScript, sent as text (JavaScript source), not as already-parsed code. Your emails, including their attachments, are sent as text (your binary files are sent … Continue reading Text formats are everywhere. Why?",
           "link": "https://lemire.me/blog/2026/03/05/text-formats-are-everywhere-why/",
           "publishedOn": "2026-03-05T14:40:58.000Z",
-          "wordCount": 3833,
+          "wordCount": 3827,
           "title": "Text formats are everywhere. Why?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/HCp4uWQX0AAhxh0-1024x587.jpeg"
         },
@@ -323,7 +293,7 @@
           "description": "We locate web content using special addresses called URLs. We are all familiar with addresses like https://google.com. Sometimes, URLs can get long and they can become difficult to read. Thus, we might be tempted to format them like so in HTML using newline and tab characters, like so: <a href=\"https://lemire.me/blog/2026/02/21/ how-fast-do-browsers-correct-utf-16-strings/\">my blog post</a> It will … Continue reading You can use newline characters in URLs",
           "link": "https://lemire.me/blog/2026/02/28/you-can-use-newline-characters-in-urls/",
           "publishedOn": "2026-02-28T19:21:39.000Z",
-          "wordCount": 3692,
+          "wordCount": 3719,
           "title": "You can use newline characters in URLs",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/02/Capture-decran-le-2026-02-28-a-14.21.14.png"
         },
@@ -333,29 +303,9 @@
           "description": "JavaScript represents strings using Unicode, like most programming languages today. Each character in a JavaScript string is stored using one or two 16-bit words. The following JavaScript code might surprise some programmers because a single character becomes two 16-bit words. > t=\"🧰\" '🧰' > t.length 2 > t[0] '\\ud83e' > t[1] '\\uddf0' The convention is … Continue reading How fast do browsers correct UTF-16 strings?",
           "link": "https://lemire.me/blog/2026/02/21/how-fast-do-browsers-correct-utf-16-strings/",
           "publishedOn": "2026-02-21T20:07:17.000Z",
-          "wordCount": 3518,
+          "wordCount": 3512,
           "title": "How fast do browsers correct UTF-16 strings?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/02/Capture-decran-le-2026-02-21-a-15.06.57.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22495",
-          "author": "Daniel Lemire",
-          "description": "When programming, we need to allocate memory, and then deallocate it. If you program in C, you get used to malloc/free functions. Sadly, this leaves you vulnerable to memory leaks: unrecovered memory. Most popular programming languages today use automated memory management: Java, JavaScript, Python, C#, Go, Swift and so forth. There are essentially two types … Continue reading How bad can Python stop-the-world pauses get?",
-          "link": "https://lemire.me/blog/2026/02/15/how-bad-can-python-stop-the-world-pauses-get/",
-          "publishedOn": "2026-02-15T20:02:29.000Z",
-          "wordCount": 4818,
-          "title": "How bad can Python stop-the-world pauses get?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/02/Capture-decran-le-2026-02-15-a-15.01.17-1024x788.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22489",
-          "author": "Daniel Lemire",
-          "description": "Much of the West has been economically stagnant. Countries like Canada have failed to improve their productivity and standard of living as of late. In Canada, there has been no progress in Canadian living standards as measured by per-person GDP over the past five years. It is hard to overstate how anomalous this is: the … Continue reading AI: Igniting the Spark to End  Stagnation",
-          "link": "https://lemire.me/blog/2026/02/15/ai-igniting-the-spark-to-end-stagnation/",
-          "publishedOn": "2026-02-15T15:19:31.000Z",
-          "wordCount": 4535,
-          "title": "AI: Igniting the Spark to End  Stagnation",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/02/02_AI-Adoption-Rate-by-Country-2048x1340-3069525806-1024x670.png"
         }
       ]
     },
@@ -369,7 +319,18 @@
       "title": "apenwarr",
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://apenwarr.ca/log/20260316",
+          "author": null,
+          "description": "We’ve all heard of those network effect laws: the value of a network goes up\nwith the square of the number of members. Or the cost of communication goes\nup with the square of the number of members, or maybe it was n log n, or\nsomething like that, depending how you arrange the members. Anyway doubling\na team doesn't double its speed; there’s coordination overhead. Exactly how\nmuch overhead depends on how badly you botch the org design.\nBut there’s one rule of thumb that someone showed me decades ago, that has\nstuck with me ever since, because of how annoyingly true it is. The rule\nis annoying because it doesn’t seem like it should be true. There’s no\ntheoretical basis for this claim that I’ve ever heard. And yet, every time I\nlook for it, there it is.\nHere we go:\nEvery layer of approval mak…",
+          "link": "https://apenwarr.ca/log/20260316",
+          "publishedOn": "2026-03-17T02:54:43.000Z",
+          "wordCount": 3041,
+          "title": "Every layer of review makes you 10x slower",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "home on CuriousCoding",
@@ -404,16 +365,6 @@
           "publishedOn": "2026-02-25T23:00:00.000Z",
           "wordCount": 1734,
           "title": "Wheeler graphs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/quadrank-slides/",
-          "author": null,
-          "description": "Binary Rank: Problem statement\n \n \n Link to heading\n \n\n\n\nInput: a many-GB text \\(T = t_0\\dots t_{n-1}\\) of \\(n\\) bits.\nQueries: given \\(q\\), find\n\\begin{equation*}\n\\newcommand{\\rank}{\\mathsf{rank}}\n\\rank(q) := \\sum_{0\\leq i< q} t_i.\n\\end{equation*}\n\\(T = \\underline{\\texttt{1001001}}\\texttt{110010100}\\)\n\n\\(\\rank(0) = 0\\)\n\\(\\rank(7) = 3\\)\n\\(\\rank(16) = 7\\)\nWhy? Occurrences table in FM-index.\n\n Link to heading\n \n\n\n\n\n\n Naive solutions\n \n \n Link to heading\n \n\n\nLinear scan:\n\n\\(O(n/w)\\) time using \\(w\\) bit popcount, no space overhead.\n\n\n\n\nPrecompute all 64-bit answers \\(r_i := \\rank(i)\\):\n\n\\(O(1)\\) time, \\(64\\times\\) overhead.\n\n\n\n\n Middle-ground: block-based offsets\n \n \n Link to heading\n \n\n\nUse \\(B=512\\) bit blocks, and store all \\(b_j := \\rank(j\\cdot B)\\).\n\n\n\n\nQuery \\(q = j\\cdot B + q’\\):\n\\(\\rank(q) = b_j + \\sum_{jB\\leq i < jB+q’} t_i\\).\n\\(O(B/w) = O(512/64) = O(1)\\) time.\n\\(64/512 = 12.5\\%\\) space overhead.\n2 cache misses:\n\nin \\(n/8\\) bit array: offset \\(b_j\\)\nin \\(n\\) bit array: block \\(j\\) bits\n\n Link to heading\n \n\n\n2 levels:\n\nL2 with 16-bit delta every block: 3.125% overhead\nL1 with 64-bit offset every 128 blocks: 0.1% overhead\n\n\n\n\n Reducing cache misses: SPIDER\n \n \n Link to heading\n \n\n\nInline the 16-bit L2 deltas bits into each cache line\n\nRemaining 0.1% overhead L1 array fits in cache.\n\n\n\n\n Reducing the popcount: Pairing\n \n \n Link to heading\n \n\n\nDelta is to the middle instead of start of a block.\n\nCount only 256 bits in first or second half of block.\n\n\n\n\n All together now: BiRank\n \n \n Link to heading\n \n\n\nInline 16-bit deltas\nPairing\n32-bit reduced L1 offsets: 0.05% overhead\n\nLow 11 bits are stored in deltas\nInput up to \\(2^{43}\\) bits\n16 MiB cache supports 32 GiB input\n\n\n\n\n What is fast?\n \n \n Link to heading\n \n\nLatency: 80 ns/q",
-          "link": "https://curiouscoding.nl/posts/quadrank-slides/",
-          "publishedOn": "2026-02-17T23:00:00.000Z",
-          "wordCount": 471,
-          "title": "QuadRank: Engineering a High-Throughput Rank",
           "imageUrl": null
         }
       ]

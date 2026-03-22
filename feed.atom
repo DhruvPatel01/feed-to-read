@@ -1,18 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-03-15T02:07:12.718Z</id>
+    <id>urn:2026-03-22T02:00:41.179Z</id>
     <title>osmos::feed</title>
-    <updated>2026-03-15T02:07:12.718Z</updated>
+    <updated>2026-03-22T02:00:41.179Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline]]></title>
-        <id>https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval</id>
-        <link href="https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval"/>
-        <updated>2026-03-13T20:00:00.000Z</updated>
+        <title type="html"><![CDATA[Build a Domain-Specific Embedding Model in Under a Day]]></title>
+        <id>https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune</id>
+        <link href="https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune"/>
+        <updated>2026-03-20T19:38:16.000Z</updated>
         <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's New in Mellea 0.4.0 + Granite Libraries Release]]></title>
+        <id>https://huggingface.co/blog/ibm-granite/granite-libraries</id>
+        <link href="https://huggingface.co/blog/ibm-granite/granite-libraries"/>
+        <updated>2026-03-20T14:14:46.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Consensus Board Game]]></title>
+        <id>https://matklad.github.io/2026/03/19/consensus-board-game.html</id>
+        <link href="https://matklad.github.io/2026/03/19/consensus-board-game.html"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to draw a series of pictures which could be helpful. You can see this post as a set of missing illustrations for Notes on Paxos, or, alternatively, you can view that post as a more formal narrative counter-part for the present one.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How many branches can your CPU predict?]]></title>
+        <id>https://lemire.me/blog/?p=22543</id>
+        <link href="https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/"/>
+        <updated>2026-03-18T21:52:53.000Z</updated>
+        <summary type="html"><![CDATA[Modern processors have the ability to execute many instructions per cycle, on a single core. To be able to execute many instructions per cycle in practice, processors predict branches. I have made the point over the years that modern CPUs have an incredible ability to predict branches. It makes benchmarking difficult because if you test … Continue reading How many branches can your CPU predict?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[State of Open Source on Hugging Face: Spring 2026]]></title>
+        <id>https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026</id>
+        <link href="https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"/>
+        <updated>2026-03-17T16:37:55.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Hugging Face on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Holotron-12B - High Throughput Computer Use Agent]]></title>
+        <id>https://huggingface.co/blog/Hcompany/holotron-12b</id>
+        <link href="https://huggingface.co/blog/Hcompany/holotron-12b"/>
+        <updated>2026-03-17T12:33:39.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by H company on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Every layer of review makes you 10x slower]]></title>
+        <id>https://apenwarr.ca/log/20260316</id>
+        <link href="https://apenwarr.ca/log/20260316"/>
+        <updated>2026-03-17T02:54:43.000Z</updated>
+        <summary type="html"><![CDATA[We’ve all heard of those network effect laws: the value of a network goes up
+with the square of the number of members. Or the cost of communication goes
+up with the square of the number of members, or maybe it was n log n, or
+something like that, depending how you arrange the members. Anyway doubling
+a team doesn't double its speed; there’s coordination overhead. Exactly how
+much overhead depends on how badly you botch the org design.
+But there’s one rule of thumb that someone showed me decades ago, that has
+stuck with me ever since, because of how annoyingly true it is. The rule
+is annoying because it doesn’t seem like it should be true. There’s no
+theoretical basis for this claim that I’ve ever heard. And yet, every time I
+look for it, there it is.
+Here we go:
+Every layer of approval mak…]]></summary>
+        <author>
+            <name>apenwarr</name>
         </author>
     </entry>
     <entry>
@@ -31,16 +103,6 @@
         <link href="https://huggingface.co/blog/async-rl-training-landscape"/>
         <updated>2026-03-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge]]></title>
-        <id>https://huggingface.co/blog/ibm-granite/granite-4-speech</id>
-        <link href="https://huggingface.co/blog/ibm-granite/granite-4-speech"/>
-        <updated>2026-03-09T18:36:33.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -347,247 +409,6 @@ I’ve not written anything in the last one month except these week notes. Some 
         <link href="https://matklad.github.io/2026/02/21/wrapping-code-comments.html"/>
         <updated>2026-02-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I was today years old when I realized that:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GGML and llama.cpp join HF to ensure the long-term progress of Local AI]]></title>
-        <id>https://huggingface.co/blog/ggml-joins-hf</id>
-        <link href="https://huggingface.co/blog/ggml-joins-hf"/>
-        <updated>2026-02-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Train AI models with Unsloth and Hugging Face Jobs for FREE]]></title>
-        <id>https://huggingface.co/blog/unsloth-jobs</id>
-        <link href="https://huggingface.co/blog/unsloth-jobs"/>
-        <updated>2026-02-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST]]></title>
-        <id>https://huggingface.co/blog/ibm-research/itbenchandmast</id>
-        <link href="https://huggingface.co/blog/ibm-research/itbenchandmast"/>
-        <updated>2026-02-18T16:15:45.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One-Shot Any Web App with Gradio's gr.HTML]]></title>
-        <id>https://huggingface.co/blog/gradio-html-one-shot-apps</id>
-        <link href="https://huggingface.co/blog/gradio-html-one-shot-apps"/>
-        <updated>2026-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QuadRank: Engineering a High-Throughput Rank]]></title>
-        <id>https://curiouscoding.nl/posts/quadrank-slides/</id>
-        <link href="https://curiouscoding.nl/posts/quadrank-slides/"/>
-        <updated>2026-02-17T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Binary Rank: Problem statement
- 
- 
- Link to heading
- 
-
-
-
-Input: a many-GB text \(T = t_0\dots t_{n-1}\) of \(n\) bits.
-Queries: given \(q\), find
-\begin{equation*}
-\newcommand{\rank}{\mathsf{rank}}
-\rank(q) := \sum_{0\leq i< q} t_i.
-\end{equation*}
-\(T = \underline{\texttt{1001001}}\texttt{110010100}\)
-
-\(\rank(0) = 0\)
-\(\rank(7) = 3\)
-\(\rank(16) = 7\)
-Why? Occurrences table in FM-index.
-
- Link to heading
- 
-
-
-
-
-
- Naive solutions
- 
- 
- Link to heading
- 
-
-
-Linear scan:
-
-\(O(n/w)\) time using \(w\) bit popcount, no space overhead.
-
-
-
-
-Precompute all 64-bit answers \(r_i := \rank(i)\):
-
-\(O(1)\) time, \(64\times\) overhead.
-
-
-
-
- Middle-ground: block-based offsets
- 
- 
- Link to heading
- 
-
-
-Use \(B=512\) bit blocks, and store all \(b_j := \rank(j\cdot B)\).
-
-
-
-
-Query \(q = j\cdot B + q’\):
-\(\rank(q) = b_j + \sum_{jB\leq i < jB+q’} t_i\).
-\(O(B/w) = O(512/64) = O(1)\) time.
-\(64/512 = 12.5\%\) space overhead.
-2 cache misses:
-
-in \(n/8\) bit array: offset \(b_j\)
-in \(n\) bit array: block \(j\) bits
-
- Link to heading
- 
-
-
-2 levels:
-
-L2 with 16-bit delta every block: 3.125% overhead
-L1 with 64-bit offset every 128 blocks: 0.1% overhead
-
-
-
-
- Reducing cache misses: SPIDER
- 
- 
- Link to heading
- 
-
-
-Inline the 16-bit L2 deltas bits into each cache line
-
-Remaining 0.1% overhead L1 array fits in cache.
-
-
-
-
- Reducing the popcount: Pairing
- 
- 
- Link to heading
- 
-
-
-Delta is to the middle instead of start of a block.
-
-Count only 256 bits in first or second half of block.
-
-
-
-
- All together now: BiRank
- 
- 
- Link to heading
- 
-
-
-Inline 16-bit deltas
-Pairing
-32-bit reduced L1 offsets: 0.05% overhead
-
-Low 11 bits are stored in deltas
-Input up to \(2^{43}\) bits
-16 MiB cache supports 32 GiB input
-
-
-
-
- What is fast?
- 
- 
- Link to heading
- 
-
-Latency: 80 ns/q]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Diagnostics Factory]]></title>
-        <id>https://matklad.github.io/2026/02/16/diagnostics-factory.html</id>
-        <link href="https://matklad.github.io/2026/02/16/diagnostics-factory.html"/>
-        <updated>2026-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In Error Codes For Control Flow, I explained that Zig's strongly-typed error codes solve the handling half of error management, leaving reporting to the users. Today, I want to describe my personal default approach to the reporting problem, that is, showing the user a useful error message.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #7 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-02-16/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-02-16/?mtm_campaign=feed"/>
-        <updated>2026-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 9th–15th February.
-
-OUTSIDE
-
-Life#
-I was on vacation this week. We had been vacation-starved for last many years, so, now that we can, we are trying to fill the gap with consecutive vacations. However, I think there will be a while till I take the next vacation.
-A and I spent a lot of time in parks running around chasing squirrels, and just idly walking on grass. As a child I used to spend a lot of time on grass that grew pretty much everywhere not road or buildings, but we don’t see much of it anymore. Only parks in our neighbourhood have large grassy patches, but most of them prohibit walking on them. It’s a bit sad for me to see A preferring to sit on benches than grass.
-My wife is healthy again, though she has some leftover weakness from the antibiotic…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How bad can Python stop-the-world pauses get?]]></title>
-        <id>https://lemire.me/blog/?p=22495</id>
-        <link href="https://lemire.me/blog/2026/02/15/how-bad-can-python-stop-the-world-pauses-get/"/>
-        <updated>2026-02-15T20:02:29.000Z</updated>
-        <summary type="html"><![CDATA[When programming, we need to allocate memory, and then deallocate it. If you program in C, you get used to malloc/free functions. Sadly, this leaves you vulnerable to memory leaks: unrecovered memory. Most popular programming languages today use automated memory management: Java, JavaScript, Python, C#, Go, Swift and so forth. There are essentially two types … Continue reading How bad can Python stop-the-world pauses get?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI: Igniting the Spark to End  Stagnation]]></title>
-        <id>https://lemire.me/blog/?p=22489</id>
-        <link href="https://lemire.me/blog/2026/02/15/ai-igniting-the-spark-to-end-stagnation/"/>
-        <updated>2026-02-15T15:19:31.000Z</updated>
-        <summary type="html"><![CDATA[Much of the West has been economically stagnant. Countries like Canada have failed to improve their productivity and standard of living as of late. In Canada, there has been no progress in Canadian living standards as measured by per-person GDP over the past five years. It is hard to overstate how anomalous this is: the … Continue reading AI: Igniting the Spark to End  Stagnation]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Justifying text-wrap: pretty]]></title>
-        <id>https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html</id>
-        <link href="https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html"/>
-        <updated>2026-02-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Something truly monumental happened in the world of software development in 2025. Safari shipped a reasonable implementation of text-wrap: pretty: https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/. We are getting closer and closer to the cutting-edge XV-century technology. Beautiful paragraphs!]]></summary>
         <author>
             <name>matklad</name>
         </author>
