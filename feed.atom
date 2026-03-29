@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-03-22T02:00:41.179Z</id>
+    <id>urn:2026-03-29T02:08:55.448Z</id>
     <title>osmos::feed</title>
-    <updated>2026-03-22T02:00:41.179Z</updated>
+    <updated>2026-03-29T02:08:55.448Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Liberate your OpenClaw]]></title>
+        <id>https://huggingface.co/blog/liberate-your-openclaw</id>
+        <link href="https://huggingface.co/blog/liberate-your-openclaw"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSON and C++26 compile-time reflection: a talk]]></title>
+        <id>https://lemire.me/blog/?p=22553</id>
+        <link href="https://lemire.me/blog/2026/03/26/json-and-c26-compile-time-reflection-a-talk/"/>
+        <updated>2026-03-26T00:29:38.000Z</updated>
+        <summary type="html"><![CDATA[The next C++ standard (C++26) is getting exciting new features. One of these features is compile-time reflection. It is ideally suited to serialize and deserialize data at high speed. To test it out, we extended our fast JSON library (simdjson) and we gave a talk at CppCon 2025. The video is out on YouTube. Our … Continue reading JSON and C++26 compile-time reflection: a talk]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A New Framework for Evaluating Voice Agents (EVA)]]></title>
+        <id>https://huggingface.co/blog/ServiceNow-AI/eva</id>
+        <link href="https://huggingface.co/blog/ServiceNow-AI/eva"/>
+        <updated>2026-03-24T02:01:52.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by ServiceNow-AI on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Weeks #11–12 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-03-22/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-03-22/?mtm_campaign=feed"/>
+        <updated>2026-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the weeks of 9th–22nd March.
+
+Stuck Forever
+
+Life#
+I skipped writing the week note last week because I got too lazy after being caught up in things I’ve been doing. So I’m writing this one to cover both weeks. Life has been hectic but good. All the usual activities continue, with some new things added.
+I went for a short run last week after a gap of almost 10 months. It was only 2km but it felt great to get started again. My stamina is gone completely, and I feel like I’m starting from scratch. Regardless, I’m happy to be in right mindset and health to be able to start running again.
+After some hesitation, I bought an entry in the Jatre run for a 5km race. I signed up for a Garmin coaching plan to prepare. Hopefully it’ll not be too much for me. Later in the year, I w…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Build a Domain-Specific Embedding Model in Under a Day]]></title>
         <id>https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune</id>
@@ -303,114 +350,6 @@ We got all the ACs serviced just in time. A and my wife made popsicles twice thi
         <summary type="html"><![CDATA[We locate web content using special addresses called URLs. We are all familiar with addresses like https://google.com. Sometimes, URLs can get long and they can become difficult to read. Thus, we might be tempted to format them like so in HTML using newline and tab characters, like so: <a href="https://lemire.me/blog/2026/02/21/ how-fast-do-browsers-correct-utf-16-strings/">my blog post</a> It will … Continue reading You can use newline characters in URLs]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mixture of Experts (MoEs) in Transformers]]></title>
-        <id>https://huggingface.co/blog/moe-transformers</id>
-        <link href="https://huggingface.co/blog/moe-transformers"/>
-        <updated>2026-02-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wheeler graphs]]></title>
-        <id>https://curiouscoding.nl/posts/wheeler-graphs/</id>
-        <link href="https://curiouscoding.nl/posts/wheeler-graphs/"/>
-        <updated>2026-02-25T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Deterministic Finite Automaton (DFA)
-2 Wheeler-DFA
-3 Linear graphs: Prefix array
-4 De Bruijn graphs are Wheeler
-5 Not all DFAs are Wheeler
-6 Locating patterns via binary search
-7 Locating patterns via the BOSS table
-These are some notes on Wheeler DFAs after chatting with Nicola
-Prezza1 and others
-from the RAVEN lab at DSB 2026 in Venice.
-1 Deterministic Finite Automaton (DFA)
- 
- 
- Link to heading
- 
-
-A DFA is a graph where edges are labelled by characters.
-Each node can have at most one outgoing edge with each label. (Otherwise it
-would be non-deterministic.)]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Against Query Based Compilers]]></title>
-        <id>https://matklad.github.io/2026/02/25/against-query-based-compilers.html</id>
-        <link href="https://matklad.github.io/2026/02/25/against-query-based-compilers.html"/>
-        <updated>2026-02-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Query based compilers are all the rage these days, so it feels only appropriate to chart some treacherous shoals in those waters.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nim version 2.2.8 released]]></title>
-        <id>https://nim-lang.org//blog/2026/02/23/nim-228.html</id>
-        <link href="https://nim-lang.org//blog/2026/02/23/nim-228.html"/>
-        <updated>2026-02-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim Team is happy to announce version 2.2.8, the fourth patch release for our stable release, Nim 2.2.
-It comes four months after the 2.2.6 release and it contains 89 commits, bringing bugfixes and improvements.
-If you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.
-If you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.
-The Nim 2.2.8 changelog is available here.
-Highlights
-We think that for everyday users the most impactful bugfix is that for heavily multi-threaded code the default allocator is now much more stable. 
-The days where the workaround -d:useMalloc is required might be beyond us. 
-Please give us feedback!
-Installing Nim 2.2.8
-Check out if the package manager of you…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #8 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-02-22/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-02-22/?mtm_campaign=feed"/>
-        <updated>2026-02-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 16th–22nd February.
-
-Lake After Rain
-
-Life#
-Back-from-vacation week is never a great one. This week we struggled to settle back in our daily routines. Our sleep schedules were out of whack. I, in particular, slept pretty badly till Friday. Only yesterday I was able to sleep well.
-Being sleep deprived most days caused me to be working in a low-energy state, just getting the minimum done. I had to resort to take auto-rickshaws to pick up A from school as I didn’t feel like driving. I forced myself to go on walks to complete my steps. Somehow we all made it through the week.
-Current daily average steps per month: 10162
-Writing#
-I’ve not written anything in the last one month except these week notes. Some ideas have been brewing in my head, but I’ve been too o…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast do browsers correct UTF-16 strings?]]></title>
-        <id>https://lemire.me/blog/?p=22443</id>
-        <link href="https://lemire.me/blog/2026/02/21/how-fast-do-browsers-correct-utf-16-strings/"/>
-        <updated>2026-02-21T20:07:17.000Z</updated>
-        <summary type="html"><![CDATA[JavaScript represents strings using Unicode, like most programming languages today. Each character in a JavaScript string is stored using one or two 16-bit words. The following JavaScript code might surprise some programmers because a single character becomes two 16-bit words. > t="🧰" '🧰' > t.length 2 > t[0] '\ud83e' > t[1] '\uddf0' The convention is … Continue reading How fast do browsers correct UTF-16 strings?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wrapping Code Comments]]></title>
-        <id>https://matklad.github.io/2026/02/21/wrapping-code-comments.html</id>
-        <link href="https://matklad.github.io/2026/02/21/wrapping-code-comments.html"/>
-        <updated>2026-02-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I was today years old when I realized that:]]></summary>
-        <author>
-            <name>matklad</name>
         </author>
     </entry>
 </feed>
