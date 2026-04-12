@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2026/04/07/",
+          "author": null,
+          "description": "CMake has a --debugger mode since 3.27 (July 2023),\nallowing software to manipulate it interactively through the Debugger\nAdaptor Protocol (DAP), an HTTP-like protocol passing JSON messages.\nDebugger front-ends can start, stop, step, breakpoint, query variables,\netc. a live CMake. When I came across this mode, I immediately conceived a\nproject putting it to use. Thanks to recent leaps in software engineering\nproductivity, I had a working prototype in 30 minutes, and by the\nend of that same day, a complete, multi-platform, native, GUI application.\nI named it dcmake (“debugger for CMake”). I’ve tested it on macOS,\nWindows, and Linux. Despite only being couple days old, it’s one of the\ncoolest things I’ve ever built. Prior to 2026, I estimate it would have\ntaken me a month to get the tool to …",
+          "link": "https://nullprogram.com/blog/2026/04/07/",
+          "publishedOn": "2026-04-07T03:04:02.000Z",
+          "wordCount": 746,
+          "title": "dcmake: a new CMake debugger UI",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2026/03/29/",
           "author": null,
           "description": "In February I left my employer after nearly two decades of service. In the\nmoment I was optimistic, yet unsure I made the right choice. Dust settled,\nI’m now absolutely sure I chose correctly. I’m happier and better for it.\nThere were multiple factors, but it’s not mere chance it coincides with\nthese early months of the automation of software engineering. I\nleft an employer that is years behind adopting AI to one actively\nsupporting and encouraging it. As of March, in my professional capacity\nI no longer write code myself. My current situation was unimaginable\nto me only a year ago. Like it or not, this is the future of software\nengineering. Turns out I like it, and having tasted the future I don’t\nwant to go back to the old ways.\nIn case you’re worried, this is still me. These are my own …",
           "link": "https://nullprogram.com/blog/2026/03/29/",
           "publishedOn": "2026-03-29T21:38:22.000Z",
-          "wordCount": 2535,
+          "wordCount": 2581,
           "title": "2026 has been the most pivotal year in my career… and it's only March",
           "imageUrl": null
         }
@@ -21,7 +31,18 @@
       "title": "Nim Programming Language",
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2026/04/07/nimconf-2026.html",
+          "author": null,
+          "description": "The Nim Team is happy to announce the next instalment of NimConf!\nNimConf 2026 will happen June 20, 2026 in the traditional online format where the talks are pre-recorded and revealed as premiers on YouTube while the viewers can ask questions and the presenter can answer them in the live chat.\nIf you have anything to share with the Nim community, submit your talk proposal before May 10, 2026.\nThe moderators will contact you if your talk is accepted and you’ll have time until June 7, 2026 to record and submit your talk.\nIf you are unsure if your topic fits with the NimConf format, please do submit it anyway: the Nim community is generally open to learn about anything Nim-related from pet project showcases to niche libraries and business usecases.\nWhat is NimConf?\nNimConf is an online community event all about the Nim programming language: language development, its ecosystem, projects created with Nim, business cases enabled with Nim, and so on. Basically, anything Nim-related is a legit topic for a talk.\nFor viewers, it’s a great opportunity to learn about the latest Nim development progress, discover new areas to use Nim for, improve your Nim expertise, and exchange experience with other Nim enthusiasts.\nFor presenters, NimConf is an opportunity to reach out to new audiences, promote your work, collect feedback, and build the community.\nYou can see all the talks from previous years on YouTube:\nNimConf 2020\nNimConf 2021\nNimConf 2022\nNimConf 2024\nImportant Dates\nTalk proposals are accepted until May 10, 2026.\nTalk recordings must be submitted before June 7, 2026.\nNimConf 2026 will be held on June 20, 2026.",
+          "link": "https://nim-lang.org//blog/2026/04/07/nimconf-2026.html",
+          "publishedOn": "2026-04-07T00:00:00.000Z",
+          "wordCount": 421,
+          "title": "NimConf 2026: Dates Announced, Registrations Open",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        }
+      ]
     },
     {
       "title": "matklad",
@@ -52,12 +73,52 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/waypoint-1-5",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/waypoint-1-5",
+          "publishedOn": "2026-04-09T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://huggingface.co/blog/multimodal-sentence-transformers",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/multimodal-sentence-transformers",
+          "publishedOn": "2026-04-09T00:00:00.000Z",
+          "wordCount": 3238,
+          "title": "Multimodal Embedding & Reranker Models with Sentence Transformers",
+          "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/altk-evolve",
+          "author": null,
+          "description": "A Blog post by IBM Research on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-research/altk-evolve",
+          "publishedOn": "2026-04-08T14:27:42.000Z",
+          "wordCount": 1516,
+          "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/uxQyadM-_5UjGrNiwUGI0.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
+          "publishedOn": "2026-04-08T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Safetensors is Joining the PyTorch Foundation",
+          "imageUrl": null
+        },
+        {
           "id": "https://huggingface.co/blog/gemma4",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/gemma4",
           "publishedOn": "2026-04-02T00:00:00.000Z",
-          "wordCount": 6695,
+          "wordCount": 6996,
           "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
           "imageUrl": "https://huggingface.co/blog/assets/gemma4/thumbnail.png"
         },
@@ -77,9 +138,19 @@
           "description": "A Blog post by Technology Innovation Institute on Hugging Face",
           "link": "https://huggingface.co/blog/tiiuae/falcon-perception",
           "publishedOn": "2026-04-01T07:13:20.000Z",
-          "wordCount": 3326,
+          "wordCount": 3335,
           "title": "Falcon Perception",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tiiuae/falcon-perception.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/introducing-gradio-server",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/introducing-gradio-server",
+          "publishedOn": "2026-04-01T00:00:00.000Z",
+          "wordCount": 1305,
+          "title": "Any Custom Frontend with Gradio's Backend",
+          "imageUrl": "https://huggingface.co/blog/assets/introducing-gradio-server/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
@@ -90,6 +161,16 @@
           "wordCount": 1713,
           "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-4-vision.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
+          "author": null,
+          "description": "A Blog post by OpenMed on Hugging Face",
+          "link": "https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
+          "publishedOn": "2026-03-31T08:23:44.000Z",
+          "wordCount": 7073,
+          "title": "Training mRNA Language Models Across 25 Species for $165",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/5fd5e18a90b6dc4633f6d292/5dSAoMdQZBsLBS2mTPyWA.png"
         },
         {
           "id": "https://huggingface.co/blog/trl-v1",
@@ -107,7 +188,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/liberate-your-openclaw",
           "publishedOn": "2026-03-27T00:00:00.000Z",
-          "wordCount": 1074,
+          "wordCount": 1070,
           "title": "Liberate your OpenClaw",
           "imageUrl": "https://huggingface.co/blog/assets/liberate-your-openclaw/thumbnail.png"
         },
@@ -150,46 +231,6 @@
           "wordCount": 1276,
           "title": "Holotron-12B - High Throughput Computer Use Agent",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/682c3e22650f6bbe33bb9d94/ZrDLn6Wer5-TM_okKVmZ2.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/storage-buckets",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/storage-buckets",
-          "publishedOn": "2026-03-10T00:00:00.000Z",
-          "wordCount": 2046,
-          "title": "Introducing Storage Buckets on the Hugging Face Hub",
-          "imageUrl": "https://huggingface.co/blog/assets/storage-buckets/buckets-annoucement.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/async-rl-training-landscape",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/async-rl-training-landscape",
-          "publishedOn": "2026-03-10T00:00:00.000Z",
-          "wordCount": 9946,
-          "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
-          "imageUrl": "https://huggingface.co/blog/assets/async-rl-landscape/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ulysses-sp",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/ulysses-sp",
-          "publishedOn": "2026-03-09T00:00:00.000Z",
-          "wordCount": 3341,
-          "title": "Ulysses Sequence Parallelism: Training with Million-Token Contexts",
-          "imageUrl": "https://huggingface.co/blog/assets/ulysses/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/lerobot-release-v050",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/lerobot-release-v050",
-          "publishedOn": "2026-03-09T00:00:00.000Z",
-          "wordCount": 2462,
-          "title": "LeRobot v0.5.0: Scaling Every Dimension",
-          "imageUrl": "https://huggingface.co/blog/assets/lerobot-release-v050/thumbnail.png"
         }
       ]
     },
@@ -203,7 +244,18 @@
       "title": "Programming Posts & Notes on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
+          "author": null,
+          "description": "microvm.nix is a framework to run NixOS based micro VMs on various platforms. In particular, it can use vfkit to run micro VMs on macOS that use the macOS virtualization framework to provide a more performant VM than QEMU.\nmicrovm.nix works well but the documentation is a bit lacking. I had to figure out some gotchas while setting this up on my MacBook Pro M4, so I decided to write this note.\nThis tutorial requires Nix and Nix Darwin to be installed on the macOS machine.\nTo build a micro VM, we need a NixOS builder machine running AArch64 Linux. Thankfully, it is really easy to set up one with Nix Darwin. Assuming we have Nix Darwin set up with a Nix flake like:\n{\n  inputs = {\n    nixpkgs.url = \"github:nixos/nixpkgs/nixpkgs-25.11-darwin\";\n    nix-darwin = {\n      url = \"github:LnL7/nix-dar…",
+          "link": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
+          "publishedOn": "2026-04-09T00:00:00.000Z",
+          "wordCount": 1548,
+          "title": "Running NixOS Micro VMs on MacOS",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-microvm-nix.png"
+        }
+      ]
     },
     {
       "title": "Notes on abhinavsarkar.net",
@@ -211,12 +263,32 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
+          "author": null,
+          "description": "microvm.nix is a framework to run NixOS based micro VMs on various platforms. In particular, it can use vfkit to run micro VMs on macOS that use the macOS virtualization framework to provide a more performant VM than QEMU.\nmicrovm.nix works well but the documentation is a bit lacking. I had to figure out some gotchas while setting this up on my MacBook Pro M4, so I decided to write this note.\nThis tutorial requires Nix and Nix Darwin to be installed on the macOS machine.\nTo build a micro VM, we need a NixOS builder machine running AArch64 Linux. Thankfully, it is really easy to set up one with Nix Darwin. Assuming we have Nix Darwin set up with a Nix flake like:\n{\n  inputs = {\n    nixpkgs.url = \"github:nixos/nixpkgs/nixpkgs-25.11-darwin\";\n    nix-darwin = {\n      url = \"github:LnL7/nix-dar…",
+          "link": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
+          "publishedOn": "2026-04-09T00:00:00.000Z",
+          "wordCount": 1548,
+          "title": "Running NixOS Micro VMs on MacOS",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-microvm-nix.png"
+        },
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-04-05/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 30th March–5th April.\n\n\nBefore SUNrise\n\nLife#\nAt last a week note in time! Last week had some extra holidays, it being the Easter week, but I did not get anything extra done. In fact, I did not get anything much done at all. My gym sessions are going well but they are leaving me too sore and tired to do much else. I also started on a new low carb diet last week after consulting a nutritionist. Between the soreness and the low energy state, I spent most of the week just reading books and watching TV shows. I did get a 5 kilometer run done on last Monday though.\nThis was my first run after almost 11 months of break. It went well, all things considered. I am nowhere up to my previous level, but that’s okay. I was supposed to run couple more kilometers last we…",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-04-05/?mtm_campaign=feed",
+          "publishedOn": "2026-04-05T00:00:00.000Z",
+          "wordCount": 1067,
+          "title": "Notes for the Week #14 (2026)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-04-05.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2026-night-sky/?mtm_campaign=feed",
           "author": null,
           "description": "As a child I spent a lot of time looking at the stars.\nI grew up in a small town in east India in the 90s. This was before the boom of cable TV or internet or social media. Often after doing my homework, I’d go out in my front-yard and look at the stars. I was a bit of astronomy geek back then, obsessed with the night sky. We didn’t have telescopes or cameras or any other equipment, but we had plenty of free time.\nWe used to have frequent electricity cuts (or blackouts as people call them these days) in the hot summers. When the ceiling fans stopped working, we had no choice but to go out in the yard and sit under the dark sky. Living in a small town meant low light and air pollution, so the sky was clear and dark. I spent hours sitting or laying, looking up to the stars.\nI got interested …",
           "link": "https://abhinavsarkar.net/notes/2026-night-sky/?mtm_campaign=feed",
           "publishedOn": "2026-04-04T00:00:00.000Z",
-          "wordCount": 1026,
+          "wordCount": 1053,
           "title": "The Loss of the Night Sky",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-night-sky.png"
         },
@@ -239,16 +311,6 @@
           "wordCount": 1105,
           "title": "Notes for the Weeks #11–12 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-03-22.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-03-09/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 2nd–8th March.\n\nRectangular\n\nLife#\nThis is another late week note because I was quite overwhelmed to write one yesterday. Life has been hectic, tiring, fun, and anxiety inducing last week. Somehow we march on.\nI’ve made sleeping on time a priority and I’m getting a full 8.5 hours of sleep now. I’m waking up refreshed and not feeling sleepy during the days. I’ve also increased my walking pace and now I can walk 5km (3.2mi) in 55 minutes! Body has been a little sore, so I’m taking one rest day every week. I’ve started taking A to swimming classes now, so I get to spend few hours in the pool every week, and I really like it. I should definitely finish my swimming lessons some day soon.\nHoli was on last Wednesday. I took a day off from work and got A home earl…",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-03-09/?mtm_campaign=feed",
-          "publishedOn": "2026-03-09T00:00:00.000Z",
-          "wordCount": 1080,
-          "title": "Notes for the Week #10 (2026)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-03-09.png"
         }
       ]
     },
@@ -258,12 +320,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22574",
+          "author": "Daniel Lemire",
+          "description": "Initially, we had languages like Fortran (1957), Pascal (1970), and C (1972). Fortran was designed for number crunching and scientific computing. Pascal was restrictive with respect to low-level access (it was deliberately “safe”, as meant for teaching structured programming). So C won out as a language that allowed low-level/unsafe programming (pointer arithmetic, direct memory access) … Continue reading A brief history of C/C++ programming languages",
+          "link": "https://lemire.me/blog/2026/04/09/a-brief-history-of-c-c-programming-languages/",
+          "publishedOn": "2026-04-09T14:58:53.000Z",
+          "wordCount": 4014,
+          "title": "A brief history of C/C++ programming languages",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-09-a-10.54.35-1024x704.png"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22568",
+          "author": "Daniel Lemire",
+          "description": "Suppose you have several strings and you want to count the number of instances of the character ! in your strings. In C++, you might solve the problem as follows if you are an old-school programmer. size_t c = 0; for (const auto &str : strings) { c += std::count(str.begin(), str.end(), '!'); } You can … Continue reading Can your AI rewrite your code in assembly?",
+          "link": "https://lemire.me/blog/2026/04/05/can-your-ai-rewrite-your-code-in-assembly/",
+          "publishedOn": "2026-04-05T21:16:14.000Z",
+          "wordCount": 4104,
+          "title": "Can your AI rewrite your code in assembly?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-05-a-17.13.58-1024x589.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22564",
           "author": "Daniel Lemire",
           "description": "Consider the following problem. You have a large set of strings, maybe millions. You need to map these strings to 8-byte integers (uint64). These integers are given to you. If you are working in Go, the standard solution is to create a map. The construction is trivial, something like the following loop. m := make(map[string]uint64, … Continue reading A Fast Immutable Map in Go",
           "link": "https://lemire.me/blog/2026/03/29/a-fast-immutable-map-in-go/",
           "publishedOn": "2026-03-29T18:18:01.000Z",
-          "wordCount": 3602,
+          "wordCount": 3834,
           "title": "A Fast Immutable Map in Go",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/Capture-decran-le-2026-03-29-a-14.16.33-1024x572.png"
         },
@@ -286,16 +368,6 @@
           "wordCount": 4458,
           "title": "How many branches can your CPU predict?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/Capture-decran-le-2026-03-18-a-17.52.22.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22530",
-          "author": "Daniel Lemire",
-          "description": "Suppose that you have a record of your sales per day. You might want to get a running record where, for each day, you are told how many sales you have made since the start of the year. day sales per day running sales 1 10$ 10 $ 2 15$ 25 $ 3 5$ 30 … Continue reading Prefix sums at tens of gigabytes per second with ARM NEON",
-          "link": "https://lemire.me/blog/2026/03/08/prefix-sums-at-tens-of-gigabytes-per-second-with-arm-neon/",
-          "publishedOn": "2026-03-08T20:09:48.000Z",
-          "wordCount": 4606,
-          "title": "Prefix sums at tens of gigabytes per second with ARM NEON",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/Capture-decran-le-2026-03-08-a-16.07.29-1024x798.png"
         }
       ]
     },
@@ -316,7 +388,7 @@
           "description": "We’ve all heard of those network effect laws: the value of a network goes up\nwith the square of the number of members. Or the cost of communication goes\nup with the square of the number of members, or maybe it was n log n, or\nsomething like that, depending how you arrange the members. Anyway doubling\na team doesn't double its speed; there’s coordination overhead. Exactly how\nmuch overhead depends on how badly you botch the org design.\nBut there’s one rule of thumb that someone showed me decades ago, that has\nstuck with me ever since, because of how annoyingly true it is. The rule\nis annoying because it doesn’t seem like it should be true. There’s no\ntheoretical basis for this claim that I’ve ever heard. And yet, every time I\nlook for it, there it is.\nHere we go:\nEvery layer of approval mak…",
           "link": "https://apenwarr.ca/log/20260316",
           "publishedOn": "2026-03-17T02:54:43.000Z",
-          "wordCount": 3041,
+          "wordCount": 3038,
           "title": "Every layer of review makes you 10x slower",
           "imageUrl": null
         }
