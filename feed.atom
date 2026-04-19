@@ -1,10 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-04-12T02:23:36.116Z</id>
+    <id>urn:2026-04-19T02:27:47.864Z</id>
     <title>osmos::feed</title>
-    <updated>2026-04-12T02:23:36.116Z</updated>
+    <updated>2026-04-19T02:27:47.864Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Building a Fast Multilingual OCR Model with Synthetic Data]]></title>
+        <id>https://huggingface.co/blog/nvidia/nemotron-ocr-v2</id>
+        <link href="https://huggingface.co/blog/nvidia/nemotron-ocr-v2"/>
+        <updated>2026-04-17T16:17:55.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020s Anime Recommendations]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-anime-recs/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-anime-recs/?mtm_campaign=feed"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been watching anime for over 30 years now. After such a long time, I’ve become very selective in choosing which shows to watch. These days I only complete a couple of shows per season. I’m tired and bored of repetitive themes and settings, sequels, long-dragging shows, and in particular the deluge of Isekai anime. My patience wears thin and I drop things I don’t like without a thought. Now, I prefer watching only shows with novel ideas or great execution. With that preface, here are my top ten anime recommendations from 2020s, alphabetically:
+Apocalypse Hotel
+Bocchi the Rock!
+City The Animation
+Dandadan
+Frieren: Beyond Journey’s End
+Heavenly Delusion
+Horimiya
+Journal with Witch
+Keep Your Hands Off Eizouken!
+The Apothecary Diaries
+Note that this only includes the anime I actually watched. I’m sure there were more great ones that I didn’t get to.
+
+Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
+This post was originally published on abhinavsarkar.net.
+Like, repost, or comment on:
+
+
+
+
+My website
+
+Read more of my posts and notes.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents]]></title>
+        <id>https://huggingface.co/blog/ecom-rlve</id>
+        <link href="https://huggingface.co/blog/ecom-rlve"/>
+        <updated>2026-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The PR you would have opened yourself]]></title>
+        <id>https://huggingface.co/blog/transformers-to-mlx</id>
+        <link href="https://huggingface.co/blog/transformers-to-mlx"/>
+        <updated>2026-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers]]></title>
+        <id>https://huggingface.co/blog/train-multimodal-sentence-transformers</id>
+        <link href="https://huggingface.co/blog/train-multimodal-sentence-transformers"/>
+        <updated>2026-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents]]></title>
+        <id>https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis</id>
+        <link href="https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis"/>
+        <updated>2026-04-15T12:07:25.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet HoloTab by HCompany. Your AI browser companion.]]></title>
+        <id>https://huggingface.co/blog/Hcompany/holotab</id>
+        <link href="https://huggingface.co/blog/Hcompany/holotab"/>
+        <updated>2026-04-15T09:25:20.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by H company on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #15 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-04-13/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-04-13/?mtm_campaign=feed"/>
+        <updated>2026-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 6th–12th April.
+
+Life#
+Last week started with sickness. A caught a cold and had a mild fever for two days. Just when she was starting to feel better, she caught a stomach bug and then was sick for the entire week. She stayed at home and threw a lot of tantrums. Thankfully, she is feeling better now.
+I couldn’t sleep well because of A’s sickness and something in the air triggering my allergies. The summer is in full swing now, with temperatures reaching up to 37 °C. I feel like I’m not built for this heat anymore. Every year I have some kind of health upset around April. Thankfully, I have kept my running going and I ran another 5k yesterday. I also went to the gym for one day only, which was enough to give me soreness lasting three days. I’m hoping to make…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A brief history of C/C++ programming languages]]></title>
         <id>https://lemire.me/blog/?p=22574</id>
@@ -20,6 +126,7 @@
         <id>https://huggingface.co/blog/waypoint-1-5</id>
         <link href="https://huggingface.co/blog/waypoint-1-5"/>
         <updated>2026-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -71,20 +178,11 @@ To build a micro VM, we need a NixOS builder machine running AArch64 Linux. Than
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ALTK‑Evolve: On‑the‑Job Learning for AI Agents]]></title>
-        <id>https://huggingface.co/blog/ibm-research/altk-evolve</id>
-        <link href="https://huggingface.co/blog/ibm-research/altk-evolve"/>
-        <updated>2026-04-08T14:27:42.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Safetensors is Joining the PyTorch Foundation]]></title>
         <id>https://huggingface.co/blog/safetensors-joins-pytorch-foundation</id>
         <link href="https://huggingface.co/blog/safetensors-joins-pytorch-foundation"/>
         <updated>2026-04-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -183,16 +281,6 @@ I got interested …]]></summary>
         <link href="https://huggingface.co/blog/gemma4"/>
         <updated>2026-04-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holo3: Breaking the Computer Use Frontier]]></title>
-        <id>https://huggingface.co/blog/Hcompany/holo3</id>
-        <link href="https://huggingface.co/blog/Hcompany/holo3"/>
-        <updated>2026-04-01T16:36:15.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by H company on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -350,68 +438,6 @@ After some hesitation, I bought an entry in the Jatre run for a 5km race. I sign
         <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consensus Board Game]]></title>
-        <id>https://matklad.github.io/2026/03/19/consensus-board-game.html</id>
-        <link href="https://matklad.github.io/2026/03/19/consensus-board-game.html"/>
-        <updated>2026-03-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I have an early adulthood trauma from struggling to understand consensus amidst a myriad of poor explanations. I am overcompensating for that by adding my own attempts to the fray. Today, I want to draw a series of pictures which could be helpful. You can see this post as a set of missing illustrations for Notes on Paxos, or, alternatively, you can view that post as a more formal narrative counter-part for the present one.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How many branches can your CPU predict?]]></title>
-        <id>https://lemire.me/blog/?p=22543</id>
-        <link href="https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/"/>
-        <updated>2026-03-18T21:52:53.000Z</updated>
-        <summary type="html"><![CDATA[Modern processors have the ability to execute many instructions per cycle, on a single core. To be able to execute many instructions per cycle in practice, processors predict branches. I have made the point over the years that modern CPUs have an incredible ability to predict branches. It makes benchmarking difficult because if you test … Continue reading How many branches can your CPU predict?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of Open Source on Hugging Face: Spring 2026]]></title>
-        <id>https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026</id>
-        <link href="https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"/>
-        <updated>2026-03-17T16:37:55.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Hugging Face on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holotron-12B - High Throughput Computer Use Agent]]></title>
-        <id>https://huggingface.co/blog/Hcompany/holotron-12b</id>
-        <link href="https://huggingface.co/blog/Hcompany/holotron-12b"/>
-        <updated>2026-03-17T12:33:39.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by H company on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every layer of review makes you 10x slower]]></title>
-        <id>https://apenwarr.ca/log/20260316</id>
-        <link href="https://apenwarr.ca/log/20260316"/>
-        <updated>2026-03-17T02:54:43.000Z</updated>
-        <summary type="html"><![CDATA[We’ve all heard of those network effect laws: the value of a network goes up
-with the square of the number of members. Or the cost of communication goes
-up with the square of the number of members, or maybe it was n log n, or
-something like that, depending how you arrange the members. Anyway doubling
-a team doesn't double its speed; there’s coordination overhead. Exactly how
-much overhead depends on how badly you botch the org design.
-But there’s one rule of thumb that someone showed me decades ago, that has
-stuck with me ever since, because of how annoyingly true it is. The rule
-is annoying because it doesn’t seem like it should be true. There’s no
-theoretical basis for this claim that I’ve ever heard. And yet, every time I
-look for it, there it is.
-Here we go:
-Every layer of approval mak…]]></summary>
-        <author>
-            <name>apenwarr</name>
         </author>
     </entry>
 </feed>
