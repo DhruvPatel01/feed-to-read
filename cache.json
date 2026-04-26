@@ -6,19 +6,39 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2026/04/26/",
+          "author": null,
+          "description": "This past Tuesday I typed C-x C-c in Emacs for the last time after 20\nyears of daily use. Though nearly half that time was gradually\nretiring it, switching to modal editing, then to Vim. Emacs is a platform,\nand I’d grown accustomed to its applications, especially those I built\nmyself. There was no particular hurry, so replacements came slowly. With\nmy newly-acquired superpowers I could knock out the last two pieces\nin a few days’ work, namely M-x calc with stackcalc and\nElfeed with Elfeed2. I’m especially excited about the\nlatter because it already exceeds the original. Both are multi-platform,\nnative C++ GUI applications using native UI components.\n\nThese actively-in-use packages require new maintainers (apply on\nthe project’s issues/discussion):\n@ (about)\naio (probably covered; about)\nb…",
+          "link": "https://nullprogram.com/blog/2026/04/26/",
+          "publishedOn": "2026-04-26T00:00:00.000Z",
+          "wordCount": 686,
+          "title": "I have officially retired from Emacs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2026/04/25/",
+          "author": null,
+          "description": "The new w64devkit release two weeks ago is the first to be code-signed\nwith my identity, verified by Microsoft’s certificate chain. Currently\nonly the release packaging is signed — the self-extracting archive and\nits payload — but I will soon code-sign individual EXEs and DLLs within\nthe distribution. In fact, all Windows builds of my project releases\nhave been code-signed the past two weeks, including dcmake, and so\nshould everything going forward. My signing identity builds reputation\nwith each download, so users will have an easier time with SmartScreen,\nand security software generally. Azure Artifact Signing creates the\nactual signature, but the rest is done with new infrastructure I built\nmyself, aas-sign. As is often the case, the existing options were\ndeficient for my needs, so I ha…",
+          "link": "https://nullprogram.com/blog/2026/04/25/",
+          "publishedOn": "2026-04-25T18:12:29.000Z",
+          "wordCount": 1083,
+          "title": "My brave new code-signing world",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2026/04/07/",
           "author": null,
           "description": "CMake has a --debugger mode since 3.27 (July 2023),\nallowing software to manipulate it interactively through the Debugger\nAdaptor Protocol (DAP), an HTTP-like protocol passing JSON messages.\nDebugger front-ends can start, stop, step, breakpoint, query variables,\netc. a live CMake. When I came across this mode, I immediately conceived a\nproject putting it to use. Thanks to recent leaps in software engineering\nproductivity, I had a working prototype in 30 minutes, and by the\nend of that same day, a complete, multi-platform, native, GUI application.\nI named it dcmake (“debugger for CMake”). I’ve tested it on macOS,\nWindows, and Linux. Despite only being couple days old, it’s one of the\ncoolest things I’ve ever built. Prior to 2026, I estimate it would have\ntaken me a month to get the tool to …",
           "link": "https://nullprogram.com/blog/2026/04/07/",
           "publishedOn": "2026-04-07T03:04:02.000Z",
-          "wordCount": 746,
+          "wordCount": 752,
           "title": "dcmake: a new CMake debugger UI",
           "imageUrl": null
         },
         {
           "id": "https://nullprogram.com/blog/2026/03/29/",
           "author": null,
-          "description": "In February I left my employer after nearly two decades of service. In the\nmoment I was optimistic, yet unsure I made the right choice. Dust settled,\nI’m now absolutely sure I chose correctly. I’m happier and better for it.\nThere were multiple factors, but it’s not mere chance it coincides with\nthese early months of the automation of software engineering. I\nleft an employer that is years behind adopting AI to one actively\nsupporting and encouraging it. As of March, in my professional capacity\nI no longer write code myself. My current situation was unimaginable\nto me only a year ago. Like it or not, this is the future of software\nengineering. Turns out I like it, and having tasted the future I don’t\nwant to go back to the old ways.\nIn case you’re worried, this is still me. These are my own …",
+          "description": "In February I left my employer after nearly two decades of service. In the\nmoment I was optimistic, yet unsure I made the right choice. Dust settled,\nI’m now absolutely sure I chose correctly. I’m happier and better for it.\nThere were multiple factors, but it’s not mere chance it coincides with\nthese early months of the automation of software engineering. I\nleft an employer that is years behind adopting AI to one actively\nsupporting and encouraging it. As of March, in my professional capacity\nI no longer write code myself. My current situation was unimaginable\nto me only a year ago. Like it or not, this is the future of software\nengineering. Turns out I like it, and having tasted the future I don’t\nwant to go back to the old ways.\n\nIn case you’re worried, this is still me. These are my own…",
           "link": "https://nullprogram.com/blog/2026/03/29/",
           "publishedOn": "2026-03-29T21:38:22.000Z",
           "wordCount": 2581,
@@ -32,6 +52,16 @@
       "feedUrl": "https://nim-lang.org/feed.xml",
       "siteUrl": "https://nim-lang.org//",
       "articles": [
+        {
+          "id": "https://nim-lang.org//blog/2026/04/24/nim-2210.html",
+          "author": null,
+          "description": "The Nim Team is happy to announce version 2.2.10, the fifth patch release for our stable release, Nim 2.2.\nIt comes two months after the 2.2.8 release and it contains 76 commits, bringing bugfixes and improvements.\nIf you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.\nIf you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.\nThe Nim 2.2.10 changelog is available here.\nNimConf 2026\nWe would like to remind you about NimConf 2026.\nIf you have anything you would like to share with the Nim community, you have two more weeks (until May 10th) to submit your talk proposal.\nMore details available here.\nInstalling Nim 2.2.10\nCheck out if the package manager of your OS already ships version 2…",
+          "link": "https://nim-lang.org//blog/2026/04/24/nim-2210.html",
+          "publishedOn": "2026-04-24T00:00:00.000Z",
+          "wordCount": 801,
+          "title": "Nim version 2.2.10 released",
+          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
+        },
         {
           "id": "https://nim-lang.org//blog/2026/04/07/nimconf-2026.html",
           "author": null,
@@ -48,7 +78,18 @@
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
+          "author": null,
+          "description": "Property Based Testing and fuzzing are a deep and science-intensive topic. There are enough advanced techniques there for a couple of PhDs, a PBT daemon, and a client-server architecture. But I have this weird parlor-trick PBT library, implementable in a couple of hundred lines of code in one sitting.",
+          "link": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
+          "publishedOn": "2026-04-20T00:00:00.000Z",
+          "wordCount": 3633,
+          "title": "256 Lines or Less: Test Case Minimization",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "jdrouet",
@@ -62,14 +103,54 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
-          "id": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
+          "id": "https://huggingface.co/blog/deepseekv4",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/deepseekv4",
+          "publishedOn": "2026-04-24T00:00:00.000Z",
+          "wordCount": 1828,
+          "title": "DeepSeek-V4: a million-token context that agents can actually use",
+          "imageUrl": "https://huggingface.co/blog/assets/deepseekv4/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/transformersjs-chrome-extension",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/transformersjs-chrome-extension",
+          "publishedOn": "2026-04-23T00:00:00.000Z",
+          "wordCount": 2002,
+          "title": "How to Use Transformers.js in a Chrome Extension",
+          "imageUrl": "https://huggingface.co/blog/assets/transformersjs-chrome-extension/thumbnail.jpg"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/gemma4",
           "author": null,
           "description": "A Blog post by NVIDIA on Hugging Face",
-          "link": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
-          "publishedOn": "2026-04-17T16:17:55.000Z",
-          "wordCount": 2647,
-          "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-ocr-v2.png"
+          "link": "https://huggingface.co/blog/nvidia/gemma4",
+          "publishedOn": "2026-04-22T15:40:50.000Z",
+          "wordCount": 2013,
+          "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/gemma4.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+          "author": null,
+          "description": "A Blog post by Technology Innovation Institute on Hugging Face",
+          "link": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+          "publishedOn": "2026-04-21T10:09:58.000Z",
+          "wordCount": 1867,
+          "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/659bc8a7b0f43ed69f0b2300/KdH3z5dRfyIAyxgGPN5Ey.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/cybersecurity-openness",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/cybersecurity-openness",
+          "publishedOn": "2026-04-21T00:00:00.000Z",
+          "wordCount": 1547,
+          "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+          "imageUrl": "https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/ecom-rlve",
@@ -77,7 +158,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/ecom-rlve",
           "publishedOn": "2026-04-16T00:00:00.000Z",
-          "wordCount": 2873,
+          "wordCount": 2876,
           "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
           "imageUrl": "https://huggingface.co/blog/assets/ecom-rlve/thumbnail.png"
         },
@@ -87,19 +168,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/transformers-to-mlx",
           "publishedOn": "2026-04-16T00:00:00.000Z",
-          "wordCount": 2741,
+          "wordCount": 2743,
           "title": "The PR you would have opened yourself",
           "imageUrl": "https://huggingface.co/blog/assets/transformers-to-mlx/thumbnail.jpg"
         },
         {
           "id": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
           "publishedOn": "2026-04-16T00:00:00.000Z",
-          "wordCount": 3969,
+          "wordCount": null,
           "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-          "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
@@ -117,7 +198,7 @@
           "description": "A Blog post by H company on Hugging Face",
           "link": "https://huggingface.co/blog/Hcompany/holotab",
           "publishedOn": "2026-04-15T09:25:20.000Z",
-          "wordCount": 904,
+          "wordCount": 960,
           "title": "Meet HoloTab by HCompany. Your AI browser companion.",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Hcompany/holotab.png"
         },
@@ -137,7 +218,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/multimodal-sentence-transformers",
           "publishedOn": "2026-04-09T00:00:00.000Z",
-          "wordCount": 3524,
+          "wordCount": 3532,
           "title": "Multimodal Embedding & Reranker Models with Sentence Transformers",
           "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
         },
@@ -147,7 +228,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
           "publishedOn": "2026-04-08T00:00:00.000Z",
-          "wordCount": 1039,
+          "wordCount": 1040,
           "title": "Safetensors is Joining the PyTorch Foundation",
           "imageUrl": "https://huggingface.co/blog/assets/safetensors-joins-pytorch-foundation/thumbnail.png"
         },
@@ -157,7 +238,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/gemma4",
           "publishedOn": "2026-04-02T00:00:00.000Z",
-          "wordCount": 7034,
+          "wordCount": 7071,
           "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
           "imageUrl": "https://huggingface.co/blog/assets/gemma4/thumbnail.png"
         },
@@ -167,7 +248,7 @@
           "description": "A Blog post by Technology Innovation Institute on Hugging Face",
           "link": "https://huggingface.co/blog/tiiuae/falcon-perception",
           "publishedOn": "2026-04-01T07:13:20.000Z",
-          "wordCount": 3335,
+          "wordCount": 3339,
           "title": "Falcon Perception",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tiiuae/falcon-perception.png"
         },
@@ -210,36 +291,6 @@
           "wordCount": 3556,
           "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
           "imageUrl": "https://huggingface.co/blog/assets/trl-v1/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/liberate-your-openclaw",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/liberate-your-openclaw",
-          "publishedOn": "2026-03-27T00:00:00.000Z",
-          "wordCount": 1070,
-          "title": "Liberate your OpenClaw",
-          "imageUrl": "https://huggingface.co/blog/assets/liberate-your-openclaw/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ServiceNow-AI/eva",
-          "author": null,
-          "description": "A Blog post by ServiceNow-AI on Hugging Face",
-          "link": "https://huggingface.co/blog/ServiceNow-AI/eva",
-          "publishedOn": "2026-03-24T02:01:52.000Z",
-          "wordCount": 2543,
-          "title": "A New Framework for Evaluating Voice Agents (EVA)",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/eva.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
-          "author": null,
-          "description": "A Blog post by NVIDIA on Hugging Face",
-          "link": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
-          "publishedOn": "2026-03-20T19:38:16.000Z",
-          "wordCount": 3284,
-          "title": "Build a Domain-Specific Embedding Model in Under a Day",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/domain-specific-embedding-finetune.png"
         }
       ]
     },
@@ -272,12 +323,22 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-04-19/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 13th–19th April.\n\nLife#\nAfter my wife and our 3yo A, it was my turn last week to catch the stomach bug. I had a case of bad food poisoning last Monday, and the sickness persisted till yesterday. Only today I started feeling normal. It was also the hottest week in Bengaluru. I heard about many folks getting food poisoning in last couple of weeks. I’m guessing it’s because of food going bad quicker in the summer heat.\nThereafter, I spent all of my week groaning in pain and visiting the loo at an increased regularity. While the doctor’s prescribed medicines took effect, I took a few days off from work to recover. I stayed in the bed whole days and somehow tried to pass the time. I mostly watched stuff on my laptop or took naps. Because of that, first time in …",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-04-19/?mtm_campaign=feed",
+          "publishedOn": "2026-04-19T00:00:00.000Z",
+          "wordCount": 948,
+          "title": "Notes for the Week #16 (2026)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-04-19.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2026-anime-recs/?mtm_campaign=feed",
           "author": null,
           "description": "I’ve been watching anime for over 30 years now. After such a long time, I’ve become very selective in choosing which shows to watch. These days I only complete a couple of shows per season. I’m tired and bored of repetitive themes and settings, sequels, long-dragging shows, and in particular the deluge of Isekai anime. My patience wears thin and I drop things I don’t like without a thought. Now, I prefer watching only shows with novel ideas or great execution. With that preface, here are my top ten anime recommendations from 2020s, alphabetically:\nApocalypse Hotel\nBocchi the Rock!\nCity The Animation\nDandadan\nFrieren: Beyond Journey’s End\nHeavenly Delusion\nHorimiya\nJournal with Witch\nKeep Your Hands Off Eizouken!\nThe Apothecary Diaries\nNote that this only includes the anime I actually watched. I’m sure there were more great ones that I didn’t get to.\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
           "link": "https://abhinavsarkar.net/notes/2026-anime-recs/?mtm_campaign=feed",
           "publishedOn": "2026-04-17T00:00:00.000Z",
-          "wordCount": 663,
+          "wordCount": 690,
           "title": "2020s Anime Recommendations",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-anime-recs.png"
         },
@@ -287,7 +348,7 @@
           "description": "This week note covers the week of 6th–12th April.\n\nLife#\nLast week started with sickness. A caught a cold and had a mild fever for two days. Just when she was starting to feel better, she caught a stomach bug and then was sick for the entire week. She stayed at home and threw a lot of tantrums. Thankfully, she is feeling better now.\nI couldn’t sleep well because of A’s sickness and something in the air triggering my allergies. The summer is in full swing now, with temperatures reaching up to 37 °C. I feel like I’m not built for this heat anymore. Every year I have some kind of health upset around April. Thankfully, I have kept my running going and I ran another 5k yesterday. I also went to the gym for one day only, which was enough to give me soreness lasting three days. I’m hoping to make…",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-04-13/?mtm_campaign=feed",
           "publishedOn": "2026-04-13T00:00:00.000Z",
-          "wordCount": 1079,
+          "wordCount": 1090,
           "title": "Notes for the Week #15 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-04-13.png"
         },
@@ -330,16 +391,6 @@
           "wordCount": 1073,
           "title": "Notes for the Week #13 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-03-30.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-03-22/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the weeks of 9th–22nd March.\n\nStuck Forever\n\nLife#\nI skipped writing the week note last week because I got too lazy after being caught up in things I’ve been doing. So I’m writing this one to cover both weeks. Life has been hectic but good. All the usual activities continue, with some new things added.\nI went for a short run last week after a gap of almost 10 months. It was only 2km but it felt great to get started again. My stamina is gone completely, and I feel like I’m starting from scratch. Regardless, I’m happy to be in right mindset and health to be able to start running again.\nAfter some hesitation, I bought an entry in the Jatre run for a 5km race. I signed up for a Garmin coaching plan to prepare. Hopefully it’ll not be too much for me. Later in the year, I w…",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-03-22/?mtm_campaign=feed",
-          "publishedOn": "2026-03-22T00:00:00.000Z",
-          "wordCount": 1105,
-          "title": "Notes for the Weeks #11–12 (2026)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-03-22.png"
         }
       ]
     },
@@ -349,12 +400,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22587",
+          "author": "Daniel Lemire",
+          "description": "Consider the following problem. Given a string, you must match all of the ASCII white-space characters (\\t, \\n, \\r, and the space) and some characters important in JSON (:, ,, [, ], {, }). JSON is a text-based data format used for web services. A toy JSON document looks as follows. { \"name\": \"Alice\", \"age\": … Continue reading The fastest way to match characters on ARM processors?",
+          "link": "https://lemire.me/blog/2026/04/19/the-fastest-way-to-match-characters-on-arm-processors/",
+          "publishedOn": "2026-04-19T20:41:04.000Z",
+          "wordCount": 4827,
+          "title": "The fastest way to match characters on ARM processors?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-19-a-16.24.56.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22574",
           "author": "Daniel Lemire",
           "description": "Initially, we had languages like Fortran (1957), Pascal (1970), and C (1972). Fortran was designed for number crunching and scientific computing. Pascal was restrictive with respect to low-level access (it was deliberately “safe”, as meant for teaching structured programming). So C won out as a language that allowed low-level/unsafe programming (pointer arithmetic, direct memory access) … Continue reading A brief history of C/C++ programming languages",
           "link": "https://lemire.me/blog/2026/04/09/a-brief-history-of-c-c-programming-languages/",
           "publishedOn": "2026-04-09T14:58:53.000Z",
-          "wordCount": 4847,
+          "wordCount": 4888,
           "title": "A brief history of C/C++ programming languages",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-09-a-10.54.35-1024x704.png"
         },
@@ -364,7 +425,7 @@
           "description": "Suppose you have several strings and you want to count the number of instances of the character ! in your strings. In C++, you might solve the problem as follows if you are an old-school programmer. size_t c = 0; for (const auto &str : strings) { c += std::count(str.begin(), str.end(), '!'); } You can … Continue reading Can your AI rewrite your code in assembly?",
           "link": "https://lemire.me/blog/2026/04/05/can-your-ai-rewrite-your-code-in-assembly/",
           "publishedOn": "2026-04-05T21:16:14.000Z",
-          "wordCount": 4559,
+          "wordCount": 4557,
           "title": "Can your AI rewrite your code in assembly?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-05-a-17.13.58-1024x589.png"
         },
@@ -374,19 +435,9 @@
           "description": "Consider the following problem. You have a large set of strings, maybe millions. You need to map these strings to 8-byte integers (uint64). These integers are given to you. If you are working in Go, the standard solution is to create a map. The construction is trivial, something like the following loop. m := make(map[string]uint64, … Continue reading A Fast Immutable Map in Go",
           "link": "https://lemire.me/blog/2026/03/29/a-fast-immutable-map-in-go/",
           "publishedOn": "2026-03-29T18:18:01.000Z",
-          "wordCount": 4377,
+          "wordCount": 4375,
           "title": "A Fast Immutable Map in Go",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/Capture-decran-le-2026-03-29-a-14.16.33-1024x572.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22553",
-          "author": "Daniel Lemire",
-          "description": "The next C++ standard (C++26) is getting exciting new features. One of these features is compile-time reflection. It is ideally suited to serialize and deserialize data at high speed. To test it out, we extended our fast JSON library (simdjson) and we gave a talk at CppCon 2025. The video is out on YouTube. Our … Continue reading JSON and C++26 compile-time reflection: a talk",
-          "link": "https://lemire.me/blog/2026/03/26/json-and-c26-compile-time-reflection-a-talk/",
-          "publishedOn": "2026-03-26T00:29:38.000Z",
-          "wordCount": 3254,
-          "title": "JSON and C++26 compile-time reflection: a talk",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/03/Capture-decran-le-2026-03-25-a-20.36.07-1024x687.png"
         }
       ]
     },
@@ -406,7 +457,28 @@
       "title": "home on CuriousCoding",
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://curiouscoding.nl/teaching/advanced-data-structures/",
+          "author": null,
+          "description": "Organizational matters\n \n \n Link to heading\n \n\nLectures:\nIn English\nMonday 14:00 - 15:30\nBuilding 50.34, room 236\nGrade:\n80% oral exam, 20 minutes\n20% programming project\n\nDetails coming a few weeks\nRequires registration\n\n Link to heading\n \n\nThis year’s materials:\nThe course page: ae.iti.kit.edu/english/5028.php\nRagnar’s blog: curiouscoding.nl/teaching\n\nLecture notes and/or slides available shortly before the lecture\nPreviously taught by Florian Kurpicz:\nSS 2024 course materials & slides (in English)\nRecorded lectures on YouTube (@kurpicz, in German):\n\nSS 2022\nSS 2023\nRelated MIT Advanced Data Structures course by Erik Demaine:",
+          "link": "https://curiouscoding.nl/teaching/advanced-data-structures/",
+          "publishedOn": "2026-04-20T12:00:00.000Z",
+          "wordCount": 181,
+          "title": "Advanced Data Structures",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/teaching/models-of-computation/",
+          "author": null,
+          "description": "Today\n \n \n Link to heading\n \n\n\nWhy do we care about models?\nBig-\\(O\\) notation\nThe complexity of sorting\nProperties data structures\nThe word RAM model\n\nVariations\nLimitations\n\n Link to heading\n \n\nWe want to design fast algorithms, but when is an algorithm fast?\nImplement it, and measure the time.\n\nExtrapolate experiments to predict performance on larger \\(n\\).\nMay or may not give understanding.\nDoes not provide lower bounds.\nAnalyse exactly what happens on the CPU.\n\nUnwieldy; they are massive black boxes.\nInstead: use a simplified abstract model of the CPU.\n\nAllows exact lower and upper bounds.\n\n Link to heading\n \n\nBig-\\(O\\), or \\(\\mathcal O\\) notation relates the asymptotic growth of two abstract\nfunctions to each other.",
+          "link": "https://curiouscoding.nl/teaching/models-of-computation/",
+          "publishedOn": "2026-04-20T12:00:00.000Z",
+          "wordCount": 1540,
+          "title": "Models of computation",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
