@@ -1,10 +1,267 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-04-26T02:31:16.513Z</id>
+    <id>urn:2026-05-03T02:39:59.818Z</id>
     <title>osmos::feed</title>
-    <updated>2026-04-26T02:31:16.513Z</updated>
+    <updated>2026-05-03T02:39:59.818Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Traffic Premonitions]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-traffic-premonitions/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-traffic-premonitions/?mtm_campaign=feed"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Exactly a year ago, an ambulance in Bangalore hit several people. The next day I was driving my scooter on the road besides an ambulance. The sight of the ambulance reminded me of the news story and I thought to myself, “it could happen to me, I should be careful.” We were stopped at a traffic signal, and I was lost in thoughts about the news. The signal turned green, we started moving, the ambulance took a sharp turn, and ran into me.
+Thankfully, both of us hit the brakes quite hard and the collision was minor. I got a severe whiplash from the sudden stop, and had to suffer through a backache for the next three months. Later I came to know that I had Covid-19 at the time I was driving, and that was probably why I wasn’t careful enough. In a strange way, the backache caused me to take bed …]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[House prices and fertility]]></title>
+        <id>https://lemire.me/blog/?p=22619</id>
+        <link href="https://lemire.me/blog/2026/04/30/house-prices-and-fertility/"/>
+        <updated>2026-04-30T22:17:34.000Z</updated>
+        <summary type="html"><![CDATA[No, rising house prices are not the driver of sharp fertility declines. The evidence shows only modest, mixed effects that cannot explain the large drops observed in places like Canada. What the Research Actually Shows: A well-known study by Dettling and Kearney (2014) found that rising house prices have opposing effects: they slightly increase fertility … Continue reading House prices and fertility]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI evals are becoming the new compute bottleneck]]></title>
+        <id>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</id>
+        <link href="https://huggingface.co/blog/evaleval/eval-costs-bottleneck"/>
+        <updated>2026-04-29T16:45:09.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by EvalEval Coalition on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Granite 4.1 LLMs: How They’re Built]]></title>
+        <id>https://huggingface.co/blog/ibm-granite/granite-4-1</id>
+        <link href="https://huggingface.co/blog/ibm-granite/granite-4-1"/>
+        <updated>2026-04-29T15:01:48.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepInfra on Hugging Face Inference Providers 🔥]]></title>
+        <id>https://huggingface.co/blog/inference-providers-deepinfra</id>
+        <link href="https://huggingface.co/blog/inference-providers-deepinfra"/>
+        <updated>2026-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[High Throughput Bioinformatics: Theory to/from Practice]]></title>
+        <id>https://curiouscoding.nl/slides/yigpp/</id>
+        <link href="https://curiouscoding.nl/slides/yigpp/"/>
+        <updated>2026-04-28T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My background
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+
+
+
+ International co-authors in bioinformatics
+ 
+ 
+ Link to heading
+ 
+
+
+Theory
+
+KIT, Venice, Halifax
+Bioinformatics
+
+Venice, Lille, Helsinki, Maryland
+Practice
+
+Birmingham, Utrecht (de-facto PhD “supervisor”)
+
+
+
+
+
+
+
+ Background
+ 
+ 
+ Link to heading
+ 
+
+
+DNA sequencing is cheap → data grows exponentially
+
+High pace of new, fast, heuristic tools
+Theoretical CS does not match modern hardware
+
+Need for new theory and engineered algorithms
+Modern CPUs: SIMD instructions; caches
+
+
+
+
+
+
+
+
+
+
+ Proposal: From theory to practice
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ Sanders’ Algorithm Engineering group @ KIT
+ 
+ 
+ Link to heading
+ 
+
+
+Strong alumni
+
+Simon Gog, Florian Kurpicz
+Strong theoreticians
+
+Stefan Walzer
+Strong in data structures
+
+Stefan Hermann
+Strong engineers
+
+Marvin Williams
+KIT Focus areas:]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents]]></title>
+        <id>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</id>
+        <link href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence"/>
+        <updated>2026-04-28T15:58:57.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You can beat the binary search]]></title>
+        <id>https://lemire.me/blog/?p=22600</id>
+        <link href="https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/"/>
+        <updated>2026-04-27T17:32:13.000Z</updated>
+        <summary type="html"><![CDATA[We sometimes have to look for a value in a sorted array. The simplest algorithm consists in just going through the values one by one, until we encounter the value, or exhaust the array. We sometimes call this algorithm a linear search. In C++, you can get the desired effect with the std::find function. For … Continue reading You can beat the binary search]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elias-Fano coding]]></title>
+        <id>https://curiouscoding.nl/teaching/elias-fano/</id>
+        <link href="https://curiouscoding.nl/teaching/elias-fano/"/>
+        <updated>2026-04-27T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Previous slides: Bit vectors, Rank & Select
+ 
+ 
+ Link to heading
+ 
+
+
+Bit vector: storing bits
+Rank: counting 1 bits
+Select: finding 1 bits
+
+ Link to heading
+ 
+
+
+How do we efficiently store a list of integers
+\[
+0\leq x_0 \leq x_1 \leq \dots \leq x_{n-1} < U.
+\]
+Theorem 1 Lower bound.
+Using stars and bars, there are \(\binom{U+n-1}{n}\) of choosing \(n\) elements
+(with duplicates) from \(\{0, 1, \dots, U-1\}\).]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rank & Select]]></title>
+        <id>https://curiouscoding.nl/teaching/rank-select/</id>
+        <link href="https://curiouscoding.nl/teaching/rank-select/"/>
+        <updated>2026-04-27T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last week: Models of computation
+ 
+ 
+ Link to heading
+ 
+
+
+Big-O notation
+Word RAM model
+
+Applications & limitations
+
+ Link to heading
+ 
+
+
+Bit vectors
+
+storing bits
+Rank
+
+counting 1-bits
+Select
+
+finding 1-bits
+Engineering Rank
+
+making it fast
+Elias-Fano coding
+
+storing integers efficiently
+
+ Link to heading
+ 
+
+Definition 1.
+A static bit vector is an implicit data structure storing \(n\) bits \(b_0, \dots, b_{n-1}\) with constant overhead.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to build scalable web apps with OpenAI's Privacy Filter]]></title>
+        <id>https://huggingface.co/blog/openai-privacy-filter-web-apps</id>
+        <link href="https://huggingface.co/blog/openai-privacy-filter-web-apps"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I have officially retired from Emacs]]></title>
         <id>https://nullprogram.com/blog/2026/04/26/</id>
@@ -28,6 +285,74 @@ aio (probably covered; about)
 b…]]></summary>
         <author>
             <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Playlist: Earworms]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-playlist-earworms/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-playlist-earworms/?mtm_campaign=feed"/>
+        <updated>2026-04-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trying a new note format inspired by Azan’s Playlists. Here is a playlist of songs that I find really hard to get out of my head once listened to:
+Anthems For A Seventeen Year-Old Girl — Broken Social Scene
+A Teenager In Love — Dion & The Belmonts
+Angel Of The Morning — Juice Newton
+I Only Want To Be With You — Dusty Springfield
+Such Great Heights — Streetlight Manifesto
+Just A Girl — No Doubt
+All Star — Smash Mouth
+What’s Up? — 4 Non Blondes
+Listen: On Spotify • On YouTube Music
+
+Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
+This post was originally published on abhinavsarkar.net.
+Like, repost, or comment on:
+
+
+
+
+My website
+
+Read more of my posts and notes.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #17 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-04-26/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-04-26/?mtm_campaign=feed"/>
+        <updated>2026-04-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 20th–26th April.
+
+This is going to be a short note. The summer is at its peak in Bangalore. The heat is making my body unable to do anything productive. I’m running in power-save mode, where I’m doing minimal possible work. So I don’t really have much to write about.
+I’m over the food poisoning from the previous week, but a little bit of weariness persists. I didn’t even go for my usual walks. Hence:
+Current daily average steps per month: 9183
+Personal Projects#
+Only thing I did this week is to create a Mastodon account for Indieweb Club BLR, and connect it to Echofeed to push the blogroll posts to Mastodon. Follow it if you’re interested.
+Outings#
+I was feeling bored out of my mind, so one evening, I went to the newly opened Nerlu cafe in my neighbourhood along with A and wife. The food and desserts were great, but the cafe was full of people working on their laptops and talking loudly about their work. I prefer a little quieter cafes. I hear that their coffee drinks are also pretty good, but I’ve been off coffee for months now, so no reviews from my side.
+Writing#
+On a whim and inspired by Azan’s Playlists, I made a note making one of my playlists public.
+Watching#
+Not much to report here. I’ve just been watching random things on YouTube, and rewatching old movies on Netflix.
+Interesting Internet Links#
+2026 Boston Marathon Race Report
+Lean of Faith
+Static single assignment for functional programmers
+That’s all for this week. You can subscribe to the feed of my week notes for updates.
+
+Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
+This post was originally published on abhinavsarkar.net.
+Like, repost, or comment on:
+
+
+
+
+My website
+
+Read more of my posts and notes.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
         </author>
     </entry>
     <entry>
@@ -87,16 +412,6 @@ Check out if the package manager of your OS already ships version 2…]]></summa
         <link href="https://huggingface.co/blog/transformersjs-chrome-extension"/>
         <updated>2026-04-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemma 4 VLA Demo on Jetson Orin Nano Super]]></title>
-        <id>https://huggingface.co/blog/nvidia/gemma4</id>
-        <link href="https://huggingface.co/blog/nvidia/gemma4"/>
-        <updated>2026-04-22T15:40:50.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -299,6 +614,7 @@ Read more of my posts and notes.]]></summary>
         <id>https://huggingface.co/blog/train-multimodal-sentence-transformers</id>
         <link href="https://huggingface.co/blog/train-multimodal-sentence-transformers"/>
         <updated>2026-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -499,115 +815,6 @@ We used to have frequent electricity cuts (or blackouts as people call them thes
 I got interested …]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome Gemma 4: Frontier multimodal intelligence on device]]></title>
-        <id>https://huggingface.co/blog/gemma4</id>
-        <link href="https://huggingface.co/blog/gemma4"/>
-        <updated>2026-04-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Falcon Perception]]></title>
-        <id>https://huggingface.co/blog/tiiuae/falcon-perception</id>
-        <link href="https://huggingface.co/blog/tiiuae/falcon-perception"/>
-        <updated>2026-04-01T07:13:20.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Technology Innovation Institute on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Any Custom Frontend with Gradio's Backend]]></title>
-        <id>https://huggingface.co/blog/introducing-gradio-server</id>
-        <link href="https://huggingface.co/blog/introducing-gradio-server"/>
-        <updated>2026-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents]]></title>
-        <id>https://huggingface.co/blog/ibm-granite/granite-4-vision</id>
-        <link href="https://huggingface.co/blog/ibm-granite/granite-4-vision"/>
-        <updated>2026-03-31T15:10:41.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Training mRNA Language Models Across 25 Species for $165]]></title>
-        <id>https://huggingface.co/blog/OpenMed/training-mrna-models-25-species</id>
-        <link href="https://huggingface.co/blog/OpenMed/training-mrna-models-25-species"/>
-        <updated>2026-03-31T08:23:44.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by OpenMed on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TRL v1.0: Post-Training Library Built to Move with the Field]]></title>
-        <id>https://huggingface.co/blog/trl-v1</id>
-        <link href="https://huggingface.co/blog/trl-v1"/>
-        <updated>2026-03-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #13 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-03-30/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-03-30/?mtm_campaign=feed"/>
-        <updated>2026-03-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 23rd–29th March.
-
-Over the seas and far away
-
-Life#
-The biggest change to my life last week is: I started going to the gym! Well, it’s only been two days, and my body is all sore, but I have a good feeling about this. This is the gym at my work, and it’s got all kinds of equipment. I don’t know anything about anything yet so I have to frequently ask the trainers for help.
-I’m also training for the 5km running race that I signed up for, following the Garmin Coach plan. It wanted me to do a long run last weekend, but I was so wiped out from going to the gym that I just couldn’t. Hopefully, my stamina will improve soon.
-A graduated from playschool last week and will join the Kindergarten next month. We attended A’s graduation ceremony and I took many photos a…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2026 has been the most pivotal year in my career… and it's only March]]></title>
-        <id>https://nullprogram.com/blog/2026/03/29/</id>
-        <link href="https://nullprogram.com/blog/2026/03/29/"/>
-        <updated>2026-03-29T21:38:22.000Z</updated>
-        <summary type="html"><![CDATA[In February I left my employer after nearly two decades of service. In the
-moment I was optimistic, yet unsure I made the right choice. Dust settled,
-I’m now absolutely sure I chose correctly. I’m happier and better for it.
-There were multiple factors, but it’s not mere chance it coincides with
-these early months of the automation of software engineering. I
-left an employer that is years behind adopting AI to one actively
-supporting and encouraging it. As of March, in my professional capacity
-I no longer write code myself. My current situation was unimaginable
-to me only a year ago. Like it or not, this is the future of software
-engineering. Turns out I like it, and having tasted the future I don’t
-want to go back to the old ways.
-
-In case you’re worried, this is still me. These are my own…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Fast Immutable Map in Go]]></title>
-        <id>https://lemire.me/blog/?p=22564</id>
-        <link href="https://lemire.me/blog/2026/03/29/a-fast-immutable-map-in-go/"/>
-        <updated>2026-03-29T18:18:01.000Z</updated>
-        <summary type="html"><![CDATA[Consider the following problem. You have a large set of strings, maybe millions. You need to map these strings to 8-byte integers (uint64). These integers are given to you. If you are working in Go, the standard solution is to create a map. The construction is trivial, something like the following loop. m := make(map[string]uint64, … Continue reading A Fast Immutable Map in Go]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
