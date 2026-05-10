@@ -1,10 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-05-03T02:39:59.818Z</id>
+    <id>urn:2026-05-10T02:42:28.487Z</id>
     <title>osmos::feed</title>
-    <updated>2026-05-03T02:39:59.818Z</updated>
+    <updated>2026-05-10T02:42:28.487Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA["OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support"]]></title>
+        <id>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper</id>
+        <link href="https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper"/>
+        <updated>2026-05-09T18:09:28.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Lablab.ai AMD Developer Hackathon on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EMO: Pretraining mixture of experts for emergent modularity]]></title>
+        <id>https://huggingface.co/blog/allenai/emo</id>
+        <link href="https://huggingface.co/blog/allenai/emo"/>
+        <updated>2026-05-08T16:03:50.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steering Zig Fmt]]></title>
+        <id>https://matklad.github.io/2026/05/08/steering-zig-fmt.html</id>
+        <link href="https://matklad.github.io/2026/05/08/steering-zig-fmt.html"/>
+        <updated>2026-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Two tips on using zig fmt effectively. Read this if you are writing Zig, or if you are implementing a code formatter.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Checking multiplication overflow]]></title>
+        <id>https://lemire.me/blog/?p=22629</id>
+        <link href="https://lemire.me/blog/2026/05/06/checking-multiplication-overflow/"/>
+        <updated>2026-05-06T20:15:20.000Z</updated>
+        <summary type="html"><![CDATA[Suppose that x is a variable of an unsigned type. In C/C++, it could be of type size_t for example. You have an expression like 6 * x and you want to know whether 6 * x overflows. That is, you want to know if 6 * x exceeds the range of values that can … Continue reading Checking multiplication overflow]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vLLM V0 to V1: Correctness Before Corrections in RL]]></title>
+        <id>https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections</id>
+        <link href="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections"/>
+        <updated>2026-05-06T19:06:55.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by ServiceNow-AI on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Concurrent, atomic MSI hash tables]]></title>
+        <id>https://nullprogram.com/blog/2026/05/06/</id>
+        <link href="https://nullprogram.com/blog/2026/05/06/"/>
+        <updated>2026-05-06T02:01:17.000Z</updated>
+        <summary type="html"><![CDATA[Readers will be familiar with Mask-Step-Index (MSI) hash tables, a
+technique for building fast, open-addressed hash tables in a dozen lines
+of code. If multiple threads or processes access an MSI table with
+at least one still inserting elements, care must be taken to avoid data
+races. This article will show how to add atomic operations to MSI tables
+in order to support different concurrency constraints.
+Let’s begin with the simplest case: An integer hash set, no deletions,
+only one insert thread (single producer), and consumers do not care about
+insert order. That is, the producer inserts A then B, but consumers may
+observe B in the table before A. Suppose this is the hash table in the
+single-threaded case:
+
+int32_t *lookup(int32_t key, int32_t *table, int exp)
+{
+    uint64_t hash = ((uint…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding Benchmaxxer Repellant to the Open ASR Leaderboard]]></title>
+        <id>https://huggingface.co/blog/open-asr-leaderboard-private-data</id>
+        <link href="https://huggingface.co/blog/open-asr-leaderboard-private-data"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mapping Strings to Float Arrays in Go: How Fast Can We Go?]]></title>
+        <id>https://lemire.me/blog/?p=22624</id>
+        <link href="https://lemire.me/blog/2026/05/05/mapping-strings-to-float-arrays-in-go-how-fast-can-we-go/"/>
+        <updated>2026-05-05T19:01:09.000Z</updated>
+        <summary type="html"><![CDATA[A common pattern in modern software is to map a string key to a small array of floating-point numbers. Word embeddings, feature vectors, lookup tables for physical constants: all variations on the same theme. In Go, the obvious way to write this is a map[string][]float32. But how fast is it, really, and can we do … Continue reading Mapping Strings to Float Arrays in Go: How Fast Can We Go?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[List of interesting blogs]]></title>
+        <id>https://curiouscoding.nl/posts/list-of-blogs/</id>
+        <link href="https://curiouscoding.nl/posts/list-of-blogs/"/>
+        <updated>2026-05-04T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+April 2026: The fall of the theorem economy - David Bessis
+These are some links to interesting posts around the web, with some quick quotes/notes.
+The fall of the theorem economy - David Bessis
+ 
+ 
+ Link to heading
+ 
+
+
+from the moment I conceived of Theorem 0.5, I knew it was true and that proving it would be straightforward.
+Too long but wow:]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Succinct trees]]></title>
+        <id>https://curiouscoding.nl/teaching/succinct-trees/</id>
+        <link href="https://curiouscoding.nl/teaching/succinct-trees/"/>
+        <updated>2026-05-04T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Previous slides: Rank & Select, Elias-Fano
+ 
+ 
+ Link to heading
+ 
+
+
+Rank: counting 1 bits
+
+2 levels of blocks of length \(\log^2 n\) and \(\log n\)
+Select: finding 1 bits
+
+2 levels of blocks with \(\log^2 n\) 1-bits and \(\sqrt{\log n}\) 1-bits.
+There exist succinct \(o(n)\) space data structures for rank and select.
+Elias-Fano: efficient encoding of sorted list of integers
+
+Split in high and \(\ell\)-bit low part; \(\approx 0.5\) bit/elem overhead.
+Encode high parts using stars & bars: 
+
+ Link to heading
+ 
+
+A.k.a.: applications of rank and select.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #18 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-05-04/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-05-04/?mtm_campaign=feed"/>
+        <updated>2026-05-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 27th April–3rd May.
+
+Life#
+It finally rained in Bangalore last week. There was a severe thunderstorm and lot of trees were uprooted. The rain lasted for a couple of hours. Thankfully, I made it home just before it became extreme. I had hoped that the rain will bring the much wanted coolness, but unfortunately the heat came back next day.
+I have completely lost the zeal to keep walking 10,000 steps a day because of the heat. It has been many days since I walked the quota. There are more rains forecasted this week, and I hope that this time the coolness will last and let me go on walks and runs again.
+Our 3 yo A caught a slight cold after the rain, so we have been sleeping without the AC on. That has translated into terrible sleep for me for the past few day…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minimal Viable Zig Error Contexts]]></title>
+        <id>https://matklad.github.io/2026/05/03/zig-error-context.html</id>
+        <link href="https://matklad.github.io/2026/05/03/zig-error-context.html"/>
+        <updated>2026-05-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Out of the box, Zig provides minimal and sufficient facilities for error handling --- strongly-typed error codes. Error reporting is left to the user. Idiomatic solution is to pass a Diagnostics out parameter (sink) to materialize human-readable strings as needed.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Traffic Premonitions]]></title>
         <id>https://abhinavsarkar.net/notes/2026-traffic-premonitions/?mtm_campaign=feed</id>
@@ -24,16 +196,6 @@ Thankfully, both of us hit the brakes quite hard and the collision was minor. I 
         <summary type="html"><![CDATA[No, rising house prices are not the driver of sharp fertility declines. The evidence shows only modest, mixed effects that cannot explain the large drops observed in places like Canada. What the Research Actually Shows: A well-known study by Dettling and Kearney (2014) found that rising house prices have opposing effects: they slightly increase fertility … Continue reading House prices and fertility]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI evals are becoming the new compute bottleneck]]></title>
-        <id>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</id>
-        <link href="https://huggingface.co/blog/evaleval/eval-costs-bottleneck"/>
-        <updated>2026-04-29T16:45:09.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by EvalEval Coalition on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -267,7 +429,8 @@ A static bit vector is an implicit data structure storing \(n\) bits \(b_0, \dot
         <id>https://nullprogram.com/blog/2026/04/26/</id>
         <link href="https://nullprogram.com/blog/2026/04/26/"/>
         <updated>2026-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This past Tuesday I typed C-x C-c in Emacs for the last time after 20
+        <summary type="html"><![CDATA[This article was discussed on reddit and on Hacker News.
+This past Tuesday I typed C-x C-c in Emacs for the last time after 20
 years of daily use. Though nearly half that time was gradually
 retiring it, switching to modal editing, then to Vim. Emacs is a platform,
 and I’d grown accustomed to its applications, especially those I built
@@ -279,10 +442,7 @@ latter because it already exceeds the original. Both are multi-platform,
 native C++ GUI applications using native UI components.
 
 These actively-in-use packages require new maintainers (apply on
-the project’s issues/discussion):
-@ (about)
-aio (probably covered; about)
-b…]]></summary>
+the project’s issu…]]></summary>
         <author>
             <name>null program</name>
         </author>
@@ -649,170 +809,6 @@ Read more of my posts and notes.]]></summary>
 Life#
 Last week started with sickness. A caught a cold and had a mild fever for two days. Just when she was starting to feel better, she caught a stomach bug and then was sick for the entire week. She stayed at home and threw a lot of tantrums. Thankfully, she is feeling better now.
 I couldn’t sleep well because of A’s sickness and something in the air triggering my allergies. The summer is in full swing now, with temperatures reaching up to 37 °C. I feel like I’m not built for this heat anymore. Every year I have some kind of health upset around April. Thankfully, I have kept my running going and I ran another 5k yesterday. I also went to the gym for one day only, which was enough to give me soreness lasting three days. I’m hoping to make…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A brief history of C/C++ programming languages]]></title>
-        <id>https://lemire.me/blog/?p=22574</id>
-        <link href="https://lemire.me/blog/2026/04/09/a-brief-history-of-c-c-programming-languages/"/>
-        <updated>2026-04-09T14:58:53.000Z</updated>
-        <summary type="html"><![CDATA[Initially, we had languages like Fortran (1957), Pascal (1970), and C (1972). Fortran was designed for number crunching and scientific computing. Pascal was restrictive with respect to low-level access (it was deliberately “safe”, as meant for teaching structured programming). So C won out as a language that allowed low-level/unsafe programming (pointer arithmetic, direct memory access) … Continue reading A brief history of C/C++ programming languages]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs]]></title>
-        <id>https://huggingface.co/blog/waypoint-1-5</id>
-        <link href="https://huggingface.co/blog/waypoint-1-5"/>
-        <updated>2026-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multimodal Embedding & Reranker Models with Sentence Transformers]]></title>
-        <id>https://huggingface.co/blog/multimodal-sentence-transformers</id>
-        <link href="https://huggingface.co/blog/multimodal-sentence-transformers"/>
-        <updated>2026-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Running NixOS Micro VMs on MacOS]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed"/>
-        <updated>2026-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[microvm.nix is a framework to run NixOS based micro VMs on various platforms. In particular, it can use vfkit to run micro VMs on macOS that use the macOS virtualization framework to provide a more performant VM than QEMU.
-microvm.nix works well but the documentation is a bit lacking. I had to figure out some gotchas while setting this up on my MacBook Pro M4, so I decided to write this note.
-This tutorial requires Nix and Nix Darwin to be installed on the macOS machine.
-To build a micro VM, we need a NixOS builder machine running AArch64 Linux. Thankfully, it is really easy to set up one with Nix Darwin. Assuming we have Nix Darwin set up with a Nix flake like:
-{
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-25.11-darwin";
-    nix-darwin = {
-      url = "github:LnL7/nix-dar…]]></summary>
-        <author>
-            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Running NixOS Micro VMs on MacOS]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed"/>
-        <updated>2026-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[microvm.nix is a framework to run NixOS based micro VMs on various platforms. In particular, it can use vfkit to run micro VMs on macOS that use the macOS virtualization framework to provide a more performant VM than QEMU.
-microvm.nix works well but the documentation is a bit lacking. I had to figure out some gotchas while setting this up on my MacBook Pro M4, so I decided to write this note.
-This tutorial requires Nix and Nix Darwin to be installed on the macOS machine.
-To build a micro VM, we need a NixOS builder machine running AArch64 Linux. Thankfully, it is really easy to set up one with Nix Darwin. Assuming we have Nix Darwin set up with a Nix flake like:
-{
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-25.11-darwin";
-    nix-darwin = {
-      url = "github:LnL7/nix-dar…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Safetensors is Joining the PyTorch Foundation]]></title>
-        <id>https://huggingface.co/blog/safetensors-joins-pytorch-foundation</id>
-        <link href="https://huggingface.co/blog/safetensors-joins-pytorch-foundation"/>
-        <updated>2026-04-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[dcmake: a new CMake debugger UI]]></title>
-        <id>https://nullprogram.com/blog/2026/04/07/</id>
-        <link href="https://nullprogram.com/blog/2026/04/07/"/>
-        <updated>2026-04-07T03:04:02.000Z</updated>
-        <summary type="html"><![CDATA[CMake has a --debugger mode since 3.27 (July 2023),
-allowing software to manipulate it interactively through the Debugger
-Adaptor Protocol (DAP), an HTTP-like protocol passing JSON messages.
-Debugger front-ends can start, stop, step, breakpoint, query variables,
-etc. a live CMake. When I came across this mode, I immediately conceived a
-project putting it to use. Thanks to recent leaps in software engineering
-productivity, I had a working prototype in 30 minutes, and by the
-end of that same day, a complete, multi-platform, native, GUI application.
-I named it dcmake (“debugger for CMake”). I’ve tested it on macOS,
-Windows, and Linux. Despite only being couple days old, it’s one of the
-coolest things I’ve ever built. Prior to 2026, I estimate it would have
-taken me a month to get the tool to …]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NimConf 2026: Dates Announced, Registrations Open]]></title>
-        <id>https://nim-lang.org//blog/2026/04/07/nimconf-2026.html</id>
-        <link href="https://nim-lang.org//blog/2026/04/07/nimconf-2026.html"/>
-        <updated>2026-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim Team is happy to announce the next instalment of NimConf!
-NimConf 2026 will happen June 20, 2026 in the traditional online format where the talks are pre-recorded and revealed as premiers on YouTube while the viewers can ask questions and the presenter can answer them in the live chat.
-If you have anything to share with the Nim community, submit your talk proposal before May 10, 2026.
-The moderators will contact you if your talk is accepted and you’ll have time until June 7, 2026 to record and submit your talk.
-If you are unsure if your topic fits with the NimConf format, please do submit it anyway: the Nim community is generally open to learn about anything Nim-related from pet project showcases to niche libraries and business usecases.
-What is NimConf?
-NimConf is an online community event all about the Nim programming language: language development, its ecosystem, projects created with Nim, business cases enabled with Nim, and so on. Basically, anything Nim-related is a legit topic for a talk.
-For viewers, it’s a great opportunity to learn about the latest Nim development progress, discover new areas to use Nim for, improve your Nim expertise, and exchange experience with other Nim enthusiasts.
-For presenters, NimConf is an opportunity to reach out to new audiences, promote your work, collect feedback, and build the community.
-You can see all the talks from previous years on YouTube:
-NimConf 2020
-NimConf 2021
-NimConf 2022
-NimConf 2024
-Important Dates
-Talk proposals are accepted until May 10, 2026.
-Talk recordings must be submitted before June 7, 2026.
-NimConf 2026 will be held on June 20, 2026.]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can your AI rewrite your code in assembly?]]></title>
-        <id>https://lemire.me/blog/?p=22568</id>
-        <link href="https://lemire.me/blog/2026/04/05/can-your-ai-rewrite-your-code-in-assembly/"/>
-        <updated>2026-04-05T21:16:14.000Z</updated>
-        <summary type="html"><![CDATA[Suppose you have several strings and you want to count the number of instances of the character ! in your strings. In C++, you might solve the problem as follows if you are an old-school programmer. size_t c = 0; for (const auto &str : strings) { c += std::count(str.begin(), str.end(), '!'); } You can … Continue reading Can your AI rewrite your code in assembly?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #14 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-04-05/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-04-05/?mtm_campaign=feed"/>
-        <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 30th March–5th April.
-
-
-Before SUNrise
-
-Life#
-At last a week note in time! Last week had some extra holidays, it being the Easter week, but I did not get anything extra done. In fact, I did not get anything much done at all. My gym sessions are going well but they are leaving me too sore and tired to do much else. I also started on a new low carb diet last week after consulting a nutritionist. Between the soreness and the low energy state, I spent most of the week just reading books and watching TV shows. I did get a 5 kilometer run done on last Monday though.
-This was my first run after almost 11 months of break. It went well, all things considered. I am nowhere up to my previous level, but that’s okay. I was supposed to run couple more kilometers last we…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Loss of the Night Sky]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-night-sky/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-night-sky/?mtm_campaign=feed"/>
-        <updated>2026-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As a child I spent a lot of time looking at the stars.
-I grew up in a small town in east India in the 90s. This was before the boom of cable TV or internet or social media. Often after doing my homework, I’d go out in my front-yard and look at the stars. I was a bit of astronomy geek back then, obsessed with the night sky. We didn’t have telescopes or cameras or any other equipment, but we had plenty of free time.
-We used to have frequent electricity cuts (or blackouts as people call them these days) in the hot summers. When the ceiling fans stopped working, we had no choice but to go out in the yard and sit under the dark sky. Living in a small town meant low light and air pollution, so the sky was clear and dark. I spent hours sitting or laying, looking up to the stars.
-I got interested …]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>

@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2026/05/06/",
+          "author": null,
+          "description": "Readers will be familiar with Mask-Step-Index (MSI) hash tables, a\ntechnique for building fast, open-addressed hash tables in a dozen lines\nof code. If multiple threads or processes access an MSI table with\nat least one still inserting elements, care must be taken to avoid data\nraces. This article will show how to add atomic operations to MSI tables\nin order to support different concurrency constraints.\nLet’s begin with the simplest case: An integer hash set, no deletions,\nonly one insert thread (single producer), and consumers do not care about\ninsert order. That is, the producer inserts A then B, but consumers may\nobserve B in the table before A. Suppose this is the hash table in the\nsingle-threaded case:\n\nint32_t *lookup(int32_t key, int32_t *table, int exp)\n{\n    uint64_t hash = ((uint…",
+          "link": "https://nullprogram.com/blog/2026/05/06/",
+          "publishedOn": "2026-05-06T02:01:17.000Z",
+          "wordCount": 1062,
+          "title": "Concurrent, atomic MSI hash tables",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2026/04/26/",
           "author": null,
-          "description": "This past Tuesday I typed C-x C-c in Emacs for the last time after 20\nyears of daily use. Though nearly half that time was gradually\nretiring it, switching to modal editing, then to Vim. Emacs is a platform,\nand I’d grown accustomed to its applications, especially those I built\nmyself. There was no particular hurry, so replacements came slowly. With\nmy newly-acquired superpowers I could knock out the last two pieces\nin a few days’ work, namely M-x calc with stackcalc and\nElfeed with Elfeed2. I’m especially excited about the\nlatter because it already exceeds the original. Both are multi-platform,\nnative C++ GUI applications using native UI components.\n\nThese actively-in-use packages require new maintainers (apply on\nthe project’s issues/discussion):\n@ (about)\naio (probably covered; about)\nb…",
+          "description": "This article was discussed on reddit and on Hacker News.\nThis past Tuesday I typed C-x C-c in Emacs for the last time after 20\nyears of daily use. Though nearly half that time was gradually\nretiring it, switching to modal editing, then to Vim. Emacs is a platform,\nand I’d grown accustomed to its applications, especially those I built\nmyself. There was no particular hurry, so replacements came slowly. With\nmy newly-acquired superpowers I could knock out the last two pieces\nin a few days’ work, namely M-x calc with stackcalc and\nElfeed with Elfeed2. I’m especially excited about the\nlatter because it already exceeds the original. Both are multi-platform,\nnative C++ GUI applications using native UI components.\n\nThese actively-in-use packages require new maintainers (apply on\nthe project’s issu…",
           "link": "https://nullprogram.com/blog/2026/04/26/",
           "publishedOn": "2026-04-26T00:00:00.000Z",
-          "wordCount": 686,
+          "wordCount": 700,
           "title": "I have officially retired from Emacs",
           "imageUrl": null
         },
@@ -23,16 +33,6 @@
           "publishedOn": "2026-04-25T18:12:29.000Z",
           "wordCount": 1083,
           "title": "My brave new code-signing world",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2026/04/07/",
-          "author": null,
-          "description": "CMake has a --debugger mode since 3.27 (July 2023),\nallowing software to manipulate it interactively through the Debugger\nAdaptor Protocol (DAP), an HTTP-like protocol passing JSON messages.\nDebugger front-ends can start, stop, step, breakpoint, query variables,\netc. a live CMake. When I came across this mode, I immediately conceived a\nproject putting it to use. Thanks to recent leaps in software engineering\nproductivity, I had a working prototype in 30 minutes, and by the\nend of that same day, a complete, multi-platform, native, GUI application.\nI named it dcmake (“debugger for CMake”). I’ve tested it on macOS,\nWindows, and Linux. Despite only being couple days old, it’s one of the\ncoolest things I’ve ever built. Prior to 2026, I estimate it would have\ntaken me a month to get the tool to …",
-          "link": "https://nullprogram.com/blog/2026/04/07/",
-          "publishedOn": "2026-04-07T03:04:02.000Z",
-          "wordCount": 752,
-          "title": "dcmake: a new CMake debugger UI",
           "imageUrl": null
         }
       ]
@@ -51,16 +51,6 @@
           "wordCount": 801,
           "title": "Nim version 2.2.10 released",
           "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
-        },
-        {
-          "id": "https://nim-lang.org//blog/2026/04/07/nimconf-2026.html",
-          "author": null,
-          "description": "The Nim Team is happy to announce the next instalment of NimConf!\nNimConf 2026 will happen June 20, 2026 in the traditional online format where the talks are pre-recorded and revealed as premiers on YouTube while the viewers can ask questions and the presenter can answer them in the live chat.\nIf you have anything to share with the Nim community, submit your talk proposal before May 10, 2026.\nThe moderators will contact you if your talk is accepted and you’ll have time until June 7, 2026 to record and submit your talk.\nIf you are unsure if your topic fits with the NimConf format, please do submit it anyway: the Nim community is generally open to learn about anything Nim-related from pet project showcases to niche libraries and business usecases.\nWhat is NimConf?\nNimConf is an online community event all about the Nim programming language: language development, its ecosystem, projects created with Nim, business cases enabled with Nim, and so on. Basically, anything Nim-related is a legit topic for a talk.\nFor viewers, it’s a great opportunity to learn about the latest Nim development progress, discover new areas to use Nim for, improve your Nim expertise, and exchange experience with other Nim enthusiasts.\nFor presenters, NimConf is an opportunity to reach out to new audiences, promote your work, collect feedback, and build the community.\nYou can see all the talks from previous years on YouTube:\nNimConf 2020\nNimConf 2021\nNimConf 2022\nNimConf 2024\nImportant Dates\nTalk proposals are accepted until May 10, 2026.\nTalk recordings must be submitted before June 7, 2026.\nNimConf 2026 will be held on June 20, 2026.",
-          "link": "https://nim-lang.org//blog/2026/04/07/nimconf-2026.html",
-          "publishedOn": "2026-04-07T00:00:00.000Z",
-          "wordCount": 421,
-          "title": "NimConf 2026: Dates Announced, Registrations Open",
-          "imageUrl": "https://nim-lang.org/assets/img/twitter_banner.png"
         }
       ]
     },
@@ -69,6 +59,26 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2026/05/08/steering-zig-fmt.html",
+          "author": null,
+          "description": "Two tips on using zig fmt effectively. Read this if you are writing Zig, or if you are implementing a code formatter.",
+          "link": "https://matklad.github.io/2026/05/08/steering-zig-fmt.html",
+          "publishedOn": "2026-05-08T00:00:00.000Z",
+          "wordCount": 451,
+          "title": "Steering Zig Fmt",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2026/05/03/zig-error-context.html",
+          "author": null,
+          "description": "Out of the box, Zig provides minimal and sufficient facilities for error handling --- strongly-typed error codes. Error reporting is left to the user. Idiomatic solution is to pass a Diagnostics out parameter (sink) to materialize human-readable strings as needed.",
+          "link": "https://matklad.github.io/2026/05/03/zig-error-context.html",
+          "publishedOn": "2026-05-03T00:00:00.000Z",
+          "wordCount": 597,
+          "title": "Minimal Viable Zig Error Contexts",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2026/04/20/test-case-minimization.html",
           "author": null,
@@ -93,14 +103,44 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
-          "id": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+          "id": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
           "author": null,
-          "description": "A Blog post by EvalEval Coalition on Hugging Face",
-          "link": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
-          "publishedOn": "2026-04-29T16:45:09.000Z",
-          "wordCount": 4219,
-          "title": "AI evals are becoming the new compute bottleneck",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png"
+          "description": "A Blog post by Lablab.ai AMD Developer Hackathon on Hugging Face",
+          "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+          "publishedOn": "2026-05-09T18:09:28.000Z",
+          "wordCount": 3249,
+          "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/allenai/emo",
+          "author": null,
+          "description": "A Blog post by Ai2 on Hugging Face",
+          "link": "https://huggingface.co/blog/allenai/emo",
+          "publishedOn": "2026-05-08T16:03:50.000Z",
+          "wordCount": 2079,
+          "title": "EMO: Pretraining mixture of experts for emergent modularity",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+          "author": null,
+          "description": "A Blog post by ServiceNow-AI on Hugging Face",
+          "link": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+          "publishedOn": "2026-05-06T19:06:55.000Z",
+          "wordCount": 1817,
+          "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+          "publishedOn": "2026-05-06T00:00:00.000Z",
+          "wordCount": 2120,
+          "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+          "imageUrl": "https://huggingface.co/blog/assets/open-asr-leaderboard-private-data/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/ibm-granite/granite-4-1",
@@ -118,7 +158,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/inference-providers-deepinfra",
           "publishedOn": "2026-04-29T00:00:00.000Z",
-          "wordCount": 1228,
+          "wordCount": 1229,
           "title": "DeepInfra on Hugging Face Inference Providers 🔥",
           "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-deepinfra.jpg"
         },
@@ -128,7 +168,7 @@
           "description": "A Blog post by NVIDIA on Hugging Face",
           "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
           "publishedOn": "2026-04-28T15:58:57.000Z",
-          "wordCount": 4109,
+          "wordCount": 4170,
           "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence.png"
         },
@@ -138,7 +178,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
           "publishedOn": "2026-04-27T00:00:00.000Z",
-          "wordCount": 1830,
+          "wordCount": 1829,
           "title": "How to build scalable web apps with OpenAI's Privacy Filter",
           "imageUrl": "https://huggingface.co/blog/assets/openai-privacy-filter-web-apps/thumbnail.png"
         },
@@ -158,7 +198,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/transformersjs-chrome-extension",
           "publishedOn": "2026-04-23T00:00:00.000Z",
-          "wordCount": 2004,
+          "wordCount": 2000,
           "title": "How to Use Transformers.js in a Chrome Extension",
           "imageUrl": "https://huggingface.co/blog/assets/transformersjs-chrome-extension/thumbnail.jpg"
         },
@@ -218,7 +258,7 @@
           "description": "A Blog post by IBM Research on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
           "publishedOn": "2026-04-15T12:07:25.000Z",
-          "wordCount": 3363,
+          "wordCount": 3386,
           "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/677629b4931b3b2eb8d5820a/aheSsLHG7bQqr_2b8A6cS.png"
         },
@@ -228,39 +268,9 @@
           "description": "A Blog post by H company on Hugging Face",
           "link": "https://huggingface.co/blog/Hcompany/holotab",
           "publishedOn": "2026-04-15T09:25:20.000Z",
-          "wordCount": 962,
+          "wordCount": 958,
           "title": "Meet HoloTab by HCompany. Your AI browser companion.",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Hcompany/holotab.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/waypoint-1-5",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/waypoint-1-5",
-          "publishedOn": "2026-04-09T00:00:00.000Z",
-          "wordCount": 1172,
-          "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
-          "imageUrl": "https://huggingface.co/blog/assets/overworld/waypoint-v1-5.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/multimodal-sentence-transformers",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/multimodal-sentence-transformers",
-          "publishedOn": "2026-04-09T00:00:00.000Z",
-          "wordCount": 3528,
-          "title": "Multimodal Embedding & Reranker Models with Sentence Transformers",
-          "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
-          "publishedOn": "2026-04-08T00:00:00.000Z",
-          "wordCount": 1039,
-          "title": "Safetensors is Joining the PyTorch Foundation",
-          "imageUrl": "https://huggingface.co/blog/assets/safetensors-joins-pytorch-foundation/thumbnail.png"
         }
       ]
     },
@@ -274,18 +284,7 @@
       "title": "Programming Posts & Notes on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
-      "articles": [
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
-          "author": null,
-          "description": "microvm.nix is a framework to run NixOS based micro VMs on various platforms. In particular, it can use vfkit to run micro VMs on macOS that use the macOS virtualization framework to provide a more performant VM than QEMU.\nmicrovm.nix works well but the documentation is a bit lacking. I had to figure out some gotchas while setting this up on my MacBook Pro M4, so I decided to write this note.\nThis tutorial requires Nix and Nix Darwin to be installed on the macOS machine.\nTo build a micro VM, we need a NixOS builder machine running AArch64 Linux. Thankfully, it is really easy to set up one with Nix Darwin. Assuming we have Nix Darwin set up with a Nix flake like:\n{\n  inputs = {\n    nixpkgs.url = \"github:nixos/nixpkgs/nixpkgs-25.11-darwin\";\n    nix-darwin = {\n      url = \"github:LnL7/nix-dar…",
-          "link": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
-          "publishedOn": "2026-04-09T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Running NixOS Micro VMs on MacOS",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notes on abhinavsarkar.net",
@@ -293,12 +292,22 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-05-04/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 27th April–3rd May.\n\nLife#\nIt finally rained in Bangalore last week. There was a severe thunderstorm and lot of trees were uprooted. The rain lasted for a couple of hours. Thankfully, I made it home just before it became extreme. I had hoped that the rain will bring the much wanted coolness, but unfortunately the heat came back next day.\nI have completely lost the zeal to keep walking 10,000 steps a day because of the heat. It has been many days since I walked the quota. There are more rains forecasted this week, and I hope that this time the coolness will last and let me go on walks and runs again.\nOur 3 yo A caught a slight cold after the rain, so we have been sleeping without the AC on. That has translated into terrible sleep for me for the past few day…",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-05-04/?mtm_campaign=feed",
+          "publishedOn": "2026-05-04T00:00:00.000Z",
+          "wordCount": 1033,
+          "title": "Notes for the Week #18 (2026)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-05-04.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2026-traffic-premonitions/?mtm_campaign=feed",
           "author": null,
           "description": "Exactly a year ago, an ambulance in Bangalore hit several people. The next day I was driving my scooter on the road besides an ambulance. The sight of the ambulance reminded me of the news story and I thought to myself, “it could happen to me, I should be careful.” We were stopped at a traffic signal, and I was lost in thoughts about the news. The signal turned green, we started moving, the ambulance took a sharp turn, and ran into me.\nThankfully, both of us hit the brakes quite hard and the collision was minor. I got a severe whiplash from the sudden stop, and had to suffer through a backache for the next three months. Later I came to know that I had Covid-19 at the time I was driving, and that was probably why I wasn’t careful enough. In a strange way, the backache caused me to take bed …",
           "link": "https://abhinavsarkar.net/notes/2026-traffic-premonitions/?mtm_campaign=feed",
           "publishedOn": "2026-05-02T00:00:00.000Z",
-          "wordCount": 1006,
+          "wordCount": 1032,
           "title": "Traffic Premonitions",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-traffic-premonitions.png"
         },
@@ -308,7 +317,7 @@
           "description": "Trying a new note format inspired by Azan’s Playlists. Here is a playlist of songs that I find really hard to get out of my head once listened to:\nAnthems For A Seventeen Year-Old Girl — Broken Social Scene\nA Teenager In Love — Dion & The Belmonts\nAngel Of The Morning — Juice Newton\nI Only Want To Be With You — Dusty Springfield\nSuch Great Heights — Streetlight Manifesto\nJust A Girl — No Doubt\nAll Star — Smash Mouth\nWhat’s Up? — 4 Non Blondes\nListen: On Spotify • On YouTube Music\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
           "link": "https://abhinavsarkar.net/notes/2026-playlist-earworms/?mtm_campaign=feed",
           "publishedOn": "2026-04-26T00:00:00.000Z",
-          "wordCount": 616,
+          "wordCount": 612,
           "title": "Playlist: Earworms",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-playlist-earworms.png"
         },
@@ -338,7 +347,7 @@
           "description": "I’ve been watching anime for over 30 years now. After such a long time, I’ve become very selective in choosing which shows to watch. These days I only complete a couple of shows per season. I’m tired and bored of repetitive themes and settings, sequels, long-dragging shows, and in particular the deluge of Isekai anime. My patience wears thin and I drop things I don’t like without a thought. Now, I prefer watching only shows with novel ideas or great execution. With that preface, here are my top ten anime recommendations from 2020s, alphabetically:\nApocalypse Hotel\nBocchi the Rock!\nCity The Animation\nDandadan\nFrieren: Beyond Journey’s End\nHeavenly Delusion\nHorimiya\nJournal with Witch\nKeep Your Hands Off Eizouken!\nThe Apothecary Diaries\nNote that this only includes the anime I actually watched. I’m sure there were more great ones that I didn’t get to.\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
           "link": "https://abhinavsarkar.net/notes/2026-anime-recs/?mtm_campaign=feed",
           "publishedOn": "2026-04-17T00:00:00.000Z",
-          "wordCount": 689,
+          "wordCount": 691,
           "title": "2020s Anime Recommendations",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-anime-recs.png"
         },
@@ -348,39 +357,9 @@
           "description": "This week note covers the week of 6th–12th April.\n\nLife#\nLast week started with sickness. A caught a cold and had a mild fever for two days. Just when she was starting to feel better, she caught a stomach bug and then was sick for the entire week. She stayed at home and threw a lot of tantrums. Thankfully, she is feeling better now.\nI couldn’t sleep well because of A’s sickness and something in the air triggering my allergies. The summer is in full swing now, with temperatures reaching up to 37 °C. I feel like I’m not built for this heat anymore. Every year I have some kind of health upset around April. Thankfully, I have kept my running going and I ran another 5k yesterday. I also went to the gym for one day only, which was enough to give me soreness lasting three days. I’m hoping to make…",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-04-13/?mtm_campaign=feed",
           "publishedOn": "2026-04-13T00:00:00.000Z",
-          "wordCount": 1090,
+          "wordCount": 1088,
           "title": "Notes for the Week #15 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-04-13.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
-          "author": null,
-          "description": "microvm.nix is a framework to run NixOS based micro VMs on various platforms. In particular, it can use vfkit to run micro VMs on macOS that use the macOS virtualization framework to provide a more performant VM than QEMU.\nmicrovm.nix works well but the documentation is a bit lacking. I had to figure out some gotchas while setting this up on my MacBook Pro M4, so I decided to write this note.\nThis tutorial requires Nix and Nix Darwin to be installed on the macOS machine.\nTo build a micro VM, we need a NixOS builder machine running AArch64 Linux. Thankfully, it is really easy to set up one with Nix Darwin. Assuming we have Nix Darwin set up with a Nix flake like:\n{\n  inputs = {\n    nixpkgs.url = \"github:nixos/nixpkgs/nixpkgs-25.11-darwin\";\n    nix-darwin = {\n      url = \"github:LnL7/nix-dar…",
-          "link": "https://abhinavsarkar.net/notes/2026-microvm-nix/?mtm_campaign=feed",
-          "publishedOn": "2026-04-09T00:00:00.000Z",
-          "wordCount": 1583,
-          "title": "Running NixOS Micro VMs on MacOS",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-microvm-nix.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-04-05/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 30th March–5th April.\n\n\nBefore SUNrise\n\nLife#\nAt last a week note in time! Last week had some extra holidays, it being the Easter week, but I did not get anything extra done. In fact, I did not get anything much done at all. My gym sessions are going well but they are leaving me too sore and tired to do much else. I also started on a new low carb diet last week after consulting a nutritionist. Between the soreness and the low energy state, I spent most of the week just reading books and watching TV shows. I did get a 5 kilometer run done on last Monday though.\nThis was my first run after almost 11 months of break. It went well, all things considered. I am nowhere up to my previous level, but that’s okay. I was supposed to run couple more kilometers last we…",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-04-05/?mtm_campaign=feed",
-          "publishedOn": "2026-04-05T00:00:00.000Z",
-          "wordCount": 1068,
-          "title": "Notes for the Week #14 (2026)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-04-05.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-night-sky/?mtm_campaign=feed",
-          "author": null,
-          "description": "As a child I spent a lot of time looking at the stars.\nI grew up in a small town in east India in the 90s. This was before the boom of cable TV or internet or social media. Often after doing my homework, I’d go out in my front-yard and look at the stars. I was a bit of astronomy geek back then, obsessed with the night sky. We didn’t have telescopes or cameras or any other equipment, but we had plenty of free time.\nWe used to have frequent electricity cuts (or blackouts as people call them these days) in the hot summers. When the ceiling fans stopped working, we had no choice but to go out in the yard and sit under the dark sky. Living in a small town meant low light and air pollution, so the sky was clear and dark. I spent hours sitting or laying, looking up to the stars.\nI got interested …",
-          "link": "https://abhinavsarkar.net/notes/2026-night-sky/?mtm_campaign=feed",
-          "publishedOn": "2026-04-04T00:00:00.000Z",
-          "wordCount": 1039,
-          "title": "The Loss of the Night Sky",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-night-sky.png"
         }
       ]
     },
@@ -390,12 +369,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22629",
+          "author": "Daniel Lemire",
+          "description": "Suppose that x is a variable of an unsigned type. In C/C++, it could be of type size_t for example. You have an expression like 6 * x and you want to know whether 6 * x overflows. That is, you want to know if 6 * x exceeds the range of values that can … Continue reading Checking multiplication overflow",
+          "link": "https://lemire.me/blog/2026/05/06/checking-multiplication-overflow/",
+          "publishedOn": "2026-05-06T20:15:20.000Z",
+          "wordCount": 3576,
+          "title": "Checking multiplication overflow",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Capture-decran-le-2026-05-06-a-16.14.54.png"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22624",
+          "author": "Daniel Lemire",
+          "description": "A common pattern in modern software is to map a string key to a small array of floating-point numbers. Word embeddings, feature vectors, lookup tables for physical constants: all variations on the same theme. In Go, the obvious way to write this is a map[string][]float32. But how fast is it, really, and can we do … Continue reading Mapping Strings to Float Arrays in Go: How Fast Can We Go?",
+          "link": "https://lemire.me/blog/2026/05/05/mapping-strings-to-float-arrays-in-go-how-fast-can-we-go/",
+          "publishedOn": "2026-05-05T19:01:09.000Z",
+          "wordCount": 3744,
+          "title": "Mapping Strings to Float Arrays in Go: How Fast Can We Go?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Capture-decran-le-2026-05-05-a-15.04.28-1024x528.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22619",
           "author": "Daniel Lemire",
           "description": "No, rising house prices are not the driver of sharp fertility declines. The evidence shows only modest, mixed effects that cannot explain the large drops observed in places like Canada. What the Research Actually Shows: A well-known study by Dettling and Kearney (2014) found that rising house prices have opposing effects: they slightly increase fertility … Continue reading House prices and fertility",
           "link": "https://lemire.me/blog/2026/04/30/house-prices-and-fertility/",
           "publishedOn": "2026-04-30T22:17:34.000Z",
-          "wordCount": 3780,
+          "wordCount": 3827,
           "title": "House prices and fertility",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/XRF75-1024x687.jpg"
         },
@@ -405,7 +404,7 @@
           "description": "We sometimes have to look for a value in a sorted array. The simplest algorithm consists in just going through the values one by one, until we encounter the value, or exhaust the array. We sometimes call this algorithm a linear search. In C++, you can get the desired effect with the std::find function. For … Continue reading You can beat the binary search",
           "link": "https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/",
           "publishedOn": "2026-04-27T17:32:13.000Z",
-          "wordCount": 6950,
+          "wordCount": 7080,
           "title": "You can beat the binary search",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Gemini_Generated_Image_rsv3zvrsv3zvrsv3-1024x572.png"
         },
@@ -415,29 +414,9 @@
           "description": "Consider the following problem. Given a string, you must match all of the ASCII white-space characters (\\t, \\n, \\r, and the space) and some characters important in JSON (:, ,, [, ], {, }). JSON is a text-based data format used for web services. A toy JSON document looks as follows. { \"name\": \"Alice\", \"age\": … Continue reading The fastest way to match characters on ARM processors?",
           "link": "https://lemire.me/blog/2026/04/19/the-fastest-way-to-match-characters-on-arm-processors/",
           "publishedOn": "2026-04-19T20:41:04.000Z",
-          "wordCount": 4862,
+          "wordCount": 4863,
           "title": "The fastest way to match characters on ARM processors?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-19-a-16.24.56.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22574",
-          "author": "Daniel Lemire",
-          "description": "Initially, we had languages like Fortran (1957), Pascal (1970), and C (1972). Fortran was designed for number crunching and scientific computing. Pascal was restrictive with respect to low-level access (it was deliberately “safe”, as meant for teaching structured programming). So C won out as a language that allowed low-level/unsafe programming (pointer arithmetic, direct memory access) … Continue reading A brief history of C/C++ programming languages",
-          "link": "https://lemire.me/blog/2026/04/09/a-brief-history-of-c-c-programming-languages/",
-          "publishedOn": "2026-04-09T14:58:53.000Z",
-          "wordCount": 4883,
-          "title": "A brief history of C/C++ programming languages",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-09-a-10.54.35-1024x704.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22568",
-          "author": "Daniel Lemire",
-          "description": "Suppose you have several strings and you want to count the number of instances of the character ! in your strings. In C++, you might solve the problem as follows if you are an old-school programmer. size_t c = 0; for (const auto &str : strings) { c += std::count(str.begin(), str.end(), '!'); } You can … Continue reading Can your AI rewrite your code in assembly?",
-          "link": "https://lemire.me/blog/2026/04/05/can-your-ai-rewrite-your-code-in-assembly/",
-          "publishedOn": "2026-04-05T21:16:14.000Z",
-          "wordCount": 4552,
-          "title": "Can your AI rewrite your code in assembly?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Capture-decran-le-2026-04-05-a-17.13.58-1024x589.png"
         }
       ]
     },
@@ -458,6 +437,26 @@
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
+        {
+          "id": "https://curiouscoding.nl/posts/list-of-blogs/",
+          "author": null,
+          "description": "Table of Contents\nApril 2026: The fall of the theorem economy - David Bessis\nThese are some links to interesting posts around the web, with some quick quotes/notes.\nThe fall of the theorem economy - David Bessis\n \n \n Link to heading\n \n\n\nfrom the moment I conceived of Theorem 0.5, I knew it was true and that proving it would be straightforward.\nToo long but wow:",
+          "link": "https://curiouscoding.nl/posts/list-of-blogs/",
+          "publishedOn": "2026-05-04T22:00:00.000Z",
+          "wordCount": 556,
+          "title": "List of interesting blogs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/teaching/succinct-trees/",
+          "author": null,
+          "description": "Previous slides: Rank & Select, Elias-Fano\n \n \n Link to heading\n \n\n\nRank: counting 1 bits\n\n2 levels of blocks of length \\(\\log^2 n\\) and \\(\\log n\\)\nSelect: finding 1 bits\n\n2 levels of blocks with \\(\\log^2 n\\) 1-bits and \\(\\sqrt{\\log n}\\) 1-bits.\nThere exist succinct \\(o(n)\\) space data structures for rank and select.\nElias-Fano: efficient encoding of sorted list of integers\n\nSplit in high and \\(\\ell\\)-bit low part; \\(\\approx 0.5\\) bit/elem overhead.\nEncode high parts using stars & bars: \n\n Link to heading\n \n\nA.k.a.: applications of rank and select.",
+          "link": "https://curiouscoding.nl/teaching/succinct-trees/",
+          "publishedOn": "2026-05-04T12:00:00.000Z",
+          "wordCount": 1256,
+          "title": "Succinct trees",
+          "imageUrl": null
+        },
         {
           "id": "https://curiouscoding.nl/slides/yigpp/",
           "author": null,
