@@ -1,10 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-05-17T02:49:44.661Z</id>
+    <id>urn:2026-05-24T02:57:17.836Z</id>
     <title>osmos::feed</title>
-    <updated>2026-05-17T02:49:44.661Z</updated>
+    <updated>2026-05-24T02:57:17.836Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Parsing IPv6 Addresses Crazily Fast with AVX-512]]></title>
+        <id>https://lemire.me/blog/?p=22658</id>
+        <link href="https://lemire.me/blog/2026/05/23/parsing-ipv6-addresses-crazily-fast-with-avx-512/"/>
+        <updated>2026-05-23T02:45:11.000Z</updated>
+        <summary type="html"><![CDATA[Every machine connected to the Internet has an address called an IP address. Originally, these addresses were 32-bit integers (IPv4), giving a theoretical maximum of about four billion distinct addresses. We are all familiar with these addresses (e.g., 192.168.0.0). There was a big fuss about how we would run out of addresses. It never happened … Continue reading Parsing IPv6 Addresses Crazily Fast with AVX-512]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models]]></title>
+        <id>https://huggingface.co/blog/nvidia/nemotron-labs-diffusion</id>
+        <link href="https://huggingface.co/blog/nvidia/nemotron-labs-diffusion"/>
+        <updated>2026-05-23T00:02:03.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing feed-repeat v1.0]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-feed-repeat/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-feed-repeat/?mtm_campaign=feed"/>
+        <updated>2026-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever wanted to reread that old article posted by your favourite author on their website? Do you use feed readers and wish that some great posts from your friends magically reappear in your inbox so that you can remember the good old days? Do you want to use your feed reader as sort of a space-repetition tool? Well then, feed-repeat is for you.
+I have just released the version 1.0 of feed-repeat, a small tool that does only one thing: it takes some posts from the RSS/Atom feeds you configure and puts them in a new Atom feed that you can subscribe to in your feed reader. That’s all.
+I made feed-repeat for myself. I wanted a tool to send me old blogposts written by my favourite authors so that I could enjoy them again, but also not be overwhelmed by a wall of hundreds of unread old p…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook]]></title>
+        <id>https://huggingface.co/blog/Dharma-AI/specialization-beats-scale</id>
+        <link href="https://huggingface.co/blog/Dharma-AI/specialization-beats-scale"/>
+        <updated>2026-05-22T15:25:59.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Dharma-AI on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Only 17% of all 64-bit Integers are products of two 32-bit integers]]></title>
+        <id>https://lemire.me/blog/?p=22652</id>
+        <link href="https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/"/>
+        <updated>2026-05-22T01:16:35.000Z</updated>
+        <summary type="html"><![CDATA[In software programming, the product between two integers is often computed to a fixed number of bits with overflow. Consider 8-bit integers. If you multiply 127 by 127, you get back the number 1 as an 8-bit unsigned integer, with an overflow. The actual full product is 16129. To represent 16129, you typically use 16 … Continue reading Only 17% of all 64-bit Integers are products of two 32-bit integers]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TIL: Symlinking NixOS Dotfiles]]></title>
+        <id>https://matklad.github.io/2026/05/21/symlinking-nixos-dotfiles.html</id>
+        <link href="https://matklad.github.io/2026/05/21/symlinking-nixos-dotfiles.html"/>
+        <updated>2026-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The standard answer to managing dotfiles on NixOS is home-manager. I've never used it, due to two aesthetic and one practical objection:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OlmoEarth v1.1: A more efficient family of Earth observation models]]></title>
+        <id>https://huggingface.co/blog/allenai/olmoearth-v1-1</id>
+        <link href="https://huggingface.co/blog/allenai/olmoearth-v1-1"/>
+        <updated>2026-05-19T18:38:09.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the Ettin Reranker Family]]></title>
+        <id>https://huggingface.co/blog/ettin-reranker</id>
+        <link href="https://huggingface.co/blog/ettin-reranker"/>
+        <updated>2026-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SIMD-accelerated integer-to-string conversion]]></title>
+        <id>https://lemire.me/blog/?p=22639</id>
+        <link href="https://lemire.me/blog/2026/05/18/simd-accelerated-integer-to-string-conversion/"/>
+        <updated>2026-05-18T19:39:49.000Z</updated>
+        <summary type="html"><![CDATA[Converting a 64-bit integer to its decimal string representation is a mundane task that shows up everywhere: logging, JSON serialization, CSV output, debug prints, etc. In C++, you might use std::to_chars, sprintf, or some library routine. How do these functions work? At a high level, they repeatedly divide by ten. Start with your integer k. … Continue reading SIMD-accelerated integer-to-string conversion]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend]]></title>
+        <id>https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers</id>
+        <link href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers"/>
+        <updated>2026-05-18T15:12:46.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by PaddlePaddle on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Open Agent Leaderboard]]></title>
+        <id>https://huggingface.co/blog/ibm-research/open-agent-leaderboard</id>
+        <link href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard"/>
+        <updated>2026-05-18T14:12:58.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuickHeap]]></title>
+        <id>https://curiouscoding.nl/teaching/quickheap/</id>
+        <link href="https://curiouscoding.nl/teaching/quickheap/"/>
+        <updated>2026-05-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blackboard: Binary Heap
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ Blackboard: QuickHeap
+ 
+ 
+ Link to heading]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Always Be Blaming]]></title>
+        <id>https://matklad.github.io/2026/05/18/always-be-blaming.html</id>
+        <link href="https://matklad.github.io/2026/05/18/always-be-blaming.html"/>
+        <updated>2026-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A few tips on 4D-ing your code comprehension skills.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #20 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-05-17/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-05-17/?mtm_campaign=feed"/>
+        <updated>2026-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 11th–17th May.
+
+Life#
+Last week was sort of a rebound to the weeks before, that is to say, it wasn’t a great week. A was sick the entire week and I was worried sick. I made the mistake of having some coffee on Tuesday (only 10ml espresso though), and then going to the gym. My body just couldn’t take them together, and I messed up my sleep completely.
+Then to combat the sleepiness next day I drank more coffee, and it made me lose even more sleep. The lack of sleep, the worry, and the exhaustion from the gym session completely ruined my days. I was too sleepy and too tired to do anything other than most essential tasks. I had to take Friday off just to recover.
+After sleeping for 10 hours on the Friday night, I felt refreshed, so I went for a short run on Sa…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality]]></title>
         <id>https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2</id>
@@ -99,6 +259,49 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The anti-lexicographic SUS-anchor: a near-optimal k=1 sampling scheme]]></title>
+        <id>https://curiouscoding.nl/posts/sus-anchors/</id>
+        <link href="https://curiouscoding.nl/posts/sus-anchors/"/>
+        <updated>2026-05-11T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 Abstract
+2 Introduction
+3 Preliminaries
+
+3.1 Minimizers and sampling schemes
+3.2 Bidirectional string anchors
+3.3 Maximal suffixes
+4 Character-based orders
+5 Smallest unique substring anchors
+
+5.1 Properties
+5.2 Computing SUS-anchors
+6 Results
+7 Discussion
+\[
+\newcommand{\sus}{\mathsf{SUS}}
+\newcommand{\lcp}{\mathsf{lcp}}
+\newcommand{\last}{\mathsf{last}}
+\]
+1 Abstract
+ 
+ 
+ Link to heading
+ 
+
+Motivation.
+In recent years, there has been a renewed interest in the search for low density
+minimizer schemes. These schemes take a window of \(w\) consecutive \(k\)-mers,
+and sample one of them: the smallest under some specific order.
+Schemes such as the mod-minimizer provide a low density (fraction of sampled \(k\)-mers) when
+\(k \gg w\), while schemes such as the greedy minimizer work well for explicit
+small parameters roughly in the regime \(k \leq 2w\), for \(k\) and \(w\) up
+to \(15\) or so.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Range Minimum Queries]]></title>
         <id>https://curiouscoding.nl/teaching/rmq-notes/</id>
         <link href="https://curiouscoding.nl/teaching/rmq-notes/"/>
@@ -114,6 +317,7 @@
 5 Blocks: \(O(s)\) queries, \(O(n/s \log n)\) words
 6 Cartesian Trees: \(O(1)\) queries, \(O(n)\) words
 7 Recursive Cartesian Trees: \(O(1)\) queries, \(2n+o(n)\) bits
+8 Blackboard
 \[
 \DeclareMathOperator*{\argmin}{arg\,min}
 \newcommand{\rmq}{\mathsf{rmq}}
@@ -144,16 +348,6 @@ The downside was the soreness and exhaustion I felt most of the time. I barely c
 I seem to be going through some sort of SAD spell, most likely due to the summer heat making me unable to do fun thin…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EMO: Pretraining mixture of experts for emergent modularity]]></title>
-        <id>https://huggingface.co/blog/allenai/emo</id>
-        <link href="https://huggingface.co/blog/allenai/emo"/>
-        <updated>2026-05-08T16:03:50.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -665,187 +859,6 @@ myself, aas-sign. As is often the case, the existing options were
 deficient for my needs, so I ha…]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nim version 2.2.10 released]]></title>
-        <id>https://nim-lang.org//blog/2026/04/24/nim-2210.html</id>
-        <link href="https://nim-lang.org//blog/2026/04/24/nim-2210.html"/>
-        <updated>2026-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Nim Team is happy to announce version 2.2.10, the fifth patch release for our stable release, Nim 2.2.
-It comes two months after the 2.2.8 release and it contains 76 commits, bringing bugfixes and improvements.
-If you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.
-If you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.
-The Nim 2.2.10 changelog is available here.
-NimConf 2026
-We would like to remind you about NimConf 2026.
-If you have anything you would like to share with the Nim community, you have two more weeks (until May 10th) to submit your talk proposal.
-More details available here.
-Installing Nim 2.2.10
-Check out if the package manager of your OS already ships version 2…]]></summary>
-        <author>
-            <name>Nim Programming Language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek-V4: a million-token context that agents can actually use]]></title>
-        <id>https://huggingface.co/blog/deepseekv4</id>
-        <link href="https://huggingface.co/blog/deepseekv4"/>
-        <updated>2026-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use Transformers.js in a Chrome Extension]]></title>
-        <id>https://huggingface.co/blog/transformersjs-chrome-extension</id>
-        <link href="https://huggingface.co/blog/transformersjs-chrome-extension"/>
-        <updated>2026-04-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard]]></title>
-        <id>https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard</id>
-        <link href="https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"/>
-        <updated>2026-04-21T10:09:58.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Technology Innovation Institute on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI and the Future of Cybersecurity: Why Openness Matters]]></title>
-        <id>https://huggingface.co/blog/cybersecurity-openness</id>
-        <link href="https://huggingface.co/blog/cybersecurity-openness"/>
-        <updated>2026-04-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advanced Data Structures]]></title>
-        <id>https://curiouscoding.nl/teaching/advanced-data-structures/</id>
-        <link href="https://curiouscoding.nl/teaching/advanced-data-structures/"/>
-        <updated>2026-04-20T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Organizational matters
- 
- 
- Link to heading
- 
-
-Lectures:
-In English
-Monday 14:00 - 15:30
-Building 50.34, room 236
-Grade:
-80% oral exam, 20 minutes
-20% programming project
-
-Details coming a few weeks
-Requires registration
-
- Link to heading
- 
-
-This year’s materials:
-The course page: ae.iti.kit.edu/english/5028.php
-Ragnar’s blog: curiouscoding.nl/teaching
-
-Lecture notes and/or slides available shortly before the lecture
-Previously taught by Florian Kurpicz:
-SS 2024 course materials & slides (in English)
-Recorded lectures on YouTube (@kurpicz, in German):
-
-SS 2022
-SS 2023
-Related MIT Advanced Data Structures course by Erik Demaine:]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Models of computation]]></title>
-        <id>https://curiouscoding.nl/teaching/models-of-computation/</id>
-        <link href="https://curiouscoding.nl/teaching/models-of-computation/"/>
-        <updated>2026-04-20T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today
- 
- 
- Link to heading
- 
-
-
-Why do we care about models?
-Big-\(O\) notation
-The complexity of sorting
-Properties data structures
-The word RAM model
-
-Variations
-Limitations
-
- Link to heading
- 
-
-We want to design fast algorithms, but when is an algorithm fast?
-Implement it, and measure the time.
-
-Extrapolate experiments to predict performance on larger \(n\).
-May or may not give understanding.
-Does not provide lower bounds.
-Analyse exactly what happens on the CPU.
-
-Unwieldy; they are massive black boxes.
-Instead: use a simplified abstract model of the CPU.
-
-Allows exact lower and upper bounds.
-
- Link to heading
- 
-
-Big-\(O\), or \(\mathcal O\) notation relates the asymptotic growth of two abstract
-functions to each other.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[256 Lines or Less: Test Case Minimization]]></title>
-        <id>https://matklad.github.io/2026/04/20/test-case-minimization.html</id>
-        <link href="https://matklad.github.io/2026/04/20/test-case-minimization.html"/>
-        <updated>2026-04-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Property Based Testing and fuzzing are a deep and science-intensive topic. There are enough advanced techniques there for a couple of PhDs, a PBT daemon, and a client-server architecture. But I have this weird parlor-trick PBT library, implementable in a couple of hundred lines of code in one sitting.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The fastest way to match characters on ARM processors?]]></title>
-        <id>https://lemire.me/blog/?p=22587</id>
-        <link href="https://lemire.me/blog/2026/04/19/the-fastest-way-to-match-characters-on-arm-processors/"/>
-        <updated>2026-04-19T20:41:04.000Z</updated>
-        <summary type="html"><![CDATA[Consider the following problem. Given a string, you must match all of the ASCII white-space characters (\t, \n, \r, and the space) and some characters important in JSON (:, ,, [, ], {, }). JSON is a text-based data format used for web services. A toy JSON document looks as follows. { "name": "Alice", "age": … Continue reading The fastest way to match characters on ARM processors?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #16 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-04-19/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-04-19/?mtm_campaign=feed"/>
-        <updated>2026-04-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 13th–19th April.
-
-Life#
-After my wife and our 3yo A, it was my turn last week to catch the stomach bug. I had a case of bad food poisoning last Monday, and the sickness persisted till yesterday. Only today I started feeling normal. It was also the hottest week in Bengaluru. I heard about many folks getting food poisoning in last couple of weeks. I’m guessing it’s because of food going bad quicker in the summer heat.
-Thereafter, I spent all of my week groaning in pain and visiting the loo at an increased regularity. While the doctor’s prescribed medicines took effect, I took a few days off from work to recover. I stayed in the bed whole days and somehow tried to pass the time. I mostly watched stuff on my laptop or took naps. Because of that, first time in …]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
         </author>
     </entry>
 </feed>
