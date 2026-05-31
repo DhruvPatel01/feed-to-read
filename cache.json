@@ -14,26 +14,6 @@
           "wordCount": 1062,
           "title": "Concurrent, atomic MSI hash tables",
           "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2026/04/26/",
-          "author": null,
-          "description": "This article was discussed on reddit and on Hacker News.\nThis past Tuesday I typed C-x C-c in Emacs for the last time after 20\nyears of daily use. Though nearly half that time was gradually\nretiring it, switching to modal editing, then to Vim. Emacs is a platform,\nand I’d grown accustomed to its applications, especially those I built\nmyself. There was no particular hurry, so replacements came slowly. With\nmy newly-acquired superpowers I could knock out the last two pieces\nin a few days’ work, namely M-x calc with stackcalc and\nElfeed with Elfeed2. I’m especially excited about the\nlatter because it already exceeds the original. Both are multi-platform,\nnative C++ GUI applications using native UI components.\n\nThese actively-in-use packages require new maintainers (apply on\nthe project’s issu…",
-          "link": "https://nullprogram.com/blog/2026/04/26/",
-          "publishedOn": "2026-04-26T00:00:00.000Z",
-          "wordCount": 700,
-          "title": "I have officially retired from Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2026/04/25/",
-          "author": null,
-          "description": "The new w64devkit release two weeks ago is the first to be code-signed\nwith my identity, verified by Microsoft’s certificate chain. Currently\nonly the release packaging is signed — the self-extracting archive and\nits payload — but I will soon code-sign individual EXEs and DLLs within\nthe distribution. In fact, all Windows builds of my project releases\nhave been code-signed the past two weeks, including dcmake, and so\nshould everything going forward. My signing identity builds reputation\nwith each download, so users will have an easier time with SmartScreen,\nand security software generally. Azure Artifact Signing creates the\nactual signature, but the rest is done with new infrastructure I built\nmyself, aas-sign. As is often the case, the existing options were\ndeficient for my needs, so I ha…",
-          "link": "https://nullprogram.com/blog/2026/04/25/",
-          "publishedOn": "2026-04-25T18:12:29.000Z",
-          "wordCount": 1083,
-          "title": "My brave new code-signing world",
-          "imageUrl": null
         }
       ]
     },
@@ -122,12 +102,62 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/torch-profiler",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/torch-profiler",
+          "publishedOn": "2026-05-29T00:00:00.000Z",
+          "wordCount": 5497,
+          "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+          "imageUrl": "https://huggingface.co/blog/assets/torch-profiler/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/itbench-aa",
+          "author": null,
+          "description": "A Blog post by IBM Research on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+          "publishedOn": "2026-05-27T17:20:29.000Z",
+          "wordCount": 1246,
+          "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/QzGxABeEDggNYzvgSLQqU.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/local-reachy-mini-conversation",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+          "publishedOn": "2026-05-27T00:00:00.000Z",
+          "wordCount": 2108,
+          "title": "Reachy Mini goes fully local",
+          "imageUrl": "https://huggingface.co/blog/assets/local-reachy-mini-conversation/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/delta-weight-sync",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/delta-weight-sync",
+          "publishedOn": "2026-05-27T00:00:00.000Z",
+          "wordCount": 4383,
+          "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+          "imageUrl": "https://huggingface.co/blog/assets/delta-weight-sync/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/agent-glossary",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/agent-glossary",
+          "publishedOn": "2026-05-25T00:00:00.000Z",
+          "wordCount": 2558,
+          "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+          "imageUrl": "https://huggingface.co/blog/assets/agent-glossary/thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
           "author": null,
           "description": "A Blog post by NVIDIA on Hugging Face",
           "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
           "publishedOn": "2026-05-23T00:02:03.000Z",
-          "wordCount": 1616,
+          "wordCount": 1644,
           "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-labs-diffusion.png"
         },
@@ -157,7 +187,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/ettin-reranker",
           "publishedOn": "2026-05-19T00:00:00.000Z",
-          "wordCount": 6408,
+          "wordCount": 6470,
           "title": "Introducing the Ettin Reranker Family",
           "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
         },
@@ -172,22 +202,12 @@
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/652b2e9166313ebb6197e706/Bl-qDWU9OfuXZ06hNxZE7.jpeg"
         },
         {
-          "id": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
-          "author": null,
-          "description": "A Blog post by IBM Research on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
-          "publishedOn": "2026-05-18T14:12:58.000Z",
-          "wordCount": 1977,
-          "title": "The Open Agent Leaderboard",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/5fc0292de45c5468456e022b/CpwVutMu5EiniBliQ9RXs.png"
-        },
-        {
           "id": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
           "author": null,
           "description": "A Blog post by IBM Granite on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
           "publishedOn": "2026-05-14T18:55:01.000Z",
-          "wordCount": 3810,
+          "wordCount": 3808,
           "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-embedding-multilingual-r2.png"
         },
@@ -227,49 +247,9 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
           "publishedOn": "2026-05-06T00:00:00.000Z",
-          "wordCount": 2153,
+          "wordCount": 2156,
           "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
           "imageUrl": "https://huggingface.co/blog/assets/open-asr-leaderboard-private-data/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-          "author": null,
-          "description": "A Blog post by IBM Granite on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-          "publishedOn": "2026-04-29T15:01:48.000Z",
-          "wordCount": 3206,
-          "title": "Granite 4.1 LLMs: How They’re Built",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-4-1.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/inference-providers-deepinfra",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/inference-providers-deepinfra",
-          "publishedOn": "2026-04-29T00:00:00.000Z",
-          "wordCount": 1259,
-          "title": "DeepInfra on Hugging Face Inference Providers 🔥",
-          "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-deepinfra.jpg"
-        },
-        {
-          "id": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-          "author": null,
-          "description": "A Blog post by NVIDIA on Hugging Face",
-          "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-          "publishedOn": "2026-04-28T15:58:57.000Z",
-          "wordCount": 4204,
-          "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-          "publishedOn": "2026-04-27T00:00:00.000Z",
-          "wordCount": 1859,
-          "title": "How to build scalable web apps with OpenAI's Privacy Filter",
-          "imageUrl": "https://huggingface.co/blog/assets/openai-privacy-filter-web-apps/thumbnail.png"
         }
       ]
     },
@@ -291,12 +271,22 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-05-25/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 18th–24th May.\n\nThe Bends\n\nLife#\nLast week was a mixed bag. I had some minor health issues that lasted almost through the week. It was annoying and uncomfortable, but I worked through it. My wife and child A also had some cough and cold because of the arrival of rains in Bengaluru. But I am not complaining. The rains have been a lifesaver for me. The temperature has gone down by more than 5 °C and my mood has improved drastically. I know that the rains caused a lot of issues for the traffic last week in Bengaluru, but somehow I managed to narrowly escape them all.\nLast week was A’s short summer vacation. After the heat declined, we went around doing small things. On Friday, I took a leave and all three of us went to the Google Ananta office (shown in the p…",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-05-25/?mtm_campaign=feed",
+          "publishedOn": "2026-05-25T00:00:00.000Z",
+          "wordCount": 1062,
+          "title": "Notes for the Week #21 (2026)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-05-25.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2026-feed-repeat/?mtm_campaign=feed",
           "author": null,
           "description": "Have you ever wanted to reread that old article posted by your favourite author on their website? Do you use feed readers and wish that some great posts from your friends magically reappear in your inbox so that you can remember the good old days? Do you want to use your feed reader as sort of a space-repetition tool? Well then, feed-repeat is for you.\nI have just released the version 1.0 of feed-repeat, a small tool that does only one thing: it takes some posts from the RSS/Atom feeds you configure and puts them in a new Atom feed that you can subscribe to in your feed reader. That’s all.\nI made feed-repeat for myself. I wanted a tool to send me old blogposts written by my favourite authors so that I could enjoy them again, but also not be overwhelmed by a wall of hundreds of unread old p…",
           "link": "https://abhinavsarkar.net/notes/2026-feed-repeat/?mtm_campaign=feed",
           "publishedOn": "2026-05-23T00:00:00.000Z",
-          "wordCount": 978,
+          "wordCount": 1073,
           "title": "Announcing feed-repeat v1.0",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-feed-repeat.png"
         },
@@ -306,7 +296,7 @@
           "description": "This week note covers the week of 11th–17th May.\n\nLife#\nLast week was sort of a rebound to the weeks before, that is to say, it wasn’t a great week. A was sick the entire week and I was worried sick. I made the mistake of having some coffee on Tuesday (only 10ml espresso though), and then going to the gym. My body just couldn’t take them together, and I messed up my sleep completely.\nThen to combat the sleepiness next day I drank more coffee, and it made me lose even more sleep. The lack of sleep, the worry, and the exhaustion from the gym session completely ruined my days. I was too sleepy and too tired to do anything other than most essential tasks. I had to take Friday off just to recover.\nAfter sleeping for 10 hours on the Friday night, I felt refreshed, so I went for a short run on Sa…",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-05-17/?mtm_campaign=feed",
           "publishedOn": "2026-05-17T00:00:00.000Z",
-          "wordCount": 1037,
+          "wordCount": 1048,
           "title": "Notes for the Week #20 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-05-17.png"
         },
@@ -339,26 +329,6 @@
           "wordCount": 1035,
           "title": "Traffic Premonitions",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-traffic-premonitions.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-playlist-earworms/?mtm_campaign=feed",
-          "author": null,
-          "description": "Trying a new note format inspired by Azan’s Playlists. Here is a playlist of songs that I find really hard to get out of my head once listened to:\nAnthems For A Seventeen Year-Old Girl — Broken Social Scene\nA Teenager In Love — Dion & The Belmonts\nAngel Of The Morning — Juice Newton\nI Only Want To Be With You — Dusty Springfield\nSuch Great Heights — Streetlight Manifesto\nJust A Girl — No Doubt\nAll Star — Smash Mouth\nWhat’s Up? — 4 Non Blondes\nListen: On Spotify • On YouTube Music\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
-          "link": "https://abhinavsarkar.net/notes/2026-playlist-earworms/?mtm_campaign=feed",
-          "publishedOn": "2026-04-26T00:00:00.000Z",
-          "wordCount": 612,
-          "title": "Playlist: Earworms",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-playlist-earworms.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-04-26/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 20th–26th April.\n\nThis is going to be a short note. The summer is at its peak in Bangalore. The heat is making my body unable to do anything productive. I’m running in power-save mode, where I’m doing minimal possible work. So I don’t really have much to write about.\nI’m over the food poisoning from the previous week, but a little bit of weariness persists. I didn’t even go for my usual walks. Hence:\nCurrent daily average steps per month: 9183\nPersonal Projects#\nOnly thing I did this week is to create a Mastodon account for Indieweb Club BLR, and connect it to Echofeed to push the blogroll posts to Mastodon. Follow it if you’re interested.\nOutings#\nI was feeling bored out of my mind, so one evening, I went to the newly opened Nerlu cafe in my neighbourhood along with A and wife. The food and desserts were great, but the cafe was full of people working on their laptops and talking loudly about their work. I prefer a little quieter cafes. I hear that their coffee drinks are also pretty good, but I’ve been off coffee for months now, so no reviews from my side.\nWriting#\nOn a whim and inspired by Azan’s Playlists, I made a note making one of my playlists public.\nWatching#\nNot much to report here. I’ve just been watching random things on YouTube, and rewatching old movies on Netflix.\nInteresting Internet Links#\n2026 Boston Marathon Race Report\nLean of Faith\nStatic single assignment for functional programmers\nThat’s all for this week. You can subscribe to the feed of my week notes for updates.\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-04-26/?mtm_campaign=feed",
-          "publishedOn": "2026-04-26T00:00:00.000Z",
-          "wordCount": 818,
-          "title": "Notes for the Week #17 (2026)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-04-26.png"
         }
       ]
     },
@@ -368,12 +338,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22669",
+          "author": "Daniel Lemire",
+          "description": "Where is your intelligence located? In your brain? It is a simplistic answer. A better model is that your intelligence is embodied. Consider a cook working at an expensive restaurant. He has all his favorite knives and cooking instructions, placed exactly where he wants them. His kitchen is part of his intelligence, of his skills. … Continue reading Embodied cognition and agentic AI",
+          "link": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
+          "publishedOn": "2026-05-28T23:04:35.000Z",
+          "wordCount": 4513,
+          "title": "Embodied cognition and agentic AI",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Gemini_Generated_Image_x5dd1px5dd1px5dd-1024x572.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22658",
           "author": "Daniel Lemire",
           "description": "Every machine connected to the Internet has an address called an IP address. Originally, these addresses were 32-bit integers (IPv4), giving a theoretical maximum of about four billion distinct addresses. We are all familiar with these addresses (e.g., 192.168.0.0). There was a big fuss about how we would run out of addresses. It never happened … Continue reading Parsing IPv6 Addresses Crazily Fast with AVX-512",
           "link": "https://lemire.me/blog/2026/05/23/parsing-ipv6-addresses-crazily-fast-with-avx-512/",
           "publishedOn": "2026-05-23T02:45:11.000Z",
-          "wordCount": 3831,
+          "wordCount": 3993,
           "title": "Parsing IPv6 Addresses Crazily Fast with AVX-512",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Capture-decran-le-2026-05-22-a-22.42.35-1024x466.png"
         },
@@ -383,7 +363,7 @@
           "description": "In software programming, the product between two integers is often computed to a fixed number of bits with overflow. Consider 8-bit integers. If you multiply 127 by 127, you get back the number 1 as an 8-bit unsigned integer, with an overflow. The actual full product is 16129. To represent 16129, you typically use 16 … Continue reading Only 17% of all 64-bit Integers are products of two 32-bit integers",
           "link": "https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/",
           "publishedOn": "2026-05-22T01:16:35.000Z",
-          "wordCount": 4040,
+          "wordCount": 4217,
           "title": "Only 17% of all 64-bit Integers are products of two 32-bit integers",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Gemini_Generated_Image_pbz9q4pbz9q4pbz9-1024x559.png"
         },
@@ -393,7 +373,7 @@
           "description": "Converting a 64-bit integer to its decimal string representation is a mundane task that shows up everywhere: logging, JSON serialization, CSV output, debug prints, etc. In C++, you might use std::to_chars, sprintf, or some library routine. How do these functions work? At a high level, they repeatedly divide by ten. Start with your integer k. … Continue reading SIMD-accelerated integer-to-string conversion",
           "link": "https://lemire.me/blog/2026/05/18/simd-accelerated-integer-to-string-conversion/",
           "publishedOn": "2026-05-18T19:39:49.000Z",
-          "wordCount": 4073,
+          "wordCount": 4196,
           "title": "SIMD-accelerated integer-to-string conversion",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Gemini_Generated_Image_bzgphmbzgphmbzgp-1024x572.png"
         },
@@ -403,7 +383,7 @@
           "description": "Suppose that x is a variable of an unsigned type. In C/C++, it could be of type size_t for example. You have an expression like 6 * x and you want to know whether 6 * x overflows. That is, you want to know if 6 * x exceeds the range of values that can … Continue reading Checking multiplication overflow",
           "link": "https://lemire.me/blog/2026/05/06/checking-multiplication-overflow/",
           "publishedOn": "2026-05-06T20:15:20.000Z",
-          "wordCount": 3713,
+          "wordCount": 3836,
           "title": "Checking multiplication overflow",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Capture-decran-le-2026-05-06-a-16.14.54.png"
         },
@@ -413,29 +393,9 @@
           "description": "A common pattern in modern software is to map a string key to a small array of floating-point numbers. Word embeddings, feature vectors, lookup tables for physical constants: all variations on the same theme. In Go, the obvious way to write this is a map[string][]float32. But how fast is it, really, and can we do … Continue reading Mapping Strings to Float Arrays in Go: How Fast Can We Go?",
           "link": "https://lemire.me/blog/2026/05/05/mapping-strings-to-float-arrays-in-go-how-fast-can-we-go/",
           "publishedOn": "2026-05-05T19:01:09.000Z",
-          "wordCount": 3756,
+          "wordCount": 3879,
           "title": "Mapping Strings to Float Arrays in Go: How Fast Can We Go?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Capture-decran-le-2026-05-05-a-15.04.28-1024x528.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22619",
-          "author": "Daniel Lemire",
-          "description": "No, rising house prices are not the driver of sharp fertility declines. The evidence shows only modest, mixed effects that cannot explain the large drops observed in places like Canada. What the Research Actually Shows: A well-known study by Dettling and Kearney (2014) found that rising house prices have opposing effects: they slightly increase fertility … Continue reading House prices and fertility",
-          "link": "https://lemire.me/blog/2026/04/30/house-prices-and-fertility/",
-          "publishedOn": "2026-04-30T22:17:34.000Z",
-          "wordCount": 3839,
-          "title": "House prices and fertility",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/XRF75-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22600",
-          "author": "Daniel Lemire",
-          "description": "We sometimes have to look for a value in a sorted array. The simplest algorithm consists in just going through the values one by one, until we encounter the value, or exhaust the array. We sometimes call this algorithm a linear search. In C++, you can get the desired effect with the std::find function. For … Continue reading You can beat the binary search",
-          "link": "https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/",
-          "publishedOn": "2026-04-27T17:32:13.000Z",
-          "wordCount": 7092,
-          "title": "You can beat the binary search",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/04/Gemini_Generated_Image_rsv3zvrsv3zvrsv3-1024x572.png"
         }
       ]
     },
@@ -456,6 +416,26 @@
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
+        {
+          "id": "https://curiouscoding.nl/slides/sassy/",
+          "author": null,
+          "description": "Previously\n \n \n Link to heading\n \n\n\n\n\n\n\n\n\n Previously\n \n \n Link to heading\n \n\n\n\n\n\n\n\n\n\n\n\n Long-read global alignment is just not a problem people have…\n \n \n Link to heading\n \n\n\n … Sassy: 100bp semi-global alignment\n \n \n Link to heading\n \n\n\n Takeaway 1: Math yay, Bio nay\n \n \n Link to heading\n \n\n\n Takeaway 2: Do simple stuff fast\n \n \n Link to heading\n \n\n\n Approximate String Matching\n \n \n Link to heading\n \n\n\nFind pattern \\(P\\) in text \\(T\\).\n\n\\(m := |P|\\), \\(n := |T|\\)\nAllow up to \\(k\\) unit-cost errors.\nFind all matches.",
+          "link": "https://curiouscoding.nl/slides/sassy/",
+          "publishedOn": "2026-05-25T14:30:00.000Z",
+          "wordCount": 438,
+          "title": "Sassy 1 & 2: Fuzzy searching DNA using SIMD",
+          "imageUrl": null
+        },
+        {
+          "id": "https://curiouscoding.nl/slides/stpd/",
+          "author": null,
+          "description": "Text indexing: Locate all matches of a pattern\n \n \n Link to heading\n \n\n\n\n\n\n Focus: Locate leftmost match of a pattern\n \n \n Link to heading\n \n\n\n\n\n\n FM/r-index: cache miss per character\n \n \n Link to heading\n \n\n\n\n\n\n Suffix trees of repetitive text are repetitive too!\n \n \n Link to heading\n \n\nSuffixient arrays, Cenzato+\n\n\n\n\n Suffix tree: \\(O(d + m/B + \\mathit{occ})\\) I/O complexity\n \n \n Link to heading\n \n\n\n\\(m\\): pattern length\n\\(B\\): block size\n\\(d\\): depth in suffix tree, usually small\n\\(r\\): runs in Burrows Wheeler Transform (BWT)\nGoal: \\(O( r)\\) space, \\(O(d+m/B+\\mathit{occ})\\) I/Os",
+          "link": "https://curiouscoding.nl/slides/stpd/",
+          "publishedOn": "2026-05-25T12:55:00.000Z",
+          "wordCount": 596,
+          "title": "STPD: Compressing Suffix Trees by Path Decompositions",
+          "imageUrl": null
+        },
         {
           "id": "https://curiouscoding.nl/teaching/quickheap/",
           "author": null,
@@ -514,36 +494,6 @@
           "publishedOn": "2026-05-04T12:00:00.000Z",
           "wordCount": 1274,
           "title": "Succinct trees",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/slides/yigpp/",
-          "author": null,
-          "description": "My background\n \n \n Link to heading\n \n\n\n\n\n\n\n\n\n International co-authors in bioinformatics\n \n \n Link to heading\n \n\n\nTheory\n\nKIT, Venice, Halifax\nBioinformatics\n\nVenice, Lille, Helsinki, Maryland\nPractice\n\nBirmingham, Utrecht (de-facto PhD “supervisor”)\n\n\n\n\n\n\n\n Background\n \n \n Link to heading\n \n\n\nDNA sequencing is cheap → data grows exponentially\n\nHigh pace of new, fast, heuristic tools\nTheoretical CS does not match modern hardware\n\nNeed for new theory and engineered algorithms\nModern CPUs: SIMD instructions; caches\n\n\n\n\n\n\n\n\n\n\n Proposal: From theory to practice\n \n \n Link to heading\n \n\n\n\n\n\n Sanders’ Algorithm Engineering group @ KIT\n \n \n Link to heading\n \n\n\nStrong alumni\n\nSimon Gog, Florian Kurpicz\nStrong theoreticians\n\nStefan Walzer\nStrong in data structures\n\nStefan Hermann\nStrong engineers\n\nMarvin Williams\nKIT Focus areas:",
-          "link": "https://curiouscoding.nl/slides/yigpp/",
-          "publishedOn": "2026-04-28T22:00:00.000Z",
-          "wordCount": 173,
-          "title": "High Throughput Bioinformatics: Theory to/from Practice",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/teaching/elias-fano/",
-          "author": null,
-          "description": "Previous slides: Bit vectors, Rank & Select\n \n \n Link to heading\n \n\n\nBit vector: storing bits\nRank: counting 1 bits\nSelect: finding 1 bits\n\n Link to heading\n \n\n\nHow do we efficiently store a list of integers\n\\[\n0\\leq x_0 \\leq x_1 \\leq \\dots \\leq x_{n-1} < U.\n\\]\nTheorem 1 Lower bound.\nUsing stars and bars, there are \\(\\binom{U+n-1}{n}\\) of choosing \\(n\\) elements\n(with duplicates) from \\(\\{0, 1, \\dots, U-1\\}\\).",
-          "link": "https://curiouscoding.nl/teaching/elias-fano/",
-          "publishedOn": "2026-04-27T12:00:00.000Z",
-          "wordCount": 800,
-          "title": "Elias-Fano coding",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/teaching/rank-select/",
-          "author": null,
-          "description": "Last week: Models of computation\n \n \n Link to heading\n \n\n\nBig-O notation\nWord RAM model\n\nApplications & limitations\n\n Link to heading\n \n\n\nBit vectors\n\nstoring bits\nRank\n\ncounting 1-bits\nSelect\n\nfinding 1-bits\nEngineering Rank\n\nmaking it fast\nElias-Fano coding\n\nstoring integers efficiently\n\n Link to heading\n \n\nDefinition 1.\nA static bit vector is an implicit data structure storing \\(n\\) bits \\(b_0, \\dots, b_{n-1}\\) with constant overhead.",
-          "link": "https://curiouscoding.nl/teaching/rank-select/",
-          "publishedOn": "2026-04-27T12:00:00.000Z",
-          "wordCount": 1222,
-          "title": "Rank & Select",
           "imageUrl": null
         }
       ]

@@ -1,10 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-05-24T02:57:17.836Z</id>
+    <id>urn:2026-05-31T03:32:46.256Z</id>
     <title>osmos::feed</title>
-    <updated>2026-05-24T02:57:17.836Z</updated>
+    <updated>2026-05-31T03:32:46.256Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler]]></title>
+        <id>https://huggingface.co/blog/torch-profiler</id>
+        <link href="https://huggingface.co/blog/torch-profiler"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Embodied cognition and agentic AI]]></title>
+        <id>https://lemire.me/blog/?p=22669</id>
+        <link href="https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/"/>
+        <updated>2026-05-28T23:04:35.000Z</updated>
+        <summary type="html"><![CDATA[Where is your intelligence located? In your brain? It is a simplistic answer. A better model is that your intelligence is embodied. Consider a cook working at an expensive restaurant. He has all his favorite knives and cooking instructions, placed exactly where he wants them. His kitchen is part of his intelligence, of his skills. … Continue reading Embodied cognition and agentic AI]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM]]></title>
+        <id>https://huggingface.co/blog/ibm-research/itbench-aa</id>
+        <link href="https://huggingface.co/blog/ibm-research/itbench-aa"/>
+        <updated>2026-05-27T17:20:29.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reachy Mini goes fully local]]></title>
+        <id>https://huggingface.co/blog/local-reachy-mini-conversation</id>
+        <link href="https://huggingface.co/blog/local-reachy-mini-conversation"/>
+        <updated>2026-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL]]></title>
+        <id>https://huggingface.co/blog/delta-weight-sync</id>
+        <link href="https://huggingface.co/blog/delta-weight-sync"/>
+        <updated>2026-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sassy 1 & 2: Fuzzy searching DNA using SIMD]]></title>
+        <id>https://curiouscoding.nl/slides/sassy/</id>
+        <link href="https://curiouscoding.nl/slides/sassy/"/>
+        <updated>2026-05-25T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Previously
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+
+
+
+ Previously
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+
+
+
+
+
+
+ Long-read global alignment is just not a problem people have…
+ 
+ 
+ Link to heading
+ 
+
+
+ … Sassy: 100bp semi-global alignment
+ 
+ 
+ Link to heading
+ 
+
+
+ Takeaway 1: Math yay, Bio nay
+ 
+ 
+ Link to heading
+ 
+
+
+ Takeaway 2: Do simple stuff fast
+ 
+ 
+ Link to heading
+ 
+
+
+ Approximate String Matching
+ 
+ 
+ Link to heading
+ 
+
+
+Find pattern \(P\) in text \(T\).
+
+\(m := |P|\), \(n := |T|\)
+Allow up to \(k\) unit-cost errors.
+Find all matches.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[STPD: Compressing Suffix Trees by Path Decompositions]]></title>
+        <id>https://curiouscoding.nl/slides/stpd/</id>
+        <link href="https://curiouscoding.nl/slides/stpd/"/>
+        <updated>2026-05-25T12:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Text indexing: Locate all matches of a pattern
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ Focus: Locate leftmost match of a pattern
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ FM/r-index: cache miss per character
+ 
+ 
+ Link to heading
+ 
+
+
+
+
+
+ Suffix trees of repetitive text are repetitive too!
+ 
+ 
+ Link to heading
+ 
+
+Suffixient arrays, Cenzato+
+
+
+
+
+ Suffix tree: \(O(d + m/B + \mathit{occ})\) I/O complexity
+ 
+ 
+ Link to heading
+ 
+
+
+\(m\): pattern length
+\(B\): block size
+\(d\): depth in suffix tree, usually small
+\(r\): runs in Burrows Wheeler Transform (BWT)
+Goal: \(O( r)\) space, \(O(d+m/B+\mathit{occ})\) I/Os]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Harness, Scaffold, and the AI Agent Terms Worth Getting Right]]></title>
+        <id>https://huggingface.co/blog/agent-glossary</id>
+        <link href="https://huggingface.co/blog/agent-glossary"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #21 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-05-25/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-05-25/?mtm_campaign=feed"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 18th–24th May.
+
+The Bends
+
+Life#
+Last week was a mixed bag. I had some minor health issues that lasted almost through the week. It was annoying and uncomfortable, but I worked through it. My wife and child A also had some cough and cold because of the arrival of rains in Bengaluru. But I am not complaining. The rains have been a lifesaver for me. The temperature has gone down by more than 5 °C and my mood has improved drastically. I know that the rains caused a lot of issues for the traffic last week in Bengaluru, but somehow I managed to narrowly escape them all.
+Last week was A’s short summer vacation. After the heat declined, we went around doing small things. On Friday, I took a leave and all three of us went to the Google Ananta office (shown in the p…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Parsing IPv6 Addresses Crazily Fast with AVX-512]]></title>
         <id>https://lemire.me/blog/?p=22658</id>
@@ -103,16 +319,6 @@ I made feed-repeat for myself. I wanted a tool to send me old blogposts written 
         <link href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers"/>
         <updated>2026-05-18T15:12:46.000Z</updated>
         <summary type="html"><![CDATA[A Blog post by PaddlePaddle on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Open Agent Leaderboard]]></title>
-        <id>https://huggingface.co/blog/ibm-research/open-agent-leaderboard</id>
-        <link href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard"/>
-        <updated>2026-05-18T14:12:58.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -511,354 +717,6 @@ Our 3 yo A caught a slight cold after the rain, so we have been sleeping without
 Thankfully, both of us hit the brakes quite hard and the collision was minor. I got a severe whiplash from the sudden stop, and had to suffer through a backache for the next three months. Later I came to know that I had Covid-19 at the time I was driving, and that was probably why I wasn’t careful enough. In a strange way, the backache caused me to take bed …]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[House prices and fertility]]></title>
-        <id>https://lemire.me/blog/?p=22619</id>
-        <link href="https://lemire.me/blog/2026/04/30/house-prices-and-fertility/"/>
-        <updated>2026-04-30T22:17:34.000Z</updated>
-        <summary type="html"><![CDATA[No, rising house prices are not the driver of sharp fertility declines. The evidence shows only modest, mixed effects that cannot explain the large drops observed in places like Canada. What the Research Actually Shows: A well-known study by Dettling and Kearney (2014) found that rising house prices have opposing effects: they slightly increase fertility … Continue reading House prices and fertility]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Granite 4.1 LLMs: How They’re Built]]></title>
-        <id>https://huggingface.co/blog/ibm-granite/granite-4-1</id>
-        <link href="https://huggingface.co/blog/ibm-granite/granite-4-1"/>
-        <updated>2026-04-29T15:01:48.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepInfra on Hugging Face Inference Providers 🔥]]></title>
-        <id>https://huggingface.co/blog/inference-providers-deepinfra</id>
-        <link href="https://huggingface.co/blog/inference-providers-deepinfra"/>
-        <updated>2026-04-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[High Throughput Bioinformatics: Theory to/from Practice]]></title>
-        <id>https://curiouscoding.nl/slides/yigpp/</id>
-        <link href="https://curiouscoding.nl/slides/yigpp/"/>
-        <updated>2026-04-28T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[My background
- 
- 
- Link to heading
- 
-
-
-
-
-
-
-
-
- International co-authors in bioinformatics
- 
- 
- Link to heading
- 
-
-
-Theory
-
-KIT, Venice, Halifax
-Bioinformatics
-
-Venice, Lille, Helsinki, Maryland
-Practice
-
-Birmingham, Utrecht (de-facto PhD “supervisor”)
-
-
-
-
-
-
-
- Background
- 
- 
- Link to heading
- 
-
-
-DNA sequencing is cheap → data grows exponentially
-
-High pace of new, fast, heuristic tools
-Theoretical CS does not match modern hardware
-
-Need for new theory and engineered algorithms
-Modern CPUs: SIMD instructions; caches
-
-
-
-
-
-
-
-
-
-
- Proposal: From theory to practice
- 
- 
- Link to heading
- 
-
-
-
-
-
- Sanders’ Algorithm Engineering group @ KIT
- 
- 
- Link to heading
- 
-
-
-Strong alumni
-
-Simon Gog, Florian Kurpicz
-Strong theoreticians
-
-Stefan Walzer
-Strong in data structures
-
-Stefan Hermann
-Strong engineers
-
-Marvin Williams
-KIT Focus areas:]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents]]></title>
-        <id>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</id>
-        <link href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence"/>
-        <updated>2026-04-28T15:58:57.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You can beat the binary search]]></title>
-        <id>https://lemire.me/blog/?p=22600</id>
-        <link href="https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/"/>
-        <updated>2026-04-27T17:32:13.000Z</updated>
-        <summary type="html"><![CDATA[We sometimes have to look for a value in a sorted array. The simplest algorithm consists in just going through the values one by one, until we encounter the value, or exhaust the array. We sometimes call this algorithm a linear search. In C++, you can get the desired effect with the std::find function. For … Continue reading You can beat the binary search]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elias-Fano coding]]></title>
-        <id>https://curiouscoding.nl/teaching/elias-fano/</id>
-        <link href="https://curiouscoding.nl/teaching/elias-fano/"/>
-        <updated>2026-04-27T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Previous slides: Bit vectors, Rank & Select
- 
- 
- Link to heading
- 
-
-
-Bit vector: storing bits
-Rank: counting 1 bits
-Select: finding 1 bits
-
- Link to heading
- 
-
-
-How do we efficiently store a list of integers
-\[
-0\leq x_0 \leq x_1 \leq \dots \leq x_{n-1} < U.
-\]
-Theorem 1 Lower bound.
-Using stars and bars, there are \(\binom{U+n-1}{n}\) of choosing \(n\) elements
-(with duplicates) from \(\{0, 1, \dots, U-1\}\).]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rank & Select]]></title>
-        <id>https://curiouscoding.nl/teaching/rank-select/</id>
-        <link href="https://curiouscoding.nl/teaching/rank-select/"/>
-        <updated>2026-04-27T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last week: Models of computation
- 
- 
- Link to heading
- 
-
-
-Big-O notation
-Word RAM model
-
-Applications & limitations
-
- Link to heading
- 
-
-
-Bit vectors
-
-storing bits
-Rank
-
-counting 1-bits
-Select
-
-finding 1-bits
-Engineering Rank
-
-making it fast
-Elias-Fano coding
-
-storing integers efficiently
-
- Link to heading
- 
-
-Definition 1.
-A static bit vector is an implicit data structure storing \(n\) bits \(b_0, \dots, b_{n-1}\) with constant overhead.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to build scalable web apps with OpenAI's Privacy Filter]]></title>
-        <id>https://huggingface.co/blog/openai-privacy-filter-web-apps</id>
-        <link href="https://huggingface.co/blog/openai-privacy-filter-web-apps"/>
-        <updated>2026-04-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I have officially retired from Emacs]]></title>
-        <id>https://nullprogram.com/blog/2026/04/26/</id>
-        <link href="https://nullprogram.com/blog/2026/04/26/"/>
-        <updated>2026-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This article was discussed on reddit and on Hacker News.
-This past Tuesday I typed C-x C-c in Emacs for the last time after 20
-years of daily use. Though nearly half that time was gradually
-retiring it, switching to modal editing, then to Vim. Emacs is a platform,
-and I’d grown accustomed to its applications, especially those I built
-myself. There was no particular hurry, so replacements came slowly. With
-my newly-acquired superpowers I could knock out the last two pieces
-in a few days’ work, namely M-x calc with stackcalc and
-Elfeed with Elfeed2. I’m especially excited about the
-latter because it already exceeds the original. Both are multi-platform,
-native C++ GUI applications using native UI components.
-
-These actively-in-use packages require new maintainers (apply on
-the project’s issu…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Playlist: Earworms]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-playlist-earworms/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-playlist-earworms/?mtm_campaign=feed"/>
-        <updated>2026-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Trying a new note format inspired by Azan’s Playlists. Here is a playlist of songs that I find really hard to get out of my head once listened to:
-Anthems For A Seventeen Year-Old Girl — Broken Social Scene
-A Teenager In Love — Dion & The Belmonts
-Angel Of The Morning — Juice Newton
-I Only Want To Be With You — Dusty Springfield
-Such Great Heights — Streetlight Manifesto
-Just A Girl — No Doubt
-All Star — Smash Mouth
-What’s Up? — 4 Non Blondes
-Listen: On Spotify • On YouTube Music
-
-Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
-This post was originally published on abhinavsarkar.net.
-Like, repost, or comment on:
-
-
-
-
-My website
-
-Read more of my posts and notes.]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #17 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-04-26/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-04-26/?mtm_campaign=feed"/>
-        <updated>2026-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 20th–26th April.
-
-This is going to be a short note. The summer is at its peak in Bangalore. The heat is making my body unable to do anything productive. I’m running in power-save mode, where I’m doing minimal possible work. So I don’t really have much to write about.
-I’m over the food poisoning from the previous week, but a little bit of weariness persists. I didn’t even go for my usual walks. Hence:
-Current daily average steps per month: 9183
-Personal Projects#
-Only thing I did this week is to create a Mastodon account for Indieweb Club BLR, and connect it to Echofeed to push the blogroll posts to Mastodon. Follow it if you’re interested.
-Outings#
-I was feeling bored out of my mind, so one evening, I went to the newly opened Nerlu cafe in my neighbourhood along with A and wife. The food and desserts were great, but the cafe was full of people working on their laptops and talking loudly about their work. I prefer a little quieter cafes. I hear that their coffee drinks are also pretty good, but I’ve been off coffee for months now, so no reviews from my side.
-Writing#
-On a whim and inspired by Azan’s Playlists, I made a note making one of my playlists public.
-Watching#
-Not much to report here. I’ve just been watching random things on YouTube, and rewatching old movies on Netflix.
-Interesting Internet Links#
-2026 Boston Marathon Race Report
-Lean of Faith
-Static single assignment for functional programmers
-That’s all for this week. You can subscribe to the feed of my week notes for updates.
-
-Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
-This post was originally published on abhinavsarkar.net.
-Like, repost, or comment on:
-
-
-
-
-My website
-
-Read more of my posts and notes.]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My brave new code-signing world]]></title>
-        <id>https://nullprogram.com/blog/2026/04/25/</id>
-        <link href="https://nullprogram.com/blog/2026/04/25/"/>
-        <updated>2026-04-25T18:12:29.000Z</updated>
-        <summary type="html"><![CDATA[The new w64devkit release two weeks ago is the first to be code-signed
-with my identity, verified by Microsoft’s certificate chain. Currently
-only the release packaging is signed — the self-extracting archive and
-its payload — but I will soon code-sign individual EXEs and DLLs within
-the distribution. In fact, all Windows builds of my project releases
-have been code-signed the past two weeks, including dcmake, and so
-should everything going forward. My signing identity builds reputation
-with each download, so users will have an easier time with SmartScreen,
-and security software generally. Azure Artifact Signing creates the
-actual signature, but the rest is done with new infrastructure I built
-myself, aas-sign. As is often the case, the existing options were
-deficient for my needs, so I ha…]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>
