@@ -18,6 +18,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
+          "author": null,
+          "description": "An ersatz CSS tutorial for people who need to style a web page, but aren't web developers. I am a wrong person to write this kind of thing, as I have neither the time, nor experience. I'd much rather read a book about this. Alas, I had to learn all this stuff from trawling MDN, so perhaps it is valuable to document what I have so far.",
+          "link": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
+          "publishedOn": "2026-06-04T00:00:00.000Z",
+          "wordCount": 2799,
+          "title": "CSS: Unavoidable Bad Parts",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2026/05/21/symlinking-nixos-dotfiles.html",
           "author": null,
           "description": "The standard answer to managing dotfiles on NixOS is home-manager. I've never used it, due to two aesthetic and one practical objection:",
@@ -36,26 +46,6 @@
           "wordCount": 1209,
           "title": "Always Be Blaming",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/05/14/catch-flakes-on-main.html",
-          "author": null,
-          "description": "A small Mechanical Habit today:",
-          "link": "https://matklad.github.io/2026/05/14/catch-flakes-on-main.html",
-          "publishedOn": "2026-05-14T00:00:00.000Z",
-          "wordCount": 381,
-          "title": "Catch Flakes On Main",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/05/12/software-architecture.html",
-          "author": null,
-          "description": "In reply to an email asking about learning software design skills as a researcher physicist:",
-          "link": "https://matklad.github.io/2026/05/12/software-architecture.html",
-          "publishedOn": "2026-05-12T00:00:00.000Z",
-          "wordCount": 1142,
-          "title": "Learning Software Architecture",
-          "imageUrl": null
         }
       ]
     },
@@ -71,14 +61,64 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
-          "id": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+          "id": "https://huggingface.co/blog/allenai/olmo-eval",
           "author": null,
-          "description": "A Blog post by Build Small Hackathon on Hugging Face",
-          "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-          "publishedOn": "2026-06-06T19:02:33.000Z",
-          "wordCount": 1412,
-          "title": "Five labs, five minds: building a multi-model finance drama on small models",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/build-small-hackathon/thousand-token-wood-sim-v2.png"
+          "description": "A Blog post by Ai2 on Hugging Face",
+          "link": "https://huggingface.co/blog/allenai/olmo-eval",
+          "publishedOn": "2026-06-12T15:56:10.000Z",
+          "wordCount": 1769,
+          "title": "olmo-eval: An evaluation workbench for the model development loop",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/gacAOFYwPkpxu7cC4eeey.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/torch-mlp-fusion",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/torch-mlp-fusion",
+          "publishedOn": "2026-06-11T00:00:00.000Z",
+          "wordCount": 3959,
+          "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+          "imageUrl": "https://huggingface.co/blog/assets/torch-mlp-fusion/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+          "author": null,
+          "description": "A Blog post by Cohere Labs on Hugging Face",
+          "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+          "publishedOn": "2026-06-09T15:56:23.000Z",
+          "wordCount": 3091,
+          "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/CohereLabs/introducing-north-mini-code.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/mishig/spaces-agents-md",
+          "author": null,
+          "description": "A Blog post by Mishig Davaadorj on Hugging Face",
+          "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+          "publishedOn": "2026-06-09T10:46:19.000Z",
+          "wordCount": 2430,
+          "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/60a551a34ecc5d054c8ad93e/0tamlKpAvO3lZEklNmwHT.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/github-ci-hf-jobs",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/github-ci-hf-jobs",
+          "publishedOn": "2026-06-09T00:00:00.000Z",
+          "wordCount": 2114,
+          "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+          "imageUrl": "https://huggingface.co/blog/assets/github-ci-hf-jobs/thumbnail.gif"
+        },
+        {
+          "id": "https://huggingface.co/blog/openenv-agentic-rl",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/openenv-agentic-rl",
+          "publishedOn": "2026-06-08T00:00:00.000Z",
+          "wordCount": 1407,
+          "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+          "imageUrl": "https://huggingface.co/blog/assets/openenv/thumbnail_expansion.png"
         },
         {
           "id": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
@@ -86,19 +126,9 @@
           "description": "A Blog post by NVIDIA on Hugging Face",
           "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
           "publishedOn": "2026-06-04T18:57:45.000Z",
-          "wordCount": 2723,
+          "wordCount": 2726,
           "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
           "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-5-content-safety.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-          "author": null,
-          "description": "A Blog post by ServiceNow-AI on Hugging Face",
-          "link": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-          "publishedOn": "2026-06-04T12:24:58.000Z",
-          "wordCount": 2412,
-          "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/eva-bench-data.png"
         },
         {
           "id": "https://huggingface.co/blog/hf-cli-for-agents",
@@ -166,7 +196,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/torch-profiler",
           "publishedOn": "2026-05-29T00:00:00.000Z",
-          "wordCount": 5501,
+          "wordCount": 5537,
           "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
           "imageUrl": "https://huggingface.co/blog/assets/torch-profiler/thumbnail.png"
         },
@@ -176,7 +206,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
           "publishedOn": "2026-05-27T00:00:00.000Z",
-          "wordCount": 2199,
+          "wordCount": 2204,
           "title": "Reachy Mini goes fully local",
           "imageUrl": "https://huggingface.co/blog/assets/local-reachy-mini-conversation/thumbnail.png"
         },
@@ -186,7 +216,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/delta-weight-sync",
           "publishedOn": "2026-05-27T00:00:00.000Z",
-          "wordCount": 4404,
+          "wordCount": 4403,
           "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
           "imageUrl": "https://huggingface.co/blog/assets/delta-weight-sync/thumbnail.png"
         },
@@ -196,7 +226,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/agent-glossary",
           "publishedOn": "2026-05-25T00:00:00.000Z",
-          "wordCount": 2661,
+          "wordCount": 2668,
           "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
           "imageUrl": "https://huggingface.co/blog/assets/agent-glossary/thumbnail.png"
         },
@@ -206,7 +236,7 @@
           "description": "A Blog post by Ai2 on Hugging Face",
           "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
           "publishedOn": "2026-05-19T18:38:09.000Z",
-          "wordCount": 1197,
+          "wordCount": 1210,
           "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/19ZFgyFbi-kj2Yf0WUPGk.png"
         },
@@ -229,36 +259,6 @@
           "wordCount": 1311,
           "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/652b2e9166313ebb6197e706/Bl-qDWU9OfuXZ06hNxZE7.jpeg"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-          "author": null,
-          "description": "A Blog post by IBM Granite on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-          "publishedOn": "2026-05-14T18:55:01.000Z",
-          "wordCount": 3856,
-          "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-embedding-multilingual-r2.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/continuous_async",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/continuous_async",
-          "publishedOn": "2026-05-14T00:00:00.000Z",
-          "wordCount": 4726,
-          "title": "Unlocking asynchronicity in continuous batching",
-          "imageUrl": "https://huggingface.co/blog/assets/continuous_async/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-          "author": null,
-          "description": "A Blog post by Amazon on Hugging Face",
-          "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-          "publishedOn": "2026-05-11T23:18:26.000Z",
-          "wordCount": 4609,
-          "title": "Building Blocks for Foundation Model Training and Inference on AWS",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/64d6b270c2eedf9af82baa23/YybsyZaGr5f0fLe0qDuLn.png"
         }
       ]
     },
@@ -280,12 +280,32 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed",
+          "author": null,
+          "description": "feed-repeat is a small tool that selects old posts from RSS/Atom feeds you configure and puts them into a new Atom feed. Use it with your feed reader for a spaced-repetition-like experience for feeds. See the announcement post for the motivation behind it, and more details.\nI just released v1.1 of feed-repeat. This release brings some great new features, and improves the security and performance. The biggest highlight: you can now run feed-repeat entirely on GitHub, no server needed!\nThe repo now includes a GitHub Actions workflow that runs feed-repeat daily, and publishes the generated feeds to GitHub Pages. Getting started is simple: fork the repo, edit config.yaml with your source feeds, enable the workflow, enable GitHub Pages, and subscribe to the generated feeds in your feed reader. …",
+          "link": "https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed",
+          "publishedOn": "2026-06-13T00:00:00.000Z",
+          "wordCount": 893,
+          "title": "feed-repeat v1.1: Hosting on GitHub Pages, New Posts Passthrough, SSRF\nProtection, and More",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-feed-repeat-v1_1.png"
+        },
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-06-08/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 1st–7th June.\n\nLife#\nLast week was a week of rest and recovery. I felt better with each passing day. I wonder if what happened to me in the last month was some sort of echo of my burnout and spell of illness of the last year. But this time I didn’t wait six months, I immediately started focusing on resting and nutrition. I hope this cuts down my recovery period substantially. Although I can walk ten thousand steps a day, I’m not forcing myself too, at least for next few weeks.\nThe weather has been fine. I’m sad to miss exercising outside, but resting is a priority for now. I’ll try going to the gym this week. Let’s see.\nPersonal Projects#\nI stayed indoors, and spent all my free time working on feed-repeat, my recently open-sourced niche Haskell project. One of the things I did was to create a website for it, so now you can read about the work I did right there. I’m very close to a second release.\nI also upgraded NixOS to version 26.05 on my VPS. I ran into a snag, that I ranted about on internet.\nIndieWebClub#\nThere was no IWC meetup last week, but a few folks wrote about the Special Edition meetup in their blogs, which was really nice to read about. I also wrote about it, specifically about the behind-the-scenes work we did to make it happen.\nWatching#\nWife and I started watching Spider Noir on Prime Video. It’s a great show but I’m a little disappointed that it’s mostly Noir and very less Spider.\nI finished watching Bocchi the Rock!. What a great show! It made me start going to music classes again.\nInteresting Internet Links#\nQuality in the Age of Slop\nThinking about names, as well as scuba diving\nA Reckless Introduction to Hindley-Milner Type Inference\nThat’s all for this week. You can subscribe to the feed of my week notes for updates.\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-06-08/?mtm_campaign=feed",
+          "publishedOn": "2026-06-08T00:00:00.000Z",
+          "wordCount": 886,
+          "title": "Notes for the Week #23 (2026)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-06-08.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2026-iwcb-se-bts/?mtm_campaign=feed",
           "author": null,
           "description": "It all started with a question about cake. IndieWebClub Bangalore had its one-year anniversary on 24 May 2026. After the meetup on 2nd May, I asked Ankur and Tanvi if we could get some cake to celebrate the anniversary. We agreed to it, but a larger idea had taken roots in my mind.\nConception#\nOn 5th May, I posted in the IWCB admins group chat:\nI was wondering if we could do a special meetup on 30th with no agenda and a little anniversary celebration.\nOr we could do a small unconference in underline, inviting 10 min talks from the attendees for first few hours and then go somewhere for a cake.\nAfter some back-and-forth, Tanvi and Ankur liked the idea, and thus started the planning for the Special Edition meetup, where we would invite the folks from the IWCB community to present their talks…",
           "link": "https://abhinavsarkar.net/notes/2026-iwcb-se-bts/?mtm_campaign=feed",
           "publishedOn": "2026-06-01T00:00:00.000Z",
-          "wordCount": 1731,
+          "wordCount": 1752,
           "title": "IndieWebClub Bangalore: Special Edition Meetup, Behind the Scenes",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-iwcb-se-bts.png"
         },
@@ -305,7 +325,7 @@
           "description": "This week note covers the week of 18th–24th May.\n\nThe Bends\n\nLife#\nLast week was a mixed bag. I had some minor health issues that lasted almost through the week. It was annoying and uncomfortable, but I worked through it. My wife and child A also had some cough and cold because of the arrival of rains in Bengaluru. But I am not complaining. The rains have been a lifesaver for me. The temperature has gone down by more than 5 °C and my mood has improved drastically. I know that the rains caused a lot of issues for the traffic last week in Bengaluru, but somehow I managed to narrowly escape them all.\nLast week was A’s short summer vacation. After the heat declined, we went around doing small things. On Friday, I took a leave and all three of us went to the Google Ananta office (shown in the p…",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-05-25/?mtm_campaign=feed",
           "publishedOn": "2026-05-25T00:00:00.000Z",
-          "wordCount": 1078,
+          "wordCount": 1084,
           "title": "Notes for the Week #21 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-05-25.png"
         },
@@ -315,7 +335,7 @@
           "description": "Have you ever wanted to reread that old article posted by your favourite author on their website? Do you use feed readers and wish that some great posts from your friends magically reappear in your inbox so that you can remember the good old days? Do you want to use your feed reader as sort of a space-repetition tool? Well then, feed-repeat is for you.\nI have just released the version 1.0 of feed-repeat, a small tool that does only one thing: it takes some posts from the RSS/Atom feeds you configure and puts them in a new Atom feed that you can subscribe to in your feed reader. That’s all.\nI made feed-repeat for myself. I wanted a tool to send me old blogposts written by my favourite authors so that I could enjoy them again, but also not be overwhelmed by a wall of hundreds of unread old p…",
           "link": "https://abhinavsarkar.net/notes/2026-feed-repeat/?mtm_campaign=feed",
           "publishedOn": "2026-05-23T00:00:00.000Z",
-          "wordCount": 1071,
+          "wordCount": 1094,
           "title": "Announcing feed-repeat v1.0",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-feed-repeat.png"
         },
@@ -328,16 +348,6 @@
           "wordCount": 1048,
           "title": "Notes for the Week #20 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-05-17.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-05-10/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 4th–10th May.\n\nParis? Paris!\n\nLife#\nAfter a gap of three weeks, I finally felt recovered enough last week to be more physically active. I was able to hit the gym twice, and also go for a run after a break of a whole month. I also walked 20kms. It was nice to feel the energy back in my body.\n\n\n\n\nThe downside was the soreness and exhaustion I felt most of the time. I barely could do anything else outside work. I wasted a lot of time staring at the screens before I finally got so fed up on Saturday that I went for a long walk. It was just before the rains and the weather was amazing. The walk refreshed me and brought me out of the zombieness.\nI seem to be going through some sort of SAD spell, most likely due to the summer heat making me unable to do fun thing…",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-05-10/?mtm_campaign=feed",
-          "publishedOn": "2026-05-10T00:00:00.000Z",
-          "wordCount": 1079,
-          "title": "Notes for the Week #19 (2026)",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-05-10.png"
         }
       ]
     },
@@ -347,12 +357,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22693",
+          "author": "Daniel Lemire",
+          "description": "The keyword in politics these days is ‘sovereign’. What few will admit is that it is effectively the adoption of the American strategy: Make America Great Again. In other words, reindustrialization of key sectors of the economy. The UK used to be a computing champion. Our chip designs (ARM) originated from the UK. Canada had … Continue reading Sovereign",
+          "link": "https://lemire.me/blog/2026/06/09/22693/",
+          "publishedOn": "2026-06-09T18:39:32.000Z",
+          "wordCount": 4237,
+          "title": "Sovereign",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/Capture-decran-le-2026-06-09-a-14.39.13-1024x625.png"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22682",
           "author": "Daniel Lemire",
           "description": "Our 64-bit Intel and AMD processors have evolved over decades. When you compile a Go program for a 64-bit Intel or AMD processor, the compiler targets, by default, a nearly 20-year-old instruction set. The binary that comes out runs on essentially any x64 chip, but it also leaves on the table every instruction that was … Continue reading How much do amd64 microarchitecture levels help in Go?",
           "link": "https://lemire.me/blog/2026/06/06/how-much-do-amd64-microarchitecture-levels-help-in-go/",
           "publishedOn": "2026-06-06T20:25:19.000Z",
-          "wordCount": 4136,
+          "wordCount": 4459,
           "title": "How much do amd64 microarchitecture levels help in Go?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/Capture-decran-le-2026-06-06-a-16.18.20-1024x683.png"
         },
@@ -362,7 +382,7 @@
           "description": "Where is your intelligence located? In your brain? It is a simplistic answer. A better model is that your intelligence is embodied. Consider a cook working at an expensive restaurant. He has all his favorite knives and cooking instructions, placed exactly where he wants them. His kitchen is part of his intelligence, of his skills. … Continue reading Embodied cognition and agentic AI",
           "link": "https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/",
           "publishedOn": "2026-05-28T23:04:35.000Z",
-          "wordCount": 4618,
+          "wordCount": 4642,
           "title": "Embodied cognition and agentic AI",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Gemini_Generated_Image_x5dd1px5dd1px5dd-1024x572.png"
         },
@@ -372,7 +392,7 @@
           "description": "Every machine connected to the Internet has an address called an IP address. Originally, these addresses were 32-bit integers (IPv4), giving a theoretical maximum of about four billion distinct addresses. We are all familiar with these addresses (e.g., 192.168.0.0). There was a big fuss about how we would run out of addresses. It never happened … Continue reading Parsing IPv6 Addresses Crazily Fast with AVX-512",
           "link": "https://lemire.me/blog/2026/05/23/parsing-ipv6-addresses-crazily-fast-with-avx-512/",
           "publishedOn": "2026-05-23T02:45:11.000Z",
-          "wordCount": 3986,
+          "wordCount": 3967,
           "title": "Parsing IPv6 Addresses Crazily Fast with AVX-512",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Capture-decran-le-2026-05-22-a-22.42.35-1024x466.png"
         },
@@ -382,7 +402,7 @@
           "description": "In software programming, the product between two integers is often computed to a fixed number of bits with overflow. Consider 8-bit integers. If you multiply 127 by 127, you get back the number 1 as an 8-bit unsigned integer, with an overflow. The actual full product is 16129. To represent 16129, you typically use 16 … Continue reading Only 17% of all 64-bit Integers are products of two 32-bit integers",
           "link": "https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/",
           "publishedOn": "2026-05-22T01:16:35.000Z",
-          "wordCount": 4249,
+          "wordCount": 4377,
           "title": "Only 17% of all 64-bit Integers are products of two 32-bit integers",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Gemini_Generated_Image_pbz9q4pbz9q4pbz9-1024x559.png"
         },
@@ -392,7 +412,7 @@
           "description": "Converting a 64-bit integer to its decimal string representation is a mundane task that shows up everywhere: logging, JSON serialization, CSV output, debug prints, etc. In C++, you might use std::to_chars, sprintf, or some library routine. How do these functions work? At a high level, they repeatedly divide by ten. Start with your integer k. … Continue reading SIMD-accelerated integer-to-string conversion",
           "link": "https://lemire.me/blog/2026/05/18/simd-accelerated-integer-to-string-conversion/",
           "publishedOn": "2026-05-18T19:39:49.000Z",
-          "wordCount": 4189,
+          "wordCount": 4170,
           "title": "SIMD-accelerated integer-to-string conversion",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/05/Gemini_Generated_Image_bzgphmbzgphmbzgp-1024x572.png"
         }
@@ -415,7 +435,7 @@
           "description": "In recent months I've heard of several teams with an interesting policy:\neach pull request should be no more than a few files, and no more than a\ncertain number of lines (say 500). And do just one thing and do it well. And\nbe easy for a human to review. And be fully tested by the test suite.\nAll those are good requirements, right? Surely this is quality software\nengineering.\nAnd often, the results are good. Sure, splitting a single 6000-line feature\nor fix into twelve 500-line PRs is more work, but each of those PRs is\nsurely easier to review. And you can git bisect them when there's a bug! And\nmaybe revert the individual change that broke something.\n...and also cause 12x as many context switches for your\nreviewers as they\nreview each one sequentially.1 But that's just the cost of\nsoftware…",
           "link": "https://apenwarr.ca/log/20260531",
           "publishedOn": "2026-05-31T20:24:22.000Z",
-          "wordCount": 1776,
+          "wordCount": 1772,
           "title": "The software industry: annealing, but wrong",
           "imageUrl": null
         }
@@ -464,36 +484,6 @@
           "publishedOn": "2026-05-18T12:00:00.000Z",
           "wordCount": 53,
           "title": "QuickHeap",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/slides/2026-spring-update/",
-          "author": null,
-          "description": "Bioinformatics software\n \n \n Link to heading\n \n\n\n\n\n\n Bioinformatics theory\n \n \n Link to heading\n \n\n\n\n\n\n Algorithm engineering\n \n \n Link to heading\n \n\n\n\n\n\n Misc\n \n \n Link to heading",
-          "link": "https://curiouscoding.nl/slides/2026-spring-update/",
-          "publishedOn": "2026-05-12T09:00:00.000Z",
-          "wordCount": 61,
-          "title": "Spring update",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/sus-anchors/",
-          "author": null,
-          "description": "Table of Contents\n1 Abstract\n2 Introduction\n3 Preliminaries\n\n3.1 Minimizers and sampling schemes\n3.2 Bidirectional string anchors\n3.3 Maximal suffixes\n4 Character-based orders\n5 Smallest unique substring anchors\n\n5.1 Properties\n5.2 Computing SUS-anchors\n6 Results\n7 Discussion\n\\[\n\\newcommand{\\sus}{\\mathsf{SUS}}\n\\newcommand{\\lcp}{\\mathsf{lcp}}\n\\newcommand{\\last}{\\mathsf{last}}\n\\]\nA preprint of this blog can be found here: PDF, DOI (Groot Koerkamp 2026).\n1 Abstract\n \n \n Link to heading\n \n\nMotivation.\nIn recent years, there has been a renewed interest in the search for low density\nminimizer schemes. These schemes take a window of \\(w\\) consecutive \\(k\\)-mers,\nand sample one of them: the smallest under some specific order.\nSchemes such as the mod-minimizer provide a low density (fraction of sampled \\(k\\)-mers) when\n\\(k \\gg w\\), while schemes such as the greedy minimizer work well for explicit\nsmall parameters roughly in the regime \\(k \\leq 2w\\), for \\(k\\) and \\(w\\) up\nto \\(15\\) or so.",
-          "link": "https://curiouscoding.nl/posts/sus-anchors/",
-          "publishedOn": "2026-05-11T22:00:00.000Z",
-          "wordCount": 5044,
-          "title": "The anti-lexicographic SUS-anchor: a near-optimal k=1 sampling scheme",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/teaching/rmq-notes/",
-          "author": null,
-          "description": "Table of Contents\n1 Naive\n\n1.1 Compute on-the-fly\n1.2 Precompute everything\n2 Space lower bounds\n3 Sparse Table: \\(O(1)\\) queries, \\(O(n \\log_2 n)\\) words\n4 Segment Tree: \\(O(\\log n)\\) queries, \\(O(n)\\) words\n5 Blocks: \\(O(s)\\) queries, \\(O(n/s \\log n)\\) words\n6 Cartesian Trees: \\(O(1)\\) queries, \\(O(n)\\) words\n7 Recursive Cartesian Trees: \\(O(1)\\) queries, \\(2n+o(n)\\) bits\n8 Blackboard\n\\[\n\\DeclareMathOperator*{\\argmin}{arg\\,min}\n\\newcommand{\\rmq}{\\mathsf{rmq}}\n\\]\nThese notes are based on slides by Florian Kurpicz and the paper by\nFischer and Heun (2011) that introduces a number of optimal implementations.",
-          "link": "https://curiouscoding.nl/teaching/rmq-notes/",
-          "publishedOn": "2026-05-10T22:00:00.000Z",
-          "wordCount": 1963,
-          "title": "Range Minimum Queries",
           "imageUrl": null
         }
       ]

@@ -1,10 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-06-07T03:36:32.422Z</id>
+    <id>urn:2026-06-14T03:43:16.190Z</id>
     <title>osmos::feed</title>
-    <updated>2026-06-07T03:36:32.422Z</updated>
+    <updated>2026-06-14T03:43:16.190Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[feed-repeat v1.1: Hosting on GitHub Pages, New Posts Passthrough, SSRF
+Protection, and More]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed"/>
+        <updated>2026-06-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[feed-repeat is a small tool that selects old posts from RSS/Atom feeds you configure and puts them into a new Atom feed. Use it with your feed reader for a spaced-repetition-like experience for feeds. See the announcement post for the motivation behind it, and more details.
+I just released v1.1 of feed-repeat. This release brings some great new features, and improves the security and performance. The biggest highlight: you can now run feed-repeat entirely on GitHub, no server needed!
+The repo now includes a GitHub Actions workflow that runs feed-repeat daily, and publishes the generated feeds to GitHub Pages. Getting started is simple: fork the repo, edit config.yaml with your source feeds, enable the workflow, enable GitHub Pages, and subscribe to the generated feeds in your feed reader. …]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[olmo-eval: An evaluation workbench for the model development loop]]></title>
+        <id>https://huggingface.co/blog/allenai/olmo-eval</id>
+        <link href="https://huggingface.co/blog/allenai/olmo-eval"/>
+        <updated>2026-06-12T15:56:10.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP]]></title>
+        <id>https://huggingface.co/blog/torch-mlp-fusion</id>
+        <link href="https://huggingface.co/blog/torch-mlp-fusion"/>
+        <updated>2026-06-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sovereign]]></title>
+        <id>https://lemire.me/blog/?p=22693</id>
+        <link href="https://lemire.me/blog/2026/06/09/22693/"/>
+        <updated>2026-06-09T18:39:32.000Z</updated>
+        <summary type="html"><![CDATA[The keyword in politics these days is ‘sovereign’. What few will admit is that it is effectively the adoption of the American strategy: Make America Great Again. In other words, reindustrialization of key sectors of the economy. The UK used to be a computing champion. Our chip designs (ARM) originated from the UK. Canada had … Continue reading Sovereign]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing North Mini Code: Cohere’s First Model For Developers]]></title>
+        <id>https://huggingface.co/blog/CohereLabs/introducing-north-mini-code</id>
+        <link href="https://huggingface.co/blog/CohereLabs/introducing-north-mini-code"/>
+        <updated>2026-06-09T15:56:23.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Cohere Labs on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces]]></title>
+        <id>https://huggingface.co/blog/mishig/spaces-agents-md</id>
+        <link href="https://huggingface.co/blog/mishig/spaces-agents-md"/>
+        <updated>2026-06-09T10:46:19.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Mishig Davaadorj on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrating Your GitHub CI to Hugging Face Jobs]]></title>
+        <id>https://huggingface.co/blog/github-ci-hf-jobs</id>
+        <link href="https://huggingface.co/blog/github-ci-hf-jobs"/>
+        <updated>2026-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Open Source Community is backing OpenEnv for Agentic RL]]></title>
+        <id>https://huggingface.co/blog/openenv-agentic-rl</id>
+        <link href="https://huggingface.co/blog/openenv-agentic-rl"/>
+        <updated>2026-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #23 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-06-08/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-06-08/?mtm_campaign=feed"/>
+        <updated>2026-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 1st–7th June.
+
+Life#
+Last week was a week of rest and recovery. I felt better with each passing day. I wonder if what happened to me in the last month was some sort of echo of my burnout and spell of illness of the last year. But this time I didn’t wait six months, I immediately started focusing on resting and nutrition. I hope this cuts down my recovery period substantially. Although I can walk ten thousand steps a day, I’m not forcing myself too, at least for next few weeks.
+The weather has been fine. I’m sad to miss exercising outside, but resting is a priority for now. I’ll try going to the gym this week. Let’s see.
+Personal Projects#
+I stayed indoors, and spent all my free time working on feed-repeat, my recently open-sourced niche Haskell project. One of the things I did was to create a website for it, so now you can read about the work I did right there. I’m very close to a second release.
+I also upgraded NixOS to version 26.05 on my VPS. I ran into a snag, that I ranted about on internet.
+IndieWebClub#
+There was no IWC meetup last week, but a few folks wrote about the Special Edition meetup in their blogs, which was really nice to read about. I also wrote about it, specifically about the behind-the-scenes work we did to make it happen.
+Watching#
+Wife and I started watching Spider Noir on Prime Video. It’s a great show but I’m a little disappointed that it’s mostly Noir and very less Spider.
+I finished watching Bocchi the Rock!. What a great show! It made me start going to music classes again.
+Interesting Internet Links#
+Quality in the Age of Slop
+Thinking about names, as well as scuba diving
+A Reckless Introduction to Hindley-Milner Type Inference
+That’s all for this week. You can subscribe to the feed of my week notes for updates.
+
+Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
+This post was originally published on abhinavsarkar.net.
+Like, repost, or comment on:
+
+
+
+
+My website
+
+Read more of my posts and notes.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How much do amd64 microarchitecture levels help in Go?]]></title>
         <id>https://lemire.me/blog/?p=22682</id>
@@ -13,16 +134,6 @@
         <summary type="html"><![CDATA[Our 64-bit Intel and AMD processors have evolved over decades. When you compile a Go program for a 64-bit Intel or AMD processor, the compiler targets, by default, a nearly 20-year-old instruction set. The binary that comes out runs on essentially any x64 chip, but it also leaves on the table every instruction that was … Continue reading How much do amd64 microarchitecture levels help in Go?]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Five labs, five minds: building a multi-model finance drama on small models]]></title>
-        <id>https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2</id>
-        <link href="https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2"/>
-        <updated>2026-06-06T19:02:33.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Build Small Hackathon on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -36,13 +147,13 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios]]></title>
-        <id>https://huggingface.co/blog/ServiceNow-AI/eva-bench-data</id>
-        <link href="https://huggingface.co/blog/ServiceNow-AI/eva-bench-data"/>
-        <updated>2026-06-04T12:24:58.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by ServiceNow-AI on Hugging Face]]></summary>
+        <title type="html"><![CDATA[CSS: Unavoidable Bad Parts]]></title>
+        <id>https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html</id>
+        <link href="https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html"/>
+        <updated>2026-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An ersatz CSS tutorial for people who need to style a web page, but aren't web developers. I am a wrong person to write this kind of thing, as I have neither the time, nor experience. I'd much rather read a book about this. Alas, I had to learn all this stuff from trawling MDN, so perhaps it is valuable to document what I have so far.]]></summary>
         <author>
-            <name>Hugging Face - Blog</name>
+            <name>matklad</name>
         </author>
     </entry>
     <entry>
@@ -527,191 +638,6 @@ Life#
 Last week was sort of a rebound to the weeks before, that is to say, it wasn’t a great week. A was sick the entire week and I was worried sick. I made the mistake of having some coffee on Tuesday (only 10ml espresso though), and then going to the gym. My body just couldn’t take them together, and I messed up my sleep completely.
 Then to combat the sleepiness next day I drank more coffee, and it made me lose even more sleep. The lack of sleep, the worry, and the exhaustion from the gym session completely ruined my days. I was too sleepy and too tired to do anything other than most essential tasks. I had to take Friday off just to recover.
 After sleeping for 10 hours on the Friday night, I felt refreshed, so I went for a short run on Sa…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality]]></title>
-        <id>https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2</id>
-        <link href="https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2"/>
-        <updated>2026-05-14T18:55:01.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Catch Flakes On Main]]></title>
-        <id>https://matklad.github.io/2026/05/14/catch-flakes-on-main.html</id>
-        <link href="https://matklad.github.io/2026/05/14/catch-flakes-on-main.html"/>
-        <updated>2026-05-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A small Mechanical Habit today:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unlocking asynchronicity in continuous batching]]></title>
-        <id>https://huggingface.co/blog/continuous_async</id>
-        <link href="https://huggingface.co/blog/continuous_async"/>
-        <updated>2026-05-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spring update]]></title>
-        <id>https://curiouscoding.nl/slides/2026-spring-update/</id>
-        <link href="https://curiouscoding.nl/slides/2026-spring-update/"/>
-        <updated>2026-05-12T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bioinformatics software
- 
- 
- Link to heading
- 
-
-
-
-
-
- Bioinformatics theory
- 
- 
- Link to heading
- 
-
-
-
-
-
- Algorithm engineering
- 
- 
- Link to heading
- 
-
-
-
-
-
- Misc
- 
- 
- Link to heading]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning Software Architecture]]></title>
-        <id>https://matklad.github.io/2026/05/12/software-architecture.html</id>
-        <link href="https://matklad.github.io/2026/05/12/software-architecture.html"/>
-        <updated>2026-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In reply to an email asking about learning software design skills as a researcher physicist:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building Blocks for Foundation Model Training and Inference on AWS]]></title>
-        <id>https://huggingface.co/blog/amazon/foundation-model-building-blocks</id>
-        <link href="https://huggingface.co/blog/amazon/foundation-model-building-blocks"/>
-        <updated>2026-05-11T23:18:26.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Amazon on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The anti-lexicographic SUS-anchor: a near-optimal k=1 sampling scheme]]></title>
-        <id>https://curiouscoding.nl/posts/sus-anchors/</id>
-        <link href="https://curiouscoding.nl/posts/sus-anchors/"/>
-        <updated>2026-05-11T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Abstract
-2 Introduction
-3 Preliminaries
-
-3.1 Minimizers and sampling schemes
-3.2 Bidirectional string anchors
-3.3 Maximal suffixes
-4 Character-based orders
-5 Smallest unique substring anchors
-
-5.1 Properties
-5.2 Computing SUS-anchors
-6 Results
-7 Discussion
-\[
-\newcommand{\sus}{\mathsf{SUS}}
-\newcommand{\lcp}{\mathsf{lcp}}
-\newcommand{\last}{\mathsf{last}}
-\]
-A preprint of this blog can be found here: PDF, DOI (Groot Koerkamp 2026).
-1 Abstract
- 
- 
- Link to heading
- 
-
-Motivation.
-In recent years, there has been a renewed interest in the search for low density
-minimizer schemes. These schemes take a window of \(w\) consecutive \(k\)-mers,
-and sample one of them: the smallest under some specific order.
-Schemes such as the mod-minimizer provide a low density (fraction of sampled \(k\)-mers) when
-\(k \gg w\), while schemes such as the greedy minimizer work well for explicit
-small parameters roughly in the regime \(k \leq 2w\), for \(k\) and \(w\) up
-to \(15\) or so.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Range Minimum Queries]]></title>
-        <id>https://curiouscoding.nl/teaching/rmq-notes/</id>
-        <link href="https://curiouscoding.nl/teaching/rmq-notes/"/>
-        <updated>2026-05-10T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Naive
-
-1.1 Compute on-the-fly
-1.2 Precompute everything
-2 Space lower bounds
-3 Sparse Table: \(O(1)\) queries, \(O(n \log_2 n)\) words
-4 Segment Tree: \(O(\log n)\) queries, \(O(n)\) words
-5 Blocks: \(O(s)\) queries, \(O(n/s \log n)\) words
-6 Cartesian Trees: \(O(1)\) queries, \(O(n)\) words
-7 Recursive Cartesian Trees: \(O(1)\) queries, \(2n+o(n)\) bits
-8 Blackboard
-\[
-\DeclareMathOperator*{\argmin}{arg\,min}
-\newcommand{\rmq}{\mathsf{rmq}}
-\]
-These notes are based on slides by Florian Kurpicz and the paper by
-Fischer and Heun (2011) that introduces a number of optimal implementations.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #19 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-05-10/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-05-10/?mtm_campaign=feed"/>
-        <updated>2026-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 4th–10th May.
-
-Paris? Paris!
-
-Life#
-After a gap of three weeks, I finally felt recovered enough last week to be more physically active. I was able to hit the gym twice, and also go for a run after a break of a whole month. I also walked 20kms. It was nice to feel the energy back in my body.
-
-
-
-
-The downside was the soreness and exhaustion I felt most of the time. I barely could do anything else outside work. I wasted a lot of time staring at the screens before I finally got so fed up on Saturday that I went for a long walk. It was just before the rains and the weather was amazing. The walk refreshed me and brought me out of the zombieness.
-I seem to be going through some sort of SAD spell, most likely due to the summer heat making me unable to do fun thing…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
