@@ -1,10 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-06-21T03:55:25.403Z</id>
+    <id>urn:2026-06-28T03:32:24.673Z</id>
     <title>osmos::feed</title>
-    <updated>2026-06-21T03:55:25.403Z</updated>
+    <updated>2026-06-28T03:32:24.673Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Run a vLLM Server on HF Jobs in One Command]]></title>
+        <id>https://huggingface.co/blog/vllm-jobs</id>
+        <link href="https://huggingface.co/blog/vllm-jobs"/>
+        <updated>2026-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Making of This Website]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-making-this-website/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-making-this-website/?mtm_campaign=feed"/>
+        <updated>2026-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Almost nine years ago, I decided to write my own website generator. Static-site generators (SSGs) were sort of new back then, and somewhat fascinating to me. After failing to start a website/blog for a decade, I realized that I’ll never be satisfied by a ready-made solution, and I need to make something of my own. I started with Hakyll, a small SSG framework written in Haskell. Over years, I expanded my website by adding new sections and features. The website code has grown from 500 lines to over 17000 lines now. This note recalls the story of the same.
+The Hakyll Era#
+Some time in September 2017, I started with the 483 lines of example code Hakyll comes with. I liked Haskell and Hakyll was pretty easy to get started with because of ample examples and tutorials. It worked as expected for m…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Which tokens does a hybrid model predict better?]]></title>
+        <id>https://huggingface.co/blog/allenai/hybrid-token-prediction</id>
+        <link href="https://huggingface.co/blog/allenai/hybrid-token-prediction"/>
+        <updated>2026-06-25T16:11:42.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel]]></title>
+        <id>https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel</id>
+        <link href="https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"/>
+        <updated>2026-06-24T16:00:13.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World]]></title>
+        <id>https://huggingface.co/blog/ffasr-leaderboard</id>
+        <link href="https://huggingface.co/blog/ffasr-leaderboard"/>
+        <updated>2026-06-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build real agentic apps using CUGA: two dozen working examples on a lightweight harness]]></title>
+        <id>https://huggingface.co/blog/ibm-research/cuga-apps</id>
+        <link href="https://huggingface.co/blog/ibm-research/cuga-apps"/>
+        <updated>2026-06-23T12:51:55.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix]]></title>
+        <id>https://medium.com/p/eb8160ed60a2</id>
+        <link href="https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-23T00:31:01.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shipping huggingface_hub every week with AI, open tools, and a human in the loop]]></title>
+        <id>https://huggingface.co/blog/huggingface-hub-release-ci</id>
+        <link href="https://huggingface.co/blog/huggingface-hub-release-ci"/>
+        <updated>2026-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experimenting with the proposed Cross-Origin Storage API in Transformers.js]]></title>
+        <id>https://huggingface.co/blog/cross-origin-storage</id>
+        <link href="https://huggingface.co/blog/cross-origin-storage"/>
+        <updated>2026-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Netflix Simplified Batch Compute with Kueue]]></title>
+        <id>https://medium.com/p/87860682629c</id>
+        <link href="https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-22T21:35:01.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters]]></title>
+        <id>https://huggingface.co/blog/PaddlePaddle/pp-ocrv6</id>
+        <link href="https://huggingface.co/blog/PaddlePaddle/pp-ocrv6"/>
+        <updated>2026-06-22T13:18:56.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by PaddlePaddle on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We got local models to triage the OpenClaw repo for FREE!*]]></title>
+        <id>https://huggingface.co/blog/local-models-pr-triage</id>
+        <link href="https://huggingface.co/blog/local-models-pr-triage"/>
+        <updated>2026-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #25 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-06-22/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-06-22/?mtm_campaign=feed"/>
+        <updated>2026-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 15th–21st June.
+
+By the Lake
+
+Life#
+Last week was a pretty bad weak for us health-wise. Wife, I, and A have been battling different illnesses at varying degrees. I have slept for only four hours last night. I shouldn’t even be writing this weeknote, but there is nothing else I can do at this moment.
+If you have been a regular reader of my weeknotes, you’d have noticed that we’ve not had a sickness-free week in what seems like a long time now. The blame lies in the rapidly varying daily weather of Bangalore, toddlers having a weak immune system, and our [parents] bodies going through some sort of parental burnout. We are hoping that things will get better with time.
+We managed to have a small celebration for the Father’s day yesterday, just some cake for A …]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chatting with an AI Won’t Make You a Top Programmer]]></title>
+        <id>https://lemire.me/blog/?p=22706</id>
+        <link href="https://lemire.me/blog/2026/06/21/chatting-with-ai-wont-make-you-a-top-programmer/"/>
+        <updated>2026-06-21T17:51:16.000Z</updated>
+        <summary type="html"><![CDATA[When I was a kid, most people did not know how to type. We took typing class. The final exam was a speed test: words per minute. Today, you will not impress anyone by saying you can type. In fact, cursive writing is fading. Kids increasingly cannot read or write it. We type constantly. We … Continue reading Chatting with an AI Won’t Make You a Top Programmer]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How I Started My Indieweb Journey]]></title>
         <id>https://abhinavsarkar.net/notes/2026-indieweb-start/?mtm_campaign=feed</id>
@@ -15,6 +162,78 @@ I bought this domain name “abhinavsarkar.net” in June 2007. A few years prio
 In June 2007 I bought this domain, thinking of starting a website.…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Data Canary: How Netflix Validates Catalog Metadata]]></title>
+        <id>https://medium.com/p/18b699d58e36</id>
+        <link href="https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:54:17.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Projects: Managing Data Assets at Netflix Scale]]></title>
+        <id>https://medium.com/p/7ca25888591e</id>
+        <link href="https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:54:00.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning]]></title>
+        <id>https://medium.com/p/587b1f2de928</id>
+        <link href="https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:53:47.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Evolution of Cassandra Data Movement at Netflix]]></title>
+        <id>https://medium.com/p/6e13329c80a1</id>
+        <link href="https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:53:30.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thinking Fast & Slow for a Personalized Notification System]]></title>
+        <id>https://medium.com/p/4d89b26525cd</id>
+        <link href="https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:53:16.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Human-Augmenting Agentic Workflow for Causal Inference]]></title>
+        <id>https://medium.com/p/4623f0a9c5af</id>
+        <link href="https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:53:06.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Silos to Service Topology: Why Netflix Built a Real-Time Service Map]]></title>
+        <id>https://medium.com/p/0165ba13a7bc</id>
+        <link href="https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:52:02.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMAF v1: Good Is Not Good Enough]]></title>
+        <id>https://medium.com/p/60d7e4244ea8</id>
+        <link href="https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-19T23:50:05.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
         </author>
     </entry>
     <entry>
@@ -55,16 +274,6 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <summary type="html"><![CDATA[<p>In the <a href="https://abhinavsarkar.net/posts/nix-for-haskell/">previous post</a>, we learned how to get started with managing and building a <a href="https://haskell.org" target="_blank" rel="noopener">Haskell</a> project with <a href="https://nixos.org" target="_blank" rel="noopener">Nix</a>. In this post, we learn how to easily create statically-linked executables for Haskell projects with Nix.</p>]]></summary>
         <author>
             <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MolmoMotion: Language-guided 3D motion forecasting]]></title>
-        <id>https://huggingface.co/blog/allenai/molmomotion</id>
-        <link href="https://huggingface.co/blog/allenai/molmomotion"/>
-        <updated>2026-06-17T15:26:44.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -401,234 +610,6 @@ software…]]></summary>
 Life#
 Compared to the week before, I was in good health for most of the last week. I managed to get a lot of work done, and attended three drumming classes as well. Though my playing is still very sloppy, sight reading is slowly coming back to me. I recorded myself playing, and later cringed at the inaccuracies. I’m sad to see how much my skills have declined, but I’m happy to report that I’m progressing much faster than a beginner. I hope that I can finish 3–4 grades worth of learning in a year.
 Rains are here to stay, and the weather is much cooler too. Unfortunately, I’m still not in a condition to exercise. I skipped going to the gym last week, and may not be able to this week as well. No running for me either. I didn’t even walk 10000…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler]]></title>
-        <id>https://huggingface.co/blog/torch-profiler</id>
-        <link href="https://huggingface.co/blog/torch-profiler"/>
-        <updated>2026-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Embodied cognition and agentic AI]]></title>
-        <id>https://lemire.me/blog/?p=22669</id>
-        <link href="https://lemire.me/blog/2026/05/28/embodied-cognition-and-agentic-ai/"/>
-        <updated>2026-05-28T23:04:35.000Z</updated>
-        <summary type="html"><![CDATA[Where is your intelligence located? In your brain? It is a simplistic answer. A better model is that your intelligence is embodied. Consider a cook working at an expensive restaurant. He has all his favorite knives and cooking instructions, placed exactly where he wants them. His kitchen is part of his intelligence, of his skills. … Continue reading Embodied cognition and agentic AI]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reachy Mini goes fully local]]></title>
-        <id>https://huggingface.co/blog/local-reachy-mini-conversation</id>
-        <link href="https://huggingface.co/blog/local-reachy-mini-conversation"/>
-        <updated>2026-05-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL]]></title>
-        <id>https://huggingface.co/blog/delta-weight-sync</id>
-        <link href="https://huggingface.co/blog/delta-weight-sync"/>
-        <updated>2026-05-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sassy 1 & 2: Fuzzy searching DNA using SIMD]]></title>
-        <id>https://curiouscoding.nl/slides/sassy/</id>
-        <link href="https://curiouscoding.nl/slides/sassy/"/>
-        <updated>2026-05-25T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Previously
- 
- 
- Link to heading
- 
-
-
-
-
-
-
-
-
- Previously
- 
- 
- Link to heading
- 
-
-
-
-
-
-
-
-
-
-
-
- Long-read global alignment is just not a problem people have…
- 
- 
- Link to heading
- 
-
-
- … Sassy: 100bp semi-global alignment
- 
- 
- Link to heading
- 
-
-
- Takeaway 1: Math yay, Bio nay
- 
- 
- Link to heading
- 
-
-
- Takeaway 2: Do simple stuff fast
- 
- 
- Link to heading
- 
-
-
- Approximate String Matching
- 
- 
- Link to heading
- 
-
-
-Find pattern \(P\) in text \(T\).
-
-\(m := |P|\), \(n := |T|\)
-Allow up to \(k\) unit-cost errors.
-Find all matches.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[STPD: Compressing Suffix Trees by Path Decompositions]]></title>
-        <id>https://curiouscoding.nl/slides/stpd/</id>
-        <link href="https://curiouscoding.nl/slides/stpd/"/>
-        <updated>2026-05-25T12:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Text indexing: Locate all matches of a pattern
- 
- 
- Link to heading
- 
-
-
-
-
-
- Focus: Locate leftmost match of a pattern
- 
- 
- Link to heading
- 
-
-
-
-
-
- FM/r-index: cache miss per character
- 
- 
- Link to heading
- 
-
-
-
-
-
- Suffix trees of repetitive text are repetitive too!
- 
- 
- Link to heading
- 
-
-Suffixient arrays, Cenzato+
-
-
-
-
- Suffix tree: \(O(d + m/B + \mathit{occ})\) I/O complexity
- 
- 
- Link to heading
- 
-
-
-\(m\): pattern length
-\(B\): block size
-\(d\): depth in suffix tree, usually small
-\(r\): runs in Burrows Wheeler Transform (BWT)
-Goal: \(O( r)\) space, \(O(d+m/B+\mathit{occ})\) I/Os]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Harness, Scaffold, and the AI Agent Terms Worth Getting Right]]></title>
-        <id>https://huggingface.co/blog/agent-glossary</id>
-        <link href="https://huggingface.co/blog/agent-glossary"/>
-        <updated>2026-05-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #21 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-05-25/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-05-25/?mtm_campaign=feed"/>
-        <updated>2026-05-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 18th–24th May.
-
-The Bends
-
-Life#
-Last week was a mixed bag. I had some minor health issues that lasted almost through the week. It was annoying and uncomfortable, but I worked through it. My wife and child A also had some cough and cold because of the arrival of rains in Bengaluru. But I am not complaining. The rains have been a lifesaver for me. The temperature has gone down by more than 5 °C and my mood has improved drastically. I know that the rains caused a lot of issues for the traffic last week in Bengaluru, but somehow I managed to narrowly escape them all.
-Last week was A’s short summer vacation. After the heat declined, we went around doing small things. On Friday, I took a leave and all three of us went to the Google Ananta office (shown in the p…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parsing IPv6 Addresses Crazily Fast with AVX-512]]></title>
-        <id>https://lemire.me/blog/?p=22658</id>
-        <link href="https://lemire.me/blog/2026/05/23/parsing-ipv6-addresses-crazily-fast-with-avx-512/"/>
-        <updated>2026-05-23T02:45:11.000Z</updated>
-        <summary type="html"><![CDATA[Every machine connected to the Internet has an address called an IP address. Originally, these addresses were 32-bit integers (IPv4), giving a theoretical maximum of about four billion distinct addresses. We are all familiar with these addresses (e.g., 192.168.0.0). There was a big fuss about how we would run out of addresses. It never happened … Continue reading Parsing IPv6 Addresses Crazily Fast with AVX-512]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing feed-repeat v1.0]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-feed-repeat/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-feed-repeat/?mtm_campaign=feed"/>
-        <updated>2026-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever wanted to reread that old article posted by your favourite author on their website? Do you use feed readers and wish that some great posts from your friends magically reappear in your inbox so that you can remember the good old days? Do you want to use your feed reader as sort of a space-repetition tool? Well then, feed-repeat is for you.
-I have just released the version 1.0 of feed-repeat, a small tool that does only one thing: it takes some posts from the RSS/Atom feeds you configure and puts them in a new Atom feed that you can subscribe to in your feed reader. That’s all.
-I made feed-repeat for myself. I wanted a tool to send me old blogposts written by my favourite authors so that I could enjoy them again, but also not be overwhelmed by a wall of hundreds of unread old p…]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
