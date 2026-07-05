@@ -12,104 +12,104 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/77146fba8a08",
+          "author": "Netflix Technology Blog",
+          "description": "Authors: Lequn Wang, Jiangwei Pan, and Linas Baltrunas",
+          "link": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
+          "publishedOn": "2026-06-29T13:01:02.000Z",
+          "wordCount": 10851,
+          "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*NurrizMgC7_QbsGuuW42Dg.gif"
+        },
+        {
           "id": "https://medium.com/p/eb8160ed60a2",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Zhuoning Yuan, Ta-Ying Cheng, Benjamin Klein, Bahareh Azarnoush",
           "link": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-23T00:31:01.000Z",
-          "wordCount": null,
+          "wordCount": 5379,
           "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:620/1*GaxGb9nVQiIt_0tFmDVc_A.gif"
         },
         {
           "id": "https://medium.com/p/87860682629c",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Alvin Bao, Alex Petrov, Jennifer Lai, Aidan Sherr, and Samartha Chandrashekar",
           "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-22T21:35:01.000Z",
-          "wordCount": null,
+          "wordCount": 3619,
           "title": "How Netflix Simplified Batch Compute with Kueue",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fill:1143:602/g:fp:0.5:0.78/1*GL_sNsqautjh4lnu5XmRww.png"
         },
         {
           "id": "https://medium.com/p/18b699d58e36",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Celina Amados",
           "link": "https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:54:17.000Z",
-          "wordCount": null,
+          "wordCount": 3911,
           "title": "The Data Canary: How Netflix Validates Catalog Metadata",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*SGzOXwhed2NX9LxcDNFhig.jpeg"
         },
         {
           "id": "https://medium.com/p/7ca25888591e",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Amer Hesson, Marcelo Mayworm, James Mulcahy, and Brittany Truong",
           "link": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:54:00.000Z",
-          "wordCount": null,
+          "wordCount": 4707,
           "title": "Data Projects: Managing Data Assets at Netflix Scale",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Te9vjGxhHK7jMmpSO6sy2Q.png"
         },
         {
           "id": "https://medium.com/p/587b1f2de928",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "by Emily Gill",
           "link": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:47.000Z",
-          "wordCount": null,
+          "wordCount": 4029,
           "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Yv6mwy7QZ8ghiI4S1jGv6g.png"
         },
         {
           "id": "https://medium.com/p/6e13329c80a1",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Guil Pires,  Jennifer Prince, Jose Camacho,  Ken Kurzweil,  Phanindra Chunduru",
           "link": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:30.000Z",
-          "wordCount": null,
+          "wordCount": 6667,
           "title": "The Evolution of Cassandra Data Movement at Netflix",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*EwqgicjfpASkWIf3nz4q6A.png"
         },
         {
           "id": "https://medium.com/p/4d89b26525cd",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "by Matthew Wood, Ishan Gupta, Kevin Mercurio, Devon Bryant, and Claire Dorman",
           "link": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:16.000Z",
-          "wordCount": null,
+          "wordCount": 3832,
           "title": "Thinking Fast & Slow for a Personalized Notification System",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*gZiJ6HiK_BG3rDCRupx5vA.png"
         },
         {
           "id": "https://medium.com/p/4623f0a9c5af",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus",
           "link": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:06.000Z",
-          "wordCount": null,
+          "wordCount": 5924,
           "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*7midjxNL3H3BlZvQy4seSA.png"
         },
         {
           "id": "https://medium.com/p/0165ba13a7bc",
           "author": "Netflix Technology Blog",
-          "description": "",
+          "description": "By Parth Jain, Rakesh Sukumar, Yingwu Zhao, Renzo Sanchez-Silva & Nathan Fisher\nHow we built a living map of our distributed infrastructure…",
           "link": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:52:02.000Z",
-          "wordCount": null,
+          "wordCount": 7000,
           "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
-          "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/60d7e4244ea8",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
-          "publishedOn": "2026-06-19T23:50:05.000Z",
-          "wordCount": null,
-          "title": "VMAF v1: Good Is Not Good Enough",
-          "imageUrl": null
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:996/1*68tW9-7kC3oGL0T5J5di_A.png"
         }
       ]
     },
@@ -123,18 +123,7 @@
       "title": "matklad",
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
-      "articles": [
-        {
-          "id": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
-          "author": null,
-          "description": "An ersatz CSS tutorial for people who need to style a web page, but aren't web developers. I am a wrong person to write this kind of thing, as I have neither the time, nor experience. I'd much rather read a book about this. Alas, I had to learn all this stuff from trawling MDN, so perhaps it is valuable to document what I have so far.",
-          "link": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
-          "publishedOn": "2026-06-04T00:00:00.000Z",
-          "wordCount": 2798,
-          "title": "CSS: Unavoidable Bad Parts",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "jdrouet",
@@ -148,6 +137,56 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+          "publishedOn": "2026-07-01T00:00:00.000Z",
+          "wordCount": 1140,
+          "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+          "imageUrl": "https://huggingface.co/blog/assets/cerebras-gemma4-voice-ai/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/scarfbench",
+          "author": null,
+          "description": "A Blog post by IBM Research on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+          "publishedOn": "2026-06-30T18:32:50.000Z",
+          "wordCount": 1520,
+          "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/649c1276a83f996b4191a8f1/iYCwB2Hl8qPTA8DCgDilB.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+          "author": null,
+          "description": "A Blog post by Dharma-AI on Hugging Face",
+          "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+          "publishedOn": "2026-06-30T14:39:11.000Z",
+          "wordCount": 2608,
+          "title": "Why Specialization Is Inevitable",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69d815b52c6db28cfdfdd422/Av4v9_l94sEUj-etRFOLb.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/eee-community-evals",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/eee-community-evals",
+          "publishedOn": "2026-06-30T00:00:00.000Z",
+          "wordCount": 1863,
+          "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+          "imageUrl": "https://huggingface.co/blog/assets/eee_commevals/eee_commevals_banner.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/allenai/discoformer",
+          "author": null,
+          "description": "A Blog post by Ai2 on Hugging Face",
+          "link": "https://huggingface.co/blog/allenai/discoformer",
+          "publishedOn": "2026-06-29T18:02:48.000Z",
+          "wordCount": 1141,
+          "title": "DiScoFormer: One transformer for density and score, across distributions",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/AnOX0pzQm-Hep_CLFOVM7.png"
+        },
+        {
           "id": "https://huggingface.co/blog/vllm-jobs",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -156,16 +195,6 @@
           "wordCount": 1809,
           "title": "Run a vLLM Server on HF Jobs in One Command",
           "imageUrl": "https://huggingface.co/blog/assets/vllm-jobs/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-          "author": null,
-          "description": "A Blog post by Ai2 on Hugging Face",
-          "link": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-          "publishedOn": "2026-06-25T16:11:42.000Z",
-          "wordCount": 1712,
-          "title": "Which tokens does a hybrid model predict better?",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F1-AlOdxpdaxe6a5BXuU7.png"
         },
         {
           "id": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
@@ -183,19 +212,9 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/ffasr-leaderboard",
           "publishedOn": "2026-06-24T00:00:00.000Z",
-          "wordCount": 2064,
+          "wordCount": 2239,
           "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
           "imageUrl": "https://huggingface.co/blog/assets/ffasr-leaderboard/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-research/cuga-apps",
-          "author": null,
-          "description": "A Blog post by IBM Research on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
-          "publishedOn": "2026-06-23T12:51:55.000Z",
-          "wordCount": 3772,
-          "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/649d9ad1500fd8d51a675a93/p9JwFYkZS7fB9g2PMFMft.png"
         },
         {
           "id": "https://huggingface.co/blog/huggingface-hub-release-ci",
@@ -223,7 +242,7 @@
           "description": "A Blog post by PaddlePaddle on Hugging Face",
           "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
           "publishedOn": "2026-06-22T13:18:56.000Z",
-          "wordCount": 1520,
+          "wordCount": 1550,
           "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/652b2e9166313ebb6197e706/l156KP0e5PRyDrE4woHoM.jpeg"
         },
@@ -233,29 +252,29 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/local-models-pr-triage",
           "publishedOn": "2026-06-22T00:00:00.000Z",
-          "wordCount": 3155,
+          "wordCount": 3156,
           "title": "We got local models to triage the OpenClaw repo for FREE!*",
           "imageUrl": "https://huggingface.co/blog/assets/local-models-pr-triage/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
           "author": null,
-          "description": "A Blog post by ServiceNow on Hugging Face",
+          "description": "",
           "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
           "publishedOn": "2026-06-18T18:13:13.000Z",
-          "wordCount": 2305,
+          "wordCount": null,
           "title": "MosaicLeaks: Can your research agent keep a secret?",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/680ba1729f7688275d2ce0f4/hGCO4pOyJjijLPCbRT07v.webp"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/peft-beyond-lora",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/peft-beyond-lora",
           "publishedOn": "2026-06-18T00:00:00.000Z",
-          "wordCount": 3370,
+          "wordCount": null,
           "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-          "imageUrl": "https://huggingface.co/blog/assets/peft-beyond-lora/thumbnail.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/is-it-agentic-enough",
@@ -273,7 +292,7 @@
           "description": "A Blog post by Amazon on Hugging Face",
           "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
           "publishedOn": "2026-06-17T10:18:05.000Z",
-          "wordCount": 3958,
+          "wordCount": 3956,
           "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/qvSGZ0tZsgr4U4BCx_bVX.png"
         },
@@ -303,19 +322,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/torch-mlp-fusion",
           "publishedOn": "2026-06-11T00:00:00.000Z",
-          "wordCount": 4264,
+          "wordCount": 4360,
           "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
           "imageUrl": "https://huggingface.co/blog/assets/torch-mlp-fusion/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/mishig/spaces-agents-md",
           "author": null,
-          "description": "A Blog post by Mishig Davaadorj on Hugging Face",
+          "description": "",
           "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
           "publishedOn": "2026-06-09T10:46:19.000Z",
-          "wordCount": 2425,
+          "wordCount": null,
           "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/60a551a34ecc5d054c8ad93e/0tamlKpAvO3lZEklNmwHT.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/github-ci-hf-jobs",
@@ -323,89 +342,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/github-ci-hf-jobs",
           "publishedOn": "2026-06-09T00:00:00.000Z",
-          "wordCount": 2110,
+          "wordCount": 2114,
           "title": "Migrating Your GitHub CI to Hugging Face Jobs",
           "imageUrl": "https://huggingface.co/blog/assets/github-ci-hf-jobs/thumbnail.gif"
         },
         {
           "id": "https://huggingface.co/blog/openenv-agentic-rl",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/openenv-agentic-rl",
           "publishedOn": "2026-06-08T00:00:00.000Z",
-          "wordCount": 1452,
+          "wordCount": null,
           "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-          "imageUrl": "https://huggingface.co/blog/assets/openenv/thumbnail3.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-          "author": null,
-          "description": "A Blog post by NVIDIA on Hugging Face",
-          "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-          "publishedOn": "2026-06-04T18:57:45.000Z",
-          "wordCount": 2726,
-          "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-5-content-safety.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/hf-cli-for-agents",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/hf-cli-for-agents",
-          "publishedOn": "2026-06-04T00:00:00.000Z",
-          "wordCount": 3123,
-          "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-          "imageUrl": "https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-          "author": null,
-          "description": "A Blog post by Dharma-AI on Hugging Face",
-          "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-          "publishedOn": "2026-06-03T12:55:11.000Z",
-          "wordCount": 3245,
-          "title": "Direct Preference Optimization Beyond Chatbots",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-          "publishedOn": "2026-06-03T00:00:00.000Z",
-          "wordCount": 2442,
-          "title": "Adding MCP Tools to Reachy Mini",
-          "imageUrl": "https://huggingface.co/blog/assets/adding-mcp-tools-to-reachy-mini/reachy_mini_remote_spaces_thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/Hcompany/holo31",
-          "author": null,
-          "description": "A Blog post by H company on Hugging Face",
-          "link": "https://huggingface.co/blog/Hcompany/holo31",
-          "publishedOn": "2026-06-02T14:13:23.000Z",
-          "wordCount": 1326,
-          "title": "Holo3.1: Fast & Local Computer Use Agents",
-          "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Hcompany/holo31.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-          "author": null,
-          "description": "A Blog post by JetBrains on Hugging Face",
-          "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-          "publishedOn": "2026-06-01T15:45:17.000Z",
-          "wordCount": 916,
-          "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/60ef2a438432bc401cd0abbe/tFjSaWUOM_pVsgKjHrAHt.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-          "author": null,
-          "description": "A Blog post by IBM Research on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-          "publishedOn": "2026-06-01T13:51:18.000Z",
-          "wordCount": 2418,
-          "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/65b12ed52be9660f0b7e5f72/mu_IH3lDD1qGRQZptFmPP.png"
+          "imageUrl": null
         }
       ]
     },
@@ -437,6 +386,26 @@
       "feedUrl": "https://abhinavsarkar.net/notes/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-iwcb-se-retro/?mtm_campaign=feed",
+          "author": null,
+          "description": "The day after IndieWebClub Bangalore Special Anniversary Meetup, Ankur, Tanvi and I got together and did a retrospective on the event. We noted down what went well, what didn’t, and what we should do the next time. This note summarizes our discussion.\nWhat Went Well#\nWe front-loaded many decisions, such as talk format, venue, date, topics etc., and didn’t second-guess them. This helped us later with our tight schedule.\nWe were serious about the CFP from the get-go. We wrote a detailed CFP statement and made a web page for it. This made participants also take it seriously. We actively reached out to folks from the community asking them to submit proposals. Most of our proposals came from the people we reached out to.\nWe decided at the very beginning that we wanted a diverse set of well-roun…",
+          "link": "https://abhinavsarkar.net/notes/2026-iwcb-se-retro/?mtm_campaign=feed",
+          "publishedOn": "2026-07-04T00:00:00.000Z",
+          "wordCount": null,
+          "title": "IndieWebClub Bangalore: Special Edition Meetup, A Retrospective",
+          "imageUrl": null
+        },
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-06-29/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 22nd–28th June.\n\nLife#\nI took the whole last week off to recover from illness and fatigue. I’m happy to report that all three of us are doing much better now. I had a sinus infection, not major, but enough to give me headaches entire days. Thankfully, the medication worked, and now I’m almost over it.\nEarlier I had decided to not work on personal projects last week, but as I started feeling better, I couldn’t resist it. I worked on them for two days out of seven, which I consider pretty good knowing myself. I spent the rest of the time reading and watching TV, going for walks, and generally resting. I slept 10–11 hours each day. I finally feel rested enough.\nLast Monday I weighed myself as usual, and found myself to be at my lowest in many decades. However…",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-06-29/?mtm_campaign=feed",
+          "publishedOn": "2026-06-29T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Notes for the Week #26 (2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://abhinavsarkar.net/notes/2026-making-this-website/?mtm_campaign=feed",
           "author": null,
@@ -496,26 +465,6 @@
           "wordCount": null,
           "title": "Notes for the Week #23 (2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-iwcb-se-bts/?mtm_campaign=feed",
-          "author": null,
-          "description": "It all started with a question about cake. IndieWebClub Bangalore had its one-year anniversary on 24 May 2026. After the meetup on 2nd May, I asked Ankur and Tanvi if we could get some cake to celebrate the anniversary. We agreed to it, but a larger idea had taken roots in my mind.\nConception#\nOn 5th May, I posted in the IWCB admins group chat:\nI was wondering if we could do a special meetup on 30th with no agenda and a little anniversary celebration.\nOr we could do a small unconference in underline, inviting 10 min talks from the attendees for first few hours and then go somewhere for a cake.\nAfter some back-and-forth, Tanvi and Ankur liked the idea, and thus started the planning for the Special Edition meetup, where we would invite the folks from the IWCB community to present their talks…",
-          "link": "https://abhinavsarkar.net/notes/2026-iwcb-se-bts/?mtm_campaign=feed",
-          "publishedOn": "2026-06-01T00:00:00.000Z",
-          "wordCount": null,
-          "title": "IndieWebClub Bangalore: Special Edition Meetup, Behind the Scenes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-05-31/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 25th–31st May.\n\n\nLife#\nCompared to the week before, I was in good health for most of the last week. I managed to get a lot of work done, and attended three drumming classes as well. Though my playing is still very sloppy, sight reading is slowly coming back to me. I recorded myself playing, and later cringed at the inaccuracies. I’m sad to see how much my skills have declined, but I’m happy to report that I’m progressing much faster than a beginner. I hope that I can finish 3–4 grades worth of learning in a year.\nRains are here to stay, and the weather is much cooler too. Unfortunately, I’m still not in a condition to exercise. I skipped going to the gym last week, and may not be able to this week as well. No running for me either. I didn’t even walk 10000…",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-05-31/?mtm_campaign=feed",
-          "publishedOn": "2026-05-31T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Notes for the Week #22 (2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -530,7 +479,7 @@
           "description": "When I was a kid, most people did not know how to type. We took typing class. The final exam was a speed test: words per minute. Today, you will not impress anyone by saying you can type. In fact, cursive writing is fading. Kids increasingly cannot read or write it. We type constantly. We … Continue reading Chatting with an AI Won’t Make You a Top Programmer",
           "link": "https://lemire.me/blog/2026/06/21/chatting-with-ai-wont-make-you-a-top-programmer/",
           "publishedOn": "2026-06-21T17:51:16.000Z",
-          "wordCount": 3948,
+          "wordCount": 3945,
           "title": "Chatting with an AI Won’t Make You a Top Programmer",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/image-4-1024x687.jpg"
         },
@@ -540,7 +489,7 @@
           "description": "Suppose that you have a configuration file in JSON. Something like this: { \"width\": 1920, \"height\": 1080, \"fullscreen\": true, \"title\": \"My Game\", \"volume\": 0.8 } Normally you ship this file alongside your program, open it at startup, read it, and parse it. That is a lot of work for data that never changes. What if … Continue reading Parsing JSON at compile time with C++26 static reflection",
           "link": "https://lemire.me/blog/2026/06/14/parsing-json-at-compile-time-with-c26-static-reflection/",
           "publishedOn": "2026-06-14T14:59:44.000Z",
-          "wordCount": 4273,
+          "wordCount": 4270,
           "title": "Parsing JSON at compile time with C++26 static reflection",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/AdxWs-1024x683.jpg"
         },
@@ -550,7 +499,7 @@
           "description": "The keyword in politics these days is ‘sovereign’. What few will admit is that it is effectively the adoption of the American strategy: Make America Great Again. In other words, reindustrialization of key sectors of the economy. The UK used to be a computing champion. Our chip designs (ARM) originated from the UK. Canada had … Continue reading Sovereign",
           "link": "https://lemire.me/blog/2026/06/09/22693/",
           "publishedOn": "2026-06-09T18:39:32.000Z",
-          "wordCount": 4300,
+          "wordCount": 4297,
           "title": "Sovereign",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/Capture-decran-le-2026-06-09-a-14.39.13-1024x625.png"
         },
@@ -560,7 +509,7 @@
           "description": "Our 64-bit Intel and AMD processors have evolved over decades. When you compile a Go program for a 64-bit Intel or AMD processor, the compiler targets, by default, a nearly 20-year-old instruction set. The binary that comes out runs on essentially any x64 chip, but it also leaves on the table every instruction that was … Continue reading How much do amd64 microarchitecture levels help in Go?",
           "link": "https://lemire.me/blog/2026/06/06/how-much-do-amd64-microarchitecture-levels-help-in-go/",
           "publishedOn": "2026-06-06T20:25:19.000Z",
-          "wordCount": 4479,
+          "wordCount": 4476,
           "title": "How much do amd64 microarchitecture levels help in Go?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/Capture-decran-le-2026-06-06-a-16.18.20-1024x683.png"
         }
@@ -578,13 +527,13 @@
       "siteUrl": "https://apenwarr.ca/log/",
       "articles": [
         {
-          "id": "https://apenwarr.ca/log/20260531",
+          "id": "https://apenwarr.ca/log/20260704",
           "author": null,
-          "description": "In recent months I've heard of several teams with an interesting policy:\neach pull request should be no more than a few files, and no more than a\ncertain number of lines (say 500). And do just one thing and do it well. And\nbe easy for a human to review. And be fully tested by the test suite.\nAll those are good requirements, right? Surely this is quality software\nengineering.\nAnd often, the results are good. Sure, splitting a single 6000-line feature\nor fix into twelve 500-line PRs is more work, but each of those PRs is\nsurely easier to review. And you can git bisect them when there's a bug! And\nmaybe revert the individual change that broke something.\n...and also cause 12x as many context switches for your\nreviewers as they\nreview each one sequentially.1 But that's just the cost of\nsoftware…",
-          "link": "https://apenwarr.ca/log/20260531",
-          "publishedOn": "2026-05-31T20:24:22.000Z",
-          "wordCount": 1777,
-          "title": "The software industry: annealing, but wrong",
+          "description": "Happy July 4th!  For those of us around the world contemplating\nindependence, it's a good day to think about how we came to rely on\nexpensive cloud infrastructure for our fundamental computing needs.\nWith that in mind, here is my latest toy project: an open source tool that\nmakes replicating, forking, sharing, and running container snapshots fast\nand easy across cloud and personal devices.\nIt's fun to play with, especially on bare metal hardware you run at home, or\nrent from a provider like Hetzner or OVH. Or, because it uses Tailscale, why\nnot all of them in a single mesh?\nThere's a lot more to say but I don't have time right now. Details are in\nthe README.\nI will say this: humans and AI agents both want the same things when they're\ntrying to get work done.  Ephemeral containers aren't really it.  But how\nabout unlimited disk space, fast CPUs, an undo button, and the ability to\nmove to whatever provider offers the best hardware at the best price? \nThat's more like it.\nGo visit thundersnap on github\nand tell me what you think!",
+          "link": "https://apenwarr.ca/log/20260704",
+          "publishedOn": "2026-07-04T04:24:21.000Z",
+          "wordCount": 420,
+          "title": "thundersnap 0.01: an undo button for everything",
           "imageUrl": null
         }
       ]
@@ -593,18 +542,7 @@
       "title": "home on CuriousCoding",
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
-      "articles": [
-        {
-          "id": "https://curiouscoding.nl/posts/sassy/",
-          "author": null,
-          "description": "Table of Contents\n1 Why should you care?\n2 Using Sassy\n\n2.1 The CLI\n2.2 Rust library\n2.3 Python bindings\n2.4 C and R bindings\n3 Problem statement: Approximate String Matching\n\n3.1 Overhang: when the pattern extends beyond the read\n4 Some background\n5 The algorithm\n\n5.1 SIMD\n5.2 Sassy2\n6 Results\n\n6.1 Sassy1\n6.2 Sassy2\n6.3 Applications\nDiscuss on reddit.\nSassy is a tool for quickly searching short DNA patterns across large inputs that\nRick Beeloo and myself have been working on over the past year.\nIt just got published (Beeloo and Groot Koerkamp 2026b) (PDF, DOI), and this blog post\nbriefly outlines some possible applications and how we developed it.\nSee also the GitHub readme and the slides for my RECOMB-Seq talk, which loosely\nform the basis for this post.",
-          "link": "https://curiouscoding.nl/posts/sassy/",
-          "publishedOn": "2026-06-03T22:00:00.000Z",
-          "wordCount": 3462,
-          "title": "Sassy: fuzzy searching DNA sequences using SIMD",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"

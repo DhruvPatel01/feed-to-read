@@ -1,10 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-06-28T03:32:24.673Z</id>
+    <id>urn:2026-07-05T02:48:12.747Z</id>
     <title>osmos::feed</title>
-    <updated>2026-06-28T03:32:24.673Z</updated>
+    <updated>2026-07-05T02:48:12.747Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[thundersnap 0.01: an undo button for everything]]></title>
+        <id>https://apenwarr.ca/log/20260704</id>
+        <link href="https://apenwarr.ca/log/20260704"/>
+        <updated>2026-07-04T04:24:21.000Z</updated>
+        <summary type="html"><![CDATA[Happy July 4th!  For those of us around the world contemplating
+independence, it's a good day to think about how we came to rely on
+expensive cloud infrastructure for our fundamental computing needs.
+With that in mind, here is my latest toy project: an open source tool that
+makes replicating, forking, sharing, and running container snapshots fast
+and easy across cloud and personal devices.
+It's fun to play with, especially on bare metal hardware you run at home, or
+rent from a provider like Hetzner or OVH. Or, because it uses Tailscale, why
+not all of them in a single mesh?
+There's a lot more to say but I don't have time right now. Details are in
+the README.
+I will say this: humans and AI agents both want the same things when they're
+trying to get work done.  Ephemeral containers aren't really it.  But how
+about unlimited disk space, fast CPUs, an undo button, and the ability to
+move to whatever provider offers the best hardware at the best price? 
+That's more like it.
+Go visit thundersnap on github
+and tell me what you think!]]></summary>
+        <author>
+            <name>apenwarr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IndieWebClub Bangalore: Special Edition Meetup, A Retrospective]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-iwcb-se-retro/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-iwcb-se-retro/?mtm_campaign=feed"/>
+        <updated>2026-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The day after IndieWebClub Bangalore Special Anniversary Meetup, Ankur, Tanvi and I got together and did a retrospective on the event. We noted down what went well, what didn’t, and what we should do the next time. This note summarizes our discussion.
+What Went Well#
+We front-loaded many decisions, such as talk format, venue, date, topics etc., and didn’t second-guess them. This helped us later with our tight schedule.
+We were serious about the CFP from the get-go. We wrote a detailed CFP statement and made a web page for it. This made participants also take it seriously. We actively reached out to folks from the community asking them to submit proposals. Most of our proposals came from the people we reached out to.
+We decided at the very beginning that we wanted a diverse set of well-roun…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face and Cerebras bring Gemma 4 to real-time voice AI]]></title>
+        <id>https://huggingface.co/blog/cerebras-gemma4-voice-ai</id>
+        <link href="https://huggingface.co/blog/cerebras-gemma4-voice-ai"/>
+        <updated>2026-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration]]></title>
+        <id>https://huggingface.co/blog/ibm-research/scarfbench</id>
+        <link href="https://huggingface.co/blog/ibm-research/scarfbench"/>
+        <updated>2026-06-30T18:32:50.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Specialization Is Inevitable]]></title>
+        <id>https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable</id>
+        <link href="https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable"/>
+        <updated>2026-06-30T14:39:11.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Dharma-AI on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Featuring Every Eval Ever Results on Hugging Face Model Pages]]></title>
+        <id>https://huggingface.co/blog/eee-community-evals</id>
+        <link href="https://huggingface.co/blog/eee-community-evals"/>
+        <updated>2026-06-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DiScoFormer: One transformer for density and score, across distributions]]></title>
+        <id>https://huggingface.co/blog/allenai/discoformer</id>
+        <link href="https://huggingface.co/blog/allenai/discoformer"/>
+        <updated>2026-06-29T18:02:48.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GenPage: Towards End-to-End Generative Homepage Construction at Netflix]]></title>
+        <id>https://medium.com/p/77146fba8a08</id>
+        <link href="https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4"/>
+        <updated>2026-06-29T13:01:02.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Lequn Wang, Jiangwei Pan, and Linas Baltrunas]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes for the Week #26 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-06-29/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-06-29/?mtm_campaign=feed"/>
+        <updated>2026-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 22nd–28th June.
+
+Life#
+I took the whole last week off to recover from illness and fatigue. I’m happy to report that all three of us are doing much better now. I had a sinus infection, not major, but enough to give me headaches entire days. Thankfully, the medication worked, and now I’m almost over it.
+Earlier I had decided to not work on personal projects last week, but as I started feeling better, I couldn’t resist it. I worked on them for two days out of seven, which I consider pretty good knowing myself. I spent the rest of the time reading and watching TV, going for walks, and generally resting. I slept 10–11 hours each day. I finally feel rested enough.
+Last Monday I weighed myself as usual, and found myself to be at my lowest in many decades. However…]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Run a vLLM Server on HF Jobs in One Command]]></title>
         <id>https://huggingface.co/blog/vllm-jobs</id>
@@ -28,16 +144,6 @@ Some time in September 2017, I started with the 483 lines of example code Hakyll
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Which tokens does a hybrid model predict better?]]></title>
-        <id>https://huggingface.co/blog/allenai/hybrid-token-prediction</id>
-        <link href="https://huggingface.co/blog/allenai/hybrid-token-prediction"/>
-        <updated>2026-06-25T16:11:42.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel]]></title>
         <id>https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel</id>
         <link href="https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel"/>
@@ -58,20 +164,11 @@ Some time in September 2017, I started with the 483 lines of example code Hakyll
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Build real agentic apps using CUGA: two dozen working examples on a lightweight harness]]></title>
-        <id>https://huggingface.co/blog/ibm-research/cuga-apps</id>
-        <link href="https://huggingface.co/blog/ibm-research/cuga-apps"/>
-        <updated>2026-06-23T12:51:55.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix]]></title>
         <id>https://medium.com/p/eb8160ed60a2</id>
         <link href="https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-23T00:31:01.000Z</updated>
+        <summary type="html"><![CDATA[By Zhuoning Yuan, Ta-Ying Cheng, Benjamin Klein, Bahareh Azarnoush]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -101,6 +198,7 @@ Some time in September 2017, I started with the 483 lines of example code Hakyll
         <id>https://medium.com/p/87860682629c</id>
         <link href="https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-22T21:35:01.000Z</updated>
+        <summary type="html"><![CDATA[By Alvin Bao, Alex Petrov, Jennifer Lai, Aidan Sherr, and Samartha Chandrashekar]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -169,6 +267,7 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://medium.com/p/18b699d58e36</id>
         <link href="https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-19T23:54:17.000Z</updated>
+        <summary type="html"><![CDATA[By Celina Amados]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -178,6 +277,7 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://medium.com/p/7ca25888591e</id>
         <link href="https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-19T23:54:00.000Z</updated>
+        <summary type="html"><![CDATA[By Amer Hesson, Marcelo Mayworm, James Mulcahy, and Brittany Truong]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -187,6 +287,7 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://medium.com/p/587b1f2de928</id>
         <link href="https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-19T23:53:47.000Z</updated>
+        <summary type="html"><![CDATA[by Emily Gill]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -196,6 +297,7 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://medium.com/p/6e13329c80a1</id>
         <link href="https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-19T23:53:30.000Z</updated>
+        <summary type="html"><![CDATA[By Guil Pires,  Jennifer Prince, Jose Camacho,  Ken Kurzweil,  Phanindra Chunduru]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -205,6 +307,7 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://medium.com/p/4d89b26525cd</id>
         <link href="https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-19T23:53:16.000Z</updated>
+        <summary type="html"><![CDATA[by Matthew Wood, Ishan Gupta, Kevin Mercurio, Devon Bryant, and Claire Dorman]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -214,6 +317,7 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://medium.com/p/4623f0a9c5af</id>
         <link href="https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-19T23:53:06.000Z</updated>
+        <summary type="html"><![CDATA[By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -223,15 +327,8 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://medium.com/p/0165ba13a7bc</id>
         <link href="https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4"/>
         <updated>2026-06-19T23:52:02.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMAF v1: Good Is Not Good Enough]]></title>
-        <id>https://medium.com/p/60d7e4244ea8</id>
-        <link href="https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4"/>
-        <updated>2026-06-19T23:50:05.000Z</updated>
+        <summary type="html"><![CDATA[By Parth Jain, Rakesh Sukumar, Yingwu Zhao, Renzo Sanchez-Silva & Nathan Fisher
+How we built a living map of our distributed infrastructure…]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -241,7 +338,6 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://huggingface.co/blog/ServiceNow/mosaicleaks</id>
         <link href="https://huggingface.co/blog/ServiceNow/mosaicleaks"/>
         <updated>2026-06-18T18:13:13.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by ServiceNow on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -251,7 +347,6 @@ In June 2007 I bought this domain, thinking of starting a website.…]]></summar
         <id>https://huggingface.co/blog/peft-beyond-lora</id>
         <link href="https://huggingface.co/blog/peft-beyond-lora"/>
         <updated>2026-06-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -371,7 +466,6 @@ The repo now includes a GitHub Actions workflow that runs feed-repeat daily, and
         <id>https://huggingface.co/blog/mishig/spaces-agents-md</id>
         <link href="https://huggingface.co/blog/mishig/spaces-agents-md"/>
         <updated>2026-06-09T10:46:19.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Mishig Davaadorj on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -391,7 +485,6 @@ The repo now includes a GitHub Actions workflow that runs feed-repeat daily, and
         <id>https://huggingface.co/blog/openenv-agentic-rl</id>
         <link href="https://huggingface.co/blog/openenv-agentic-rl"/>
         <updated>2026-06-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -442,176 +535,6 @@ Read more of my posts and notes.]]></summary>
         <summary type="html"><![CDATA[Our 64-bit Intel and AMD processors have evolved over decades. When you compile a Go program for a 64-bit Intel or AMD processor, the compiler targets, by default, a nearly 20-year-old instruction set. The binary that comes out runs on essentially any x64 chip, but it also leaves on the table every instruction that was … Continue reading How much do amd64 microarchitecture levels help in Go?]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI]]></title>
-        <id>https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety</id>
-        <link href="https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety"/>
-        <updated>2026-06-04T18:57:45.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS: Unavoidable Bad Parts]]></title>
-        <id>https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html</id>
-        <link href="https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html"/>
-        <updated>2026-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An ersatz CSS tutorial for people who need to style a web page, but aren't web developers. I am a wrong person to write this kind of thing, as I have neither the time, nor experience. I'd much rather read a book about this. Alas, I had to learn all this stuff from trawling MDN, so perhaps it is valuable to document what I have so far.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing the hf CLI as an agent-optimized way to work with the Hub]]></title>
-        <id>https://huggingface.co/blog/hf-cli-for-agents</id>
-        <link href="https://huggingface.co/blog/hf-cli-for-agents"/>
-        <updated>2026-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sassy: fuzzy searching DNA sequences using SIMD]]></title>
-        <id>https://curiouscoding.nl/posts/sassy/</id>
-        <link href="https://curiouscoding.nl/posts/sassy/"/>
-        <updated>2026-06-03T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-1 Why should you care?
-2 Using Sassy
-
-2.1 The CLI
-2.2 Rust library
-2.3 Python bindings
-2.4 C and R bindings
-3 Problem statement: Approximate String Matching
-
-3.1 Overhang: when the pattern extends beyond the read
-4 Some background
-5 The algorithm
-
-5.1 SIMD
-5.2 Sassy2
-6 Results
-
-6.1 Sassy1
-6.2 Sassy2
-6.3 Applications
-Discuss on reddit.
-Sassy is a tool for quickly searching short DNA patterns across large inputs that
-Rick Beeloo and myself have been working on over the past year.
-It just got published (Beeloo and Groot Koerkamp 2026b) (PDF, DOI), and this blog post
-briefly outlines some possible applications and how we developed it.
-See also the GitHub readme and the slides for my RECOMB-Seq talk, which loosely
-form the basis for this post.]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Direct Preference Optimization Beyond Chatbots]]></title>
-        <id>https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots</id>
-        <link href="https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots"/>
-        <updated>2026-06-03T12:55:11.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Dharma-AI on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding MCP Tools to Reachy Mini]]></title>
-        <id>https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini</id>
-        <link href="https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini"/>
-        <updated>2026-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holo3.1: Fast & Local Computer Use Agents]]></title>
-        <id>https://huggingface.co/blog/Hcompany/holo31</id>
-        <link href="https://huggingface.co/blog/Hcompany/holo31"/>
-        <updated>2026-06-02T14:13:23.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by H company on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains]]></title>
-        <id>https://huggingface.co/blog/JetBrains/mellum2-launch</id>
-        <link href="https://huggingface.co/blog/JetBrains/mellum2-launch"/>
-        <updated>2026-06-01T15:45:17.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by JetBrains on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic]]></title>
-        <id>https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption</id>
-        <link href="https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption"/>
-        <updated>2026-06-01T13:51:18.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IndieWebClub Bangalore: Special Edition Meetup, Behind the Scenes]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-iwcb-se-bts/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-iwcb-se-bts/?mtm_campaign=feed"/>
-        <updated>2026-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It all started with a question about cake. IndieWebClub Bangalore had its one-year anniversary on 24 May 2026. After the meetup on 2nd May, I asked Ankur and Tanvi if we could get some cake to celebrate the anniversary. We agreed to it, but a larger idea had taken roots in my mind.
-Conception#
-On 5th May, I posted in the IWCB admins group chat:
-I was wondering if we could do a special meetup on 30th with no agenda and a little anniversary celebration.
-Or we could do a small unconference in underline, inviting 10 min talks from the attendees for first few hours and then go somewhere for a cake.
-After some back-and-forth, Tanvi and Ankur liked the idea, and thus started the planning for the Special Edition meetup, where we would invite the folks from the IWCB community to present their talks…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The software industry: annealing, but wrong]]></title>
-        <id>https://apenwarr.ca/log/20260531</id>
-        <link href="https://apenwarr.ca/log/20260531"/>
-        <updated>2026-05-31T20:24:22.000Z</updated>
-        <summary type="html"><![CDATA[In recent months I've heard of several teams with an interesting policy:
-each pull request should be no more than a few files, and no more than a
-certain number of lines (say 500). And do just one thing and do it well. And
-be easy for a human to review. And be fully tested by the test suite.
-All those are good requirements, right? Surely this is quality software
-engineering.
-And often, the results are good. Sure, splitting a single 6000-line feature
-or fix into twelve 500-line PRs is more work, but each of those PRs is
-surely easier to review. And you can git bisect them when there's a bug! And
-maybe revert the individual change that broke something.
-...and also cause 12x as many context switches for your
-reviewers as they
-review each one sequentially.1 But that's just the cost of
-software…]]></summary>
-        <author>
-            <name>apenwarr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes for the Week #22 (2026)]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-weeknotes-05-31/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-05-31/?mtm_campaign=feed"/>
-        <updated>2026-05-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week note covers the week of 25th–31st May.
-
-
-Life#
-Compared to the week before, I was in good health for most of the last week. I managed to get a lot of work done, and attended three drumming classes as well. Though my playing is still very sloppy, sight reading is slowly coming back to me. I recorded myself playing, and later cringed at the inaccuracies. I’m sad to see how much my skills have declined, but I’m happy to report that I’m progressing much faster than a beginner. I hope that I can finish 3–4 grades worth of learning in a year.
-Rains are here to stay, and the weather is much cooler too. Unfortunately, I’m still not in a condition to exercise. I skipped going to the gym last week, and may not be able to this week as well. No running for me either. I didn’t even walk 10000…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
         </author>
     </entry>
 </feed>
