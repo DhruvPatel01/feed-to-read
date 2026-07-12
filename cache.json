@@ -17,7 +17,7 @@
           "description": "Authors: Lequn Wang, Jiangwei Pan, and Linas Baltrunas",
           "link": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-29T13:01:02.000Z",
-          "wordCount": 10851,
+          "wordCount": 10967,
           "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*NurrizMgC7_QbsGuuW42Dg.gif"
         },
@@ -27,7 +27,7 @@
           "description": "By Zhuoning Yuan, Ta-Ying Cheng, Benjamin Klein, Bahareh Azarnoush",
           "link": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-23T00:31:01.000Z",
-          "wordCount": 5379,
+          "wordCount": 5434,
           "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:620/1*GaxGb9nVQiIt_0tFmDVc_A.gif"
         },
@@ -37,7 +37,7 @@
           "description": "By Alvin Bao, Alex Petrov, Jennifer Lai, Aidan Sherr, and Samartha Chandrashekar",
           "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-22T21:35:01.000Z",
-          "wordCount": 3619,
+          "wordCount": 3689,
           "title": "How Netflix Simplified Batch Compute with Kueue",
           "imageUrl": "https://miro.medium.com/v2/resize:fill:1143:602/g:fp:0.5:0.78/1*GL_sNsqautjh4lnu5XmRww.png"
         },
@@ -47,7 +47,7 @@
           "description": "By Celina Amados",
           "link": "https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:54:17.000Z",
-          "wordCount": 3911,
+          "wordCount": 3980,
           "title": "The Data Canary: How Netflix Validates Catalog Metadata",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*SGzOXwhed2NX9LxcDNFhig.jpeg"
         },
@@ -57,7 +57,7 @@
           "description": "By Amer Hesson, Marcelo Mayworm, James Mulcahy, and Brittany Truong",
           "link": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:54:00.000Z",
-          "wordCount": 4707,
+          "wordCount": 5608,
           "title": "Data Projects: Managing Data Assets at Netflix Scale",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Te9vjGxhHK7jMmpSO6sy2Q.png"
         },
@@ -67,7 +67,7 @@
           "description": "by Emily Gill",
           "link": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:47.000Z",
-          "wordCount": 4029,
+          "wordCount": 4092,
           "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Yv6mwy7QZ8ghiI4S1jGv6g.png"
         },
@@ -77,7 +77,7 @@
           "description": "By Guil Pires,  Jennifer Prince, Jose Camacho,  Ken Kurzweil,  Phanindra Chunduru",
           "link": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:30.000Z",
-          "wordCount": 6667,
+          "wordCount": 6733,
           "title": "The Evolution of Cassandra Data Movement at Netflix",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*EwqgicjfpASkWIf3nz4q6A.png"
         },
@@ -87,7 +87,7 @@
           "description": "by Matthew Wood, Ishan Gupta, Kevin Mercurio, Devon Bryant, and Claire Dorman",
           "link": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:16.000Z",
-          "wordCount": 3832,
+          "wordCount": 3882,
           "title": "Thinking Fast & Slow for a Personalized Notification System",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*gZiJ6HiK_BG3rDCRupx5vA.png"
         },
@@ -97,7 +97,7 @@
           "description": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus",
           "link": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:06.000Z",
-          "wordCount": 5924,
+          "wordCount": 5978,
           "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*7midjxNL3H3BlZvQy4seSA.png"
         },
@@ -107,7 +107,7 @@
           "description": "By Parth Jain, Rakesh Sukumar, Yingwu Zhao, Renzo Sanchez-Silva & Nathan Fisher\nHow we built a living map of our distributed infrastructure…",
           "link": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:52:02.000Z",
-          "wordCount": 7000,
+          "wordCount": 7109,
           "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:996/1*68tW9-7kC3oGL0T5J5di_A.png"
         }
@@ -137,12 +137,102 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/torch-attention-profile",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/torch-attention-profile",
+          "publishedOn": "2026-07-10T00:00:00.000Z",
+          "wordCount": 4463,
+          "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+          "imageUrl": "https://huggingface.co/blog/assets/torch-attention-profile/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "author": null,
+          "description": "A Blog post by NVIDIA on Hugging Face",
+          "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "publishedOn": "2026-07-08T17:16:05.000Z",
+          "wordCount": 1956,
+          "title": "Data for Agents",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/P3b9bOHrdkEJeAcWX6FoW.gif"
+        },
+        {
+          "id": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+          "publishedOn": "2026-07-08T00:00:00.000Z",
+          "wordCount": 1218,
+          "title": "Native-speed vLLM transformers modeling backend",
+          "imageUrl": "https://huggingface.co/blog/assets/native-speed-vllm-transformers-backend/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+          "author": null,
+          "description": "A Blog post by Amazon on Hugging Face",
+          "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+          "publishedOn": "2026-07-07T21:15:33.000Z",
+          "wordCount": 1397,
+          "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68abb71b13d7773ad97e9035/f1nX3dXVmvJcQzJfgfpnJ.webp"
+        },
+        {
+          "id": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+          "author": null,
+          "description": "A Blog post by Microsoft on Hugging Face",
+          "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+          "publishedOn": "2026-07-07T15:20:06.000Z",
+          "wordCount": 2482,
+          "title": "Hugging Face Models on Foundry Managed Compute",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/688797c1629e0ef013c2556c/Dn2wmfWGM83ZhuQ-C5jPo.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/skypilot-hf-storage",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/skypilot-hf-storage",
+          "publishedOn": "2026-07-07T00:00:00.000Z",
+          "wordCount": 2199,
+          "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+          "imageUrl": "https://huggingface.co/blog/assets/skypilot-hf-storage/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/lerobot-release-v060",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/lerobot-release-v060",
+          "publishedOn": "2026-07-07T00:00:00.000Z",
+          "wordCount": 3119,
+          "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+          "imageUrl": "https://huggingface.co/blog/assets/lerobot-release-v060/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+          "author": null,
+          "description": "A Blog post by Photoroom on Hugging Face",
+          "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+          "publishedOn": "2026-07-06T15:30:55.000Z",
+          "wordCount": 4857,
+          "title": "PRX Part 4: Our Data Strategy",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/680a58121b2c7c159d2bd481/hJldzOsDg5kYWJC_vyj09.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/revamped-kernels",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/revamped-kernels",
+          "publishedOn": "2026-07-06T00:00:00.000Z",
+          "wordCount": 2078,
+          "title": "🤗 Kernels: Major Updates",
+          "imageUrl": "https://huggingface.co/blog/assets/revamped-kernels/thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
           "publishedOn": "2026-07-01T00:00:00.000Z",
-          "wordCount": 1140,
+          "wordCount": 1150,
           "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
           "imageUrl": "https://huggingface.co/blog/assets/cerebras-gemma4-voice-ai/thumbnail.png"
         },
@@ -152,7 +242,7 @@
           "description": "A Blog post by IBM Research on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-research/scarfbench",
           "publishedOn": "2026-06-30T18:32:50.000Z",
-          "wordCount": 1520,
+          "wordCount": 1521,
           "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/649c1276a83f996b4191a8f1/iYCwB2Hl8qPTA8DCgDilB.png"
         },
@@ -162,7 +252,7 @@
           "description": "A Blog post by Dharma-AI on Hugging Face",
           "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
           "publishedOn": "2026-06-30T14:39:11.000Z",
-          "wordCount": 2608,
+          "wordCount": 2774,
           "title": "Why Specialization Is Inevitable",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69d815b52c6db28cfdfdd422/Av4v9_l94sEUj-etRFOLb.png"
         },
@@ -172,7 +262,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/eee-community-evals",
           "publishedOn": "2026-06-30T00:00:00.000Z",
-          "wordCount": 1863,
+          "wordCount": 1866,
           "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
           "imageUrl": "https://huggingface.co/blog/assets/eee_commevals/eee_commevals_banner.png"
         },
@@ -182,7 +272,7 @@
           "description": "A Blog post by Ai2 on Hugging Face",
           "link": "https://huggingface.co/blog/allenai/discoformer",
           "publishedOn": "2026-06-29T18:02:48.000Z",
-          "wordCount": 1141,
+          "wordCount": 1142,
           "title": "DiScoFormer: One transformer for density and score, across distributions",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/AnOX0pzQm-Hep_CLFOVM7.png"
         },
@@ -192,7 +282,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/vllm-jobs",
           "publishedOn": "2026-06-26T00:00:00.000Z",
-          "wordCount": 1809,
+          "wordCount": 1807,
           "title": "Run a vLLM Server on HF Jobs in One Command",
           "imageUrl": "https://huggingface.co/blog/assets/vllm-jobs/thumbnail.png"
         },
@@ -202,7 +292,7 @@
           "description": "A Blog post by NVIDIA on Hugging Face",
           "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
           "publishedOn": "2026-06-24T16:00:13.000Z",
-          "wordCount": 2626,
+          "wordCount": 2617,
           "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/690d0a6c2c5acfe0e1f4777d/1N4GjIYBsZ6RCReRx_qBB.png"
         },
@@ -212,19 +302,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/ffasr-leaderboard",
           "publishedOn": "2026-06-24T00:00:00.000Z",
-          "wordCount": 2239,
+          "wordCount": 2240,
           "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
           "imageUrl": "https://huggingface.co/blog/assets/ffasr-leaderboard/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/huggingface-hub-release-ci",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
           "publishedOn": "2026-06-23T00:00:00.000Z",
-          "wordCount": 2666,
+          "wordCount": null,
           "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-          "imageUrl": "https://huggingface.co/blog/assets/huggingface-hub-release-ci/thumbnail.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/cross-origin-storage",
@@ -232,19 +322,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/cross-origin-storage",
           "publishedOn": "2026-06-23T00:00:00.000Z",
-          "wordCount": 3163,
+          "wordCount": 3164,
           "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
           "imageUrl": "https://huggingface.co/blog/assets/cross-origin-storage/thumbnail.jpg"
         },
         {
           "id": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
           "author": null,
-          "description": "A Blog post by PaddlePaddle on Hugging Face",
+          "description": "",
           "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
           "publishedOn": "2026-06-22T13:18:56.000Z",
-          "wordCount": 1550,
+          "wordCount": null,
           "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/652b2e9166313ebb6197e706/l156KP0e5PRyDrE4woHoM.jpeg"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/local-models-pr-triage",
@@ -252,29 +342,29 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/local-models-pr-triage",
           "publishedOn": "2026-06-22T00:00:00.000Z",
-          "wordCount": 3156,
+          "wordCount": 3164,
           "title": "We got local models to triage the OpenClaw repo for FREE!*",
           "imageUrl": "https://huggingface.co/blog/assets/local-models-pr-triage/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
           "author": null,
-          "description": "",
+          "description": "A Blog post by ServiceNow on Hugging Face",
           "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
           "publishedOn": "2026-06-18T18:13:13.000Z",
-          "wordCount": null,
+          "wordCount": 2307,
           "title": "MosaicLeaks: Can your research agent keep a secret?",
-          "imageUrl": null
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/680ba1729f7688275d2ce0f4/hGCO4pOyJjijLPCbRT07v.webp"
         },
         {
           "id": "https://huggingface.co/blog/peft-beyond-lora",
           "author": null,
-          "description": "",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/peft-beyond-lora",
           "publishedOn": "2026-06-18T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3378,
           "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-          "imageUrl": null
+          "imageUrl": "https://huggingface.co/blog/assets/peft-beyond-lora/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/is-it-agentic-enough",
@@ -282,19 +372,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/is-it-agentic-enough",
           "publishedOn": "2026-06-18T00:00:00.000Z",
-          "wordCount": 3665,
+          "wordCount": 3666,
           "title": "Is it agentic enough? Benchmarking open models on your own tooling",
           "imageUrl": "https://huggingface.co/blog/assets/is-it-agentic-enough/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
           "author": null,
-          "description": "A Blog post by Amazon on Hugging Face",
+          "description": "",
           "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
           "publishedOn": "2026-06-17T10:18:05.000Z",
-          "wordCount": 3956,
+          "wordCount": null,
           "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/qvSGZ0tZsgr4U4BCx_bVX.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/zai-org/glm-52-blog",
@@ -302,7 +392,7 @@
           "description": "A Blog post by Z.ai on Hugging Face",
           "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
           "publishedOn": "2026-06-17T09:01:25.000Z",
-          "wordCount": 3116,
+          "wordCount": 3117,
           "title": "GLM-5.2: Built for Long-Horizon Tasks",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/67066ea38a79951d7b8d4195/iaTHtYOBgeY0C3Xx3vymr.png"
         },
@@ -312,49 +402,9 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
           "publishedOn": "2026-06-17T00:00:00.000Z",
-          "wordCount": 1677,
+          "wordCount": 1678,
           "title": "Agentic Resource Discovery: Let agents search",
           "imageUrl": "https://huggingface.co/blog/assets/agentic-resource-discovery-launch/thumbnail_.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/torch-mlp-fusion",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/torch-mlp-fusion",
-          "publishedOn": "2026-06-11T00:00:00.000Z",
-          "wordCount": 4360,
-          "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-          "imageUrl": "https://huggingface.co/blog/assets/torch-mlp-fusion/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/mishig/spaces-agents-md",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
-          "publishedOn": "2026-06-09T10:46:19.000Z",
-          "wordCount": null,
-          "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-          "imageUrl": null
-        },
-        {
-          "id": "https://huggingface.co/blog/github-ci-hf-jobs",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/github-ci-hf-jobs",
-          "publishedOn": "2026-06-09T00:00:00.000Z",
-          "wordCount": 2114,
-          "title": "Migrating Your GitHub CI to Hugging Face Jobs",
-          "imageUrl": "https://huggingface.co/blog/assets/github-ci-hf-jobs/thumbnail.gif"
-        },
-        {
-          "id": "https://huggingface.co/blog/openenv-agentic-rl",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/openenv-agentic-rl",
-          "publishedOn": "2026-06-08T00:00:00.000Z",
-          "wordCount": null,
-          "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-          "imageUrl": null
         }
       ]
     },
@@ -375,9 +425,9 @@
           "description": "<p>In the <a href=\"https://abhinavsarkar.net/posts/nix-for-haskell/\">previous post</a>, we learned how to get started with managing and building a <a href=\"https://haskell.org\" target=\"_blank\" rel=\"noopener\">Haskell</a> project with <a href=\"https://nixos.org\" target=\"_blank\" rel=\"noopener\">Nix</a>. In this post, we learn how to easily create statically-linked executables for Haskell projects with Nix.</p>",
           "link": "https://abhinavsarkar.net/posts/nix-for-haskell-static-builds/?mtm_campaign=feed",
           "publishedOn": "2026-06-18T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3332,
           "title": "Nix for Haskell: Static Builds",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/posts/nix-for-haskell-static-builds.png"
         }
       ]
     },
@@ -387,14 +437,24 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-07-06/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 29th June–5th July.\n\nLife#\nLast week I got back to work after a week’s break. And work I did! I switched my office cab time from 7:30 AM to 9:30 AM so that I could sleep a little longer. Now I have breakfast at home instead of office, and I start working right from the cab so that I get to work same amount of time. I’ve been sleeping 10+ hours every night and it is finally working! I feel much better than a few weeks ago, almost back to my normal health.\nI’ve noticed that HRV is a good overall indicator of my health. The following chart shows my weekly average HRV over the last one month, as captured by my smartwatch:\n\n\n\nYou can see how it slowly went down over the first two weeks and then started to go back up over the last two weeks. It’s still not back …",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-07-06/?mtm_campaign=feed",
+          "publishedOn": "2026-07-06T00:00:00.000Z",
+          "wordCount": 1152,
+          "title": "Notes for the Week #27 (2026)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-07-06.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2026-iwcb-se-retro/?mtm_campaign=feed",
           "author": null,
           "description": "The day after IndieWebClub Bangalore Special Anniversary Meetup, Ankur, Tanvi and I got together and did a retrospective on the event. We noted down what went well, what didn’t, and what we should do the next time. This note summarizes our discussion.\nWhat Went Well#\nWe front-loaded many decisions, such as talk format, venue, date, topics etc., and didn’t second-guess them. This helped us later with our tight schedule.\nWe were serious about the CFP from the get-go. We wrote a detailed CFP statement and made a web page for it. This made participants also take it seriously. We actively reached out to folks from the community asking them to submit proposals. Most of our proposals came from the people we reached out to.\nWe decided at the very beginning that we wanted a diverse set of well-roun…",
           "link": "https://abhinavsarkar.net/notes/2026-iwcb-se-retro/?mtm_campaign=feed",
           "publishedOn": "2026-07-04T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2001,
           "title": "IndieWebClub Bangalore: Special Edition Meetup, A Retrospective",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-iwcb-se-retro.png"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2026-weeknotes-06-29/?mtm_campaign=feed",
@@ -402,9 +462,9 @@
           "description": "This week note covers the week of 22nd–28th June.\n\nLife#\nI took the whole last week off to recover from illness and fatigue. I’m happy to report that all three of us are doing much better now. I had a sinus infection, not major, but enough to give me headaches entire days. Thankfully, the medication worked, and now I’m almost over it.\nEarlier I had decided to not work on personal projects last week, but as I started feeling better, I couldn’t resist it. I worked on them for two days out of seven, which I consider pretty good knowing myself. I spent the rest of the time reading and watching TV, going for walks, and generally resting. I slept 10–11 hours each day. I finally feel rested enough.\nLast Monday I weighed myself as usual, and found myself to be at my lowest in many decades. However…",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-06-29/?mtm_campaign=feed",
           "publishedOn": "2026-06-29T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 1121,
           "title": "Notes for the Week #26 (2026)",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-06-29.png"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2026-making-this-website/?mtm_campaign=feed",
@@ -412,9 +472,9 @@
           "description": "Almost nine years ago, I decided to write my own website generator. Static-site generators (SSGs) were sort of new back then, and somewhat fascinating to me. After failing to start a website/blog for a decade, I realized that I’ll never be satisfied by a ready-made solution, and I need to make something of my own. I started with Hakyll, a small SSG framework written in Haskell. Over years, I expanded my website by adding new sections and features. The website code has grown from 500 lines to over 17000 lines now. This note recalls the story of the same.\nThe Hakyll Era#\nSome time in September 2017, I started with the 483 lines of example code Hakyll comes with. I liked Haskell and Hakyll was pretty easy to get started with because of ample examples and tutorials. It worked as expected for m…",
           "link": "https://abhinavsarkar.net/notes/2026-making-this-website/?mtm_campaign=feed",
           "publishedOn": "2026-06-26T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 1559,
           "title": "The Making of This Website",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-making-this-website.png"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2026-weeknotes-06-22/?mtm_campaign=feed",
@@ -422,9 +482,9 @@
           "description": "This week note covers the week of 15th–21st June.\n\nBy the Lake\n\nLife#\nLast week was a pretty bad weak for us health-wise. Wife, I, and A have been battling different illnesses at varying degrees. I have slept for only four hours last night. I shouldn’t even be writing this weeknote, but there is nothing else I can do at this moment.\nIf you have been a regular reader of my weeknotes, you’d have noticed that we’ve not had a sickness-free week in what seems like a long time now. The blame lies in the rapidly varying daily weather of Bangalore, toddlers having a weak immune system, and our [parents] bodies going through some sort of parental burnout. We are hoping that things will get better with time.\nWe managed to have a small celebration for the Father’s day yesterday, just some cake for A …",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-06-22/?mtm_campaign=feed",
           "publishedOn": "2026-06-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 1034,
           "title": "Notes for the Week #25 (2026)",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-06-22.png"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2026-indieweb-start/?mtm_campaign=feed",
@@ -432,9 +492,9 @@
           "description": "I wrote this post for a prompt given during our local Indieweb club meeting: “Capture the moment that led to starting your blog.”\nI bought this domain name “abhinavsarkar.net” in June 2007. A few years prior to that, my exposure to the internet had been expanded massively by me finally getting an internet connection over Ethernet. Dial-ups that I used before were just too slow for me to actually have enough time to explore anything on internet other than going to particular websites I already knew about. Sometime during 2006 I joined Twitter, and it opened up a new world to me. Through it, I got introduced to the idea of people having personal websites, and writing on them. Blogging was new then, and very fascinating to me.\nIn June 2007 I bought this domain, thinking of starting a website.…",
           "link": "https://abhinavsarkar.net/notes/2026-indieweb-start/?mtm_campaign=feed",
           "publishedOn": "2026-06-20T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 1116,
           "title": "How I Started My Indieweb Journey",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-indieweb-start.png"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2026-weeknotes-06-14/?mtm_campaign=feed",
@@ -442,9 +502,9 @@
           "description": "This week note covers the week of 8th–14th June.\n\n\nGolden Fruity Tea\n\nLife#\nLast week was a little slow, in many ways. My health is improving, but I’m still not at a place to be able to do physical activities. I’m taking it slow, and mostly resting.\nI started doing regular meditation starting last week. It makes me feel calmer and more restful. I hope it aids in my recovery too. By the end of the week, I felt good enough to go out for lunch. After a gap of many months wife and I went out, to Burma Burma in Indiranagar. We had been hearing a lot of about it for a while, so we decided to give it a try. Also, because I didn’t want to take chances with non-veg restaurant food, which generally happens to be quite spicy. All the food we had was excellent, but the avocado-tofu salad was especiall…",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-06-14/?mtm_campaign=feed",
           "publishedOn": "2026-06-14T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 987,
           "title": "Notes for the Week #24 (2026)",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-06-14.png"
         },
         {
           "id": "https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed",
@@ -452,19 +512,9 @@
           "description": "feed-repeat is a small tool that selects old posts from RSS/Atom feeds you configure and puts them into a new Atom feed. Use it with your feed reader for a spaced-repetition-like experience for feeds. See the announcement post for the motivation behind it, and more details.\nI just released v1.1 of feed-repeat. This release brings some great new features, and improves the security and performance. The biggest highlight: you can now run feed-repeat entirely on GitHub, no server needed!\nThe repo now includes a GitHub Actions workflow that runs feed-repeat daily, and publishes the generated feeds to GitHub Pages. Getting started is simple: fork the repo, edit config.yaml with your source feeds, enable the workflow, enable GitHub Pages, and subscribe to the generated feeds in your feed reader. …",
           "link": "https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed",
           "publishedOn": "2026-06-13T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 924,
           "title": "feed-repeat v1.1: Hosting on GitHub Pages, New Posts Passthrough, SSRF\nProtection, and More",
-          "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-06-08/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 1st–7th June.\n\nLife#\nLast week was a week of rest and recovery. I felt better with each passing day. I wonder if what happened to me in the last month was some sort of echo of my burnout and spell of illness of the last year. But this time I didn’t wait six months, I immediately started focusing on resting and nutrition. I hope this cuts down my recovery period substantially. Although I can walk ten thousand steps a day, I’m not forcing myself too, at least for next few weeks.\nThe weather has been fine. I’m sad to miss exercising outside, but resting is a priority for now. I’ll try going to the gym this week. Let’s see.\nPersonal Projects#\nI stayed indoors, and spent all my free time working on feed-repeat, my recently open-sourced niche Haskell project. One of the things I did was to create a website for it, so now you can read about the work I did right there. I’m very close to a second release.\nI also upgraded NixOS to version 26.05 on my VPS. I ran into a snag, that I ranted about on internet.\nIndieWebClub#\nThere was no IWC meetup last week, but a few folks wrote about the Special Edition meetup in their blogs, which was really nice to read about. I also wrote about it, specifically about the behind-the-scenes work we did to make it happen.\nWatching#\nWife and I started watching Spider Noir on Prime Video. It’s a great show but I’m a little disappointed that it’s mostly Noir and very less Spider.\nI finished watching Bocchi the Rock!. What a great show! It made me start going to music classes again.\nInteresting Internet Links#\nQuality in the Age of Slop\nThinking about names, as well as scuba diving\nA Reckless Introduction to Hindley-Milner Type Inference\nThat’s all for this week. You can subscribe to the feed of my week notes for updates.\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-06-08/?mtm_campaign=feed",
-          "publishedOn": "2026-06-08T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Notes for the Week #23 (2026)",
-          "imageUrl": null
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-feed-repeat-v1_1.png"
         }
       ]
     },
@@ -474,12 +524,22 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22714",
+          "author": "Daniel Lemire",
+          "description": "I have been on X for a long time. Like most people who post regularly, I have a gut feeling for what might interest people. I post in the morning. Longer posts seem to do better. But gut feelings are not measurements. And until recently, digging into your own posting data meant either clicking around … Continue reading X just gave us an interface that AI agents can use. I pointed it at my own posts.",
+          "link": "https://lemire.me/blog/2026/07/11/x-just-gave-us-an-interface-that-ai-agents-can-use-i-pointed-it-at-my-own-posts/",
+          "publishedOn": "2026-07-11T19:53:17.000Z",
+          "wordCount": 3889,
+          "title": "X just gave us an interface that AI agents can use. I pointed it at my own posts.",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/07/image-5-1024x687.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22706",
           "author": "Daniel Lemire",
           "description": "When I was a kid, most people did not know how to type. We took typing class. The final exam was a speed test: words per minute. Today, you will not impress anyone by saying you can type. In fact, cursive writing is fading. Kids increasingly cannot read or write it. We type constantly. We … Continue reading Chatting with an AI Won’t Make You a Top Programmer",
           "link": "https://lemire.me/blog/2026/06/21/chatting-with-ai-wont-make-you-a-top-programmer/",
           "publishedOn": "2026-06-21T17:51:16.000Z",
-          "wordCount": 3945,
+          "wordCount": 4011,
           "title": "Chatting with an AI Won’t Make You a Top Programmer",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/image-4-1024x687.jpg"
         },
@@ -492,26 +552,6 @@
           "wordCount": 4270,
           "title": "Parsing JSON at compile time with C++26 static reflection",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/AdxWs-1024x683.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22693",
-          "author": "Daniel Lemire",
-          "description": "The keyword in politics these days is ‘sovereign’. What few will admit is that it is effectively the adoption of the American strategy: Make America Great Again. In other words, reindustrialization of key sectors of the economy. The UK used to be a computing champion. Our chip designs (ARM) originated from the UK. Canada had … Continue reading Sovereign",
-          "link": "https://lemire.me/blog/2026/06/09/22693/",
-          "publishedOn": "2026-06-09T18:39:32.000Z",
-          "wordCount": 4297,
-          "title": "Sovereign",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/Capture-decran-le-2026-06-09-a-14.39.13-1024x625.png"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22682",
-          "author": "Daniel Lemire",
-          "description": "Our 64-bit Intel and AMD processors have evolved over decades. When you compile a Go program for a 64-bit Intel or AMD processor, the compiler targets, by default, a nearly 20-year-old instruction set. The binary that comes out runs on essentially any x64 chip, but it also leaves on the table every instruction that was … Continue reading How much do amd64 microarchitecture levels help in Go?",
-          "link": "https://lemire.me/blog/2026/06/06/how-much-do-amd64-microarchitecture-levels-help-in-go/",
-          "publishedOn": "2026-06-06T20:25:19.000Z",
-          "wordCount": 4476,
-          "title": "How much do amd64 microarchitecture levels help in Go?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/Capture-decran-le-2026-06-06-a-16.18.20-1024x683.png"
         }
       ]
     },
@@ -532,7 +572,7 @@
           "description": "Happy July 4th!  For those of us around the world contemplating\nindependence, it's a good day to think about how we came to rely on\nexpensive cloud infrastructure for our fundamental computing needs.\nWith that in mind, here is my latest toy project: an open source tool that\nmakes replicating, forking, sharing, and running container snapshots fast\nand easy across cloud and personal devices.\nIt's fun to play with, especially on bare metal hardware you run at home, or\nrent from a provider like Hetzner or OVH. Or, because it uses Tailscale, why\nnot all of them in a single mesh?\nThere's a lot more to say but I don't have time right now. Details are in\nthe README.\nI will say this: humans and AI agents both want the same things when they're\ntrying to get work done.  Ephemeral containers aren't really it.  But how\nabout unlimited disk space, fast CPUs, an undo button, and the ability to\nmove to whatever provider offers the best hardware at the best price? \nThat's more like it.\nGo visit thundersnap on github\nand tell me what you think!",
           "link": "https://apenwarr.ca/log/20260704",
           "publishedOn": "2026-07-04T04:24:21.000Z",
-          "wordCount": 420,
+          "wordCount": 424,
           "title": "thundersnap 0.01: an undo button for everything",
           "imageUrl": null
         }
@@ -542,7 +582,18 @@
       "title": "home on CuriousCoding",
       "feedUrl": "https://curiouscoding.nl/index.xml",
       "siteUrl": "https://curiouscoding.nl/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://curiouscoding.nl/slides/sassy/",
+          "author": null,
+          "description": "Previously\n \n \n Link to heading\n \n\n\n\n\n\n\n\n\n Previously\n \n \n Link to heading\n \n\n\n\n\n\n\n\n\n\n\n\n Long-read global alignment is just not a problem people have…\n \n \n Link to heading\n \n\n\n … Sassy: 100bp semi-global alignment\n \n \n Link to heading\n \n\n\n Takeaway 1: Math yay, Bio nay\n \n \n Link to heading\n \n\n\n Takeaway 2: Do simple stuff fast\n \n \n Link to heading\n \n\n\n Approximate String Matching\n \n \n Link to heading\n \n\n\nFind pattern \\(P\\) in text \\(T\\).\n\n\\(m := |P|\\), \\(n := |T|\\)\nAllow up to \\(k\\) unit-cost errors.\nFind all matches.",
+          "link": "https://curiouscoding.nl/slides/sassy/",
+          "publishedOn": "2026-07-05T22:00:00.000Z",
+          "wordCount": 434,
+          "title": "Sassy 1 & 2: Fuzzy searching DNA using SIMD",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
