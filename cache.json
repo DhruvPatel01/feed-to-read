@@ -7,6 +7,12 @@
       "articles": []
     },
     {
+      "title": "Nicolas James Marks Ford",
+      "feedUrl": "https://nicf.net/feed.xml",
+      "siteUrl": "https://nicf.net/",
+      "articles": []
+    },
+    {
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
@@ -17,7 +23,7 @@
           "description": "Authors: Lequn Wang, Jiangwei Pan, and Linas Baltrunas",
           "link": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-29T13:01:02.000Z",
-          "wordCount": 10967,
+          "wordCount": 11788,
           "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*NurrizMgC7_QbsGuuW42Dg.gif"
         },
@@ -37,7 +43,7 @@
           "description": "By Alvin Bao, Alex Petrov, Jennifer Lai, Aidan Sherr, and Samartha Chandrashekar",
           "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-22T21:35:01.000Z",
-          "wordCount": 3689,
+          "wordCount": 4515,
           "title": "How Netflix Simplified Batch Compute with Kueue",
           "imageUrl": "https://miro.medium.com/v2/resize:fill:1143:602/g:fp:0.5:0.78/1*GL_sNsqautjh4lnu5XmRww.png"
         },
@@ -47,7 +53,7 @@
           "description": "By Celina Amados",
           "link": "https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:54:17.000Z",
-          "wordCount": 3980,
+          "wordCount": 4806,
           "title": "The Data Canary: How Netflix Validates Catalog Metadata",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*SGzOXwhed2NX9LxcDNFhig.jpeg"
         },
@@ -57,7 +63,7 @@
           "description": "By Amer Hesson, Marcelo Mayworm, James Mulcahy, and Brittany Truong",
           "link": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:54:00.000Z",
-          "wordCount": 5608,
+          "wordCount": 5612,
           "title": "Data Projects: Managing Data Assets at Netflix Scale",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Te9vjGxhHK7jMmpSO6sy2Q.png"
         },
@@ -67,7 +73,7 @@
           "description": "by Emily Gill",
           "link": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:47.000Z",
-          "wordCount": 4092,
+          "wordCount": 4915,
           "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Yv6mwy7QZ8ghiI4S1jGv6g.png"
         },
@@ -77,7 +83,7 @@
           "description": "By Guil Pires,  Jennifer Prince, Jose Camacho,  Ken Kurzweil,  Phanindra Chunduru",
           "link": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:30.000Z",
-          "wordCount": 6733,
+          "wordCount": 7559,
           "title": "The Evolution of Cassandra Data Movement at Netflix",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*EwqgicjfpASkWIf3nz4q6A.png"
         },
@@ -87,7 +93,7 @@
           "description": "by Matthew Wood, Ishan Gupta, Kevin Mercurio, Devon Bryant, and Claire Dorman",
           "link": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:16.000Z",
-          "wordCount": 3882,
+          "wordCount": 3880,
           "title": "Thinking Fast & Slow for a Personalized Notification System",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*gZiJ6HiK_BG3rDCRupx5vA.png"
         },
@@ -97,7 +103,7 @@
           "description": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus",
           "link": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-19T23:53:06.000Z",
-          "wordCount": 5978,
+          "wordCount": 6800,
           "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*7midjxNL3H3BlZvQy4seSA.png"
         },
@@ -142,7 +148,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/torch-attention-profile",
           "publishedOn": "2026-07-10T00:00:00.000Z",
-          "wordCount": 4463,
+          "wordCount": 4545,
           "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
           "imageUrl": "https://huggingface.co/blog/assets/torch-attention-profile/thumbnail.png"
         },
@@ -309,12 +315,12 @@
         {
           "id": "https://huggingface.co/blog/huggingface-hub-release-ci",
           "author": null,
-          "description": "",
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
           "publishedOn": "2026-06-23T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2667,
           "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-          "imageUrl": null
+          "imageUrl": "https://huggingface.co/blog/assets/huggingface-hub-release-ci/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/cross-origin-storage",
@@ -329,12 +335,12 @@
         {
           "id": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
           "author": null,
-          "description": "",
+          "description": "A Blog post by PaddlePaddle on Hugging Face",
           "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
           "publishedOn": "2026-06-22T13:18:56.000Z",
-          "wordCount": null,
+          "wordCount": 1551,
           "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-          "imageUrl": null
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/652b2e9166313ebb6197e706/l156KP0e5PRyDrE4woHoM.jpeg"
         },
         {
           "id": "https://huggingface.co/blog/local-models-pr-triage",
@@ -379,12 +385,12 @@
         {
           "id": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
           "author": null,
-          "description": "",
+          "description": "A Blog post by Amazon on Hugging Face",
           "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
           "publishedOn": "2026-06-17T10:18:05.000Z",
-          "wordCount": null,
+          "wordCount": 3971,
           "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-          "imageUrl": null
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/qvSGZ0tZsgr4U4BCx_bVX.png"
         },
         {
           "id": "https://huggingface.co/blog/zai-org/glm-52-blog",
@@ -437,12 +443,22 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-07-12/?mtm_campaign=feed",
+          "author": null,
+          "description": "This week note covers the week of 6th–12th July.\n\nLast Day of Summer\n\nYes, I was there at the foot of the Eiffel Tower 9 years ago, and yes, I took this photo. I visited Paris on my way to Berlin for EuroClojure 2017, where I talked about Moving People with Clojure. It feels like a lifetime ago, maybe it was.\nToday is a lazy day in sort of a contemplative way. I really did not feel like writing this week note, but this week is going to be busy so it’s now or never.\nLast week went too quickly I think. I was busy with work, with three hours spent in commute every day, with my drum classes, and with tinkering on this website. Everyone in my family is doing well now health-wise, and I hope it stays this way. This week has many birthdays to celebrate, which means running around as well. The hou…",
+          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-07-12/?mtm_campaign=feed",
+          "publishedOn": "2026-07-12T00:00:00.000Z",
+          "wordCount": 1208,
+          "title": "Notes for the Week #28 (2026)",
+          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-07-12.png"
+        },
+        {
           "id": "https://abhinavsarkar.net/notes/2026-weeknotes-07-06/?mtm_campaign=feed",
           "author": null,
           "description": "This week note covers the week of 29th June–5th July.\n\nLife#\nLast week I got back to work after a week’s break. And work I did! I switched my office cab time from 7:30 AM to 9:30 AM so that I could sleep a little longer. Now I have breakfast at home instead of office, and I start working right from the cab so that I get to work same amount of time. I’ve been sleeping 10+ hours every night and it is finally working! I feel much better than a few weeks ago, almost back to my normal health.\nI’ve noticed that HRV is a good overall indicator of my health. The following chart shows my weekly average HRV over the last one month, as captured by my smartwatch:\n\n\n\nYou can see how it slowly went down over the first two weeks and then started to go back up over the last two weeks. It’s still not back …",
           "link": "https://abhinavsarkar.net/notes/2026-weeknotes-07-06/?mtm_campaign=feed",
           "publishedOn": "2026-07-06T00:00:00.000Z",
-          "wordCount": 1152,
+          "wordCount": 1163,
           "title": "Notes for the Week #27 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-07-06.png"
         },
@@ -452,7 +468,7 @@
           "description": "The day after IndieWebClub Bangalore Special Anniversary Meetup, Ankur, Tanvi and I got together and did a retrospective on the event. We noted down what went well, what didn’t, and what we should do the next time. This note summarizes our discussion.\nWhat Went Well#\nWe front-loaded many decisions, such as talk format, venue, date, topics etc., and didn’t second-guess them. This helped us later with our tight schedule.\nWe were serious about the CFP from the get-go. We wrote a detailed CFP statement and made a web page for it. This made participants also take it seriously. We actively reached out to folks from the community asking them to submit proposals. Most of our proposals came from the people we reached out to.\nWe decided at the very beginning that we wanted a diverse set of well-roun…",
           "link": "https://abhinavsarkar.net/notes/2026-iwcb-se-retro/?mtm_campaign=feed",
           "publishedOn": "2026-07-04T00:00:00.000Z",
-          "wordCount": 2001,
+          "wordCount": 1997,
           "title": "IndieWebClub Bangalore: Special Edition Meetup, A Retrospective",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-iwcb-se-retro.png"
         },
@@ -505,53 +521,6 @@
           "wordCount": 987,
           "title": "Notes for the Week #24 (2026)",
           "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-weeknotes-06-14.png"
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed",
-          "author": null,
-          "description": "feed-repeat is a small tool that selects old posts from RSS/Atom feeds you configure and puts them into a new Atom feed. Use it with your feed reader for a spaced-repetition-like experience for feeds. See the announcement post for the motivation behind it, and more details.\nI just released v1.1 of feed-repeat. This release brings some great new features, and improves the security and performance. The biggest highlight: you can now run feed-repeat entirely on GitHub, no server needed!\nThe repo now includes a GitHub Actions workflow that runs feed-repeat daily, and publishes the generated feeds to GitHub Pages. Getting started is simple: fork the repo, edit config.yaml with your source feeds, enable the workflow, enable GitHub Pages, and subscribe to the generated feeds in your feed reader. …",
-          "link": "https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed",
-          "publishedOn": "2026-06-13T00:00:00.000Z",
-          "wordCount": 924,
-          "title": "feed-repeat v1.1: Hosting on GitHub Pages, New Posts Passthrough, SSRF\nProtection, and More",
-          "imageUrl": "https://abhinavsarkar.net/previews/notes/2026-feed-repeat-v1_1.png"
-        }
-      ]
-    },
-    {
-      "title": "Daniel Lemire's blog",
-      "feedUrl": "https://lemire.me/blog/feed/",
-      "siteUrl": "https://lemire.me/blog",
-      "articles": [
-        {
-          "id": "https://lemire.me/blog/?p=22714",
-          "author": "Daniel Lemire",
-          "description": "I have been on X for a long time. Like most people who post regularly, I have a gut feeling for what might interest people. I post in the morning. Longer posts seem to do better. But gut feelings are not measurements. And until recently, digging into your own posting data meant either clicking around … Continue reading X just gave us an interface that AI agents can use. I pointed it at my own posts.",
-          "link": "https://lemire.me/blog/2026/07/11/x-just-gave-us-an-interface-that-ai-agents-can-use-i-pointed-it-at-my-own-posts/",
-          "publishedOn": "2026-07-11T19:53:17.000Z",
-          "wordCount": 3889,
-          "title": "X just gave us an interface that AI agents can use. I pointed it at my own posts.",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/07/image-5-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22706",
-          "author": "Daniel Lemire",
-          "description": "When I was a kid, most people did not know how to type. We took typing class. The final exam was a speed test: words per minute. Today, you will not impress anyone by saying you can type. In fact, cursive writing is fading. Kids increasingly cannot read or write it. We type constantly. We … Continue reading Chatting with an AI Won’t Make You a Top Programmer",
-          "link": "https://lemire.me/blog/2026/06/21/chatting-with-ai-wont-make-you-a-top-programmer/",
-          "publishedOn": "2026-06-21T17:51:16.000Z",
-          "wordCount": 4011,
-          "title": "Chatting with an AI Won’t Make You a Top Programmer",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/image-4-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22702",
-          "author": "Daniel Lemire",
-          "description": "Suppose that you have a configuration file in JSON. Something like this: { \"width\": 1920, \"height\": 1080, \"fullscreen\": true, \"title\": \"My Game\", \"volume\": 0.8 } Normally you ship this file alongside your program, open it at startup, read it, and parse it. That is a lot of work for data that never changes. What if … Continue reading Parsing JSON at compile time with C++26 static reflection",
-          "link": "https://lemire.me/blog/2026/06/14/parsing-json-at-compile-time-with-c26-static-reflection/",
-          "publishedOn": "2026-06-14T14:59:44.000Z",
-          "wordCount": 4270,
-          "title": "Parsing JSON at compile time with C++26 static reflection",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/06/AdxWs-1024x683.jpg"
         }
       ]
     },

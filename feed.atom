@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-07-12T02:28:41.471Z</id>
+    <id>urn:2026-07-12T14:38:42.498Z</id>
     <title>osmos::feed</title>
-    <updated>2026-07-12T02:28:41.471Z</updated>
+    <updated>2026-07-12T14:38:42.498Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[X just gave us an interface that AI agents can use. I pointed it at my own posts.]]></title>
-        <id>https://lemire.me/blog/?p=22714</id>
-        <link href="https://lemire.me/blog/2026/07/11/x-just-gave-us-an-interface-that-ai-agents-can-use-i-pointed-it-at-my-own-posts/"/>
-        <updated>2026-07-11T19:53:17.000Z</updated>
-        <summary type="html"><![CDATA[I have been on X for a long time. Like most people who post regularly, I have a gut feeling for what might interest people. I post in the morning. Longer posts seem to do better. But gut feelings are not measurements. And until recently, digging into your own posting data meant either clicking around … Continue reading X just gave us an interface that AI agents can use. I pointed it at my own posts.]]></summary>
+        <title type="html"><![CDATA[Notes for the Week #28 (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-weeknotes-07-12/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-weeknotes-07-12/?mtm_campaign=feed"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week note covers the week of 6th–12th July.
+
+Last Day of Summer
+
+Yes, I was there at the foot of the Eiffel Tower 9 years ago, and yes, I took this photo. I visited Paris on my way to Berlin for EuroClojure 2017, where I talked about Moving People with Clojure. It feels like a lifetime ago, maybe it was.
+Today is a lazy day in sort of a contemplative way. I really did not feel like writing this week note, but this week is going to be busy so it’s now or never.
+Last week went too quickly I think. I was busy with work, with three hours spent in commute every day, with my drum classes, and with tinkering on this website. Everyone in my family is doing well now health-wise, and I hope it stays this way. This week has many birthdays to celebrate, which means running around as well. The hou…]]></summary>
         <author>
-            <name>Daniel Lemire</name>
+            <name>Notes on abhinavsarkar.net</name>
         </author>
     </entry>
     <entry>
@@ -374,6 +380,7 @@ Some time in September 2017, I started with the 483 lines of example code Hakyll
         <id>https://huggingface.co/blog/huggingface-hub-release-ci</id>
         <link href="https://huggingface.co/blog/huggingface-hub-release-ci"/>
         <updated>2026-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -403,6 +410,7 @@ Some time in September 2017, I started with the 483 lines of example code Hakyll
         <id>https://huggingface.co/blog/PaddlePaddle/pp-ocrv6</id>
         <link href="https://huggingface.co/blog/PaddlePaddle/pp-ocrv6"/>
         <updated>2026-06-22T13:18:56.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by PaddlePaddle on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -432,16 +440,6 @@ If you have been a regular reader of my weeknotes, you’d have noticed that we�
 We managed to have a small celebration for the Father’s day yesterday, just some cake for A …]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chatting with an AI Won’t Make You a Top Programmer]]></title>
-        <id>https://lemire.me/blog/?p=22706</id>
-        <link href="https://lemire.me/blog/2026/06/21/chatting-with-ai-wont-make-you-a-top-programmer/"/>
-        <updated>2026-06-21T17:51:16.000Z</updated>
-        <summary type="html"><![CDATA[When I was a kid, most people did not know how to type. We took typing class. The final exam was a speed test: words per minute. Today, you will not impress anyone by saying you can type. In fact, cursive writing is fading. Kids increasingly cannot read or write it. We type constantly. We … Continue reading Chatting with an AI Won’t Make You a Top Programmer]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -572,6 +570,7 @@ How we built a living map of our distributed infrastructure…]]></summary>
         <id>https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware</id>
         <link href="https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware"/>
         <updated>2026-06-17T10:18:05.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Amazon on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -597,16 +596,6 @@ How we built a living map of our distributed infrastructure…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Parsing JSON at compile time with C++26 static reflection]]></title>
-        <id>https://lemire.me/blog/?p=22702</id>
-        <link href="https://lemire.me/blog/2026/06/14/parsing-json-at-compile-time-with-c26-static-reflection/"/>
-        <updated>2026-06-14T14:59:44.000Z</updated>
-        <summary type="html"><![CDATA[Suppose that you have a configuration file in JSON. Something like this: { "width": 1920, "height": 1080, "fullscreen": true, "title": "My Game", "volume": 0.8 } Normally you ship this file alongside your program, open it at startup, read it, and parse it. That is a lot of work for data that never changes. What if … Continue reading Parsing JSON at compile time with C++26 static reflection]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Notes for the Week #24 (2026)]]></title>
         <id>https://abhinavsarkar.net/notes/2026-weeknotes-06-14/?mtm_campaign=feed</id>
         <link href="https://abhinavsarkar.net/notes/2026-weeknotes-06-14/?mtm_campaign=feed"/>
@@ -619,19 +608,6 @@ Golden Fruity Tea
 Life#
 Last week was a little slow, in many ways. My health is improving, but I’m still not at a place to be able to do physical activities. I’m taking it slow, and mostly resting.
 I started doing regular meditation starting last week. It makes me feel calmer and more restful. I hope it aids in my recovery too. By the end of the week, I felt good enough to go out for lunch. After a gap of many months wife and I went out, to Burma Burma in Indiranagar. We had been hearing a lot of about it for a while, so we decided to give it a try. Also, because I didn’t want to take chances with non-veg restaurant food, which generally happens to be quite spicy. All the food we had was excellent, but the avocado-tofu salad was especiall…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[feed-repeat v1.1: Hosting on GitHub Pages, New Posts Passthrough, SSRF
-Protection, and More]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-feed-repeat-v1_1/?mtm_campaign=feed"/>
-        <updated>2026-06-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[feed-repeat is a small tool that selects old posts from RSS/Atom feeds you configure and puts them into a new Atom feed. Use it with your feed reader for a spaced-repetition-like experience for feeds. See the announcement post for the motivation behind it, and more details.
-I just released v1.1 of feed-repeat. This release brings some great new features, and improves the security and performance. The biggest highlight: you can now run feed-repeat entirely on GitHub, no server needed!
-The repo now includes a GitHub Actions workflow that runs feed-repeat daily, and publishes the generated feeds to GitHub Pages. Getting started is simple: fork the repo, edit config.yaml with your source feeds, enable the workflow, enable GitHub Pages, and subscribe to the generated feeds in your feed reader. …]]></summary>
         <author>
             <name>Notes on abhinavsarkar.net</name>
         </author>
