@@ -18,6 +18,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/e9f6a1b1492b",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4",
+          "publishedOn": "2026-08-21T16:01:01.000Z",
+          "wordCount": null,
+          "title": "A Tale of Two Flink Autoscalers",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/0f3468349607",
           "author": "Netflix Technology Blog",
           "description": "",
@@ -46,16 +56,6 @@
           "wordCount": null,
           "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/a5a8e799ea2c",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss----2615bd06b42e---4",
-          "publishedOn": "2026-07-17T21:32:39.000Z",
-          "wordCount": null,
-          "title": "In-House LLM Serving at Netflix",
-          "imageUrl": null
         }
       ]
     },
@@ -77,6 +77,26 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2026/08/21/rust-glancer.html",
+          "author": null,
+          "description": "Rust Glancer, a functional LSP server for Rust which uses two orders of magnitude less RAM, is incredibly cool. Go check it out! This post started as a comment on lobste.rs, but I figured it out that it's better to publish it somewhat more prominently. Don't expect polished writing though!",
+          "link": "https://matklad.github.io/2026/08/21/rust-glancer.html",
+          "publishedOn": "2026-08-21T00:00:00.000Z",
+          "wordCount": 1016,
+          "title": "Rust Glancer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2026/08/20/better-batteries.html",
+          "author": null,
+          "description": "One of the eternal schisms in programming is over the question of whether the standard library should be minimal or encompassing. This is the wrong question to ask. The right one is:",
+          "link": "https://matklad.github.io/2026/08/20/better-batteries.html",
+          "publishedOn": "2026-08-20T00:00:00.000Z",
+          "wordCount": 411,
+          "title": "Better Batteries",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2026/08/14/printing-lists.html",
           "author": null,
           "description": "To print a comma-separated list, a concise idiom is to optionally print the comma first, before the element:",
@@ -95,16 +115,6 @@
           "wordCount": 1116,
           "title": "Zig's Io.Threaded is Neat",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
-          "author": null,
-          "description": "Uplifting a lobsters comment for easier reference.",
-          "link": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
-          "publishedOn": "2026-07-20T00:00:00.000Z",
-          "wordCount": 374,
-          "title": "Memory Safety's Hardest Problem",
-          "imageUrl": null
         }
       ]
     },
@@ -120,12 +130,62 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/asr-benchmark-optimization",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/asr-benchmark-optimization",
+          "publishedOn": "2026-08-21T00:00:00.000Z",
+          "wordCount": 3359,
+          "title": "Measuring benchmark optimization in speech recognition",
+          "imageUrl": "https://huggingface.co/blog/assets/asr-benchmark-optimization/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+          "author": null,
+          "description": "A Blog post by Liquid AI on Hugging Face",
+          "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+          "publishedOn": "2026-08-20T16:52:57.000Z",
+          "wordCount": 1914,
+          "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/ZMoThfdqzAz8cbxweVQfO.gif"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "author": null,
+          "description": "A Blog post by IBM Research on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "publishedOn": "2026-08-18T18:09:38.000Z",
+          "wordCount": 2328,
+          "title": "How Much Memory Does Your Agent Actually Need?",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/j-n1Au9SJ2-RGkT9i98u4.jpeg"
+        },
+        {
+          "id": "https://huggingface.co/blog/multi-vector-encoder",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/multi-vector-encoder",
+          "publishedOn": "2026-08-18T00:00:00.000Z",
+          "wordCount": 8817,
+          "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+          "imageUrl": "https://huggingface.co/blog/assets/multi-vector-encoder/st-hf-lighton-thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+          "author": null,
+          "description": "",
+          "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+          "publishedOn": "2026-08-17T19:46:21.000Z",
+          "wordCount": null,
+          "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+          "imageUrl": null
+        },
+        {
           "id": "https://huggingface.co/blog/state-of-open-models-summer-2026",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
           "publishedOn": "2026-08-14T00:00:00.000Z",
-          "wordCount": 3387,
+          "wordCount": 3459,
           "title": "State of Open Models: Summer 2026 Observations",
           "imageUrl": "https://huggingface.co/blog/assets/state-of-open-models-summer-2026/thumbnail.png"
         },
@@ -142,12 +202,12 @@
         {
           "id": "https://huggingface.co/blog/icml-2026-open-reproductions",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
           "publishedOn": "2026-08-13T00:00:00.000Z",
-          "wordCount": 2573,
+          "wordCount": null,
           "title": "What We Learned by Reproducing 2,200 papers from ICML",
-          "imageUrl": "https://huggingface.co/blog/assets/icml-2026-open-reproductions/thumbnail.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
@@ -155,19 +215,9 @@
           "description": "A Blog post by Ai2 on Hugging Face",
           "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
           "publishedOn": "2026-08-12T16:14:36.000Z",
-          "wordCount": 1904,
+          "wordCount": 1905,
           "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/u9KR_QjSYF7mJIbRE3Ni8.jpeg"
-        },
-        {
-          "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-          "author": null,
-          "description": "A Blog post by Liquid AI on Hugging Face",
-          "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-          "publishedOn": "2026-08-12T14:00:51.000Z",
-          "wordCount": 1570,
-          "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/apldbDPIJWZeODX1g9iFV.png"
         },
         {
           "id": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
@@ -175,7 +225,7 @@
           "description": "A Blog post by IBM Research on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
           "publishedOn": "2026-08-11T13:37:10.000Z",
-          "wordCount": 2066,
+          "wordCount": 2065,
           "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/G2z5bU66FNnhBf_UhSNij.jpeg"
         },
@@ -205,7 +255,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/muse-glimmer",
           "publishedOn": "2026-08-10T00:00:00.000Z",
-          "wordCount": 4081,
+          "wordCount": 4481,
           "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
           "imageUrl": "https://huggingface.co/blog/assets/muse-glimmer/thumbnail.png"
         },
@@ -225,7 +275,7 @@
           "description": "A Blog post by Dharma-AI on Hugging Face",
           "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
           "publishedOn": "2026-07-30T15:09:09.000Z",
-          "wordCount": 3900,
+          "wordCount": 3405,
           "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69d815b52c6db28cfdfdd422/Ih3Nn6Wc1U_w_QpvEMXRY.png"
         },
@@ -235,7 +285,7 @@
           "description": "A Blog post by NVIDIA on Hugging Face",
           "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
           "publishedOn": "2026-07-27T09:32:20.000Z",
-          "wordCount": 2248,
+          "wordCount": 2250,
           "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68c1279544f671330c604f4c/Cj0RZwvOSUhFGFEFKgyDw.png"
         },
@@ -248,26 +298,6 @@
           "wordCount": 8341,
           "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
           "imageUrl": "https://huggingface.co/blog/assets/agent-intrusion-technical-timeline/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/nunchaku-diffusers",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/nunchaku-diffusers",
-          "publishedOn": "2026-07-23T00:00:00.000Z",
-          "wordCount": 2632,
-          "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-          "imageUrl": "https://huggingface.co/blog/assets/nunchaku-diffusers/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/grabette",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/grabette",
-          "publishedOn": "2026-07-21T00:00:00.000Z",
-          "wordCount": 1815,
-          "title": "Grabette: an open system to record robot-manipulation data",
-          "imageUrl": "https://huggingface.co/blog/assets/grabette/thumbnail_grabette.png"
         }
       ]
     },
@@ -318,26 +348,6 @@
           "wordCount": null,
           "title": "Notes for the Week #30 (2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-100-webmasters/?mtm_campaign=feed",
-          "author": null,
-          "description": "<p>Another round of answering questionnaires found on internet! This time is it <a href=\"https://mouseling.net/100webmaster.txt\" target=\"_blank\" rel=\"noopener\">100 Questions for Webmasters</a>. Here we go!</p>",
-          "link": "https://abhinavsarkar.net/notes/2026-100-webmasters/?mtm_campaign=feed",
-          "publishedOn": "2026-07-22T00:00:00.000Z",
-          "wordCount": null,
-          "title": "100 Questions for Webmasters",
-          "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-weeknotes-07-20/?mtm_campaign=feed",
-          "author": null,
-          "description": "This week note covers the week of 13th–20th July.\n\n\nAliens vs. The Fish\n\nSince I’m writing this week note so late, I’ll throw in an extra day for free.\nLast week was the week of birthdays. Both my wife and our now 4yo A had their birthdays, and the whole week was spent in celebrations. For A’s birthday, we went to the Aquarium Paradise, probably the largest aquarium in Bengaluru. A had a lot of fun looking at all the fish and other sea creatures. The photo above is from the aquarium, which had a weird theme of Egypt × Aliens × Pirates × Mermaids. ¯\\_(ツ)_/¯\nAfterward, we decided to take a metro train back to home. It was A’s first time riding a metro and she was excited as anything. She kept peering out of the window at the scenery. It took roughly the same time as taking a cab, but the jou…",
-          "link": "https://abhinavsarkar.net/notes/2026-weeknotes-07-20/?mtm_campaign=feed",
-          "publishedOn": "2026-07-20T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Notes for the Week #29 (2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -347,12 +357,32 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=22778",
+          "author": "Daniel Lemire",
+          "description": "In Java, you find the location of a substring using indexOf. String haystack = \"The quick brown fox jumps over the lazy dog\"; String needle = \"fox\"; int index = haystack.indexOf(needle); Naively, you might implement indexOf by a loop inside a loop, like so. int naiveIndexOf(String haystack, String needle) { for (int i = 0; … Continue reading Java’s String.indexOf can be slow (quadratic)",
+          "link": "https://lemire.me/blog/2026/08/22/javas-string-indexof-can-be-slow-quadratic/",
+          "publishedOn": "2026-08-22T14:56:16.000Z",
+          "wordCount": 3856,
+          "title": "Java’s String.indexOf can be slow (quadratic)",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/lYgqA-1024x687.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22772",
+          "author": "Daniel Lemire",
+          "description": "We are all familiar with IP addresses such as 192.168.0.1. They are typically written as four numbers in the range 0 to 255 inclusive, separated by dots. In C#, you can parse them with the standard library using IPAddress.TryParse. Pedantic people are quick to point out that IP addresses can take different forms: they can … Continue reading Parsing IP addresses in C# at crazy speeds",
+          "link": "https://lemire.me/blog/2026/08/19/parsing-ip-addresses-in-c-at-crazy-speeds/",
+          "publishedOn": "2026-08-19T19:07:48.000Z",
+          "wordCount": 4120,
+          "title": "Parsing IP addresses in C# at crazy speeds",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/Cgic2-1024x687.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22769",
           "author": "Daniel Lemire",
           "description": "Like most programming languages, Go has both stack allocations, whose lifetime is limited to the current function, and dynamic (or heap) allocations. The name stack comes from the fact that the memory management is somewhat trivial. There is typically one stack per thread (or goroutine in Go). When a function needs memory, it simply appends … Continue reading Go 1.27 will make some allocations cheaper",
           "link": "https://lemire.me/blog/2026/08/15/go-1-27-will-make-some-allocations-cheaper/",
           "publishedOn": "2026-08-15T20:59:19.000Z",
-          "wordCount": 3794,
+          "wordCount": 3837,
           "title": "Go 1.27 will make some allocations cheaper",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/2N3RJ-1024x687.jpg"
         },
@@ -362,7 +392,7 @@
           "description": "AI-assisted programming is fast evolving and there is a tension between ‘we no longer need to understand the code’ and ‘what is my purpose as a programmer’. I recorded a short video on this topic with how I think the tension can result in conflicts.",
           "link": "https://lemire.me/blog/2026/08/12/ai-programming-are-you-angry-yet/",
           "publishedOn": "2026-08-12T15:50:48.000Z",
-          "wordCount": 3263,
+          "wordCount": 3306,
           "title": "AI programming : are you angry yet?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/o1lot-1024x687.jpg"
         },
@@ -372,7 +402,7 @@
           "description": "When a compiler optimizes your program, it has to guess. Which functions are worth inlining? Which side of a branch is the common one? Which method does this interface call actually reach? At compile time it cannot know, so it uses heuristics. Profile-guided optimization (PGO) replaces the guessing with measurement: you run your program, record … Continue reading Profile-guided optimization in Go",
           "link": "https://lemire.me/blog/2026/08/09/profile-guided-optimization-in-go/",
           "publishedOn": "2026-08-09T23:17:36.000Z",
-          "wordCount": 4023,
+          "wordCount": 4124,
           "title": "Profile-guided optimization in Go",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/ltISq-1024x689.jpg"
         },
@@ -382,7 +412,7 @@
           "description": "C++26 adds a new container to the standard library: std::hive. It is meant to occupy the ground between std::vector and std::list. Like a vector, it keeps its elements in contiguous blocks of memory, so scanning it does not require you to chase a pointer for every element. Like a list, it never moves an element … Continue reading How fast is C++26’s std::hive?",
           "link": "https://lemire.me/blog/2026/08/02/how-fast-is-c26s-stdhive/",
           "publishedOn": "2026-08-02T17:00:10.000Z",
-          "wordCount": 4982,
+          "wordCount": 4985,
           "title": "How fast is C++26’s std::hive?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/si3ao-1024x683.jpg"
         },
@@ -392,7 +422,7 @@
           "description": "When your program asks for memory that is not in cache, the processor has to go to RAM. That trip costs on the order of 100 nanoseconds. On a 3 GHz core, that is about 300 cycles of doing nothing. Memory latency has not improved in ten years. The 2016 Broadwell answers a random access … Continue reading Memory-level parallelism: AMD is the king",
           "link": "https://lemire.me/blog/2026/07/25/memory-level-parallelism-amd-is-the-king/",
           "publishedOn": "2026-07-25T15:07:52.000Z",
-          "wordCount": 3933,
+          "wordCount": 3936,
           "title": "Memory-level parallelism: AMD is the king",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/07/Bh4a1-1024x687.jpg"
         },
@@ -402,19 +432,9 @@
           "description": "Every week, I discuss with people who want to get a PhD. For years, I have been advising people not to pursue a PhD. It may come as a surprise to some. You would expect people with a PhD to earn more money. Individuals who complete doctorates tend to have higher cognitive abilities and greater … Continue reading Does a PhD Pay Off?",
           "link": "https://lemire.me/blog/2026/07/24/does-a-phd-pay-off/",
           "publishedOn": "2026-07-24T20:13:57.000Z",
-          "wordCount": 3876,
+          "wordCount": 3879,
           "title": "Does a PhD Pay Off?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/07/kfKMS-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22727",
-          "author": "Daniel Lemire",
-          "description": "In 1945, Vannevar Bush published a report entitled Science: The Endless Frontier. His thesis was that prosperity follows from basic research. The report was highly influential in the United States and elsewhere. It led to the creation of an entirely new government bureaucracy. With this report, Bush popularized the linear model of innovation: innovation (such … Continue reading From Institutions to Individuals: the White House Report on Revitalizing U.S. Scientific Leadership",
-          "link": "https://lemire.me/blog/2026/07/22/from-institutions-to-individuals-the-white-house-report-on-revitalizing-u-s-scientific-leadership/",
-          "publishedOn": "2026-07-22T14:32:18.000Z",
-          "wordCount": 4491,
-          "title": "From Institutions to Individuals: the White House Report on Revitalizing U.S. Scientific Leadership",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/07/Capture-decran-le-2026-07-22-a-10.24.40-1024x545.png"
         }
       ]
     },
@@ -441,7 +461,7 @@
           "description": "Table of Contents\nQuick introduction\nA new strategy\n\nInverse operation\nSome more variants\nTODO Repeated applications of \\(f\\)\nCollisions\nTODO Consecutive small values\n\\[\n\\newcommand{\\rot}{\\mathsf{rot}}\n\\newcommand{\\shift}{\\mathsf{shift}}\n\\]\nThis is the third post in (by now) a series of 3 posts on NtHash:\nNtHash1: making it perfect\nNtHash2: investigating collisions\nNtHash3: first ideas\nPreviously, I have written on:",
           "link": "https://curiouscoding.nl/posts/nthash-revisited/",
           "publishedOn": "2026-07-31T22:00:00.000Z",
-          "wordCount": 1950,
+          "wordCount": 1992,
           "title": "NtHash3: first ideas",
           "imageUrl": null
         },
@@ -451,18 +471,8 @@
           "description": "For a pangenome deduplication tool I’m working on (pandedup), I’m using 128-bit\nhashes as “unique” identifiers of substrings.\nSadly, it turns out that gxhash128 (the 128-bit version of gxhash) has a hash collision between the two\nstrings of length 88 below that only differ in 5 positions, regardless of the value of the seed.\nLooking at the strings, this clearly isn’t a random collision. Those could be\nexpected when doing \\(2^{64}\\) lookups in a dictionary of \\(2^{64}\\) keys, but my\ndata is nowhere near that large.",
           "link": "https://curiouscoding.nl/posts/gxhash-collision/",
           "publishedOn": "2026-07-30T22:00:00.000Z",
-          "wordCount": 277,
+          "wordCount": 319,
           "title": "A seed-independent hash collision in GxHash",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/latvia-kayaking-2026/",
-          "author": null,
-          "description": "Table of Contents\nThe Route\n\nPrep\nDay 0\nDay 1: Engure river to lake\nDay 2: Lake + Rinda river to Rinda\nDay 3: Rinda to middle of Irbe river + walk to ghost town\nDay 4: Irbe river to the sea\nCountryside\nLogistics\n\nBoats\nWater / drinks\nFood supplies\nPacking\n\nAdditions for next time\nBird watching\n\n\t\t\t\nFigure 1: An overview of the route we kayaked. (Click to enlarge.)",
-          "link": "https://curiouscoding.nl/posts/latvia-kayaking-2026/",
-          "publishedOn": "2026-07-22T22:00:00.000Z",
-          "wordCount": 3574,
-          "title": "Kayaking in Latvia: Engure, Rinda, and Irbe rivers",
           "imageUrl": null
         }
       ]
