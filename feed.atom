@@ -1,18 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-08-30T03:30:38.670Z</id>
+    <id>urn:2026-09-06T02:49:53.053Z</id>
     <title>osmos::feed</title>
-    <updated>2026-08-30T03:30:38.670Z</updated>
+    <updated>2026-09-06T02:49:53.053Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[The new Go JSON API: twice as fast, or 1.5x slower?]]></title>
-        <id>https://lemire.me/blog/?p=22792</id>
-        <link href="https://lemire.me/blog/2026/08/29/the-new-go-json-api-twice-as-fast-or-1-5x-slower/"/>
-        <updated>2026-08-29T18:33:33.000Z</updated>
-        <summary type="html"><![CDATA[JSON is a standard format for data interchange. It is effectively a tiny subset of JavaScript made of objects and arrays. It looks as follows {"key":1, "text":[1.0,2.0]}. Many programming languages include a JSON library in their standard libraries: C#, Go, Java (soon), Python, JavaScript, etc. The Go implementation is convenient, but not especially fast. Go … Continue reading The new Go JSON API: twice as fast, or 1.5x slower?]]></summary>
+        <title type="html"><![CDATA[NeoMME: an efficient Multimodal-native and Multilingual Encoder]]></title>
+        <id>https://huggingface.co/blog/Hcompany/neomme</id>
+        <link href="https://huggingface.co/blog/Hcompany/neomme"/>
+        <updated>2026-09-03T13:13:48.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by H company on Hugging Face]]></summary>
         <author>
-            <name>Daniel Lemire</name>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps]]></title>
+        <id>https://huggingface.co/blog/grpo-with-trl-ifstruct</id>
+        <link href="https://huggingface.co/blog/grpo-with-trl-ifstruct"/>
+        <updated>2026-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Give Your Coding Agents a Memory You Own]]></title>
+        <id>https://huggingface.co/blog/funes</id>
+        <link href="https://huggingface.co/blog/funes"/>
+        <updated>2026-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Training a coding model to paint watercolours with TRL and OpenEnv]]></title>
+        <id>https://huggingface.co/blog/train-to-paint-with-code</id>
+        <link href="https://huggingface.co/blog/train-to-paint-with-code"/>
+        <updated>2026-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-Time Intelligence with IBM Time Series Models on Confluent]]></title>
+        <id>https://huggingface.co/blog/ibm-research/real-time-intelligence</id>
+        <link href="https://huggingface.co/blog/ibm-research/real-time-intelligence"/>
+        <updated>2026-09-02T13:49:14.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Static Allocation, Constant Work]]></title>
+        <id>https://matklad.github.io/2026/09/02/static-allocation-constant-work.html</id>
+        <link href="https://matklad.github.io/2026/09/02/static-allocation-constant-work.html"/>
+        <updated>2026-09-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In reply to this email:]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Anti-Lexicographic SUS-anchor]]></title>
+        <id>https://curiouscoding.nl/slides/sus-anchors-text/</id>
+        <link href="https://curiouscoding.nl/slides/sus-anchors-text/"/>
+        <updated>2026-09-01T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Minimizer schemes
+ 
+ 
+ Link to heading
+ 
+
+Input: a window \(W\in \Sigma^{w+k-1}\)
+Minimizer scheme: Sample the \(k\)-mer with the one with smallest hash:
+\[f(W) = \mathrm{argmin}_{0\leq i\lt w\ \ } h(W_{i\dots i+k}).\]
+Sampling scheme: Arbitrary function \(f: \Sigma^{w+k-1}\to \{0, \dots, w-1\}.\)
+Density: The expected fraction of sampled \(k\)-mers in a random string:
+E​A​DCAE.....
+.​A​DCAEB....
+..DC​A​EBE...
+...C​A​EBEC..
+....​A​EBECD.
+.....E​B​ECDC
+E​A​DC​A​E​B​ECDC
+Kille et al. 2024
+ 
+ 
+ Link to heading
+ 
+
+Conjecture: Optimal schemes exist for \(k\equiv 1\pmod w\)?]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BenchMIRT: What are LLM benchmarks actually measuring?]]></title>
+        <id>https://huggingface.co/blog/allenai/benchmirt</id>
+        <link href="https://huggingface.co/blog/allenai/benchmirt"/>
+        <updated>2026-09-01T21:39:07.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI]]></title>
+        <id>https://huggingface.co/blog/webgpu-kernels</id>
+        <link href="https://huggingface.co/blog/webgpu-kernels"/>
+        <updated>2026-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cancelation Terminology]]></title>
+        <id>https://matklad.github.io/2026/08/31/cancelation-terminology.html</id>
+        <link href="https://matklad.github.io/2026/08/31/cancelation-terminology.html"/>
+        <updated>2026-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A short note explaining the difference between synchronous cancelation, asynchronous cancelation, and graceful shutdown. I am not too attached to these specific three terms, but I want to call your attention to the three things behind them, which are important not to confuse with each other.]]></summary>
+        <author>
+            <name>matklad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Ahm]]></title>
+        <id>https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/</id>
+        <link href="https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/"/>
+        <updated>2026-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is an external post of mine, originally published at Introducing Ahm.]]></summary>
+        <author>
+            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Ahm]]></title>
+        <id>https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/</id>
+        <link href="https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/"/>
+        <updated>2026-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is an external post of mine, originally published at Introducing Ahm.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
         </author>
     </entry>
     <entry>
@@ -106,16 +240,6 @@ My tutoring practice is still going strong, though! If you think you might be in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Java’s String.indexOf can be slow (quadratic)]]></title>
-        <id>https://lemire.me/blog/?p=22778</id>
-        <link href="https://lemire.me/blog/2026/08/22/javas-string-indexof-can-be-slow-quadratic/"/>
-        <updated>2026-08-22T14:56:16.000Z</updated>
-        <summary type="html"><![CDATA[In Java, you find the location of a substring using indexOf. String haystack = "The quick brown fox jumps over the lazy dog"; String needle = "fox"; int index = haystack.indexOf(needle); Naively, you might implement indexOf by a loop inside a loop, like so. int naiveIndexOf(String haystack, String needle) { for (int i = 0; … Continue reading Java’s String.indexOf can be slow (quadratic)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A Tale of Two Flink Autoscalers]]></title>
         <id>https://medium.com/p/e9f6a1b1492b</id>
         <link href="https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4"/>
@@ -175,16 +299,6 @@ My tutoring practice is still going strong, though! If you think you might be in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Parsing IP addresses in C# at crazy speeds]]></title>
-        <id>https://lemire.me/blog/?p=22772</id>
-        <link href="https://lemire.me/blog/2026/08/19/parsing-ip-addresses-in-c-at-crazy-speeds/"/>
-        <updated>2026-08-19T19:07:48.000Z</updated>
-        <summary type="html"><![CDATA[We are all familiar with IP addresses such as 192.168.0.1. They are typically written as four numbers in the range 0 to 255 inclusive, separated by dots. In C#, you can parse them with the standard library using IPAddress.TryParse. Pedantic people are quick to point out that IP addresses can take different forms: they can … Continue reading Parsing IP addresses in C# at crazy speeds]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How Much Memory Does Your Agent Actually Need?]]></title>
         <id>https://huggingface.co/blog/ibm-research/altk-evolve-hmm</id>
         <link href="https://huggingface.co/blog/ibm-research/altk-evolve-hmm"/>
@@ -212,16 +326,6 @@ My tutoring practice is still going strong, though! If you think you might be in
         <summary type="html"><![CDATA[A Blog post by Dharma-AI on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go 1.27 will make some allocations cheaper]]></title>
-        <id>https://lemire.me/blog/?p=22769</id>
-        <link href="https://lemire.me/blog/2026/08/15/go-1-27-will-make-some-allocations-cheaper/"/>
-        <updated>2026-08-15T20:59:19.000Z</updated>
-        <summary type="html"><![CDATA[Like most programming languages, Go has both stack allocations, whose lifetime is limited to the current function, and dynamic (or heap) allocations. The name stack comes from the fact that the memory management is somewhat trivial. There is typically one stack per thread (or goroutine in Go). When a function needs memory, it simply appends … Continue reading Go 1.27 will make some allocations cheaper]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
     <entry>
@@ -275,13 +379,69 @@ My tutoring practice is still going strong, though! If you think you might be in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AI programming : are you angry yet?]]></title>
-        <id>https://lemire.me/blog/?p=22764</id>
-        <link href="https://lemire.me/blog/2026/08/12/ai-programming-are-you-angry-yet/"/>
-        <updated>2026-08-12T15:50:48.000Z</updated>
-        <summary type="html"><![CDATA[AI-assisted programming is fast evolving and there is a tension between ‘we no longer need to understand the code’ and ‘what is my purpose as a programmer’. I recorded a short video on this topic with how I think the tension can result in conflicts.]]></summary>
+        <title type="html"><![CDATA[Analyzing My Lobsters Submissions]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-lobsters-submissions/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-lobsters-submissions/?mtm_campaign=feed"/>
+        <updated>2026-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I have been a Lobsters member since June 2018. In the eight years since, I have submitted 220 stories to the site. I downloaded my entire submission history via the Lobsters API, and here’s what I found when I analyzed it.
+Contents
+
+Growth over Years
+Yearly Overview
+Most Upvoted Stories
+Most Discussed Stories
+Score Distribution
+Comment Distribution
+Score vs Comment Count
+Story Tags
+Authored vs Shared Stories
+Flagged Stories
+Submission Times
+
+Growth over Years#
+My first submission was on June 29, 2018. For the first six years, I submitted very few stories. Then around mid-2025, I got much more active. The cumulative count makes it obvious.
+
+
+Cumulative number of stories submitted over time
+
+
+
+
+See as table
+
+
+
+
+
+Year
+Cumulative stories
+
+
+
+
+2018
+4
+
+
+2019
+12
+
+
+2020
+23
+
+
+2021
+34
+
+
+2022
+46
+
+
+202…]]></summary>
         <author>
-            <name>Daniel Lemire</name>
+            <name>Notes on abhinavsarkar.net</name>
         </author>
     </entry>
     <entry>
@@ -335,86 +495,10 @@ My tutoring practice is still going strong, though! If you think you might be in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Profile-guided optimization in Go]]></title>
-        <id>https://lemire.me/blog/?p=22758</id>
-        <link href="https://lemire.me/blog/2026/08/09/profile-guided-optimization-in-go/"/>
-        <updated>2026-08-09T23:17:36.000Z</updated>
-        <summary type="html"><![CDATA[When a compiler optimizes your program, it has to guess. Which functions are worth inlining? Which side of a branch is the common one? Which method does this interface call actually reach? At compile time it cannot know, so it uses heuristics. Profile-guided optimization (PGO) replaces the guessing with measurement: you run your program, record … Continue reading Profile-guided optimization in Go]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…]]></title>
         <id>https://medium.com/p/0f3468349607</id>
         <link href="https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4"/>
         <updated>2026-08-07T16:01:02.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zig's Io.Threaded is Neat]]></title>
-        <id>https://matklad.github.io/2026/08/06/neat-io-threaded.html</id>
-        <link href="https://matklad.github.io/2026/08/06/neat-io-threaded.html"/>
-        <updated>2026-08-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[std.Io.Threaded is one of the implementations of Zig's new Io interface that enables concurrency. This is a boring just use threads impl. I personally find it neat though --- it does this weird thing that I wanted to do for ages, that to my knowledge no one else is doing properly, and implements it better than I thought to be possible.]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Baseten on Hugging Face Inference Providers 🔥]]></title>
-        <id>https://huggingface.co/blog/baseten</id>
-        <link href="https://huggingface.co/blog/baseten"/>
-        <updated>2026-08-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast is C++26’s std::hive?]]></title>
-        <id>https://lemire.me/blog/?p=22750</id>
-        <link href="https://lemire.me/blog/2026/08/02/how-fast-is-c26s-stdhive/"/>
-        <updated>2026-08-02T17:00:10.000Z</updated>
-        <summary type="html"><![CDATA[C++26 adds a new container to the standard library: std::hive. It is meant to occupy the ground between std::vector and std::list. Like a vector, it keeps its elements in contiguous blocks of memory, so scanning it does not require you to chase a pointer for every element. Like a list, it never moves an element … Continue reading How fast is C++26’s std::hive?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NtHash3: first ideas]]></title>
-        <id>https://curiouscoding.nl/posts/nthash-revisited/</id>
-        <link href="https://curiouscoding.nl/posts/nthash-revisited/"/>
-        <updated>2026-07-31T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-Quick introduction
-A new strategy
-
-Inverse operation
-Some more variants
-TODO Repeated applications of \(f\)
-Collisions
-TODO Consecutive small values
-\[
-\newcommand{\rot}{\mathsf{rot}}
-\newcommand{\shift}{\mathsf{shift}}
-\]
-This is the third post in (by now) a series of 3 posts on NtHash:
-NtHash1: making it perfect
-NtHash2: investigating collisions
-NtHash3: first ideas
-Previously, I have written on:]]></summary>
-        <author>
-            <name>home on CuriousCoding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modeling Device Capabilities for Analytics]]></title>
-        <id>https://medium.com/p/e7607acebde8</id>
-        <link href="https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4"/>
-        <updated>2026-07-31T16:01:02.000Z</updated>
         <author>
             <name>Netflix Technology Blog</name>
         </author>

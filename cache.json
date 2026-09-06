@@ -57,16 +57,6 @@
           "wordCount": null,
           "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/e7607acebde8",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4",
-          "publishedOn": "2026-07-31T16:01:02.000Z",
-          "wordCount": null,
-          "title": "Modeling Device Capabilities for Analytics",
-          "imageUrl": null
         }
       ]
     },
@@ -87,6 +77,26 @@
       "feedUrl": "https://matklad.github.io/feed.xml",
       "siteUrl": "https://matklad.github.io",
       "articles": [
+        {
+          "id": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
+          "author": null,
+          "description": "In reply to this email:",
+          "link": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
+          "publishedOn": "2026-09-02T00:00:00.000Z",
+          "wordCount": 1419,
+          "title": "Static Allocation, Constant Work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
+          "author": null,
+          "description": "A short note explaining the difference between synchronous cancelation, asynchronous cancelation, and graceful shutdown. I am not too attached to these specific three terms, but I want to call your attention to the three things behind them, which are important not to confuse with each other.",
+          "link": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
+          "publishedOn": "2026-08-31T00:00:00.000Z",
+          "wordCount": 1189,
+          "title": "Cancelation Terminology",
+          "imageUrl": null
+        },
         {
           "id": "https://matklad.github.io/2026/08/21/rust-glancer.html",
           "author": null,
@@ -116,16 +126,6 @@
           "wordCount": 139,
           "title": "Printing Lists",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
-          "author": null,
-          "description": "std.Io.Threaded is one of the implementations of Zig's new Io interface that enables concurrency. This is a boring just use threads impl. I personally find it neat though --- it does this weird thing that I wanted to do for ages, that to my knowledge no one else is doing properly, and implements it better than I thought to be possible.",
-          "link": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
-          "publishedOn": "2026-08-06T00:00:00.000Z",
-          "wordCount": 1116,
-          "title": "Zig's Io.Threaded is Neat",
-          "imageUrl": null
         }
       ]
     },
@@ -141,12 +141,82 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/Hcompany/neomme",
+          "author": null,
+          "description": "A Blog post by H company on Hugging Face",
+          "link": "https://huggingface.co/blog/Hcompany/neomme",
+          "publishedOn": "2026-09-03T13:13:48.000Z",
+          "wordCount": 3119,
+          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6264f9655f6f2e14d6ac981c/GJ6FUbgFpq1x8RNOqzmz-.webp"
+        },
+        {
+          "id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+          "publishedOn": "2026-09-03T00:00:00.000Z",
+          "wordCount": 2265,
+          "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+          "imageUrl": "https://huggingface.co/blog/assets/grpo-with-trl-ifstruct/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/funes",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/funes",
+          "publishedOn": "2026-09-03T00:00:00.000Z",
+          "wordCount": 2044,
+          "title": "Give Your Coding Agents a Memory You Own",
+          "imageUrl": "https://huggingface.co/blog/assets/funes/thumbnail.jpg"
+        },
+        {
+          "id": "https://huggingface.co/blog/train-to-paint-with-code",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/train-to-paint-with-code",
+          "publishedOn": "2026-09-03T00:00:00.000Z",
+          "wordCount": 5634,
+          "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+          "imageUrl": "https://huggingface.co/blog/assets/train-to-paint-with-code/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+          "author": null,
+          "description": "A Blog post by IBM Research on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+          "publishedOn": "2026-09-02T13:49:14.000Z",
+          "wordCount": 3433,
+          "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/1oB5vm47VNu42diDOsp0p.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/allenai/benchmirt",
+          "author": null,
+          "description": "A Blog post by Ai2 on Hugging Face",
+          "link": "https://huggingface.co/blog/allenai/benchmirt",
+          "publishedOn": "2026-09-01T21:39:07.000Z",
+          "wordCount": 1835,
+          "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/c_Rnu4DRj6Djxk1IT0gKu.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/webgpu-kernels",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/webgpu-kernels",
+          "publishedOn": "2026-09-01T00:00:00.000Z",
+          "wordCount": 2312,
+          "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+          "imageUrl": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
           "publishedOn": "2026-08-28T00:00:00.000Z",
-          "wordCount": 3679,
+          "wordCount": 3667,
           "title": "The Open ASR Leaderboard Adds Its First Global South Language",
           "imageUrl": "https://huggingface.co/blog/assets/open-asr-leaderboard-global-south/thumbnail.png"
         },
@@ -156,7 +226,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/train-multi-vector-encoder",
           "publishedOn": "2026-08-26T00:00:00.000Z",
-          "wordCount": 5959,
+          "wordCount": 6475,
           "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
           "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
         },
@@ -166,7 +236,7 @@
           "description": "A Blog post by IBM Granite on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
           "publishedOn": "2026-08-25T15:14:14.000Z",
-          "wordCount": 4971,
+          "wordCount": 4994,
           "title": "Granite 4.2 LLMs: How They're Built",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp"
         },
@@ -176,7 +246,7 @@
           "description": "A Blog post by Multiverse Computing on Hugging Face",
           "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
           "publishedOn": "2026-08-25T11:39:24.000Z",
-          "wordCount": 2712,
+          "wordCount": 3040,
           "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/2DSE26PMq2hJqKqEDOLIn.png"
         },
@@ -186,7 +256,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/gradio-workflow-guide",
           "publishedOn": "2026-08-25T00:00:00.000Z",
-          "wordCount": 1642,
+          "wordCount": 1736,
           "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
           "imageUrl": "https://huggingface.co/blog/assets/gradio-workflow-guide/thumbnail.png"
         },
@@ -196,7 +266,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/pwc-search",
           "publishedOn": "2026-08-21T00:00:00.000Z",
-          "wordCount": 3100,
+          "wordCount": 3097,
           "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
           "imageUrl": "https://huggingface.co/blog/assets/pwc-search/thumbnail.png"
         },
@@ -206,7 +276,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/asr-benchmark-optimization",
           "publishedOn": "2026-08-21T00:00:00.000Z",
-          "wordCount": 3361,
+          "wordCount": 3355,
           "title": "Measuring benchmark optimization in speech recognition",
           "imageUrl": "https://huggingface.co/blog/assets/asr-benchmark-optimization/thumbnail.png"
         },
@@ -226,7 +296,7 @@
           "description": "A Blog post by IBM Research on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
           "publishedOn": "2026-08-18T18:09:38.000Z",
-          "wordCount": 2408,
+          "wordCount": 2410,
           "title": "How Much Memory Does Your Agent Actually Need?",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/j-n1Au9SJ2-RGkT9i98u4.jpeg"
         },
@@ -256,7 +326,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
           "publishedOn": "2026-08-14T00:00:00.000Z",
-          "wordCount": 3457,
+          "wordCount": 3455,
           "title": "State of Open Models: Summer 2026 Observations",
           "imageUrl": "https://huggingface.co/blog/assets/state-of-open-models-summer-2026/thumbnail.png"
         },
@@ -266,7 +336,7 @@
           "description": "A Blog post by Amazon on Hugging Face",
           "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
           "publishedOn": "2026-08-13T17:16:04.000Z",
-          "wordCount": 4927,
+          "wordCount": 5018,
           "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/St00mBynNYpgz93MpL17G.png"
         },
@@ -286,7 +356,7 @@
           "description": "A Blog post by Ai2 on Hugging Face",
           "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
           "publishedOn": "2026-08-12T16:14:36.000Z",
-          "wordCount": 1905,
+          "wordCount": 1904,
           "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/u9KR_QjSYF7mJIbRE3Ni8.jpeg"
         },
@@ -296,7 +366,7 @@
           "description": "A Blog post by IBM Research on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
           "publishedOn": "2026-08-11T13:37:10.000Z",
-          "wordCount": 2065,
+          "wordCount": 2067,
           "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/G2z5bU66FNnhBf_UhSNij.jpeg"
         },
@@ -329,16 +399,6 @@
           "wordCount": 4481,
           "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
           "imageUrl": "https://huggingface.co/blog/assets/muse-glimmer/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/baseten",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/baseten",
-          "publishedOn": "2026-08-06T00:00:00.000Z",
-          "wordCount": 1327,
-          "title": "Baseten on Hugging Face Inference Providers 🔥",
-          "imageUrl": "https://huggingface.co/blog/assets/inference-providers/welcome-baseten.png"
         }
       ]
     },
@@ -354,6 +414,16 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
+          "author": null,
+          "description": "This is an external post of mine, originally published at Introducing Ahm.",
+          "link": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
+          "publishedOn": "2026-08-31T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Introducing Ahm",
+          "imageUrl": null
+        },
+        {
           "id": "https://abhinavsarkar.net/posts/fast-haskell-scripts-on-github-actions/?mtm_campaign=feed",
           "author": null,
           "description": "<p>Magix is a neat tool that lets us run <a href=\"https://haskell.org\" target=\"_blank\" rel=\"noopener\">Haskell</a> programs as scripts<a href=\"#fn1\" class=\"footnote-ref\" id=\"fnref1\" role=\"doc-noteref\"><sup>1</sup></a>. We put a shebang on top mentioning Magix, list the Haskell packages we need, and <code>./script.hs</code> just works. This post is about running such a script fast(er) on <a href=\"https://github.com/features/actions\" target=\"_blank\" rel=\"noopener\">GitHub Actions</a>.</p>",
@@ -366,79 +436,29 @@
       ]
     },
     {
-      "title": "Daniel Lemire's blog",
-      "feedUrl": "https://lemire.me/blog/feed/",
-      "siteUrl": "https://lemire.me/blog",
+      "title": "Notes on abhinavsarkar.net",
+      "feedUrl": "https://abhinavsarkar.net/notes/feed.atom",
+      "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
-          "id": "https://lemire.me/blog/?p=22792",
-          "author": "Daniel Lemire",
-          "description": "JSON is a standard format for data interchange. It is effectively a tiny subset of JavaScript made of objects and arrays. It looks as follows {\"key\":1, \"text\":[1.0,2.0]}. Many programming languages include a JSON library in their standard libraries: C#, Go, Java (soon), Python, JavaScript, etc. The Go implementation is convenient, but not especially fast. Go … Continue reading The new Go JSON API: twice as fast, or 1.5x slower?",
-          "link": "https://lemire.me/blog/2026/08/29/the-new-go-json-api-twice-as-fast-or-1-5x-slower/",
-          "publishedOn": "2026-08-29T18:33:33.000Z",
-          "wordCount": 3781,
-          "title": "The new Go JSON API: twice as fast, or 1.5x slower?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/xZAWW-1024x687.jpg"
+          "id": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
+          "author": null,
+          "description": "This is an external post of mine, originally published at Introducing Ahm.",
+          "link": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
+          "publishedOn": "2026-08-31T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Introducing Ahm",
+          "imageUrl": null
         },
         {
-          "id": "https://lemire.me/blog/?p=22778",
-          "author": "Daniel Lemire",
-          "description": "In Java, you find the location of a substring using indexOf. String haystack = \"The quick brown fox jumps over the lazy dog\"; String needle = \"fox\"; int index = haystack.indexOf(needle); Naively, you might implement indexOf by a loop inside a loop, like so. int naiveIndexOf(String haystack, String needle) { for (int i = 0; … Continue reading Java’s String.indexOf can be slow (quadratic)",
-          "link": "https://lemire.me/blog/2026/08/22/javas-string-indexof-can-be-slow-quadratic/",
-          "publishedOn": "2026-08-22T14:56:16.000Z",
-          "wordCount": 3914,
-          "title": "Java’s String.indexOf can be slow (quadratic)",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/lYgqA-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22772",
-          "author": "Daniel Lemire",
-          "description": "We are all familiar with IP addresses such as 192.168.0.1. They are typically written as four numbers in the range 0 to 255 inclusive, separated by dots. In C#, you can parse them with the standard library using IPAddress.TryParse. Pedantic people are quick to point out that IP addresses can take different forms: they can … Continue reading Parsing IP addresses in C# at crazy speeds",
-          "link": "https://lemire.me/blog/2026/08/19/parsing-ip-addresses-in-c-at-crazy-speeds/",
-          "publishedOn": "2026-08-19T19:07:48.000Z",
-          "wordCount": 4133,
-          "title": "Parsing IP addresses in C# at crazy speeds",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/Cgic2-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22769",
-          "author": "Daniel Lemire",
-          "description": "Like most programming languages, Go has both stack allocations, whose lifetime is limited to the current function, and dynamic (or heap) allocations. The name stack comes from the fact that the memory management is somewhat trivial. There is typically one stack per thread (or goroutine in Go). When a function needs memory, it simply appends … Continue reading Go 1.27 will make some allocations cheaper",
-          "link": "https://lemire.me/blog/2026/08/15/go-1-27-will-make-some-allocations-cheaper/",
-          "publishedOn": "2026-08-15T20:59:19.000Z",
-          "wordCount": 3890,
-          "title": "Go 1.27 will make some allocations cheaper",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/2N3RJ-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22764",
-          "author": "Daniel Lemire",
-          "description": "AI-assisted programming is fast evolving and there is a tension between ‘we no longer need to understand the code’ and ‘what is my purpose as a programmer’. I recorded a short video on this topic with how I think the tension can result in conflicts.",
-          "link": "https://lemire.me/blog/2026/08/12/ai-programming-are-you-angry-yet/",
-          "publishedOn": "2026-08-12T15:50:48.000Z",
-          "wordCount": 3314,
-          "title": "AI programming : are you angry yet?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/o1lot-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22758",
-          "author": "Daniel Lemire",
-          "description": "When a compiler optimizes your program, it has to guess. Which functions are worth inlining? Which side of a branch is the common one? Which method does this interface call actually reach? At compile time it cannot know, so it uses heuristics. Profile-guided optimization (PGO) replaces the guessing with measurement: you run your program, record … Continue reading Profile-guided optimization in Go",
-          "link": "https://lemire.me/blog/2026/08/09/profile-guided-optimization-in-go/",
-          "publishedOn": "2026-08-09T23:17:36.000Z",
-          "wordCount": 4137,
-          "title": "Profile-guided optimization in Go",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/ltISq-1024x689.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22750",
-          "author": "Daniel Lemire",
-          "description": "C++26 adds a new container to the standard library: std::hive. It is meant to occupy the ground between std::vector and std::list. Like a vector, it keeps its elements in contiguous blocks of memory, so scanning it does not require you to chase a pointer for every element. Like a list, it never moves an element … Continue reading How fast is C++26’s std::hive?",
-          "link": "https://lemire.me/blog/2026/08/02/how-fast-is-c26s-stdhive/",
-          "publishedOn": "2026-08-02T17:00:10.000Z",
-          "wordCount": 4998,
-          "title": "How fast is C++26’s std::hive?",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/si3ao-1024x683.jpg"
+          "id": "https://abhinavsarkar.net/notes/2026-lobsters-submissions/?mtm_campaign=feed",
+          "author": null,
+          "description": "I have been a Lobsters member since June 2018. In the eight years since, I have submitted 220 stories to the site. I downloaded my entire submission history via the Lobsters API, and here’s what I found when I analyzed it.\nContents\n\nGrowth over Years\nYearly Overview\nMost Upvoted Stories\nMost Discussed Stories\nScore Distribution\nComment Distribution\nScore vs Comment Count\nStory Tags\nAuthored vs Shared Stories\nFlagged Stories\nSubmission Times\n\nGrowth over Years#\nMy first submission was on June 29, 2018. For the first six years, I submitted very few stories. Then around mid-2025, I got much more active. The cumulative count makes it obvious.\n\n\nCumulative number of stories submitted over time\n\n\n\n\nSee as table\n\n\n\n\n\nYear\nCumulative stories\n\n\n\n\n2018\n4\n\n\n2019\n12\n\n\n2020\n23\n\n\n2021\n34\n\n\n2022\n46\n\n\n202…",
+          "link": "https://abhinavsarkar.net/notes/2026-lobsters-submissions/?mtm_campaign=feed",
+          "publishedOn": "2026-08-12T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Analyzing My Lobsters Submissions",
+          "imageUrl": null
         }
       ]
     },
@@ -460,6 +480,16 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
+          "id": "https://curiouscoding.nl/slides/sus-anchors-text/",
+          "author": null,
+          "description": "Minimizer schemes\n \n \n Link to heading\n \n\nInput: a window \\(W\\in \\Sigma^{w+k-1}\\)\nMinimizer scheme: Sample the \\(k\\)-mer with the one with smallest hash:\n\\[f(W) = \\mathrm{argmin}_{0\\leq i\\lt w\\ \\ } h(W_{i\\dots i+k}).\\]\nSampling scheme: Arbitrary function \\(f: \\Sigma^{w+k-1}\\to \\{0, \\dots, w-1\\}.\\)\nDensity: The expected fraction of sampled \\(k\\)-mers in a random string:\nE​A​DCAE.....\n.​A​DCAEB....\n..DC​A​EBE...\n...C​A​EBEC..\n....​A​EBECD.\n.....E​B​ECDC\nE​A​DC​A​E​B​ECDC\nKille et al. 2024\n \n \n Link to heading\n \n\nConjecture: Optimal schemes exist for \\(k\\equiv 1\\pmod w\\)?",
+          "link": "https://curiouscoding.nl/slides/sus-anchors-text/",
+          "publishedOn": "2026-09-01T22:00:00.000Z",
+          "wordCount": 451,
+          "title": "The Anti-Lexicographic SUS-anchor",
+          "imageUrl": null
+        },
+        {
           "id": "https://curiouscoding.nl/posts/scans/",
           "author": null,
           "description": "Table of Contents\nJohnson (1977): Efficient special-purpose priority queues\nThis is a collection of some PDFs of hard-to-find papers.\n\n Link to heading\n \n\nPDF\nThe paper introducing the first variant of the radix heap.\nFound on archive.org with help from the University of Illinois library.\nJohnson, D. B. 1977. “Efficient Special-Purpose Priority Queues.” In Proceedings of the 15th Annual Allerton Conference on Communications, Control, and Computing, 1–7.",
@@ -467,16 +497,6 @@
           "publishedOn": "2026-08-24T22:00:00.000Z",
           "wordCount": 170,
           "title": "Scans of some rare papers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/posts/nthash-revisited/",
-          "author": null,
-          "description": "Table of Contents\nQuick introduction\nA new strategy\n\nInverse operation\nSome more variants\nTODO Repeated applications of \\(f\\)\nCollisions\nTODO Consecutive small values\n\\[\n\\newcommand{\\rot}{\\mathsf{rot}}\n\\newcommand{\\shift}{\\mathsf{shift}}\n\\]\nThis is the third post in (by now) a series of 3 posts on NtHash:\nNtHash1: making it perfect\nNtHash2: investigating collisions\nNtHash3: first ideas\nPreviously, I have written on:",
-          "link": "https://curiouscoding.nl/posts/nthash-revisited/",
-          "publishedOn": "2026-07-31T22:00:00.000Z",
-          "wordCount": 1992,
-          "title": "NtHash3: first ideas",
           "imageUrl": null
         }
       ]
