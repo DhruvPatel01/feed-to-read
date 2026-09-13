@@ -1,10 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-09-06T02:49:53.053Z</id>
+    <id>urn:2026-09-13T03:02:20.361Z</id>
     <title>osmos::feed</title>
-    <updated>2026-09-06T02:49:53.053Z</updated>
+    <updated>2026-09-13T03:02:20.361Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The four-colour theorem was only the start]]></title>
+        <id>https://lemire.me/blog/?p=22869</id>
+        <link href="https://lemire.me/blog/2026/09/11/the-four-colour-theorem-was-only-the-start/"/>
+        <updated>2026-09-11T19:53:31.000Z</updated>
+        <summary type="html"><![CDATA[Mathematicians are unhappy about OpenAI. Several influential mathematicians wrote an open letter. The gist of their argument is that they form a community that trains young people. When AI started producing breakthroughs on hard mathematical problems, I asked what a very smart 17-year-old would feel. Do you still choose a math major and train yourself … Continue reading The four-colour theorem was only the start]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Possible improvements to the QuickHeap]]></title>
+        <id>https://curiouscoding.nl/posts/quickheap-improvements/</id>
+        <link href="https://curiouscoding.nl/posts/quickheap-improvements/"/>
+        <updated>2026-09-10T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+1 A history independent quickheap
+
+1.1 History independent data structures
+1.2 History independent list labeling
+1.3 History independent quickheap
+1.4 Duplicate elements and randomized weights
+1.5 Stronger quickheaps
+1.6 Order of elements
+2 QuickHeap with decreaseKey
+
+2.1 Some theoretical bounds
+2.2 The buffer heap
+2.3 Deletion tokens for the quickheap
+2.4 Bloom filters
+3 The SIMD radix heap
+
+3.1 Adding SIMD to the radix heap
+3.2 Two-level radix heap
+Here, we’ll discuss some possible improvements to the SimdQuickHeap
+(Breitling, Groot Koerkamp, and Williams 2026) (previous post, paper PDF).
+Most of these came up last week during ESA, after William Kuszmaul gave a keynote on
+history independent data structures (specifically, layered list labelling
+(Bender et al. 2024)) and Marvin Williams presented our work.]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fear Is Not an Argument]]></title>
+        <id>https://lemire.me/blog/?p=22845</id>
+        <link href="https://lemire.me/blog/2026/09/10/fear-is-not-an-argument/"/>
+        <updated>2026-09-10T18:23:42.000Z</updated>
+        <summary type="html"><![CDATA[We are told that AI entities much like ChatGPT might soon kill us all. The statement is vague and unfalsifiable. It might be true, it might be false. People with credentials (e.g., Turing Award recipient Yoshua Bengio) believe it. Many still remember the Year-2000 bug. Our computers used two-digit coding for dates, and some software … Continue reading Fear Is Not an Argument]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rebuilding AUTOMATIC1111 with Gradio Workflow]]></title>
+        <id>https://huggingface.co/blog/gradio-workflow-1111</id>
+        <link href="https://huggingface.co/blog/gradio-workflow-1111"/>
+        <updated>2026-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A quick overview of atomics in C]]></title>
+        <id>https://lemire.me/blog/?p=22835</id>
+        <link href="https://lemire.me/blog/2026/09/09/a-quick-overview-of-atomics-in-c/"/>
+        <updated>2026-09-09T20:41:53.000Z</updated>
+        <summary type="html"><![CDATA[If you write in C, by default, you use a single thread. Extra cores do not help until you create more threads. However, if you include the header <threads.h>, you can pass a function to thrd_create, and wait for it with thrd_join. #include <threads.h> #include <stdio.h> int worker(void *arg) { printf("hello from thread %d\n", *(int … Continue reading A quick overview of atomics in C]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license]]></title>
+        <id>https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series</id>
+        <link href="https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"/>
+        <updated>2026-09-09T15:36:24.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic]]></title>
+        <id>https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom</id>
+        <link href="https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom"/>
+        <updated>2026-09-08T14:23:07.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Multiverse Computing on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nim version 2.2.12 released]]></title>
+        <id>https://nim-lang.org//blog/2026/09/08/nim-2212.html</id>
+        <link href="https://nim-lang.org//blog/2026/09/08/nim-2212.html"/>
+        <updated>2026-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nim Team is happy to announce version 2.2.12, the sixth patch release for our stable release, Nim 2.2.
+It comes four months after the 2.2.10 release and it contains 142 commits, bringing bugfixes and improvements.
+If you’re still on Nim 1.6, take a look at the version 2.0 release article to see all the features you’re missing.
+If you’ve been using Nim 2.0, the version 2.2 release article shows the improvements available in Nim 2.2.
+Installing Nim 2.2.12
+Check out if the package manager of your OS already ships version 2.2.12 or
+install it as described here.
+If you have installed a previous version of Nim using choosenim,
+getting Nim 2.2.12 is as easy as:
+$ choosenim update self
+$ choosenim update stable
+
+NOTE: We recommend that you install and use the latest version of choosenim, v0.8.…]]></summary>
+        <author>
+            <name>Nim Programming Language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI programming: a layered model]]></title>
+        <id>https://lemire.me/blog/?p=22831</id>
+        <link href="https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/"/>
+        <updated>2026-09-05T14:02:12.000Z</updated>
+        <summary type="html"><![CDATA[In the late 1960s and 1970s, people like David Parnas faced a problem. A decade earlier there were almost no programmers. Suddenly there were hordes of inexperienced ones. What could have been a golden era was turning into a mess: far more software, much of it falling apart.   It sent Edsger Dijkstra into a … Continue reading AI programming: a layered model]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python sets and dictionaries can have quadratic-time performance]]></title>
+        <id>https://lemire.me/blog/?p=22821</id>
+        <link href="https://lemire.me/blog/2026/09/03/python-sets-and-dictionaries-can-have-quadratic-time-performance/"/>
+        <updated>2026-09-03T14:01:45.000Z</updated>
+        <summary type="html"><![CDATA[In Python, the dict data structure is the conventional key-value structure. E.g., you might store a list of names as keys and have their phone numbers as values. Valentin Ignatev wrote this amusing post on X: It is indeed widely believed that, in the strict sense, the dict data structure and its companion, the set … Continue reading Python sets and dictionaries can have quadratic-time performance]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NeoMME: an efficient Multimodal-native and Multilingual Encoder]]></title>
         <id>https://huggingface.co/blog/Hcompany/neomme</id>
@@ -41,16 +176,6 @@
         <link href="https://huggingface.co/blog/train-to-paint-with-code"/>
         <updated>2026-09-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Real-Time Intelligence with IBM Time Series Models on Confluent]]></title>
-        <id>https://huggingface.co/blog/ibm-research/real-time-intelligence</id>
-        <link href="https://huggingface.co/blog/ibm-research/real-time-intelligence"/>
-        <updated>2026-09-02T13:49:14.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -150,6 +275,16 @@ Conjecture: Optimal schemes exist for \(k\equiv 1\pmod w\)?]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The new Go JSON API: twice as fast, or 1.5x slower?]]></title>
+        <id>https://lemire.me/blog/?p=22792</id>
+        <link href="https://lemire.me/blog/2026/08/29/the-new-go-json-api-twice-as-fast-or-1-5x-slower/"/>
+        <updated>2026-08-29T18:33:33.000Z</updated>
+        <summary type="html"><![CDATA[JSON is a standard format for data interchange. It is effectively a tiny subset of JavaScript made of objects and arrays. It looks as follows {"key":1, "text":[1.0,2.0]}. Many programming languages include a JSON library in their standard libraries: C#, Go, Java (soon), Python, JavaScript, etc. The Go implementation is convenient, but not especially fast. Go … Continue reading The new Go JSON API: twice as fast, or 1.5x slower?]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[MAPS: Netflix’s Multimodal Asset Personalization at Scale]]></title>
         <id>https://medium.com/p/32f96320785e</id>
         <link href="https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4"/>
@@ -240,6 +375,16 @@ My tutoring practice is still going strong, though! If you think you might be in
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Java’s String.indexOf can be slow (quadratic)]]></title>
+        <id>https://lemire.me/blog/?p=22778</id>
+        <link href="https://lemire.me/blog/2026/08/22/javas-string-indexof-can-be-slow-quadratic/"/>
+        <updated>2026-08-22T14:56:16.000Z</updated>
+        <summary type="html"><![CDATA[In Java, you find the location of a substring using indexOf. String haystack = "The quick brown fox jumps over the lazy dog"; String needle = "fox"; int index = haystack.indexOf(needle); Naively, you might implement indexOf by a loop inside a loop, like so. int naiveIndexOf(String haystack, String needle) { for (int i = 0; … Continue reading Java’s String.indexOf can be slow (quadratic)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A Tale of Two Flink Autoscalers]]></title>
         <id>https://medium.com/p/e9f6a1b1492b</id>
         <link href="https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4"/>
@@ -299,6 +444,16 @@ My tutoring practice is still going strong, though! If you think you might be in
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Parsing IP addresses in C# at crazy speeds]]></title>
+        <id>https://lemire.me/blog/?p=22772</id>
+        <link href="https://lemire.me/blog/2026/08/19/parsing-ip-addresses-in-c-at-crazy-speeds/"/>
+        <updated>2026-08-19T19:07:48.000Z</updated>
+        <summary type="html"><![CDATA[We are all familiar with IP addresses such as 192.168.0.1. They are typically written as four numbers in the range 0 to 255 inclusive, separated by dots. In C#, you can parse them with the standard library using IPAddress.TryParse. Pedantic people are quick to point out that IP addresses can take different forms: they can … Continue reading Parsing IP addresses in C# at crazy speeds]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How Much Memory Does Your Agent Actually Need?]]></title>
         <id>https://huggingface.co/blog/ibm-research/altk-evolve-hmm</id>
         <link href="https://huggingface.co/blog/ibm-research/altk-evolve-hmm"/>
@@ -329,178 +484,13 @@ My tutoring practice is still going strong, though! If you think you might be in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Printing Lists]]></title>
-        <id>https://matklad.github.io/2026/08/14/printing-lists.html</id>
-        <link href="https://matklad.github.io/2026/08/14/printing-lists.html"/>
-        <updated>2026-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[To print a comma-separated list, a concise idiom is to optionally print the comma first, before the element:]]></summary>
+        <title type="html"><![CDATA[Go 1.27 will make some allocations cheaper]]></title>
+        <id>https://lemire.me/blog/?p=22769</id>
+        <link href="https://lemire.me/blog/2026/08/15/go-1-27-will-make-some-allocations-cheaper/"/>
+        <updated>2026-08-15T20:59:19.000Z</updated>
+        <summary type="html"><![CDATA[Like most programming languages, Go has both stack allocations, whose lifetime is limited to the current function, and dynamic (or heap) allocations. The name stack comes from the fact that the memory management is somewhat trivial. There is typically one stack per thread (or goroutine in Go). When a function needs memory, it simply appends … Continue reading Go 1.27 will make some allocations cheaper]]></summary>
         <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of Open Models: Summer 2026 Observations]]></title>
-        <id>https://huggingface.co/blog/state-of-open-models-summer-2026</id>
-        <link href="https://huggingface.co/blog/state-of-open-models-summer-2026"/>
-        <updated>2026-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets]]></title>
-        <id>https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop</id>
-        <link href="https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"/>
-        <updated>2026-08-13T17:16:04.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Amazon on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What We Learned by Reproducing 2,200 papers from ICML]]></title>
-        <id>https://huggingface.co/blog/icml-2026-open-reproductions</id>
-        <link href="https://huggingface.co/blog/icml-2026-open-reproductions"/>
-        <updated>2026-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis]]></title>
-        <id>https://huggingface.co/blog/allenai/olmoearth-embeddings</id>
-        <link href="https://huggingface.co/blog/allenai/olmoearth-embeddings"/>
-        <updated>2026-08-12T16:14:36.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Analyzing My Lobsters Submissions]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-lobsters-submissions/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-lobsters-submissions/?mtm_campaign=feed"/>
-        <updated>2026-08-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I have been a Lobsters member since June 2018. In the eight years since, I have submitted 220 stories to the site. I downloaded my entire submission history via the Lobsters API, and here’s what I found when I analyzed it.
-Contents
-
-Growth over Years
-Yearly Overview
-Most Upvoted Stories
-Most Discussed Stories
-Score Distribution
-Comment Distribution
-Score vs Comment Count
-Story Tags
-Authored vs Shared Stories
-Flagged Stories
-Submission Times
-
-Growth over Years#
-My first submission was on June 29, 2018. For the first six years, I submitted very few stories. Then around mid-2025, I got much more active. The cumulative count makes it obvious.
-
-
-Cumulative number of stories submitted over time
-
-
-
-
-See as table
-
-
-
-
-
-Year
-Cumulative stories
-
-
-
-
-2018
-4
-
-
-2019
-12
-
-
-2020
-23
-
-
-2021
-34
-
-
-2022
-46
-
-
-202…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thinking of ACE? We Can Do It with Fewer Tokens]]></title>
-        <id>https://huggingface.co/blog/ibm-research/altk-evolve-sldd</id>
-        <link href="https://huggingface.co/blog/ibm-research/altk-evolve-sldd"/>
-        <updated>2026-08-11T13:37:10.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS]]></title>
-        <id>https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents</id>
-        <link href="https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents"/>
-        <updated>2026-08-10T16:25:36.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making Knowledge Distillation Cheap Enough to Run at Scale]]></title>
-        <id>https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation</id>
-        <link href="https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation"/>
-        <updated>2026-08-10T10:05:36.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Multiverse Computing on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta is back with Muse Glimmer: local, agentic, multimodal, and open source]]></title>
-        <id>https://huggingface.co/blog/muse-glimmer</id>
-        <link href="https://huggingface.co/blog/muse-glimmer"/>
-        <updated>2026-08-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast Haskell Scripts on GitHub Actions]]></title>
-        <id>https://abhinavsarkar.net/posts/fast-haskell-scripts-on-github-actions/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/posts/fast-haskell-scripts-on-github-actions/?mtm_campaign=feed"/>
-        <updated>2026-08-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Magix is a neat tool that lets us run <a href="https://haskell.org" target="_blank" rel="noopener">Haskell</a> programs as scripts<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. We put a shebang on top mentioning Magix, list the Haskell packages we need, and <code>./script.hs</code> just works. This post is about running such a script fast(er) on <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a>.</p>]]></summary>
-        <author>
-            <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…]]></title>
-        <id>https://medium.com/p/0f3468349607</id>
-        <link href="https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4"/>
-        <updated>2026-08-07T16:01:02.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
+            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
