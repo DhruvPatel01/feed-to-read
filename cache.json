@@ -4,7 +4,28 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2026/09/20/",
+          "author": null,
+          "description": "The past year has been exciting for w64devkit, which like any software\ndistribution is never complete. Peter0x44 joined as co-maintainer, and\nhas pushed the project in good, new directions, with ideas I would never\nhave considered. Many of his improvements have gone back upstream, and so\nyou may benefit even if you don’t use w64devkit. I’d like to touch on the\nvarious odds and ends from the past year.\nRelease security\nIn April I announced that release packaging is now signed. Today\nall EXEs and DLLS in w64devkit are code-signed with my key. My signing\nkey established a good reputation thanks to thousands of unique signatures\nobserved on the order of ~100,000 hosts — a pleasant side effect from\nincluding ~300 binaries in a release. Users should have fewer problems\nthese days with security s…",
+          "link": "https://nullprogram.com/blog/2026/09/20/",
+          "publishedOn": "2026-09-20T01:49:36.000Z",
+          "wordCount": 1985,
+          "title": "What's been going on in w64devkit the past year",
+          "imageUrl": null
+        },
+        {
+          "id": "https://nullprogram.com/blog/2026/09/17/",
+          "author": null,
+          "description": "Stars! is a 1995 4X game (explore, expand, exploit, exterminate)\nfor 16-bit Windows 3.1 that I first played ~28 years ago. While Windows is\nfamously backwards compatible, it’s notoriously difficult to play Stars!\ntoday. Windows x64 cannot run 16-bit applications, and playing requires\neither retro hardware or emulation (otvdm, DOSBox), sometimes\npaired with Wine. My new, exciting solution, Stars!VM, or\nStars! Virtual Machine, embeds a custom 80286 emulator and a Win16\nto Win32 bridge. As native Win32, the game looks and feels exactly as it\ndid originally, except sporting a modern file chooser and 4k scaling. It’s\nindistinguishable from a genuine 32-bit or 64-bit port of the game,\nespecially with the original 16-bit game embedded inside the VM\nexecutable.\n\nThe signed releases on GitHub embed…",
+          "link": "https://nullprogram.com/blog/2026/09/17/",
+          "publishedOn": "2026-09-17T02:00:00.000Z",
+          "wordCount": 1206,
+          "title": "A custom virtual machine for the Stars! 4X game",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Nicolas James Marks Ford",
@@ -28,6 +49,16 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/67a85b15b6be",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
+          "publishedOn": "2026-09-18T16:01:02.000Z",
+          "wordCount": null,
+          "title": "Leave the Class Path in the Rearview Mirror",
+          "imageUrl": null
+        },
         {
           "id": "https://medium.com/p/32f96320785e",
           "author": "Netflix Technology Blog",
@@ -79,6 +110,16 @@
       "siteUrl": "https://matklad.github.io",
       "articles": [
         {
+          "id": "https://matklad.github.io/2026/09/19/finding-bugs.html",
+          "author": null,
+          "description": "Are generative (randomized) tests significantly more effective than example-based unit-tests at discovering bugs? There's an interesting discussion about this on lobste.rs. One argument in favor of unit tests is, paraphrasing",
+          "link": "https://matklad.github.io/2026/09/19/finding-bugs.html",
+          "publishedOn": "2026-09-19T00:00:00.000Z",
+          "wordCount": 2321,
+          "title": "Finding Bugs",
+          "imageUrl": null
+        },
+        {
           "id": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
           "author": null,
           "description": "In reply to this email:",
@@ -97,26 +138,6 @@
           "wordCount": 1189,
           "title": "Cancelation Terminology",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/08/21/rust-glancer.html",
-          "author": null,
-          "description": "Rust Glancer, a functional LSP server for Rust which uses two orders of magnitude less RAM, is incredibly cool. Go check it out! This post started as a comment on lobste.rs, but I figured it out that it's better to publish it somewhat more prominently. Don't expect polished writing though!",
-          "link": "https://matklad.github.io/2026/08/21/rust-glancer.html",
-          "publishedOn": "2026-08-21T00:00:00.000Z",
-          "wordCount": 1016,
-          "title": "Rust Glancer",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/08/20/better-batteries.html",
-          "author": null,
-          "description": "One of the eternal schisms in programming is over the question of whether the standard library should be minimal or encompassing. This is the wrong question to ask. The right one is:",
-          "link": "https://matklad.github.io/2026/08/20/better-batteries.html",
-          "publishedOn": "2026-08-20T00:00:00.000Z",
-          "wordCount": 411,
-          "title": "Better Batteries",
-          "imageUrl": null
         }
       ]
     },
@@ -132,24 +153,34 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "author": null,
+          "description": "A Blog post by IBM Research on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "publishedOn": "2026-09-15T16:00:44.000Z",
+          "wordCount": 2534,
+          "title": "Your Agent Aced the Task. Will It Do It Again?",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/dI5J2sSc3TSprk9VB4EVJ.jpeg"
+        },
+        {
+          "id": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+          "publishedOn": "2026-09-10T00:00:00.000Z",
+          "wordCount": 6952,
+          "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+          "imageUrl": "https://huggingface.co/blog/assets/asyncgrpo-lora-hfjobs/thumbnail.png"
+        },
+        {
           "id": "https://huggingface.co/blog/gradio-workflow-1111",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/gradio-workflow-1111",
           "publishedOn": "2026-09-10T00:00:00.000Z",
-          "wordCount": 2630,
+          "wordCount": 2732,
           "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
           "imageUrl": "https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-          "author": null,
-          "description": "A Blog post by IBM Research on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-          "publishedOn": "2026-09-09T15:36:24.000Z",
-          "wordCount": 2118,
-          "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69d3d41eef229c09afea5d83/KYse3pX6t3l8FnI-1pKsi.png"
         },
         {
           "id": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
@@ -157,7 +188,7 @@
           "description": "A Blog post by Multiverse Computing on Hugging Face",
           "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
           "publishedOn": "2026-09-08T14:23:07.000Z",
-          "wordCount": 1870,
+          "wordCount": 1989,
           "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/HuauFbdznYW4fNQh8j4Tp.png"
         },
@@ -167,7 +198,7 @@
           "description": "A Blog post by H company on Hugging Face",
           "link": "https://huggingface.co/blog/Hcompany/neomme",
           "publishedOn": "2026-09-03T13:13:48.000Z",
-          "wordCount": 3119,
+          "wordCount": 3127,
           "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6264f9655f6f2e14d6ac981c/GJ6FUbgFpq1x8RNOqzmz-.webp"
         },
@@ -184,12 +215,12 @@
         {
           "id": "https://huggingface.co/blog/funes",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/funes",
           "publishedOn": "2026-09-03T00:00:00.000Z",
-          "wordCount": 2373,
+          "wordCount": null,
           "title": "Give Your Coding Agents a Memory You Own",
-          "imageUrl": "https://huggingface.co/blog/assets/funes/thumbnail.jpg"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/train-to-paint-with-code",
@@ -197,7 +228,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/train-to-paint-with-code",
           "publishedOn": "2026-09-03T00:00:00.000Z",
-          "wordCount": 5634,
+          "wordCount": 5649,
           "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
           "imageUrl": "https://huggingface.co/blog/assets/train-to-paint-with-code/thumbnail.png"
         },
@@ -214,12 +245,12 @@
         {
           "id": "https://huggingface.co/blog/webgpu-kernels",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/webgpu-kernels",
           "publishedOn": "2026-09-01T00:00:00.000Z",
-          "wordCount": 2311,
+          "wordCount": null,
           "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-          "imageUrl": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
@@ -227,19 +258,19 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
           "publishedOn": "2026-08-28T00:00:00.000Z",
-          "wordCount": 3665,
+          "wordCount": 3675,
           "title": "The Open ASR Leaderboard Adds Its First Global South Language",
           "imageUrl": "https://huggingface.co/blog/assets/open-asr-leaderboard-global-south/thumbnail.png"
         },
         {
           "id": "https://huggingface.co/blog/train-multi-vector-encoder",
           "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "description": "",
           "link": "https://huggingface.co/blog/train-multi-vector-encoder",
           "publishedOn": "2026-08-26T00:00:00.000Z",
-          "wordCount": 6288,
+          "wordCount": null,
           "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-          "imageUrl": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
+          "imageUrl": null
         },
         {
           "id": "https://huggingface.co/blog/ibm-granite/granite-4-2",
@@ -247,7 +278,7 @@
           "description": "A Blog post by IBM Granite on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
           "publishedOn": "2026-08-25T15:14:14.000Z",
-          "wordCount": 5073,
+          "wordCount": 5075,
           "title": "Granite 4.2 LLMs: How They're Built",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp"
         },
@@ -257,7 +288,7 @@
           "description": "A Blog post by Multiverse Computing on Hugging Face",
           "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
           "publishedOn": "2026-08-25T11:39:24.000Z",
-          "wordCount": 3137,
+          "wordCount": 3139,
           "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/2DSE26PMq2hJqKqEDOLIn.png"
         },
@@ -267,69 +298,9 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/gradio-workflow-guide",
           "publishedOn": "2026-08-25T00:00:00.000Z",
-          "wordCount": 1740,
+          "wordCount": 1736,
           "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
           "imageUrl": "https://huggingface.co/blog/assets/gradio-workflow-guide/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/pwc-search",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/pwc-search",
-          "publishedOn": "2026-08-21T00:00:00.000Z",
-          "wordCount": 3097,
-          "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-          "imageUrl": "https://huggingface.co/blog/assets/pwc-search/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/asr-benchmark-optimization",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/asr-benchmark-optimization",
-          "publishedOn": "2026-08-21T00:00:00.000Z",
-          "wordCount": 3353,
-          "title": "Measuring benchmark optimization in speech recognition",
-          "imageUrl": "https://huggingface.co/blog/assets/asr-benchmark-optimization/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-          "author": null,
-          "description": "A Blog post by Liquid AI on Hugging Face",
-          "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-          "publishedOn": "2026-08-20T16:52:57.000Z",
-          "wordCount": 1914,
-          "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/ZMoThfdqzAz8cbxweVQfO.gif"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-          "author": null,
-          "description": "A Blog post by IBM Research on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-          "publishedOn": "2026-08-18T18:09:38.000Z",
-          "wordCount": 2411,
-          "title": "How Much Memory Does Your Agent Actually Need?",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/j-n1Au9SJ2-RGkT9i98u4.jpeg"
-        },
-        {
-          "id": "https://huggingface.co/blog/multi-vector-encoder",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/multi-vector-encoder",
-          "publishedOn": "2026-08-18T00:00:00.000Z",
-          "wordCount": 9026,
-          "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-          "imageUrl": "https://huggingface.co/blog/assets/multi-vector-encoder/st-hf-lighton-thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-          "author": null,
-          "description": "A Blog post by Dharma-AI on Hugging Face",
-          "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-          "publishedOn": "2026-08-17T19:46:21.000Z",
-          "wordCount": 3444,
-          "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/wOnyrU6-UQAM5hOwpaw3-.jpeg"
         }
       ]
     },
@@ -362,6 +333,26 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-personal-digital-space/?mtm_campaign=feed",
+          "author": null,
+          "description": "I wrote this post for a prompt given during our local Indieweb club meeting: “Write about non-negotiables in your personal space.”\nMy MacBook Pro is my digital personal space on which I spend hours every day. Absence of some particular tools and capabilities is a deal breaker for me now, even if I switch to a different laptop or OS.\nFirst, I require a tiling window manager to use anything at all on my laptop. I don’t want to bother with moving windows around, fixing overlaps, changing their sizes etc. The window manager should do these for me and should be drivable by keyboard shortcuts. Currently I use Amethyst on macOS.\nNext, I want to configure my machine programmatically instead of going around tweaking hundreds of knobs. Not only is it cumbersome, but fairly non-reproducible too. Anot…",
+          "link": "https://abhinavsarkar.net/notes/2026-personal-digital-space/?mtm_campaign=feed",
+          "publishedOn": "2026-09-19T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Non-negotiables in My Digital Personal Space",
+          "imageUrl": null
+        },
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-things-you-might-not-know/?mtm_campaign=feed",
+          "author": null,
+          "description": "<p>Over the years, this website has accumulated many interesting and atypical features and pages. Most visitors either browse the <a href=\"https://abhinavsarkar.net/\">homepage</a> or land on individual posts from syndications and social media, and never click around enough to notice and experience all the intriguing things scattered around the website. So I decided to jot some of them down in this note<a href=\"#fn1\" class=\"footnote-ref\" id=\"fnref1\" role=\"doc-noteref\"><sup>1</sup></a>.</p>",
+          "link": "https://abhinavsarkar.net/notes/2026-things-you-might-not-know/?mtm_campaign=feed",
+          "publishedOn": "2026-09-14T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Things You Might Not Know About This Website",
+          "imageUrl": null
+        },
+        {
           "id": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
           "author": null,
           "description": "This is an external post of mine, originally published at Introducing Ahm.",
@@ -379,12 +370,62 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "http://lemire.me/blog/?p=22914",
+          "author": "Daniel Lemire",
+          "description": "Recently, I looked at how AMD made its chips 50% faster within a span of two years, in How did AMD Ryzen get 50% faster in two years? Many people asked me to cover Apple processors. So let us go. Consider the base Apple Silicon chips: M2 (2022), M3 (2023), M4 (2024) and M5 (2025). … Continue reading How did Apple Silicon get 50% faster in three years?",
+          "link": "https://lemire.me/blog/2026/09/19/how-did-apple-silicon-get-50-faster-in-three-years/",
+          "publishedOn": "2026-09-19T16:13:41.000Z",
+          "wordCount": 3902,
+          "title": "How did Apple Silicon get 50% faster in three years?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/apple-featured-1024x633.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22899",
+          "author": "Daniel Lemire",
+          "description": "ARM processors, like those in your phone, have instructions capable of processing several elements at once (SIMD). These instructions are called NEON. But many newer processors have a different SIMD extension called SVE. The latest ARM processors have SVE2. Unfortunately, Apple has not yet adopted SVE, but SVE processors are available in the cloud. In … Continue reading Faster JSON parsing with SVE2 on ARM processors",
+          "link": "https://lemire.me/blog/2026/09/18/faster-json-parsing-with-sve2-on-arm-processors/",
+          "publishedOn": "2026-09-18T21:38:09.000Z",
+          "wordCount": 4770,
+          "title": "Faster JSON parsing with SVE2 on ARM processors",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Gemini_Generated_Image_co7959co7959co79-1024x559.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22896",
+          "author": "Daniel Lemire",
+          "description": "People still tell me that CPUs are boring. That nothing much happens anymore. Let us look at AMD Ryzen 7 processors from 2022 to 2024: the 5800X3D (Zen 3), the 7800X3D (Zen 4) and the 9800X3D (Zen 5). They are comparable 8-core chips with 3D V-Cache. I have written about them before, in How stagnant … Continue reading How did AMD Ryzen get 50% faster in two years?",
+          "link": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+          "publishedOn": "2026-09-18T17:26:04.000Z",
+          "wordCount": 3708,
+          "title": "How did AMD Ryzen get 50% faster in two years?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/ryzen-featured-1024x633.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22881",
+          "author": "Daniel Lemire",
+          "description": "C++23 added a new type to the standard library: std::flat_map. There is also a std::flat_set and other variants, but let me focus on std::flat_map. A flat map is a sorted vector of keys next to a vector of values. A query is a binary search over the sorted keys. You need a recent standard library: … Continue reading How fast is C++23’s std::flat_map?",
+          "link": "https://lemire.me/blog/2026/09/16/how-fast-is-c23s-stdflat_map/",
+          "publishedOn": "2026-09-16T20:26:36.000Z",
+          "wordCount": 3996,
+          "title": "How fast is C++23’s std::flat_map?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Capture-decran-le-2026-09-16-a-16.20.19-e1789590276200-1024x522.png"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22876",
+          "author": "Daniel Lemire",
+          "description": "We represent floating-point numbers using the IEEE standard. For very small numbers, the standard uses special subnormal numbers. Unfortunately, they have a reputation of making operations slow. Thus video game programmers and machine learning specialists sometimes avoid computing with subnormal numbers for performance. How slow are they? Let me measure. I wrote a small C++ … Continue reading Subnormal floating-point numbers are expensive… on Intel processors",
+          "link": "https://lemire.me/blog/2026/09/15/subnormal-floating-point-numbers-are-expensive-on-intel-processors/",
+          "publishedOn": "2026-09-15T12:54:32.000Z",
+          "wordCount": 3959,
+          "title": "Subnormal floating-point numbers are expensive… on Intel processors",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Gemini_Generated_Image_gh1asmgh1asmgh1a-1024x559.jpg"
+        },
+        {
           "id": "https://lemire.me/blog/?p=22869",
           "author": "Daniel Lemire",
           "description": "Mathematicians are unhappy about OpenAI. Several influential mathematicians wrote an open letter. The gist of their argument is that they form a community that trains young people. When AI started producing breakthroughs on hard mathematical problems, I asked what a very smart 17-year-old would feel. Do you still choose a math major and train yourself … Continue reading The four-colour theorem was only the start",
           "link": "https://lemire.me/blog/2026/09/11/the-four-colour-theorem-was-only-the-start/",
           "publishedOn": "2026-09-11T19:53:31.000Z",
-          "wordCount": 3788,
+          "wordCount": 3941,
           "title": "The four-colour theorem was only the start",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/kALnB-1024x687.jpg"
         },
@@ -394,7 +435,7 @@
           "description": "We are told that AI entities much like ChatGPT might soon kill us all. The statement is vague and unfalsifiable. It might be true, it might be false. People with credentials (e.g., Turing Award recipient Yoshua Bengio) believe it. Many still remember the Year-2000 bug. Our computers used two-digit coding for dates, and some software … Continue reading Fear Is Not an Argument",
           "link": "https://lemire.me/blog/2026/09/10/fear-is-not-an-argument/",
           "publishedOn": "2026-09-10T18:23:42.000Z",
-          "wordCount": 5224,
+          "wordCount": 5367,
           "title": "Fear Is Not an Argument",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/wm0AF-1024x687.jpg"
         },
@@ -404,7 +445,7 @@
           "description": "If you write in C, by default, you use a single thread. Extra cores do not help until you create more threads. However, if you include the header <threads.h>, you can pass a function to thrd_create, and wait for it with thrd_join. #include <threads.h> #include <stdio.h> int worker(void *arg) { printf(\"hello from thread %d\\n\", *(int … Continue reading A quick overview of atomics in C",
           "link": "https://lemire.me/blog/2026/09/09/a-quick-overview-of-atomics-in-c/",
           "publishedOn": "2026-09-09T20:41:53.000Z",
-          "wordCount": 5070,
+          "wordCount": 5076,
           "title": "A quick overview of atomics in C",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/image-4-1024x687.jpg"
         },
@@ -414,7 +455,7 @@
           "description": "In the late 1960s and 1970s, people like David Parnas faced a problem. A decade earlier there were almost no programmers. Suddenly there were hordes of inexperienced ones. What could have been a golden era was turning into a mess: far more software, much of it falling apart.   It sent Edsger Dijkstra into a … Continue reading AI programming: a layered model",
           "link": "https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/",
           "publishedOn": "2026-09-05T14:02:12.000Z",
-          "wordCount": 3446,
+          "wordCount": 3450,
           "title": "AI programming: a layered model",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Gemini_Generated_Image_km32u4km32u4km32-1024x559.jpg"
         },
@@ -424,7 +465,7 @@
           "description": "In Python, the dict data structure is the conventional key-value structure. E.g., you might store a list of names as keys and have their phone numbers as values. Valentin Ignatev wrote this amusing post on X: It is indeed widely believed that, in the strict sense, the dict data structure and its companion, the set … Continue reading Python sets and dictionaries can have quadratic-time performance",
           "link": "https://lemire.me/blog/2026/09/03/python-sets-and-dictionaries-can-have-quadratic-time-performance/",
           "publishedOn": "2026-09-03T14:01:45.000Z",
-          "wordCount": 4349,
+          "wordCount": 4410,
           "title": "Python sets and dictionaries can have quadratic-time performance",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/quadratic-1024x538.webp"
         },
@@ -434,7 +475,7 @@
           "description": "JSON is a standard format for data interchange. It is effectively a tiny subset of JavaScript made of objects and arrays. It looks as follows {\"key\":1, \"text\":[1.0,2.0]}. Many programming languages include a JSON library in their standard libraries: C#, Go, Java (soon), Python, JavaScript, etc. The Go implementation is convenient, but not especially fast. Go … Continue reading The new Go JSON API: twice as fast, or 1.5x slower?",
           "link": "https://lemire.me/blog/2026/08/29/the-new-go-json-api-twice-as-fast-or-1-5x-slower/",
           "publishedOn": "2026-08-29T18:33:33.000Z",
-          "wordCount": 3862,
+          "wordCount": 3866,
           "title": "The new Go JSON API: twice as fast, or 1.5x slower?",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/xZAWW-1024x687.jpg"
         },
@@ -444,29 +485,9 @@
           "description": "In Java, you find the location of a substring using indexOf. String haystack = \"The quick brown fox jumps over the lazy dog\"; String needle = \"fox\"; int index = haystack.indexOf(needle); Naively, you might implement indexOf by a loop inside a loop, like so. int naiveIndexOf(String haystack, String needle) { for (int i = 0; … Continue reading Java’s String.indexOf can be slow (quadratic)",
           "link": "https://lemire.me/blog/2026/08/22/javas-string-indexof-can-be-slow-quadratic/",
           "publishedOn": "2026-08-22T14:56:16.000Z",
-          "wordCount": 3866,
+          "wordCount": 3864,
           "title": "Java’s String.indexOf can be slow (quadratic)",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/lYgqA-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22772",
-          "author": "Daniel Lemire",
-          "description": "We are all familiar with IP addresses such as 192.168.0.1. They are typically written as four numbers in the range 0 to 255 inclusive, separated by dots. In C#, you can parse them with the standard library using IPAddress.TryParse. Pedantic people are quick to point out that IP addresses can take different forms: they can … Continue reading Parsing IP addresses in C# at crazy speeds",
-          "link": "https://lemire.me/blog/2026/08/19/parsing-ip-addresses-in-c-at-crazy-speeds/",
-          "publishedOn": "2026-08-19T19:07:48.000Z",
-          "wordCount": 4113,
-          "title": "Parsing IP addresses in C# at crazy speeds",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/Cgic2-1024x687.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=22769",
-          "author": "Daniel Lemire",
-          "description": "Like most programming languages, Go has both stack allocations, whose lifetime is limited to the current function, and dynamic (or heap) allocations. The name stack comes from the fact that the memory management is somewhat trivial. There is typically one stack per thread (or goroutine in Go). When a function needs memory, it simply appends … Continue reading Go 1.27 will make some allocations cheaper",
-          "link": "https://lemire.me/blog/2026/08/15/go-1-27-will-make-some-allocations-cheaper/",
-          "publishedOn": "2026-08-15T20:59:19.000Z",
-          "wordCount": 3893,
-          "title": "Go 1.27 will make some allocations cheaper",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/08/2N3RJ-1024x687.jpg"
         }
       ]
     },
@@ -488,12 +509,22 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
+          "id": "https://curiouscoding.nl/posts/energy-usage-of-navier-stokes/",
+          "author": null,
+          "description": "Table of Contents\nInput data\nElectricity cost and coal usage\nEnergy to GPUs\nAgents per GPU\nTokens per second\nExtrapolating\nPutting things in perspective\nConclusion\nAs they1 say,\na mathematician is a machine for turning coffee into theorems.\nThese days, we can extend this into\nan LLM is a machine for turning energy into theorems.\nIndeed, let’s find out how much coal OpenAI2 turned into a proof3 of Navier Stokes.",
+          "link": "https://curiouscoding.nl/posts/energy-usage-of-navier-stokes/",
+          "publishedOn": "2026-09-15T22:00:00.000Z",
+          "wordCount": 1646,
+          "title": "On the Energy Usage for Navier-Stokes",
+          "imageUrl": null
+        },
+        {
           "id": "https://curiouscoding.nl/posts/quickheap-improvements/",
           "author": null,
-          "description": "Table of Contents\n1 A history independent quickheap\n\n1.1 History independent data structures\n1.2 History independent list labeling\n1.3 History independent quickheap\n1.4 Duplicate elements and randomized weights\n1.5 Stronger quickheaps\n1.6 Order of elements\n2 QuickHeap with decreaseKey\n\n2.1 Some theoretical bounds\n2.2 The buffer heap\n2.3 Deletion tokens for the quickheap\n2.4 Bloom filters\n3 The SIMD radix heap\n\n3.1 Adding SIMD to the radix heap\n3.2 Two-level radix heap\nHere, we’ll discuss some possible improvements to the SimdQuickHeap\n(Breitling, Groot Koerkamp, and Williams 2026) (previous post, paper PDF).\nMost of these came up last week during ESA, after William Kuszmaul gave a keynote on\nhistory independent data structures (specifically, layered list labelling\n(Bender et al. 2024)) and Marvin Williams presented our work.",
+          "description": "Table of Contents\n1 A history independent quickheap\n\n1.1 History independent data structures\n1.2 History independent list labeling\n1.3 History independent quickheap\n1.4 Duplicate elements and randomized weights\n1.5 Stronger quickheaps\n1.6 Order of elements\n2 QuickHeap with decreaseKey\n\n2.1 Some theoretical bounds\n2.2 The buffer heap\n2.3 Deletion tokens for the quickheap\n2.4 Bloom filters\n2.5 Counting bloom filters\n3 The SIMD radix heap\n\n3.1 Adding SIMD to the radix heap\n3.2 Two-level radix heap\nHere, we’ll discuss some possible improvements to the SimdQuickHeap\n(Breitling, Groot Koerkamp, and Williams 2026) (previous post, paper PDF).\nMost of these came up last week during ESA, after William Kuszmaul gave a keynote on\nhistory independent data structures (specifically, layered list labelling\n(Bender et al. 2024)) and Marvin Williams presented our work.",
           "link": "https://curiouscoding.nl/posts/quickheap-improvements/",
           "publishedOn": "2026-09-10T22:00:00.000Z",
-          "wordCount": 3081,
+          "wordCount": 3447,
           "title": "Possible improvements to the QuickHeap",
           "imageUrl": null
         },
