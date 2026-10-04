@@ -57,16 +57,6 @@
           "wordCount": null,
           "title": "Leave the Class Path in the Rearview Mirror",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/32f96320785e",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4",
-          "publishedOn": "2026-08-28T16:01:02.000Z",
-          "wordCount": null,
-          "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-          "imageUrl": null
         }
       ]
     },
@@ -107,26 +97,6 @@
           "wordCount": 2321,
           "title": "Finding Bugs",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
-          "author": null,
-          "description": "In reply to this email:",
-          "link": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
-          "publishedOn": "2026-09-02T00:00:00.000Z",
-          "wordCount": 1419,
-          "title": "Static Allocation, Constant Work",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
-          "author": null,
-          "description": "A short note explaining the difference between synchronous cancelation, asynchronous cancelation, and graceful shutdown. I am not too attached to these specific three terms, but I want to call your attention to the three things behind them, which are important not to confuse with each other.",
-          "link": "https://matklad.github.io/2026/08/31/cancelation-terminology.html",
-          "publishedOn": "2026-08-31T00:00:00.000Z",
-          "wordCount": 1189,
-          "title": "Cancelation Terminology",
-          "imageUrl": null
         }
       ]
     },
@@ -142,24 +112,84 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
+          "id": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "author": null,
+          "description": "A Blog post by Microsoft on Hugging Face",
+          "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "publishedOn": "2026-10-03T22:56:48.000Z",
+          "wordCount": 3515,
+          "title": "The Agent Said It Was Done. The Database Disagreed.",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/allenai/astabrief",
+          "author": null,
+          "description": "A Blog post by Ai2 on Hugging Face",
+          "link": "https://huggingface.co/blog/allenai/astabrief",
+          "publishedOn": "2026-10-02T15:19:50.000Z",
+          "wordCount": 3157,
+          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/AdqLEBgtQnaDXKLdylC3l.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "author": null,
+          "description": "A Blog post by ServiceNow-AI on Hugging Face",
+          "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "publishedOn": "2026-10-02T04:01:31.000Z",
+          "wordCount": 2709,
+          "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/open-tts-leaderboard",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/open-tts-leaderboard",
+          "publishedOn": "2026-09-30T00:00:00.000Z",
+          "wordCount": 2397,
+          "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+          "imageUrl": "https://huggingface.co/blog/assets/open-tts-leaderboard/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/kumo-tabular",
+          "author": null,
+          "description": "A Blog post by NVIDIA on Hugging Face",
+          "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
+          "publishedOn": "2026-09-29T15:30:38.000Z",
+          "wordCount": 2307,
+          "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/684040a5de1ad7f4fcec9508/HyVlq-3d7EVj_M-m_TfHJ.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "author": null,
+          "description": "A Blog post by Multiverse Computing on Hugging Face",
+          "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "publishedOn": "2026-09-29T13:07:00.000Z",
+          "wordCount": 2547,
+          "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/phhhj_BLOJbvnTFhVaZ5y.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/Hcompany/holo4",
+          "author": null,
+          "description": "A Blog post by H company on Hugging Face",
+          "link": "https://huggingface.co/blog/Hcompany/holo4",
+          "publishedOn": "2026-09-28T09:44:05.000Z",
+          "wordCount": 2331,
+          "title": "Holo4: powering generalist computer-use agents",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69fc7e49052f11ab9931b672/yzjxvlmlZKtjASwAYu6bN.jpeg"
+        },
+        {
           "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
           "author": null,
           "description": "A Blog post by Liquid AI on Hugging Face",
           "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
           "publishedOn": "2026-09-24T14:08:57.000Z",
-          "wordCount": 1721,
+          "wordCount": 1742,
           "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/WgfT8N8Xyb6lBxSif7XLO.gif"
-        },
-        {
-          "id": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-          "author": null,
-          "description": "A Blog post by NVIDIA on Hugging Face",
-          "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-          "publishedOn": "2026-09-23T18:41:40.000Z",
-          "wordCount": 3733,
-          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6994dc99f850a10f03fd0b21/rQ6tGCJEaH16bQQ8X4M8b.png"
         },
         {
           "id": "https://huggingface.co/blog/evaleval-aisi",
@@ -167,7 +197,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/evaleval-aisi",
           "publishedOn": "2026-09-22T00:00:00.000Z",
-          "wordCount": 1290,
+          "wordCount": 1425,
           "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
           "imageUrl": "https://huggingface.co/blog/assets/evaleval-aisi/thumbnail.png"
         },
@@ -192,16 +222,6 @@
           "imageUrl": "https://huggingface.co/blog/assets/omlx/omlx-hf.jpg"
         },
         {
-          "id": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-          "author": null,
-          "description": "",
-          "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-          "publishedOn": "2026-09-21T13:44:34.000Z",
-          "wordCount": null,
-          "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-          "imageUrl": null
-        },
-        {
           "id": "https://huggingface.co/blog/tokenizers-v1",
           "author": null,
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -217,7 +237,7 @@
           "description": "A Blog post by IBM Research on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
           "publishedOn": "2026-09-15T16:00:44.000Z",
-          "wordCount": 2534,
+          "wordCount": 3011,
           "title": "Your Agent Aced the Task. Will It Do It Again?",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/dI5J2sSc3TSprk9VB4EVJ.jpeg"
         },
@@ -240,66 +260,6 @@
           "wordCount": 2733,
           "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
           "imageUrl": "https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/Hcompany/neomme",
-          "author": null,
-          "description": "A Blog post by H company on Hugging Face",
-          "link": "https://huggingface.co/blog/Hcompany/neomme",
-          "publishedOn": "2026-09-03T13:13:48.000Z",
-          "wordCount": 3132,
-          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6264f9655f6f2e14d6ac981c/GJ6FUbgFpq1x8RNOqzmz-.webp"
-        },
-        {
-          "id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-          "publishedOn": "2026-09-03T00:00:00.000Z",
-          "wordCount": 2262,
-          "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-          "imageUrl": "https://huggingface.co/blog/assets/grpo-with-trl-ifstruct/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/funes",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/funes",
-          "publishedOn": "2026-09-03T00:00:00.000Z",
-          "wordCount": 2377,
-          "title": "Give Your Coding Agents a Memory You Own",
-          "imageUrl": "https://huggingface.co/blog/assets/funes/thumbnail.jpg"
-        },
-        {
-          "id": "https://huggingface.co/blog/train-to-paint-with-code",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/train-to-paint-with-code",
-          "publishedOn": "2026-09-03T00:00:00.000Z",
-          "wordCount": 5249,
-          "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-          "imageUrl": "https://huggingface.co/blog/assets/train-to-paint-with-code/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/allenai/benchmirt",
-          "author": null,
-          "description": "A Blog post by Ai2 on Hugging Face",
-          "link": "https://huggingface.co/blog/allenai/benchmirt",
-          "publishedOn": "2026-09-01T21:39:07.000Z",
-          "wordCount": 1845,
-          "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/c_Rnu4DRj6Djxk1IT0gKu.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/webgpu-kernels",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/webgpu-kernels",
-          "publishedOn": "2026-09-01T00:00:00.000Z",
-          "wordCount": 2352,
-          "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-          "imageUrl": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png"
         }
       ]
     },
@@ -313,24 +273,33 @@
       "title": "Programming Posts & Notes on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
-      "articles": [
-        {
-          "id": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
-          "author": null,
-          "description": "This is an external post of mine, originally published at Introducing Ahm.",
-          "link": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
-          "publishedOn": "2026-08-31T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Introducing Ahm",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notes on abhinavsarkar.net",
       "feedUrl": "https://abhinavsarkar.net/notes/feed.atom",
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-impossible-bucket-list/?mtm_campaign=feed",
+          "author": null,
+          "description": "I wrote this post for a prompt given during our local Indieweb club meeting\nMy impossible bucket list, things I would want to do/be if the realities of the world and my life did not constrain me. Here it goes:\nWatch the Sun die.\nWrite a bestseller book about physics.\nMake them do a good remake of that one anime from the 90s I liked a lot.\nFinish reading all the books in my to-read list.\nGet rid of ALL the mosquitoes.\nSwim across a river.\nComplete this list.\nCycle across a Himalayan pass.\nLearn how to fly an airplane.\nRead and understand The Art of Computer Programming.\nRead a QR code with my eyes.\nGo back to the house I grew up in.\nLike C++.\nWrite a journal entry every day.\nSolve a Millennium Prize Problem.\nBuild a computer from scratch.\nGet over the Auditory Masking effect.\nLearn how to make a geographical map from scratch.\nTake a transcontinental train.\nFix my television.\nSpend a day in the International Space Station.\nBeat a top player in poker.\nWatch Daft Punk live.\nRun an ultra marathon.\nGet a sleeping score of 100 on my smartwatch.\nSolve integration problems in my head.\nFind my first best friend.\nLearn how to play a Double bass.\nDrink coffee again. 😔\nBecome an archaeologist.\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
+          "link": "https://abhinavsarkar.net/notes/2026-impossible-bucket-list/?mtm_campaign=feed",
+          "publishedOn": "2026-10-03T00:00:00.000Z",
+          "wordCount": null,
+          "title": "My Impossible Bucket List",
+          "imageUrl": null
+        },
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-miniflux-signal-sorting/?mtm_campaign=feed",
+          "author": null,
+          "description": "<p>I have been using <a href=\"https://miniflux.app/\" target=\"_blank\" rel=\"noopener\">Miniflux</a> as my feed reader for a couple of years now. As mentioned in <a href=\"https://abhinavsarkar.net/notes/2025-customizing-miniflux/\">a previous note</a>, I have customized it to add custom sorting for articles. In the <a href=\"https://abhinavsarkar.net/notes/2025-miniflux-similar-sorting/\">last note</a> I added sorting by similarity. In this note, I add another method to it: sorting by signal.</p>",
+          "link": "https://abhinavsarkar.net/notes/2026-miniflux-signal-sorting/?mtm_campaign=feed",
+          "publishedOn": "2026-09-30T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Customizing Miniflux: Sorting by Signal",
+          "imageUrl": null
+        },
         {
           "id": "https://abhinavsarkar.net/notes/2026-personal-digital-space/?mtm_campaign=feed",
           "author": null,
@@ -350,16 +319,223 @@
           "wordCount": null,
           "title": "Things You Might Not Know About This Website",
           "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Daniel Lemire's blog",
+      "feedUrl": "https://lemire.me/blog/feed/",
+      "siteUrl": "https://lemire.me/blog",
+      "articles": [
+        {
+          "id": "http://lemire.me/blog/?p=22991",
+          "author": "Daniel Lemire",
+          "description": "A common way to store JSON data is to write one document per line. We call it NDJSON or JSON Lines. Log files, database exports and machine-learning datasets often come in this format. The files can be large, so we may compress them. {\"id\":1,\"active\":true,\"user\":{\"name\":\"user_1\",\"tags\":[\"guest\"]},\"score\":-3862,\"note\":\"...\"} {\"id\":2,\"active\":false,\"user\":{\"name\":\"user_2\",\"tags\":[\"staff\",\"admin\"]},\"score\":8123,\"note\":\"...\"} How fast can you read such a file? I wrote … Continue reading Parsing compressed JSON at 40 GB/s",
+          "link": "https://lemire.me/blog/2026/10/01/parsing-compressed-json-at-40-gb-s/",
+          "publishedOn": "2026-10-01T03:10:29.000Z",
+          "wordCount": 3803,
+          "title": "Parsing compressed JSON at 40 GB/s",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/jsonstream-cover-1024x572.jpg"
         },
         {
-          "id": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
-          "author": null,
-          "description": "This is an external post of mine, originally published at Introducing Ahm.",
-          "link": "https://projects.abhinavsarkar.net/ahm/posts/2026-08-31-introducing-ahm/",
-          "publishedOn": "2026-08-31T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Introducing Ahm",
-          "imageUrl": null
+          "id": "http://lemire.me/blog/?p=22987",
+          "author": "Daniel Lemire",
+          "description": "Our software represents strings using the UTF-16 or the UTF-8 formats. Most text on the web is UTF-8, but Java, C# or JavaScript represents the strings as UTF-16 to the programmer. Sometimes we need to transcode (convert) strings. Your browser probably uses the simdutf library for validating or transcoding. It is part of the widely … Continue reading Transcoding UTF-8 to UTF-16 with replacement at gigabytes per second",
+          "link": "https://lemire.me/blog/2026/09/30/transcoding-utf-8-to-utf-16-with-replacement-at-gigabytes-per-second/",
+          "publishedOn": "2026-09-30T12:33:27.000Z",
+          "wordCount": 3601,
+          "title": "Transcoding UTF-8 to UTF-16 with replacement at gigabytes per second",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/withreplacement-cover-1024x572.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22978",
+          "author": "Daniel Lemire",
+          "description": "1. Begin by genuinely listening to them. Make sure that you understand them. It is often useful to ask for confirmation: restate what you think they are saying and make sure that you understand. Physically, it helps to turn your shoulders so that you face them. Don’t look at your screen while they talk. … Continue reading How do you deal with people who strongly disagree with your views?",
+          "link": "https://lemire.me/blog/2026/09/30/how-do-you-deal-with-people-who-strongly-disagree-with-your-views/",
+          "publishedOn": "2026-09-30T01:19:54.000Z",
+          "wordCount": 3767,
+          "title": "How do you deal with people who strongly disagree with your views?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/ohs7r-1024x687.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22975",
+          "author": "Daniel Lemire",
+          "description": "The simdjson library is a C++ library to parse and generate JSON. It is used in Node.js, ClickHouse, Meta Velox, StarRocks, Apache Doris, the Ladybird browser and many other systems. We released version 4.0 a year ago, in September 2025. Its headline feature was C++26 static reflection: you could turn a C++ structure into JSON, … Continue reading simdjson 5.0 is out",
+          "link": "https://lemire.me/blog/2026/09/28/simdjson-5-0-is-out/",
+          "publishedOn": "2026-09-28T12:38:25.000Z",
+          "wordCount": 4224,
+          "title": "simdjson 5.0 is out",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/simdjson5-cover-1024x653.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22970",
+          "author": "Daniel Lemire",
+          "description": "C# strings are UTF-16. Most characters are one 16-bit code unit. Characters outside the basic multilingual plane, emoji included, take two: a high surrogate (U+D800 to U+DBFF) followed by a low surrogate (U+DC00 to U+DFFF). A surrogate with the wrong neighbor, or with none, is ill-formed. You should never send an ill-formed string to disk … Continue reading How fast can you fix a UTF-16 string in C#?",
+          "link": "https://lemire.me/blog/2026/09/26/how-fast-can-you-fix-a-utf-16-string-in-c/",
+          "publishedOn": "2026-09-26T16:53:53.000Z",
+          "wordCount": 3741,
+          "title": "How fast can you fix a UTF-16 string in C#?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/utf16-cover-1024x687.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22961",
+          "author": "Daniel Lemire",
+          "description": "To get a PhD, you typically have to enroll in a graduate program. Then you complete a few relatively easy courses.   You might need to pass a comprehensive examination that checks whether you have a basic understanding of the field. A few students fail at this point, but not many.Then you write a thesis … Continue reading A thesis isn’t enough for a PhD",
+          "link": "https://lemire.me/blog/2026/09/26/a-thesis-isnt-enough-for-a-phd/",
+          "publishedOn": "2026-09-26T02:48:13.000Z",
+          "wordCount": 3561,
+          "title": "A thesis isn’t enough for a PhD",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Gemini_Generated_Image_ehvp0eehvp0eehvp-1024x559.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22958",
+          "author": "Daniel Lemire",
+          "description": "We create new strings all the time. How quickly can you produce short strings in your programming languge? To create a meaningful string, we convert an integer to a string. In Python, that is str(i). The loop stores each new string in a small ring buffer of 1024 slots, so that the engine cannot simply … Continue reading How many strings can you create per second?",
+          "link": "https://lemire.me/blog/2026/09/25/how-many-strings-can-you-create-per-second/",
+          "publishedOn": "2026-09-25T01:30:49.000Z",
+          "wordCount": 3769,
+          "title": "How many strings can you create per second?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/strings-featured-1024x687.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22952",
+          "author": "Daniel Lemire",
+          "description": "Mainstream economists have been advocating for the marvellous effects of global trade for decades. Who needs these factory jobs anyway? We’ll be designing the robots and the nuclear rockets. Except that, no. It does not work like that. If you have the factories, sooner or later, you get the designers. If you don’t have the … Continue reading If you don’t have the factories, you lose the expertise",
+          "link": "https://lemire.me/blog/2026/09/24/if-you-dont-have-the-factories-you-lose-the-expertise/",
+          "publishedOn": "2026-09-24T14:09:39.000Z",
+          "wordCount": 4510,
+          "title": "If you don’t have the factories, you lose the expertise",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/factories-1024x392.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22946",
+          "author": "Daniel Lemire",
+          "description": "I maintain and comaintain several open-source libraries. Some of them are widely used: ada parses URLs in Node.js, fast_float parses numbers in GCC’s standard library and in Chromium, simdjson parses JSON in Node.js, simdutf validates and transcodes Unicode in Node.js, and the Roaring bitmap libraries sit inside many database engines. These libraries are mature. They … Continue reading A summer of AI optimization",
+          "link": "https://lemire.me/blog/2026/09/22/a-summer-of-ai-optimization/",
+          "publishedOn": "2026-09-22T02:27:44.000Z",
+          "wordCount": 4293,
+          "title": "A summer of AI optimization",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/summer-ai-featured-1024x687.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22921",
+          "author": "Antonio Badia",
+          "description": "Our processors can execute many instructions per cycle; they are superscalar. But not all instructions are equal. Branches are particularly tricky. A branch occurs often when you use an if-then clause or a loop. We distinguish between a taken branch and a not taken branch. A not-taken branch is often cheap. The processor just keeps … Continue reading More than a taken branch per cycle?",
+          "link": "https://lemire.me/blog/2026/09/21/more-than-a-taken-branch-per-cycle/",
+          "publishedOn": "2026-09-21T18:36:05.000Z",
+          "wordCount": 3622,
+          "title": "More than a taken branch per cycle?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/branching_branch_art-1024x452.png"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22933",
+          "author": "Daniel Lemire",
+          "description": "If AI is causing mass unemployment among software developers, it is not showing up in the data yet.   The USA had more software developers as a percentage of the population in 2025 than in 2021.   On average salaries are slightly up (average of 148k$ a year). The 90th percentile is up from 2021 … Continue reading The data does not show mass unemployment",
+          "link": "https://lemire.me/blog/2026/09/21/nomassunemployment/",
+          "publishedOn": "2026-09-21T15:04:08.000Z",
+          "wordCount": 3309,
+          "title": "The data does not show mass unemployment",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/P9wow-1024x687.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22928",
+          "author": "Daniel Lemire",
+          "description": "I see the mathematicians panicking at what we can do with agentic AI. Let us be clear on what we are talking about. In a few weeks, someone who is not a high-level mathematician can, with AI, produce the equivalent of a good PhD thesis in math. I could see a top 1% high school … Continue reading AI is breaking the academic sorting machine",
+          "link": "https://lemire.me/blog/2026/09/20/ai-is-breaking-the-academic-sorting-machine/",
+          "publishedOn": "2026-09-20T21:47:46.000Z",
+          "wordCount": 3914,
+          "title": "AI is breaking the academic sorting machine",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/INeo8-1024x687.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22914",
+          "author": "Daniel Lemire",
+          "description": "Recently, I looked at how AMD made its chips 50% faster within a span of two years, in How did AMD Ryzen get 50% faster in two years? Many people asked me to cover Apple processors. So let us go. Consider the base Apple Silicon chips: M2 (2022), M3 (2023), M4 (2024) and M5 (2025). … Continue reading How did Apple Silicon get 50% faster in three years?",
+          "link": "https://lemire.me/blog/2026/09/19/how-did-apple-silicon-get-50-faster-in-three-years/",
+          "publishedOn": "2026-09-19T16:13:41.000Z",
+          "wordCount": 3960,
+          "title": "How did Apple Silicon get 50% faster in three years?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/apple-featured-1024x633.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22899",
+          "author": "Daniel Lemire",
+          "description": "ARM processors, like those in your phone, have instructions capable of processing several elements at once (SIMD). These instructions are called NEON. But many newer processors have a different SIMD extension called SVE. The latest ARM processors have SVE2. Unfortunately, Apple has not yet adopted SVE, but SVE processors are available in the cloud. In … Continue reading Faster JSON parsing with SVE2 on ARM processors",
+          "link": "https://lemire.me/blog/2026/09/18/faster-json-parsing-with-sve2-on-arm-processors/",
+          "publishedOn": "2026-09-18T21:38:09.000Z",
+          "wordCount": 4793,
+          "title": "Faster JSON parsing with SVE2 on ARM processors",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Gemini_Generated_Image_co7959co7959co79-1024x559.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=22896",
+          "author": "Daniel Lemire",
+          "description": "People still tell me that CPUs are boring. That nothing much happens anymore. Let us look at AMD Ryzen 7 processors from 2022 to 2024: the 5800X3D (Zen 3), the 7800X3D (Zen 4) and the 9800X3D (Zen 5). They are comparable 8-core chips with 3D V-Cache. I have written about them before, in How stagnant … Continue reading How did AMD Ryzen get 50% faster in two years?",
+          "link": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+          "publishedOn": "2026-09-18T17:26:04.000Z",
+          "wordCount": 3965,
+          "title": "How did AMD Ryzen get 50% faster in two years?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/ryzen-featured-1024x633.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22881",
+          "author": "Daniel Lemire",
+          "description": "C++23 added a new type to the standard library: std::flat_map. There is also a std::flat_set and other variants, but let me focus on std::flat_map. A flat map is a sorted vector of keys next to a vector of values. A query is a binary search over the sorted keys. You need a recent standard library: … Continue reading How fast is C++23’s std::flat_map?",
+          "link": "https://lemire.me/blog/2026/09/16/how-fast-is-c23s-stdflat_map/",
+          "publishedOn": "2026-09-16T20:26:36.000Z",
+          "wordCount": 4013,
+          "title": "How fast is C++23’s std::flat_map?",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Capture-decran-le-2026-09-16-a-16.20.19-e1789590276200-1024x522.png"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22876",
+          "author": "Daniel Lemire",
+          "description": "We represent floating-point numbers using the IEEE standard. For very small numbers, the standard uses special subnormal numbers. Unfortunately, they have a reputation of making operations slow. Thus video game programmers and machine learning specialists sometimes avoid computing with subnormal numbers for performance. How slow are they? Let me measure. I wrote a small C++ … Continue reading Subnormal floating-point numbers are expensive… on Intel processors",
+          "link": "https://lemire.me/blog/2026/09/15/subnormal-floating-point-numbers-are-expensive-on-intel-processors/",
+          "publishedOn": "2026-09-15T12:54:32.000Z",
+          "wordCount": 3982,
+          "title": "Subnormal floating-point numbers are expensive… on Intel processors",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Gemini_Generated_Image_gh1asmgh1asmgh1a-1024x559.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22869",
+          "author": "Daniel Lemire",
+          "description": "Mathematicians are unhappy about OpenAI. Several influential mathematicians wrote an open letter. The gist of their argument is that they form a community that trains young people. When AI started producing breakthroughs on hard mathematical problems, I asked what a very smart 17-year-old would feel. Do you still choose a math major and train yourself … Continue reading The four-colour theorem was only the start",
+          "link": "https://lemire.me/blog/2026/09/11/the-four-colour-theorem-was-only-the-start/",
+          "publishedOn": "2026-09-11T19:53:31.000Z",
+          "wordCount": 3958,
+          "title": "The four-colour theorem was only the start",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/kALnB-1024x687.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22845",
+          "author": "Daniel Lemire",
+          "description": "We are told that AI entities much like ChatGPT might soon kill us all. The statement is vague and unfalsifiable. It might be true, it might be false. People with credentials (e.g., Turing Award recipient Yoshua Bengio) believe it. Many still remember the Year-2000 bug. Our computers used two-digit coding for dates, and some software … Continue reading Fear Is Not an Argument",
+          "link": "https://lemire.me/blog/2026/09/10/fear-is-not-an-argument/",
+          "publishedOn": "2026-09-10T18:23:42.000Z",
+          "wordCount": 5390,
+          "title": "Fear Is Not an Argument",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/wm0AF-1024x687.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22835",
+          "author": "Daniel Lemire",
+          "description": "If you write in C, by default, you use a single thread. Extra cores do not help until you create more threads. However, if you include the header <threads.h>, you can pass a function to thrd_create, and wait for it with thrd_join. #include <threads.h> #include <stdio.h> int worker(void *arg) { printf(\"hello from thread %d\\n\", *(int … Continue reading A quick overview of atomics in C",
+          "link": "https://lemire.me/blog/2026/09/09/a-quick-overview-of-atomics-in-c/",
+          "publishedOn": "2026-09-09T20:41:53.000Z",
+          "wordCount": 5093,
+          "title": "A quick overview of atomics in C",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/image-4-1024x687.jpg"
+        },
+        {
+          "id": "https://lemire.me/blog/?p=22831",
+          "author": "Daniel Lemire",
+          "description": "In the late 1960s and 1970s, people like David Parnas faced a problem. A decade earlier there were almost no programmers. Suddenly there were hordes of inexperienced ones. What could have been a golden era was turning into a mess: far more software, much of it falling apart.   It sent Edsger Dijkstra into a … Continue reading AI programming: a layered model",
+          "link": "https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/",
+          "publishedOn": "2026-09-05T14:02:12.000Z",
+          "wordCount": 3467,
+          "title": "AI programming: a layered model",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/09/Gemini_Generated_Image_km32u4km32u4km32-1024x559.jpg"
         }
       ]
     },
@@ -381,6 +557,16 @@
       "siteUrl": "https://curiouscoding.nl/",
       "articles": [
         {
+          "id": "https://curiouscoding.nl/posts/quickheap/",
+          "author": null,
+          "description": "Table of Contents\n1 Background\n\nPriority queue\nBinary heap\nD-ary heaps\nOther heaps\n2 Literature on Quickheaps\n\nOptimal incremental sorting\nQuickheap\nRandomized quickheaps\n3 Bucket-based implementation\n\nData structure\nPush\nPop\nPartition\n4 Results\n\nLibraries\nDatasets\nResults\n5 Conclusion\nBacklinks: bsky, X\nA paper on the SimdQuickHeap (github:RagnarGrootKoerkamp/QuickHeap)\nwas published at ESA 2026 (DOI, PDF), where it won a best paper award:",
+          "link": "https://curiouscoding.nl/posts/quickheap/",
+          "publishedOn": "2026-09-28T22:00:00.000Z",
+          "wordCount": 3747,
+          "title": "SimdQuickHeap: the fastest priority queue",
+          "imageUrl": null
+        },
+        {
           "id": "https://curiouscoding.nl/posts/energy-usage-of-navier-stokes/",
           "author": null,
           "description": "Table of Contents\nLater addition\nInput data\nElectricity cost and coal usage\nEnergy to GPUs\nAgents per GPU\nTokens per second\nExtrapolating\nPutting things in perspective\nConclusion\nAs they1 say,\na mathematician is a machine for turning coffee into theorems.\nThese days, we can extend this into\nan LLM is a machine for turning energy into theorems.\nIndeed, let’s find out how much coal OpenAI2 turned into a proof3 of Navier Stokes.",
@@ -398,16 +584,6 @@
           "publishedOn": "2026-09-10T22:00:00.000Z",
           "wordCount": 3447,
           "title": "Possible improvements to the QuickHeap",
-          "imageUrl": null
-        },
-        {
-          "id": "https://curiouscoding.nl/slides/sus-anchors-text/",
-          "author": null,
-          "description": "Minimizer schemes\n \n \n Link to heading\n \n\nInput: a window \\(W\\in \\Sigma^{w+k-1}\\)\nMinimizer scheme: Sample the \\(k\\)-mer with the one with smallest hash:\n\\[f(W) = \\mathrm{argmin}_{0\\leq i\\lt w\\ \\ } h(W_{i\\dots i+k}).\\]\nSampling scheme: Arbitrary function \\(f: \\Sigma^{w+k-1}\\to \\{0, \\dots, w-1\\}.\\)\nDensity: The expected fraction of sampled \\(k\\)-mers in a random string:\nE​A​DCAE.....\n.​A​DCAEB....\n..DC​A​EBE...\n...C​A​EBEC..\n....​A​EBECD.\n.....E​B​ECDC\nE​A​DC​A​E​B​ECDC\nKille et al. 2024\n \n \n Link to heading\n \n\nConjecture: Optimal schemes exist for \\(k\\equiv 1\\pmod w\\)?",
-          "link": "https://curiouscoding.nl/slides/sus-anchors-text/",
-          "publishedOn": "2026-09-01T22:00:00.000Z",
-          "wordCount": 451,
-          "title": "The Anti-Lexicographic SUS-anchor",
           "imageUrl": null
         }
       ]
