@@ -1,10 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-10-18T02:56:21.729Z</id>
+    <id>urn:2026-10-25T03:06:26.362Z</id>
     <title>osmos::feed</title>
-    <updated>2026-10-18T02:56:21.729Z</updated>
+    <updated>2026-10-25T03:06:26.362Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes]]></title>
+        <id>https://medium.com/p/9474f2fd4f90</id>
+        <link href="https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4"/>
+        <updated>2026-10-23T18:32:51.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LitPivot: Developing research ideas through dynamic contextualization within the literature landscape]]></title>
+        <id>https://huggingface.co/blog/allenai/litpivot</id>
+        <link href="https://huggingface.co/blog/allenai/litpivot"/>
+        <updated>2026-10-23T16:15:50.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does Your Model Run on AWS Trainium? Look It Up]]></title>
+        <id>https://huggingface.co/blog/torch-neuronx-model-support</id>
+        <link href="https://huggingface.co/blog/torch-neuronx-model-support"/>
+        <updated>2026-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox]]></title>
+        <id>https://huggingface.co/blog/microsoft/thinkingbox-training</id>
+        <link href="https://huggingface.co/blog/microsoft/thinkingbox-training"/>
+        <updated>2026-10-22T22:24:34.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Microsoft on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Single-tenant Titus: VM-level isolation on a multi-tenant container platform]]></title>
+        <id>https://medium.com/p/6d8b1909d163</id>
+        <link href="https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4"/>
+        <updated>2026-10-22T22:19:12.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ensemble forecasting with IBM Granite time-series models]]></title>
+        <id>https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1</id>
+        <link href="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"/>
+        <updated>2026-10-22T07:51:31.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required]]></title>
+        <id>https://huggingface.co/blog/nvidia/kumo-relational</id>
+        <link href="https://huggingface.co/blog/nvidia/kumo-relational"/>
+        <updated>2026-10-21T18:26:30.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications]]></title>
+        <id>https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization</id>
+        <link href="https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"/>
+        <updated>2026-10-21T17:35:36.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Dharma-AI on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.]]></title>
+        <id>https://huggingface.co/blog/amazon/profiling-torchneuron-part-1</id>
+        <link href="https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"/>
+        <updated>2026-10-21T16:04:43.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Amazon on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster]]></title>
+        <id>https://huggingface.co/blog/ibm-granite/granite-speech-5</id>
+        <link href="https://huggingface.co/blog/ibm-granite/granite-speech-5"/>
+        <updated>2026-10-21T14:58:18.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face ❤️ TorchTPU: TPUs, Natively]]></title>
+        <id>https://huggingface.co/blog/hf-torchtpu</id>
+        <link href="https://huggingface.co/blog/hf-torchtpu"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms]]></title>
+        <id>https://huggingface.co/blog/anylanguagemodel-1-0</id>
+        <link href="https://huggingface.co/blog/anylanguagemodel-1-0"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MPS in PyTorch 2.15]]></title>
+        <id>https://huggingface.co/blog/mps-pytorch-2-15</id>
+        <link href="https://huggingface.co/blog/mps-pytorch-2-15"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TorchNeuron: running HF models on AWS Trainium is easier than ever]]></title>
+        <id>https://huggingface.co/blog/hf-torchneuron</id>
+        <link href="https://huggingface.co/blog/hf-torchneuron"/>
+        <updated>2026-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Decoding base64 in Python at 10 gigabytes per second]]></title>
         <id>http://lemire.me/blog/?p=23075</id>
@@ -43,16 +181,6 @@ As I child I loved playing video games, but upon growing up I decided to stop. I
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline]]></title>
-        <id>https://huggingface.co/blog/nvidia/scaling-indic-pretraining</id>
-        <link href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining"/>
-        <updated>2026-10-16T01:44:47.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Welcome Beam: a 501B open model you can own, customize, and scale]]></title>
         <id>https://huggingface.co/blog/reflection-beam</id>
         <link href="https://huggingface.co/blog/reflection-beam"/>
@@ -73,11 +201,11 @@ As I child I loved playing video games, but upon growing up I decided to stop. I
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint]]></title>
-        <id>https://huggingface.co/blog/ibm-granite/granite-switch-4-1</id>
-        <link href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1"/>
-        <updated>2026-10-15T20:34:01.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Granite on Hugging Face]]></summary>
+        <title type="html"><![CDATA[Apertus 1.5 Release Notes]]></title>
+        <id>https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes</id>
+        <link href="https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"/>
+        <updated>2026-10-15T09:08:45.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Swiss AI Initiative on Hugging Face]]></summary>
         <author>
             <name>Hugging Face - Blog</name>
         </author>
@@ -163,34 +291,6 @@ As I child I loved playing video games, but upon growing up I decided to stop. I
         <updated>2026-10-14T19:49:11.000Z</updated>
         <author>
             <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale]]></title>
-        <id>https://medium.com/p/c95bd8283508</id>
-        <link href="https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4"/>
-        <updated>2026-10-14T19:48:49.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netflix Stratum Media Processing: Automated Container Right-Sizing]]></title>
-        <id>https://medium.com/p/ddf9aa68a801</id>
-        <link href="https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4"/>
-        <updated>2026-10-14T19:48:20.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost]]></title>
-        <id>https://huggingface.co/blog/allenai/hiro-acev2</id>
-        <link href="https://huggingface.co/blog/allenai/hiro-acev2"/>
-        <updated>2026-10-14T16:12:42.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -641,181 +741,6 @@ was published at ESA 2026 (DOI, PDF), where it won a best paper award:]]></summa
         <link href="https://lemire.me/blog/2026/09/26/a-thesis-isnt-enough-for-a-phd/"/>
         <updated>2026-09-26T02:48:13.000Z</updated>
         <summary type="html"><![CDATA[To get a PhD, you typically have to enroll in a graduate program. Then you complete a few relatively easy courses.   You might need to pass a comprehensive examination that checks whether you have a basic understanding of the field. A few students fail at this point, but not many.Then you write a thesis … Continue reading A thesis isn’t enough for a PhD]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How many strings can you create per second?]]></title>
-        <id>http://lemire.me/blog/?p=22958</id>
-        <link href="https://lemire.me/blog/2026/09/25/how-many-strings-can-you-create-per-second/"/>
-        <updated>2026-09-25T01:30:49.000Z</updated>
-        <summary type="html"><![CDATA[We create new strings all the time. How quickly can you produce short strings in your programming languge? To create a meaningful string, we convert an integer to a string. In Python, that is str(i). The loop stores each new string in a small ring buffer of 1024 slots, so that the engine cannot simply … Continue reading How many strings can you create per second?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If you don’t have the factories, you lose the expertise]]></title>
-        <id>http://lemire.me/blog/?p=22952</id>
-        <link href="https://lemire.me/blog/2026/09/24/if-you-dont-have-the-factories-you-lose-the-expertise/"/>
-        <updated>2026-09-24T14:09:39.000Z</updated>
-        <summary type="html"><![CDATA[Mainstream economists have been advocating for the marvellous effects of global trade for decades. Who needs these factory jobs anyway? We’ll be designing the robots and the nuclear rockets. Except that, no. It does not work like that. If you have the factories, sooner or later, you get the designers. If you don’t have the … Continue reading If you don’t have the factories, you lose the expertise]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A summer of AI optimization]]></title>
-        <id>http://lemire.me/blog/?p=22946</id>
-        <link href="https://lemire.me/blog/2026/09/22/a-summer-of-ai-optimization/"/>
-        <updated>2026-09-22T02:27:44.000Z</updated>
-        <summary type="html"><![CDATA[I maintain and comaintain several open-source libraries. Some of them are widely used: ada parses URLs in Node.js, fast_float parses numbers in GCC’s standard library and in Chromium, simdjson parses JSON in Node.js, simdutf validates and transcodes Unicode in Node.js, and the Roaring bitmap libraries sit inside many database engines. These libraries are mature. They … Continue reading A summer of AI optimization]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How UK AISI and EvalEval Are Making Benchmark Results Reproducible]]></title>
-        <id>https://huggingface.co/blog/evaleval-aisi</id>
-        <link href="https://huggingface.co/blog/evaleval-aisi"/>
-        <updated>2026-09-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transformers now runs llama.cpp quants]]></title>
-        <id>https://huggingface.co/blog/transformers-llama-cpp-quants</id>
-        <link href="https://huggingface.co/blog/transformers-llama-cpp-quants"/>
-        <updated>2026-09-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community]]></title>
-        <id>https://huggingface.co/blog/omlx</id>
-        <link href="https://huggingface.co/blog/omlx"/>
-        <updated>2026-09-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More than a taken branch per cycle?]]></title>
-        <id>http://lemire.me/blog/?p=22921</id>
-        <link href="https://lemire.me/blog/2026/09/21/more-than-a-taken-branch-per-cycle/"/>
-        <updated>2026-09-21T18:36:05.000Z</updated>
-        <summary type="html"><![CDATA[Our processors can execute many instructions per cycle; they are superscalar. But not all instructions are equal. Branches are particularly tricky. A branch occurs often when you use an if-then clause or a loop. We distinguish between a taken branch and a not taken branch. A not-taken branch is often cheap. The processor just keeps … Continue reading More than a taken branch per cycle?]]></summary>
-        <author>
-            <name>Antonio Badia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The data does not show mass unemployment]]></title>
-        <id>https://lemire.me/blog/?p=22933</id>
-        <link href="https://lemire.me/blog/2026/09/21/nomassunemployment/"/>
-        <updated>2026-09-21T15:04:08.000Z</updated>
-        <summary type="html"><![CDATA[If AI is causing mass unemployment among software developers, it is not showing up in the data yet.   The USA had more software developers as a percentage of the population in 2025 than in 2021.   On average salaries are slightly up (average of 148k$ a year). The 90th percentile is up from 2021 … Continue reading The data does not show mass unemployment]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[tokenizers v1: encode, decode and scaling, measured]]></title>
-        <id>https://huggingface.co/blog/tokenizers-v1</id>
-        <link href="https://huggingface.co/blog/tokenizers-v1"/>
-        <updated>2026-09-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI is breaking the academic sorting machine]]></title>
-        <id>https://lemire.me/blog/?p=22928</id>
-        <link href="https://lemire.me/blog/2026/09/20/ai-is-breaking-the-academic-sorting-machine/"/>
-        <updated>2026-09-20T21:47:46.000Z</updated>
-        <summary type="html"><![CDATA[I see the mathematicians panicking at what we can do with agentic AI. Let us be clear on what we are talking about. In a few weeks, someone who is not a high-level mathematician can, with AI, produce the equivalent of a good PhD thesis in math. I could see a top 1% high school … Continue reading AI is breaking the academic sorting machine]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What's been going on in w64devkit the past year]]></title>
-        <id>https://nullprogram.com/blog/2026/09/20/</id>
-        <link href="https://nullprogram.com/blog/2026/09/20/"/>
-        <updated>2026-09-20T01:49:36.000Z</updated>
-        <summary type="html"><![CDATA[The past year has been exciting for w64devkit, which like any software
-distribution is never complete. Peter0x44 joined as co-maintainer, and
-has pushed the project in good, new directions, with ideas I would never
-have considered. Many of his improvements have gone back upstream, and so
-you may benefit even if you don’t use w64devkit. I’d like to touch on the
-various odds and ends from the past year.
-Release security
-In April I announced that release packaging is now signed. Today
-all EXEs and DLLS in w64devkit are code-signed with my key. My signing
-key established a good reputation thanks to thousands of unique signatures
-observed on the order of ~100,000 hosts — a pleasant side effect from
-including ~300 binaries in a release. Users should have fewer problems
-these days with security s…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How did Apple Silicon get 50% faster in three years?]]></title>
-        <id>http://lemire.me/blog/?p=22914</id>
-        <link href="https://lemire.me/blog/2026/09/19/how-did-apple-silicon-get-50-faster-in-three-years/"/>
-        <updated>2026-09-19T16:13:41.000Z</updated>
-        <summary type="html"><![CDATA[Recently, I looked at how AMD made its chips 50% faster within a span of two years, in How did AMD Ryzen get 50% faster in two years? Many people asked me to cover Apple processors. So let us go. Consider the base Apple Silicon chips: M2 (2022), M3 (2023), M4 (2024) and M5 (2025). … Continue reading How did Apple Silicon get 50% faster in three years?]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finding Bugs]]></title>
-        <id>https://matklad.github.io/2026/09/19/finding-bugs.html</id>
-        <link href="https://matklad.github.io/2026/09/19/finding-bugs.html"/>
-        <updated>2026-09-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Are generative (randomized) tests significantly more effective than example-based unit-tests at discovering bugs? There's an interesting discussion about this on lobste.rs. One argument in favor of unit tests is, paraphrasing]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Non-negotiables in My Digital Personal Space]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-personal-digital-space/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-personal-digital-space/?mtm_campaign=feed"/>
-        <updated>2026-09-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I wrote this post for a prompt given during our local Indieweb club meeting: “Write about non-negotiables in your personal space.” See more such posts.
-My MacBook Pro is my digital personal space on which I spend hours every day. Absence of some particular tools and capabilities is a deal breaker for me now, even if I switch to a different laptop or OS.
-First, I require a tiling window manager to use anything at all on my laptop. I don’t want to bother with moving windows around, fixing overlaps, changing their sizes etc. The window manager should do these for me and should be drivable by keyboard shortcuts. Currently I use Amethyst on macOS.
-Next, I want to configure my machine programmatically instead of going around tweaking hundreds of knobs. Not only is it cumbersome, but fairly non-r…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Faster JSON parsing with SVE2 on ARM processors]]></title>
-        <id>https://lemire.me/blog/?p=22899</id>
-        <link href="https://lemire.me/blog/2026/09/18/faster-json-parsing-with-sve2-on-arm-processors/"/>
-        <updated>2026-09-18T21:38:09.000Z</updated>
-        <summary type="html"><![CDATA[ARM processors, like those in your phone, have instructions capable of processing several elements at once (SIMD). These instructions are called NEON. But many newer processors have a different SIMD extension called SVE. The latest ARM processors have SVE2. Unfortunately, Apple has not yet adopted SVE, but SVE processors are available in the cloud. In … Continue reading Faster JSON parsing with SVE2 on ARM processors]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How did AMD Ryzen get 50% faster in two years?]]></title>
-        <id>http://lemire.me/blog/?p=22896</id>
-        <link href="https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/"/>
-        <updated>2026-09-18T17:26:04.000Z</updated>
-        <summary type="html"><![CDATA[People still tell me that CPUs are boring. That nothing much happens anymore. Let us look at AMD Ryzen 7 processors from 2022 to 2024: the 5800X3D (Zen 3), the 7800X3D (Zen 4) and the 9800X3D (Zen 5). They are comparable 8-core chips with 3D V-Cache. I have written about them before, in How stagnant … Continue reading How did AMD Ryzen get 50% faster in two years?]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
