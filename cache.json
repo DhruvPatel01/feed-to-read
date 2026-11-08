@@ -6,12 +6,22 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2026/11/05/",
+          "author": null,
+          "description": "Buffered output typically comes in two flavors: fully buffered\nand line buffered. If output goes to a terminal then the implementation\nautomatically selects line buffering, flushing its buffer when a line is\ncompleted so that it reaches the user immediately. Otherwise it fully\nbuffers, holding output until the buffer is full or an explicit flush\nevent at some arbitrary point in the future. Line buffering is a common\nbottleneck in non-interactive terminal applications such that it’s worth\nredirecting output to a file or pipe in order to avoid it. It doesn’t\nhave to be this way. We can have our cake and eat it, too: promptly\ndelivering lines to a terminal at fully-buffered speeds.\nFor example, Info-ZIP unzip prints file names as it extract them from an\narchive. This printout dominates extrac…",
+          "link": "https://nullprogram.com/blog/2026/11/05/",
+          "publishedOn": "2026-11-05T00:25:25.000Z",
+          "wordCount": 917,
+          "title": "We can do better than line-buffered output",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2026/10/31/",
           "author": null,
           "description": "I’ve been fascinated with local LLMs for a couple of years now.\nThe better open weight models, including some that inference on regular,\nhigher-end consumer hardware at tolerable speeds, are now reliable enough\nto handle simpler programming tasks. This requires a coding harness, but\nso far this year I’ve been disappointed by all the harness offerings. For\ninexplicable reasons most are built with web stacks, and consume enormous\namounts of memory. At its core a coding harness is essentially curl glued\nto popen(). This should not require gigabytes of RAM. So I built my own:\nProspero. It’s written in my C++ style with a snappy Dear\nImGui docking interface. It uses around two orders of magnitude\nfewer resources than other harnesses without sacrificing features.\n\nDark mode aficionados are cover…",
           "link": "https://nullprogram.com/blog/2026/10/31/",
           "publishedOn": "2026-10-31T03:38:07.000Z",
-          "wordCount": 1984,
+          "wordCount": 1992,
           "title": "Prospero: a new coding harness for a more civilized age",
           "imageUrl": null
         },
@@ -23,16 +33,6 @@
           "publishedOn": "2026-10-13T22:32:24.000Z",
           "wordCount": 813,
           "title": "tugz: a new deflate library with three applications",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2026/10/04/",
-          "author": null,
-          "description": "My blog began as a blosxom (Perl) site running on a VPS. In 2011 I\nmoved to the new GitHub Pages, with the site generated statically\nby Jekyll (Ruby) on a GitHub server. It was a no-brainer: easier,\nfaster, and cheaper, better in every way. After 15 years of Jekyll, and\nspurred by a post on m4, this week I replaced it with a new,\ncustom-built static site generator, dubbed ssg, in “C with\ntemplates” C++20. The ~8KLoC source closely follows my personal coding\nstyle including templated arenas and slices, zero\ndependencies, and a libc-free core. It’s wicked fast, and a complete, cold\ngeneration of my blog takes 150ms on my MacBook. That is, it’s done\nbefore Ruby would even reach Jekyll’s entry point. It’s a been a great,\nreal-world demonstration of the effectiveness of my coding philosophy.\nLo…",
-          "link": "https://nullprogram.com/blog/2026/10/04/",
-          "publishedOn": "2026-10-04T16:35:49.000Z",
-          "wordCount": 1552,
-          "title": "A new, bespoke static site generator to replace Jekyll",
           "imageUrl": null
         }
       ]
@@ -197,26 +197,6 @@
           "wordCount": 656,
           "title": "Avoid Public Functions Calling Other Public Functions",
           "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/10/07/git-ref.html",
-          "author": null,
-          "description": "I have recently improved my mental model of Git. Consider these two git commands:",
-          "link": "https://matklad.github.io/2026/10/07/git-ref.html",
-          "publishedOn": "2026-10-07T00:00:00.000Z",
-          "wordCount": 1159,
-          "title": "On Git Refs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
-          "author": null,
-          "description": "How long should a micro benchmark run? My rule of thumb is to tweak the input size until the benchmark takes about 300ms, for the following reasons:",
-          "link": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
-          "publishedOn": "2026-10-05T00:00:00.000Z",
-          "wordCount": 323,
-          "title": "Benchmark In Milliseconds",
-          "imageUrl": null
         }
       ]
     },
@@ -232,14 +212,84 @@
       "siteUrl": "https://huggingface.co/blog",
       "articles": [
         {
-          "id": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "id": "https://huggingface.co/blog/allenai/toyblocks",
+          "author": null,
+          "description": "A Blog post by Ai2 on Hugging Face",
+          "link": "https://huggingface.co/blog/allenai/toyblocks",
+          "publishedOn": "2026-11-06T14:00:48.000Z",
+          "wordCount": 4373,
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg"
+        },
+        {
+          "id": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "publishedOn": "2026-11-06T00:00:00.000Z",
+          "wordCount": 806,
+          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "imageUrl": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
           "author": null,
           "description": "A Blog post by NVIDIA on Hugging Face",
-          "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-          "publishedOn": "2026-10-30T17:57:24.000Z",
-          "wordCount": 2889,
-          "title": "nemotron-halloween",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png"
+          "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+          "publishedOn": "2026-11-05T19:35:16.000Z",
+          "wordCount": 2073,
+          "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/phonon-tts",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/phonon-tts",
+          "publishedOn": "2026-11-05T00:00:00.000Z",
+          "wordCount": 2008,
+          "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "imageUrl": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "author": null,
+          "description": "A Blog post by Dharma-AI on Hugging Face",
+          "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "publishedOn": "2026-11-04T17:50:10.000Z",
+          "wordCount": 2485,
+          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "author": null,
+          "description": "A Blog post by IBM Research on Hugging Face",
+          "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "publishedOn": "2026-11-03T16:35:36.000Z",
+          "wordCount": 2430,
+          "title": "Palette: teaching a small model to build decks in your design language",
+          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png"
+        },
+        {
+          "id": "https://huggingface.co/blog/cwe-bench",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/cwe-bench",
+          "publishedOn": "2026-11-03T00:00:00.000Z",
+          "wordCount": 1200,
+          "title": "CWE-bench v2: More coverage, quality, and transparency",
+          "imageUrl": "https://huggingface.co/blog/assets/cwe-bench/thumbnail.jpg"
+        },
+        {
+          "id": "https://huggingface.co/blog/transformers-mic",
+          "author": null,
+          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "link": "https://huggingface.co/blog/transformers-mic",
+          "publishedOn": "2026-11-03T00:00:00.000Z",
+          "wordCount": 2086,
+          "title": "Transformers Model Integration Contracts",
+          "imageUrl": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png"
         },
         {
           "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
@@ -247,7 +297,7 @@
           "description": "A Blog post by IBM Granite on Hugging Face",
           "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
           "publishedOn": "2026-10-29T13:37:07.000Z",
-          "wordCount": 1063,
+          "wordCount": 897,
           "title": "Granite Switch 4.1.1 — Update models like you update software",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png"
         },
@@ -257,7 +307,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/announcing-project-protostar",
           "publishedOn": "2026-10-29T00:00:00.000Z",
-          "wordCount": 2049,
+          "wordCount": 2206,
           "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
           "imageUrl": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg"
         },
@@ -267,7 +317,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/mistral-large4",
           "publishedOn": "2026-10-29T00:00:00.000Z",
-          "wordCount": 3029,
+          "wordCount": 3035,
           "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
           "imageUrl": "https://huggingface.co/blog/assets/ml4/thumbnail.png"
         },
@@ -277,7 +327,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/anydecisionmodel",
           "publishedOn": "2026-10-29T00:00:00.000Z",
-          "wordCount": 3150,
+          "wordCount": 3156,
           "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
           "imageUrl": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png"
         },
@@ -287,19 +337,9 @@
           "description": "A Blog post by Liquid AI on Hugging Face",
           "link": "https://huggingface.co/blog/LiquidAI/lfm3",
           "publishedOn": "2026-10-27T17:16:52.000Z",
-          "wordCount": 4154,
+          "wordCount": 4183,
           "title": "Build specialized multimodal models with LFM3",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/allenai/novelty-bench",
-          "author": null,
-          "description": "A Blog post by Ai2 on Hugging Face",
-          "link": "https://huggingface.co/blog/allenai/novelty-bench",
-          "publishedOn": "2026-10-27T16:12:42.000Z",
-          "wordCount": 2379,
-          "title": "Can we trust LLMs to judge whether a research idea is novel?",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/ZrKpGOLkSf0LmAf3bnJIX.png"
         },
         {
           "id": "https://huggingface.co/blog/torch-neuronx-model-support",
@@ -307,7 +347,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/torch-neuronx-model-support",
           "publishedOn": "2026-10-23T00:00:00.000Z",
-          "wordCount": 1073,
+          "wordCount": 1083,
           "title": "Does Your Model Run on AWS Trainium? Look It Up",
           "imageUrl": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg"
         },
@@ -317,19 +357,9 @@
           "description": "A Blog post by Microsoft on Hugging Face",
           "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
           "publishedOn": "2026-10-22T22:24:34.000Z",
-          "wordCount": 4378,
+          "wordCount": 4381,
           "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-          "author": null,
-          "description": "A Blog post by IBM Research on Hugging Face",
-          "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-          "publishedOn": "2026-10-22T07:51:31.000Z",
-          "wordCount": 2442,
-          "title": "Ensemble forecasting with IBM Granite time-series models",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png"
         },
         {
           "id": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
@@ -337,7 +367,7 @@
           "description": "A Blog post by Dharma-AI on Hugging Face",
           "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
           "publishedOn": "2026-10-21T17:35:36.000Z",
-          "wordCount": 2800,
+          "wordCount": 2807,
           "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png"
         },
@@ -347,7 +377,7 @@
           "description": "A Blog post by Amazon on Hugging Face",
           "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
           "publishedOn": "2026-10-21T16:04:43.000Z",
-          "wordCount": 2171,
+          "wordCount": 2177,
           "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6ac67ea29579ea34f1f7e470/hEodPVvQZI24jETLbPooP.png"
         },
@@ -357,7 +387,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/hf-torchtpu",
           "publishedOn": "2026-10-20T00:00:00.000Z",
-          "wordCount": 1560,
+          "wordCount": 1566,
           "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
           "imageUrl": "https://huggingface.co/blog/assets/hf-torchtpu/thumbnail.png"
         },
@@ -367,7 +397,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
           "publishedOn": "2026-10-20T00:00:00.000Z",
-          "wordCount": 1276,
+          "wordCount": 1283,
           "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
           "imageUrl": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png"
         },
@@ -377,7 +407,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/mps-pytorch-2-15",
           "publishedOn": "2026-10-20T00:00:00.000Z",
-          "wordCount": 2567,
+          "wordCount": 2573,
           "title": "MPS in PyTorch 2.15",
           "imageUrl": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png"
         },
@@ -387,7 +417,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/hf-torchneuron",
           "publishedOn": "2026-10-19T00:00:00.000Z",
-          "wordCount": 1969,
+          "wordCount": 1975,
           "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
           "imageUrl": "https://huggingface.co/blog/assets/hf-torchneuron/thumbnail.png"
         },
@@ -397,7 +427,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/reflection-beam",
           "publishedOn": "2026-10-16T00:00:00.000Z",
-          "wordCount": 4885,
+          "wordCount": 4891,
           "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
           "imageUrl": "https://huggingface.co/blog/assets/reflection-beam/thumbnail.jpg"
         },
@@ -407,7 +437,7 @@
           "description": "A Blog post by Swiss AI Initiative on Hugging Face",
           "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
           "publishedOn": "2026-10-15T09:08:45.000Z",
-          "wordCount": 3208,
+          "wordCount": 3210,
           "title": "Apertus 1.5 Release Notes",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/61f1877a168a0b52fda88455/2mHXxCtfos6CgwFSNKFVi.jpeg"
         },
@@ -417,7 +447,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/meta-muse-spark-open",
           "publishedOn": "2026-10-15T00:00:00.000Z",
-          "wordCount": 4833,
+          "wordCount": 4839,
           "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
           "imageUrl": "https://huggingface.co/blog/assets/meta-muse-spark-open/thumbnail.png"
         },
@@ -427,7 +457,7 @@
           "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
           "link": "https://huggingface.co/blog/flux-3",
           "publishedOn": "2026-10-15T00:00:00.000Z",
-          "wordCount": 3816,
+          "wordCount": 3824,
           "title": "Welcome FLUX.3 Image Klein in Diffusers",
           "imageUrl": "https://huggingface.co/blog/assets/flux3/thumbnail.png"
         },
@@ -437,39 +467,9 @@
           "description": "A Blog post by Liquid AI on Hugging Face",
           "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
           "publishedOn": "2026-10-13T17:05:48.000Z",
-          "wordCount": 2040,
+          "wordCount": 2046,
           "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
           "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/YxGx9U6yV6_mumklCyMsE.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/building-with-ml-intern",
-          "author": null,
-          "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "link": "https://huggingface.co/blog/building-with-ml-intern",
-          "publishedOn": "2026-10-08T00:00:00.000Z",
-          "wordCount": 2946,
-          "title": "The model that didn't exist, so you made it yourself",
-          "imageUrl": "https://huggingface.co/blog/assets/building-with-ml-intern/thumbnail.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/tiiuae/falcon-asr",
-          "author": null,
-          "description": "A Blog post by Technology Innovation Institute on Hugging Face",
-          "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
-          "publishedOn": "2026-10-07T13:21:03.000Z",
-          "wordCount": 1878,
-          "title": "Introducing Falcon ASR",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/671a3e44cf97dc64441e170a/bJ2aGPIX6WLWagE10j5y3.png"
-        },
-        {
-          "id": "https://huggingface.co/blog/microsoft/thinkingbox",
-          "author": null,
-          "description": "A Blog post by Microsoft on Hugging Face",
-          "link": "https://huggingface.co/blog/microsoft/thinkingbox",
-          "publishedOn": "2026-10-03T22:56:48.000Z",
-          "wordCount": 3734,
-          "title": "The Agent Said It Was Done. The Database Disagreed.",
-          "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png"
         }
       ]
     },
@@ -512,6 +512,26 @@
       "siteUrl": "https://abhinavsarkar.net",
       "articles": [
         {
+          "id": "https://abhinavsarkar.net/notes/2026-default-apps/?mtm_campaign=feed",
+          "author": null,
+          "description": "<p>Last year I posted the list of <a href=\"https://abhinavsarkar.net/notes/2025-default-apps/\">my default apps</a>. It’s time to update it for 2026! New apps are bolded and app I don’t use anymore are struck out.</p>",
+          "link": "https://abhinavsarkar.net/notes/2026-default-apps/?mtm_campaign=feed",
+          "publishedOn": "2026-11-08T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Apps I Use (2026)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://abhinavsarkar.net/notes/2026-book-giveaway/?mtm_campaign=feed",
+          "author": null,
+          "description": "I’m giving away these (physical) books in readable conditions in Bengaluru, India. Please contact me if you want any of them, and can meet me or get them picked up. Struck out ones are already given away.\nFiction#\nLess — Andrew Sean Greer\nHalf of a Yellow Sun — Chimamanda Ngozi Adichie\nDance Dance Dance — Haruki Murakami\nThere’s Gunpowder in the Air — Manoranjan Byapari\nFragile Things — Neil Gaiman\nTrigger Warning — Neil Gaiman\nThe Guide — R. K. Narayan\nBlack Man — Richard Morgan\nMarket Forces — Richard Morgan\nThe Invisible Life of Addie LaRue — V. E. Schwab\nनमक का दरोगा — मुंशी प्रेमचंद\nसर्वश्रेष्ठ कहानिया — मुंशी प्रेमचंद\nRiver of Smoke — Amitav Ghosh\nSea of Poppies — Amitav Ghosh\nThe Calcutta Chromosome — Amitav Ghosh\nContact — Carl Sagan\nBlack Hills — Dan Simmons\nOlympos — Dan Simmons\nEleanor & Park — Rainbow Rowell\nNonfiction#\nTwitterature — Alexander Aciman and Emmett Rensin\nThe Goal — Eliyahu M. Goldratt\nBob Marley: Easy Skanking — Garry Steckles\nMarketing Management — Philip Kotler and Kevin Lane Keller\nMarketing Management: Indian Cases — Philip Kotler, Kevin Lane Keller, and Mithileshwar Jha\nThe Dilbert Principle — Scott Adams\nThe Second Sex — Simone de Beauvoir\nServices Marketing — Valarie A. Zeithaml, Mary Jo Bitner, Dwayne D. Gremler, and Ajay Pandit\nThe Fabric of the Cosmos — Brian Greene\nGlimpses of World History — Jawaharlal Nehru\nThe Tipping Point — Malcolm Gladwell\nIndia After Gandhi — Ramachandra Guha\nSurely You’re Joking, Mr. Feynman! — Richard P. Feynman\nThe Pleasure of Finding Things Out — Richard P. Feynman\nMachine Learning — Tom M. Mitchell\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
+          "link": "https://abhinavsarkar.net/notes/2026-book-giveaway/?mtm_campaign=feed",
+          "publishedOn": "2026-11-01T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Bengaluru Book Giveaway",
+          "imageUrl": null
+        },
+        {
           "id": "https://abhin4v.github.io/shake-blog/posts/2026-10-25-extending-blogshake-tag-feeds/",
           "author": null,
           "description": "This is an external post of mine, originally published at Extending BlogShake with Per-Tag Atom Feeds.",
@@ -540,26 +560,6 @@
           "wordCount": null,
           "title": "Signs of the Times",
           "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-day-in-life/?mtm_campaign=feed",
-          "author": null,
-          "description": "Author’s note: I wrote this note through the day, as it happened.\nI wake up earlier than usual, at 6:15 AM. My body feels rested enough so I get out of the bed. Not sure if I am going to regret not sleeping enough later in the day. My smartwatch tells me to rest today and that’s my plan. But today is a work from office day. I hope it is not too hectic.\nI get ready, eat some carb, and jump in the cab to suffer through the commute. Eggs and coffee later at work. In the cab, I read a bunch of blog posts by the Indieweb Club Bengaluru (IWCB) folks. Browsing through Tanvi’s notes makes me want to write this note. I start typing it in Google Keep. The cab ride is unremarkable. I get sleepy towards the end, but I can’t take a nap because there isn’t enough time.\nToday’s weather reminds me of good…",
-          "link": "https://abhinavsarkar.net/notes/2026-day-in-life/?mtm_campaign=feed",
-          "publishedOn": "2026-10-06T00:00:00.000Z",
-          "wordCount": null,
-          "title": "A Day in My Life",
-          "imageUrl": null
-        },
-        {
-          "id": "https://abhinavsarkar.net/notes/2026-impossible-bucket-list/?mtm_campaign=feed",
-          "author": null,
-          "description": "I wrote this post for a prompt given during our local Indieweb club meeting. See more such posts.\nMy impossible bucket list, things I would want to do/be if the realities of the world and my life did not constrain me. Here it goes:\nWatch the Sun die.\nWrite a bestseller book about physics.\nMake them do a good remake of that one anime from the 90s I liked a lot.\nFinish reading all the books in my to-read list.\nGet rid of ALL the mosquitoes.\nSwim across a river.\nComplete this list.\nCycle across a Himalayan pass.\nLearn how to fly an airplane.\nRead and understand The Art of Computer Programming.\nRead a QR code with my eyes.\nGo back to the house I grew up in.\nLike C++.\nWrite a journal entry every day.\nSolve a Millennium Prize Problem.\nBuild a computer from scratch.\nGet over the Auditory Masking effect.\nLearn how to make a geographical map from scratch.\nTake a transcontinental train.\nFix my television.\nSpend a day in the International Space Station.\nBeat a top player in poker.\nWatch Daft Punk live.\nRun an ultra marathon.\nGet a sleeping score of 100 on my smartwatch.\nSolve integration problems in my head.\nFind my first best friend.\nLearn how to play a Double bass.\nDrink coffee again. 😔\nBecome an archaeologist.\n\nSince it was I who suggested this prompt at IWCB, I’ve collected all posts that were written on it:\nascelpius\nDivjot\nRuben Schade\nSid Verma\nvindo\nYash Garg\n\nThanks for reading this post via feed. Feeds are great, and you're great for using them. ♥\nThis post was originally published on abhinavsarkar.net.\nLike, repost, or comment on:\n\n\n\n\nMy website\n\nRead more of my posts and notes.",
-          "link": "https://abhinavsarkar.net/notes/2026-impossible-bucket-list/?mtm_campaign=feed",
-          "publishedOn": "2026-10-03T00:00:00.000Z",
-          "wordCount": null,
-          "title": "My Impossible Bucket List",
-          "imageUrl": null
         }
       ]
     },
@@ -569,12 +569,42 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "http://lemire.me/blog/?p=23118",
+          "author": "Daniel Lemire",
+          "description": "A store does not go straight into the cache. Waiting for that write would stall the processor. It sits in a store buffer, and a later load can take its bytes from that buffer. That is store forwarding. Forwarding works when the load is the same size as the store, or smaller and completely inside … Continue reading A performance trap: when store forwarding fails",
+          "link": "https://lemire.me/blog/2026/11/05/a-performance-trap-when-store-forwarding-fails/",
+          "publishedOn": "2026-11-05T13:06:20.000Z",
+          "wordCount": 3756,
+          "title": "A performance trap: when store forwarding fails",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/11/storeforwarding-feature-1024x687.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=23113",
+          "author": "Daniel Lemire",
+          "description": "Many people still picture innovation as a line. The professor thinks and publishes. The engineer reads the paper and designs a product. The customer consumes it. It rarely works that way. The industrial revolution was not set off by professors writing papers. It was driven by demand for cheap and better clothing for the masses. … Continue reading Open source as a research method",
+          "link": "https://lemire.me/blog/2026/11/04/open-source-as-a-research-method/",
+          "publishedOn": "2026-11-04T12:48:24.000Z",
+          "wordCount": 4109,
+          "title": "Open source as a research method",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/11/seriq-cover-1024x687.jpg"
+        },
+        {
+          "id": "http://lemire.me/blog/?p=23107",
+          "author": "Daniel Lemire",
+          "description": "You can write an empty default constructor as span() = default or as span() {}. It can have remarkable effects on performance. struct span { const char *p; int len; const char *end; span() = default; // or span() {} span(const char *s, int n) : p(s), len(n), end(s + n) {} }; The constructor … Continue reading In C++, = default and {} are not the same constructor",
+          "link": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+          "publishedOn": "2026-11-02T12:48:59.000Z",
+          "wordCount": 3821,
+          "title": "In C++, = default and {} are not the same constructor",
+          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/11/cppinit-cover-1024x687.jpg"
+        },
+        {
           "id": "http://lemire.me/blog/?p=23088",
           "author": "Daniel Lemire",
           "description": "Dividing integers is slow on our processors. A 32-bit division costs: processor latency throughput Emerald Rapids about 12 cycles one every 6 cycles Zen 4 9 to 12 cycles one every 6 cycles Zen 5 10 to 13 cycles one every 6 cycles Arrow Lake performance core 12 cycles one every 6 cycles Apple M4 … Continue reading Beating the compiler at signed 32-bit division",
           "link": "https://lemire.me/blog/2026/10/31/beating-the-compiler-at-signed-32-bit-division/",
           "publishedOn": "2026-10-31T13:05:35.000Z",
-          "wordCount": 4903,
+          "wordCount": 5313,
           "title": "Beating the compiler at signed 32-bit division",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/feature-1024x687.jpg"
         },
@@ -584,7 +614,7 @@
           "description": "A lot of software spends its time mapping strings to values. A web server must identify the HTTP method (GET, POST, …). It must recognize header names. A URL parser must recognize the protocol (http, https, ftp, …). A compiler must recognize keywords. In C++, the default approach is to put the strings in a … Continue reading Billion-query-per-second lookup tables in C++",
           "link": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
           "publishedOn": "2026-10-26T18:23:08.000Z",
-          "wordCount": 5645,
+          "wordCount": 5902,
           "title": "Billion-query-per-second lookup tables in C++",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/perfect-hash-cover-1024x687.jpg"
         },
@@ -594,7 +624,7 @@
           "description": "We sometimes need to convert binary data to text. For example, your emails must be stored as text files. Naïvely, you could just use a string of 0 and 1, but it would mean using one character per bit. We can do better by using 64 ASCII characters: all letters, all numbers, plus a few … Continue reading Decoding base64 in Python at 10 gigabytes per second",
           "link": "https://lemire.me/blog/2026/10/17/decoding-base64-in-python-at-10-gigabytes-per-second/",
           "publishedOn": "2026-10-17T04:40:34.000Z",
-          "wordCount": 3760,
+          "wordCount": 3886,
           "title": "Decoding base64 in Python at 10 gigabytes per second",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/pybase64-cover-1024x572.jpg"
         },
@@ -604,7 +634,7 @@
           "description": "Redis is an in-memory database. Salvatore Sanfilippo started it in 2009, and it is now one of the most widely deployed pieces of server software. It is often used as a cache in front of a slower database. You talk to it over the network with short text commands such as SET user:42 \"Alice\" and … Continue reading Redis now has compressed bitmaps (Roaring)",
           "link": "https://lemire.me/blog/2026/10/15/redis-now-has-compressed-bitmaps-roaring/",
           "publishedOn": "2026-10-15T22:46:54.000Z",
-          "wordCount": 3804,
+          "wordCount": 3930,
           "title": "Redis now has compressed bitmaps (Roaring)",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/redis-roaring-cover-1024x572.jpg"
         },
@@ -614,7 +644,7 @@
           "description": "Python used to have limited parallelism, due to its global interpreter lock (GIL). Only one thread could run Python code at a time. Python 3.14 comes in a free-threaded version (python3.14t), without the global interpreter lock. Several threads can now run Python code at the same time. Let us pick a realistic problem. GitHub publishes … Continue reading Parsing JSON at tens of gigabytes per second… in Python",
           "link": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/",
           "publishedOn": "2026-10-12T13:06:39.000Z",
-          "wordCount": 4095,
+          "wordCount": 4221,
           "title": "Parsing JSON at tens of gigabytes per second… in Python",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/pyjson-cover-1024x572.jpg"
         },
@@ -624,69 +654,9 @@
           "description": "WebSocket is a standard protocol to hook up a client and a server in a persistent manner. It is commonly used for live chat, notifications, multiplayer games, collaborative editing, and streaming dashboards. Many servers are written in JavaScript and use Node.js, Bun or Deno as an engine. A few years ago, I wrote a simple … Continue reading WebSocket servers in JavaScript: Node.js, Bun and Deno in 2026",
           "link": "https://lemire.me/blog/2026/10/10/websocket-servers-in-javascript-node-js-bun-and-deno-in-2026/",
           "publishedOn": "2026-10-10T08:56:11.000Z",
-          "wordCount": 3706,
+          "wordCount": 3832,
           "title": "WebSocket servers in JavaScript: Node.js, Bun and Deno in 2026",
           "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/websocket-bin-cover-1024x689.jpg"
-        },
-        {
-          "id": "http://lemire.me/blog/?p=23032",
-          "author": "Daniel Lemire",
-          "description": "When a Python program starts, it needs to load all its dependencies (import). With the upcoming version of Python, it is possible to use lazy imports instead. lazy import json lazy from decimal import Decimal In this instance, the name json is no longer the module, but a mere placeholder object. The actual import only … Continue reading Faster Python startup with lazy imports",
-          "link": "https://lemire.me/blog/2026/10/09/faster-python-startup-with-lazy-imports/",
-          "publishedOn": "2026-10-09T03:15:06.000Z",
-          "wordCount": 3580,
-          "title": "Faster Python startup with lazy imports",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/lazy-import-cover-1024x541.jpg"
-        },
-        {
-          "id": "http://lemire.me/blog/?p=23008",
-          "author": "Daniel Lemire",
-          "description": "I write a lot about data parallelism. About how our processors have special instructions that can do several operations at once. They are often critical to get the best performance out of a CPU. Compilers are sometimes able to take advantage of these instructions. But it is hard to tell when it will work. For … Continue reading Mastering SIMD with Java Vector API",
-          "link": "https://lemire.me/blog/2026/10/07/mastering-simd-with-java-vector-api/",
-          "publishedOn": "2026-10-07T02:07:05.000Z",
-          "wordCount": 3680,
-          "title": "Mastering SIMD with Java Vector API",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/mastering-simd-java-vector-api-710x1024.webp"
-        },
-        {
-          "id": "http://lemire.me/blog/?p=23017",
-          "author": "Daniel Lemire",
-          "description": "When you build a program, the compiler turns each source file into an object file. Then a linker stitches all the object files and libraries into one executable. On Linux, the default linker is usually GNU ld (also called bfd). The GNU binutils also ship gold, an alternative linker that was designed to be faster. … Continue reading Faster software linking with mold",
-          "link": "https://lemire.me/blog/2026/10/06/linking-node-js-with-mold/",
-          "publishedOn": "2026-10-06T08:00:20.000Z",
-          "wordCount": 3780,
-          "title": "Faster software linking with mold",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/Gemini_Generated_Image_8cr2v98cr2v98cr2-1024x559.jpg"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=23013",
-          "author": "Daniel Lemire",
-          "description": "We have many ways to ensure software quality. Unit testing. Fuzz testing. Integration testing. And so forth.   I’d like to propose a method that was unthinkable before: ephemeral testing. (Ephemeral is a fancy word for ‘throw away’ or ‘temporary’.)   You write your code. You build your software component. Or the AI agent does … Continue reading Ephemeral testing",
-          "link": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
-          "publishedOn": "2026-10-05T08:00:51.000Z",
-          "wordCount": 3592,
-          "title": "Ephemeral testing",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/Gemini_Generated_Image_8mi98l8mi98l8mi9.jpg"
-        },
-        {
-          "id": "http://lemire.me/blog/?p=23004",
-          "author": "Daniel Lemire",
-          "description": "Much of my research is on arXiv. I was one of the early adopters. It is simply a repository of research papers with PDF and metadata. It makes it convenient to find research without any paywall. Physicists started it in 1991. Math and computer science followed gradually. It relies on volunteers to moderate it, because … Continue reading Research paper overload: submissions capped at two a month",
-          "link": "https://lemire.me/blog/2026/10/04/arxiv-capped-submissions-at-two-a-month/",
-          "publishedOn": "2026-10-04T17:07:27.000Z",
-          "wordCount": 3464,
-          "title": "Research paper overload: submissions capped at two a month",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/arxiv-limit-1024x559.jpg"
-        },
-        {
-          "id": "http://lemire.me/blog/?p=23002",
-          "author": "Daniel Lemire",
-          "description": "Google’s first orbital data center is in orbit (October 1st). They say it is about the size of a fridge. It has one kilowatt of solar power. It is about the power of a household. It was launched on a Falcon 9 rocket (SpaceX). It should run for about a year. Google plans to launch … Continue reading Google’s first orbital data center is in orbit",
-          "link": "https://lemire.me/blog/2026/10/04/googles-first-orbital-data-center-is-in-orbit/",
-          "publishedOn": "2026-10-04T16:49:29.000Z",
-          "wordCount": 4422,
-          "title": "Google’s first orbital data center is in orbit",
-          "imageUrl": "https://lemire.me/blog/wp-content/uploads/2026/10/orbital-cover-1024x538.jpg"
         }
       ]
     },
@@ -701,6 +671,23 @@
       "feedUrl": "https://apenwarr.ca/log/rss.php",
       "siteUrl": "https://apenwarr.ca/log/",
       "articles": []
+    },
+    {
+      "title": "home on CuriousCoding",
+      "feedUrl": "https://curiouscoding.nl/index.xml",
+      "siteUrl": "https://curiouscoding.nl/",
+      "articles": [
+        {
+          "id": "https://curiouscoding.nl/posts/phastr-and-ptrhash/",
+          "author": null,
+          "description": "Table of Contents\nBucket placement\nBumping\n\nQuery speed\nSpace usage\nConstruction speed\nOverview\nConclusion\nIdeas for improving PtrHash\n\nLevels\nSebastiano Vigna just preprinted PHastR (Vigna 2026), a new, faster version of\nPHast and PHast+ (Beling and Sanders 2025, n.d.).\nIn the evaluations, it is a direct improvement over PHast+:\nslightly smaller,\n2\\(\\times\\) to \\(3\\times\\) faster to build,\nfaster queries.\nThis is a quick note comparing the PHast line of work to PtrHash (Groot Koerkamp 2025).",
+          "link": "https://curiouscoding.nl/posts/phastr-and-ptrhash/",
+          "publishedOn": "2026-10-13T22:00:00.000Z",
+          "wordCount": 1806,
+          "title": "Comparing PHastR and PtrHash",
+          "imageUrl": "https://curiouscoding.nl/banners/palatinate-forest.jpg"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

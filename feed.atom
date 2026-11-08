@@ -1,10 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-11-01T04:16:04.896Z</id>
+    <id>urn:2026-11-08T04:19:24.721Z</id>
     <title>osmos::feed</title>
-    <updated>2026-11-01T04:16:04.896Z</updated>
+    <updated>2026-11-08T04:19:24.721Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Apps I Use (2026)]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-default-apps/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-default-apps/?mtm_campaign=feed"/>
+        <updated>2026-11-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Last year I posted the list of <a href="https://abhinavsarkar.net/notes/2025-default-apps/">my default apps</a>. It’s time to update it for 2026! New apps are bolded and app I don’t use anymore are struck out.</p>]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ToyBlocks: A controlled world for robot learning and evaluation]]></title>
+        <id>https://huggingface.co/blog/allenai/toyblocks</id>
+        <link href="https://huggingface.co/blog/allenai/toyblocks"/>
+        <updated>2026-11-06T14:00:48.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Egyptian and Nigerian English join the Open ASR Leaderboard]]></title>
+        <id>https://huggingface.co/blog/open-asr-leaderboard-liva</id>
+        <link href="https://huggingface.co/blog/open-asr-leaderboard-liva"/>
+        <updated>2026-11-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New NVIDIA Cosmos 3 Open Models for Interactive World Simulation]]></title>
+        <id>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</id>
+        <link href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"/>
+        <updated>2026-11-05T19:35:16.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A performance trap: when store forwarding fails]]></title>
+        <id>http://lemire.me/blog/?p=23118</id>
+        <link href="https://lemire.me/blog/2026/11/05/a-performance-trap-when-store-forwarding-fails/"/>
+        <updated>2026-11-05T13:06:20.000Z</updated>
+        <summary type="html"><![CDATA[A store does not go straight into the cache. Waiting for that write would stall the processor. It sits in a store buffer, and a later load can take its bytes from that buffer. That is store forwarding. Forwarding works when the load is the same size as the store, or smaller and completely inside … Continue reading A performance trap: when store forwarding fails]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We can do better than line-buffered output]]></title>
+        <id>https://nullprogram.com/blog/2026/11/05/</id>
+        <link href="https://nullprogram.com/blog/2026/11/05/"/>
+        <updated>2026-11-05T00:25:25.000Z</updated>
+        <summary type="html"><![CDATA[Buffered output typically comes in two flavors: fully buffered
+and line buffered. If output goes to a terminal then the implementation
+automatically selects line buffering, flushing its buffer when a line is
+completed so that it reaches the user immediately. Otherwise it fully
+buffers, holding output until the buffer is full or an explicit flush
+event at some arbitrary point in the future. Line buffering is a common
+bottleneck in non-interactive terminal applications such that it’s worth
+redirecting output to a file or pipe in order to avoid it. It doesn’t
+have to be this way. We can have our cake and eat it, too: promptly
+delivering lines to a terminal at fully-buffered speeds.
+For example, Info-ZIP unzip prints file names as it extract them from an
+archive. This printout dominates extrac…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.]]></title>
+        <id>https://huggingface.co/blog/phonon-tts</id>
+        <link href="https://huggingface.co/blog/phonon-tts"/>
+        <updated>2026-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dharma Field Extractor: Any Document In, Structured Fields in JSON Out]]></title>
+        <id>https://huggingface.co/blog/Dharma-AI/dharma-field-extractor</id>
+        <link href="https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"/>
+        <updated>2026-11-04T17:50:10.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by Dharma-AI on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open source as a research method]]></title>
+        <id>http://lemire.me/blog/?p=23113</id>
+        <link href="https://lemire.me/blog/2026/11/04/open-source-as-a-research-method/"/>
+        <updated>2026-11-04T12:48:24.000Z</updated>
+        <summary type="html"><![CDATA[Many people still picture innovation as a line. The professor thinks and publishes. The engineer reads the paper and designs a product. The customer consumes it. It rarely works that way. The industrial revolution was not set off by professors writing papers. It was driven by demand for cheap and better clothing for the masses. … Continue reading Open source as a research method]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Palette: teaching a small model to build decks in your design language]]></title>
+        <id>https://huggingface.co/blog/ibm-research/palette-deck-building</id>
+        <link href="https://huggingface.co/blog/ibm-research/palette-deck-building"/>
+        <updated>2026-11-03T16:35:36.000Z</updated>
+        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CWE-bench v2: More coverage, quality, and transparency]]></title>
+        <id>https://huggingface.co/blog/cwe-bench</id>
+        <link href="https://huggingface.co/blog/cwe-bench"/>
+        <updated>2026-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transformers Model Integration Contracts]]></title>
+        <id>https://huggingface.co/blog/transformers-mic</id>
+        <link href="https://huggingface.co/blog/transformers-mic"/>
+        <updated>2026-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
+        <author>
+            <name>Hugging Face - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In C++, = default and {} are not the same constructor]]></title>
+        <id>http://lemire.me/blog/?p=23107</id>
+        <link href="https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/"/>
+        <updated>2026-11-02T12:48:59.000Z</updated>
+        <summary type="html"><![CDATA[You can write an empty default constructor as span() = default or as span() {}. It can have remarkable effects on performance. struct span { const char *p; int len; const char *end; span() = default; // or span() {} span(const char *s, int n) : p(s), len(n), end(s + n) {} }; The constructor … Continue reading In C++, = default and {} are not the same constructor]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bengaluru Book Giveaway]]></title>
+        <id>https://abhinavsarkar.net/notes/2026-book-giveaway/?mtm_campaign=feed</id>
+        <link href="https://abhinavsarkar.net/notes/2026-book-giveaway/?mtm_campaign=feed"/>
+        <updated>2026-11-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m giving away these (physical) books in readable conditions in Bengaluru, India. Please contact me if you want any of them, and can meet me or get them picked up. Struck out ones are already given away.
+Fiction#
+Less — Andrew Sean Greer
+Half of a Yellow Sun — Chimamanda Ngozi Adichie
+Dance Dance Dance — Haruki Murakami
+There’s Gunpowder in the Air — Manoranjan Byapari
+Fragile Things — Neil Gaiman
+Trigger Warning — Neil Gaiman
+The Guide — R. K. Narayan
+Black Man — Richard Morgan
+Market Forces — Richard Morgan
+The Invisible Life of Addie LaRue — V. E. Schwab
+नमक का दरोगा — मुंशी प्रेमचंद
+सर्वश्रेष्ठ कहानिया — मुंशी प्रेमचंद
+River of Smoke — Amitav Ghosh
+Sea of Poppies — Amitav Ghosh
+The Calcutta Chromosome — Amitav Ghosh
+Contact — Carl Sagan
+Black Hills — Dan Simmons
+Olympos — Dan Simmons
+Eleanor & Park — Rainbow Rowell
+Nonfiction#
+Twitterature — Alexander Aciman and Emmett Rensin
+The Goal — Eliyahu M. Goldratt
+Bob Marley: Easy Skanking — Garry Steckles
+Marketing Management — Philip Kotler and Kevin Lane Keller
+Marketing Management: Indian Cases — Philip Kotler, Kevin Lane Keller, and Mithileshwar Jha
+The Dilbert Principle — Scott Adams
+The Second Sex — Simone de Beauvoir
+Services Marketing — Valarie A. Zeithaml, Mary Jo Bitner, Dwayne D. Gremler, and Ajay Pandit
+The Fabric of the Cosmos — Brian Greene
+Glimpses of World History — Jawaharlal Nehru
+The Tipping Point — Malcolm Gladwell
+India After Gandhi — Ramachandra Guha
+Surely You’re Joking, Mr. Feynman! — Richard P. Feynman
+The Pleasure of Finding Things Out — Richard P. Feynman
+Machine Learning — Tom M. Mitchell
+
+Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
+This post was originally published on abhinavsarkar.net.
+Like, repost, or comment on:
+
+
+
+
+My website
+
+Read more of my posts and notes.]]></summary>
+        <author>
+            <name>Notes on abhinavsarkar.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beating the compiler at signed 32-bit division]]></title>
         <id>http://lemire.me/blog/?p=23088</id>
@@ -45,16 +243,6 @@ Dark mode aficionados are cover…]]></summary>
         <summary type="html"><![CDATA[<p>LC-3 assembly is an educational programming language. It is simple enough that complex programs can be written directly in it without needing a compiler, and thus it is often used in teaching assembly. An <a href="https://en.wikipedia.org/wiki/Little_Computer_3" target="_blank" rel="noopener">LC-3</a> textual assembly program is compiled to a binary object file by an assembler, and then executed by a <a href="https://en.wikipedia.org/wiki/Virtual_machine#Process_virtual_machines" target="_blank" rel="noopener">virtual machine</a>. Writing a virtual machine for LC-3 is a fun little exercise. However, in this post, we implement a disassembler for compiled LC-3 binaries back to textual assembly programs.</p>]]></summary>
         <author>
             <name>Programming Posts &amp; Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nemotron-halloween]]></title>
-        <id>https://huggingface.co/blog/nvidia/nemotron-halloween</id>
-        <link href="https://huggingface.co/blog/nvidia/nemotron-halloween"/>
-        <updated>2026-10-30T17:57:24.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by NVIDIA on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -160,16 +348,6 @@ NOTE: We recommend that you install and use the latest version of choosenim, v0.
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Can we trust LLMs to judge whether a research idea is novel?]]></title>
-        <id>https://huggingface.co/blog/allenai/novelty-bench</id>
-        <link href="https://huggingface.co/blog/allenai/novelty-bench"/>
-        <updated>2026-10-27T16:12:42.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Ai2 on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Billion-query-per-second lookup tables in C++]]></title>
         <id>http://lemire.me/blog/?p=23082</id>
         <link href="https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/"/>
@@ -253,16 +431,6 @@ NOTE: We recommend that you install and use the latest version of choosenim, v0.
         <updated>2026-10-22T22:19:12.000Z</updated>
         <author>
             <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ensemble forecasting with IBM Granite time-series models]]></title>
-        <id>https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1</id>
-        <link href="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"/>
-        <updated>2026-10-22T07:51:31.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by IBM Research on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
         </author>
     </entry>
     <entry>
@@ -491,6 +659,34 @@ personal styl…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Comparing PHastR and PtrHash]]></title>
+        <id>https://curiouscoding.nl/posts/phastr-and-ptrhash/</id>
+        <link href="https://curiouscoding.nl/posts/phastr-and-ptrhash/"/>
+        <updated>2026-10-13T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Table of Contents
+Bucket placement
+Bumping
+
+Query speed
+Space usage
+Construction speed
+Overview
+Conclusion
+Ideas for improving PtrHash
+
+Levels
+Sebastiano Vigna just preprinted PHastR (Vigna 2026), a new, faster version of
+PHast and PHast+ (Beling and Sanders 2025, n.d.).
+In the evaluations, it is a direct improvement over PHast+:
+slightly smaller,
+2\(\times\) to \(3\times\) faster to build,
+faster queries.
+This is a quick note comparing the PHast line of work to PtrHash (Groot Koerkamp 2025).]]></summary>
+        <author>
+            <name>home on CuriousCoding</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Run fast, private agents on-device with LFM2.5-24B-A2B]]></title>
         <id>https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b</id>
         <link href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"/>
@@ -518,211 +714,6 @@ personal styl…]]></summary>
         <summary type="html"><![CDATA[WebSocket is a standard protocol to hook up a client and a server in a persistent manner. It is commonly used for live chat, notifications, multiplayer games, collaborative editing, and streaming dashboards. Many servers are written in JavaScript and use Node.js, Bun or Deno as an engine. A few years ago, I wrote a simple … Continue reading WebSocket servers in JavaScript: Node.js, Bun and Deno in 2026]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Faster Python startup with lazy imports]]></title>
-        <id>http://lemire.me/blog/?p=23032</id>
-        <link href="https://lemire.me/blog/2026/10/09/faster-python-startup-with-lazy-imports/"/>
-        <updated>2026-10-09T03:15:06.000Z</updated>
-        <summary type="html"><![CDATA[When a Python program starts, it needs to load all its dependencies (import). With the upcoming version of Python, it is possible to use lazy imports instead. lazy import json lazy from decimal import Decimal In this instance, the name json is no longer the module, but a mere placeholder object. The actual import only … Continue reading Faster Python startup with lazy imports]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The model that didn't exist, so you made it yourself]]></title>
-        <id>https://huggingface.co/blog/building-with-ml-intern</id>
-        <link href="https://huggingface.co/blog/building-with-ml-intern"/>
-        <updated>2026-10-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re on a journey to advance and democratize artificial intelligence through open source and open science.]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Falcon ASR]]></title>
-        <id>https://huggingface.co/blog/tiiuae/falcon-asr</id>
-        <link href="https://huggingface.co/blog/tiiuae/falcon-asr"/>
-        <updated>2026-10-07T13:21:03.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Technology Innovation Institute on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mastering SIMD with Java Vector API]]></title>
-        <id>http://lemire.me/blog/?p=23008</id>
-        <link href="https://lemire.me/blog/2026/10/07/mastering-simd-with-java-vector-api/"/>
-        <updated>2026-10-07T02:07:05.000Z</updated>
-        <summary type="html"><![CDATA[I write a lot about data parallelism. About how our processors have special instructions that can do several operations at once. They are often critical to get the best performance out of a CPU. Compilers are sometimes able to take advantage of these instructions. But it is hard to tell when it will work. For … Continue reading Mastering SIMD with Java Vector API]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Git Refs]]></title>
-        <id>https://matklad.github.io/2026/10/07/git-ref.html</id>
-        <link href="https://matklad.github.io/2026/10/07/git-ref.html"/>
-        <updated>2026-10-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I have recently improved my mental model of Git. Consider these two git commands:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Faster software linking with mold]]></title>
-        <id>http://lemire.me/blog/?p=23017</id>
-        <link href="https://lemire.me/blog/2026/10/06/linking-node-js-with-mold/"/>
-        <updated>2026-10-06T08:00:20.000Z</updated>
-        <summary type="html"><![CDATA[When you build a program, the compiler turns each source file into an object file. Then a linker stitches all the object files and libraries into one executable. On Linux, the default linker is usually GNU ld (also called bfd). The GNU binutils also ship gold, an alternative linker that was designed to be faster. … Continue reading Faster software linking with mold]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Day in My Life]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-day-in-life/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-day-in-life/?mtm_campaign=feed"/>
-        <updated>2026-10-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Author’s note: I wrote this note through the day, as it happened.
-I wake up earlier than usual, at 6:15 AM. My body feels rested enough so I get out of the bed. Not sure if I am going to regret not sleeping enough later in the day. My smartwatch tells me to rest today and that’s my plan. But today is a work from office day. I hope it is not too hectic.
-I get ready, eat some carb, and jump in the cab to suffer through the commute. Eggs and coffee later at work. In the cab, I read a bunch of blog posts by the Indieweb Club Bengaluru (IWCB) folks. Browsing through Tanvi’s notes makes me want to write this note. I start typing it in Google Keep. The cab ride is unremarkable. I get sleepy towards the end, but I can’t take a nap because there isn’t enough time.
-Today’s weather reminds me of good…]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ephemeral testing]]></title>
-        <id>https://lemire.me/blog/?p=23013</id>
-        <link href="https://lemire.me/blog/2026/10/05/ephemeral-testing/"/>
-        <updated>2026-10-05T08:00:51.000Z</updated>
-        <summary type="html"><![CDATA[We have many ways to ensure software quality. Unit testing. Fuzz testing. Integration testing. And so forth.   I’d like to propose a method that was unthinkable before: ephemeral testing. (Ephemeral is a fancy word for ‘throw away’ or ‘temporary’.)   You write your code. You build your software component. Or the AI agent does … Continue reading Ephemeral testing]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benchmark In Milliseconds]]></title>
-        <id>https://matklad.github.io/2026/10/05/benchmark-milliseconds.html</id>
-        <link href="https://matklad.github.io/2026/10/05/benchmark-milliseconds.html"/>
-        <updated>2026-10-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How long should a micro benchmark run? My rule of thumb is to tweak the input size until the benchmark takes about 300ms, for the following reasons:]]></summary>
-        <author>
-            <name>matklad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research paper overload: submissions capped at two a month]]></title>
-        <id>http://lemire.me/blog/?p=23004</id>
-        <link href="https://lemire.me/blog/2026/10/04/arxiv-capped-submissions-at-two-a-month/"/>
-        <updated>2026-10-04T17:07:27.000Z</updated>
-        <summary type="html"><![CDATA[Much of my research is on arXiv. I was one of the early adopters. It is simply a repository of research papers with PDF and metadata. It makes it convenient to find research without any paywall. Physicists started it in 1991. Math and computer science followed gradually. It relies on volunteers to moderate it, because … Continue reading Research paper overload: submissions capped at two a month]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google’s first orbital data center is in orbit]]></title>
-        <id>http://lemire.me/blog/?p=23002</id>
-        <link href="https://lemire.me/blog/2026/10/04/googles-first-orbital-data-center-is-in-orbit/"/>
-        <updated>2026-10-04T16:49:29.000Z</updated>
-        <summary type="html"><![CDATA[Google’s first orbital data center is in orbit (October 1st). They say it is about the size of a fridge. It has one kilowatt of solar power. It is about the power of a household. It was launched on a Falcon 9 rocket (SpaceX). It should run for about a year. Google plans to launch … Continue reading Google’s first orbital data center is in orbit]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new, bespoke static site generator to replace Jekyll]]></title>
-        <id>https://nullprogram.com/blog/2026/10/04/</id>
-        <link href="https://nullprogram.com/blog/2026/10/04/"/>
-        <updated>2026-10-04T16:35:49.000Z</updated>
-        <summary type="html"><![CDATA[My blog began as a blosxom (Perl) site running on a VPS. In 2011 I
-moved to the new GitHub Pages, with the site generated statically
-by Jekyll (Ruby) on a GitHub server. It was a no-brainer: easier,
-faster, and cheaper, better in every way. After 15 years of Jekyll, and
-spurred by a post on m4, this week I replaced it with a new,
-custom-built static site generator, dubbed ssg, in “C with
-templates” C++20. The ~8KLoC source closely follows my personal coding
-style including templated arenas and slices, zero
-dependencies, and a libc-free core. It’s wicked fast, and a complete, cold
-generation of my blog takes 150ms on my MacBook. That is, it’s done
-before Ruby would even reach Jekyll’s entry point. It’s a been a great,
-real-world demonstration of the effectiveness of my coding philosophy.
-Lo…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Agent Said It Was Done. The Database Disagreed.]]></title>
-        <id>https://huggingface.co/blog/microsoft/thinkingbox</id>
-        <link href="https://huggingface.co/blog/microsoft/thinkingbox"/>
-        <updated>2026-10-03T22:56:48.000Z</updated>
-        <summary type="html"><![CDATA[A Blog post by Microsoft on Hugging Face]]></summary>
-        <author>
-            <name>Hugging Face - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Impossible Bucket List]]></title>
-        <id>https://abhinavsarkar.net/notes/2026-impossible-bucket-list/?mtm_campaign=feed</id>
-        <link href="https://abhinavsarkar.net/notes/2026-impossible-bucket-list/?mtm_campaign=feed"/>
-        <updated>2026-10-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I wrote this post for a prompt given during our local Indieweb club meeting. See more such posts.
-My impossible bucket list, things I would want to do/be if the realities of the world and my life did not constrain me. Here it goes:
-Watch the Sun die.
-Write a bestseller book about physics.
-Make them do a good remake of that one anime from the 90s I liked a lot.
-Finish reading all the books in my to-read list.
-Get rid of ALL the mosquitoes.
-Swim across a river.
-Complete this list.
-Cycle across a Himalayan pass.
-Learn how to fly an airplane.
-Read and understand The Art of Computer Programming.
-Read a QR code with my eyes.
-Go back to the house I grew up in.
-Like C++.
-Write a journal entry every day.
-Solve a Millennium Prize Problem.
-Build a computer from scratch.
-Get over the Auditory Masking effect.
-Learn how to make a geographical map from scratch.
-Take a transcontinental train.
-Fix my television.
-Spend a day in the International Space Station.
-Beat a top player in poker.
-Watch Daft Punk live.
-Run an ultra marathon.
-Get a sleeping score of 100 on my smartwatch.
-Solve integration problems in my head.
-Find my first best friend.
-Learn how to play a Double bass.
-Drink coffee again. 😔
-Become an archaeologist.
-
-Since it was I who suggested this prompt at IWCB, I’ve collected all posts that were written on it:
-ascelpius
-Divjot
-Ruben Schade
-Sid Verma
-vindo
-Yash Garg
-
-Thanks for reading this post via feed. Feeds are great, and you're great for using them. ♥
-This post was originally published on abhinavsarkar.net.
-Like, repost, or comment on:
-
-
-
-
-My website
-
-Read more of my posts and notes.]]></summary>
-        <author>
-            <name>Notes on abhinavsarkar.net</name>
         </author>
     </entry>
 </feed>
